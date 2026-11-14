@@ -1,0 +1,245 @@
+marca: Suzuki
+pais_origen: Japón
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Swift
+    generacion: Cuarta generación (AZ)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2024-09-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "1.2 Z12E 3 cilindros + MHEV 12V", cilindraje_cc: 1197, cilindros: 3, valvulas: 12, alimentacion: Atmosférico, potencia_hp: 82, rpm_potencia_max: 5700, torque_nm: 112, rpm_torque_max: 4500, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 2.3}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 4.8, medida_llantas: "185/55 R16"}
+    dim: {largo_mm: 3860, ancho_sin_espejos_mm: 1735, alto_mm: 1495, distancia_entre_ejes_mm: 2450, distancia_libre_suelo_mm: 145, peso_vacio_kg: 925, capacidad_baul_litros: 265, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 21.0, consumo_real_estimado_kml: 17.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.6, quejas_documentadas: 7.8, recalls: 7.8, repuestos_y_red: 7.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Swift es de los carros más eficientes a gasolina del mercado (cerca de 17,5 km/l reales) gracias a sus 925 kg y al tres cilindros con hibridación ligera de 12V, que ayuda poco pero suma. Es ágil y fácil de parquear, con seis airbags y frenado autónomo. El 1.2 de 82 hp pierde cerca de una cuarta parte de su potencia en Bogotá (estimado) y adelantar en montaña con cuatro ocupantes requiere paciencia. Mayor riesgo individual: el desempeño en carretera de montaña. No lo recomendamos para viajes frecuentes con carga."
+      para_quien_si: "Conductor urbano que quiere el menor consumo a gasolina y buena reventa."
+      para_quien_no: "Quien viaja seguido cargado por montaña."
+      pros_reales: ["Consumo real cercano a 17,5 km/l", "Seis airbags y frenado autónomo", "Buena reventa"]
+      contras:
+        - {componente: "Potencia", descripcion: "82 hp: justo en altura con carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Baúl", descripcion: "265 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GL MHEV MT, precio_base_cop: 69900000}
+      - {anio: 2026, version: GLX MHEV CVT, precio_base_cop: 79900000, transmision_tipo: CVT, numero_velocidades: null, llave_inteligente: true, consumo_mixto_kml: 20.0, consumo_real_estimado_kml: 16.8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+      - {anio: 2023, version: GLX 1.2 MT, precio_base_cop: 64900000, fecha_precio: 2023-02-01, tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 K12M", cilindros: 4, valvulas: 16, potencia_hp: 83, torque_nm: 113, potencia_electrica_kw: null, numero_airbags: 2, adas_incluidas: [], frenos_traseros: Tambor, consumo_mixto_kml: 18.0, consumo_real_estimado_kml: 15.5, peso_vacio_kg: 890, largo_mm: 3845, pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable}
+
+  - modelo: Dzire
+    generacion: Cuarta generación
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2025-05-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 Z12E 3 cilindros", cilindraje_cc: 1197, cilindros: 3, valvulas: 12, alimentacion: Atmosférico, potencia_hp: 82, rpm_potencia_max: 5700, torque_nm: 112, rpm_torque_max: 4300, aceleracion_0_100_seg: 13.0, velocidad_maxima_kmh: 160, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.8, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 3995, ancho_sin_espejos_mm: 1735, alto_mm: 1525, distancia_entre_ejes_mm: 2450, distancia_libre_suelo_mm: 163, peso_vacio_kg: 960, capacidad_baul_litros: 382, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 20.5, consumo_real_estimado_kml: 17.0}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.6, repuestos_y_red: 7.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un sedán de menos de 4 m con baúl útil de 382 litros, seis airbags y consumo real cercano a 17 km/l, pensado para trabajo urbano y plataformas. La nueva generación llegó hace poco y no tiene historial local. El tres cilindros de 82 hp es lento en altura y el aislamiento acústico en carretera es básico. Mayor riesgo individual: el desempeño con carga en montaña. No lo recomendamos para viajes largos frecuentes con la familia."
+      para_quien_si: "Quien busca un sedán muy económico para ciudad."
+      para_quien_no: "Quien viaja seguido por carretera de montaña."
+      pros_reales: ["Consumo real cercano a 17 km/l", "Seis airbags", "Baúl de 382 litros en menos de 4 m"]
+      contras:
+        - {componente: "Potencia", descripcion: "82 hp atmosféricos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros.", km_tipico: "40.000", costo_reparacion_cop_aprox: 400000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GL 1.2 MT, precio_base_cop: 64900000}
+
+  - modelo: Baleno
+    generacion: Segunda generación
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2022-08-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 K15B", cilindraje_cc: 1462, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 104, rpm_potencia_max: 6000, torque_nm: 138, rpm_torque_max: 4400, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.85, medida_llantas: "195/55 R16"}
+    dim: {largo_mm: 3990, ancho_sin_espejos_mm: 1745, alto_mm: 1500, distancia_entre_ejes_mm: 2520, distancia_libre_suelo_mm: 170, peso_vacio_kg: 960, capacidad_baul_litros: 318, capacidad_tanque_galones: 9.8}
+    consumo: {consumo_mixto_kml: 18.5, consumo_real_estimado_kml: 15.5}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.6, repuestos_y_red: 7.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un hatchback B más amplio que el Swift, con un 1.5 atmosférico de cuatro cilindros, seis airbags y despeje de 170 mm, a precio contenido. La versión automática usa una caja de solo 4 velocidades, que eleva el consumo y el ruido en carretera. Su estructura es liviana (960 kg) y el aislamiento acústico es básico. Mayor riesgo individual: el confort en viajes largos. No lo recomendamos a quien haga mucha carretera con la versión automática."
+      para_quien_si: "Quien quiere un hatchback amplio, económico y con despeje decente."
+      para_quien_no: "Quien busca refinamiento en carretera."
+      pros_reales: ["Seis airbags", "Despeje de 170 mm", "Motor 1.5 atmosférico de cuatro cilindros"]
+      contras:
+        - {componente: "Caja automática de 4 velocidades", descripcion: "Revoluciona alto en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Aislamiento", descripcion: "Ruido de rodadura.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: GL 1.5 MT, precio_base_cop: 66900000, fecha_precio: 2025-02-01}
+      - {anio: 2025, version: GLX 1.5 AT, precio_base_cop: 74900000, fecha_precio: 2025-02-01, transmision_tipo: Automática, numero_velocidades: 4, aire_acondicionado: Automático, consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.2}
+
+  - modelo: Fronx
+    generacion: Primera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2024-03-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "1.5 K15C + MHEV 12V", cilindraje_cc: 1462, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 101, rpm_potencia_max: 6000, torque_nm: 135, rpm_torque_max: 4400, aceleracion_0_100_seg: 12.0, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 2.3}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.9, medida_llantas: "195/60 R16"}
+    dim: {largo_mm: 3995, ancho_sin_espejos_mm: 1765, alto_mm: 1550, distancia_entre_ejes_mm: 2520, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1060, capacidad_baul_litros: 308, capacidad_tanque_galones: 9.8}
+    consumo: {consumo_mixto_kml: 18.0, consumo_real_estimado_kml: 15.0}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.6, repuestos_y_red: 7.4, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un crossover pequeño derivado del Baleno, con despeje de 190 mm, seis airbags y consumo real cercano a 15 km/l. La versión automática usa caja convencional de 6 velocidades, una buena noticia frente a las CVT. El 1.5 atmosférico de 101 hp es lento en Bogotá con carga y el baúl de 308 litros es pequeño para una SUV. Mayor riesgo individual: el desempeño en montaña. No lo recomendamos a familias de cuatro que viajen con equipaje."
+      para_quien_si: "Conductor urbano que quiere despeje alto y bajo consumo."
+      para_quien_no: "Familias con equipaje o viajes frecuentes en montaña."
+      pros_reales: ["Despeje de 190 mm", "Caja automática convencional en la AT", "Consumo real cercano a 15 km/l"]
+      contras:
+        - {componente: "Baúl", descripcion: "308 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Potencia en altura", descripcion: "101 hp atmosféricos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GL MHEV MT, precio_base_cop: 79900000}
+      - {anio: 2026, version: GLX MHEV AT, precio_base_cop: 89900000, transmision_tipo: Automática, numero_velocidades: 6, llave_inteligente: true, tapiceria: Cuero sintético, consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.2, adas_incluidas: [Cámara 360]}
+
+  - modelo: Vitara
+    generacion: LY (actualización)
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Hungría
+    fecha_lanzamiento_colombia: 2016-03-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "1.4 Boosterjet + MHEV 48V", cilindraje_cc: 1373, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 129, rpm_potencia_max: 5500, torque_nm: 235, rpm_torque_max: 2000, aceleracion_0_100_seg: 9.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 10}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4175, ancho_sin_espejos_mm: 1775, alto_mm: 1610, distancia_entre_ejes_mm: 2500, distancia_libre_suelo_mm: 185, peso_vacio_kg: 1220, capacidad_baul_litros: 375, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 13.8}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2015, ncap_protocolo: "Euro NCAP 2015", adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 7.4, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una SUV pequeña y liviana (1.220 kg) con tracción AllGrip y un 1.4 turbo que conserva bien su potencia en altura, con caja automática convencional de 6 velocidades. Su evaluación Euro NCAP es de 2015, un protocolo ya antiguo, y el baúl de 375 litros es justo. La versión GL de 1.5 atmosférico es más simple pero lenta en altura. Mayor riesgo individual: el espacio para una familia que crece. No la recomendamos a familias de cinco que viajan con equipaje."
+      para_quien_si: "Quien quiere una SUV pequeña con tracción integral y mecánica sencilla."
+      para_quien_no: "Familias que necesitan espacio."
+      pros_reales: ["Tracción AllGrip", "Turbo eficiente en altura", "Caja automática convencional"]
+      contras:
+        - {componente: "Protocolo NCAP antiguo", descripcion: "Evaluación Euro NCAP de 2015.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Baúl", descripcion: "375 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GLX 1.4T MHEV AllGrip, precio_base_cop: 119900000}
+      - {anio: 2026, version: GL 1.5 MHEV 2WD, precio_base_cop: 99900000, motor_descripcion: "1.5 K15C + MHEV 12V", cilindraje_cc: 1462, alimentacion: Atmosférico, potencia_hp: 102, rpm_potencia_max: 6000, torque_nm: 137, rpm_torque_max: 4400, aceleracion_0_100_seg: 12.5, traccion: Delantera, potencia_electrica_kw: 2.3, consumo_mixto_kml: 16.5, consumo_real_estimado_kml: 13.6, tapiceria: Tela, llave_inteligente: false, adas_incluidas: []}
+
+  - modelo: S-Cross
+    generacion: Tercera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Hungría
+    fecha_lanzamiento_colombia: 2022-06-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "1.4 Boosterjet + MHEV 48V", cilindraje_cc: 1373, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 129, rpm_potencia_max: 5500, torque_nm: 235, rpm_torque_max: 2000, aceleracion_0_100_seg: 9.9, velocidad_maxima_kmh: 195, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 10}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4300, ancho_sin_espejos_mm: 1785, alto_mm: 1585, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1290, capacidad_baul_litros: 430, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 16.5, consumo_real_estimado_kml: 13.4}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 7.2, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: comparte con la Vitara el 1.4 turbo con hibridación de 48V y la tracción AllGrip, pero en una carrocería más amplia (430 litros de baúl) y mejor equipada. Es liviana para su tamaño y por eso gasta poco (cerca de 13,4 km/l reales con AWD). Su volumen de ventas es bajo, lo que pesa en reventa, y el interior es sencillo frente a rivales coreanos. Mayor riesgo individual: la reventa. No la recomendamos a quien priorice acabados interiores."
+      para_quien_si: "Familia pequeña que quiere AWD, turbo y bajo consumo."
+      para_quien_no: "Quien prioriza acabados o reventa."
+      pros_reales: ["AWD con bajo consumo", "Turbo eficiente en altura", "Baúl de 430 litros"]
+      contras:
+        - {componente: "Interior", descripcion: "Materiales sencillos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Reventa", descripcion: "Bajo volumen de ventas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: GLX 1.4T MHEV AllGrip, precio_base_cop: 124900000, fecha_precio: 2025-02-01}
+
+  - modelo: Jimny
+    generacion: JB74
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    puertas: 3
+    plazas: 4
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2019-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 K15B", cilindraje_cc: 1462, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 102, rpm_potencia_max: 6000, torque_nm: 130, rpm_torque_max: 4000, aceleracion_0_100_seg: 12.6, velocidad_maxima_kmh: 145, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: Eje rígido, suspension_trasera: Eje rígido, frenos_traseros: Tambor, direccion: Hidráulica, radio_giro_metros: 4.9, medida_llantas: "195/80 R15", profundidad_vadeo_mm: 300}
+    dim: {largo_mm: 3645, ancho_sin_espejos_mm: 1645, alto_mm: 1720, distancia_entre_ejes_mm: 2250, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1135, capacidad_baul_litros: 85, capacidad_baul_abatido_litros: 377, capacidad_tanque_galones: 10.6, voladizo_delantero_mm: 640, voladizo_trasero_mm: 755, angulo_ataque_deg: 37, angulo_ventral_deg: 28, angulo_salida_deg: 49}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.4, electrica_electronica: 7.8, quejas_documentadas: 7.8, recalls: 7.6, repuestos_y_red: 7.0, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un todoterreno de verdad en tamaño de citadino, con chasis de largueros, ejes rígidos, reductora y ángulos de 37°/49° que superan a camionetas mucho más caras. Su reventa es de las más altas del país por la demanda. Pero en carretera es ruidoso, inestable con viento lateral y lento: el 1.5 atmosférico pierde cerca de una cuarta parte de su potencia en Bogotá (estimado) y la velocidad máxima es de 145 km/h. El baúl de 85 litros con cuatro ocupantes es testimonial. Mayor riesgo individual: el confort en autopista. No lo recomendamos como carro familiar."
+      para_quien_si: "Aficionado a la trocha que quiere un 4x4 real, pequeño y con gran reventa."
+      para_quien_no: "Quien viaja seguido por autopista o necesita espacio."
+      pros_reales: ["Chasis de largueros y reductora", "Ángulos de ataque y salida excepcionales", "Reventa muy alta"]
+      contras:
+        - {componente: "Confort en carretera", descripcion: "Ruidoso e inestable a alta velocidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Baúl", descripcion: "85 litros con cuatro puestos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GLX 1.5 MT 3P, precio_base_cop: 99900000}
+      - {anio: 2026, version: GLX 1.5 AT 5P, precio_base_cop: 114900000, puertas: 5, plazas: 4, transmision_tipo: Automática, numero_velocidades: 4, largo_mm: 3985, distancia_entre_ejes_mm: 2590, peso_vacio_kg: 1210, capacidad_baul_litros: 208, capacidad_baul_abatido_litros: 640, angulo_ventral_deg: 24, angulo_salida_deg: 47, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.8}
+
+  - modelo: Grand Vitara
+    generacion: Primera generación (YT)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2024-05-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.5 híbrido 3 cilindros (sistema Toyota)", cilindraje_cc: 1490, cilindros: 3, valvulas: 12, alimentacion: Atmosférico, potencia_hp: 114, rpm_potencia_max: 5500, torque_nm: 122, rpm_torque_max: 4400, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 59, capacidad_bateria_kwh: 0.76}
+    chasis: {transmision_tipo: e-CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "215/60 R17"}
+    dim: {largo_mm: 4345, ancho_sin_espejos_mm: 1795, alto_mm: 1645, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1290, capacidad_baul_litros: 373, capacidad_tanque_galones: 11.6}
+    consumo: {consumo_mixto_kml: 25.0, consumo_real_estimado_kml: 20.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 8.4, electrica_electronica: 7.6, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 7.0, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: usa el mismo sistema híbrido de tres cilindros que la Toyota Yaris Cross, fruto de la alianza Suzuki-Toyota, con consumo real cercano a 20 km/l y despeje de 210 mm. Lleva poco tiempo en Colombia y su red es más pequeña que la de Toyota. Los 114 hp combinados son justos en montaña con carga y el baúl de 373 litros es modesto. Mayor riesgo individual: la batería híbrida fuera de garantía. No la recomendamos a quien viaje cargado por montaña con frecuencia."
+      para_quien_si: "Quien quiere un híbrido con despeje alto y consumo mínimo a precio contenido."
+      para_quien_no: "Quien busca desempeño o una red de servicio amplia."
+      pros_reales: ["Consumo real cercano a 20 km/l", "Despeje de 210 mm", "Sistema híbrido de origen Toyota"]
+      contras:
+        - {componente: "Potencia", descripcion: "114 hp combinados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Baúl", descripcion: "373 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GLX HEV, precio_base_cop: 119900000}
