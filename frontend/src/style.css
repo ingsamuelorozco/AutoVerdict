@@ -2,34 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Paleta BMW M: lienzo negro puro, tipografía blanca y tricolor M solo como firma de marca. */
 :root {
-  --tinta: 23 21 15;
-  --papel: 247 244 238;
-  --superficie: 255 253 249;
-  --linea: 226 220 208;
-  --tenue: 104 98 86;
-  --acento: 38 70 120;
-  --mejor: 4 120 87;
-  --ambar: 180 100 0;
-  --roja: 185 28 28;
+  --tinta: 0 0 0;
+  --cuerpo: 38 38 38;
+  --papel: 255 255 255;
+  --suave: 247 247 247;
+  --superficie: 242 242 242;
+  --elevada: 230 230 230;
+  --linea: 208 208 208;
+  --tenue: 92 92 92;
+  --apagado: 126 126 126;
+  --acento: 28 105 212;
+  --m-azul-claro: 0 102 177;
+  --m-azul: 28 105 212;
+  --m-rojo: 226 39 24;
+  --mejor: 11 122 40;
+  --ambar: 150 104 0;
+  --roja: 200 30 18;
   color-scheme: light;
 }
 .dark {
-  --tinta: 241 237 228;
-  --papel: 18 17 14;
-  --superficie: 28 26 22;
-  --linea: 58 54 46;
-  --tenue: 168 160 146;
-  --acento: 140 172 222;
-  --mejor: 52 211 153;
-  --ambar: 251 191 36;
-  --roja: 248 113 113;
+  --tinta: 255 255 255;
+  --cuerpo: 230 230 230;
+  --papel: 0 0 0;
+  --suave: 13 13 13;
+  --superficie: 26 26 26;
+  --elevada: 38 38 38;
+  --linea: 60 60 60;
+  --tenue: 187 187 187;
+  --apagado: 126 126 126;
+  --acento: 28 105 212;
+  --mejor: 15 163 54;
+  --ambar: 244 180 0;
+  --roja: 226 39 24;
   color-scheme: dark;
 }
 
 @layer base {
   html { -webkit-text-size-adjust: 100%; }
-  body { @apply bg-papel text-tinta font-sans antialiased; font-feature-settings: 'tnum' 1, 'cv11' 1; }
+  body { @apply bg-papel text-cuerpo font-sans antialiased; font-feature-settings: 'tnum' 1, 'cv11' 1; }
   h1, h2, h3 { @apply font-titulo tracking-tight; }
   :focus-visible { @apply outline-none ring-2 ring-acento ring-offset-2 ring-offset-papel; }
   .num { font-variant-numeric: tabular-nums; }
