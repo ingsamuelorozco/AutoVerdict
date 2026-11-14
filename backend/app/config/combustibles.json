@@ -17,6 +17,8 @@
   },
   "phev_fraccion_electrica_defecto": 0.5,
   "carga_casa_pct_defecto": 0.8,
+  "equivalencia_kml_bev_factor": 300,
+  "nota_equivalencia": "Para puntuar eficiencia, un eléctrico se lleva a km/l equivalentes como factor / (kWh por 100 km). Estimado editorial.",
   "km_anuales_defecto": 15000,
   "mezcla_ciudad_defecto": 0.6
 }
