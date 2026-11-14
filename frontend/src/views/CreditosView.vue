@@ -12,14 +12,14 @@ onMounted(ejecutar)
 </script>
 
 <template>
-  <div class="contenedor max-w-4xl py-10">
-    <h1 class="text-4xl font-semibold">Créditos de fotos</h1>
-    <p class="mt-2 text-tenue">Usamos solo imágenes de Unsplash, Pexels o Wikimedia Commons, revisadas para que no muestren emblemas, logos ni placas legibles. Las fichas usan siluetas generadas a escala mientras no tengamos una foto verificada del modelo exacto.</p>
+  <div class="contenedor pagina">
+    <h1 class="titulo-pagina">Créditos de fotos</h1>
+    <p class="entradilla">Usamos solo imágenes de Unsplash, Pexels o Wikimedia Commons, revisadas para que no muestren emblemas, logos ni placas legibles. Las fichas usan siluetas generadas a escala mientras no tengamos una foto verificada del modelo exacto.</p>
     <EstadoCarga :cargando="cargando" :error="error" @reintentar="ejecutar">
-      <ul class="mt-8 grid gap-6 sm:grid-cols-2">
+      <ul class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <li v-for="i in datos" :key="i.id" class="tarjeta overflow-hidden">
           <img :src="i.url" :alt="i.descripcion" loading="lazy" decoding="async" class="aspect-[16/9] w-full object-cover" />
-          <p class="p-4 text-sm"><strong>{{ i.descripcion }}</strong><br />Autor: {{ i.autor }} · Licencia: {{ i.licencia }} · {{ i.proveedor }}<br /><a :href="i.url_origen" class="underline" target="_blank" rel="noopener">Ver original</a></p>
+          <p class="p-6 text-sm"><strong>{{ i.descripcion }}</strong><br />Autor: {{ i.autor }} · Licencia: {{ i.licencia }} · {{ i.proveedor }}<br /><a :href="i.url_origen" class="underline" target="_blank" rel="noopener">Ver original</a></p>
         </li>
       </ul>
     </EstadoCarga>
