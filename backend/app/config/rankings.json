@@ -1,0 +1,12 @@
+{
+  "nota": "Orden categórico para el comparador: el índice 0 es el peor.",
+  "frenos_traseros": ["Tambor", "Disco", "Disco ventilado"],
+  "suspension_trasera": ["Ballestas", "Eje rígido", "Barra de torsión", "Multibrazo", "Independiente"],
+  "apple_carplay_android_auto": ["No", "Cable", "Inalámbrico"],
+  "tapiceria": ["Tela", "Cuero sintético", "Cuero"],
+  "aire_acondicionado": ["No", "Manual", "Automático", "Automático bizona"],
+  "sensores_parqueo": ["Ninguno", "Trasero", "Delantero y trasero"],
+  "disponibilidad_repuestos": ["Baja", "Media", "Alta"],
+  "nivel_costo_mantenimiento": ["Muy Alto", "Alto", "Moderado", "Bajo"],
+  "booleanos": ["frenos_abs_ebd", "control_estabilidad_esc", "asistente_arranque_pendiente", "anclajes_isofix", "techo_corredizo", "camara_reversa", "carga_inalambrica", "llave_inteligente", "luces_led"]
+}

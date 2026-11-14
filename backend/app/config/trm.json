@@ -1,0 +1,9 @@
+{
+  "fuente_url": "https://www.datos.gov.co/resource/32sa-8pi3.json",
+  "fuente": "Superintendencia Financiera — TRM, datos abiertos de Colombia (dataset 32sa-8pi3)",
+  "fecha_consulta": "2026-11-13",
+  "respaldo_cop_por_usd": 3316.70,
+  "respaldo_vigencia": "2026-11-14/2026-11-17",
+  "cache_horas": 12,
+  "timeout_seg": 4
+}

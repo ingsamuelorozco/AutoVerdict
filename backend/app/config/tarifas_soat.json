@@ -1,0 +1,41 @@
+{
+  "vigencia": "2026-01-01/2026-12-31",
+  "fuente_url": "https://www.superfinanciera.gov.co/61331",
+  "fuente": "Superintendencia Financiera, Circular Externa 022 de 2025 (Anexo 1); totales reportados por El Espectador e Infobae",
+  "fecha_consulta": "2026-11-13",
+  "estado": "verificado",
+  "nota": "Valores totales a pagar. El desglose prima/ADRES/RUNT se deriva: total = prima × (1 + contribución ADRES) + tasa RUNT.",
+  "contribucion_adres_pct": 0.52,
+  "tasa_runt_cop": 2400,
+  "antiguedad_limite_anios": 10,
+  "descuento_bev_pct": 0.10,
+  "descuento_bev_fuente": "Ley 1964 de 2019: descuento del 10% en la prima del SOAT para vehículos eléctricos",
+  "descuento_bev_fuente_url": "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=85510",
+  "clases": {
+    "familiar": {
+      "etiqueta": "Autos familiares",
+      "rangos": [
+        {"cc_max": 1499, "menor_10": 447300, "mayor_igual_10": 592900},
+        {"cc_max": 2500, "menor_10": 544700, "mayor_igual_10": 677400},
+        {"cc_max": null, "menor_10": 636000, "mayor_igual_10": 754300}
+      ]
+    },
+    "campero_camioneta": {
+      "etiqueta": "Camperos y camionetas",
+      "rangos": [
+        {"cc_max": 1499, "menor_10": 792800, "mayor_igual_10": 953000},
+        {"cc_max": 2500, "menor_10": 946600, "mayor_igual_10": 1121400},
+        {"cc_max": null, "menor_10": 1110300, "mayor_igual_10": 1274000}
+      ]
+    }
+  },
+  "clase_por_carroceria": {
+    "Sedán": "familiar",
+    "Hatchback": "familiar",
+    "Coupé": "familiar",
+    "Convertible": "familiar",
+    "SUV": "campero_camioneta",
+    "Pickup": "campero_camioneta"
+  },
+  "nota_bev": "Los BEV no tienen cilindraje: se ubican en el primer rango de su clase y se aplica el descuento de ley sobre la prima. Verifica la categoría exacta con tu aseguradora."
+}

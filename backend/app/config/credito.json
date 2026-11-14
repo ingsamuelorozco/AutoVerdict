@@ -1,0 +1,20 @@
+{
+  "vigencia": "2026-11-01/2026-11-30",
+  "fuente_url": "https://www.portafolio.co/economia/finanzas/creditos-de-consumo-tendran-nuevo-tope-de-usura-en-noviembre-superfinanciera-lo-certifico-en-28-34-efectivo-anual-505461",
+  "fecha_consulta": "2026-11-13",
+  "tasa_usura_ea": 0.2834,
+  "tasa_usura_fuente": "Superintendencia Financiera, Resolución 1707 de 2026",
+  "interes_bancario_corriente_ea": 0.1889,
+  "tasa_defecto_ea": 0.155,
+  "estado_tasa_defecto": "estimado",
+  "nota_tasa_defecto": "Tasa orientativa para crédito de vehículo, por debajo del interés bancario corriente de consumo. No es una oferta de crédito.",
+  "cuota_inicial_pct_defecto": 0.30,
+  "plazo_defecto_meses": 60,
+  "plazo_min_meses": 12,
+  "plazo_max_meses": 84,
+  "seguro_vida_deudor_mensual_pct": 0.0012,
+  "comision_estudio_cop": 0,
+  "escenarios_meses": [36, 60, 72],
+  "max_pct_ingreso": 0.30,
+  "aviso": "Estimado, no es una oferta de crédito."
+}

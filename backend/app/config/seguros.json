@@ -1,0 +1,24 @@
+{
+  "vigencia": "2026",
+  "fuente_url": "https://www.fasecolda.com/",
+  "fecha_consulta": "2026-11-13",
+  "estado": "estimado",
+  "aviso": "Estimación orientativa; solicita cotizaciones reales.",
+  "nota": "Tasas base estimadas a partir de rangos públicos de mercado. El rango final se abre ±amplitud_rango alrededor del valor central.",
+  "tasa_base_por_segmento": {
+    "Sedán B": 0.034, "Sedán C": 0.031, "Sedán D": 0.029,
+    "Hatchback A": 0.036, "Hatchback B": 0.034, "Hatchback C": 0.031,
+    "SUV Subcompacta": 0.033, "SUV Compacta": 0.031, "SUV Mediana": 0.029, "SUV Grande": 0.028,
+    "Pickup Compacta": 0.033, "Pickup Mediana": 0.033, "Pickup Grande": 0.030,
+    "Deportivo": 0.040
+  },
+  "tasa_base_defecto": 0.032,
+  "factor_edad_conductor": {"18-25": 1.35, "26-35": 1.10, "36-55": 1.00, "56+": 1.05},
+  "factor_uso": {"particular": 1.0, "trabajo": 1.20},
+  "factor_antiguedad_por_anio": 0.02,
+  "factor_riesgo_hurto": {"Bajo": 0.95, "Medio": 1.0, "Alto": 1.15},
+  "factor_deducible": {"0": 1.15, "1": 1.0, "3": 0.90, "10": 0.80},
+  "componentes_fijos_cop": {"responsabilidad_civil": 280000, "asistencia": 140000},
+  "amplitud_rango": 0.18,
+  "factor_electrificado": 1.08
+}

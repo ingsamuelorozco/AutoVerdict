@@ -1,0 +1,22 @@
+{
+  "vigencia": "2026-11-01/2026-11-30",
+  "fuente_url": "https://creg.gov.co/publicaciones/15565/precios-de-combustibles-liquidos/",
+  "fecha_consulta": "2026-11-13",
+  "nota": "Los precios por ciudad viven en ciudades.json. Aquí: equivalencias, octanajes y supuestos de energía.",
+  "litros_por_galon": 3.785,
+  "octanaje_corriente_ron": 91,
+  "octanaje_extra_ron": 95,
+  "combustible_por_tipo": {
+    "Gasolina Corriente": "corriente",
+    "Gasolina Extra": "extra",
+    "Diésel": "diesel",
+    "Híbrido Completo HEV": "corriente",
+    "Híbrido Ligero MHEV": "corriente",
+    "Híbrido Enchufable PHEV": "corriente",
+    "100% Eléctrico BEV": "electrico"
+  },
+  "phev_fraccion_electrica_defecto": 0.5,
+  "carga_casa_pct_defecto": 0.8,
+  "km_anuales_defecto": 15000,
+  "mezcla_ciudad_defecto": 0.6
+}

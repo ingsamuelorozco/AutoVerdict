@@ -1,0 +1,13 @@
+{
+  "vigencia": "2026",
+  "fuente_url": "https://www.fasecolda.com/guia-de-valores/",
+  "fecha_consulta": "2026-11-13",
+  "estado": "estimado",
+  "nota": "Curvas base de retención por etiqueta de depreciación. Cada modelo puede calibrar la suya en su YAML (retencion_valor) con avisos de usados y la Guía de Valores de Fasecolda.",
+  "curvas": {
+    "Baja - Alta reventa": {"1": 0.88, "3": 0.76, "5": 0.66, "7": 0.57, "10": 0.45},
+    "Media": {"1": 0.84, "3": 0.68, "5": 0.56, "7": 0.46, "10": 0.34},
+    "Alta - Se desvaloriza rápido": {"1": 0.78, "3": 0.58, "5": 0.45, "7": 0.35, "10": 0.24}
+  },
+  "decaimiento_anual_extrapolacion": 0.07
+}
