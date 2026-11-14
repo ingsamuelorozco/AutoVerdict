@@ -48,10 +48,10 @@ const filtrosX = computed(() => (marcasX.value.length > 12 ? marcasX.value.filte
         {{ s.nombre }}
       </span>
     </figcaption>
-    <table class="sr-only">
+    <div class="sr-only"><table>
       <caption>{{ titulo }}</caption>
       <tr><th>Serie</th><th v-for="x in marcasX" :key="x">{{ formatoX(x) }}</th></tr>
       <tr v-for="s in series" :key="s.nombre"><th>{{ s.nombre }}</th><td v-for="p in s.puntos" :key="p.x">{{ formatoY(p.y) }}</td></tr>
-    </table>
+    </table></div>
   </figure>
 </template>
