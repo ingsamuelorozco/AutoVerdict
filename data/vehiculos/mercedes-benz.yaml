@@ -1,0 +1,269 @@
+marca: Mercedes-Benz
+pais_origen: Alemania
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Clase A Hatchback
+    generacion: W177
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2018-10-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.3 Turbo M282", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 163, rpm_potencia_max: 5500, torque_nm: 250, rpm_torque_max: 1620, aceleracion_0_100_seg: 8.2, velocidad_maxima_kmh: 225, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "205/55 R17"}
+    dim: {largo_mm: 4419, ancho_sin_espejos_mm: 1796, alto_mm: 1440, distancia_entre_ejes_mm: 2729, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1375, capacidad_baul_litros: 355, capacidad_tanque_galones: 11.1}
+    consumo: {consumo_mixto_kml: 16.5, consumo_real_estimado_kml: 13.2}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2018, ncap_protocolo: "Euro NCAP 2018", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Mercedes de entrada ofrece un interior de diseño premium, nueve airbags y 5 estrellas Euro NCAP (protocolo 2018), con un 1.3 turbo desarrollado con Renault y caja de doble embrague húmeda. La suspensión trasera de barra de torsión y el despeje de 140 mm se sienten poco premium en calles colombianas, y el mantenimiento cuesta como Mercedes. Mayor riesgo individual: la depreciación en los primeros tres años. No lo recomendamos a quien busque valor de reventa."
+      para_quien_si: "Quien quiere el diseño y la tecnología de Mercedes en formato compacto."
+      para_quien_no: "Quien prioriza costo de propiedad o confort en vías rotas."
+      pros_reales: ["Nueve airbags y 5 estrellas Euro NCAP (2018)", "Interior y pantallas de gama alta", "Turbo eficiente en altura"]
+      contras:
+        - {componente: "Suspensión trasera", descripcion: "Barra de torsión en esta versión.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: A 200 Progressive, precio_base_cop: 199900000}
+
+  - modelo: Clase A Sedán
+    generacion: V177
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2019-03-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.3 Turbo M282", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 163, rpm_potencia_max: 5500, torque_nm: 250, rpm_torque_max: 1620, aceleracion_0_100_seg: 8.1, velocidad_maxima_kmh: 230, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "205/55 R17"}
+    dim: {largo_mm: 4549, ancho_sin_espejos_mm: 1796, alto_mm: 1446, distancia_entre_ejes_mm: 2729, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1400, capacidad_baul_litros: 405, capacidad_tanque_galones: 11.1}
+    consumo: {consumo_mixto_kml: 16.5, consumo_real_estimado_kml: 13.2}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2018, ncap_protocolo: "Euro NCAP 2018", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la versión sedán de la Clase A suma baúl de 405 litros y una silueta más elegante, con la misma mecánica 1.3 turbo y caja de doble embrague húmeda. Por precio compite con sedanes C muy bien equipados (Mazda 3, Civic) que ofrecen más espacio, mejor reventa y mantenimiento más barato; aquí se paga por la marca y el interior. Mayor riesgo individual: la depreciación. No lo recomendamos a quien priorice costo de propiedad o espacio trasero."
+      para_quien_si: "Quien valora la marca y el diseño interior por encima del costo."
+      para_quien_no: "Quien busca espacio o reventa."
+      pros_reales: ["Nueve airbags", "Interior de gama alta", "Baúl de 405 litros"]
+      contras:
+        - {componente: "Espacio trasero", descripcion: "Justo para adultos altos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: A 200 Sedán Progressive, precio_base_cop: 209900000}
+
+  - modelo: Clase C
+    generacion: W206
+    segmento: Sedán D
+    carroceria: Sedán
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2022-03-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "1.5 Turbo M254 + MHEV 48V", cilindraje_cc: 1496, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 204, rpm_potencia_max: 6100, torque_nm: 300, rpm_torque_max: 1800, aceleracion_0_100_seg: 7.3, velocidad_maxima_kmh: 246, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 15}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 9, traccion: Trasera, suspension_delantera: Multibrazo, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "225/45 R18"}
+    dim: {largo_mm: 4751, ancho_sin_espejos_mm: 1820, alto_mm: 1438, distancia_entre_ejes_mm: 2865, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1650, capacidad_baul_litros: 455, capacidad_tanque_galones: 17.4}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 11.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.0, quejas_documentadas: 6.6, recalls: 6.4, repuestos_y_red: 6.6, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Clase C actual es un sedán de propulsión muy refinado, con 5 estrellas Euro NCAP (protocolo 2022) y una cabina tecnológica. Su 1.5 turbo con hibridación de 48V y caja de 9 velocidades es eficiente; la C 300 e enchufable suma unos 100 km eléctricos (estimado). La electrónica es abundante y los reportes internacionales de fallas de software en esta generación aconsejan garantía extendida (opinión editorial). Mayor riesgo individual: reparaciones electrónicas. No la recomendamos sin garantía vigente."
+      para_quien_si: "Ejecutivo que busca confort, tecnología y propulsión trasera."
+      para_quien_no: "Quien la conservará muchos años sin garantía."
+      pros_reales: ["Propulsión trasera y caja de 9 velocidades", "5 estrellas Euro NCAP (2022)", "Confort de marcha sobresaliente"]
+      contras:
+        - {componente: "Electrónica", descripcion: "Sistemas complejos y costosos de reparar.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Despeje", descripcion: "135 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: C 200 Avantgarde, precio_base_cop: 279900000}
+      - {anio: 2026, version: C 300 e AMG Line PHEV, precio_base_cop: 329900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo M254 + motor eléctrico (PHEV)", cilindraje_cc: 1999, potencia_hp: 313, torque_nm: 550, aceleracion_0_100_seg: 6.1, potencia_electrica_kw: 95, capacidad_bateria_kwh: 25.4, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 55, consumo_kwh_100km: 20.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 360, capacidad_tanque_galones: 13.2, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 12.5, peso_vacio_kg: 2030}
+
+  - modelo: GLA
+    generacion: H247
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2020-09-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.3 Turbo M282", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 163, rpm_potencia_max: 5500, torque_nm: 250, rpm_torque_max: 1620, aceleracion_0_100_seg: 8.7, velocidad_maxima_kmh: 210, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "215/60 R18"}
+    dim: {largo_mm: 4410, ancho_sin_espejos_mm: 1834, alto_mm: 1611, distancia_entre_ejes_mm: 2729, distancia_libre_suelo_mm: 170, peso_vacio_kg: 1460, capacidad_baul_litros: 435, capacidad_tanque_galones: 11.1}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 12.4}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la GLA es la SUV de entrada de Mercedes, con 5 estrellas Euro NCAP (protocolo 2019), nueve airbags y baúl de 435 litros. La GLA 200 comparte el 1.3 turbo con la Clase A y la AMG GLA 35 suma 306 hp y tracción 4MATIC. El espacio es de SUV compacta, no mediana, y la depreciación es alta. Mayor riesgo individual: el costo de mantenimiento, en especial en la AMG. No la recomendamos a quien priorice costo de propiedad."
+      para_quien_si: "Quien quiere una SUV premium compacta con buena seguridad."
+      para_quien_no: "Quien prioriza espacio o reventa."
+      pros_reales: ["Nueve airbags", "5 estrellas Euro NCAP (2019)", "Interior de gama alta"]
+      contras:
+        - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Mantenimiento", descripcion: "Costos premium.", km_tipico: "Cada 10.000", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: GLA 200 Progressive, precio_base_cop: 229900000}
+      - {anio: 2026, version: AMG GLA 35 4MATIC, precio_base_cop: 319900000, motor_descripcion: "2.0 Turbo M260", cilindraje_cc: 1991, potencia_hp: 306, rpm_potencia_max: 5800, torque_nm: 400, rpm_torque_max: 3000, aceleracion_0_100_seg: 5.1, velocidad_maxima_kmh: 250, transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 8, traccion: AWD, suspension_trasera: Multibrazo, medida_llantas: "235/50 R19", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 9.6, peso_vacio_kg: 1625}
+
+  - modelo: GLB
+    generacion: X247
+    segmento: SUV Mediana
+    carroceria: SUV
+    plazas: 7
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2020-06-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.3 Turbo M282", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 163, rpm_potencia_max: 5500, torque_nm: 250, rpm_torque_max: 1620, aceleracion_0_100_seg: 9.1, velocidad_maxima_kmh: 207, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "235/55 R18"}
+    dim: {largo_mm: 4634, ancho_sin_espejos_mm: 1834, alto_mm: 1658, distancia_entre_ejes_mm: 2829, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1590, capacidad_baul_litros: 150, capacidad_baul_abatido_litros: 1680, capacidad_tanque_galones: 15.6}
+    consumo: {consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 11.5}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [turbo_pequeno_pesado]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la SUV de siete puestos más compacta del segmento premium, con forma cuadrada que aprovecha el espacio y 5 estrellas Euro NCAP (protocolo 2019). La tercera fila es solo para niños y con ella arriba el baúl queda en 150 litros. El 1.3 turbo de 163 hp mueve 1.590 kg con esfuerzo, más aún con siete ocupantes en montaña. Mayor riesgo individual: el motor exigido con carga completa. No la recomendamos a quien viaje con siete adultos."
+      para_quien_si: "Familia con niños que ocasionalmente usa siete puestos."
+      para_quien_no: "Quien lleva siete adultos o carga mucho equipaje."
+      pros_reales: ["Siete puestos en tamaño compacto", "Nueve airbags", "Habitáculo cuadrado y luminoso"]
+      contras:
+        - {componente: "Tercera fila", descripcion: "Solo para niños; 150 litros de baúl.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GLB 200 7P Progressive, precio_base_cop: 249900000}
+
+  - modelo: GLC
+    generacion: X254
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2023-04-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 Turbo M254 + MHEV 48V", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 204, rpm_potencia_max: 6100, torque_nm: 320, rpm_torque_max: 2000, aceleracion_0_100_seg: 7.8, velocidad_maxima_kmh: 219, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 17}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 9, traccion: AWD, suspension_delantera: Multibrazo, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "235/60 R18", capacidad_remolque_kg: 2400}
+    dim: {largo_mm: 4716, ancho_sin_espejos_mm: 1890, alto_mm: 1640, distancia_entre_ejes_mm: 2888, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1910, capacidad_baul_litros: 620, capacidad_tanque_galones: 16.1}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 10.8}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 11.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.0, quejas_documentadas: 6.6, recalls: 6.4, repuestos_y_red: 6.6, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la SUV más vendida de Mercedes, con baúl de 620 litros, 5 estrellas Euro NCAP (protocolo 2022) y una marcha muy confortable. El 2.0 turbo con hibridación de 48V y la caja de 9 velocidades conservan bien la potencia en altura; la GLC 300 e enchufable suma unos 100 km eléctricos (estimado) y exención de pico y placa en Bogotá. La electrónica abundante y los costos de taller son altos. Mayor riesgo individual: reparaciones electrónicas fuera de garantía. No la recomendamos sin garantía extendida."
+      para_quien_si: "Familia que busca una SUV premium confortable y espaciosa."
+      para_quien_no: "Quien prioriza costo de propiedad o reventa."
+      pros_reales: ["Baúl de 620 litros", "5 estrellas Euro NCAP (2022)", "Confort de marcha sobresaliente"]
+      contras:
+        - {componente: "Electrónica", descripcion: "Sistemas complejos y costosos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Ancho", descripcion: "1.890 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GLC 200 4MATIC, precio_base_cop: 309900000}
+      - {anio: 2026, version: GLC 300 e 4MATIC PHEV, precio_base_cop: 359900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo M254 + motor eléctrico (PHEV)", potencia_hp: 313, torque_nm: 550, aceleracion_0_100_seg: 6.7, potencia_electrica_kw: 100, capacidad_bateria_kwh: 31.2, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 60, consumo_kwh_100km: 21.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 470, capacidad_tanque_galones: 13.2, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 11.5, peso_vacio_kg: 2310}
+
+  - modelo: GLE
+    generacion: V167
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2019-08-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "3.0 Turbo I6 M256 + MHEV 48V", cilindraje_cc: 2999, cilindros: 6, valvulas: 24, alimentacion: Turbo, potencia_hp: 381, rpm_potencia_max: 5800, torque_nm: 500, rpm_torque_max: 1800, aceleracion_0_100_seg: 5.6, velocidad_maxima_kmh: 250, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 15}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 9, traccion: AWD, suspension_delantera: Multibrazo, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.9, medida_llantas: "275/50 R20", capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 4924, ancho_sin_espejos_mm: 2018, alto_mm: 1772, distancia_entre_ejes_mm: 2995, distancia_libre_suelo_mm: 200, peso_vacio_kg: 2250, capacidad_baul_litros: 630, capacidad_tanque_galones: 22.2}
+    consumo: {consumo_mixto_kml: 10.5, consumo_real_estimado_kml: 8.4}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 5.8, quejas_documentadas: 6.6, recalls: 6.2, repuestos_y_red: 6.4, costo_reparaciones: 4.4}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: SUV de lujo con seis en línea turbo de 381 hp e hibridación de 48V, muy refinada y potente en altura. Pero suma suspensión neumática, mucha electrónica y repuestos de lujo: fuera de garantía, una sola reparación de suspensión o de módulos puede superar los diez millones de pesos. Mide más de 2 m de ancho. Mayor riesgo individual: el costo de reparaciones de suspensión y electrónica. No la recomendamos sin garantía extendida ni a quien parquee en sótanos estrechos."
+      para_quien_si: "Quien busca lujo y potencia y puede pagar mantenimiento de gama alta."
+      para_quien_no: "Quien la conservará años sin garantía."
+      pros_reales: ["Seis en línea turbo de 381 hp", "Confort de marcha de lujo", "5 estrellas Euro NCAP (2019)"]
+      contras:
+        - {componente: "Suspensión neumática", descripcion: "Reparación costosa con los años.", km_tipico: "100.000+", costo_reparacion_cop_aprox: 14000000, severidad: Alta}
+        - {componente: "Ancho", descripcion: "2.018 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: GLE 450 4MATIC, precio_base_cop: 499900000, fecha_precio: 2025-01-01}
+
+  - modelo: EQA
+    generacion: H243
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2021-10-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico delantero 140 kW", alimentacion: Eléctrico, potencia_hp: 190, torque_nm: 385, aceleracion_0_100_seg: 8.6, velocidad_maxima_kmh: 160, potencia_electrica_kw: 140, capacidad_bateria_kwh: 70.5, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 100}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "235/55 R18"}
+    dim: {largo_mm: 4463, ancho_sin_espejos_mm: 1834, alto_mm: 1624, distancia_entre_ejes_mm: 2729, distancia_libre_suelo_mm: 155, peso_vacio_kg: 2040, capacidad_baul_litros: 340, autonomia_estimada_km: 528, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 15.7, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2021, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.2, quejas_documentadas: 6.8, recalls: 6.4, repuestos_y_red: 6.0, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: es una GLA eléctrica, con el interior y la calidad de marcha de Mercedes y 528 km WLTP de autonomía homologada. Al derivar de una plataforma de combustión, el baúl cae a 340 litros y el piso trasero es alto; el despeje de 155 mm con batería bajo el piso exige cuidado. Pesa más de 2 toneladas. Mayor riesgo individual: la depreciación de un eléctrico premium. No la recomendamos a familias que necesiten baúl."
+      para_quien_si: "Conductor urbano con carga en casa que quiere un eléctrico premium compacto."
+      para_quien_no: "Familias que necesitan baúl o reventa."
+      pros_reales: ["528 km WLTP", "Nueve airbags y 5 estrellas Euro NCAP (2020)", "Exenta de pico y placa (verifica la norma)"]
+      contras:
+        - {componente: "Baúl", descripcion: "340 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Depreciación", descripcion: "Eléctrico premium de bajo volumen.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: EQA 250+, precio_base_cop: 239900000, fecha_precio: 2025-01-01}
+
+  - modelo: AMG C 43
+    generacion: W206
+    segmento: Deportivo
+    carroceria: Sedán
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2023-02-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 Turbo M139l con turbo eléctrico + MHEV 48V", cilindraje_cc: 1991, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 408, rpm_potencia_max: 6750, torque_nm: 500, rpm_torque_max: 5000, aceleracion_0_100_seg: 4.6, velocidad_maxima_kmh: 250, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 10}
+    chasis: {transmision_tipo: Automática con embrague húmedo MCT, numero_velocidades: 9, traccion: AWD, suspension_delantera: Multibrazo, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.7, medida_llantas: "255/40 R19"}
+    dim: {largo_mm: 4791, ancho_sin_espejos_mm: 1824, alto_mm: 1450, distancia_entre_ejes_mm: 2865, distancia_libre_suelo_mm: 120, peso_vacio_kg: 1765, capacidad_baul_litros: 435, capacidad_tanque_galones: 17.4}
+    consumo: {consumo_mixto_kml: 10.5, consumo_real_estimado_kml: 8.2}
+    seg: {numero_airbags: 9, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 11.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.6, electrica_electronica: 6.0, quejas_documentadas: 6.6, recalls: 6.6, repuestos_y_red: 5.6, costo_reparaciones: 4.2}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el C 43 cambió el V6 biturbo por un cuatro cilindros 2.0 con turbo eléctrico derivado de la Fórmula 1 y 408 hp, más tracción 4MATIC. Es tecnología de punta y apenas pierde potencia en altura, pero esa complejidad (turbo eléctrico, 48V, caja MCT) no tiene historial largo y sus repuestos son escasos y caros. Despeje de 120 mm. Mayor riesgo individual: el costo de reparar componentes exclusivos AMG. No lo recomendamos sin garantía vigente."
+      para_quien_si: "Aficionado que quiere un sedán AMG de última tecnología con garantía."
+      para_quien_no: "Quien lo conservará fuera de garantía."
+      pros_reales: ["408 hp con turbo eléctrico", "Tracción integral 4MATIC", "Práctico como sedán"]
+      contras:
+        - {componente: "Complejidad", descripcion: "Turbo eléctrico y sistema de 48V sin historial largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Despeje", descripcion: "120 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
+    versiones:
+      - {anio: 2025, version: AMG C 43 4MATIC, precio_base_cop: 399900000, fecha_precio: 2025-01-01}
