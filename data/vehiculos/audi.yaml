@@ -1,0 +1,269 @@
+marca: Audi
+pais_origen: Alemania
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: A3 Sportback
+    generacion: 8Y
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2021-04-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.5 TFSI", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.4, velocidad_maxima_kmh: 224, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague en seco S tronic DQ200, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "225/45 R17"}
+    dim: {largo_mm: 4343, ancho_sin_espejos_mm: 1816, alto_mm: 1449, distancia_entre_ejes_mm: 2636, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1340, capacidad_baul_litros: 380, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 13.5}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2020, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [dsg_dq200]
+      desglose: {motor_transmision: 6.4, electrica_electronica: 6.6, quejas_documentadas: 6.6, recalls: 6.8, repuestos_y_red: 6.6, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: la caja S tronic de 7 velocidades con embrague en seco (familia DQ200) tiene historial de fallas de mecatrónica y desgaste de embragues, sobre todo en tráfico pesado; las versiones recientes mejoraron, pero el riesgo existe. Opinión editorial: el A3 es un compacto premium de muy buena calidad, con 5 estrellas Euro NCAP (protocolo 2020) y un 1.5 TFSI eficiente en altura. Mayor riesgo individual: la mecatrónica fuera de garantía. No lo recomendamos a quien maneje a diario en trancón con pendientes sin garantía extendida."
+      para_quien_si: "Quien quiere un compacto premium y maneja más carretera que trancón."
+      para_quien_no: "Quien enfrenta trancón diario en pendientes fuera de garantía."
+      pros_reales: ["Calidad de construcción premium", "5 estrellas Euro NCAP (2020)", "1.5 TFSI eficiente en altura"]
+      contras:
+        - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: 35 TFSI Advanced, precio_base_cop: 189900000}
+
+  - modelo: A3 Sedán
+    generacion: 8Y
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Hungría
+    fecha_lanzamiento_colombia: 2021-04-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.5 TFSI", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.4, velocidad_maxima_kmh: 232, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague en seco S tronic DQ200, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "225/45 R17"}
+    dim: {largo_mm: 4495, ancho_sin_espejos_mm: 1816, alto_mm: 1425, distancia_entre_ejes_mm: 2636, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1360, capacidad_baul_litros: 425, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 13.5}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2020, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [dsg_dq200]
+      desglose: {motor_transmision: 6.4, electrica_electronica: 6.6, quejas_documentadas: 6.6, recalls: 6.8, repuestos_y_red: 6.6, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: comparte con el A3 Sportback la caja S tronic de embrague en seco (familia DQ200), con historial de fallas de mecatrónica y embragues en tráfico pesado. Opinión editorial: el sedán suma baúl de 425 litros y un diseño elegante, con 5 estrellas Euro NCAP (protocolo 2020). Frente a sedanes C japoneses mejor equipados pierde en reventa y costo de mantenimiento. Mayor riesgo individual: la mecatrónica fuera de garantía. No lo recomendamos sin garantía extendida a quien maneje en trancón diario."
+      para_quien_si: "Quien prioriza marca y calidad interior en un sedán compacto."
+      para_quien_no: "Quien busca bajo costo de propiedad o reventa."
+      pros_reales: ["Calidad de construcción", "Baúl de 425 litros", "Turbo eficiente en altura"]
+      contras:
+        - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: 35 TFSI Advanced, precio_base_cop: 199900000}
+
+  - modelo: A4
+    generacion: B9 (fase 2)
+    segmento: Sedán D
+    carroceria: Sedán
+    pais_origen: Alemania
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2016-05-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "2.0 TFSI", cilindraje_cc: 1984, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 204, rpm_potencia_max: 4500, torque_nm: 320, rpm_torque_max: 1450, aceleracion_0_100_seg: 7.3, velocidad_maxima_kmh: 241, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo S tronic, numero_velocidades: 7, traccion: Delantera, suspension_delantera: Multibrazo, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "225/50 R17"}
+    dim: {largo_mm: 4762, ancho_sin_espejos_mm: 1847, alto_mm: 1431, distancia_entre_ejes_mm: 2820, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1530, capacidad_baul_litros: 460, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2015, ncap_protocolo: "Euro NCAP 2015", adas_incluidas: [Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un sedán ejecutivo de calidad sobresaliente con 2.0 TFSI de 204 hp y caja S tronic de doble embrague húmeda (no la DQ200 de embrague en seco). Su protocolo Euro NCAP es de 2015, ya antiguo, y como modelo descontinuado su reventa cae rápido. El mantenimiento de un Audi fuera de garantía es costoso. Mayor riesgo individual: fallas electrónicas y de sensores con los años. No lo recomendamos como usado sin historial de concesionario."
+      para_quien_si: "Comprador de usado con historial completo que valora calidad y confort."
+      para_quien_no: "Quien busca bajo costo de propiedad."
+      pros_reales: ["Calidad interior sobresaliente", "Suspensión multibrazo en ambos ejes", "2.0 TFSI eficiente en altura"]
+      contras:
+        - {componente: "Protocolo NCAP antiguo", descripcion: "Evaluación Euro NCAP de 2015.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Mantenimiento", descripcion: "Costos premium.", km_tipico: "Cada 10.000", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: 40 TFSI Advanced, precio_base_cop: 239900000, fecha_precio: 2025-01-01}
+
+  - modelo: Q2
+    generacion: GA
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2017-10-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.5 TFSI", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.6, velocidad_maxima_kmh: 212, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague en seco S tronic DQ200, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4208, ancho_sin_espejos_mm: 1794, alto_mm: 1537, distancia_entre_ejes_mm: 2601, distancia_libre_suelo_mm: 160, peso_vacio_kg: 1340, capacidad_baul_litros: 405, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2016, ncap_protocolo: "Euro NCAP 2016", adas_incluidas: [Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 8.3, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [dsg_dq200]
+      desglose: {motor_transmision: 6.4, electrica_electronica: 6.6, quejas_documentadas: 6.6, recalls: 6.8, repuestos_y_red: 6.6, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: usa la caja S tronic de 7 velocidades con embrague en seco (familia DQ200), con historial de fallas de mecatrónica y embrague en tráfico pesado. Opinión editorial: la Q2 es la puerta de entrada a Audi en formato SUV, con buena calidad y un 1.5 TFSI eficiente en altura, pero el espacio trasero es justo y la plataforma ya tiene casi una década. Mayor riesgo individual: la mecatrónica fuera de garantía. No la recomendamos a quien maneje en trancón de montaña a diario sin garantía extendida."
+      para_quien_si: "Pareja urbana que quiere una SUV premium pequeña."
+      para_quien_no: "Familias o conductores de trancón diario en pendientes."
+      pros_reales: ["Calidad de construcción", "Turbo eficiente en altura", "Tamaño fácil de parquear"]
+      contras:
+        - {componente: "Espacio trasero", descripcion: "Justo para adultos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: 35 TFSI Advanced, precio_base_cop: 169900000, fecha_precio: 2025-01-01}
+
+  - modelo: Q3
+    generacion: F3
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Hungría
+    fecha_lanzamiento_colombia: 2019-08-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.5 TFSI", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 9.2, velocidad_maxima_kmh: 207, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague S tronic, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "235/55 R18"}
+    dim: {largo_mm: 4484, ancho_sin_espejos_mm: 1849, alto_mm: 1585, distancia_entre_ejes_mm: 2680, distancia_libre_suelo_mm: 170, peso_vacio_kg: 1460, capacidad_baul_litros: 530, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2018, ncap_protocolo: "Euro NCAP 2018", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.8, repuestos_y_red: 6.6, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Q3 es una SUV compacta premium amplia (530 litros de baúl) con 5 estrellas Euro NCAP (protocolo 2018) y asiento trasero corredizo. La 35 TFSI es suficiente en ciudad; la Sportback 40 TFSI quattro con 2.0 turbo es la indicada para montaña con carga. El costo de mantenimiento y la depreciación son los de una marca premium. Mayor riesgo individual: reparaciones de la caja de doble embrague fuera de garantía. No la recomendamos sin garantía extendida a quien la conserve muchos años."
+      para_quien_si: "Familia pequeña que quiere una SUV premium práctica."
+      para_quien_no: "Quien busca reventa o bajo costo de propiedad."
+      pros_reales: ["Baúl de 530 litros", "5 estrellas Euro NCAP (2018)", "Calidad interior"]
+      contras:
+        - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Caja de doble embrague", descripcion: "Reparación costosa fuera de garantía.", km_tipico: "100.000+", costo_reparacion_cop_aprox: 8000000, severidad: Media}
+    versiones:
+      - {anio: 2026, version: 35 TFSI Advanced, precio_base_cop: 209900000}
+      - {anio: 2026, version: Sportback 40 TFSI quattro S line, precio_base_cop: 259900000, motor_descripcion: "2.0 TFSI", cilindraje_cc: 1984, potencia_hp: 190, rpm_potencia_max: 4200, torque_nm: 320, aceleracion_0_100_seg: 7.4, velocidad_maxima_kmh: 220, traccion: AWD, transmision_tipo: Doble embrague húmedo S tronic, alto_mm: 1567, capacidad_baul_litros: 530, medida_llantas: "235/50 R19", tapiceria: Cuero, consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1620}
+
+  - modelo: Q5
+    generacion: FY / GU
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2017-06-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 TFSI + MHEV", cilindraje_cc: 1984, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 204, rpm_potencia_max: 5000, torque_nm: 340, rpm_torque_max: 1500, aceleracion_0_100_seg: 7.6, velocidad_maxima_kmh: 222, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 18}
+    chasis: {transmision_tipo: Doble embrague húmedo S tronic, numero_velocidades: 7, traccion: AWD, suspension_delantera: Multibrazo, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "235/60 R18", capacidad_remolque_kg: 2400}
+    dim: {largo_mm: 4717, ancho_sin_espejos_mm: 1900, alto_mm: 1655, distancia_entre_ejes_mm: 2819, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1880, capacidad_baul_litros: 520, capacidad_tanque_galones: 17.2}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 10.8}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 11.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.2, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Q5 de nueva generación usa el 2.0 TFSI con hibridación ligera y caja S tronic húmeda, con tracción quattro de serie; la versión 55 TFSI e enchufable de la generación anterior suma unos 60 km eléctricos (estimado). Es amplia y muy bien terminada, pero la electrónica nueva no tiene historial y los costos de taller son altos. Mayor riesgo individual: reparaciones electrónicas fuera de garantía y la depreciación. No la recomendamos sin garantía extendida."
+      para_quien_si: "Familia que busca una SUV premium con tracción integral."
+      para_quien_no: "Quien prioriza costo de propiedad."
+      pros_reales: ["Tracción quattro de serie", "Baúl de 520 litros", "Calidad interior"]
+      contras:
+        - {componente: "Electrónica nueva", descripcion: "Sin historial local.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Ancho", descripcion: "1.900 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: TFSI quattro MHEV Advanced, precio_base_cop: 299900000}
+      - {anio: 2025, version: 55 TFSI e quattro PHEV, precio_base_cop: 349900000, fecha_precio: 2025-01-01, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 TFSI + motor eléctrico (PHEV)", potencia_hp: 367, torque_nm: 500, aceleracion_0_100_seg: 5.3, potencia_electrica_kw: 105, capacidad_bateria_kwh: 17.9, potencia_carga_ac_kw: 7.4, potencia_carga_dc_kw: null, consumo_kwh_100km: 20.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 465, capacidad_tanque_galones: 14.0, consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 11.0, peso_vacio_kg: 2085, largo_mm: 4682, ancho_sin_espejos_mm: 1893}
+
+  - modelo: Q4 e-tron
+    generacion: F4
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2022-09-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico trasero 150 kW", alimentacion: Eléctrico, potencia_hp: 204, torque_nm: 310, aceleracion_0_100_seg: 8.5, velocidad_maxima_kmh: 160, potencia_electrica_kw: 150, capacidad_bateria_kwh: 82, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 135}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "235/55 R19"}
+    dim: {largo_mm: 4588, ancho_sin_espejos_mm: 1865, alto_mm: 1632, distancia_entre_ejes_mm: 2764, distancia_libre_suelo_mm: 180, peso_vacio_kg: 2050, capacidad_baul_litros: 520, autonomia_estimada_km: 520, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 17.5, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2021, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 11.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.2, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.0, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un SUV eléctrico práctico de plataforma MEB (la de los ID de Volkswagen), con baúl de 520 litros, 5 estrellas Euro NCAP (protocolo 2020) y radio de giro de 5,1 m gracias a la propulsión trasera. Su interior se siente menos premium que el de una Q5 y usa frenos traseros de tambor (poco desgaste en un eléctrico). El software de infoentretenimiento de esta plataforma ha recibido críticas internacionales (opinión editorial). Mayor riesgo individual: la depreciación. No lo recomendamos a quien dependa de la carga pública."
+      para_quien_si: "Familia urbana con carga en casa que quiere un eléctrico premium amplio."
+      para_quien_no: "Quien depende de carga pública o prioriza reventa."
+      pros_reales: ["Baúl de 520 litros", "Radio de giro de 5,1 m", "Exento de pico y placa (verifica la norma)"]
+      contras:
+        - {componente: "Interior", descripcion: "Materiales por debajo de otros Audi de su precio.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Depreciación", descripcion: "Eléctrico premium de bajo volumen.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: 40 e-tron Advanced, precio_base_cop: 259900000, fecha_precio: 2025-01-01}
+
+  - modelo: Q8 e-tron
+    generacion: GE
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Bélgica
+    fecha_lanzamiento_colombia: 2023-09-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Dos motores eléctricos quattro", alimentacion: Eléctrico, potencia_hp: 408, torque_nm: 664, aceleracion_0_100_seg: 5.6, velocidad_maxima_kmh: 200, potencia_electrica_kw: 300, capacidad_bateria_kwh: 114, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 170}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: AWD, suspension_delantera: Multibrazo, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 6.1, medida_llantas: "255/50 R20"}
+    dim: {largo_mm: 4915, ancho_sin_espejos_mm: 1937, alto_mm: 1632, distancia_entre_ejes_mm: 2928, distancia_libre_suelo_mm: 175, peso_vacio_kg: 2600, capacidad_baul_litros: 569, autonomia_estimada_km: 582, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 21.0, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 5.8, quejas_documentadas: 6.6, recalls: 6.2, repuestos_y_red: 5.6, costo_reparaciones: 4.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: SUV eléctrico de lujo con 408 hp, tracción quattro y una batería de 114 kWh que rinde 582 km WLTP, con suspensión neumática y un silencio de marcha sobresaliente. Pesa 2,6 toneladas, mide casi 4,92 m por 1,94 m de ancho y su depreciación es de las más fuertes del catálogo; Audi ya anunció el fin de su producción. Mayor riesgo individual: la pérdida de valor y el costo de reparar la suspensión neumática. No lo recomendamos a quien piense revenderlo."
+      para_quien_si: "Quien quiere un SUV eléctrico de lujo y lo conservará con garantía."
+      para_quien_no: "Quien prioriza reventa o parquea en sótanos estrechos."
+      pros_reales: ["582 km WLTP", "Silencio y confort de lujo", "Tracción quattro"]
+      contras:
+        - {componente: "Depreciación", descripcion: "Muy alta; modelo al final de su ciclo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Suspensión neumática", descripcion: "Reparación costosa con los años.", km_tipico: "100.000+", costo_reparacion_cop_aprox: 14000000, severidad: Media}
+    versiones:
+      - {anio: 2025, version: 55 e-tron quattro, precio_base_cop: 449900000, fecha_precio: 2025-01-01}
+
+  - modelo: RS 3
+    generacion: 8Y
+    segmento: Deportivo
+    carroceria: Hatchback
+    pais_origen: Hungría
+    fecha_lanzamiento_colombia: 2022-07-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "2.5 TFSI 5 cilindros", cilindraje_cc: 2480, cilindros: 5, valvulas: 20, alimentacion: Turbo, potencia_hp: 400, rpm_potencia_max: 5600, torque_nm: 500, rpm_torque_max: 2250, aceleracion_0_100_seg: 3.8, velocidad_maxima_kmh: 250, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo S tronic, numero_velocidades: 7, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.6, medida_llantas: "265/30 R19"}
+    dim: {largo_mm: 4389, ancho_sin_espejos_mm: 1851, alto_mm: 1436, distancia_entre_ejes_mm: 2631, distancia_libre_suelo_mm: 125, peso_vacio_kg: 1570, capacidad_baul_litros: 282, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 10.0, consumo_real_estimado_kml: 7.8}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 6.8, repuestos_y_red: 5.4, costo_reparaciones: 4.2}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el cinco cilindros turbo de 400 hp es uno de los motores más carismáticos del mercado y, con tracción quattro y diferencial trasero vectorial, apenas pierde potencia en altura. Es un hatchback práctico para el día a día, pero sus llantas de 19 pulgadas de perfil 30, sus frenos y su mantenimiento son de superdeportivo. El despeje de 125 mm obliga a cuidar rampas. Mayor riesgo individual: el costo de consumibles. No lo recomendamos a quien no tenga presupuesto para mantenimiento de alto desempeño."
+      para_quien_si: "Aficionado que quiere un deportivo compacto usable a diario."
+      para_quien_no: "Quien busca economía de uso."
+      pros_reales: ["Cinco cilindros turbo de 400 hp", "Tracción quattro", "Práctico como hatchback"]
+      contras:
+        - {componente: "Consumibles", descripcion: "Llantas y frenos de alto desempeño.", km_tipico: "20.000", costo_reparacion_cop_aprox: 9000000, severidad: Media}
+        - {componente: "Despeje", descripcion: "125 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
+    versiones:
+      - {anio: 2025, version: RS 3 Sportback, precio_base_cop: 389900000, fecha_precio: 2025-01-01}
