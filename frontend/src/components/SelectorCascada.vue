@@ -31,25 +31,25 @@ const marcasFiltradas = () => marcas.value.filter((m) => m.marca.toLowerCase().i
 </script>
 
 <template>
-  <div class="grid gap-2">
-    <label class="text-xs text-tenue">Marca
-      <input v-model="filtroMarca" class="campo mt-1" placeholder="Escribe para filtrar…" :list="`marcas-${uid}`" @change="sel.marca = (marcas.find((m) => m.marca.toLowerCase() === filtroMarca.toLowerCase()) || marcasFiltradas()[0])?.marca || ''" />
+  <div class="grid gap-4">
+    <label class="etiqueta">Marca
+      <input v-model="filtroMarca" class="campo mt-2 normal-case tracking-normal" placeholder="Escribe para filtrar…" :list="`marcas-${uid}`" @change="sel.marca = (marcas.find((m) => m.marca.toLowerCase() === filtroMarca.toLowerCase()) || marcasFiltradas()[0])?.marca || ''" />
       <datalist :id="`marcas-${uid}`"><option v-for="m in marcas" :key="m.marca" :value="m.marca" /></datalist>
     </label>
-    <label class="text-xs text-tenue">Modelo
-      <select v-model="sel.modelo" class="campo mt-1" :disabled="!modelos.length">
+    <label class="etiqueta">Modelo
+      <select v-model="sel.modelo" class="campo mt-2 normal-case tracking-normal" :disabled="!modelos.length">
         <option value="">Elige el modelo</option>
         <option v-for="m in modelos" :key="m.modelo" :value="m.modelo">{{ m.modelo }}</option>
       </select>
     </label>
-    <label class="text-xs text-tenue">Año
-      <select v-model.number="sel.anio" class="campo mt-1" :disabled="!anios.length">
+    <label class="etiqueta">Año
+      <select v-model.number="sel.anio" class="campo mt-2 normal-case tracking-normal" :disabled="!anios.length">
         <option :value="0">Elige el año</option>
         <option v-for="a in anios" :key="a" :value="a">{{ a }}</option>
       </select>
     </label>
-    <label class="text-xs text-tenue">Versión
-      <select v-model.number="sel.version" class="campo mt-1" :disabled="!versiones.length">
+    <label class="etiqueta">Versión
+      <select v-model.number="sel.version" class="campo mt-2 normal-case tracking-normal" :disabled="!versiones.length">
         <option :value="0">Elige la versión</option>
         <option v-for="v in versiones" :key="v.id" :value="v.id">{{ v.version }} · {{ formatoCOP(v.precio_base_cop) }}{{ v.tiene_alerta_roja ? ' · ⚠ alerta roja' : '' }}</option>
       </select>
