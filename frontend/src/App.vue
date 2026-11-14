@@ -17,7 +17,10 @@ onMounted(() => useAjustes().cargar())
   <main id="contenido" tabindex="-1" class="min-h-[70vh] outline-none">
     <RouterView v-slot="{ Component }">
       <Transition mode="out-in" enter-active-class="transition-opacity duration-150" leave-active-class="transition-opacity duration-150" enter-from-class="opacity-0" leave-to-class="opacity-0">
-        <component :is="Component" />
+        <!-- Un único nodo raíz: varias vistas tienen raíz múltiple y la transición no puede animarlas (quedaba en blanco). -->
+        <div :key="$route.path">
+          <component :is="Component" />
+        </div>
       </Transition>
     </RouterView>
   </main>
