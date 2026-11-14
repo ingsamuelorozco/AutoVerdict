@@ -72,15 +72,19 @@ def buscar(
     despeje_min: int | None = Query(None, ge=100), baul_min: int | None = Query(None, ge=0),
     consumo_min: float | None = Query(None, ge=0), fiabilidad_min: float | None = Query(None, ge=1, le=10),
     estado: list[str] = Query([]), actualizado: bool | None = None, electrificado: bool | None = None,
+    ids: list[int] = Query([], description="Restringe a estos ids (p. ej., favoritos)"),
     sort: str = Query("puntaje"), page: int = Query(1, ge=1), size: int = Query(24, ge=1, le=100),
 ) -> dict[str, Any]:
     if sort not in ORDENES:
         raise invalido("Orden no válido", {"permitidos": list(ORDENES)})
     vs = list(todos_los_vehiculos())
+    if ids:
+        permitidos = set(ids)
+        vs = [v for v in vs if v["id"] in permitidos]
     if q:
-        ids = buscar_ids_texto(q)
-        if ids is not None:
-            orden = {i: n for n, i in enumerate(ids)}
+        encontrados = buscar_ids_texto(q)
+        if encontrados is not None:
+            orden = {i: n for n, i in enumerate(encontrados)}
             vs = [v for v in vs if v["id"] in orden]
     actualizados_ids: set[int] = set()
     if actualizado is not None:
