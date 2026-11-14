@@ -1,0 +1,53 @@
+# Campañas de seguridad y programas del fabricante.
+# marcas/modelos: lista; anios: rango [desde, hasta]. Verifica siempre por VIN en el portal de la SIC.
+recalls:
+  - id: takata-sic
+    titulo: "Cambio preventivo de infladores de airbag Takata"
+    marcas: [Audi, BMW, Ford, Honda, Mazda, Nissan, Subaru, Toyota]
+    modelos: null
+    anios: [2001, 2018]
+    descripcion: "Algunos infladores de airbag Takata se degradan con la humedad y pueden romperse al activarse. La SIC reporta cerca de 106.000 vehículos aún sin reparar en Colombia. No todos los modelos ni lotes están afectados: verifica por VIN."
+    ente: SIC
+    fecha: 2026-08-27
+    estado: Activa — verificar por VIN
+    fuentes_ids: [sic-takata-2026, infobae-takata-2026]
+  - id: onix-plus-2020-brasil
+    titulo: "Onix Plus 2020: actualización de calibración de motor por riesgo de incendio"
+    marcas: [Chevrolet]
+    modelos: [Onix Sedán]
+    anios: [2020, 2020]
+    descripcion: "GM llamó a revisión todos los Onix Plus 2020 en Brasil (noviembre de 2019) por una calibración que podía causar preignición y daño de motor. Verifica con el concesionario si tu VIN tiene la actualización aplicada en Colombia."
+    ente: Fabricante
+    fecha: 2019-11-06
+    estado: Cerrada en Brasil — verificar por VIN en Colombia
+    fuentes_ids: [infomoney-onix-recall, vrum-onix-incendios]
+  - id: ford-dps6-programa
+    titulo: "Programa de satisfacción 19N08 y boletín TSB 16-0109 para la caja Powershift DPS6"
+    marcas: [Ford]
+    modelos: [Fiesta, Focus]
+    anios: [2011, 2018]
+    descripcion: "Programa del fabricante en EE. UU. que extiende la cobertura de embragues de la caja DPS6. No es una campaña de la SIC; consulta con Ford Colombia si existe cobertura equivalente."
+    ente: Fabricante
+    fecha: 2019-07-01
+    estado: Programa del fabricante (EE. UU.)
+    fuentes_ids: [wiki-ford-powershift, clintonville-dps6]
+  - id: puretech-garantia-europa
+    titulo: "Extensión de garantía de motores PureTech 1.0 y 1.2"
+    marcas: [Peugeot]
+    modelos: [308, "2008"]
+    anios: [2013, 2022]
+    descripcion: "Stellantis extendió en Europa la garantía de la correa de distribución de motores PureTech fabricados hasta junio de 2022. Pregunta a Peugeot Colombia si aplica a tu VIN."
+    ente: Fabricante
+    fecha: 2024-03-01
+    estado: Programa del fabricante (Europa)
+    fuentes_ids: [stellantis-puretech-garantia, km77-puretech]
+  - id: toyota-dpf-australia
+    titulo: "Corrección del sistema DPF y garantía extendida (Australia)"
+    marcas: [Toyota]
+    modelos: [Hilux, Fortuner, Land Cruiser Prado]
+    anios: [2015, 2020]
+    descripcion: "Toyota Australia corrigió el DPF de los diésel 2.4 y 2.8 GD fabricados entre 2015 y abril de 2020 y extendió su garantía. Consulta en Toyota Colombia si tu vehículo tiene la actualización."
+    ente: Fabricante
+    fecha: 2026-10-01
+    estado: Programa del fabricante (Australia)
+    fuentes_ids: [carexpert-toyota-dpf, drive-toyota-dpf]
