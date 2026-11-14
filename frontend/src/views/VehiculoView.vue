@@ -157,7 +157,7 @@ async function compartir() {
               <h3 class="text-lg font-semibold">Transmisión, chasis y frenos</h3>
               <dl class="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
                 <template v-for="[k, et, u] in ([['transmision_tipo', 'Transmisión', ''], ['numero_velocidades', 'Velocidades', ''], ['traccion', 'Tracción', ''], ['suspension_delantera', 'Suspensión delantera', ''], ['suspension_trasera', 'Suspensión trasera', ''], ['frenos_delanteros', 'Frenos delanteros', ''], ['frenos_traseros', 'Frenos traseros', ''], ['direccion', 'Dirección', ''], ['radio_giro_metros', 'Radio de giro', 'm'], ['medida_llantas', 'Llantas', ''], ['profundidad_vadeo_mm', 'Vadeo', 'mm'], ['capacidad_remolque_kg', 'Remolque', 'kg']] as const)" :key="k">
-                  <template v-if="d.especificaciones.chasis[k] != null"><dt class="text-tenue">{{ et }}</dt><dd class="text-right num">{{ typeof d.especificaciones.chasis[k] === 'number' ? f.numero(d.especificaciones.chasis[k], 1) : d.especificaciones.chasis[k] }} {{ u }}<BadgeEstimado v-if="est(k)" /></dd></template>
+                  <template v-if="d.especificaciones.chasis[k] != null"><dt class="text-tenue">{{ et }}</dt><dd class="text-right num">{{ typeof d.especificaciones.chasis[k] === 'number' ? f.numero(d.especificaciones.chasis[k], Number.isInteger(d.especificaciones.chasis[k]) ? 0 : 1) : d.especificaciones.chasis[k] }} {{ u }}<BadgeEstimado v-if="est(k)" /></dd></template>
                 </template>
               </dl>
               <h3 class="mt-6 text-lg font-semibold">Seguridad y ADAS</h3>
