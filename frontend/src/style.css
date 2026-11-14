@@ -49,7 +49,12 @@
   strong, b, th, dt { @apply text-tinta; }
   strong, b { @apply font-bold; }
   p { text-wrap: pretty; }
-  :focus-visible { @apply outline-none ring-2 ring-acento ring-offset-2 ring-offset-papel; }
+  :focus-visible { @apply outline-none ring-2 ring-tinta ring-offset-2 ring-offset-papel; }
+  input, select, textarea { @apply rounded-none; accent-color: rgb(var(--tinta)); }
+  input:focus-visible, select:focus-visible, textarea:focus-visible { @apply ring-0 ring-offset-0; box-shadow: inset 0 0 0 1px rgb(var(--tinta)); }
+  select option { background: rgb(var(--superficie)); color: rgb(var(--tinta)); }
+  ::selection { background: rgb(var(--tinta)); color: rgb(var(--papel)); }
+  hr { @apply border-linea; }
   .num { font-variant-numeric: tabular-nums; }
 }
 
@@ -62,7 +67,9 @@
   .titulo-pagina { @apply text-[40px] leading-[1.1] lg:text-display-lg; }
   .titulo-seccion { @apply text-display-sm lg:text-display-md; }
   .entradilla { @apply mt-4 max-w-2xl text-lg text-tenue; }
-  .tarjeta { @apply rounded-2xl border border-linea bg-superficie; }
+  .tarjeta { @apply border border-linea bg-superficie; }
+  .tarjeta-plana { @apply border border-linea bg-papel; }
+  .celda-dato { @apply bg-suave p-6; }
   /* Botones: rectángulo plano de 48 px, etiqueta en mayúsculas con 1,5 px de tracking. */
   .boton { @apply inline-flex min-h-[48px] items-center justify-center gap-2 whitespace-nowrap border border-transparent px-8 text-sm font-bold uppercase leading-none tracking-maquinado transition-colors; }
   .boton:disabled { @apply cursor-not-allowed opacity-40; }
@@ -73,11 +80,16 @@
   .enlace-texto { @apply inline-flex items-center gap-2 text-sm font-bold uppercase tracking-maquinado text-tinta; }
   .enlace-texto svg { @apply transition-transform; }
   .enlace-texto:hover svg, .group:hover .enlace-texto svg { @apply translate-x-1; }
-  .chip { @apply inline-flex min-h-[36px] items-center gap-1 rounded-full border border-linea px-3 text-sm transition hover:border-tinta; }
-  .chip-activo { @apply border-tinta bg-tinta text-papel; }
-  .etiqueta { @apply text-xs uppercase tracking-wider text-tenue; }
-  .campo { @apply min-h-[44px] w-full rounded-xl border border-linea bg-superficie px-3 text-sm; }
-  .esqueleto { @apply animate-pulse rounded-xl bg-linea/60; }
+  .chip { @apply inline-flex min-h-[36px] items-center gap-1 border border-linea px-3 text-sm text-tenue transition-colors hover:border-tinta hover:text-tinta; }
+  .chip-activo { @apply border-tinta bg-tinta font-bold text-papel hover:text-papel; }
+  .insignia { @apply inline-flex items-center gap-1 px-2 py-1 text-[11px] font-bold uppercase leading-none tracking-[1px]; }
+  .etiqueta { @apply text-xs font-bold uppercase tracking-maquinado text-tenue; }
+  /* Campos: 48 px, superficie de tarjeta, el foco engrosa el borde a blanco. */
+  .campo { @apply min-h-[48px] w-full border border-linea bg-superficie px-4 text-base font-light text-tinta transition-colors placeholder:text-apagado hover:border-apagado focus:border-tinta; }
+  .campo:disabled { @apply cursor-not-allowed opacity-40; }
+  .campo-mini { @apply min-h-[36px] border border-linea bg-superficie px-2 text-sm text-tinta transition-colors focus:border-tinta; }
+  label { @apply text-tenue; }
+  .esqueleto { @apply animate-pulse bg-superficie; }
 }
 
 @media (prefers-reduced-motion: reduce) {
