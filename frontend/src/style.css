@@ -63,9 +63,16 @@
   .titulo-seccion { @apply text-display-sm lg:text-display-md; }
   .entradilla { @apply mt-4 max-w-2xl text-lg text-tenue; }
   .tarjeta { @apply rounded-2xl border border-linea bg-superficie; }
-  .boton { @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full px-5 text-sm font-medium transition; }
-  .boton-primario { @apply boton bg-tinta text-papel hover:opacity-90; }
-  .boton-secundario { @apply boton border border-linea bg-superficie hover:border-tinta; }
+  /* Botones: rectángulo plano de 48 px, etiqueta en mayúsculas con 1,5 px de tracking. */
+  .boton { @apply inline-flex min-h-[48px] items-center justify-center gap-2 whitespace-nowrap border border-transparent px-8 text-sm font-bold uppercase leading-none tracking-maquinado transition-colors; }
+  .boton:disabled { @apply cursor-not-allowed opacity-40; }
+  .boton-primario { @apply boton border-tinta bg-papel text-tinta hover:bg-tinta hover:text-papel; }
+  .boton-secundario { @apply boton border-linea bg-transparent text-tinta hover:border-tinta; }
+  .boton-solido { @apply boton border-tinta bg-tinta text-papel hover:bg-transparent hover:text-tinta; }
+  .boton-icono { @apply grid h-12 w-12 shrink-0 place-items-center rounded-full bg-superficie text-tinta transition-colors hover:bg-elevada; }
+  .enlace-texto { @apply inline-flex items-center gap-2 text-sm font-bold uppercase tracking-maquinado text-tinta; }
+  .enlace-texto svg { @apply transition-transform; }
+  .enlace-texto:hover svg, .group:hover .enlace-texto svg { @apply translate-x-1; }
   .chip { @apply inline-flex min-h-[36px] items-center gap-1 rounded-full border border-linea px-3 text-sm transition hover:border-tinta; }
   .chip-activo { @apply border-tinta bg-tinta text-papel; }
   .etiqueta { @apply text-xs uppercase tracking-wider text-tenue; }
