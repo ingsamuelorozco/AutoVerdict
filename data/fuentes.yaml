@@ -1,0 +1,223 @@
+# Registro de fuentes. Cada id se usa en vehículos, fallas, recalls y actualizaciones.
+# tipo: fabricante | NCAP | Fasecolda | SIC | prensa | foro | taller | mercado | oficial | editorial
+fuentes:
+  - id: editorial-referencia
+    titulo: "Base editorial AutoVerdict: fichas técnicas públicas recopiladas, pendientes de contraste con la ficha vigente en Colombia"
+    url: "https://github.com/ingsamuelorozco/AutoVerdict/blob/main/docs/METODOLOGIA.md"
+    tipo: editorial
+    fecha_consulta: 2026-11-13
+  - id: editorial-precio
+    titulo: "Estimación editorial AutoVerdict del precio de vitrina 2026 (rango de mercado; no es cotización)"
+    url: "https://github.com/ingsamuelorozco/AutoVerdict/blob/main/docs/METODOLOGIA.md#precios"
+    tipo: editorial
+    fecha_consulta: 2026-11-13
+  - id: editorial-mantenimiento
+    titulo: "Criterio editorial AutoVerdict sobre mantenimiento preventivo y desgaste normal"
+    url: "https://github.com/ingsamuelorozco/AutoVerdict/blob/main/docs/METODOLOGIA.md#fiabilidad"
+    tipo: editorial
+    fecha_consulta: 2026-11-13
+  - id: latin-ncap
+    titulo: "Latin NCAP — resultados de evaluaciones"
+    url: "https://www.latinncap.com/es/resultados"
+    tipo: NCAP
+    fecha_consulta: 2026-11-13
+  - id: euro-ncap
+    titulo: "Euro NCAP — resultados de evaluaciones"
+    url: "https://www.euroncap.com/es/resultados"
+    tipo: NCAP
+    fecha_consulta: 2026-11-13
+  - id: fasecolda-guia
+    titulo: "Fasecolda — Guía de Valores"
+    url: "https://www.fasecolda.com/guia-de-valores/"
+    tipo: Fasecolda
+    fecha_consulta: 2026-11-13
+  # Financieras y normativas
+  - id: sfc-soat-2026
+    titulo: "Superfinanciera — tarifas SOAT 2026 (Circular Externa 022 de 2025) y simulador"
+    url: "https://www.superfinanciera.gov.co/61331"
+    tipo: oficial
+    fecha_consulta: 2026-11-13
+  - id: elespectador-soat-2026
+    titulo: "El Espectador — Tarifas del SOAT 2026"
+    url: "https://www.elespectador.com/autos/tarifas-del-soat-2026-cuales-son-los-precios-para-carros-y-motos/"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: colombiacom-soat-2026
+    titulo: "Colombia.com — Precios oficiales del SOAT 2026 (camperos y camionetas)"
+    url: "https://www.colombia.com/actualidad/nacionales/se-conocieron-oficialmente-los-nuevos-precios-del-soat-en-colombia-para-el-2026-557170"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: ley-1964-2019
+    titulo: "Ley 1964 de 2019 — promoción de vehículos eléctricos"
+    url: "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=85510"
+    tipo: oficial
+    fecha_consulta: 2026-11-13
+  - id: actualicese-impuesto-2026
+    titulo: "Actualícese — Impuesto de vehículos 2026 (Decreto 1457 de 2025)"
+    url: "https://actualicese.com/impuesto-de-vehiculos-automotores-para-2026/"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: shd-bogota-vehiculos-2026
+    titulo: "Observatorio Fiscal de Bogotá — Impuesto de vehículos 2026"
+    url: "https://observatoriofiscal.shd.gov.co/sites/default/files/documentos_informacion_destacada/impuestos%20-%20vehiculos%202026.pdf"
+    tipo: oficial
+    fecha_consulta: 2026-11-13
+  - id: bogota-tramites-2026
+    titulo: "Alcaldía de Bogotá — Tarifas de trámites de tránsito 2026"
+    url: "https://bogota.gov.co/mi-ciudad/movilidad/tarifas-de-tramites-de-transito-y-transporte-en-bogota-para-2026"
+    tipo: oficial
+    fecha_consulta: 2026-11-13
+  - id: creg-combustibles
+    titulo: "CREG — Precios de combustibles líquidos"
+    url: "https://creg.gov.co/publicaciones/15565/precios-de-combustibles-liquidos/"
+    tipo: oficial
+    fecha_consulta: 2026-11-13
+  - id: portafolio-usura-nov-2026
+    titulo: "Portafolio — Usura de noviembre de 2026 en 28,34% E.A."
+    url: "https://www.portafolio.co/economia/finanzas/creditos-de-consumo-tendran-nuevo-tope-de-usura-en-noviembre-superfinanciera-lo-certifico-en-28-34-efectivo-anual-505461"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: datos-gov-trm
+    titulo: "Datos Abiertos Colombia — TRM (dataset 32sa-8pi3)"
+    url: "https://www.datos.gov.co/resource/32sa-8pi3.json"
+    tipo: oficial
+    fecha_consulta: 2026-11-13
+  # Captiva Turbo
+  - id: opinautos-captiva-turbo
+    titulo: "Opinautos — Chevrolet Captiva Turbo: fallas reportadas por propietarios"
+    url: "https://www.opinautos.com/chevrolet/captiva/defectos/turbo"
+    tipo: foro
+    fecha_consulta: 2026-11-13
+  - id: opinautos-captiva-co
+    titulo: "Opinautos — Problemas y fallas Chevrolet Captiva (Colombia)"
+    url: "https://www.opinautos.com/co/chevrolet/captiva/defectos"
+    tipo: foro
+    fecha_consulta: 2026-11-13
+  - id: opinautos-captiva-opiniones
+    titulo: "Opinautos — Opiniones de propietarios del Chevrolet Captiva"
+    url: "https://www.opinautos.com/chevrolet/captiva/opiniones"
+    tipo: foro
+    fecha_consulta: 2026-11-13
+  - id: c3-captiva-opiniones
+    titulo: "C3 Care Car Center (taller, Colombia) — Opiniones Chevrolet Captiva"
+    url: "https://www.c3carecarcenter.com/blog/opiniones-chevrolet-captiva/"
+    tipo: taller
+    fecha_consulta: 2026-11-13
+  - id: c3-captiva-review
+    titulo: "C3 Care Car Center (taller, Colombia) — Chevrolet Captiva review"
+    url: "https://www.c3carecarcenter.com/blog/chevrolet-captiva-review/"
+    tipo: taller
+    fecha_consulta: 2026-11-13
+  - id: mercadolibre-captiva-usados
+    titulo: "MercadoLibre Colombia — avisos de Chevrolet Captiva usados (precios pedidos)"
+    url: "https://carros.mercadolibre.com.co/chevrolet/captiva/usados/"
+    tipo: mercado
+    fecha_consulta: 2026-11-13
+  - id: wiki-baojun-530
+    titulo: "Wikipedia — Baojun 530 (base de la Captiva de segunda generación)"
+    url: "https://en.wikipedia.org/wiki/Baojun_530"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  # Ford Powershift
+  - id: wiki-ford-powershift
+    titulo: "Wikipedia — Ford PowerShift transmission"
+    url: "https://en.wikipedia.org/wiki/Ford_PowerShift_transmission"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: clintonville-dps6
+    titulo: "Clintonville Auto (taller) — Ford Fiesta & Focus shuddering: el problema DPS6"
+    url: "https://clintonvilleauto.com/blog/ford-fiesta-focus-shuddering-the-dps6-powershift-problem-explained"
+    tipo: taller
+    fecha_consulta: 2026-11-13
+  - id: lawsuitwatch-powershift
+    titulo: "LawsuitWatch — Ford PowerShift: acuerdo de Focus y Fiesta"
+    url: "https://lawsuitwatch.org/auto-rideshare/ford-powershift-lawsuit"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  # PureTech
+  - id: stellantis-puretech-garantia
+    titulo: "Stellantis — amplía la garantía de motores PureTech 1.0 y 1.2 (Europa)"
+    url: "https://www.media.stellantis.com/es-es/citroen/press/stellantis-amplia-la-garantia-para-los-consumidores-europeos-sobre-las-generaciones-anteriores-de-motores-puretech-1-0-y-1-2"
+    tipo: fabricante
+    fecha_consulta: 2026-11-13
+  - id: km77-puretech
+    titulo: "km77 — Stellantis ofrece medidas a los afectados por los motores PureTech"
+    url: "https://www.km77.com/revista/engendro-mecanico/stellantis-compensacion-afectados-puretech/"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: motores-puretech-motores-es
+    titulo: "Motor.es — Ampliación de garantía y compensaciones PureTech"
+    url: "https://www.motor.es/noticias/stellantis-ampliacion-garantia-compensacion-motores-puretech-2025106231.html"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  # DSG DQ200
+  - id: wiki-dsg
+    titulo: "Wikipedia — Direct-shift gearbox (DQ200)"
+    url: "https://en.wikipedia.org/wiki/Direct-shift_gearbox"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: faultycar-dsg
+    titulo: "FaultyCar — Volkswagen 7-speed DSG gearbox faults"
+    url: "https://faultycar.co.uk/faults/volkswagen-7-speed-dsg-gearbox"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: enginescope-dq200
+    titulo: "EngineScope — Volkswagen DSG DQ200 reliability"
+    url: "https://enginescope.gr/engine/vw-dsg-dq200/"
+    tipo: taller
+    fecha_consulta: 2026-11-13
+  # CVT JATCO
+  - id: gearboxinsider-jatco
+    titulo: "Gearbox Insider — JATCO CVT Nissan: problemas y soluciones"
+    url: "https://gearboxinsider.com/blog/jatco-cvt-nissan-problems-fixes/"
+    tipo: taller
+    fecha_consulta: 2026-11-13
+  - id: transmissionaudit-versa
+    titulo: "Transmission Audit — Nissan Versa CVT: problemas, recalls y quejas"
+    url: "https://transmissionaudit.com/cars/nissan/versa-2012-2019/"
+    tipo: taller
+    fecha_consulta: 2026-11-13
+  # Toyota DPF
+  - id: carexpert-toyota-dpf
+    titulo: "CarExpert — Toyota acuerda pagar A$750 millones por el DPF de HiLux, Prado y Fortuner"
+    url: "https://www.carexpert.com.au/car-news/toyota-agrees-to-dollar750-million-hilux-prado-dpf-class-action-settlement"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: drive-toyota-dpf
+    titulo: "Drive — Toyota class action on DPFs: todo lo que debes saber"
+    url: "https://www.drive.com.au/caradvice/toyota-class-action-on-dpfs-everything-you-need-to-know/"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  # Honda 1.5T
+  - id: wardsauto-honda-dilucion
+    titulo: "WardsAuto — Honda extiende garantía por dilución de aceite en el 1.5L turbo"
+    url: "https://www.wardsauto.com/news/archive-wards-honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem/793295/"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: consumerreports-honda-turbo
+    titulo: "Consumer Reports — Honda extiende garantía de motores turbo con problemas"
+    url: "https://www.consumerreports.org/car-recalls-defects/honda-extends-warranty-on-troubled-turbo-engines"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  # Onix
+  - id: infomoney-onix-recall
+    titulo: "InfoMoney — Chevrolet anuncia recall de todas las unidades del Onix Plus 2020 por riesgo de incendio"
+    url: "https://www.infomoney.com.br/consumo/chevrolet-anuncia-recall-de-todas-as-unidades-do-onix-plus-2020-por-risco-de-incendio/"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  - id: vrum-onix-incendios
+    titulo: "Vrum — Nuevo Chevrolet Onix Plus con ventas suspendidas por incendios"
+    url: "https://www.vrum.com.br/noticias/novo-chevrolet-onix-plus-tem-vendas-suspensas-por-causa-de-incendios/index.html"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
+  # Takata / SIC
+  - id: sic-takata-2026
+    titulo: "SIC — Campaña preventiva para el cambio de airbags Takata en 106 mil vehículos"
+    url: "https://www.sic.gov.co/noticias/por-problemas-de-seguridad-superindustria-gremios-y-fabricantes-intensifican-campana-preventiva-para-el-cambio-de-algunos-airbags-takata-que-continuan-instalados-en-106-mil-vehiculos-de-diferentes-marcas"
+    tipo: SIC
+    fecha_consulta: 2026-11-13
+  - id: infobae-takata-2026
+    titulo: "Infobae — Más de 100.000 vehículos circulan en Colombia con airbags defectuosos"
+    url: "https://www.infobae.com/colombia/2026/08/28/mas-de-100000-vehiculos-circulan-en-colombia-con-airbags-defectuosos-la-superintendencia-de-industria-y-comercio-revelo-cuales-marcas-necesitan-cambio/"
+    tipo: prensa
+    fecha_consulta: 2026-11-13
