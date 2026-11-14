@@ -1,0 +1,14 @@
+{
+  "vigencia": "2026",
+  "fuente_url": null,
+  "fecha_consulta": "2026-11-13",
+  "estado": "estimado",
+  "nota": "Costo por hito de 10.000 km según nivel de costo de mantenimiento. Estimado editorial a partir de rangos de concesionario; el valor por modelo del YAML tiene prioridad.",
+  "costo_hito_10000km_cop": {"Bajo": 650000, "Moderado": 950000, "Alto": 1500000, "Muy Alto": 2400000},
+  "multiplicador_hito_mayor": 1.8,
+  "hitos_mayores_cada_km": 40000,
+  "factor_bev": 0.55,
+  "revision_tecnomecanica_cop": 330000,
+  "revision_tecnomecanica_desde_anio": 6,
+  "revision_tecnomecanica_descuento_bev": 0.30
+}

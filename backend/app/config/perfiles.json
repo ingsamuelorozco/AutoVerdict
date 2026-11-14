@@ -1,0 +1,24 @@
+{
+  "nota": "Pesos del Puntaje AutoVerdict por perfil de uso. Cada dimensión se normaliza de 0 a 1 entre los autos comparados.",
+  "penalizacion_alerta_roja": 0.35,
+  "dimensiones": {
+    "costo": "Precio total en calle (menor es mejor)",
+    "eficiencia": "Consumo mixto o eficiencia energética",
+    "espacio": "Baúl, distancia entre ejes y plazas",
+    "desempeno": "Potencia, peso/potencia y aceleración",
+    "fiabilidad": "Puntaje de fiabilidad",
+    "seguridad": "Airbags, NCAP y ADAS",
+    "urbano": "Índices de garaje y rompemuelle, radio de giro",
+    "equipamiento": "Pantalla, conectividad y confort",
+    "reventa": "Retención de valor a 5 años"
+  },
+  "perfiles": {
+    "ahorrador": {"etiqueta": "Ahorrador", "pesos": {"costo": 0.35, "eficiencia": 0.25, "fiabilidad": 0.15, "reventa": 0.15, "seguridad": 0.10}},
+    "familiar": {"etiqueta": "Familiar", "pesos": {"espacio": 0.30, "seguridad": 0.25, "fiabilidad": 0.20, "costo": 0.15, "equipamiento": 0.10}},
+    "ciudad": {"etiqueta": "Ciudad", "pesos": {"urbano": 0.30, "eficiencia": 0.25, "costo": 0.20, "seguridad": 0.15, "fiabilidad": 0.10}},
+    "carretera": {"etiqueta": "Carretera y viajes", "pesos": {"desempeno": 0.25, "seguridad": 0.25, "espacio": 0.20, "eficiencia": 0.15, "fiabilidad": 0.15}},
+    "rendimiento": {"etiqueta": "Rendimiento", "pesos": {"desempeno": 0.55, "equipamiento": 0.15, "seguridad": 0.15, "fiabilidad": 0.15}},
+    "fiabilidad": {"etiqueta": "Fiabilidad ante todo", "pesos": {"fiabilidad": 0.50, "reventa": 0.20, "costo": 0.15, "seguridad": 0.15}}
+  },
+  "perfil_defecto": "familiar"
+}

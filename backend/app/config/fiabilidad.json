@@ -1,0 +1,19 @@
+{
+  "nota": "Fórmula pública del puntaje de fiabilidad. Una alerta ROJA limita el puntaje máximo.",
+  "pesos": {
+    "motor_transmision": 0.35,
+    "quejas_documentadas": 0.20,
+    "repuestos_y_red": 0.15,
+    "recalls": 0.10,
+    "costo_reparaciones": 0.10,
+    "electrica_electronica": 0.10
+  },
+  "tope_con_alerta_roja": 4.0,
+  "rangos": [
+    {"min": 8.5, "etiqueta": "Excelente"},
+    {"min": 7.0, "etiqueta": "Buena"},
+    {"min": 5.5, "etiqueta": "Aceptable"},
+    {"min": 4.0, "etiqueta": "Baja"},
+    {"min": 0, "etiqueta": "Crítica"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vigencia": "2026-01-01/2026-12-31",
+  "fuente_url": "https://bogota.gov.co/mi-ciudad/movilidad/tarifas-de-tramites-de-transito-y-transporte-en-bogota-para-2026",
+  "fecha_consulta": "2026-11-13",
+  "nota": "La matrícula inicial incluye derechos de tránsito, placas, tarifa del Ministerio de Transporte y RUNT (valor por ciudad en ciudades.json). El impuesto vehicular del año de compra se cobra proporcional a los meses restantes.",
+  "impuesto": {
+    "fuente": "Decreto 1457 de 2025 (MinHacienda) y Resolución 20253040048935 de 2025 (MinTransporte)",
+    "fuente_url": "https://actualicese.com/impuesto-de-vehiculos-automotores-para-2026/",
+    "base": "Avalúo comercial (Guía de Valores; para vehículos nuevos, valor de factura sin IVA)",
+    "rangos_nacionales": [
+      {"hasta_cop": 57349000, "tarifa": 0.015},
+      {"hasta_cop": 129032000, "tarifa": 0.025},
+      {"hasta_cop": null, "tarifa": 0.035}
+    ],
+    "tope_bev": 0.01,
+    "tope_bev_fuente": "Ley 1964 de 2019, parágrafo 5 del artículo 145 de la Ley 488 de 1998",
+    "proporcional_meses_restantes": true,
+    "mes_compra_defecto": "actual"
+  },
+  "alistamiento": {
+    "activo_por_defecto": false,
+    "estado": "estimado",
+    "valor_cop": 1200000,
+    "nota": "Gastos de alistamiento y entrega del concesionario. Muy variables; desactivados por defecto."
+  }
+}

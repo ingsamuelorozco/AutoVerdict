@@ -1,0 +1,37 @@
+{
+  "vigencia": "2026",
+  "fuente_url": null,
+  "fecha_consulta": "2026-11-13",
+  "nota": "Umbrales configurables de los índices dimensionales.",
+  "rompemuelle": {
+    "niveles": [
+      {"min_mm": 200, "nivel": 4, "etiqueta": "Pasa sin problema"},
+      {"min_mm": 170, "nivel": 3, "etiqueta": "Pasa con cuidado"},
+      {"min_mm": 150, "nivel": 2, "etiqueta": "Precaución: entra en diagonal y despacio"},
+      {"min_mm": 0, "nivel": 1, "etiqueta": "Riesgo de raspar"}
+    ],
+    "caida_con_carga_mm": 20,
+    "voladizo_delantero_umbral_mm": 950,
+    "penalizacion_por_100mm_voladizo": 5,
+    "angulo_ventral_umbral_deg": 15,
+    "penalizacion_angulo_ventral_mm": 10,
+    "topes_simulables_mm": [100, 120, 150]
+  },
+  "garaje": {
+    "plaza_largo_mm": 5000,
+    "plaza_ancho_mm": 2400,
+    "niveles": [
+      {"nivel": 4, "etiqueta": "Holgado", "largo_max": 4600, "ancho_max": 2000},
+      {"nivel": 3, "etiqueta": "Justo", "largo_max": 4800, "ancho_max": 2150},
+      {"nivel": 2, "etiqueta": "Apretado", "largo_max": 5000, "ancho_max": 2300},
+      {"nivel": 1, "etiqueta": "No cabe", "largo_max": null, "ancho_max": null}
+    ]
+  },
+  "baul_objetos_litros": {
+    "Maleta de cabina": 40,
+    "Maleta grande": 95,
+    "Coche de bebé plegado": 110
+  },
+  "comodidad_trasera": {"eje_bueno_mm": 2700, "eje_justo_mm": 2550, "ancho_bueno_mm": 1800},
+  "persona_referencia_mm": 1750
+}

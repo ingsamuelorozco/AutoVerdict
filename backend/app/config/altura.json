@@ -1,0 +1,10 @@
+{
+  "vigencia": "2026",
+  "fuente_url": null,
+  "fecha_consulta": "2026-11-13",
+  "estado": "estimado",
+  "nota": "Regla práctica: pérdida de potencia por cada 1.000 msnm según tipo de alimentación. En híbridos solo pierde la parte térmica.",
+  "perdida_por_1000m": {"Atmosférico": 0.10, "Turbo": 0.03, "Eléctrico": 0.0},
+  "fraccion_termica_hibrido": {"Híbrido Completo HEV": 0.75, "Híbrido Enchufable PHEV": 0.6, "Híbrido Ligero MHEV": 0.95},
+  "ciudades_referencia": ["bogota", "medellin", "cali", "barranquilla"]
+}
