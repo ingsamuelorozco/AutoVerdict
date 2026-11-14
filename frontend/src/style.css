@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tinta: 23 21 15;
+  --papel: 247 244 238;
+  --superficie: 255 253 249;
+  --linea: 226 220 208;
+  --tenue: 104 98 86;
+  --acento: 38 70 120;
+  --mejor: 4 120 87;
+  --ambar: 180 100 0;
+  --roja: 185 28 28;
+  color-scheme: light;
+}
+.dark {
+  --tinta: 241 237 228;
+  --papel: 18 17 14;
+  --superficie: 28 26 22;
+  --linea: 58 54 46;
+  --tenue: 168 160 146;
+  --acento: 140 172 222;
+  --mejor: 52 211 153;
+  --ambar: 251 191 36;
+  --roja: 248 113 113;
+  color-scheme: dark;
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-papel text-tinta font-sans antialiased; font-feature-settings: 'tnum' 1, 'cv11' 1; }
+  h1, h2, h3 { @apply font-titulo tracking-tight; }
+  :focus-visible { @apply outline-none ring-2 ring-acento ring-offset-2 ring-offset-papel; }
+  .num { font-variant-numeric: tabular-nums; }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .tarjeta { @apply rounded-2xl border border-linea bg-superficie; }
+  .boton { @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full px-5 text-sm font-medium transition; }
+  .boton-primario { @apply boton bg-tinta text-papel hover:opacity-90; }
+  .boton-secundario { @apply boton border border-linea bg-superficie hover:border-tinta; }
+  .chip { @apply inline-flex min-h-[36px] items-center gap-1 rounded-full border border-linea px-3 text-sm transition hover:border-tinta; }
+  .chip-activo { @apply border-tinta bg-tinta text-papel; }
+  .etiqueta { @apply text-xs uppercase tracking-wider text-tenue; }
+  .campo { @apply min-h-[44px] w-full rounded-xl border border-linea bg-superficie px-3 text-sm; }
+  .esqueleto { @apply animate-pulse rounded-xl bg-linea/60; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+@media print {
+  header, nav, footer, .no-imprimir { display: none !important; }
+  body { background: white; color: black; }
+  .tarjeta { border-color: #ccc; }
+}
