@@ -90,7 +90,7 @@ const opac = (a: Auto) => (foco.value === null || foco.value === a.id ? 1 : 0.25
     <p class="mt-2 text-xs text-tenue">{{ T.siluetaAviso }} Referencias: suelo, tope ajustable, persona de 1,75 m y plaza de 5,00 × 2,40 m.</p>
 
     <ul class="mt-4 grid gap-2 sm:grid-cols-2">
-      <li v-for="(a, i) in autos" :key="a.id" class="flex items-center gap-3 rounded-xl border border-linea p-2 text-sm" @mouseenter="foco = a.id" @mouseleave="foco = null">
+      <li v-for="(a, i) in autos" :key="a.id" class="flex flex-wrap items-center gap-x-3 gap-y-1 rounded-xl border border-linea p-2 text-sm" @mouseenter="foco = a.id" @mouseleave="foco = null">
         <svg width="34" height="10" aria-hidden="true"><line x1="0" x2="34" y1="5" y2="5" :stroke="color(i)" stroke-width="3" :stroke-dasharray="TRAZOS[i % TRAZOS.length]" /></svg>
         <span class="min-w-0 flex-1 truncate font-medium">{{ a.nombre }}</span>
         <span class="text-xs" :title="NIVELES[a.indice_rompemuelle_nivel || 0]">⛰ {{ a.indice_rompemuelle_etiqueta }}</span>
@@ -98,10 +98,10 @@ const opac = (a: Auto) => (foco.value === null || foco.value === a.id ? 1 : 0.25
         <span class="sr-only">Largo {{ formatoNumero(a.largo_mm) }} mm</span>
       </li>
     </ul>
-    <table class="sr-only">
+    <div class="sr-only"><table>
       <caption>Medidas de los vehículos comparados</caption>
       <tr><th>Vehículo</th><th>Largo</th><th>Alto</th><th>Ancho con espejos</th><th>Despeje</th><th>Índice Rompemuelle</th><th>Índice de Garaje</th></tr>
       <tr v-for="a in autos" :key="a.id"><td>{{ a.nombre }}</td><td>{{ a.largo_mm }} mm</td><td>{{ a.alto_mm }} mm</td><td>{{ a.ancho_con_espejos_mm }} mm</td><td>{{ a.distancia_libre_suelo_mm }} mm</td><td>{{ a.indice_rompemuelle_etiqueta }}</td><td>{{ a.indice_garaje_etiqueta }}</td></tr>
-    </table>
+    </table></div>
   </section>
 </template>
