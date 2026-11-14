@@ -18,25 +18,25 @@ onKeyStroke('Escape', () => props.slug && emit('cerrar'))
 
 <template>
   <div v-if="slug" class="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label="Review honesta">
-    <div class="absolute inset-0 bg-black/40" @click="emit('cerrar')" />
-    <aside class="absolute right-0 top-0 h-full w-[34rem] max-w-full overflow-y-auto bg-papel p-6 shadow-2xl">
-      <button class="float-right grid h-11 w-11 place-items-center rounded-full hover:bg-linea/50" aria-label="Cerrar" @click="emit('cerrar')"><X class="h-5 w-5" aria-hidden="true" /></button>
+    <div class="absolute inset-0 bg-black/70" @click="emit('cerrar')" />
+    <aside class="absolute right-0 top-0 h-full w-[34rem] max-w-full overflow-y-auto border-l border-linea bg-papel p-6 lg:p-10">
+      <button class="boton-icono float-right" aria-label="Cerrar" @click="emit('cerrar')"><X class="h-5 w-5" aria-hidden="true" /></button>
       <div v-if="!datos" class="esqueleto mt-12 h-64" />
       <template v-else>
         <p class="etiqueta">Review honesta</p>
-        <h2 class="text-2xl font-semibold">{{ datos.vehiculo.marca }} {{ datos.vehiculo.modelo }} {{ datos.vehiculo.anio }}</h2>
-        <p class="text-sm text-tenue">{{ datos.vehiculo.version }}</p>
-        <div class="my-4 flex justify-center"><MedidorFiabilidad :puntaje="datos.puntaje_fiabilidad" :etiqueta="datos.etiqueta" /></div>
+        <h2 class="mt-3 text-display-sm">{{ datos.vehiculo.marca }} {{ datos.vehiculo.modelo }} {{ datos.vehiculo.anio }}</h2>
+        <p class="mt-2 text-tenue">{{ datos.vehiculo.version }}</p>
+        <div class="my-8 flex justify-center border-y border-linea py-6"><MedidorFiabilidad :puntaje="datos.puntaje_fiabilidad" :etiqueta="datos.etiqueta" /></div>
         <AlertaBanner :alertas="datos.alertas" />
-        <p class="mt-4 leading-relaxed">{{ datos.veredicto_honesto }}</p>
-        <h3 class="mt-6 font-semibold">Fallas y contras principales</h3>
-        <ul class="mt-2 grid gap-2 text-sm">
-          <li v-for="fa in datos.fallas_comunes_y_contras.slice(0, 4)" :key="fa.componente" class="rounded-xl border border-linea p-3">
+        <p class="mt-6 leading-relaxed">{{ datos.veredicto_honesto }}</p>
+        <h3 class="etiqueta mt-10">Fallas y contras principales</h3>
+        <ul class="mt-4 grid gap-px border border-linea bg-linea text-sm">
+          <li v-for="fa in datos.fallas_comunes_y_contras.slice(0, 4)" :key="fa.componente" class="bg-suave p-4">
             <strong>{{ fa.componente }}</strong> · <span class="text-tenue">{{ fa.severidad }}</span>
             <p class="mt-1">{{ fa.descripcion }}</p>
           </li>
         </ul>
-        <RouterLink :to="`/reviews/${datos.vehiculo.slug}`" class="boton-primario mt-6 w-full" @click="emit('cerrar')">Ver review completa</RouterLink>
+        <RouterLink :to="`/reviews/${datos.vehiculo.slug}`" class="boton-primario mt-8 w-full" @click="emit('cerrar')">Ver review completa</RouterLink>
       </template>
     </aside>
   </div>
