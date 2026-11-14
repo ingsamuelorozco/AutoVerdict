@@ -1,0 +1,215 @@
+marca: Honda
+pais_origen: Japón
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: City Sedán
+    generacion: Séptima generación
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2022-10-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 i-VTEC DOHC", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 126, rpm_potencia_max: 6600, torque_nm: 155, rpm_torque_max: 4600, aceleracion_0_100_seg: 10.6, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.3, medida_llantas: "185/55 R16"}
+    dim: {largo_mm: 4580, ancho_sin_espejos_mm: 1748, alto_mm: 1477, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1170, capacidad_baul_litros: 519, capacidad_tanque_galones: 11.1}
+    consumo: {consumo_mixto_kml: 17.5, consumo_real_estimado_kml: 15.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.4, electrica_electronica: 8.0, quejas_documentadas: 8.0, recalls: 7.6, repuestos_y_red: 7.6, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el 1.5 i-VTEC atmosférico de Honda tiene buena reputación de durabilidad y aquí va con una CVT de desarrollo propio (no JATCO). Es de los sedanes B más amplios (519 litros de baúl) y trae frenado autónomo y control crucero adaptativo de serie en versiones medias. Sus límites: frenos traseros de tambor, despeje de 140 mm y una red de concesionarios menos extensa que la de Chevrolet o Renault. Mayor riesgo individual: el ruido de la CVT al exigirla en montaña. No lo recomendamos a quien busque desempeño."
+      para_quien_si: "Familia que quiere un sedán amplio, eficiente y con buena reventa."
+      para_quien_no: "Quien vive lejos de un concesionario Honda o busca desempeño."
+      pros_reales: ["Baúl de 519 litros", "ADAS completos para su segmento", "Motor atmosférico de buena reputación"]
+      contras:
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros.", km_tipico: "40.000", costo_reparacion_cop_aprox: 450000, severidad: Baja}
+        - {componente: "Red de servicio", descripcion: "Menos concesionarios fuera de las capitales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: EX 1.5 CVT, precio_base_cop: 99900000}
+      - {anio: 2026, version: Touring 1.5 CVT, precio_base_cop: 109900000, tapiceria: Cuero sintético, llave_inteligente: true, medida_llantas: "185/55 R16", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Cámara de punto ciego LaneWatch]}
+
+  - modelo: City Hatchback
+    generacion: Séptima generación
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2022-10-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 i-VTEC DOHC", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 126, rpm_potencia_max: 6600, torque_nm: 155, rpm_torque_max: 4600, aceleracion_0_100_seg: 10.4, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "185/55 R16"}
+    dim: {largo_mm: 4363, ancho_sin_espejos_mm: 1748, alto_mm: 1488, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1150, capacidad_baul_litros: 268, capacidad_baul_abatido_litros: 1100, capacidad_tanque_galones: 11.1}
+    consumo: {consumo_mixto_kml: 17.5, consumo_real_estimado_kml: 15.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.4, electrica_electronica: 8.0, quejas_documentadas: 8.0, recalls: 7.6, repuestos_y_red: 7.6, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: comparte mecánica con el City Sedán, con la ventaja de los asientos traseros 'Magic Seat' que se levantan para cargar objetos altos. El baúl de 268 litros es pequeño, pero con asientos abatidos supera los 1.100 litros. El 1.5 atmosférico y la CVT propia de Honda son una combinación sencilla y eficiente. Mayor riesgo individual: el despeje de 140 mm en barrios con rompemuelles altos. No lo recomendamos a quien necesite baúl grande sin abatir asientos."
+      para_quien_si: "Conductor urbano que valora versatilidad interior y eficiencia."
+      para_quien_no: "Quien viaja seguido con mucho equipaje."
+      pros_reales: ["Asientos traseros versátiles", "Consumo real cercano a 15 km/l", "ADAS completos"]
+      contras:
+        - {componente: "Baúl", descripcion: "268 litros con asientos arriba.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: Touring 1.5 CVT, precio_base_cop: 104900000, fecha_precio: 2025-02-01}
+
+  - modelo: Civic
+    generacion: Undécima generación (FE)
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2022-05-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 VTEC Turbo", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 180, rpm_potencia_max: 6000, torque_nm: 240, rpm_torque_max: 1700, aceleracion_0_100_seg: 7.9, velocidad_maxima_kmh: 210, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "235/40 R18"}
+    dim: {largo_mm: 4678, ancho_sin_espejos_mm: 1802, alto_mm: 1415, distancia_entre_ejes_mm: 2735, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1370, capacidad_baul_litros: 419, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.8, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 7.4, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Documentado: el 1.5 VTEC Turbo tuvo en generaciones anteriores (Civic 2016–2018 y CR-V 2017–2018) dilución de combustible en el aceite en climas fríos y trayectos cortos, con garantías extendidas en EE. UU. y recall en China. Opinión editorial: el Civic actual es un sedán C de manejo excelente, ocho airbags y suspensión multibrazo; la versión e:HEV evita el turbo y gasta mucho menos. El despeje de 135 mm exige cuidado. Mayor riesgo individual: dilución de aceite en uso urbano corto en Bogotá. Recomendamos el e:HEV a quien solo hace trayectos cortos."
+      para_quien_si: "Quien quiere un sedán de manejo sobresaliente con alta reventa."
+      para_quien_no: "Quien vive en zona de rompemuelles altos."
+      pros_reales: ["Manejo y aplomo de referencia", "Ocho airbags y ADAS completos", "Alta reventa"]
+      contras:
+        - {componente: "Despeje", descripcion: "135 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Baúl", descripcion: "419 litros, menor que rivales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Touring 1.5T CVT, precio_base_cop: 149900000, patrones: [honda_15t]}
+      - {anio: 2026, version: e:HEV Touring, precio_base_cop: 169900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "2.0 i-MMD e:HEV", cilindraje_cc: 1993, alimentacion: Atmosférico, potencia_hp: 200, rpm_potencia_max: 6000, torque_nm: 315, rpm_torque_max: null, aceleracion_0_100_seg: 7.8, transmision_tipo: e-CVT, potencia_electrica_kw: 135, capacidad_bateria_kwh: 1.05, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 22.0, consumo_real_estimado_kml: 19.0, peso_vacio_kg: 1450}
+
+  - modelo: HR-V
+    generacion: Tercera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2022-11-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 i-VTEC DOHC", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 126, rpm_potencia_max: 6600, torque_nm: 155, rpm_torque_max: 4600, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/60 R17"}
+    dim: {largo_mm: 4330, ancho_sin_espejos_mm: 1790, alto_mm: 1590, distancia_entre_ejes_mm: 2610, distancia_libre_suelo_mm: 185, peso_vacio_kg: 1300, capacidad_baul_litros: 354, capacidad_tanque_galones: 10.8}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.8, quejas_documentadas: 7.8, recalls: 7.6, repuestos_y_red: 7.6, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la HR-V atmosférica combina el 1.5 i-VTEC y la CVT propia de Honda, una mecánica eficiente y de buena reputación, con ADAS completos de serie. Su baúl de 354 litros es pequeño para una SUV y el 1.5 atmosférico pierde cerca de una cuarta parte de su potencia en Bogotá (estimado). La Touring 1.5 turbo lo resuelve, pero hereda la sensibilidad documentada de ese motor a la dilución de aceite en trayectos cortos. Mayor riesgo individual: el espacio de carga. No la recomendamos a familias que viajan con equipaje."
+      para_quien_si: "Pareja urbana que quiere una SUV eficiente, segura y con buena reventa."
+      para_quien_no: "Familias que necesitan baúl."
+      pros_reales: ["ADAS de serie", "Consumo real cercano a 13 km/l", "Buena reventa"]
+      contras:
+        - {componente: "Baúl", descripcion: "354 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Potencia en altura", descripcion: "126 hp atmosféricos con CVT.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: EX 1.5 CVT, precio_base_cop: 124900000}
+      - {anio: 2026, version: Touring 1.5T CVT, precio_base_cop: 139900000, patrones: [honda_15t], motor_descripcion: "1.5 VTEC Turbo", alimentacion: Turbo, potencia_hp: 177, rpm_potencia_max: 6000, torque_nm: 240, rpm_torque_max: 1700, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 200, tapiceria: Cuero, llave_inteligente: true, carga_inalambrica: true, techo_corredizo: true, medida_llantas: "225/50 R18", consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.0, peso_vacio_kg: 1360}
+      - {anio: 2024, version: EX 1.5 CVT, precio_base_cop: 119900000, fecha_precio: 2024-03-01}
+
+  - modelo: WR-V
+    generacion: Segunda generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2025-03-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 i-VTEC DOHC", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 126, rpm_potencia_max: 6600, torque_nm: 155, rpm_torque_max: 4600, aceleracion_0_100_seg: 11.8, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4325, ancho_sin_espejos_mm: 1790, alto_mm: 1650, distancia_entre_ejes_mm: 2650, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1230, capacidad_baul_litros: 458, capacidad_tanque_galones: 10.8}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.8, quejas_documentadas: 7.6, recalls: 7.6, repuestos_y_red: 7.4, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la nueva WR-V ofrece más baúl (458 litros) y más despeje (210 mm) que la HR-V por menos dinero, con la misma mecánica 1.5 atmosférica y CVT propia de Honda. Lleva muy poco tiempo en Colombia, así que no tiene historial local. Lleva frenos traseros de tambor y el 1.5 atmosférico se siente justo en altura con carga. Mayor riesgo individual: el desempeño con cinco ocupantes en montaña. No la recomendamos a quien viaje lleno con frecuencia por carretera de montaña."
+      para_quien_si: "Familia pequeña que quiere espacio y despeje con mecánica Honda sencilla."
+      para_quien_no: "Quien busca desempeño o historial largo."
+      pros_reales: ["Despeje de 210 mm", "Baúl de 458 litros", "ADAS de serie"]
+      contras:
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros.", km_tipico: "40.000", costo_reparacion_cop_aprox: 450000, severidad: Baja}
+        - {componente: "Historial", descripcion: "Modelo nuevo en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: EXL 1.5 CVT, precio_base_cop: 109900000}
+
+  - modelo: CR-V
+    generacion: Sexta generación (RS)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2023-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 VTEC Turbo", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 190, rpm_potencia_max: 6000, torque_nm: 243, rpm_torque_max: 1700, aceleracion_0_100_seg: 8.8, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "235/60 R18", capacidad_remolque_kg: 680}
+    dim: {largo_mm: 4694, ancho_sin_espejos_mm: 1866, alto_mm: 1690, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 198, peso_vacio_kg: 1650, capacidad_baul_litros: 589, capacidad_baul_abatido_litros: 2166, capacidad_tanque_galones: 14.0}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.2}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [honda_15t]
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.8, quejas_documentadas: 7.4, recalls: 7.2, repuestos_y_red: 7.4, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: el 1.5 VTEC Turbo de la CR-V tuvo en la generación 2017–2018 dilución de combustible en el aceite en clima frío y trayectos cortos, con garantía extendida en EE. UU. y recall en China; una demanda en EE. UU. alega que persiste en modelos posteriores. Opinión editorial: es de las SUV compactas más espaciosas (589 litros) y mejor equipadas, con alta reventa; la e:HEV elimina el turbo y gasta mucho menos. Mayor riesgo individual: el nivel de aceite en uso urbano corto en Bogotá. Recomendamos la e:HEV a quien hace trayectos cortos."
+      para_quien_si: "Familia que quiere espacio, seguridad y reventa alta."
+      para_quien_no: "Quien hace solo trayectos cortos en frío y elegiría la versión turbo."
+      pros_reales: ["Baúl de 589 litros", "Ocho airbags y ADAS completos", "Reventa alta"]
+      contras:
+        - {componente: "Ancho", descripcion: "1.866 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Consumo de la versión turbo", descripcion: "Cerca de 11 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Touring 1.5T AWD, precio_base_cop: 189900000}
+      - {anio: 2026, version: e:HEV Touring AWD, precio_base_cop: 209900000, patrones_excluir: true, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "2.0 i-MMD e:HEV", cilindraje_cc: 1993, alimentacion: Atmosférico, potencia_hp: 204, rpm_potencia_max: 6100, torque_nm: 335, rpm_torque_max: null, aceleracion_0_100_seg: 9.4, transmision_tipo: e-CVT, potencia_electrica_kw: 135, capacidad_bateria_kwh: 1.06, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 17.5, consumo_real_estimado_kml: 15.0, peso_vacio_kg: 1780}
+      - {anio: 2024, version: Touring 1.5T AWD, precio_base_cop: 179900000, fecha_precio: 2024-01-01}
+
+  - modelo: Pilot
+    generacion: Cuarta generación
+    segmento: SUV Grande
+    carroceria: SUV
+    plazas: 8
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2023-11-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "3.5 V6 i-VTEC", cilindraje_cc: 3471, cilindros: 6, valvulas: 24, alimentacion: Atmosférico, potencia_hp: 285, rpm_potencia_max: 6100, torque_nm: 355, rpm_torque_max: 5000, aceleracion_0_100_seg: 7.6, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 10, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "255/50 R20", capacidad_remolque_kg: 2270}
+    dim: {largo_mm: 5090, ancho_sin_espejos_mm: 1995, alto_mm: 1805, distancia_entre_ejes_mm: 2890, distancia_libre_suelo_mm: 213, peso_vacio_kg: 2050, capacidad_baul_litros: 527, capacidad_baul_abatido_litros: 3000, capacidad_tanque_galones: 19.5}
+    consumo: {consumo_mixto_kml: 9.0, consumo_real_estimado_kml: 7.5}
+    seg: {numero_airbags: 10, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.2, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.2, repuestos_y_red: 6.8, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: SUV de ocho puestos con V6 atmosférico de 285 hp y caja automática convencional de 10 velocidades, una mecánica sin turbo de buena reputación. Mide 5,09 m por casi 2 m de ancho, así que no cabe con holgura en un parqueadero estándar, y consume cerca de 7,5 km/l reales. En Bogotá el V6 atmosférico pierde cerca de una cuarta parte de su potencia (estimado), aunque le sobra. Mayor riesgo individual: costo de combustible y repuestos importados. No la recomendamos para uso urbano en edificios antiguos."
+      para_quien_si: "Familia de ocho que viaja por carretera y valora mecánica sin turbo."
+      para_quien_no: "Quien busca economía o parquea en sótanos estrechos."
+      pros_reales: ["V6 atmosférico de buena reputación", "Ocho puestos reales", "Diez airbags"]
+      contras:
+        - {componente: "Consumo", descripcion: "Cerca de 7,5 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Dimensiones", descripcion: "5.090 x 1.995 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: Touring 3.5 V6 AWD, precio_base_cop: 269900000, fecha_precio: 2025-01-01}
