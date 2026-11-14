@@ -1,0 +1,349 @@
+marca: BYD
+pais_origen: China
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Dolphin Mini
+    generacion: Primera generación
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2024-04-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 55 kW", alimentacion: Eléctrico, potencia_hp: 75, torque_nm: 135, aceleracion_0_100_seg: 14.9, velocidad_maxima_kmh: 130, potencia_electrica_kw: 55, capacidad_bateria_kwh: 38, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: 40}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 4.95, medida_llantas: "175/55 R16"}
+    dim: {largo_mm: 3780, ancho_sin_espejos_mm: 1715, alto_mm: 1580, distancia_entre_ejes_mm: 2500, distancia_libre_suelo_mm: 130, peso_vacio_kg: 1240, capacidad_baul_litros: 230, autonomia_estimada_km: 300, autonomia_ciclo: Estimada}
+    consumo: {consumo_kwh_100km: 11.0}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 5.6, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: el eléctrico más vendido del país por precio, con batería Blade de litio-ferrofosfato (LFP), seis airbags y un costo por kilómetro muy bajo con carga en casa. Su autonomía real ronda 250–300 km (estimado) y la carga rápida de 40 kW es lenta. El despeje de 130 mm con batería bajo el piso exige cuidado en rompemuelles. BYD tiene poca trayectoria en Colombia, lo que pesa en reventa. Mayor riesgo individual: la depreciación. No lo recomendamos a quien viaje fuera de la ciudad con frecuencia."
+      para_quien_si: "Conductor urbano con carga en casa que quiere el eléctrico más económico."
+      para_quien_no: "Quien viaja a otras ciudades o vive en zona de rompemuelles altos."
+      pros_reales: ["Batería LFP Blade de larga vida", "Seis airbags", "Costo de energía muy bajo"]
+      contras:
+        - {componente: "Despeje", descripcion: "130 mm con batería bajo el piso.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Carga rápida", descripcion: "40 kW en DC.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GL 30 kWh, precio_base_cop: 79900000, capacidad_bateria_kwh: 30.1, autonomia_estimada_km: 240, potencia_carga_dc_kw: 30}
+      - {anio: 2026, version: GS 38 kWh, precio_base_cop: 89900000}
+
+  - modelo: Dolphin
+    generacion: Primera generación
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-09-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 70 kW", alimentacion: Eléctrico, potencia_hp: 95, torque_nm: 180, aceleracion_0_100_seg: 12.3, velocidad_maxima_kmh: 150, potencia_electrica_kw: 70, capacidad_bateria_kwh: 44.9, potencia_carga_ac_kw: 7, potencia_carga_dc_kw: 60}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4290, ancho_sin_espejos_mm: 1770, alto_mm: 1570, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1405, capacidad_baul_litros: 345, autonomia_estimada_km: 340, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 13.9, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2023, ncap_protocolo: "Euro NCAP 2023", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 12.8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 5.8, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un hatchback eléctrico amplio por dentro gracias a 2,7 m entre ejes, con batería LFP Blade, 5 estrellas Euro NCAP (protocolo 2023) y garantía de batería de 8 años. La versión de 44,9 kWh rinde unos 340 km WLTP; la Plus de 60,4 kWh suma potencia y autonomía. El despeje de 135 mm con batería bajo el piso exige cuidado y la reventa de BYD en Colombia aún no está probada. Mayor riesgo individual: la depreciación. No lo recomendamos a quien no tenga carga en casa."
+      para_quien_si: "Familia urbana con carga en casa que quiere un eléctrico práctico."
+      para_quien_no: "Quien depende de la carga pública o prioriza reventa."
+      pros_reales: ["5 estrellas Euro NCAP (2023)", "Batería LFP de larga vida", "Espacio interior amplio"]
+      contras:
+        - {componente: "Despeje", descripcion: "135 mm con batería bajo el piso.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Carga rápida", descripcion: "60 kW en la versión de entrada.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: "GS 44,9 kWh", precio_base_cop: 109900000}
+      - {anio: 2026, version: "Plus 60,4 kWh", precio_base_cop: 129900000, motor_descripcion: "Motor eléctrico 150 kW", potencia_hp: 204, torque_nm: 310, aceleracion_0_100_seg: 7.0, velocidad_maxima_kmh: 160, potencia_electrica_kw: 150, capacidad_bateria_kwh: 60.4, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 88, autonomia_estimada_km: 427, consumo_kwh_100km: 15.2, peso_vacio_kg: 1658, suspension_trasera: Multibrazo, medida_llantas: "205/50 R17"}
+
+  - modelo: Yuan Plus
+    generacion: Primera generación (Atto 3)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-02-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 150 kW", alimentacion: Eléctrico, potencia_hp: 204, torque_nm: 310, aceleracion_0_100_seg: 7.3, velocidad_maxima_kmh: 160, potencia_electrica_kw: 150, capacidad_bateria_kwh: 60.5, potencia_carga_ac_kw: 7, potencia_carga_dc_kw: 88}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "215/55 R18"}
+    dim: {largo_mm: 4455, ancho_sin_espejos_mm: 1875, alto_mm: 1615, distancia_entre_ejes_mm: 2720, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1750, capacidad_baul_litros: 440, autonomia_estimada_km: 420, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 15.6, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 12.8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 5.8, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: una SUV eléctrica compacta con 204 hp, despeje de 175 mm, 5 estrellas Euro NCAP (protocolo 2022) y un equipamiento muy completo por su precio. Su autonomía WLTP de 420 km es correcta y la batería LFP tolera bien la carga al 100%. La carga AC de 7 kW es lenta para su batería. La reventa de BYD en Colombia aún no tiene historial. Mayor riesgo individual: la depreciación. No la recomendamos a quien viaje con frecuencia largas distancias por carretera."
+      para_quien_si: "Familia urbana con carga en casa que quiere una SUV eléctrica equipada."
+      para_quien_no: "Quien recorre carretera a diario o prioriza reventa."
+      pros_reales: ["5 estrellas Euro NCAP (2022)", "204 hp sin pérdida en altura", "Equipamiento completo"]
+      contras:
+        - {componente: "Carga AC", descripcion: "7 kW: lenta para 60 kWh.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Reventa", descripcion: "Sin historial en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: "GS 60,5 kWh", precio_base_cop: 149900000}
+
+  - modelo: Seal
+    generacion: Primera generación
+    segmento: Sedán D
+    carroceria: Sedán
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2024-02-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico trasero 230 kW", alimentacion: Eléctrico, potencia_hp: 313, torque_nm: 360, aceleracion_0_100_seg: 5.9, velocidad_maxima_kmh: 180, potencia_electrica_kw: 230, capacidad_bateria_kwh: 82.5, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 150}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Trasera, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.7, medida_llantas: "235/45 R19"}
+    dim: {largo_mm: 4800, ancho_sin_espejos_mm: 1875, alto_mm: 1460, distancia_entre_ejes_mm: 2920, distancia_libre_suelo_mm: 120, peso_vacio_kg: 2055, capacidad_baul_litros: 400, autonomia_estimada_km: 570, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 16.6, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2023, ncap_protocolo: "Euro NCAP 2023", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 15.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 5.6, costo_reparaciones: 5.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un sedán eléctrico de altas prestaciones con 313 hp en tracción trasera (530 hp en la AWD), 570 km WLTP y 5 estrellas Euro NCAP (protocolo 2023), a un precio muy por debajo de sus rivales europeos. Pero sus 120 mm de despeje con batería integrada en el chasis (CTB) lo hacen el más vulnerable del catálogo a los rompemuelles altos, y los repuestos de carrocería pueden tardar. Mayor riesgo individual: golpes en el piso y la depreciación. No lo recomendamos a quien circule por barrios con topes altos."
+      para_quien_si: "Conductor de autopista con carga en casa que quiere desempeño eléctrico."
+      para_quien_no: "Quien vive en zona de rompemuelles altos o prioriza reventa."
+      pros_reales: ["313 hp y 570 km WLTP", "5 estrellas Euro NCAP (2023)", "Equipamiento completo"]
+      contras:
+        - {componente: "Despeje", descripcion: "120 mm con batería integrada en el chasis.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Repuestos de carrocería", descripcion: "Importados bajo pedido.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Premium RWD, precio_base_cop: 189900000}
+      - {anio: 2026, version: Performance AWD, precio_base_cop: 219900000, motor_descripcion: "Dos motores eléctricos AWD", potencia_hp: 530, torque_nm: 670, aceleracion_0_100_seg: 3.8, potencia_electrica_kw: 390, traccion: AWD, autonomia_estimada_km: 520, consumo_kwh_100km: 18.1, peso_vacio_kg: 2185, medida_llantas: "245/45 R19"}
+
+  - modelo: Song Plus DM-i
+    generacion: Primera generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-05-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "1.5 DM-i + motor eléctrico (PHEV)", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 197, rpm_potencia_max: 6000, torque_nm: 325, rpm_torque_max: null, aceleracion_0_100_seg: 8.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 145, capacidad_bateria_kwh: 18.3, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: 18}
+    chasis: {transmision_tipo: e-CVT (DHT), traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "235/50 R19"}
+    dim: {largo_mm: 4775, ancho_sin_espejos_mm: 1890, alto_mm: 1670, distancia_entre_ejes_mm: 2765, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1900, capacidad_baul_litros: 574, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 20.0, consumo_real_estimado_kml: 15.5, consumo_kwh_100km: 17.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 15.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 5.8, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: una SUV mediana híbrida enchufable que recorre cerca de 80–100 km en modo eléctrico (estimado) y luego funciona como híbrido muy eficiente, con baúl de 574 litros y equipamiento abundante. Si se carga a diario, el gasto de gasolina en ciudad puede ser mínimo; si no se carga, sigue siendo un híbrido correcto. La carga rápida DC es simbólica y la red BYD aún crece. Mayor riesgo individual: la reventa de un PHEV de marca nueva en el país. No la recomendamos a quien no pueda cargar en casa."
+      para_quien_si: "Familia con carga en casa que quiere manejar eléctrico en ciudad sin ansiedad en viajes."
+      para_quien_no: "Quien no tiene dónde cargar o prioriza reventa."
+      pros_reales: ["Modo eléctrico para la ciudad", "Baúl de 574 litros", "Exenta de pico y placa en Bogotá (verifica la norma)"]
+      contras:
+        - {componente: "Carga DC", descripcion: "Limitada; pensada para carga en casa.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Ancho", descripcion: "1.890 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GS DM-i, precio_base_cop: 149900000}
+
+  - modelo: Song Pro DM-i
+    generacion: Primera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2024-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "1.5 DM-i + motor eléctrico (PHEV)", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 177, rpm_potencia_max: 6000, torque_nm: 300, rpm_torque_max: null, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 132, capacidad_bateria_kwh: 12.9, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: null}
+    chasis: {transmision_tipo: e-CVT (DHT), traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "225/60 R18"}
+    dim: {largo_mm: 4738, ancho_sin_espejos_mm: 1860, alto_mm: 1710, distancia_entre_ejes_mm: 2712, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1740, capacidad_baul_litros: 520, capacidad_tanque_galones: 13.7}
+    consumo: {consumo_mixto_kml: 20.0, consumo_real_estimado_kml: 15.5, consumo_kwh_100km: 16.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 12.8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 5.8, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la puerta de entrada al híbrido enchufable de BYD, con batería de 12,9 kWh que permite unos 50–70 km eléctricos (estimado) y luego un consumo de híbrido eficiente. Es amplia (520 litros) y bien equipada para su precio, pero sin carga rápida DC y con una red de servicio aún en crecimiento. La reventa en Colombia no tiene historial. Mayor riesgo individual: la depreciación. No la recomendamos a quien no tenga dónde cargar en casa, porque pierde su principal ventaja."
+      para_quien_si: "Familia con carga en casa que hace trayectos diarios cortos."
+      para_quien_no: "Quien no puede cargar en casa."
+      pros_reales: ["Modo eléctrico diario", "Baúl de 520 litros", "Garantía de 6 años"]
+      contras:
+        - {componente: "Sin carga rápida", descripcion: "Solo carga AC.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Reventa", descripcion: "Sin historial en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: GS DM-i, precio_base_cop: 129900000}
+
+  - modelo: Sealion 7
+    generacion: Primera generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2025-03-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico trasero 230 kW", alimentacion: Eléctrico, potencia_hp: 313, torque_nm: 380, aceleracion_0_100_seg: 6.7, velocidad_maxima_kmh: 215, potencia_electrica_kw: 230, capacidad_bateria_kwh: 82.5, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 150}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Trasera, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.9, medida_llantas: "235/50 R20"}
+    dim: {largo_mm: 4830, ancho_sin_espejos_mm: 1925, alto_mm: 1620, distancia_entre_ejes_mm: 2930, distancia_libre_suelo_mm: 165, peso_vacio_kg: 2225, capacidad_baul_litros: 520, autonomia_estimada_km: 482, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 19.0, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 11, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2025, ncap_protocolo: "Euro NCAP 2025", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 15.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.4, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 5.6, costo_reparaciones: 5.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un SUV coupé eléctrico grande, con 313 hp, 11 airbags y un interior muy tecnológico. Lleva poco tiempo en el mercado y no tiene historial local; mide casi 1,93 m de ancho sin espejos, justo para plazas de 2,40 m, y su eficiencia (cerca de 19 kWh cada 100 km) es menor que la de eléctricos más aerodinámicos. Mayor riesgo individual: la depreciación y los tiempos de reparación de carrocería. No lo recomendamos a quien parquee en sótanos estrechos."
+      para_quien_si: "Quien quiere un SUV eléctrico grande y muy equipado a precio competitivo."
+      para_quien_no: "Quien prioriza reventa o eficiencia."
+      pros_reales: ["313 hp sin pérdida en altura", "11 airbags", "Equipamiento de lujo por su precio"]
+      contras:
+        - {componente: "Ancho", descripcion: "1.925 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Historial", descripcion: "Sin historial local.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Premium RWD, precio_base_cop: 209900000}
+
+  - modelo: Tang EV
+    generacion: Segunda generación
+    segmento: SUV Grande
+    carroceria: SUV
+    plazas: 7
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2022-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Dos motores eléctricos AWD", alimentacion: Eléctrico, potencia_hp: 517, torque_nm: 680, aceleracion_0_100_seg: 4.6, velocidad_maxima_kmh: 180, potencia_electrica_kw: 380, capacidad_bateria_kwh: 108.8, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 170}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: AWD, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 6.0, medida_llantas: "265/45 R21"}
+    dim: {largo_mm: 4900, ancho_sin_espejos_mm: 1950, alto_mm: 1725, distancia_entre_ejes_mm: 2820, distancia_libre_suelo_mm: 180, peso_vacio_kg: 2560, capacidad_baul_litros: 235, capacidad_baul_abatido_litros: 1655, autonomia_estimada_km: 530, autonomia_ciclo: NEDC}
+    consumo: {consumo_kwh_100km: 22.0, ciclo_homologacion: NEDC}
+    seg: {numero_airbags: 9, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 15.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 5.4, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: SUV eléctrica de siete puestos con 517 hp y 5 estrellas Euro NCAP (protocolo 2022). Ojo con la autonomía: los 530 km publicados son del ciclo NEDC, más optimista que el WLTP; en uso real estimamos cerca de 400 km. Pesa 2,56 toneladas, gasta neumáticos y frenos rápido y su ancho de 1,95 m es justo en parqueaderos. Mayor riesgo individual: la depreciación de un eléctrico grande de marca nueva. No la recomendamos a quien compare su autonomía NEDC con la WLTP de otros."
+      para_quien_si: "Familia grande con carga en casa que quiere un eléctrico de siete puestos."
+      para_quien_no: "Quien viaja lejos sin planear la carga o prioriza reventa."
+      pros_reales: ["Siete puestos eléctricos", "517 hp", "5 estrellas Euro NCAP (2022)"]
+      contras:
+        - {componente: "Autonomía en ciclo NEDC", descripcion: "Cifra optimista frente a WLTP.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Peso", descripcion: "2.560 kg: desgaste acelerado de llantas.", km_tipico: "30.000", costo_reparacion_cop_aprox: 5000000, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: "AWD 108,8 kWh", precio_base_cop: 259900000, fecha_precio: 2025-01-01}
+
+  - modelo: Han EV
+    generacion: Primera generación
+    segmento: Sedán D
+    carroceria: Sedán
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2022-03-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Dos motores eléctricos AWD", alimentacion: Eléctrico, potencia_hp: 517, torque_nm: 680, aceleracion_0_100_seg: 3.9, velocidad_maxima_kmh: 180, potencia_electrica_kw: 380, capacidad_bateria_kwh: 85.4, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 120}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.9, medida_llantas: "245/45 R19"}
+    dim: {largo_mm: 4995, ancho_sin_espejos_mm: 1910, alto_mm: 1495, distancia_entre_ejes_mm: 2920, distancia_libre_suelo_mm: 130, peso_vacio_kg: 2350, capacidad_baul_litros: 410, autonomia_estimada_km: 521, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 17.6, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 11, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 15.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 5.4, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un sedán ejecutivo eléctrico de cinco metros con 517 hp, 11 airbags y acabados de lujo a un precio de sedán medio alemán. Su despeje de 130 mm con batería bajo el piso y su largo de casi 5 m lo hacen poco práctico en ciudad colombiana, y la red de repuestos de carrocería es limitada. Mayor riesgo individual: la depreciación de un sedán eléctrico grande de marca nueva. No lo recomendamos a quien parquee en plazas de 5 m o viva en zona de topes altos."
+      para_quien_si: "Ejecutivo con carga en casa que quiere lujo y desempeño eléctrico."
+      para_quien_no: "Quien prioriza reventa o practicidad urbana."
+      pros_reales: ["517 hp y tracción integral", "11 airbags", "Acabados de lujo"]
+      contras:
+        - {componente: "Despeje", descripcion: "130 mm con batería bajo el piso.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Largo", descripcion: "4.995 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: "AWD 85,4 kWh", precio_base_cop: 229900000, fecha_precio: 2025-01-01}
+
+  - modelo: King DM-i
+    generacion: Primera generación
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2024-08-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "1.5 DM-i + motor eléctrico (PHEV)", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 177, rpm_potencia_max: 6000, torque_nm: 300, rpm_torque_max: null, aceleracion_0_100_seg: 7.9, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 132, capacidad_bateria_kwh: 8.3, potencia_carga_ac_kw: 3.3, potencia_carga_dc_kw: null}
+    chasis: {transmision_tipo: e-CVT (DHT), traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4780, ancho_sin_espejos_mm: 1837, alto_mm: 1515, distancia_entre_ejes_mm: 2718, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1560, capacidad_baul_litros: 450, capacidad_tanque_galones: 12.7}
+    consumo: {consumo_mixto_kml: 26.0, consumo_real_estimado_kml: 21.0, consumo_kwh_100km: 14.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 12.8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 5.8, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un sedán C híbrido enchufable con precio de sedán a gasolina, que hace unos 40 km eléctricos (versión de 8,3 kWh, estimado) o unos 90 km (18,3 kWh) y luego consume como un híbrido muy eficiente: es de los menores costos por kilómetro del catálogo. Es popular en plataformas de transporte. Su despeje de 135 mm y la red de servicio aún en crecimiento son sus límites. Mayor riesgo individual: la reventa de un PHEV de marca nueva en el país. No lo recomendamos a quien circule por barrios con topes altos."
+      para_quien_si: "Quien recorre muchos kilómetros en ciudad y quiere el menor costo de energía."
+      para_quien_no: "Quien prioriza reventa o vive en zona de rompemuelles altos."
+      pros_reales: ["Consumo real superior a 20 km/l en modo híbrido", "Precio de sedán a gasolina", "Exento de pico y placa en Bogotá (verifica la norma)"]
+      contras:
+        - {componente: "Despeje", descripcion: "135 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Carga lenta", descripcion: "3,3 kW AC en la versión de entrada.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: "GL 8,3 kWh", precio_base_cop: 99900000}
+      - {anio: 2026, version: "GS 18,3 kWh", precio_base_cop: 109900000, capacidad_bateria_kwh: 18.3, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: 18, peso_vacio_kg: 1620, carga_inalambrica: true, adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+
+  - modelo: Shark
+    generacion: Primera generación
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2025-02-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "1.5 Turbo DMO + dos motores eléctricos (PHEV)", cilindraje_cc: 1497, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 430, rpm_potencia_max: 5500, torque_nm: 650, rpm_torque_max: null, aceleracion_0_100_seg: 5.7, velocidad_maxima_kmh: 160, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 320, capacidad_bateria_kwh: 29.6, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: 55}
+    chasis: {transmision_tipo: e-CVT (DHT), traccion: AWD, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 6.3, medida_llantas: "265/65 R18", profundidad_vadeo_mm: 700, capacidad_remolque_kg: 2500}
+    dim: {largo_mm: 5457, ancho_sin_espejos_mm: 1971, alto_mm: 1925, distancia_entre_ejes_mm: 3260, distancia_libre_suelo_mm: 230, peso_vacio_kg: 2710, capacidad_carga_kg: 835, capacidad_baul_litros: 1450, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, consumo_kwh_100km: 25.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 6, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 200000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.2, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 5.4, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la primera pickup híbrida enchufable del mercado, con 430 hp, unos 80 km eléctricos (estimado) y exención de pico y placa en Bogotá. Pero es una pickup de carrocería monocasco sobre bastidor reforzado, con 835 kg de carga útil, menos que una Hilux, y pesa 2,7 toneladas. Mide 5,46 m: no cabe en una plaza estándar. Lleva muy poco en el país y su red de servicio es limitada. Mayor riesgo individual: reparaciones del sistema híbrido lejos de las capitales. No la recomendamos como herramienta de trabajo rural pesado."
+      para_quien_si: "Quien quiere una pickup de uso mixto con modo eléctrico para la ciudad."
+      para_quien_no: "Quien trabaja en zonas rurales lejanas o carga peso a diario."
+      pros_reales: ["430 hp y modo eléctrico", "Exenta de pico y placa en Bogotá (verifica la norma)", "Equipamiento de SUV de lujo"]
+      contras:
+        - {componente: "Tamaño", descripcion: "5.457 mm de largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Carga útil", descripcion: "835 kg.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GS PHEV AWD, precio_base_cop: 219900000}
