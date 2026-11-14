@@ -28,53 +28,56 @@ const datosClave = computed(() => {
 </script>
 
 <template>
-  <article :class="['tarjeta group relative flex gap-4 p-3 transition hover:border-tinta/40', lista ? 'flex-row items-center' : 'flex-col']">
-    <RouterLink :to="`/vehiculo/${v.slug}`" :class="lista ? 'w-40 shrink-0 sm:w-56' : ''" :aria-label="`Ver ficha de ${nombre} ${v.version}`">
+  <article :class="['tarjeta group relative flex transition-colors hover:border-tinta', lista ? 'flex-col sm:flex-row' : 'h-full flex-col']">
+    <RouterLink :to="`/vehiculo/${v.slug}`" :class="['block shrink-0', lista ? 'sm:w-72' : '']" :aria-label="`Ver ficha de ${nombre} ${v.version}`" tabindex="-1">
       <ImagenVehiculo :medidas="v" :nombre="nombre" />
     </RouterLink>
-    <div class="flex min-w-0 flex-1 flex-col gap-2">
-      <div class="flex items-start justify-between gap-2">
+    <div class="flex min-w-0 flex-1 flex-col p-6">
+      <div class="flex items-start justify-between gap-3">
         <div class="min-w-0">
-          <p class="etiqueta">{{ v.segmento }} · {{ v.anio }}</p>
-          <h3 class="truncate text-lg font-semibold">
+          <p class="etiqueta truncate">{{ v.segmento }} · {{ v.anio }}</p>
+          <h3 class="mt-2 truncate text-2xl leading-tight">
             <RouterLink :to="`/vehiculo/${v.slug}`" class="hover:underline">{{ nombre }}</RouterLink>
           </h3>
-          <p class="truncate text-sm text-tenue">{{ v.version }}</p>
+          <p class="mt-1 truncate text-sm text-tenue">{{ v.version }}</p>
         </div>
         <button
-          class="grid h-11 w-11 shrink-0 place-items-center rounded-full hover:bg-linea/50"
+          class="boton-icono -mr-2 -mt-2 h-11 w-11 bg-transparent"
           :aria-pressed="fav.es(v.id)"
           :aria-label="fav.es(v.id) ? 'Quitar de favoritos' : 'Agregar a favoritos'"
           @click="fav.alternar(v.id)"
         >
-          <Heart :class="['h-5 w-5', fav.es(v.id) ? 'fill-roja text-roja' : '']" aria-hidden="true" />
+          <Heart :class="['h-5 w-5', fav.es(v.id) ? 'fill-tinta' : '']" aria-hidden="true" />
         </button>
       </div>
-      <div class="flex flex-wrap items-baseline gap-x-3 num">
-        <span class="text-sm text-tenue">Base {{ f.dinero(v.precio_base_cop) }}</span>
-        <span class="font-semibold">En calle {{ f.dinero(v.precio_total_en_calle_cop) }}</span>
+
+      <div class="mt-5 num">
+        <p class="etiqueta">En calle</p>
+        <p class="mt-1 text-2xl font-bold leading-tight text-tinta">{{ f.dinero(v.precio_total_en_calle_cop) }}</p>
+        <p class="mt-1 text-sm text-tenue">Base {{ f.dinero(v.precio_base_cop) }}</p>
       </div>
-      <dl class="grid grid-cols-3 gap-2 text-xs">
-        <div v-for="d in datosClave" :key="d.etiqueta">
-          <dt class="text-tenue">{{ d.etiqueta }}</dt>
-          <dd class="font-medium num">{{ d.valor }}</dd>
+
+      <dl class="mt-5 grid grid-cols-3 gap-4 border-t border-linea pt-4">
+        <div v-for="d in datosClave" :key="d.etiqueta" class="min-w-0">
+          <dt class="truncate text-xs font-normal tracking-[0.5px] text-tenue">{{ d.etiqueta }}</dt>
+          <dd class="mt-1 truncate text-sm font-bold text-tinta num">{{ d.valor }}</dd>
         </div>
       </dl>
-      <div class="mt-auto flex items-center justify-between gap-2 pt-1">
+
+      <div class="mt-auto flex flex-wrap items-center justify-between gap-x-3 gap-y-1 pt-5">
         <RouterLink
           :to="`/reviews/${v.slug}`"
-          :class="['inline-flex items-center gap-1 rounded-full px-2 py-1 text-xs font-semibold num',
-                   v.tiene_alerta_roja ? 'bg-roja/15 text-roja' : v.puntaje_fiabilidad >= 7 ? 'bg-mejor/15 text-mejor' : 'bg-linea/60']"
+          :class="['insignia min-h-[28px] num', v.tiene_alerta_roja ? 'bg-roja text-white' : v.puntaje_fiabilidad >= 7 ? 'border border-mejor text-mejor' : 'border border-linea text-tenue']"
           :aria-label="`Fiabilidad ${v.puntaje_fiabilidad} de 10${v.tiene_alerta_roja ? ', con alerta roja' : ''}`"
         >
           <ShieldAlert v-if="v.tiene_alerta_roja" class="h-3.5 w-3.5" aria-hidden="true" />
           Fiabilidad {{ f.numero(v.puntaje_fiabilidad, 1) }}
           <span v-if="v.tiene_alerta_roja">· Alerta roja</span>
         </RouterLink>
-        <label class="flex min-h-[44px] cursor-pointer items-center gap-2 text-sm" :title="comp.lleno && !comp.tiene(v.id) ? T.maximo10 : ''">
+        <label class="flex min-h-[44px] cursor-pointer items-center gap-2 text-xs font-bold uppercase tracking-maquinado text-tinta" :title="comp.lleno && !comp.tiene(v.id) ? T.maximo10 : ''">
           <input
             type="checkbox"
-            class="h-4 w-4 accent-[rgb(var(--tinta))]"
+            class="h-4 w-4"
             :checked="comp.tiene(v.id)"
             :disabled="comp.lleno && !comp.tiene(v.id)"
             @change="comp.alternar(v.id)"
