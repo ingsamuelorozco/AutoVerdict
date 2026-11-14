@@ -60,7 +60,7 @@ const actual = computed(() => PREGUNTAS[paso.value])
     <div v-if="paso < PREGUNTAS.length" class="tarjeta mt-12 p-6 lg:p-10">
       <p class="etiqueta num">Pregunta {{ paso + 1 }} de {{ PREGUNTAS.length }}</p>
       <div class="mt-3 h-1 bg-linea"><div class="h-1 bg-tinta transition-all" :style="{ width: `${((paso + 1) / PREGUNTAS.length) * 100}%` }" /></div>
-      <h2 class="mt-6 text-2xl font-semibold">{{ actual.t }}</h2>
+      <h2 class="mt-8 text-display-sm normal-case tracking-normal">{{ actual.t }}</h2>
       <div class="mt-6">
         <label v-if="actual.k === 'presupuesto'" class="block">Hasta <strong class="num">{{ f.cop(r.presupuesto * 1_000_000) }}</strong><input v-model.number="r.presupuesto" type="range" min="40" max="500" step="5" class="mt-2 w-full" /></label>
         <div v-else-if="actual.k === 'uso'" class="flex flex-wrap gap-2"><button v-for="[v, t] in [['ciudad', 'Ciudad'], ['carretera', 'Carretera'], ['mixto', 'Mixto'], ['destapado', 'Fincas y destapado']]" :key="v" :class="['chip min-h-[48px] px-5 text-base', r.uso === v ? 'chip-activo' : '']" @click="r.uso = v">{{ t }}</button></div>

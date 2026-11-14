@@ -82,7 +82,7 @@ const agrupados = (a: Act) => CATEGORIAS.map((c) => [c, a.cambios.filter((x) => 
               <span class="insignia bg-tinta text-papel">{{ a.tipo }}</span>
               <span v-for="c in a.categorias" :key="c" class="insignia border border-linea text-tenue">{{ c }}</span>
             </div>
-            <h2 class="mt-3 text-xl font-semibold">{{ a.titulo }}</h2>
+            <h2 class="mt-4 text-2xl normal-case tracking-normal">{{ a.titulo }}</h2>
             <p class="mt-2 line-clamp-2 text-tenue">{{ a.resumen }}</p>
             <dl class="mt-6 grid grid-cols-2 gap-px border border-linea bg-linea text-sm">
               <div class="bg-suave p-4"><dt class="etiqueta">Diferencia de precio</dt><dd class="mt-2 text-lg font-bold num">{{ a.delta_precio_cop == null ? '—' : (a.delta_precio_cop > 0 ? '+' : '') + f.dinero(a.delta_precio_cop) }}<BadgeEstimado /></dd></div>
