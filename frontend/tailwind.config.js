@@ -3,6 +3,8 @@ export default {
   content: ['./index.html', './src/**/*.{vue,ts}'],
   darkMode: 'class',
   theme: {
+    // Radio binario: todo es rectangular salvo los controles circulares (rounded-full).
+    borderRadius: { none: '0', sm: '0', DEFAULT: '0', md: '0', lg: '0', xl: '0', '2xl': '0', '3xl': '0', full: '9999px' },
     extend: {
       fontFamily: {
         // Inter es el sustituto abierto de BMW Type Next Latin: 700 para titulares, 300 para cuerpo.
@@ -36,6 +38,8 @@ export default {
         ambar: 'rgb(var(--ambar) / <alpha-value>)',
         roja: 'rgb(var(--roja) / <alpha-value>)',
       },
+      spacing: { seccion: '96px' },
+      maxWidth: { contenido: '1440px' },
       transitionDuration: { DEFAULT: '240ms' },
     },
   },
