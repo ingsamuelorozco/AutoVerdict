@@ -1,0 +1,364 @@
+marca: Hyundai
+pais_origen: Corea del Sur
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Grand i10 Hatchback
+    generacion: Tercera generación
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2020-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 Kappa", cilindraje_cc: 1197, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 83, rpm_potencia_max: 6000, torque_nm: 114, rpm_torque_max: 4000, aceleracion_0_100_seg: 13.5, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.8, medida_llantas: "165/70 R14"}
+    dim: {largo_mm: 3815, ancho_sin_espejos_mm: 1680, alto_mm: 1520, distancia_entre_ejes_mm: 2450, distancia_libre_suelo_mm: 157, peso_vacio_kg: 950, capacidad_baul_litros: 260, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.5}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.8, repuestos_y_red: 8.4, costo_reparaciones: 8.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un citadino de mecánica sencilla y barata, con cinco años de garantía y consumo real cercano a 14,5 km/l, fabricado en India. La versión de entrada tiene solo dos airbags y frenos traseros de tambor; la protección en choques de esta familia no destaca. El 1.2 de 83 hp es lento en Bogotá con cuatro ocupantes. Mayor riesgo individual: elegir la versión de dos airbags para llevar niños. No lo recomendamos para carretera frecuente ni como único carro familiar."
+      para_quien_si: "Conductor urbano que quiere un carro barato, nuevo y con garantía larga."
+      para_quien_no: "Familias o quien viaja seguido por carretera."
+      pros_reales: ["Cinco años de garantía", "Mantenimiento barato", "Fácil de parquear"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags en la versión de entrada.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Potencia en altura", descripcion: "83 hp atmosféricos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Comfort 1.2 MT, precio_base_cop: 57900000}
+      - {anio: 2026, version: Premium 1.2 AMT, precio_base_cop: 64900000, transmision_tipo: Automatizada AMT, numero_airbags: 6, camara_reversa: true}
+
+  - modelo: Grand i10 Sedán
+    generacion: Tercera generación
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2020-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 Kappa", cilindraje_cc: 1197, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 83, rpm_potencia_max: 6000, torque_nm: 114, rpm_torque_max: 4000, aceleracion_0_100_seg: 13.8, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.8, medida_llantas: "165/70 R14"}
+    dim: {largo_mm: 3995, ancho_sin_espejos_mm: 1680, alto_mm: 1520, distancia_entre_ejes_mm: 2450, distancia_libre_suelo_mm: 157, peso_vacio_kg: 980, capacidad_baul_litros: 402, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 16.8, consumo_real_estimado_kml: 14.3}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.8, repuestos_y_red: 8.4, costo_reparaciones: 8.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el sedán más corto del mercado (menos de 4 m) con un baúl útil de 402 litros, mecánica 1.2 atmosférica y cinco años de garantía. Es muy popular como carro de plataforma por su bajo costo de uso. Sus límites: el 1.2 es lento con carga en altura, el aislamiento acústico es pobre en carretera y la estructura es liviana. Mayor riesgo individual: comprar un usado de plataforma con desgaste alto. No lo recomendamos para viajes largos frecuentes."
+      para_quien_si: "Quien necesita un sedán pequeño y económico para ciudad o trabajo en plataformas."
+      para_quien_no: "Quien viaja seguido por carretera con la familia."
+      pros_reales: ["Baúl de 402 litros en menos de 4 m", "Cinco años de garantía", "Consumo bajo"]
+      contras:
+        - {componente: "Aislamiento", descripcion: "Ruido de motor y rodadura en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Potencia", descripcion: "83 hp atmosféricos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Premium 1.2 MT, precio_base_cop: 61900000}
+
+  - modelo: Accent
+    generacion: BN7
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2024-07-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 MPI Smartstream", cilindraje_cc: 1497, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 115, rpm_potencia_max: 6300, torque_nm: 144, rpm_torque_max: 4500, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4535, ancho_sin_espejos_mm: 1765, alto_mm: 1475, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 165, peso_vacio_kg: 1130, capacidad_baul_litros: 528, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.6}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, camara_reversa: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.8, repuestos_y_red: 8.2, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es un sedán B que por tamaño (4,54 m) y baúl (528 litros) compite con sedanes C, con seis airbags y cinco años de garantía. El 1.5 atmosférico es suficiente en ciudad pero justo en montaña, y la versión automática usa la IVT, una CVT propia de Hyundai-Kia. Es una generación reciente con historial local corto. Mayor riesgo individual: descuidar el fluido de la IVT. No lo recomendamos a quien busque desempeño."
+      para_quien_si: "Familia que quiere un sedán amplio y económico con garantía larga."
+      para_quien_no: "Quien prioriza desempeño o una caja automática convencional."
+      pros_reales: ["Baúl de 528 litros", "Seis airbags", "Cinco años de garantía"]
+      contras:
+        - {componente: "Potencia en altura", descripcion: "115 hp atmosféricos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Historial", descripcion: "Generación reciente.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Comfort 1.5 MT, precio_base_cop: 79900000}
+      - {anio: 2026, version: Premium 1.5 IVT, precio_base_cop: 89900000, transmision_tipo: CVT (IVT), numero_velocidades: null, aire_acondicionado: Automático, llave_inteligente: true, luces_led: true, medida_llantas: "205/55 R16", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+
+  - modelo: Venue
+    generacion: QX
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2020-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 MPI Gamma", cilindraje_cc: 1591, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 121, rpm_potencia_max: 6300, torque_nm: 151, rpm_torque_max: 4850, aceleracion_0_100_seg: 11.8, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "205/65 R16"}
+    dim: {largo_mm: 4040, ancho_sin_espejos_mm: 1770, alto_mm: 1590, distancia_entre_ejes_mm: 2520, distancia_libre_suelo_mm: 195, peso_vacio_kg: 1180, capacidad_baul_litros: 355, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.3}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, camara_reversa: true, aire_acondicionado: Automático}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.8, repuestos_y_red: 8.2, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una SUV pequeña con caja automática convencional de 6 velocidades (no CVT), despeje de 195 mm y cinco años de garantía, una combinación sencilla y robusta. El 1.6 atmosférico pierde cerca de una cuarta parte de su potencia en Bogotá (estimado) y el baúl de 355 litros es pequeño. Mayor riesgo individual: quedarse corto de espacio si la familia crece. No la recomendamos a familias de cuatro que viajen con equipaje."
+      para_quien_si: "Pareja o persona sola que quiere una SUV compacta simple y duradera."
+      para_quien_no: "Familias con equipaje frecuente."
+      pros_reales: ["Caja automática convencional", "Despeje de 195 mm", "Cinco años de garantía"]
+      contras:
+        - {componente: "Baúl", descripcion: "355 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros.", km_tipico: "40.000", costo_reparacion_cop_aprox: 450000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Premium 1.6 AT, precio_base_cop: 89900000, pantalla_multimedia_pulgadas: 8, luces_led: true}
+      - {anio: 2024, version: Premium 1.6 AT, precio_base_cop: 86900000, fecha_precio: 2024-02-01}
+
+  - modelo: Creta
+    generacion: SU2 (segunda generación)
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2021-05-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 MPI Smartstream", cilindraje_cc: 1497, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 115, rpm_potencia_max: 6300, torque_nm: 144, rpm_torque_max: 4500, aceleracion_0_100_seg: 12.0, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT (IVT), traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/60 R17"}
+    dim: {largo_mm: 4330, ancho_sin_espejos_mm: 1790, alto_mm: 1635, distancia_entre_ejes_mm: 2610, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1250, capacidad_baul_litros: 433, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.6}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.8, repuestos_y_red: 8.2, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: una de las SUV más vendidas del país, con buen espacio, despeje de 190 mm y cinco años de garantía. La generación vigente usa un 1.5 atmosférico con caja IVT (CVT propia de Hyundai-Kia); la anterior, un 1.6 con caja automática convencional, más simple a largo plazo. En altura y con carga ambos se sienten justos. Mayor riesgo individual: el hurto de autopartes, alto en este modelo. No la recomendamos a quien necesite potencia para viajar lleno por montaña."
+      para_quien_si: "Familia pequeña que quiere una SUV práctica, con garantía larga y buena red."
+      para_quien_no: "Quien viaja cargado por montaña con frecuencia."
+      pros_reales: ["Despeje de 190 mm", "Cinco años de garantía", "Red de servicio amplia"]
+      contras:
+        - {componente: "Potencia en altura", descripcion: "115 hp atmosféricos para 1.250 kg.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Caja IVT", descripcion: "Mantenimiento del fluido determinante para su vida útil.", km_tipico: "60.000", costo_reparacion_cop_aprox: 700000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Premium 1.5 IVT, precio_base_cop: 109900000}
+      - {anio: 2026, version: Limited 1.5 IVT, precio_base_cop: 119900000, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+      - {anio: 2024, version: Premium 1.6 AT, precio_base_cop: 104900000, fecha_precio: 2024-02-01, motor_descripcion: "1.6 MPI Gamma", cilindraje_cc: 1591, potencia_hp: 121, torque_nm: 151, rpm_torque_max: 4850, transmision_tipo: Automática, numero_velocidades: 6, pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable}
+
+  - modelo: Tucson
+    generacion: NX4
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2021-08-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 MPI Nu", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 154, rpm_potencia_max: 6200, torque_nm: 192, rpm_torque_max: 4500, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "235/60 R18", capacidad_remolque_kg: 1650}
+    dim: {largo_mm: 4630, ancho_sin_espejos_mm: 1865, alto_mm: 1665, distancia_entre_ejes_mm: 2755, distancia_libre_suelo_mm: 181, peso_vacio_kg: 1530, capacidad_baul_litros: 539, capacidad_baul_abatido_litros: 1860, capacidad_tanque_galones: 14.3}
+    consumo: {consumo_mixto_kml: 12.8, consumo_real_estimado_kml: 10.8}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2021, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.6, repuestos_y_red: 8.2, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: gemela técnica de la Sportage, con diseño más llamativo, baúl de 539 litros, 5 estrellas Euro NCAP (protocolo 2020) y cinco años de garantía. La versión 2.0 atmosférica con caja convencional es la más simple de mantener, aunque lenta en altura; la híbrida 1.6 turbo AWD rinde mucho mejor y gasta menos, pero suma complejidad. Mayor riesgo individual: el costo del sistema híbrido fuera de garantía. No recomendamos la 2.0 a quien viaje lleno por montaña."
+      para_quien_si: "Familia que quiere espacio, tecnología y una garantía larga."
+      para_quien_no: "Quien prioriza la máxima reventa del segmento."
+      pros_reales: ["Baúl de 539 litros", "5 estrellas Euro NCAP (2020)", "Cinco años de garantía"]
+      contras:
+        - {componente: "Motor 2.0 en altura", descripcion: "Lento con carga en Bogotá.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Botones táctiles", descripcion: "Controles de climatización táctiles poco prácticos en marcha.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Premium 2.0 AT, precio_base_cop: 149900000}
+      - {anio: 2026, version: Limited 1.6T HEV AWD, precio_base_cop: 189900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 T-GDi híbrido", cilindraje_cc: 1598, alimentacion: Turbo, potencia_hp: 230, rpm_potencia_max: 5500, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.0, traccion: AWD, potencia_electrica_kw: 44, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.8, peso_vacio_kg: 1700, capacidad_baul_litros: 616, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero, Cámara 360]}
+
+  - modelo: Santa Fe
+    generacion: MX5
+    segmento: SUV Grande
+    carroceria: SUV
+    plazas: 7
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2024-05-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 T-GDi híbrido", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 232, rpm_potencia_max: 5500, torque_nm: 367, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 47, capacidad_bateria_kwh: 1.65}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "255/45 R20", capacidad_remolque_kg: 1650}
+    dim: {largo_mm: 4830, ancho_sin_espejos_mm: 1900, alto_mm: 1720, distancia_entre_ejes_mm: 2815, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1950, capacidad_baul_litros: 300, capacidad_baul_abatido_litros: 1950, capacidad_tanque_galones: 17.7}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.5}
+    seg: {numero_airbags: 10, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 5, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 7.4, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la nueva Santa Fe gana una tercera fila más utilizable y un baúl muy cuadrado; su tren híbrido 1.6 turbo con caja de 6 velocidades convencional da consumo de compacto. Es una generación nueva con historial local corto, y con siete ocupantes en montaña el 1.6 turbo trabaja exigido. Las llantas de 20 pulgadas son caras. Mayor riesgo individual: reparaciones del sistema híbrido fuera de garantía. No la recomendamos a quien busque la opción más probada del segmento."
+      para_quien_si: "Familia de seis o siete que quiere consumo de híbrido y tecnología."
+      para_quien_no: "Quien prioriza mecánica probada por años en el país."
+      pros_reales: ["Tercera fila utilizable", "Consumo real cercano a 12,5 km/l", "Diez airbags"]
+      contras:
+        - {componente: "Historial", descripcion: "Generación nueva sin historial local.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Llantas de 20 pulgadas", descripcion: "Costosas de reemplazar.", km_tipico: "40.000", costo_reparacion_cop_aprox: 4800000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: HEV AWD 7P, precio_base_cop: 239900000}
+
+  - modelo: Kona
+    generacion: SX2
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2023-11-01
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 160 kW", alimentacion: Eléctrico, potencia_hp: 218, torque_nm: 255, aceleracion_0_100_seg: 7.8, velocidad_maxima_kmh: 172, potencia_electrica_kw: 160, capacidad_bateria_kwh: 65.4, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 100}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4355, ancho_sin_espejos_mm: 1825, alto_mm: 1575, distancia_entre_ejes_mm: 2660, distancia_libre_suelo_mm: 170, peso_vacio_kg: 1740, capacidad_baul_litros: 466, autonomia_estimada_km: 514, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 14.7, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 7.0, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la Kona eléctrica de 65 kWh es de las más eficientes del mercado (cerca de 15 kWh cada 100 km) y su autonomía WLTP supera los 500 km. La versión híbrida usa una caja de doble embrague en seco que en trancón con pendiente puede dar arranques bruscos. Ambas comparten un interior compacto: atrás caben dos adultos con comodidad, no tres. Mayor riesgo individual: en la eléctrica, la depreciación; en la híbrida, la DCT. No la recomendamos a familias de cinco."
+      para_quien_si: "Pareja urbana con carga en casa que quiere máxima eficiencia."
+      para_quien_no: "Familias de cinco o quien maneja en trancón de montaña con la versión híbrida."
+      pros_reales: ["Autonomía WLTP de 514 km", "Eficiencia energética muy alta", "Exenta de pico y placa (verifica la norma)"]
+      contras:
+        - {componente: "Espacio trasero", descripcion: "Para dos adultos, no tres.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Carga rápida", descripcion: "100 kW en DC.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: EV Limited 65 kWh, precio_base_cop: 179900000}
+      - {anio: 2026, version: HEV Limited, precio_base_cop: 134900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 GDi híbrido", cilindraje_cc: 1580, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 141, rpm_potencia_max: 5700, torque_nm: 265, rpm_torque_max: 1000, aceleracion_0_100_seg: 11.2, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 32, capacidad_bateria_kwh: 1.32, potencia_carga_ac_kw: null, potencia_carga_dc_kw: null, transmision_tipo: Doble embrague en seco DCT, numero_velocidades: 6, peso_vacio_kg: 1400, capacidad_baul_litros: 407, autonomia_estimada_km: null, autonomia_ciclo: Estimada, consumo_kwh_100km: null, ciclo_homologacion: Estimado, consumo_mixto_kml: 21.0, capacidad_tanque_galones: 10.3}
+
+  - modelo: Ioniq 5
+    generacion: NE
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2022-07-01
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico trasero 168 kW", alimentacion: Eléctrico, potencia_hp: 229, torque_nm: 350, aceleracion_0_100_seg: 7.5, velocidad_maxima_kmh: 185, potencia_electrica_kw: 168, capacidad_bateria_kwh: 84, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 240}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 6.0, medida_llantas: "235/55 R19"}
+    dim: {largo_mm: 4635, ancho_sin_espejos_mm: 1890, alto_mm: 1647, distancia_entre_ejes_mm: 3000, distancia_libre_suelo_mm: 160, peso_vacio_kg: 2000, capacidad_baul_litros: 527, autonomia_estimada_km: 570, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 17.0, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2021, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 5, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 6.8, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 6.8, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: plataforma E-GMP de 800 V con carga rápida de hasta 240 kW, batería de 84 kWh y distancia entre ejes de 3 m que da un espacio trasero de sedán grande. El despeje de 160 mm con batería bajo el piso pide cuidado en rompemuelles, y el ancho de casi 1,9 m es justo en parqueaderos antiguos. Mayor riesgo individual: la depreciación de eléctricos en Colombia. La versión N es un deportivo de 600+ hp con consumo y costo de llantas muy altos. No lo recomendamos a quien no tenga carga en casa."
+      para_quien_si: "Familia con carga en casa que quiere espacio, tecnología y viajes largos con carga rápida."
+      para_quien_no: "Quien depende de carga pública o parquea en sótanos estrechos."
+      pros_reales: ["Carga rápida de 800 V", "Espacio trasero sobresaliente", "5 estrellas Euro NCAP (2020)"]
+      contras:
+        - {componente: "Despeje", descripcion: "160 mm con batería bajo el piso.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Reventa", descripcion: "Los eléctricos aún se deprecian rápido en Colombia.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Long Range RWD 84 kWh, precio_base_cop: 239900000}
+      - {anio: 2025, version: N 84 kWh AWD, precio_base_cop: 329900000, fecha_precio: 2025-05-01, segmento: Deportivo, motor_descripcion: "Dos motores eléctricos AWD", potencia_hp: 641, torque_nm: 770, aceleracion_0_100_seg: 3.5, velocidad_maxima_kmh: 260, potencia_electrica_kw: 478, traccion: AWD, autonomia_estimada_km: 448, consumo_kwh_100km: 21.2, peso_vacio_kg: 2200, medida_llantas: "275/35 R21", distancia_libre_suelo_mm: 140}
+
+  - modelo: Ioniq 6
+    generacion: CE
+    segmento: Sedán D
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2023-08-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico trasero 168 kW", alimentacion: Eléctrico, potencia_hp: 229, torque_nm: 350, aceleracion_0_100_seg: 7.4, velocidad_maxima_kmh: 185, potencia_electrica_kw: 168, capacidad_bateria_kwh: 77.4, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 233}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "225/55 R18"}
+    dim: {largo_mm: 4855, ancho_sin_espejos_mm: 1880, alto_mm: 1495, distancia_entre_ejes_mm: 2950, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1950, capacidad_baul_litros: 401, autonomia_estimada_km: 614, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 14.3, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 5, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 6.8, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 6.4, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: es el eléctrico con mayor autonomía homologada del catálogo (614 km WLTP) gracias a su aerodinámica, con carga de 800 V. Pero es un sedán bajo: 135 mm de despeje con batería bajo el piso exige entrar despacio y en diagonal a cada rompemuelle; el baúl de 401 litros tiene boca estrecha y la altura trasera es justa. Mayor riesgo individual: golpes en el piso con rompemuelles altos. No lo recomendamos a quien circule por barrios con topes altos o vías destapadas."
+      para_quien_si: "Quien hace muchos kilómetros por autopista y quiere la mayor autonomía."
+      para_quien_no: "Quien vive en zonas con rompemuelles altos o necesita baúl práctico."
+      pros_reales: ["614 km WLTP de autonomía", "Eficiencia de 14,3 kWh cada 100 km", "Carga rápida de 800 V"]
+      contras:
+        - {componente: "Despeje", descripcion: "135 mm con batería bajo el piso.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Baúl", descripcion: "401 litros con boca de sedán.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: Long Range RWD, precio_base_cop: 229900000, fecha_precio: 2025-03-01}
+
+  - modelo: Palisade
+    generacion: LX2
+    segmento: SUV Grande
+    carroceria: SUV
+    plazas: 7
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2020-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "3.8 V6 Lambda", cilindraje_cc: 3778, cilindros: 6, valvulas: 24, alimentacion: Atmosférico, potencia_hp: 291, rpm_potencia_max: 6000, torque_nm: 355, rpm_torque_max: 5200, aceleracion_0_100_seg: 7.9, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "245/50 R20", capacidad_remolque_kg: 2200}
+    dim: {largo_mm: 4995, ancho_sin_espejos_mm: 1975, alto_mm: 1750, distancia_entre_ejes_mm: 2900, distancia_libre_suelo_mm: 203, peso_vacio_kg: 2050, capacidad_baul_litros: 311, capacidad_baul_abatido_litros: 2447, capacidad_tanque_galones: 18.8}
+    consumo: {consumo_mixto_kml: 8.8, consumo_real_estimado_kml: 7.3}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.2, electrica_electronica: 7.2, quejas_documentadas: 7.6, recalls: 7.2, repuestos_y_red: 7.0, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una SUV de ocho puestos con V6 atmosférico de 291 hp y caja automática convencional de 8 velocidades, una mecánica sin turbo ni hibridación que tiende a ser duradera. El precio a pagar es el consumo: cerca de 7,3 km/l reales, y casi 5 m de largo por 1,98 m de ancho que no caben con holgura en un parqueadero estándar. Mayor riesgo individual: el gasto en gasolina y la depreciación. No la recomendamos a quien circule sobre todo en ciudad."
+      para_quien_si: "Familia grande que viaja por carretera y valora una mecánica sin turbo."
+      para_quien_no: "Quien busca economía de uso o parquea en sótanos estrechos."
+      pros_reales: ["V6 atmosférico sin turbo", "Tercera fila amplia", "Equipamiento de seguridad completo"]
+      contras:
+        - {componente: "Consumo", descripcion: "Cerca de 7,3 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Dimensiones", descripcion: "4.995 mm de largo y 1.975 mm de ancho.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: Limited 3.8 V6 AWD, precio_base_cop: 279900000, fecha_precio: 2025-01-01}
+
+  - modelo: Elantra N
+    generacion: CN7
+    segmento: Deportivo
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2023-04-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "2.0 T-GDi", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 276, rpm_potencia_max: 6000, torque_nm: 392, rpm_torque_max: 2100, aceleracion_0_100_seg: 5.3, velocidad_maxima_kmh: 250, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 8, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.6, medida_llantas: "245/35 R19"}
+    dim: {largo_mm: 4675, ancho_sin_espejos_mm: 1825, alto_mm: 1415, distancia_entre_ejes_mm: 2720, distancia_libre_suelo_mm: 130, peso_vacio_kg: 1450, capacidad_baul_litros: 474, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 8.8}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.2, repuestos_y_red: 6.0, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un sedán deportivo de 276 hp con diferencial de deslizamiento limitado y caja de doble embrague húmeda de 8 velocidades, práctico como un sedán familiar (474 litros de baúl). Exige gasolina extra, consume cerca de 8,8 km/l reales y sus llantas de 19 pulgadas de alto desempeño son caras. El despeje de 130 mm obliga a cuidar cada rompemuelle. Mayor riesgo individual: repuestos específicos de la versión N, escasos en el país. No lo recomendamos a quien no tenga presupuesto para mantenimiento de alto desempeño."
+      para_quien_si: "Aficionado que quiere un deportivo usable a diario con cuatro puertas."
+      para_quien_no: "Quien busca economía de uso o vive en zona de rompemuelles altos."
+      pros_reales: ["276 hp turbo: poca pérdida en altura", "Baúl de sedán familiar", "Cinco años de garantía"]
+      contras:
+        - {componente: "Despeje", descripcion: "130 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1200000, severidad: Media}
+        - {componente: "Repuestos N", descripcion: "Frenos y suspensión específicos bajo pedido.", km_tipico: "Variable", costo_reparacion_cop_aprox: 5000000, severidad: Media}
+    versiones:
+      - {anio: 2025, version: N 2.0T DCT, precio_base_cop: 219900000, fecha_precio: 2025-02-01}
