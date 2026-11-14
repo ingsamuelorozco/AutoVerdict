@@ -15,7 +15,8 @@
     "penalizacion_por_100mm_voladizo": 5,
     "angulo_ventral_umbral_deg": 15,
     "penalizacion_angulo_ventral_mm": 10,
-    "topes_simulables_mm": [100, 120, 150]
+    "topes_simulables_mm": [100, 120, 150],
+    "margen_holgado_mm": 30
   },
   "garaje": {
     "plaza_largo_mm": 5000,
