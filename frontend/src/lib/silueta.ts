@@ -147,4 +147,4 @@ export function persona(altura = 1750): string {
 /** Trazos distintos para distinguir autos sin depender del color. */
 export const TRAZOS = ['', '14 8', '4 6', '18 6 4 6', '2 4', '24 10', '10 4 2 4', '6 6', '30 6 6 6', '8 3']
 /** Paleta apta para daltonismo (Okabe–Ito ampliada). */
-export const COLORES = ['#0072B2', '#D55E00', '#009E73', '#CC79A7', '#E69F00', '#56B4E9', '#7F3C8D', '#3D3D3D', '#B8860B', '#1B7F5B']
+export const COLORES = ['#0072B2', '#D55E00', '#009E73', '#CC79A7', '#E69F00', '#56B4E9', '#7F3C8D', '#8C8C8C', '#B8860B', '#1B7F5B']

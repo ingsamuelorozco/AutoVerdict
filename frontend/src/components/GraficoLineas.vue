@@ -42,7 +42,7 @@ const filtrosX = computed(() => (marcasX.value.length > 12 ? marcasX.value.filte
         </circle>
       </g>
     </svg>
-    <figcaption class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs">
+    <figcaption class="mt-4 flex flex-wrap gap-x-6 gap-y-2 border-t border-linea pt-4 text-xs tracking-[0.5px] text-tenue">
       <span v-for="(s, i) in series" :key="s.nombre" class="inline-flex items-center gap-2">
         <svg width="28" height="8" aria-hidden="true"><line x1="0" x2="28" y1="4" y2="4" :stroke="COLORES[i % COLORES.length]" stroke-width="2.5" :stroke-dasharray="TRAZOS[i % TRAZOS.length]" /></svg>
         {{ s.nombre }}

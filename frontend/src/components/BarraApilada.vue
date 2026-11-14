@@ -8,7 +8,7 @@ const NOMBRES: Record<string, string> = {
   impuesto: 'Impuesto vehicular', tecnomecanica: 'Revisión técnico-mecánica', intereses: 'Intereses del crédito',
   depreciacion: 'Depreciación', tramites: 'Matrícula y trámites',
 }
-const COLORES = ['#0072B2', '#E69F00', '#009E73', '#CC79A7', '#56B4E9', '#D55E00', '#7F3C8D', '#3D3D3D', '#B8860B']
+const COLORES = ['#0072B2', '#E69F00', '#009E73', '#CC79A7', '#56B4E9', '#D55E00', '#7F3C8D', '#8C8C8C', '#B8860B']
 const partes = computed(() => {
   const ent = Object.entries(props.componentes).filter(([, v]) => v > 0)
   const total = ent.reduce((a, [, v]) => a + v, 0) || 1
@@ -29,11 +29,11 @@ const partes = computed(() => {
       </g>
     </svg>
     <figcaption>
-      <ul class="mt-3 grid gap-1 text-sm sm:grid-cols-2">
-        <li v-for="p in partes" :key="p.k" class="flex items-center gap-2">
-          <span class="inline-block h-3 w-3 rounded-sm" :style="{ background: p.color }" aria-hidden="true" />
+      <ul class="mt-6 grid gap-x-10 text-sm sm:grid-cols-2">
+        <li v-for="p in partes" :key="p.k" class="flex items-center gap-3 border-b border-linea py-2">
+          <span class="inline-block h-3 w-3 shrink-0" :style="{ background: p.color }" aria-hidden="true" />
           <span>{{ p.nombre }}</span>
-          <span class="ml-auto num">{{ formato(p.v) }} <span class="text-tenue">({{ Math.round(p.pct * 100) }}%)</span></span>
+          <span class="ml-auto whitespace-nowrap font-bold text-tinta num">{{ formato(p.v) }} <span class="font-light text-tenue">({{ Math.round(p.pct * 100) }}%)</span></span>
         </li>
       </ul>
     </figcaption>
