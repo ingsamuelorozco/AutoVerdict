@@ -46,7 +46,10 @@
   h1, h2, h3 { @apply font-titulo font-bold text-tinta; }
   h1, h2 { @apply uppercase; letter-spacing: -0.5px; text-wrap: balance; }
   h3 { letter-spacing: 0; }
-  strong, b, th, dt { @apply text-tinta; }
+  strong, b, th, dd { @apply text-tinta; }
+  thead th { @apply text-xs uppercase tracking-[1px] text-tenue; }
+  summary { @apply text-tinta; }
+  a.underline, .underline { text-underline-offset: 3px; text-decoration-thickness: 1px; }
   strong, b { @apply font-bold; }
   p { text-wrap: pretty; }
   :focus-visible { @apply outline-none ring-2 ring-tinta ring-offset-2 ring-offset-papel; }
@@ -72,6 +75,12 @@
   .tarjeta { @apply border border-linea bg-superficie; }
   .tarjeta-plana { @apply border border-linea bg-papel; }
   .celda-dato { @apply bg-suave p-6; }
+  /* Lista de especificaciones: pares etiqueta/valor separados por filetes. */
+  .lista-datos { @apply grid grid-cols-[minmax(0,1fr)_auto] text-sm; }
+  .lista-datos > dt, .lista-datos > dd { @apply border-b border-linea py-2.5; }
+  .lista-datos > dt { @apply pr-4 text-tenue; }
+  .lista-datos > dd { @apply text-right; }
+  .cifra { @apply text-display-sm text-tinta; font-variant-numeric: tabular-nums; }
   /* Botones: rectángulo plano de 48 px, etiqueta en mayúsculas con 1,5 px de tracking. */
   .boton { @apply inline-flex min-h-[48px] items-center justify-center gap-2 whitespace-nowrap border border-transparent px-8 text-sm font-bold uppercase leading-none tracking-maquinado transition-colors; }
   .boton:disabled { @apply cursor-not-allowed opacity-40; }
