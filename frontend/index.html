@@ -12,7 +12,7 @@
       try {
         const t = JSON.parse(localStorage.getItem('av-ajustes') || '{}').tema
         // El lienzo negro es el modo por defecto del sistema de diseño; el claro solo si se elige.
-        if (t !== 'claro') document.documentElement.classList.add('dark')
+        if (t === 'claro') document.documentElement.classList.remove('dark')
       } catch (e) {}
     </script>
   </head>
