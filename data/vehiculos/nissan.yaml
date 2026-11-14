@@ -1,0 +1,277 @@
+marca: Nissan
+pais_origen: Japón
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: March
+    generacion: K13
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2011-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 HR16DE", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 106, rpm_potencia_max: 5600, torque_nm: 142, rpm_torque_max: 4400, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.6, medida_llantas: "185/60 R15"}
+    dim: {largo_mm: 3827, ancho_sin_espejos_mm: 1665, alto_mm: 1528, distancia_entre_ejes_mm: 2450, distancia_libre_suelo_mm: 155, peso_vacio_kg: 1010, capacidad_baul_litros: 265, capacidad_tanque_galones: 10.8}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.2}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 6.75, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.2, quejas_documentadas: 7.0, recalls: 7.2, repuestos_y_red: 8.2, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el 1.6 atmosférico de 106 hp le da más empuje en altura que a la mayoría de citadinos, y su radio de giro de 4,6 m lo hace muy fácil de parquear. Es una plataforma de 2010: dos airbags, protección estructural limitada y un interior básico. La versión automática usa CVT de la familia JATCO. Mayor riesgo individual: la protección en un choque. No lo recomendamos para llevar niños en carretera."
+      para_quien_si: "Conductor urbano que busca un usado barato y ágil."
+      para_quien_no: "Familias que priorizan seguridad."
+      pros_reales: ["1.6 atmosférico con buen empuje", "Radio de giro de 4,6 m", "Mantenimiento barato"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y estructura de 2010.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Baúl", descripcion: "265 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2022, version: Advance 1.6 MT, precio_base_cop: 53900000, fecha_precio: 2022-02-01}
+      - {anio: 2022, version: Exclusive 1.6 CVT, precio_base_cop: 61900000, fecha_precio: 2022-02-01, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], numero_airbags: 6, aire_acondicionado: Automático}
+
+  - modelo: Versa
+    generacion: N18
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2020-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 HR16DE", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 118, rpm_potencia_max: 6300, torque_nm: 149, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "205/50 R17"}
+    dim: {largo_mm: 4495, ancho_sin_espejos_mm: 1740, alto_mm: 1465, distancia_entre_ejes_mm: 2620, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1135, capacidad_baul_litros: 482, capacidad_tanque_galones: 10.8}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.2}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 6.6, electrica_electronica: 7.2, quejas_documentadas: 6.6, recalls: 7.0, repuestos_y_red: 8.2, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Documentado: la CVT de la familia JATCO que usa el Versa tuvo en generaciones 2012–2019 un historial de trepidación y fallas por temperatura, con garantías extendidas en Estados Unidos; esta generación tiene menos reportes, pero sigue siendo sensible al fluido. Opinión editorial: es un sedán B amplio (482 litros), con seis airbags y frenado autónomo desde versiones medias. El despeje de 140 mm exige cuidado. Mayor riesgo individual: la CVT sin mantenimiento. No lo recomendamos sin cambio de fluido cada 40.000 km."
+      para_quien_si: "Quien busca un sedán seguro y económico y cumple el mantenimiento de la caja."
+      para_quien_no: "Quien no puede garantizar el mantenimiento de la CVT."
+      pros_reales: ["Seis airbags y frenado autónomo", "Baúl de 482 litros", "Consumo real cercano a 14 km/l"]
+      contras:
+        - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros en todas las versiones.", km_tipico: "40.000", costo_reparacion_cop_aprox: 400000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Advance 1.6 MT, precio_base_cop: 84900000, transmision_tipo: Manual, numero_velocidades: 5, patrones_excluir: true}
+      - {anio: 2026, version: Exclusive 1.6 CVT, precio_base_cop: 96900000, tapiceria: Cuero sintético, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Asistente de mantenimiento de carril]}
+      - {anio: 2023, version: Sense 1.6 CVT, precio_base_cop: 79900000, fecha_precio: 2023-02-01, numero_airbags: 6, adas_incluidas: []}
+
+  - modelo: Sentra
+    generacion: B18
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2020-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 MR20DD", cilindraje_cc: 1997, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 149, rpm_potencia_max: 6400, torque_nm: 198, rpm_torque_max: 4400, aceleracion_0_100_seg: 9.6, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/45 R18"}
+    dim: {largo_mm: 4641, ancho_sin_espejos_mm: 1815, alto_mm: 1447, distancia_entre_ejes_mm: 2712, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1340, capacidad_baul_litros: 405, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 6.6, electrica_electronica: 7.2, quejas_documentadas: 6.6, recalls: 7.0, repuestos_y_red: 7.8, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Documentado: la familia de CVT JATCO del Sentra tuvo en generaciones anteriores (2013–2019) problemas de trepidación y sobrecalentamiento con garantías extendidas en Estados Unidos; esta generación usa una CVT revisada con menos reportes. Opinión editorial: es un sedán C bien equipado en seguridad activa y con suspensión trasera multibrazo, pero el baúl de 405 litros es pequeño para su tamaño y el despeje de 140 mm exige cuidado. Mayor riesgo individual: la CVT. No lo recomendamos sin historial de cambios de fluido."
+      para_quien_si: "Quien quiere un sedán C con muchas ayudas de seguridad a buen precio."
+      para_quien_no: "Quien no puede garantizar el mantenimiento de la CVT."
+      pros_reales: ["Paquete completo de seguridad activa", "Suspensión trasera multibrazo", "Diseño moderno"]
+      contras:
+        - {componente: "Baúl", descripcion: "405 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Advance 2.0 CVT, precio_base_cop: 119900000}
+      - {anio: 2026, version: Exclusive 2.0 CVT, precio_base_cop: 132900000, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, pantalla_multimedia_pulgadas: 12.3, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Asistente de mantenimiento de carril, Control crucero adaptativo, Cámara 360]}
+
+  - modelo: Kicks
+    generacion: P15 (segunda generación)
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2017-05-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 HR16DE", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 118, rpm_potencia_max: 6300, torque_nm: 149, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.8, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "205/60 R17"}
+    dim: {largo_mm: 4316, ancho_sin_espejos_mm: 1760, alto_mm: 1610, distancia_entre_ejes_mm: 2620, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1160, capacidad_baul_litros: 432, capacidad_tanque_galones: 10.8}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 6.6, electrica_electronica: 7.2, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 8.2, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Documentado: usa CVT de la familia JATCO, con historial de sensibilidad al fluido y a la temperatura en generaciones anteriores de Nissan. Opinión editorial: es una SUV subcompacta práctica, con despeje de 200 mm, baúl de 432 litros y consumo real cercano a 13 km/l. El 1.6 atmosférico es lento en Bogotá con carga y la CVT se 'estira' en subidas. La versión e-Power evita la CVT: el motor de gasolina solo genera electricidad. Mayor riesgo individual: la CVT sin mantenimiento. No lo recomendamos a quien viaje lleno por montaña."
+      para_quien_si: "Conductor urbano que quiere despeje alto y bajo consumo."
+      para_quien_no: "Quien viaja cargado por montaña o no cumple el mantenimiento de la CVT."
+      pros_reales: ["Despeje de 200 mm", "Baúl de 432 litros", "Consumo real cercano a 13 km/l"]
+      contras:
+        - {componente: "Potencia en altura", descripcion: "118 hp atmosféricos con CVT.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Advance 1.6 CVT, precio_base_cop: 99900000}
+      - {anio: 2026, version: Exclusive 1.6 CVT, precio_base_cop: 109900000, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, apple_carplay_android_auto: Inalámbrico, pantalla_multimedia_pulgadas: 12.3, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Cámara 360]}
+      - {anio: 2023, version: Exclusive 1.6 CVT, precio_base_cop: 99900000, fecha_precio: 2023-03-01, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, adas_incluidas: [Frenado autónomo de emergencia, Cámara 360]}
+
+  - modelo: Kicks e-Power
+    generacion: P15
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2022-08-01
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.2 e-Power (híbrido en serie)", cilindraje_cc: 1198, cilindros: 3, valvulas: 12, alimentacion: Atmosférico, potencia_hp: 136, rpm_potencia_max: 6000, torque_nm: 280, rpm_torque_max: null, aceleracion_0_100_seg: 9.5, velocidad_maxima_kmh: 145, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 100, capacidad_bateria_kwh: 1.57}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "205/55 R17"}
+    dim: {largo_mm: 4290, ancho_sin_espejos_mm: 1760, alto_mm: 1610, distancia_entre_ejes_mm: 2620, distancia_libre_suelo_mm: 170, peso_vacio_kg: 1350, capacidad_baul_litros: 423, capacidad_tanque_galones: 10.8}
+    consumo: {consumo_mixto_kml: 21.0, consumo_real_estimado_kml: 17.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 7.0, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el sistema e-Power mueve las ruedas solo con el motor eléctrico (280 Nm instantáneos) y usa el 1.2 de gasolina como generador, así que no tiene CVT ni caja de cambios y conserva su empuje en altura. Consume cerca de 17,5 km/l reales en ciudad, pero en autopista rápida el consumo sube porque el generador trabaja más. Velocidad máxima limitada a 145 km/h. Mayor riesgo individual: el costo de la electrónica de potencia fuera de garantía. No lo recomendamos a quien maneje mucho en autopista a alta velocidad."
+      para_quien_si: "Conductor urbano que quiere sensación eléctrica sin depender de cargar."
+      para_quien_no: "Quien recorre mucha autopista a alta velocidad."
+      pros_reales: ["Sin CVT: tracción 100% eléctrica", "280 Nm instantáneos, buen empuje en altura", "Exento de pico y placa en Bogotá (verifica la norma)"]
+      contras:
+        - {componente: "Consumo en autopista", descripcion: "Sube a alta velocidad sostenida.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Velocidad máxima", descripcion: "Limitada a 145 km/h.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: e-Power Exclusive, precio_base_cop: 129900000, fecha_precio: 2025-01-01}
+
+  - modelo: Qashqai
+    generacion: J12
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Reino Unido
+    fecha_lanzamiento_colombia: 2022-11-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "1.3 DIG-T MHEV 12V", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 158, rpm_potencia_max: 5500, torque_nm: 260, rpm_torque_max: 1800, aceleracion_0_100_seg: 9.9, velocidad_maxima_kmh: 197, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 4}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "235/50 R19"}
+    dim: {largo_mm: 4425, ancho_sin_espejos_mm: 1835, alto_mm: 1625, distancia_entre_ejes_mm: 2665, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1450, capacidad_baul_litros: 504, capacidad_tanque_galones: 14.3}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 12.5}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2021, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.6, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: usa una CVT de la familia JATCO, con historial de sensibilidad al fluido y a la temperatura. Opinión editorial: fabricada en Reino Unido, con 5 estrellas Euro NCAP (protocolo 2020), equipamiento completo y un 1.3 turbo que rinde bien en altura. Su volumen de ventas en Colombia es bajo, lo que afecta reventa y repuestos de carrocería, y la suspensión trasera de barra de torsión en 2WD es firme en vías rotas. Mayor riesgo individual: la depreciación. No la recomendamos a quien piense venderla pronto."
+      para_quien_si: "Quien quiere una SUV europea segura y equipada y la conservará años."
+      para_quien_no: "Quien prioriza reventa."
+      pros_reales: ["5 estrellas Euro NCAP (2020)", "Turbo eficiente en altura", "Baúl de 504 litros"]
+      contras:
+        - {componente: "Reventa", descripcion: "Bajo volumen en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: Exclusive 1.3T MHEV CVT, precio_base_cop: 159900000, fecha_precio: 2025-01-01}
+
+  - modelo: X-Trail
+    generacion: T33
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2023-05-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 QR25DE", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 181, rpm_potencia_max: 6000, torque_nm: 245, rpm_torque_max: 3600, aceleracion_0_100_seg: 9.6, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "235/55 R19"}
+    dim: {largo_mm: 4680, ancho_sin_espejos_mm: 1840, alto_mm: 1725, distancia_entre_ejes_mm: 2705, distancia_libre_suelo_mm: 205, peso_vacio_kg: 1650, capacidad_baul_litros: 585, capacidad_tanque_galones: 14.3}
+    consumo: {consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.3}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 7.2, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: SUV mediana amplia (585 litros de baúl) con 5 estrellas Euro NCAP (protocolo 2022). La versión 2.5 atmosférica usa CVT de la familia JATCO, con historial documentado de sensibilidad al fluido, y pierde cerca de una cuarta parte de su potencia en Bogotá (estimado). La e-Power con tracción e-4ORCE elimina la CVT y entrega 213 hp eléctricos sin pérdida en altura, aunque cuesta más. Mayor riesgo individual: la CVT de la versión a gasolina. Recomendamos la e-Power a quien maneje en montaña."
+      para_quien_si: "Familia que quiere espacio y seguridad; mejor en versión e-Power."
+      para_quien_no: "Quien elegiría la versión CVT sin cumplir su mantenimiento."
+      pros_reales: ["5 estrellas Euro NCAP (2022)", "Baúl de 585 litros", "Versión e-Power sin CVT"]
+      contras:
+        - {componente: "Motor 2.5 en altura", descripcion: "Pierde potencia notable en Bogotá.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Ancho y largo", descripcion: "4.680 mm de largo: justa en plazas estándar de edificios antiguos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Exclusive 2.5 CVT 4x4, precio_base_cop: 179900000, patrones: [jatco_cvt]}
+      - {anio: 2026, version: e-Power e-4ORCE, precio_base_cop: 209900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.5 VC-Turbo e-Power (híbrido en serie)", cilindraje_cc: 1497, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 213, torque_nm: 525, rpm_torque_max: null, aceleracion_0_100_seg: 7.0, velocidad_maxima_kmh: 180, transmision_tipo: Reductora, numero_velocidades: 1, potencia_electrica_kw: 157, capacidad_bateria_kwh: 2.1, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.5, peso_vacio_kg: 1850}
+
+  - modelo: Frontier
+    generacion: D23
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2016-05-01
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.3 biturbo diésel", cilindraje_cc: 2298, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 190, rpm_potencia_max: 3750, torque_nm: 450, rpm_torque_max: 1500, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 180}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 7, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Tambor, radio_giro_metros: 6.2, medida_llantas: "255/60 R18", profundidad_vadeo_mm: 600, capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 5260, ancho_sin_espejos_mm: 1850, alto_mm: 1840, distancia_entre_ejes_mm: 3150, distancia_libre_suelo_mm: 228, peso_vacio_kg: 2000, capacidad_carga_kg: 1000, capacidad_baul_litros: 1060, capacidad_tanque_galones: 21.1}
+    consumo: {consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Cámara 360, Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.2, repuestos_y_red: 7.8, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Frontier destaca por su suspensión trasera multibrazo con resortes, más cómoda sin carga que las rivales de ballestas, y por un 2.3 biturbo de 190 hp que rinde bien en altura. Su plataforma es de 2014 y la seguridad activa es básica frente a la nueva Ranger. Frente a la Hilux pierde en reventa. Mayor riesgo individual: el filtro de partículas en uso urbano corto (opinión editorial). No la recomendamos como vehículo exclusivamente urbano."
+      para_quien_si: "Quien quiere una pickup cómoda para uso mixto familia-trabajo."
+      para_quien_no: "Quien prioriza la máxima reventa o seguridad activa moderna."
+      pros_reales: ["Suspensión trasera multibrazo cómoda", "Biturbo de 450 Nm", "Red de servicio amplia"]
+      contras:
+        - {componente: "Plataforma", descripcion: "Diseño de 2014 con seguridad activa básica.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Tamaño", descripcion: "5.260 mm de largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: XE 2.3 MT 4x2, precio_base_cop: 149900000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: Manual, numero_velocidades: 6, traccion: Trasera, tapiceria: Tela, aire_acondicionado: Manual, llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2026, version: LE 2.3 biturbo AT 4x4, precio_base_cop: 189900000}
+      - {anio: 2026, version: PRO-4X 2.3 biturbo AT 4x4, precio_base_cop: 199900000, medida_llantas: "255/65 R17"}
+      - {anio: 2025, version: LE 2.3 biturbo AT 4x4, precio_base_cop: 182900000, fecha_precio: 2025-02-01}
+
+  - modelo: Leaf
+    generacion: ZE1
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2019-04-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 110 kW", alimentacion: Eléctrico, potencia_hp: 147, torque_nm: 320, aceleracion_0_100_seg: 7.9, velocidad_maxima_kmh: 144, potencia_electrica_kw: 110, capacidad_bateria_kwh: 40, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: 50}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "215/50 R17"}
+    dim: {largo_mm: 4490, ancho_sin_espejos_mm: 1790, alto_mm: 1540, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1580, capacidad_baul_litros: 435, autonomia_estimada_km: 270, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 17.1, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.4, quejas_documentadas: 6.6, recalls: 7.0, repuestos_y_red: 6.0, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: pionero de los eléctricos en Colombia, con motor y electrónica de larga trayectoria. Su batería no tiene refrigeración líquida, lo que en climas cálidos y con carga rápida frecuente acelera su degradación según reportes de propietarios en otros mercados; además usa el conector CHAdeMO, cada vez menos común en electrolineras nuevas. Autonomía WLTP de 270 km. Mayor riesgo individual: la degradación de la batería y la compatibilidad de carga rápida. No lo recomendamos para tierra caliente con carga rápida frecuente."
+      para_quien_si: "Conductor urbano de clima frío con carga en casa."
+      para_quien_no: "Quien vive en clima cálido o depende de carga rápida pública."
+      pros_reales: ["Motor eléctrico probado", "320 Nm instantáneos", "Baúl de 435 litros"]
+      contras:
+        - {componente: "Batería sin refrigeración líquida", descripcion: "Degradación más rápida con calor y carga rápida frecuente.", km_tipico: "100.000+", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Conector CHAdeMO", descripcion: "Cada vez menos electrolineras compatibles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: SV 40 kWh, precio_base_cop: 169900000, fecha_precio: 2025-01-01}
