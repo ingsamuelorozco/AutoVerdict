@@ -1,0 +1,41 @@
+# Valores por defecto y reglas de estimación que aplica scripts/seed.py.
+# Todo campo que se rellene con una regla de estimación se agrega a `campos_estimados` del registro.
+
+valores_defecto:
+  estado_comercial: Vigente
+  frenos_abs_ebd: true
+  control_estabilidad_esc: true
+  asistente_arranque_pendiente: true
+  anclajes_isofix: true
+  direccion: Eléctrica
+  frenos_delanteros: Disco ventilado
+  techo_corredizo: false
+  carga_inalambrica: false
+  llave_inteligente: false
+  luces_led: false
+  camara_reversa: false
+  sensores_parqueo: Trasero
+  aire_acondicionado: Manual
+  tapiceria: Tela
+  apple_carplay_android_auto: Cable
+  garantia_km_ilimitada: false
+  adas_incluidas: []
+  fecha_precio: 2026-11-01
+
+puertas_por_carroceria: {Sedán: 4, Hatchback: 5, SUV: 5, Pickup: 4, Coupé: 2, Convertible: 2}
+plazas_por_carroceria: {Sedán: 5, Hatchback: 5, SUV: 5, Pickup: 5, Coupé: 4, Convertible: 2}
+
+reglas_estimacion:
+  espejos_extra_mm: 190          # ancho con espejos = ancho sin espejos + este valor
+  voladizo_delantero_fraccion: 0.46  # fracción de (largo - entre ejes) que va adelante
+  factor_consumo_ciudad: 0.84    # consumo ciudad = mixto × factor
+  factor_consumo_carretera: 1.20 # consumo carretera = mixto × factor
+  factor_consumo_real: 0.86      # consumo real = mixto × factor (si no hay dato editorial)
+  factor_hibrido_ciudad: 1.10    # en HEV, la ciudad rinde más que el mixto
+  factor_hibrido_carretera: 0.95
+  factor_baul_abatido: 2.9       # baúl abatido = baúl × factor (hatch y SUV)
+  carga_util_fraccion_peso: 0.32 # capacidad de carga = peso vacío × fracción (si no hay dato)
+  co2_g_por_litro_gasolina: 2310
+  co2_g_por_litro_diesel: 2640
+
+confianza_por_defecto: Media
