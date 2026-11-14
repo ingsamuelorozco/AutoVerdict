@@ -36,13 +36,13 @@ const principales = [
       </RouterLink>
 
       <nav class="mx-auto hidden items-center gap-1 lg:flex" aria-label="Secciones principales">
-        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="rounded-full px-4 py-2 text-sm font-medium hover:bg-linea/50" active-class="bg-tinta text-papel hover:bg-tinta">{{ l.texto }}</RouterLink>
+        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="whitespace-nowrap rounded-full px-3 py-2 text-sm font-medium hover:bg-linea/50 xl:px-4" active-class="bg-tinta text-papel hover:bg-tinta">{{ l.texto }}</RouterLink>
       </nav>
 
       <div class="ml-auto hidden items-center gap-2 lg:flex">
-        <RouterLink to="/reviews" class="rounded-full px-3 py-2 text-sm hover:bg-linea/50" active-class="font-semibold">{{ T.nav.reviews }}</RouterLink>
+        <RouterLink to="/reviews" class="whitespace-nowrap rounded-full px-3 py-2 text-sm hover:bg-linea/50" active-class="font-semibold">{{ T.nav.reviews }}</RouterLink>
         <div ref="menuRef" class="relative">
-          <button class="flex min-h-[44px] items-center gap-1 rounded-full px-3 text-sm hover:bg-linea/50" :aria-expanded="herramientasAbierto" aria-haspopup="menu" @click="herramientasAbierto = !herramientasAbierto">
+          <button class="flex min-h-[44px] items-center gap-1 whitespace-nowrap rounded-full px-3 text-sm hover:bg-linea/50" :aria-expanded="herramientasAbierto" aria-haspopup="menu" @click="herramientasAbierto = !herramientasAbierto">
             {{ T.nav.herramientas }} <ChevronDown class="h-4 w-4" aria-hidden="true" />
           </button>
           <div v-if="herramientasAbierto" class="tarjeta absolute right-0 mt-2 w-80 p-2 shadow-xl" role="menu">
@@ -52,14 +52,14 @@ const principales = [
             </RouterLink>
           </div>
         </div>
-        <div class="flex items-center gap-1 rounded-full border border-linea p-1 text-xs" role="group" aria-label="Moneda">
+        <div class="hidden items-center gap-1 rounded-full border border-linea p-1 text-xs xl:flex" role="group" aria-label="Moneda">
           <button v-for="m in ['COP', 'USD'] as const" :key="m" :aria-pressed="aj.moneda === m" :class="['rounded-full px-2 py-1', aj.moneda === m ? 'bg-tinta text-papel' : '']" @click="aj.moneda = m; aj.guardar()">{{ m }}</button>
         </div>
-        <label class="flex items-center gap-1 text-xs text-tenue" title="TRM editable: vacía el campo para volver a la oficial">
+        <label class="hidden items-center gap-1 text-xs text-tenue 2xl:flex" title="TRM editable: vacía el campo para volver a la oficial">
           TRM
           <input :value="Math.round(aj.trm)" inputmode="decimal" class="w-16 rounded-md border border-linea bg-superficie px-1 py-1 text-tinta num" aria-label="TRM en pesos por dólar" @change="cambiarTrm" />
         </label>
-        <select v-model="aj.ciudad" class="rounded-full border border-linea bg-superficie px-2 py-2 text-xs" aria-label="Ciudad" @change="aj.guardar()">
+        <select v-model="aj.ciudad" class="hidden rounded-full border border-linea bg-superficie px-2 py-2 text-xs 2xl:block" aria-label="Ciudad" @change="aj.guardar()">
           <option v-for="c in aj.ciudades" :key="c.id" :value="c.id">{{ c.nombre }}</option>
         </select>
         <button class="grid h-11 w-11 place-items-center rounded-full hover:bg-linea/50" :aria-label="aj.tema === 'oscuro' ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro'" @click="aj.alternarTema()">
@@ -69,7 +69,7 @@ const principales = [
           <Heart class="h-5 w-5" aria-hidden="true" />
           <span v-if="fav.ids.length" class="absolute right-1 top-1 rounded-full bg-roja px-1 text-[10px] text-white num">{{ fav.ids.length }}</span>
         </RouterLink>
-        <RouterLink :to="{ path: '/comparador', query: comp.ids.length ? { ids: comp.ids.join(',') } : {} }" class="boton-primario h-10 min-h-0 px-4">
+        <RouterLink :to="{ path: '/comparador', query: comp.ids.length ? { ids: comp.ids.join(',') } : {} }" class="boton-primario h-10 min-h-0 whitespace-nowrap px-4">
           <GitCompare class="h-4 w-4" aria-hidden="true" /> Comparar ({{ comp.ids.length }})
         </RouterLink>
       </div>
