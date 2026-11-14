@@ -51,69 +51,71 @@ const agrupados = (a: Act) => CATEGORIAS.map((c) => [c, a.cambios.filter((x) => 
 </script>
 
 <template>
-  <div class="contenedor py-10">
-    <h1 class="text-4xl font-semibold">Vehículos actualizados</h1>
-    <p class="mt-2 max-w-2xl text-tenue">Qué cambió en cada modelo y si vale la pena el nuevo o conviene el anterior más barato.</p>
+  <div class="contenedor pagina">
+    <h1 class="titulo-pagina">Vehículos actualizados</h1>
+    <p class="entradilla">Qué cambió en cada modelo y si vale la pena el nuevo o conviene el anterior más barato.</p>
 
-    <div class="mt-6 flex flex-wrap gap-2" role="group" aria-label="Tipo de actualización">
+    <div class="mt-10 flex flex-wrap gap-1.5" role="group" aria-label="Tipo de actualización">
       <button v-for="t in TIPOS" :key="t" :class="['chip', tipos.includes(t) ? 'chip-activo' : '']" :aria-pressed="tipos.includes(t)" @click="alternar(tipos, t)">{{ t }}</button>
     </div>
-    <div class="mt-2 flex flex-wrap items-center gap-2" role="group" aria-label="Categoría de cambio">
+    <div class="mt-3 flex flex-wrap items-center gap-1.5" role="group" aria-label="Categoría de cambio">
       <button v-for="c in CATEGORIAS" :key="c" :class="['chip', cats.includes(c) ? 'chip-activo' : '']" :aria-pressed="cats.includes(c)" @click="alternar(cats, c)">{{ c }}</button>
-      <select v-model="marca" class="ml-auto rounded-full border border-linea bg-superficie px-3 py-2 text-sm" aria-label="Marca" @change="ejecutar">
+      <select v-model="marca" class="campo-mini ml-auto min-h-[44px] px-3 text-sm" aria-label="Marca" @change="ejecutar">
         <option value="">Todas las marcas</option><option v-for="m in marcas" :key="m">{{ m }}</option>
       </select>
-      <div class="flex gap-1" role="group" aria-label="Vista">
-        <button :class="['chip', vista === 'tarjetas' ? 'chip-activo' : '']" @click="vista = 'tarjetas'">Tarjetas</button>
-        <button :class="['chip', vista === 'linea' ? 'chip-activo' : '']" @click="vista = 'linea'">Línea de tiempo</button>
+      <div class="ml-4 flex gap-6" role="group" aria-label="Vista">
+        <button :class="['pestana', vista === 'tarjetas' ? 'pestana-activa' : '']" @click="vista = 'tarjetas'">Tarjetas</button>
+        <button :class="['pestana', vista === 'linea' ? 'pestana-activa' : '']" @click="vista = 'linea'">Línea de tiempo</button>
       </div>
     </div>
 
-    <div class="mt-8">
+    <div class="mt-12 border-t border-linea pt-10">
       <EstadoCarga :cargando="cargando" :error="error" :vacio="!!datos && !datos.resultados.length" mensaje-vacio="No hay actualizaciones con esos filtros." @reintentar="ejecutar">
         <div v-if="vista === 'tarjetas'" class="grid gap-6 lg:grid-cols-2">
-          <article v-for="a in datos?.resultados" :id="`act-${a.id}`" :key="a.id" class="tarjeta flex flex-col p-5">
+          <article v-for="a in datos?.resultados" :id="`act-${a.id}`" :key="a.id" class="tarjeta flex scroll-mt-24 flex-col">
             <SliderAntesDespues v-if="a.anterior" :etiqueta-antes="`${a.anterior.anio} ${a.anterior.version}`" :etiqueta-despues="`${a.vehiculos[0].anio} ${a.vehiculos[0].version}`">
               <template #antes><ImagenVehiculo :medidas="a.anterior" :nombre="`${a.marca} ${a.modelo} anterior`" /></template>
               <template #despues><ImagenVehiculo :medidas="a.vehiculos[0]" :nombre="`${a.marca} ${a.modelo} nuevo`" /></template>
             </SliderAntesDespues>
-            <div class="mt-4 flex flex-wrap gap-1">
-              <span class="chip min-h-0 py-0.5 text-xs">{{ a.tipo }}</span>
-              <span v-for="c in a.categorias" :key="c" class="rounded-full bg-linea/60 px-2 py-0.5 text-xs">{{ c }}</span>
+            <div class="flex flex-1 flex-col p-6 lg:p-8">
+            <div class="flex flex-wrap gap-1.5">
+              <span class="insignia bg-tinta text-papel">{{ a.tipo }}</span>
+              <span v-for="c in a.categorias" :key="c" class="insignia border border-linea text-tenue">{{ c }}</span>
             </div>
             <h2 class="mt-3 text-xl font-semibold">{{ a.titulo }}</h2>
-            <p class="mt-1 line-clamp-2 text-sm text-tenue">{{ a.resumen }}</p>
-            <dl class="mt-4 grid grid-cols-2 gap-3 text-sm">
-              <div><dt class="text-tenue">Diferencia de precio</dt><dd class="font-semibold num">{{ a.delta_precio_cop == null ? '—' : (a.delta_precio_cop > 0 ? '+' : '') + f.dinero(a.delta_precio_cop) }}<BadgeEstimado /></dd></div>
-              <div><dt class="text-tenue">¿Vale la pena?</dt><dd :class="['font-semibold', a.vale_la_pena === 'Compra el nuevo' ? 'text-mejor' : a.vale_la_pena === 'El anterior es mejor negocio' ? 'text-ambar' : '']">{{ a.vale_la_pena }}</dd></div>
+            <p class="mt-2 line-clamp-2 text-tenue">{{ a.resumen }}</p>
+            <dl class="mt-6 grid grid-cols-2 gap-px border border-linea bg-linea text-sm">
+              <div class="bg-suave p-4"><dt class="etiqueta">Diferencia de precio</dt><dd class="mt-2 text-lg font-bold num">{{ a.delta_precio_cop == null ? '—' : (a.delta_precio_cop > 0 ? '+' : '') + f.dinero(a.delta_precio_cop) }}<BadgeEstimado /></dd></div>
+              <div class="bg-suave p-4"><dt class="etiqueta">¿Vale la pena?</dt><dd :class="['mt-2 text-lg font-bold leading-snug', a.vale_la_pena === 'Compra el nuevo' ? 'text-mejor' : a.vale_la_pena === 'El anterior es mejor negocio' ? 'text-ambar' : '']">{{ a.vale_la_pena }}</dd></div>
             </dl>
-            <p class="mt-2 text-sm">{{ a.razon_veredicto }}</p>
-            <button class="mt-4 flex min-h-[44px] items-center justify-between rounded-xl border border-linea px-3 text-sm" :aria-expanded="abiertos.has(a.id)" @click="abiertos.has(a.id) ? abiertos.delete(a.id) : abiertos.add(a.id)">
+            <p class="mt-4 text-sm">{{ a.razon_veredicto }}</p>
+            <button class="mt-6 flex min-h-[48px] items-center justify-between border-y border-linea text-xs font-bold uppercase tracking-maquinado text-tinta" :aria-expanded="abiertos.has(a.id)" @click="abiertos.has(a.id) ? abiertos.delete(a.id) : abiertos.add(a.id)">
               Cambios por categoría <ChevronDown :class="['h-4 w-4 transition', abiertos.has(a.id) ? 'rotate-180' : '']" aria-hidden="true" />
             </button>
             <div v-if="abiertos.has(a.id)" class="mt-3 grid gap-3 text-sm">
               <div v-for="[cat, lista] in agrupados(a)" :key="cat">
                 <p class="etiqueta">{{ cat }}</p>
                 <ul class="mt-1 grid gap-2">
-                  <li v-for="c in lista" :key="c.elemento" class="rounded-lg bg-papel p-2">
+                  <li v-for="c in lista" :key="c.elemento" class="bg-suave p-3">
                     <strong>{{ c.elemento }}:</strong> {{ c.antes }} → <strong>{{ c.ahora }}</strong>
                     <p class="text-xs text-tenue">{{ c.impacto }}</p>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="mt-4 flex flex-wrap gap-2">
-              <RouterLink :to="`/vehiculo/${a.vehiculos[0].slug}`" class="boton-secundario">Ver ficha</RouterLink>
-              <button v-if="a.anterior" class="boton-primario" @click="compararConAnterior(a)"><GitCompare class="h-4 w-4" aria-hidden="true" /> Comparar con la versión anterior</button>
+            <div class="mt-auto flex flex-wrap gap-3 pt-6">
+              <RouterLink :to="`/vehiculo/${a.vehiculos[0].slug}`" class="boton-secundario px-5">Ver ficha</RouterLink>
+              <button v-if="a.anterior" class="boton-primario whitespace-normal px-5 text-left leading-tight" @click="compararConAnterior(a)"><GitCompare class="h-4 w-4 shrink-0" aria-hidden="true" /> Comparar con la versión anterior</button>
+            </div>
             </div>
           </article>
         </div>
-        <ol v-else class="relative border-l border-linea pl-6">
-          <li v-for="[mes, lista] in porMes" :key="mes" class="mb-8">
-            <span class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full bg-tinta" aria-hidden="true" />
-            <h2 class="text-lg font-semibold capitalize">{{ mes }}</h2>
-            <ul class="mt-2 grid gap-2">
-              <li v-for="a in lista" :key="a.id"><a :href="`#act-${a.id}`" class="hover:underline" @click="vista = 'tarjetas'">{{ a.titulo }}</a> <span class="text-sm text-tenue">· {{ a.vale_la_pena }}</span></li>
+        <ol v-else class="relative max-w-3xl border-l border-linea pl-8">
+          <li v-for="[mes, lista] in porMes" :key="mes" class="mb-12">
+            <span class="absolute -left-1.5 mt-2 h-3 w-3 bg-tinta" aria-hidden="true" />
+            <h2 class="text-2xl">{{ mes }}</h2>
+            <ul class="mt-4 grid">
+              <li v-for="a in lista" :key="a.id" class="border-b border-linea py-3"><a :href="`#act-${a.id}`" class="hover:underline" @click="vista = 'tarjetas'">{{ a.titulo }}</a> <span class="text-sm text-tenue">· {{ a.vale_la_pena }}</span></li>
             </ul>
           </li>
         </ol>
