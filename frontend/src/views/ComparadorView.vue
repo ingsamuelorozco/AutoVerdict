@@ -111,48 +111,48 @@ const puntajeDe = (id: number) => datos.value?.puntajes.find((p) => p.id === id)
 
 <template>
   <BarraFinanciera />
-  <div class="contenedor py-8">
-    <div class="flex flex-wrap items-center gap-3">
-      <h1 class="text-4xl font-semibold">Comparador</h1>
-      <div class="ml-auto flex flex-wrap items-center gap-2 no-imprimir">
+  <div class="contenedor pagina">
+    <div class="flex flex-wrap items-end gap-x-6 gap-y-4">
+      <h1 class="titulo-pagina">Comparador</h1>
+      <div class="ml-auto flex flex-wrap items-center gap-3 no-imprimir">
         <label class="flex items-center gap-2 text-sm">Perfil
-          <select v-model="aj.perfil" class="rounded-full border border-linea bg-superficie px-3 py-2" @change="aj.guardar()"><option v-for="p in PERFILES" :key="p.v" :value="p.v">{{ p.t }}</option></select>
+          <select v-model="aj.perfil" class="campo-mini min-h-[44px] px-3" @change="aj.guardar()"><option v-for="p in PERFILES" :key="p.v" :value="p.v">{{ p.t }}</option></select>
         </label>
         <label class="flex items-center gap-2 text-sm"><input v-model="soloDiferencias" type="checkbox" class="h-4 w-4" /> Mostrar solo diferencias</label>
-        <button class="boton-secundario" @click="compartir"><Share2 class="h-4 w-4" aria-hidden="true" /> {{ copiado ? 'Copiado' : 'Compartir' }}</button>
-        <button class="boton-secundario" @click="imprimir"><Printer class="h-4 w-4" aria-hidden="true" /> PDF / Imprimir</button>
+        <button class="boton-secundario px-5" @click="compartir"><Share2 class="h-4 w-4" aria-hidden="true" /> {{ copiado ? 'Copiado' : 'Compartir' }}</button>
+        <button class="boton-secundario px-5" @click="imprimir"><Printer class="h-4 w-4" aria-hidden="true" /> PDF / Imprimir</button>
       </div>
     </div>
 
     <!-- Selección -->
-    <div class="mt-6 flex snap-x gap-4 overflow-x-auto pb-2 no-imprimir">
-      <div v-for="n in vacios" :key="`s${n}`" class="tarjeta w-64 shrink-0 snap-start p-4">
-        <p class="etiqueta mb-3">Vehículo {{ comp.ids.length + n }}</p>
+    <div class="mt-10 flex snap-x gap-6 overflow-x-auto pb-2 no-imprimir">
+      <div v-for="n in vacios" :key="`s${n}`" class="tarjeta w-72 shrink-0 snap-start p-6">
+        <p class="etiqueta mb-4 !text-tinta">Vehículo {{ comp.ids.length + n }}</p>
         <SelectorCascada @elegido="elegido" />
       </div>
       <button
-        class="tarjeta grid w-48 shrink-0 snap-start place-items-center border-dashed p-4 text-sm disabled:opacity-40"
+        class="grid w-56 shrink-0 snap-start place-items-center border border-dashed border-linea p-6 text-xs font-bold uppercase tracking-maquinado text-tenue transition-colors hover:border-tinta hover:text-tinta disabled:pointer-events-none disabled:opacity-40"
         :disabled="comp.ids.length + vacios >= MAX_COMPARAR"
         :title="comp.ids.length + vacios >= MAX_COMPARAR ? T.maximo10 : ''"
         @click="slots++"
-      ><span class="flex flex-col items-center gap-2"><Plus class="h-6 w-6" aria-hidden="true" /> Añadir vehículo para comparar</span></button>
+      ><span class="flex flex-col items-center gap-4 text-center leading-relaxed"><Plus class="h-6 w-6" aria-hidden="true" /> Añadir vehículo para comparar</span></button>
     </div>
 
-    <p v-if="comp.ids.length < 2" class="mt-8 text-tenue">Elige al menos dos vehículos para ver la comparación.</p>
+    <p v-if="comp.ids.length < 2" class="mt-10 border-l-4 border-linea pl-4 text-tenue">Elige al menos dos vehículos para ver la comparación.</p>
     <div v-if="cargando && !datos" class="esqueleto mt-8 h-96" aria-busy="true" />
     <p v-if="error" class="mt-8 text-roja" role="alert">{{ error }}</p>
 
     <template v-if="datos && v.length >= 2">
       <!-- Marcador -->
-      <section class="mt-8" aria-labelledby="marcador">
-        <h2 id="marcador" class="text-2xl font-semibold">Marcador y Puntaje AutoVerdict</h2>
-        <div class="mt-4 flex snap-x gap-3 overflow-x-auto pb-2">
-          <div v-for="(x, i) in v" :key="x.id" class="tarjeta w-60 shrink-0 snap-start p-4">
-            <p class="truncate text-sm font-medium">{{ x.marca }} {{ x.modelo }}</p>
-            <p class="font-titulo text-4xl num">{{ puntajeDe(x.id)?.puntaje }}<span class="text-base text-tenue">/100</span></p>
+      <section class="mt-20" aria-labelledby="marcador">
+        <h2 id="marcador" class="text-display-sm">Marcador y Puntaje AutoVerdict</h2>
+        <div class="mt-8 flex snap-x gap-6 overflow-x-auto pb-2">
+          <div v-for="(x, i) in v" :key="x.id" class="celda-dato w-64 shrink-0 snap-start border border-linea">
+            <p class="etiqueta truncate">{{ x.marca }} {{ x.modelo }}</p>
+            <p class="mt-3 text-display-md text-tinta num">{{ puntajeDe(x.id)?.puntaje }}<span class="text-base font-light tracking-normal text-tenue">/100</span></p>
             <p class="text-sm text-tenue num">{{ datos.marcador[x.id]?.total || 0 }} filas ganadas</p>
-            <button class="mt-2 text-xs underline" :aria-expanded="explicar === i" @click="explicar = explicar === i ? null : i">Ver qué sumó y qué restó</button>
-            <ul v-if="explicar === i" class="mt-2 grid gap-1 text-xs">
+            <button class="mt-4 text-left text-xs underline hover:text-tinta" :aria-expanded="explicar === i" @click="explicar = explicar === i ? null : i">Ver qué sumó y qué restó</button>
+            <ul v-if="explicar === i" class="mt-3 grid gap-1.5 border-t border-linea pt-3 text-xs">
               <li v-for="a in puntajeDe(x.id)?.aportes" :key="a.dimension" class="flex justify-between"><span>{{ DIM[a.dimension] }} ({{ Math.round(a.peso * 100) }}%)</span><span class="num">+{{ f.numero(a.aporte, 1) }}</span></li>
               <li v-if="puntajeDe(x.id)?.penalizacion_alerta_roja" class="flex justify-between text-roja"><span>Alerta roja</span><span class="num">−{{ f.numero(puntajeDe(x.id)!.penalizacion_alerta_roja, 1) }}</span></li>
             </ul>
@@ -160,24 +160,24 @@ const puntajeDe = (id: number) => datos.value?.puntajes.find((p) => p.id === id)
         </div>
       </section>
 
-      <HuellaComparador class="mt-8" :autos="autosHuella" />
+      <HuellaComparador class="mt-20" :autos="autosHuella" />
 
       <!-- Tabla -->
-      <section class="mt-8" aria-labelledby="tabla-titulo">
+      <section class="mt-20" aria-labelledby="tabla-titulo">
         <h2 id="tabla-titulo" class="sr-only">Tabla comparativa</h2>
-        <div class="max-h-[80vh] snap-x overflow-auto rounded-2xl border border-linea">
+        <div class="max-h-[80vh] snap-x overflow-auto border border-linea">
           <table class="min-w-full border-separate border-spacing-0 text-sm" :aria-busy="cargando">
             <thead class="sticky top-0 z-20 bg-superficie">
               <tr>
-                <th scope="col" class="sticky left-0 z-30 w-28 min-w-[7rem] border-b sm:w-48 sm:min-w-[11rem] border-linea bg-superficie p-3 text-left align-bottom">
+                <th scope="col" class="sticky left-0 z-30 w-28 min-w-[7rem] border-b sm:w-48 sm:min-w-[11rem] border-linea bg-superficie p-3 text-left align-bottom normal-case">
                   <span class="etiqueta">{{ datos.ciudad }} · {{ aj.moneda }}</span>
                 </th>
-                <th v-for="x in v" :key="x.id" scope="col" class="min-w-[136px] snap-start border-b border-l sm:min-w-[220px] border-linea p-3 text-left align-top font-normal">
+                <th v-for="x in v" :key="x.id" scope="col" class="min-w-[136px] snap-start border-b border-l sm:min-w-[220px] border-linea p-3 text-left align-top text-sm font-light normal-case tracking-normal text-cuerpo">
                   <ImagenVehiculo :medidas="x" :nombre="`${x.marca} ${x.modelo}`" class="!aspect-[3/1]" />
-                  <RouterLink :to="`/vehiculo/${x.slug}`" class="mt-2 block font-semibold hover:underline">{{ x.marca }} {{ x.modelo }} {{ x.anio }}</RouterLink>
+                  <RouterLink :to="`/vehiculo/${x.slug}`" class="mt-3 block text-base font-bold text-tinta hover:underline">{{ x.marca }} {{ x.modelo }} {{ x.anio }}</RouterLink>
                   <p class="text-xs text-tenue">{{ x.version }}</p>
-                  <p v-if="x.tiene_alerta_roja" class="mt-1 flex items-center gap-1 rounded-md bg-roja/15 px-2 py-1 text-xs font-semibold text-roja"><ShieldAlert class="h-3.5 w-3.5" aria-hidden="true" /> Alerta roja de fiabilidad</p>
-                  <div class="mt-2 flex flex-wrap gap-1 no-imprimir">
+                  <p v-if="x.tiene_alerta_roja" class="insignia mt-2 flex bg-roja text-white"><ShieldAlert class="h-3.5 w-3.5" aria-hidden="true" /> Alerta roja de fiabilidad</p>
+                  <div class="mt-3 flex flex-wrap gap-1.5 no-imprimir">
                     <button class="chip min-h-[32px] text-xs" @click="resena = x.slug">Ver Review Honesta</button>
                     <button :class="['chip min-h-[32px] text-xs', comp.referencia === x.id ? 'chip-activo' : '']" :aria-pressed="comp.referencia === x.id" @click="comp.referencia = comp.referencia === x.id ? null : x.id"><Pin class="h-3 w-3" aria-hidden="true" /> Referencia</button>
                     <button class="chip min-h-[32px] text-xs" :aria-label="`Quitar ${x.marca} ${x.modelo}`" @click="comp.quitar(x.id)"><Trash2 class="h-3 w-3" aria-hidden="true" /></button>
@@ -188,35 +188,35 @@ const puntajeDe = (id: number) => datos.value?.puntajes.find((p) => p.id === id)
             <tbody v-for="cat in datos.categorias" :key="cat.categoria">
               <tr>
                 <th :colspan="v.length + 1" scope="colgroup" class="sticky left-0 border-b border-linea bg-papel p-0 text-left">
-                  <button class="flex min-h-[44px] w-full items-center gap-2 px-3 font-titulo text-base font-semibold" :aria-expanded="!colapsadas.includes(cat.categoria)" @click="alternarCat(cat.categoria)">
+                  <button class="flex min-h-[48px] w-full items-center gap-2 px-3 text-sm font-bold uppercase tracking-maquinado text-tinta" :aria-expanded="!colapsadas.includes(cat.categoria)" @click="alternarCat(cat.categoria)">
                     <ChevronDown :class="['h-4 w-4 transition', colapsadas.includes(cat.categoria) ? '-rotate-90' : '']" aria-hidden="true" /> {{ cat.categoria }}
-                    <span class="ml-2 text-xs font-normal text-tenue">({{ v.map((x) => `${x.modelo}: ${datos!.marcador[x.id]?.por_categoria[cat.categoria] || 0}`).join(' · ') }})</span>
+                    <span class="ml-2 hidden text-xs font-light normal-case tracking-normal text-tenue sm:inline">({{ v.map((x) => `${x.modelo}: ${datos!.marcador[x.id]?.por_categoria[cat.categoria] || 0}`).join(' · ') }})</span>
                   </button>
                 </th>
               </tr>
               <template v-if="!colapsadas.includes(cat.categoria)">
-                <tr v-for="fila in cat.filas.filter(visible)" :key="fila.clave" class="hover:bg-linea/20">
-                  <th scope="row" class="sticky left-0 z-10 border-b border-linea bg-superficie p-2 text-left text-xs font-normal text-tenue sm:p-3 sm:text-sm">
+                <tr v-for="fila in cat.filas.filter(visible)" :key="fila.clave" class="hover:bg-superficie">
+                  <th scope="row" class="sticky left-0 z-10 border-b border-linea bg-suave p-2 text-left text-xs font-light text-tenue sm:p-3 sm:text-sm">
                     {{ fila.etiqueta }}
                     <span v-if="fila.aviso" class="mt-1 block text-xs text-ambar">{{ fila.aviso }}</span>
                   </th>
-                  <td v-for="(x, i) in fila.valores" :key="i" :class="['border-b border-l border-linea p-3 text-right num', fila.ganadores.includes(v[i].id) ? 'font-bold' : '']">
-                    <span v-if="fila.ganadores.includes(v[i].id) && fila.ganadores.length < fila.valores.length" class="mr-2 inline-flex items-center gap-1 text-[10px] font-semibold tracking-wider text-mejor">
+                  <td v-for="(x, i) in fila.valores" :key="i" :class="['border-b border-l border-linea p-3 text-right num', fila.ganadores.includes(v[i].id) ? 'font-bold text-tinta' : '']">
+                    <span v-if="fila.ganadores.includes(v[i].id) && fila.ganadores.length < fila.valores.length" class="mr-2 inline-flex items-center gap-1 text-[10px] font-bold tracking-[1px] text-mejor">
                       <span class="h-2 w-2 rounded-full bg-mejor" aria-hidden="true" />{{ T.mejor }}
                     </span>
                     {{ etiquetaNivel(fila, i) || formatear(fila, x) }}
-                    <span v-if="fila.delta && comp.referencia && v[i].id !== comp.referencia && fila.delta[i] !== null" :class="['block text-xs font-normal', (fila.delta[i] || 0) > 0 ? 'text-acento' : 'text-tenue']">Δ {{ (fila.delta[i] || 0) > 0 ? '+' : '' }}{{ fila.unidad === 'cop' ? f.dinero(fila.delta[i]) : f.numero(fila.delta[i], 1) }}</span>
+                    <span v-if="fila.delta && comp.referencia && v[i].id !== comp.referencia && fila.delta[i] !== null" :class="['block text-xs font-normal', (fila.delta[i] || 0) > 0 ? 'text-tinta' : 'text-tenue']">Δ {{ (fila.delta[i] || 0) > 0 ? '+' : '' }}{{ fila.unidad === 'cop' ? f.dinero(fila.delta[i]) : f.numero(fila.delta[i], 1) }}</span>
                   </td>
                 </tr>
               </template>
             </tbody>
           </table>
         </div>
-        <p class="mt-2 text-xs text-tenue">MEJOR marca el mejor valor de cada fila (todos los empatados). Las filas informativas no tienen ganador. Costos con tarifas de {{ datos.ciudad }}; seguro, crédito y TCO son estimaciones.</p>
+        <p class="mt-3 text-xs tracking-[0.5px] text-apagado">MEJOR marca el mejor valor de cada fila (todos los empatados). Las filas informativas no tienen ganador. Costos con tarifas de {{ datos.ciudad }}; seguro, crédito y TCO son estimaciones.</p>
       </section>
 
-      <section class="tarjeta mt-8 p-5" aria-labelledby="reventa-titulo">
-        <h2 id="reventa-titulo" class="text-xl font-semibold">Curva de valor residual</h2>
+      <section class="tarjeta mt-20 p-6 lg:p-8" aria-labelledby="reventa-titulo">
+        <h2 id="reventa-titulo" class="text-2xl">Curva de valor residual</h2>
         <GraficoLineas class="mt-4" titulo="Valor estimado del vehículo por año" :series="seriesReventa" etiqueta-x="años" :formato-y="(y: number) => f.millones(y)" :formato-x="(x: number) => `${x}`" />
       </section>
     </template>
