@@ -1,0 +1,181 @@
+# Patrones de falla documentados con dos o más fuentes públicas.
+# Los modelos los referencian en `resena.patrones`. Cada falla se copia a la reseña con sus fuentes.
+# tipo: documentada (≥2 fuentes) | editorial (opinión rotulada como tal)
+
+patrones:
+  captiva_turbo:
+    nombre: "Chevrolet Captiva 1.5 Turbo + CVT"
+    alerta:
+      nivel: ROJA
+      texto: "Motor 1.5 turbo pequeño y muy exigido para una carrocería de más de 1,5 toneladas, fallas recurrentes reportadas en la caja CVT, consumo real elevado y depreciación rápida. Ver fuentes."
+    fallas:
+      - componente: "Caja CVT"
+        descripcion: "Sobrecalentamiento del fluido y desgaste prematuro de la correa metálica interna, agravado por subidas largas y trancones. Propietarios reportan fallas de transmisión."
+        km_tipico: "40.000 – 80.000"
+        costo_reparacion_cop_aprox: 14000000
+        severidad: Crítica
+        tipo: documentada
+        fuentes_ids: [c3-captiva-opiniones, opinautos-captiva-turbo, opinautos-captiva-co]
+      - componente: "Motor 1.5 turbo (sobreexigencia)"
+        descripcion: "Motor pequeño para el peso de la carrocería: pérdida de potencia reportada por propietarios, fallas del actuador del turbo (wastegate) y acumulación de carbón en válvulas de admisión por inyección directa."
+        km_tipico: "20.000 – 100.000"
+        costo_reparacion_cop_aprox: 4500000
+        severidad: Alta
+        tipo: documentada
+        fuentes_ids: [c3-captiva-opiniones, opinautos-captiva-co]
+      - componente: "Consumo real"
+        descripcion: "Consumo real elevado: propietarios de modelos 2021–2023 en Colombia lo señalan como lo peor del carro; el taller reporta 28–33 km/gal en trancón de Bogotá."
+        km_tipico: "Desde nuevo"
+        costo_reparacion_cop_aprox: 0
+        severidad: Media
+        tipo: documentada
+        fuentes_ids: [opinautos-captiva-opiniones, c3-captiva-review]
+      - componente: "Valor de reventa"
+        descripcion: "Depreciación rápida: avisos de usados 2020–2023 se ubican muy por debajo de los modelos 2025 equivalentes."
+        km_tipico: "Desde el año 1"
+        costo_reparacion_cop_aprox: 0
+        severidad: Alta
+        tipo: documentada
+        fuentes_ids: [mercadolibre-captiva-usados, opinautos-captiva-opiniones]
+      - componente: "Sistema eléctrico y confort"
+        descripcion: "Reportes de fallas en aire acondicionado, pantalla táctil y batería."
+        km_tipico: "Variable"
+        costo_reparacion_cop_aprox: 1800000
+        severidad: Media
+        tipo: documentada
+        fuentes_ids: [opinautos-captiva-turbo, opinautos-captiva-co]
+
+  ford_powershift:
+    nombre: "Ford Powershift DPS6 (doble embrague en seco)"
+    alerta:
+      nivel: ROJA
+      texto: "Caja Powershift DPS6 de doble embrague en seco con historial documentado de trepidación, desgaste de embragues y fugas en sellos; demandas colectivas y programas de garantía extendida en EE. UU."
+    fallas:
+      - componente: "Embragues de la caja Powershift"
+        descripcion: "Trepidación al arrancar, patinamiento, tirones y pérdida de potencia en tráfico. Reparaciones repetidas a menudo no lo resuelven de forma duradera."
+        km_tipico: "30.000 – 80.000"
+        costo_reparacion_cop_aprox: 6500000
+        severidad: Crítica
+        tipo: documentada
+        fuentes_ids: [wiki-ford-powershift, clintonville-dps6, lawsuitwatch-powershift]
+      - componente: "Sellos de ejes de entrada"
+        descripcion: "Fugas de aceite que contaminan los embragues en seco (Fiesta 2011–2015 y Focus 2012–2016)."
+        km_tipico: "20.000 – 60.000"
+        costo_reparacion_cop_aprox: 3500000
+        severidad: Alta
+        tipo: documentada
+        fuentes_ids: [wiki-ford-powershift, clintonville-dps6]
+      - componente: "Módulo de control de la transmisión (TCM)"
+        descripcion: "Software mal ajustado al embrague en seco que acelera el desgaste; falla del módulo en algunos casos."
+        km_tipico: "Variable"
+        costo_reparacion_cop_aprox: 2800000
+        severidad: Alta
+        tipo: documentada
+        fuentes_ids: [wiki-ford-powershift, clintonville-dps6]
+
+  puretech_correa:
+    nombre: "PSA/Stellantis PureTech 1.2 (correa de distribución en baño de aceite)"
+    alerta:
+      nivel: AMARILLA
+      texto: "Motor PureTech 1.2 con correa de distribución bañada en aceite: degradación documentada que puede tapar la bomba de aceite. Stellantis amplió la garantía en Europa; verifica si aplica en Colombia y exige el aceite especificado."
+    fallas:
+      - componente: "Correa de distribución en baño de aceite"
+        descripcion: "La correa se degrada en contacto con el aceite (a veces contaminado con combustible); los residuos tapan la bomba de aceite y pueden dañar el motor. Afecta producción hasta junio de 2022."
+        km_tipico: "60.000 – 120.000"
+        costo_reparacion_cop_aprox: 5500000
+        severidad: Crítica
+        tipo: documentada
+        fuentes_ids: [stellantis-puretech-garantia, km77-puretech, motores-puretech-motores-es]
+
+  dsg_dq200:
+    nombre: "Volkswagen/Audi DSG DQ200 (7 velocidades, embrague en seco)"
+    alerta:
+      nivel: AMARILLA
+      texto: "Caja DSG/S tronic DQ200 de 7 velocidades con embragues en seco: historial de fallas de mecatrónica y embrague, sobre todo en tráfico pesado. Las unidades posteriores a 2013 mejoraron, pero el riesgo no es cero."
+    fallas:
+      - componente: "Mecatrónica DQ200"
+        descripcion: "Pérdida súbita de tracción con códigos de presión hidráulica; acumulador de presión fisurado como causa frecuente según talleres. Hubo recalls en Australia y China (2013)."
+        km_tipico: "30.000 – 120.000"
+        costo_reparacion_cop_aprox: 9000000
+        severidad: Alta
+        tipo: documentada
+        fuentes_ids: [wiki-dsg, faultycar-dsg, enginescope-dq200]
+      - componente: "Embragues en seco"
+        descripcion: "Desgaste acelerado y trepidación en arranques repetidos en trancón y pendientes."
+        km_tipico: "60.000 – 120.000"
+        costo_reparacion_cop_aprox: 6000000
+        severidad: Media
+        tipo: documentada
+        fuentes_ids: [faultycar-dsg, enginescope-dq200]
+
+  jatco_cvt:
+    nombre: "CVT JATCO (Nissan y Renault)"
+    alerta: null
+    fallas:
+      - componente: "Caja CVT JATCO"
+        descripcion: "Historial documentado de trepidación (judder), zumbido y modo de emergencia por temperatura en generaciones 2012–2019; Nissan extendió garantías en EE. UU. Es muy sensible al fluido correcto (NS-3) y a su cambio a tiempo."
+        km_tipico: "60.000 – 120.000"
+        costo_reparacion_cop_aprox: 12000000
+        severidad: Media
+        tipo: documentada
+        fuentes_ids: [gearboxinsider-jatco, transmissionaudit-versa]
+
+  toyota_dpf:
+    nombre: "Toyota 2.4 / 2.8 GD diésel — filtro de partículas (DPF)"
+    alerta: null
+    fallas:
+      - componente: "Filtro de partículas (DPF)"
+        descripcion: "Un tribunal australiano declaró defecto de diseño del DPF en Hilux, Prado y Fortuner fabricados entre 2015 y abril de 2020 (humo blanco, obstrucción). Toyota corrigió el sistema desde 2020; en uso urbano corto conviene hacer regeneraciones."
+        km_tipico: "Uso urbano frecuente"
+        costo_reparacion_cop_aprox: 7000000
+        severidad: Baja
+        tipo: documentada
+        fuentes_ids: [carexpert-toyota-dpf, drive-toyota-dpf]
+
+  honda_15t:
+    nombre: "Honda 1.5 turbo — dilución de combustible en el aceite"
+    alerta: null
+    fallas:
+      - componente: "Aceite de motor (dilución)"
+        descripcion: "En climas fríos y trayectos cortos, combustible se mezcla con el aceite. Honda amplió garantía en EE. UU. y Canadá y hubo recall en China (CR-V 2017–2018). En Bogotá, con trayectos cortos, conviene vigilar el nivel de aceite."
+        km_tipico: "Trayectos cortos en frío"
+        costo_reparacion_cop_aprox: 800000
+        severidad: Media
+        tipo: documentada
+        fuentes_ids: [wardsauto-honda-dilucion, consumerreports-honda-turbo]
+
+  onix_2020_software:
+    nombre: "Chevrolet Onix Plus 2020 — calibración de motor (recall en Brasil)"
+    alerta: null
+    fallas:
+      - componente: "Calibración del módulo de motor"
+        descripcion: "En 2019 GM llamó a revisión todos los Onix Plus 2020 en Brasil: la calibración podía causar preignición, daño de pistón y riesgo de incendio. Solución: actualización gratuita de software."
+        km_tipico: "Primeros kilómetros"
+        costo_reparacion_cop_aprox: 0
+        severidad: Alta
+        tipo: documentada
+        fuentes_ids: [infomoney-onix-recall, vrum-onix-incendios]
+
+  red_posventa_nueva:
+    nombre: "Marca con poca trayectoria en el país"
+    alerta: null
+    fallas:
+      - componente: "Repuestos y red posventa"
+        descripcion: "Opinión editorial: red de talleres y disponibilidad de repuestos de colisión aún en construcción frente a marcas con décadas en Colombia; tiempos de espera más largos y valor de reventa menos predecible."
+        km_tipico: "En cualquier reparación"
+        costo_reparacion_cop_aprox: 0
+        severidad: Media
+        tipo: editorial
+        fuentes_ids: [editorial-mantenimiento]
+
+  turbo_pequeno_pesado:
+    nombre: "Motor turbo pequeño en carrocería pesada"
+    alerta: null
+    fallas:
+      - componente: "Motor turbo de bajo cilindraje"
+        descripcion: "Opinión editorial: un motor de 1.0–1.5 L turbo moviendo más de 1.400 kg trabaja casi siempre con presión de turbo alta; el consumo real se aleja del homologado y el mantenimiento con aceite correcto es crítico."
+        km_tipico: "Uso exigente"
+        costo_reparacion_cop_aprox: 0
+        severidad: Baja
+        tipo: editorial
+        fuentes_ids: [editorial-mantenimiento]
