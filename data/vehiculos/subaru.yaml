@@ -1,0 +1,211 @@
+marca: Subaru
+pais_origen: Japón
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Impreza
+    generacion: Sexta generación
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2024-04-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 bóxer FB20", cilindraje_cc: 1995, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 152, rpm_potencia_max: 6000, torque_nm: 196, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.4, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Doble horquilla, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4475, ancho_sin_espejos_mm: 1780, alto_mm: 1515, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1420, capacidad_baul_litros: 315, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.3}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 11.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.6, quejas_documentadas: 7.6, recalls: 7.2, repuestos_y_red: 6.4, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: el único hatchback C con tracción integral permanente del mercado, con ocho airbags y asistentes EyeSight de serie. El bóxer 2.0 atmosférico con CVT de cadena es suave pero lento: a 2.600 msnm pierde cerca de una cuarta parte de su potencia (estimado) y el AWD suma peso y consumo (cerca de 11 km/l reales). El baúl de 315 litros es pequeño y la red Subaru es reducida. Mayor riesgo individual: tiempos de repuestos fuera de las capitales. No lo recomendamos a quien priorice consumo."
+      para_quien_si: "Quien valora AWD y seguridad activa en un formato compacto."
+      para_quien_no: "Quien busca bajo consumo o desempeño en altura."
+      pros_reales: ["AWD permanente", "EyeSight de serie", "Ocho airbags"]
+      contras:
+        - {componente: "Consumo", descripcion: "AWD y bóxer: cerca de 11 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Despeje", descripcion: "135 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: 2.0i CVT AWD, precio_base_cop: 119900000}
+      - {anio: 2026, version: 2.0i-S CVT AWD, precio_base_cop: 129900000, tapiceria: Cuero sintético, llave_inteligente: true, medida_llantas: "215/50 R17", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+
+  - modelo: Crosstrek
+    generacion: Tercera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2023-10-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 bóxer FB20", cilindraje_cc: 1995, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 152, rpm_potencia_max: 6000, torque_nm: 196, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Doble horquilla, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "225/60 R17", profundidad_vadeo_mm: 500}
+    dim: {largo_mm: 4480, ancho_sin_espejos_mm: 1800, alto_mm: 1580, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 220, peso_vacio_kg: 1500, capacidad_baul_litros: 315, capacidad_tanque_galones: 12.4, angulo_ataque_deg: 18, angulo_ventral_deg: 20, angulo_salida_deg: 28}
+    consumo: {consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 11.0}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 11.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.6, quejas_documentadas: 7.6, recalls: 7.2, repuestos_y_red: 6.4, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un crossover con 220 mm de despeje, AWD permanente y modos X-Mode que lo hacen muy capaz en destapado liviano, con EyeSight de serie. El bóxer 2.0 atmosférico es lento en altura y el consumo real ronda 11 km/l; la versión e-Boxer con hibridación ligera ayuda poco en carretera. El baúl de 315 litros es pequeño. Mayor riesgo individual: repuestos y talleres limitados fuera de las capitales. No lo recomendamos a quien priorice baúl o consumo."
+      para_quien_si: "Quien sale a fincas y quiere AWD real en un tamaño urbano."
+      para_quien_no: "Quien busca baúl grande o bajo consumo."
+      pros_reales: ["Despeje de 220 mm y AWD permanente", "EyeSight de serie", "Ocho airbags"]
+      contras:
+        - {componente: "Baúl", descripcion: "315 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Potencia en altura", descripcion: "152 hp atmosféricos para 1.500 kg.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: 2.0i-L CVT AWD, precio_base_cop: 134900000}
+      - {anio: 2026, version: e-Boxer Limited, precio_base_cop: 149900000, tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 bóxer e-Boxer", potencia_electrica_kw: 12, capacidad_bateria_kwh: 0.6, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.8, peso_vacio_kg: 1590, tapiceria: Cuero, techo_corredizo: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+
+  - modelo: Forester
+    generacion: Sexta generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2025-04-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 bóxer FB25", cilindraje_cc: 2498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 182, rpm_potencia_max: 5800, torque_nm: 239, rpm_torque_max: 3700, aceleracion_0_100_seg: 9.5, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Doble horquilla, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "225/55 R18", profundidad_vadeo_mm: 500, capacidad_remolque_kg: 1360}
+    dim: {largo_mm: 4655, ancho_sin_espejos_mm: 1830, alto_mm: 1730, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 220, peso_vacio_kg: 1630, capacidad_baul_litros: 498, capacidad_baul_abatido_litros: 1720, capacidad_tanque_galones: 16.6, angulo_ataque_deg: 20, angulo_ventral_deg: 21, angulo_salida_deg: 25}
+    consumo: {consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.0}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 11.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.6, quejas_documentadas: 7.6, recalls: 7.2, repuestos_y_red: 6.6, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Forester ofrece la mejor visibilidad de su segmento gracias a sus ventanas grandes, 220 mm de despeje, AWD permanente y EyeSight. El 2.5 bóxer atmosférico con CVT de cadena es suave pero gasta cerca de 10 km/l reales y pierde cerca de una cuarta parte de su potencia en Bogotá (estimado). La versión e-Boxer prioriza consumo urbano. Mayor riesgo individual: el costo de repuestos con red limitada. No la recomendamos a quien priorice desempeño en altura."
+      para_quien_si: "Familia aventurera que valora visibilidad, AWD y seguridad."
+      para_quien_no: "Quien busca consumo bajo o red de servicio amplia."
+      pros_reales: ["Visibilidad sobresaliente", "AWD permanente y 220 mm de despeje", "EyeSight de serie"]
+      contras:
+        - {componente: "Consumo", descripcion: "Cerca de 10 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Red de servicio", descripcion: "Concesionarios limitados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: 2.5i Sport, precio_base_cop: 179900000, techo_corredizo: true, carga_inalambrica: true}
+      - {anio: 2026, version: e-Boxer 2.0 AWD, precio_base_cop: 169900000, tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 bóxer e-Boxer", cilindraje_cc: 1995, potencia_hp: 150, torque_nm: 194, rpm_potencia_max: 5600, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.8, potencia_electrica_kw: 12, capacidad_bateria_kwh: 0.6, consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.2}
+
+  - modelo: Outback
+    generacion: Sexta generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2021-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 bóxer FB25", cilindraje_cc: 2498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 182, rpm_potencia_max: 5800, torque_nm: 239, rpm_torque_max: 3700, aceleracion_0_100_seg: 9.9, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Doble horquilla, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "225/60 R18", profundidad_vadeo_mm: 500, capacidad_remolque_kg: 1250}
+    dim: {largo_mm: 4870, ancho_sin_espejos_mm: 1875, alto_mm: 1675, distancia_entre_ejes_mm: 2745, distancia_libre_suelo_mm: 213, peso_vacio_kg: 1700, capacidad_baul_litros: 522, capacidad_baul_abatido_litros: 1765, capacidad_tanque_galones: 14.0}
+    consumo: {consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.0}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+    equipo: {pantalla_multimedia_pulgadas: 11.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.2, repuestos_y_red: 6.6, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un station wagon elevado con 213 mm de despeje y AWD permanente, cómodo en carretera y capaz en destapado. La versión XT con 2.4 turbo de 260 hp resuelve la falta de potencia del 2.5 atmosférico en altura. Mide 4,87 m, y la CVT de cadena exige cambio de fluido para durar. Mayor riesgo individual: el costo de repuestos con una red limitada. No lo recomendamos a quien parquee en sótanos estrechos."
+      para_quien_si: "Familia viajera que quiere confort de carretera y AWD."
+      para_quien_no: "Quien busca un vehículo compacto para ciudad."
+      pros_reales: ["AWD permanente y 213 mm de despeje", "Confort de marcha en carretera", "Equipamiento completo"]
+      contras:
+        - {componente: "Largo", descripcion: "4.870 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Potencia 2.5 en altura", descripcion: "182 hp atmosféricos para 1.700 kg.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Limited 2.5, precio_base_cop: 199900000}
+      - {anio: 2026, version: Onyx XT 2.4T, precio_base_cop: 224900000, motor_descripcion: "2.4 bóxer turbo FA24", cilindraje_cc: 2387, alimentacion: Turbo, potencia_hp: 260, rpm_potencia_max: 5600, torque_nm: 376, rpm_torque_max: 2000, aceleracion_0_100_seg: 7.3, consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.2, peso_vacio_kg: 1780}
+
+  - modelo: WRX
+    generacion: VB
+    segmento: Deportivo
+    carroceria: Sedán
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2022-08-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "2.4 bóxer turbo FA24", cilindraje_cc: 2387, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 271, rpm_potencia_max: 5600, torque_nm: 350, rpm_torque_max: 2000, aceleracion_0_100_seg: 6.1, velocidad_maxima_kmh: 240, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: CVT, numero_velocidades: 8, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Doble horquilla, frenos_traseros: Disco ventilado, radio_giro_metros: 5.5, medida_llantas: "245/40 R18"}
+    dim: {largo_mm: 4670, ancho_sin_espejos_mm: 1825, alto_mm: 1465, distancia_entre_ejes_mm: 2675, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1590, capacidad_baul_litros: 360, capacidad_tanque_galones: 16.6}
+    consumo: {consumo_mixto_kml: 10.0, consumo_real_estimado_kml: 8.2}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 11.6, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 7.4, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 6.0, costo_reparaciones: 5.8}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un sedán deportivo con 2.4 bóxer turbo de 271 hp y AWD simétrico, que conserva su potencia en altura y se agarra muy bien en piso mojado. La caja automática es una CVT con ocho relaciones simuladas, menos directa que una manual. Consume cerca de 8,2 km/l reales con gasolina extra y el despeje de 135 mm exige cuidado. Mayor riesgo individual: el costo de repuestos específicos con red limitada. No lo recomendamos a quien busque un deportivo de bajo costo de uso."
+      para_quien_si: "Aficionado que quiere AWD y turbo usable a diario con cuatro puertas."
+      para_quien_no: "Quien busca economía de uso."
+      pros_reales: ["AWD simétrico", "271 hp turbo con poca pérdida en altura", "Práctico como sedán"]
+      contras:
+        - {componente: "Consumo", descripcion: "Cerca de 8,2 km/l con gasolina extra.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Repuestos", descripcion: "Específicos y bajo pedido.", km_tipico: "Variable", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: GT 2.4T SPT AWD, precio_base_cop: 219900000}
+
+  - modelo: BRZ
+    generacion: ZD8
+    segmento: Deportivo
+    carroceria: Coupé
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2022-10-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "2.4 bóxer FA24", cilindraje_cc: 2387, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 232, rpm_potencia_max: 7000, torque_nm: 250, rpm_torque_max: 3700, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 226, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Doble horquilla, frenos_traseros: Disco ventilado, radio_giro_metros: 5.4, medida_llantas: "215/40 R18"}
+    dim: {largo_mm: 4265, ancho_sin_espejos_mm: 1775, alto_mm: 1310, distancia_entre_ejes_mm: 2575, distancia_libre_suelo_mm: 130, peso_vacio_kg: 1275, capacidad_baul_litros: 237, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8}
+    seg: {numero_airbags: 7, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.2, electrica_electronica: 8.0, quejas_documentadas: 7.8, recalls: 7.6, repuestos_y_red: 6.0, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: gemelo técnico del Toyota GR86, desarrollado por Subaru, con 2.4 bóxer atmosférico, tracción trasera y caja manual de 6 velocidades. Es uno de los deportivos más puros y asequibles, pero a 2.600 msnm pierde cerca de una cuarta parte de su potencia (estimado), exige gasolina extra y sus plazas traseras son simbólicas. Frente al GR86 tiene una red de servicio más pequeña. Mayor riesgo individual: el bómper delantero contra rampas (130 mm de despeje). No lo recomendamos como único carro familiar."
+      para_quien_si: "Aficionado que quiere tracción trasera y caja manual."
+      para_quien_no: "Quien necesita llevar pasajeros o vive en zona de rompemuelles altos."
+      pros_reales: ["Tracción trasera y caja manual", "Motor atmosférico de alta rotación", "Chasis muy equilibrado"]
+      contras:
+        - {componente: "Despeje", descripcion: "130 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 900000, severidad: Media}
+        - {componente: "Red de servicio", descripcion: "Menor que la de Toyota para su gemelo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: Limited 2.4 MT, precio_base_cop: 199900000, fecha_precio: 2025-01-01}
+
+  - modelo: Solterra
+    generacion: Primera generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2023-07-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Dos motores eléctricos AWD", alimentacion: Eléctrico, potencia_hp: 218, torque_nm: 337, aceleracion_0_100_seg: 6.9, velocidad_maxima_kmh: 160, potencia_electrica_kw: 160, capacidad_bateria_kwh: 71.4, potencia_carga_ac_kw: 7, potencia_carga_dc_kw: 100}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Doble horquilla, frenos_traseros: Disco ventilado, radio_giro_metros: 5.6, medida_llantas: "235/60 R18"}
+    dim: {largo_mm: 4690, ancho_sin_espejos_mm: 1860, alto_mm: 1650, distancia_entre_ejes_mm: 2850, distancia_libre_suelo_mm: 210, peso_vacio_kg: 2030, capacidad_baul_litros: 441, autonomia_estimada_km: 466, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 17.3, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 5.6, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: desarrollado con Toyota (gemelo del bZ4X), ofrece AWD, 210 mm de despeje y 5 estrellas Euro NCAP (protocolo 2022), algo poco común en un eléctrico. Su carga rápida de 100 kW y la carga AC de 7 kW son lentas para su batería de 71 kWh, y su eficiencia es menor que la de rivales coreanos. Mayor riesgo individual: la depreciación y la red reducida. No lo recomendamos a quien dependa de la carga pública."
+      para_quien_si: "Familia con carga en casa que quiere un eléctrico AWD con despeje alto."
+      para_quien_no: "Quien depende de carga rápida frecuente."
+      pros_reales: ["AWD y 210 mm de despeje", "5 estrellas Euro NCAP (2022)", "Exento de pico y placa (verifica la norma)"]
+      contras:
+        - {componente: "Carga", descripcion: "100 kW DC y 7 kW AC.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Reventa", descripcion: "Eléctrico de bajo volumen.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: AWD 71 kWh, precio_base_cop: 229900000, fecha_precio: 2025-01-01}
