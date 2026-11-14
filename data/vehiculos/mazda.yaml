@@ -1,0 +1,281 @@
+marca: Mazda
+pais_origen: Japón
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: "2 Sedán"
+    generacion: "DJ, segunda actualización"
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2016-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 Skyactiv-G", cilindraje_cc: 1496, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 110, rpm_potencia_max: 6000, torque_nm: 141, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.6, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.9, medida_llantas: "185/60 R16"}
+    dim: {largo_mm: 4340, ancho_sin_espejos_mm: 1695, ancho_con_espejos_mm: 1885, alto_mm: 1470, distancia_entre_ejes_mm: 2570, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1075, capacidad_baul_litros: 440, capacidad_tanque_galones: 11.6, voladizo_delantero_mm: 830, voladizo_trasero_mm: 940}
+    consumo: {consumo_mixto_kml: 17.8, consumo_real_estimado_kml: 15.3, ciclo_homologacion: Estimado}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable, aire_acondicionado: Manual}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 8.0, quejas_documentadas: 8.2, recalls: 8.0, repuestos_y_red: 8.5, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: el 1.5 Skyactiv-G atmosférico con caja automática convencional de 6 velocidades no tiene un patrón de falla grave conocido, y eso explica que se revenda bien. Opinión editorial: es un sedán B honesto, pero caro por lo que ofrece; las versiones de entrada llevan freno trasero de tambor y el despeje de 140 mm obliga a pasar rompemuelles en diagonal. Mayor riesgo individual: el hurto de autopartes, muy alto en este modelo. No lo recomendamos a quien busque espacio trasero para adultos altos."
+      para_quien_si: "Quien quiere un sedán pequeño, eficiente y fácil de revender, y conduce sobre todo en ciudad."
+      para_quien_no: "Familias con adultos altos atrás o quien vive en barrios con rompemuelles altos."
+      pros_reales: ["Motor atmosférico sencillo y sin turbo que mantener", "Caja automática convencional de 6 velocidades, no CVT", "Consumo mixto cercano a 17 km/l", "Buena retención de valor en el mercado de usados"]
+      contras:
+        - {componente: "Espacio trasero", descripcion: "Plazas traseras justas para adultos de más de 1,75 m.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Despeje", descripcion: "140 mm: obliga a pasar rompemuelles en diagonal y despacio.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Frenos traseros", descripcion: "Tambor en todas las versiones; revisar ajuste en cada mantenimiento.", km_tipico: "40.000", costo_reparacion_cop_aprox: 450000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Prime MT, precio_base_cop: 79900000, transmision_tipo: Manual, numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: Ninguno}
+      - {anio: 2026, version: Touring AT, precio_base_cop: 92900000, camara_reversa: true}
+      - {anio: 2026, version: Grand Touring AT, precio_base_cop: 101900000, pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, camara_reversa: true, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Frenado autónomo de emergencia]}
+      - {anio: 2025, version: Touring AT, precio_base_cop: 89900000, fecha_precio: 2025-06-01, camara_reversa: true}
+
+  - modelo: "2 Hatchback"
+    generacion: "DJ, segunda actualización"
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2015-10-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 Skyactiv-G", cilindraje_cc: 1496, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 110, rpm_potencia_max: 6000, torque_nm: 141, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.3, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.7, medida_llantas: "185/60 R16"}
+    dim: {largo_mm: 4065, ancho_sin_espejos_mm: 1695, ancho_con_espejos_mm: 1885, alto_mm: 1495, distancia_entre_ejes_mm: 2570, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1050, capacidad_baul_litros: 280, capacidad_baul_abatido_litros: 880, capacidad_tanque_galones: 11.6, voladizo_delantero_mm: 830, voladizo_trasero_mm: 665}
+    consumo: {consumo_mixto_kml: 18.0, consumo_real_estimado_kml: 15.5}
+    seg: {numero_airbags: 6}
+    equipo: {pantalla_multimedia_pulgadas: 8, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 8.0, quejas_documentadas: 8.2, recalls: 8.0, repuestos_y_red: 8.5, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: comparte el tren motriz atmosférico y la caja de 6 velocidades del sedán, sin patrón de falla grave conocido. Opinión editorial: es de los hatchback B que mejor se conducen, pero el baúl de 280 litros es pequeño y el precio de la versión tope roza el de SUV subcompactas mejor equipadas. Mayor riesgo individual: robo de espejos, farolas y rines, frecuente en este modelo. No lo recomendamos como único carro de una familia con coche de bebé."
+      para_quien_si: "Conductor urbano que valora manejo preciso, bajo consumo y buena reventa."
+      para_quien_no: "Familias que necesitan baúl o quien paga por equipamiento antes que por mecánica."
+      pros_reales: ["Mecánica sencilla y probada", "Dirección y suspensión bien calibradas", "Consumo real cercano a 15 km/l en ciudad"]
+      contras:
+        - {componente: "Baúl", descripcion: "280 litros: una maleta grande y poco más.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Plazas traseras", descripcion: "Poco espacio para piernas y salida estrecha.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Touring AT, precio_base_cop: 91500000}
+      - {anio: 2026, version: Grand Touring LX AT, precio_base_cop: 104900000, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, medida_llantas: "185/55 R16", adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Frenado autónomo de emergencia]}
+
+  - modelo: "3 Sedán"
+    generacion: BP
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2019-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Skyactiv-G", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 155, rpm_potencia_max: 6000, torque_nm: 200, rpm_torque_max: 4000, aceleracion_0_100_seg: 9.4, velocidad_maxima_kmh: 205, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "205/60 R16"}
+    dim: {largo_mm: 4660, ancho_sin_espejos_mm: 1797, ancho_con_espejos_mm: 2035, alto_mm: 1440, distancia_entre_ejes_mm: 2725, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1340, capacidad_baul_litros: 444, capacidad_tanque_galones: 13.2, voladizo_delantero_mm: 925, voladizo_trasero_mm: 1010}
+    consumo: {consumo_mixto_kml: 15.6, consumo_real_estimado_kml: 13.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+    equipo: {pantalla_multimedia_pulgadas: 8.8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.7, electrica_electronica: 7.8, quejas_documentadas: 8.0, recalls: 8.0, repuestos_y_red: 8.3, costo_reparaciones: 7.3}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: motor atmosférico y caja automática de convertidor, una combinación sin patrón de falla grave conocido. Opinión editorial: es el sedán C con mejor interior del segmento a este precio, pero cambió la suspensión trasera multibrazo por barra de torsión, la visibilidad trasera es pobre y el despeje de 140 mm con voladizo largo lo hace sufrir en rampas. Mayor riesgo individual: raspar el bómper en rampas de parqueadero. No lo recomendamos para vías destapadas."
+      para_quien_si: "Quien prioriza calidad de interior y una mecánica sin turbo en un sedán mediano."
+      para_quien_no: "Quien vive en zonas con rampas empinadas o necesita un baúl que se abra amplio."
+      pros_reales: ["Interior de gama superior al precio", "7 airbags y punto ciego desde versiones medias", "Sin turbo ni CVT"]
+      contras:
+        - {componente: "Visibilidad trasera", descripcion: "Pilar C muy grueso; la cámara es casi obligatoria.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Voladizo delantero", descripcion: "Bómper bajo y largo que raspa en rampas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 900000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Touring 2.0 AT, precio_base_cop: 128900000}
+      - {anio: 2026, version: Grand Touring LX 2.5 AT, precio_base_cop: 146900000, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 186, torque_nm: 252, rpm_torque_max: 4000, aceleracion_0_100_seg: 8.2, velocidad_maxima_kmh: 210, consumo_mixto_kml: 14.6, consumo_real_estimado_kml: 12.2, medida_llantas: "215/45 R18", tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia]}
+
+  - modelo: "3 Hatchback"
+    generacion: BP
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2019-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 186, rpm_potencia_max: 6000, torque_nm: 252, rpm_torque_max: 4000, aceleracion_0_100_seg: 8.1, velocidad_maxima_kmh: 210, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/45 R18"}
+    dim: {largo_mm: 4460, ancho_sin_espejos_mm: 1797, ancho_con_espejos_mm: 2035, alto_mm: 1435, distancia_entre_ejes_mm: 2725, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1360, capacidad_baul_litros: 334, capacidad_baul_abatido_litros: 1026, capacidad_tanque_galones: 13.2, voladizo_delantero_mm: 925, voladizo_trasero_mm: 810}
+    consumo: {consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.4, electrica_electronica: 7.8, quejas_documentadas: 8.0, recalls: 8.0, repuestos_y_red: 8.3, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Documentado: el 2.5 atmosférico es una base mecánica sin fallas graves conocidas; la versión 2.5 Turbo suma presión de turbo e inyección directa, que exigen aceite de especificación exacta. Opinión editorial: es un hatchback premium de verdad, pero el baúl de 334 litros y la pésima visibilidad trasera pesan en el uso diario. Mayor riesgo individual: en el Turbo, mantenimiento caro fuera del concesionario. No lo recomendamos a quien necesite carga."
+      para_quien_si: "Conductor sin niños pequeños que quiere un hatchback de interior premium y buen manejo."
+      para_quien_no: "Quien carga equipaje con frecuencia o necesita buena visibilidad para parquear."
+      pros_reales: ["Motor 2.5 con buen torque a 2.600 msnm", "Equipamiento de seguridad completo", "Calidad de materiales por encima del segmento"]
+      contras:
+        - {componente: "Baúl", descripcion: "334 litros con boca de carga alta.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Visibilidad", descripcion: "Pilar C enorme: punto ciego estructural.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Grand Touring LX 2.5 AT, precio_base_cop: 149900000}
+      - {anio: 2026, version: 2.5 Turbo AWD Carbon, precio_base_cop: 169900000, motor_descripcion: "2.5 Skyactiv-G Turbo", alimentacion: Turbo, potencia_hp: 250, rpm_potencia_max: 5000, torque_nm: 434, rpm_torque_max: 2500, aceleracion_0_100_seg: 6.4, velocidad_maxima_kmh: 225, traccion: AWD, suspension_trasera: Barra de torsión, octanaje_minimo_recomendado: 95, tipo_combustible: Gasolina Extra, consumo_mixto_kml: 11.8, consumo_real_estimado_kml: 9.6, peso_vacio_kg: 1520}
+
+  - modelo: CX-30
+    generacion: DM
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2020-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Skyactiv-G", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 155, rpm_potencia_max: 6000, torque_nm: 200, rpm_torque_max: 4000, aceleracion_0_100_seg: 9.8, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/55 R18"}
+    dim: {largo_mm: 4395, ancho_sin_espejos_mm: 1795, ancho_con_espejos_mm: 2040, alto_mm: 1540, distancia_entre_ejes_mm: 2655, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1405, capacidad_baul_litros: 430, capacidad_baul_abatido_litros: 1406, capacidad_tanque_galones: 12.7, voladizo_delantero_mm: 880, voladizo_trasero_mm: 860, angulo_ataque_deg: 17, angulo_salida_deg: 22}
+    consumo: {consumo_mixto_kml: 14.6, consumo_real_estimado_kml: 12.4}
+    seg: {numero_airbags: 7, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 8.8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.7, electrica_electronica: 7.9, quejas_documentadas: 8.1, recalls: 8.0, repuestos_y_red: 8.4, costo_reparaciones: 7.3}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: mismo tren motriz atmosférico de la Mazda 3, sin patrón de falla grave conocido. Opinión editorial: es más un hatchback elevado que una SUV: el despeje de 175 mm ayuda con rompemuelles, pero las plazas traseras y el baúl de 430 litros quedan cortos frente a rivales más baratos. El 2.0 se siente justo a 2.600 msnm. Mayor riesgo individual: pagar precio de SUV mediana por espacio de subcompacta. No la recomendamos a familias de cuatro adultos."
+      para_quien_si: "Pareja o persona sola que quiere una SUV compacta de buen interior y mecánica simple."
+      para_quien_no: "Familias que viajan con cuatro adultos y equipaje."
+      pros_reales: ["Mecánica atmosférica probada", "Interior y aislamiento de ruido superiores", "Buena reventa"]
+      contras:
+        - {componente: "Espacio trasero", descripcion: "Justo para adultos; ventanillas pequeñas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Desempeño 2.0 en altura", descripcion: "Pierde cerca de una cuarta parte de la potencia en Bogotá (estimado).", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Touring 2.0 AT, precio_base_cop: 125900000}
+      - {anio: 2026, version: Grand Touring 2.5 AWD, precio_base_cop: 145900000, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 186, torque_nm: 252, aceleracion_0_100_seg: 8.6, traccion: AWD, consumo_mixto_kml: 13.4, consumo_real_estimado_kml: 11.3, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, pantalla_multimedia_pulgadas: 10.25, llave_inteligente: true, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia]}
+      - {anio: 2026, version: Carbon Turbo AWD, precio_base_cop: 168900000, motor_descripcion: "2.5 Skyactiv-G Turbo", cilindraje_cc: 2488, alimentacion: Turbo, potencia_hp: 250, rpm_potencia_max: 5000, torque_nm: 434, rpm_torque_max: 2500, aceleracion_0_100_seg: 6.8, traccion: AWD, tipo_combustible: Gasolina Extra, octanaje_minimo_recomendado: 95, consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.4, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, pantalla_multimedia_pulgadas: 10.25, llave_inteligente: true, carga_inalambrica: true, peso_vacio_kg: 1560}
+      - {anio: 2025, version: Touring 2.0 AT, precio_base_cop: 121900000, fecha_precio: 2025-06-01}
+
+  - modelo: CX-5
+    generacion: KF
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2017-08-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Skyactiv-G", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 155, rpm_potencia_max: 6000, torque_nm: 200, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.4, velocidad_maxima_kmh: 197, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "225/65 R17", profundidad_vadeo_mm: 400, capacidad_remolque_kg: 1500}
+    dim: {largo_mm: 4575, ancho_sin_espejos_mm: 1845, ancho_con_espejos_mm: 2110, alto_mm: 1680, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 193, peso_vacio_kg: 1560, capacidad_baul_litros: 442, capacidad_baul_abatido_litros: 1342, capacidad_tanque_galones: 14.8, voladizo_delantero_mm: 925, voladizo_trasero_mm: 950, angulo_ataque_deg: 19, angulo_salida_deg: 24}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.4}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2017, ncap_protocolo: "Euro NCAP 2017", adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 7.9, quejas_documentadas: 8.2, recalls: 8.0, repuestos_y_red: 8.5, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: las versiones 2.0 y 2.5 atmosféricas con caja de convertidor no tienen patrón de falla grave conocido; la Signature con 2.5 Turbo requiere aceite y gasolina de especificación exacta. Opinión editorial: es la referencia de la SUV compacta bien terminada, pero ya es una plataforma de 2017: la pantalla no es táctil en marcha y el baúl de 442 litros es menor que el de rivales. Mayor riesgo individual: el 2.0 de entrada se queda corto a 2.600 msnm con carga. No la recomendamos con el 2.0 a quien viaje lleno a tierra caliente."
+      para_quien_si: "Familia de cuatro que valora fiabilidad, reventa y buen manejo."
+      para_quien_no: "Quien necesita tercera fila o el máximo baúl por su dinero."
+      pros_reales: ["Plataforma madura sin fallas graves conocidas", "Suspensión trasera multibrazo y buen aislamiento", "Una de las mejores reventas del segmento"]
+      contras:
+        - {componente: "Motor 2.0 en altura", descripcion: "Con cinco ocupantes en Bogotá se siente lento en adelantamientos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Baúl", descripcion: "442 litros, por debajo de Tucson o Sportage.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Touring 2.0 2WD, precio_base_cop: 149900000}
+      - {anio: 2026, version: Grand Touring 2.5 AWD, precio_base_cop: 178900000, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 187, torque_nm: 252, aceleracion_0_100_seg: 9.0, traccion: AWD, consumo_mixto_kml: 12.4, consumo_real_estimado_kml: 10.6, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "225/55 R19", peso_vacio_kg: 1640, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Lectura de señales]}
+      - {anio: 2026, version: Signature 2.5 Turbo AWD, precio_base_cop: 199900000, motor_descripcion: "2.5 Skyactiv-G Turbo", cilindraje_cc: 2488, alimentacion: Turbo, potencia_hp: 227, rpm_potencia_max: 5000, torque_nm: 420, rpm_torque_max: 2000, aceleracion_0_100_seg: 7.4, traccion: AWD, consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.2, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "225/55 R19", peso_vacio_kg: 1700, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Lectura de señales, Cámara 360]}
+      - {anio: 2024, version: Grand Touring 2.5 AWD, precio_base_cop: 172900000, fecha_precio: 2024-06-01, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 187, torque_nm: 252, aceleracion_0_100_seg: 9.0, traccion: AWD, consumo_mixto_kml: 12.4, consumo_real_estimado_kml: 10.6, tapiceria: Cuero, techo_corredizo: true, pantalla_multimedia_pulgadas: 10.25, sensores_parqueo: Delantero y trasero, medida_llantas: "225/55 R19", peso_vacio_kg: 1640}
+
+  - modelo: CX-90
+    generacion: KK
+    segmento: SUV Grande
+    carroceria: SUV
+    plazas: 7
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2023-10-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "3.3 e-Skyactiv G Turbo I6 + MHEV 48V", cilindraje_cc: 3283, cilindros: 6, valvulas: 24, alimentacion: Turbo, potencia_hp: 340, rpm_potencia_max: 5000, torque_nm: 500, rpm_torque_max: 2000, aceleracion_0_100_seg: 6.6, velocidad_maxima_kmh: 225, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 12}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: AWD, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.8, medida_llantas: "275/45 R21", capacidad_remolque_kg: 2268}
+    dim: {largo_mm: 5120, ancho_sin_espejos_mm: 1994, ancho_con_espejos_mm: 2240, alto_mm: 1745, distancia_entre_ejes_mm: 3120, distancia_libre_suelo_mm: 208, peso_vacio_kg: 2090, capacidad_baul_litros: 608, capacidad_baul_abatido_litros: 2025, capacidad_tanque_galones: 19.6, voladizo_delantero_mm: 900, voladizo_trasero_mm: 1100}
+    consumo: {consumo_mixto_kml: 10.2, consumo_real_estimado_kml: 8.5}
+    seg: {numero_airbags: 10, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Cámara 360, Lectura de señales]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.8, costo_reparaciones: 5.5}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: plataforma nueva de motor longitudinal, seis cilindros turbo e hibridación ligera de 48V; aún no hay historial largo de propietarios en Colombia, así que la fiabilidad es una apuesta razonable pero no probada. Con 5,12 m de largo y casi 2 m de ancho no entra holgada en un parqueadero estándar. Mayor riesgo individual: depreciación de SUV grande de lujo con mantenimiento de concesionario caro. No la recomendamos a quien parquea en edificios antiguos."
+      para_quien_si: "Familia de siete que viaja mucho por carretera y quiere seis cilindros con buena tecnología."
+      para_quien_no: "Quien parquea en sótanos estrechos o quiere bajo costo de propiedad."
+      pros_reales: ["Seis cilindros turbo con 500 Nm: no sufre en altura", "Tercera fila utilizable", "Equipamiento de seguridad completo"]
+      contras:
+        - {componente: "Dimensiones", descripcion: "5,12 m de largo: apretada en parqueaderos de 5,00 m.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Plataforma nueva", descripcion: "Sin historial largo de fiabilidad; la caja de 8 velocidades con embrague interno es diseño propio reciente.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Grand Touring MHEV, precio_base_cop: 289900000}
+      - {anio: 2026, version: Signature MHEV, precio_base_cop: 319900000, plazas: 6}
+
+  - modelo: MX-5
+    generacion: ND
+    segmento: Deportivo
+    carroceria: Convertible
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2016-05-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Skyactiv-G", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 181, rpm_potencia_max: 7000, torque_nm: 205, rpm_torque_max: 4000, aceleracion_0_100_seg: 6.5, velocidad_maxima_kmh: 219, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Trasera, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 4.7, medida_llantas: "205/45 R17"}
+    dim: {largo_mm: 3915, ancho_sin_espejos_mm: 1735, ancho_con_espejos_mm: 1920, alto_mm: 1235, distancia_entre_ejes_mm: 2310, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1060, capacidad_baul_litros: 130, capacidad_tanque_galones: 11.9, voladizo_delantero_mm: 760, voladizo_trasero_mm: 845}
+    consumo: {consumo_mixto_kml: 14.8, consumo_real_estimado_kml: 12.5}
+    seg: {numero_airbags: 4, anclajes_isofix: false, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+    equipo: {pantalla_multimedia_pulgadas: 8.8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 8.0, quejas_documentadas: 8.3, recalls: 8.0, repuestos_y_red: 6.8, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Documentado: motor atmosférico de alta rotación y caja manual sin patrón de falla grave conocido; es de los deportivos más sencillos de mantener. Opinión editorial: es un juguete de dos plazas con baúl de 130 litros y despeje de 135 mm: en Colombia es segundo carro, no primero. Mayor riesgo individual: el bómper delantero contra rompemuelles y rampas. No lo recomendamos como único vehículo ni a quien mida más de 1,90 m."
+      para_quien_si: "Aficionado a manejar que busca tracción trasera, caja manual y bajo costo de mantenimiento."
+      para_quien_no: "Quien necesita llevar a alguien más o equipaje."
+      pros_reales: ["Tracción trasera y caja manual precisa", "Peso de apenas 1.060 kg", "Mecánica atmosférica simple y fiable"]
+      contras:
+        - {componente: "Practicidad", descripcion: "Dos plazas y 130 litros de baúl.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Capota de lona", descripcion: "Expuesta a vandalismo en parqueaderos abiertos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 6000000, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Grand Touring MT, precio_base_cop: 159900000}
+      - {anio: 2026, version: RF Grand Touring AT, precio_base_cop: 179900000, carroceria: Coupé, transmision_tipo: Automática, numero_velocidades: 6, peso_vacio_kg: 1120, aceleracion_0_100_seg: 7.2}
+
+  - modelo: CX-3
+    generacion: DK
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2016-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Skyactiv-G", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 148, rpm_potencia_max: 6000, torque_nm: 192, rpm_torque_max: 2800, aceleracion_0_100_seg: 9.9, velocidad_maxima_kmh: 192, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/50 R18"}
+    dim: {largo_mm: 4275, ancho_sin_espejos_mm: 1765, ancho_con_espejos_mm: 1975, alto_mm: 1550, distancia_entre_ejes_mm: 2570, distancia_libre_suelo_mm: 160, peso_vacio_kg: 1250, capacidad_baul_litros: 350, capacidad_baul_abatido_litros: 1260, capacidad_tanque_galones: 12.7}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 6}
+    equipo: {pantalla_multimedia_pulgadas: 7, aire_acondicionado: Automático, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.7, electrica_electronica: 7.8, quejas_documentadas: 8.0, recalls: 8.0, repuestos_y_red: 8.0, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: comparte la mecánica 2.0 atmosférica de la familia Skyactiv, sin patrón de falla grave conocido; como usado es una compra sensata. Opinión editorial: es pequeña por dentro: el baúl de 350 litros y las plazas traseras estrechas la limitan a pareja o persona sola. Mayor riesgo individual: comprar un usado sin historial de mantenimiento en concesionario. No la recomendamos a familias con dos niños en sillas."
+      para_quien_si: "Comprador de usado que quiere una SUV pequeña confiable y fácil de revender."
+      para_quien_no: "Familias que necesitan espacio trasero."
+      pros_reales: ["Mecánica atmosférica sin turbo", "Buen equipamiento en versión Grand Touring", "Reventa sólida"]
+      contras:
+        - {componente: "Espacio interior", descripcion: "Plazas traseras y baúl pequeños.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Multimedia", descripcion: "Pantalla de 7 pulgadas sin conectividad moderna en versiones antiguas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2021, version: Grand Touring AT, precio_base_cop: 95900000, fecha_precio: 2021-06-01}
