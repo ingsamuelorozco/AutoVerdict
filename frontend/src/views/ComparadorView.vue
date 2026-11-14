@@ -169,10 +169,10 @@ const puntajeDe = (id: number) => datos.value?.puntajes.find((p) => p.id === id)
           <table class="min-w-full border-separate border-spacing-0 text-sm" :aria-busy="cargando">
             <thead class="sticky top-0 z-20 bg-superficie">
               <tr>
-                <th scope="col" class="sticky left-0 z-30 w-48 min-w-[11rem] border-b border-linea bg-superficie p-3 text-left align-bottom">
+                <th scope="col" class="sticky left-0 z-30 w-28 min-w-[7rem] border-b sm:w-48 sm:min-w-[11rem] border-linea bg-superficie p-3 text-left align-bottom">
                   <span class="etiqueta">{{ datos.ciudad }} · {{ aj.moneda }}</span>
                 </th>
-                <th v-for="x in v" :key="x.id" scope="col" class="min-w-[220px] snap-start border-b border-l border-linea p-3 text-left align-top font-normal">
+                <th v-for="x in v" :key="x.id" scope="col" class="min-w-[136px] snap-start border-b border-l sm:min-w-[220px] border-linea p-3 text-left align-top font-normal">
                   <ImagenVehiculo :medidas="x" :nombre="`${x.marca} ${x.modelo}`" class="!aspect-[3/1]" />
                   <RouterLink :to="`/vehiculo/${x.slug}`" class="mt-2 block font-semibold hover:underline">{{ x.marca }} {{ x.modelo }} {{ x.anio }}</RouterLink>
                   <p class="text-xs text-tenue">{{ x.version }}</p>
@@ -196,7 +196,7 @@ const puntajeDe = (id: number) => datos.value?.puntajes.find((p) => p.id === id)
               </tr>
               <template v-if="!colapsadas.includes(cat.categoria)">
                 <tr v-for="fila in cat.filas.filter(visible)" :key="fila.clave" class="hover:bg-linea/20">
-                  <th scope="row" class="sticky left-0 z-10 border-b border-linea bg-superficie p-3 text-left font-normal text-tenue">
+                  <th scope="row" class="sticky left-0 z-10 border-b border-linea bg-superficie p-2 text-left text-xs font-normal text-tenue sm:p-3 sm:text-sm">
                     {{ fila.etiqueta }}
                     <span v-if="fila.aviso" class="mt-1 block text-xs text-ambar">{{ fila.aviso }}</span>
                   </th>
