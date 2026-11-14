@@ -35,14 +35,14 @@ const opac = (a: Auto) => (foco.value === null || foco.value === a.id ? 1 : 0.25
 </script>
 
 <template>
-  <section class="tarjeta p-4" aria-labelledby="huella-titulo">
-    <div class="flex flex-wrap items-center gap-3">
-      <h3 id="huella-titulo" class="text-lg font-semibold">Huella dimensional</h3>
-      <div class="flex gap-1" role="tablist" aria-label="Vista">
-        <button v-for="v in (['lateral', 'planta', 'frontal'] as const)" :key="v" role="tab" :aria-selected="vista === v" :class="['chip capitalize', vista === v ? 'chip-activo' : '']" @click="vista = v">{{ v === 'planta' ? 'Planta' : v === 'lateral' ? 'Lateral' : 'Frontal' }}</button>
+  <section class="tarjeta p-6 lg:p-8" aria-labelledby="huella-titulo">
+    <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+      <h3 id="huella-titulo" class="text-2xl uppercase">Huella dimensional</h3>
+      <div class="flex gap-6" role="tablist" aria-label="Vista">
+        <button v-for="v in (['lateral', 'planta', 'frontal'] as const)" :key="v" role="tab" :aria-selected="vista === v" :class="['pestana', vista === v ? 'pestana-activa' : '']" @click="vista = v">{{ v === 'planta' ? 'Planta' : v === 'lateral' ? 'Lateral' : 'Frontal' }}</button>
       </div>
       <label v-if="vista !== 'frontal'" class="ml-auto flex items-center gap-2 text-sm">Alinear por
-        <select v-model="alinear" class="rounded-lg border border-linea bg-papel px-2 py-1">
+        <select v-model="alinear" class="campo-mini">
           <option value="rueda">Rueda trasera</option><option value="frente">Frente</option><option value="centro">Centro</option>
         </select>
       </label>
@@ -52,7 +52,7 @@ const opac = (a: Auto) => (foco.value === null || foco.value === a.id ? 1 : 0.25
       </label>
     </div>
 
-    <div class="mt-4 overflow-hidden rounded-xl bg-papel text-tinta">
+    <div class="mt-6 overflow-hidden border border-linea bg-papel text-tinta">
       <svg v-if="vista === 'lateral'" :viewBox="vbLateral" class="h-auto w-full" role="img" aria-label="Siluetas laterales superpuestas a escala">
         <g transform="scale(1 -1)">
           <line x1="-700" :x2="anchoMundo" y1="0" y2="0" stroke="currentColor" stroke-opacity="0.4" stroke-width="10" />
@@ -87,12 +87,12 @@ const opac = (a: Auto) => (foco.value === null || foco.value === a.id ? 1 : 0.25
         </g>
       </svg>
     </div>
-    <p class="mt-2 text-xs text-tenue">{{ T.siluetaAviso }} Referencias: suelo, tope ajustable, persona de 1,75 m y plaza de 5,00 × 2,40 m.</p>
+    <p class="mt-3 text-xs tracking-[0.5px] text-apagado">{{ T.siluetaAviso }} Referencias: suelo, tope ajustable, persona de 1,75 m y plaza de 5,00 × 2,40 m.</p>
 
-    <ul class="mt-4 grid gap-2 sm:grid-cols-2">
-      <li v-for="(a, i) in autos" :key="a.id" class="flex flex-wrap items-center gap-x-3 gap-y-1 rounded-xl border border-linea p-2 text-sm" @mouseenter="foco = a.id" @mouseleave="foco = null">
+    <ul class="mt-6 grid gap-px border border-linea bg-linea sm:grid-cols-2">
+      <li v-for="(a, i) in autos" :key="a.id" class="flex flex-wrap items-center gap-x-3 gap-y-1 bg-suave px-4 py-3 text-sm" @mouseenter="foco = a.id" @mouseleave="foco = null">
         <svg width="34" height="10" aria-hidden="true"><line x1="0" x2="34" y1="5" y2="5" :stroke="color(i)" stroke-width="3" :stroke-dasharray="TRAZOS[i % TRAZOS.length]" /></svg>
-        <span class="min-w-0 flex-1 truncate font-medium">{{ a.nombre }}</span>
+        <span class="min-w-0 flex-1 truncate font-bold text-tinta">{{ a.nombre }}</span>
         <span class="text-xs" :title="NIVELES[a.indice_rompemuelle_nivel || 0]">⛰ {{ a.indice_rompemuelle_etiqueta }}</span>
         <span class="text-xs" :title="NIVELES[a.indice_garaje_nivel || 0]">🅿 {{ a.indice_garaje_etiqueta }}</span>
         <span class="sr-only">Largo {{ formatoNumero(a.largo_mm) }} mm</span>

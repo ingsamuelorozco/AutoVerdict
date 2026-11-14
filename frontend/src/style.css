@@ -87,6 +87,9 @@
   .pestana-movil { @apply relative flex min-h-[56px] flex-col items-center justify-center gap-1 text-[11px] font-normal uppercase tracking-[1px] text-tenue; }
   .pestana-movil-activa { @apply font-bold text-tinta; }
   .pestana-movil-activa::before { content: ''; @apply absolute inset-x-0 top-0 h-0.5 bg-tinta; }
+  /* Pestañas de categoría: solo texto, activa en blanco con subrayado de 2 px. */
+  .pestana { @apply border-b-2 border-transparent py-3 text-sm font-bold uppercase tracking-maquinado text-tenue transition-colors hover:text-tinta; }
+  .pestana-activa { @apply border-tinta text-tinta; }
   .enlace-texto { @apply inline-flex items-center gap-2 text-sm font-bold uppercase tracking-maquinado text-tinta; }
   .enlace-texto svg { @apply transition-transform; }
   .enlace-texto:hover svg, .group:hover .enlace-texto svg { @apply translate-x-1; }
