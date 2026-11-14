@@ -1,0 +1,345 @@
+marca: Toyota
+pais_origen: Japón
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Yaris Sedán
+    generacion: XP150
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Tailandia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2018-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 2NR-FE", cilindraje_cc: 1496, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 107, rpm_potencia_max: 6000, torque_nm: 140, rpm_torque_max: 4200, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "185/60 R15"}
+    dim: {largo_mm: 4425, ancho_sin_espejos_mm: 1730, alto_mm: 1475, distancia_entre_ejes_mm: 2550, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1060, capacidad_baul_litros: 476, capacidad_tanque_galones: 11.4}
+    consumo: {consumo_mixto_kml: 17.0}
+    seg: {numero_airbags: 7}
+    equipo: {pantalla_multimedia_pulgadas: 7}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.6, electrica_electronica: 8.2, quejas_documentadas: 8.4, recalls: 8.0, repuestos_y_red: 9.0, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial con base en su historial: el 1.5 atmosférico y la CVT de Toyota (no JATCO) acumulan pocas quejas, y la red de repuestos es la más amplia del país. Es un usado muy sensato, pero su manejo es plano y el motor sufre en subidas de Bogotá con cinco ocupantes: perderá cerca del 26% de su potencia a 2.600 msnm (estimado). Mayor riesgo individual: comprar uno con la CVT sin cambios de fluido. No lo recomendamos a quien viaje cargado por carretera de montaña con frecuencia."
+      para_quien_si: "Comprador de usado que prioriza bajo costo de mantenimiento y reventa."
+      para_quien_no: "Quien busca desempeño o viaja con frecuencia cargado por montaña."
+      pros_reales: ["7 airbags en un sedán B", "Mantenimiento barato y repuestos en todo el país", "Reventa estable"]
+      contras:
+        - {componente: "Desempeño en altura", descripcion: "107 hp atmosféricos se sienten escasos con carga en Bogotá.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Fluido de CVT", descripcion: "Cambio de fluido cada 40.000 km recomendado por talleres aunque el manual diga 'de por vida'.", km_tipico: "40.000", costo_reparacion_cop_aprox: 650000, severidad: Baja}
+    versiones:
+      - {anio: 2023, version: XS CVT, precio_base_cop: 82900000, fecha_precio: 2023-03-01, numero_airbags: 3}
+      - {anio: 2023, version: XLS CVT, precio_base_cop: 90900000, fecha_precio: 2023-03-01, camara_reversa: true, llave_inteligente: true, aire_acondicionado: Automático}
+
+  - modelo: Corolla
+    generacion: E210
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2019-11-01
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.8 2ZR-FXE híbrido", cilindraje_cc: 1798, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 122, rpm_potencia_max: 5200, torque_nm: 142, rpm_torque_max: 3600, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 53, capacidad_bateria_kwh: 1.3}
+    chasis: {transmision_tipo: e-CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4630, ancho_sin_espejos_mm: 1780, alto_mm: 1455, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1385, capacidad_baul_litros: 470, capacidad_tanque_galones: 11.4}
+    consumo: {consumo_mixto_kml: 23.5, consumo_real_estimado_kml: 21.0}
+    seg: {numero_airbags: 7, ncap_organismo: Latin NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Latin NCAP 2016–2019", adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Luces altas automáticas]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 9.3, electrica_electronica: 8.6, quejas_documentadas: 8.8, recalls: 8.0, repuestos_y_red: 9.0, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial respaldada por la trayectoria del sistema híbrido de Toyota: es la apuesta más segura del segmento en fiabilidad y consumo, con más de 20 km/l reales en ciudad. Pero no es perfecto: el 1.8 híbrido entrega 122 hp y en subidas largas de montaña el motor se revoluciona y suena; el despeje de 140 mm exige cuidado en rompemuelles. Mayor riesgo individual: el costo de la batería híbrida fuera de garantía. No lo recomendamos a quien busque emoción al volante."
+      para_quien_si: "Quien recorre mucha ciudad y quiere el menor costo por kilómetro con fiabilidad comprobada."
+      para_quien_no: "Quien prioriza desempeño o vive en vías destapadas."
+      pros_reales: ["Consumo real superior a 20 km/l en ciudad", "Sistema híbrido con larga trayectoria", "Exento de pico y placa en Bogotá (verifica la norma)"]
+      contras:
+        - {componente: "Batería híbrida", descripcion: "Reemplazo costoso fuera de la garantía de 8 años.", km_tipico: "200.000+", costo_reparacion_cop_aprox: 14000000, severidad: Media}
+        - {componente: "Ruido en subida", descripcion: "La e-CVT eleva las revoluciones en ascensos largos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: XEi HEV, precio_base_cop: 128900000}
+      - {anio: 2026, version: SEG HEV, precio_base_cop: 139900000, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, apple_carplay_android_auto: Inalámbrico, medida_llantas: "225/45 R17", adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Luces altas automáticas, Monitoreo de punto ciego]}
+      - {anio: 2024, version: XLi 2.0 CVT, precio_base_cop: 112900000, fecha_precio: 2024-03-01, tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Dynamic Force M20A", cilindraje_cc: 1987, potencia_hp: 169, rpm_potencia_max: 6600, torque_nm: 200, rpm_torque_max: 4400, aceleracion_0_100_seg: 9.2, velocidad_maxima_kmh: 200, transmision_tipo: CVT, numero_velocidades: 10, potencia_electrica_kw: null, capacidad_bateria_kwh: null, garantia_bateria_anos: null, garantia_bateria_km: null, consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.2, peso_vacio_kg: 1330}
+
+  - modelo: Corolla Cross
+    generacion: XG10
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2021-05-01
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.8 2ZR-FXE híbrido", cilindraje_cc: 1798, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 122, rpm_potencia_max: 5200, torque_nm: 142, rpm_torque_max: 3600, aceleracion_0_100_seg: 11.3, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 53, capacidad_bateria_kwh: 1.3}
+    chasis: {transmision_tipo: e-CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "215/60 R17"}
+    dim: {largo_mm: 4460, ancho_sin_espejos_mm: 1825, alto_mm: 1620, distancia_entre_ejes_mm: 2640, distancia_libre_suelo_mm: 161, peso_vacio_kg: 1420, capacidad_baul_litros: 440, capacidad_tanque_galones: 11.4}
+    consumo: {consumo_mixto_kml: 21.5, consumo_real_estimado_kml: 19.0}
+    seg: {numero_airbags: 7, ncap_organismo: Latin NCAP, ncap_estrellas: 5, ncap_anio: 2021, ncap_protocolo: "Latin NCAP 2020–2022", adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Luces altas automáticas]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 9.2, electrica_electronica: 8.5, quejas_documentadas: 8.6, recalls: 8.0, repuestos_y_red: 9.0, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial respaldada por el historial del sistema híbrido Toyota: es la SUV compacta más racional del mercado por consumo, fiabilidad y reventa. Sus límites son concretos: la suspensión trasera de barra de torsión en las versiones 4x2 rebota en vías rotas, los 122 hp se quedan cortos al adelantar en montaña y el despeje de 161 mm es de crossover, no de todoterreno. Mayor riesgo individual: el hurto de autopartes, alto en este modelo. No la recomendamos a quien haga trocha con frecuencia."
+      para_quien_si: "Familia urbana que quiere bajo consumo, exención de pico y placa y reventa alta."
+      para_quien_no: "Quien sale a fincas por destapado o necesita potencia para adelantar."
+      pros_reales: ["Consumo real cercano a 19 km/l", "5 estrellas Latin NCAP (protocolo 2020–2022)", "Muy buena reventa"]
+      contras:
+        - {componente: "Potencia", descripcion: "122 hp combinados para una SUV de 1.420 kg.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Suspensión trasera", descripcion: "Barra de torsión: menos confort en vías rotas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Batería híbrida", descripcion: "Reemplazo costoso fuera de garantía.", km_tipico: "200.000+", costo_reparacion_cop_aprox: 14000000, severidad: Media}
+    versiones:
+      - {anio: 2026, version: XEi HEV, precio_base_cop: 146900000}
+      - {anio: 2026, version: SEG HEV, precio_base_cop: 159900000, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, medida_llantas: "225/50 R18", sensores_parqueo: Delantero y trasero, adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Luces altas automáticas, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+      - {anio: 2026, version: GR-Sport HEV, precio_base_cop: 164900000, tapiceria: Cuero sintético, medida_llantas: "225/50 R18", adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Luces altas automáticas, Monitoreo de punto ciego]}
+      - {anio: 2025, version: XLi 2.0 CVT, precio_base_cop: 129900000, fecha_precio: 2025-04-01, tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Dynamic Force M20A", cilindraje_cc: 1987, potencia_hp: 169, rpm_potencia_max: 6600, torque_nm: 202, rpm_torque_max: 4400, aceleracion_0_100_seg: 9.9, velocidad_maxima_kmh: 185, transmision_tipo: CVT, numero_velocidades: 10, potencia_electrica_kw: null, capacidad_bateria_kwh: null, garantia_bateria_anos: null, garantia_bateria_km: null, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 12.0, peso_vacio_kg: 1385, apple_carplay_android_auto: Cable, pantalla_multimedia_pulgadas: 8}
+
+  - modelo: Yaris Cross
+    generacion: AC200
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Tailandia
+    fecha_lanzamiento_colombia: 2024-08-01
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.5 híbrido 3 cilindros", cilindraje_cc: 1490, cilindros: 3, valvulas: 12, alimentacion: Atmosférico, potencia_hp: 111, rpm_potencia_max: 5500, torque_nm: 120, rpm_torque_max: 3800, aceleracion_0_100_seg: 11.2, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 59, capacidad_bateria_kwh: 0.9}
+    chasis: {transmision_tipo: e-CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "215/55 R18"}
+    dim: {largo_mm: 4310, ancho_sin_espejos_mm: 1770, alto_mm: 1615, distancia_entre_ejes_mm: 2620, distancia_libre_suelo_mm: 195, peso_vacio_kg: 1220, capacidad_baul_litros: 466, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 24.0, consumo_real_estimado_kml: 20.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 8.2, quejas_documentadas: 8.0, recalls: 8.0, repuestos_y_red: 8.6, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: hereda el sistema híbrido Toyota de cuarta generación, aquí con un tres cilindros de 1.5 L. Lleva menos tiempo en Colombia que el Corolla, así que su historial local es corto. Consume muy poco y su despeje de 195 mm es mejor que el de la Corolla Cross, pero el tres cilindros vibra en ralentí, los 111 hp son justos en carretera y el tanque de 9,5 galones obliga a tanquear seguido en viajes. Mayor riesgo individual: la batería fuera de garantía. No la recomendamos a quien viaje lleno con frecuencia."
+      para_quien_si: "Conductor urbano que quiere un híbrido Toyota compacto con despeje alto."
+      para_quien_no: "Familias que viajan llenas por carretera de montaña."
+      pros_reales: ["Consumo real superior a 20 km/l", "Despeje de 195 mm", "Exención de pico y placa en Bogotá (verifica la norma)"]
+      contras:
+        - {componente: "Motor tres cilindros", descripcion: "Vibración perceptible en ralentí y al encender.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Potencia", descripcion: "111 hp combinados, justos con carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: HEV, precio_base_cop: 119900000}
+      - {anio: 2026, version: HEV Premium, precio_base_cop: 129900000, tapiceria: Cuero sintético, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Cámara 360]}
+
+  - modelo: RAV4
+    generacion: XA50
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2019-04-01
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "2.5 A25A-FXS híbrido AWD-i", cilindraje_cc: 2487, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 219, rpm_potencia_max: 5700, torque_nm: 221, rpm_torque_max: 3600, aceleracion_0_100_seg: 8.1, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 88, capacidad_bateria_kwh: 1.6}
+    chasis: {transmision_tipo: e-CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "225/60 R18", profundidad_vadeo_mm: 500, capacidad_remolque_kg: 1650}
+    dim: {largo_mm: 4600, ancho_sin_espejos_mm: 1855, alto_mm: 1685, distancia_entre_ejes_mm: 2690, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1700, capacidad_baul_litros: 580, capacidad_baul_abatido_litros: 1690, capacidad_tanque_galones: 14.5, angulo_ataque_deg: 18, angulo_salida_deg: 21}
+    consumo: {consumo_mixto_kml: 19.0, consumo_real_estimado_kml: 16.5}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2018", adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Lectura de señales]}
+    equipo: {pantalla_multimedia_pulgadas: 10.5, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 9.2, electrica_electronica: 8.4, quejas_documentadas: 8.5, recalls: 7.8, repuestos_y_red: 8.8, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial respaldada por el historial del sistema híbrido Toyota: combina 219 hp, tracción AWD-i y un consumo real cercano a 16 km/l, algo que ninguna SUV a gasolina de su tamaño logra. El costo de entrada es alto y el interior es funcional pero no lujoso; el ruido de motor en subidas largas es notorio. Mayor riesgo individual: el precio de compra frente a la Corolla Cross, que resuelve el 80% de lo mismo por mucho menos. No la recomendamos a quien solo maneja en ciudad sin salir a carretera."
+      para_quien_si: "Familia que viaja por carretera y quiere AWD, bajo consumo y reventa."
+      para_quien_no: "Quien solo circula en ciudad y no aprovecha el AWD ni la potencia."
+      pros_reales: ["219 hp sin turbo con consumo de compacto", "Baúl de 580 litros", "Reventa de las más altas del país"]
+      contras:
+        - {componente: "Precio de entrada", descripcion: "Muy por encima de la Corolla Cross híbrida.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Ruido de motor", descripcion: "La e-CVT eleva revoluciones en ascensos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Limited HEV AWD, precio_base_cop: 219900000}
+      - {anio: 2025, version: XLE HEV AWD, precio_base_cop: 199900000, fecha_precio: 2025-05-01, tapiceria: Cuero sintético, techo_corredizo: false, pantalla_multimedia_pulgadas: 8}
+
+  - modelo: Fortuner
+    generacion: AN160
+    segmento: SUV Grande
+    carroceria: SUV
+    plazas: 7
+    pais_origen: Tailandia
+    fecha_lanzamiento_colombia: 2016-06-01
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.8 1GD-FTV turbodiésel", cilindraje_cc: 2755, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 201, rpm_potencia_max: 3400, torque_nm: 500, rpm_torque_max: 1600, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 180}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido, frenos_traseros: Disco, direccion: Hidráulica, radio_giro_metros: 5.8, medida_llantas: "265/60 R18", profundidad_vadeo_mm: 700, capacidad_remolque_kg: 3000}
+    dim: {largo_mm: 4795, ancho_sin_espejos_mm: 1855, alto_mm: 1835, distancia_entre_ejes_mm: 2745, distancia_libre_suelo_mm: 225, peso_vacio_kg: 2135, capacidad_baul_litros: 296, capacidad_baul_abatido_litros: 1080, capacidad_tanque_galones: 21.1, angulo_ataque_deg: 29, angulo_ventral_deg: 23, angulo_salida_deg: 25}
+    consumo: {consumo_mixto_kml: 10.5, consumo_real_estimado_kml: 9.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Control crucero adaptativo, Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [toyota_dpf]
+      desglose: {motor_transmision: 8.8, electrica_electronica: 8.4, quejas_documentadas: 7.8, recalls: 7.5, repuestos_y_red: 9.0, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: el turbodiésel 2.8 tuvo un defecto de diseño en el filtro de partículas (DPF) en unidades fabricadas entre 2015 y abril de 2020, reconocido por un tribunal en Australia; Toyota lo corrigió. Opinión editorial: es una camioneta de chasis de largueros, robusta y con 500 Nm que no sufren en altura, pero se maneja como un camión: suspensión trasera de eje rígido, dirección pesada y 5,8 m de radio de giro. Mayor riesgo individual: el DPF si solo se usa en trayectos urbanos cortos. No la recomendamos como carro exclusivamente de ciudad."
+      para_quien_si: "Familia que va con frecuencia a fincas por destapado y necesita siete puestos y 4x4 real."
+      para_quien_no: "Quien solo maneja en ciudad y parquea en sótanos estrechos."
+      pros_reales: ["Chasis de largueros y 4x4 con reductora", "500 Nm de torque: no sufre en altura", "Red de servicio en todo el país y reventa muy alta"]
+      contras:
+        - {componente: "Confort de marcha", descripcion: "Eje rígido trasero: rebota sin carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Tercera fila", descripcion: "Asientos plegables laterales, solo para niños.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: SRV 2.8 AT 4x4, precio_base_cop: 249900000}
+      - {anio: 2026, version: Legender 2.8 AT 4x4, precio_base_cop: 279900000, pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "265/55 R20", adas_incluidas: [Control crucero adaptativo, Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Cámara 360]}
+
+  - modelo: Hilux
+    generacion: AN120
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Tailandia
+    fecha_lanzamiento_colombia: 2016-03-01
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.8 1GD-FTV turbodiésel", cilindraje_cc: 2755, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 201, rpm_potencia_max: 3400, torque_nm: 500, rpm_torque_max: 1600, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 175}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, direccion: Hidráulica, radio_giro_metros: 6.4, medida_llantas: "265/60 R18", profundidad_vadeo_mm: 700, capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 5325, ancho_sin_espejos_mm: 1855, alto_mm: 1815, distancia_entre_ejes_mm: 3085, distancia_libre_suelo_mm: 279, peso_vacio_kg: 2080, capacidad_carga_kg: 1000, capacidad_baul_litros: 1100, capacidad_tanque_galones: 21.1, voladizo_delantero_mm: 930, voladizo_trasero_mm: 1310, angulo_ataque_deg: 29, angulo_ventral_deg: 26, angulo_salida_deg: 26}
+    consumo: {consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.5}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [toyota_dpf]
+      desglose: {motor_transmision: 9.0, electrica_electronica: 8.5, quejas_documentadas: 7.8, recalls: 7.5, repuestos_y_red: 9.3, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: comparte con la Fortuner el defecto del DPF de las unidades 2015–abril 2020, ya corregido. Opinión editorial: es la pickup de referencia en durabilidad y reventa en Colombia, con repuestos en cualquier pueblo; a cambio, con el platón vacío rebota mucho por sus ballestas, mide 5,3 m y no entra en muchos parqueaderos, y la versión DX manual es espartana. Mayor riesgo individual: el robo de la camioneta completa y de sus partes, alto en este modelo. No la recomendamos a quien solo la quiera para ciudad."
+      para_quien_si: "Quien trabaja en campo, remolca o necesita una pickup que se revenda casi a precio de nueva."
+      para_quien_no: "Quien busca confort urbano o parquea en edificios con plazas de 5 metros."
+      pros_reales: ["Durabilidad del chasis y del 2.8 turbodiésel", "Repuestos y talleres en todo el país", "Reventa excepcional"]
+      contras:
+        - {componente: "Confort sin carga", descripcion: "Ballestas: rebota con el platón vacío.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Tamaño", descripcion: "5.325 mm: no cabe en una plaza estándar de 5,00 m.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: DX 2.4 MT 4x4, precio_base_cop: 172900000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: Manual, numero_velocidades: 6, numero_airbags: 3, tapiceria: Tela, aire_acondicionado: Manual, llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2026, version: SRV 2.8 AT 4x4, precio_base_cop: 219900000}
+      - {anio: 2026, version: GR-Sport 2.8 AT 4x4, precio_base_cop: 249900000, potencia_hp: 221, torque_nm: 550, medida_llantas: "265/60 R18", apple_carplay_android_auto: Inalámbrico, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+      - {anio: 2025, version: SRV 2.8 AT 4x4, precio_base_cop: 211900000, fecha_precio: 2025-03-01}
+
+  - modelo: Land Cruiser Prado
+    generacion: J250
+    segmento: SUV Grande
+    carroceria: SUV
+    plazas: 7
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2024-06-01
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.8 1GD-FTV turbodiésel", cilindraje_cc: 2755, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 201, rpm_potencia_max: 3400, torque_nm: 500, rpm_torque_max: 1600, aceleracion_0_100_seg: 11.8, velocidad_maxima_kmh: 175}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido, frenos_traseros: Disco ventilado, radio_giro_metros: 6.0, medida_llantas: "265/65 R18", profundidad_vadeo_mm: 700, capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 4925, ancho_sin_espejos_mm: 1980, alto_mm: 1870, distancia_entre_ejes_mm: 2850, distancia_libre_suelo_mm: 215, peso_vacio_kg: 2400, capacidad_baul_litros: 400, capacidad_baul_abatido_litros: 1800, capacidad_tanque_galones: 21.1, angulo_ataque_deg: 31, angulo_ventral_deg: 25, angulo_salida_deg: 22}
+    consumo: {consumo_mixto_kml: 10.0, consumo_real_estimado_kml: 8.6}
+    seg: {numero_airbags: 8, adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [toyota_dpf]
+      desglose: {motor_transmision: 8.8, electrica_electronica: 8.0, quejas_documentadas: 8.0, recalls: 7.5, repuestos_y_red: 8.8, costo_reparaciones: 6.5}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Documentado: usa el mismo 2.8 turbodiésel cuyo DPF tuvo un defecto en unidades 2015–2020, corregido antes de esta generación. Opinión editorial: la nueva plataforma J250 suma caja de 8 velocidades y electrónica moderna; su historial en Colombia aún es corto. Es un todoterreno real con 2.400 kg y casi 2 m de ancho, así que en ciudad es torpe y en sótanos antiguos no cabe con holgura. Mayor riesgo individual: el costo de mantenimiento y de llantas. No la recomendamos a quien no salga de la ciudad."
+      para_quien_si: "Quien necesita un 4x4 de lujo capaz de trocha seria y alta reventa."
+      para_quien_no: "Conductores urbanos que parquean en edificios antiguos."
+      pros_reales: ["4x4 con reductora y bloqueos", "500 Nm turbodiésel, ideal en altura", "Reventa de las más altas del mercado"]
+      contras:
+        - {componente: "Ancho", descripcion: "1.980 mm sin espejos: lateral muy justo para abrir puertas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Electrónica nueva", descripcion: "Generación reciente sin historial largo en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: TX-L 2.8 AT 4x4, precio_base_cop: 359900000}
+
+  - modelo: GR86
+    generacion: ZN8
+    segmento: Deportivo
+    carroceria: Coupé
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2022-11-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "2.4 bóxer FA24", cilindraje_cc: 2387, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 232, rpm_potencia_max: 7000, torque_nm: 250, rpm_torque_max: 3700, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 226, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.4, medida_llantas: "215/40 R18"}
+    dim: {largo_mm: 4265, ancho_sin_espejos_mm: 1775, alto_mm: 1310, distancia_entre_ejes_mm: 2575, distancia_libre_suelo_mm: 130, peso_vacio_kg: 1275, capacidad_baul_litros: 237, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8}
+    seg: {numero_airbags: 7, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.2, electrica_electronica: 8.2, quejas_documentadas: 7.8, recalls: 7.8, repuestos_y_red: 6.8, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es un coupé de tracción trasera, motor bóxer atmosférico y caja manual, una receta cada vez más escasa. El 2.4 resolvió la falta de torque de la generación anterior, pero a 2.600 msnm pierde cerca de una cuarta parte de su potencia (estimado) y exige gasolina extra. Las plazas traseras son simbólicas y el despeje de 130 mm obliga a cuidar cada rompemuelle. Mayor riesgo individual: el bómper delantero contra rampas. No lo recomendamos como único carro de una familia."
+      para_quien_si: "Aficionado que quiere tracción trasera y caja manual a un precio razonable."
+      para_quien_no: "Quien necesita llevar pasajeros atrás o vive en zona de rompemuelles altos."
+      pros_reales: ["Tracción trasera y caja manual", "Motor atmosférico de alta rotación", "Reventa sólida en el nicho"]
+      contras:
+        - {componente: "Despeje", descripcion: "130 mm: riesgo de raspar en rampas y rompemuelles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 900000, severidad: Media}
+        - {componente: "Gasolina extra", descripcion: "Requiere octanaje alto; costo por kilómetro mayor.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: 2.4 MT, precio_base_cop: 199900000}
+
+  - modelo: GR Yaris
+    generacion: GXPA16
+    segmento: Deportivo
+    carroceria: Hatchback
+    puertas: 3
+    plazas: 4
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2022-08-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.6 G16E-GTS turbo 3 cilindros", cilindraje_cc: 1618, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 261, rpm_potencia_max: 6500, torque_nm: 360, rpm_torque_max: 3000, aceleracion_0_100_seg: 5.5, velocidad_maxima_kmh: 230, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Doble horquilla, frenos_traseros: Disco ventilado, radio_giro_metros: 5.3, medida_llantas: "225/40 R18"}
+    dim: {largo_mm: 3995, ancho_sin_espejos_mm: 1805, alto_mm: 1455, distancia_entre_ejes_mm: 2560, distancia_libre_suelo_mm: 130, peso_vacio_kg: 1280, capacidad_baul_litros: 174, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 8, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.5, electrica_electronica: 8.0, quejas_documentadas: 7.5, recalls: 7.8, repuestos_y_red: 5.8, costo_reparaciones: 5.5}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es un auto de homologación de rally con un tres cilindros turbo de 261 hp y tracción integral; en altura sufre poco gracias al turbo. Es escaso y muy buscado, lo que sostiene su reventa, pero los repuestos específicos (embrague, diferenciales, frenos) son importados y caros, y el motor trabaja con mucha presión de turbo. Mayor riesgo individual: costo y espera de repuestos exclusivos. No lo recomendamos como carro diario sin presupuesto de mantenimiento holgado."
+      para_quien_si: "Coleccionista o aficionado a la conducción deportiva que puede pagar mantenimiento especializado."
+      para_quien_no: "Quien necesita un carro diario práctico y barato de mantener."
+      pros_reales: ["Tracción integral con reparto ajustable", "Turbo que conserva potencia en altura", "Valor de colección"]
+      contras:
+        - {componente: "Repuestos exclusivos", descripcion: "Embrague, frenos y diferenciales importados bajo pedido.", km_tipico: "Variable", costo_reparacion_cop_aprox: 8000000, severidad: Media}
+        - {componente: "Practicidad", descripcion: "Tres puertas y baúl de 174 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2024, version: 1.6T MT AWD, precio_base_cop: 249900000, fecha_precio: 2024-02-01}
+
+  - modelo: Raize
+    generacion: A200
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Indonesia
+    fecha_lanzamiento_colombia: 2022-04-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 1KR-VET turbo 3 cilindros", cilindraje_cc: 998, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 98, rpm_potencia_max: 6000, torque_nm: 140, rpm_torque_max: 2400, aceleracion_0_100_seg: 11.8, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.0, medida_llantas: "205/60 R17"}
+    dim: {largo_mm: 4030, ancho_sin_espejos_mm: 1710, alto_mm: 1605, distancia_entre_ejes_mm: 2525, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1035, capacidad_baul_litros: 369, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.0}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.8, quejas_documentadas: 7.6, recalls: 8.0, repuestos_y_red: 8.4, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es un desarrollo de Daihatsu con marca Toyota, de ahí que su respaldo de red sea amplio aunque la ingeniería no sea la misma de un Corolla. El tres cilindros turbo de 98 hp mueve bien sus 1.035 kg en ciudad y el despeje de 200 mm es de los mejores del segmento; la CVT es correcta pero lenta al reaccionar. Mayor riesgo individual: el ruido y la vibración del tres cilindros en trancón. No lo recomendamos a quien viaje con frecuencia por carretera con cinco ocupantes."
+      para_quien_si: "Conductor urbano que quiere un SUV pequeño de despeje alto y red Toyota."
+      para_quien_no: "Familias que viajan llenas por carretera."
+      pros_reales: ["Despeje de 200 mm", "Red de servicio Toyota", "Consumo urbano bajo"]
+      contras:
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros en todas las versiones.", km_tipico: "40.000", costo_reparacion_cop_aprox: 450000, severidad: Baja}
+        - {componente: "Ruido de motor", descripcion: "El tres cilindros se escucha en aceleración.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: 1.0T CVT, precio_base_cop: 96900000}
+      - {anio: 2025, version: 1.0T CVT, precio_base_cop: 92900000, fecha_precio: 2025-02-01, pantalla_multimedia_pulgadas: 7}
