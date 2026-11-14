@@ -1,0 +1,34 @@
+/** Textos de la interfaz centralizados (español de Colombia). */
+export const T = {
+  marca: 'AutoVerdict',
+  lema: 'Compra el carro, no la promesa',
+  sublema: 'Tamaño real, costo real en Colombia y lo que se le suele dañar. Antes de pagar.',
+  nav: {
+    actualizados: 'Vehículos actualizados',
+    buscar: 'Buscar vehículo',
+    comparador: 'Comparador',
+    reviews: 'Reviews honestas',
+    herramientas: 'Herramientas',
+    favoritos: 'Favoritos',
+  },
+  herramientas: [
+    { ruta: '/herramientas/credito', titulo: 'Simulador de crédito', desc: 'Cuota, intereses, abonos y tres escenarios.' },
+    { ruta: '/herramientas/seguro', titulo: 'Seguro estimado', desc: 'SOAT y rango del todo riesgo.' },
+    { ruta: '/herramientas/costo-total', titulo: 'Costo total a 5 años', desc: 'Combustible, mantenimiento, seguros, impuestos y reventa.' },
+    { ruta: '/herramientas/que-me-alcanza', titulo: '¿Qué carro me alcanza?', desc: 'Según tus ingresos, con el costo mensual real.' },
+    { ruta: '/herramientas/encuentra-mi-carro', titulo: 'Encuentra mi carro', desc: 'Seis preguntas, cinco recomendaciones explicadas.' },
+  ],
+  estimado: 'Estimado',
+  estimadoAyuda: 'Dato de referencia pendiente de verificación contra la ficha oficial vigente en Colombia. Ver metodología.',
+  avisoLegal:
+    'Precios referenciales y sujetos a cambio. No es una cotización ni asesoría financiera. Las reviews son opinión editorial basada en fuentes públicas citadas, no un diagnóstico de un vehículo en particular.',
+  siluetaAviso: 'Silueta esquemática a escala; no es el diseño real.',
+  mejor: 'MEJOR',
+  comparar: 'Comparar',
+  maximo10: 'Máximo 10',
+  sinResultados: 'No encontramos vehículos con esos filtros.',
+  errorCarga: 'No pudimos cargar la información.',
+  reintentar: 'Reintentar',
+  sinConexion: 'Estás sin conexión. Mostramos lo último que cargó.',
+  repo: 'https://github.com/ingsamuelorozco/AutoVerdict',
+}
