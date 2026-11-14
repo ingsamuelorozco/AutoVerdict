@@ -67,6 +67,8 @@
   .titulo-pagina { @apply text-[40px] leading-[1.1] lg:text-display-lg; }
   .titulo-seccion { @apply text-display-sm lg:text-display-md; }
   .entradilla { @apply mt-4 max-w-2xl text-lg text-tenue; }
+  /* Contenido sobre fotografía: siempre tipografía blanca, sea cual sea el tema. */
+  .sobre-foto { --tinta: 255 255 255; --cuerpo: 230 230 230; --papel: 0 0 0; --tenue: 187 187 187; --apagado: 150 150 150; --linea: 90 90 90; @apply text-cuerpo; }
   .tarjeta { @apply border border-linea bg-superficie; }
   .tarjeta-plana { @apply border border-linea bg-papel; }
   .celda-dato { @apply bg-suave p-6; }
