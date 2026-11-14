@@ -1,0 +1,216 @@
+marca: Peugeot
+pais_origen: Francia
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: "208"
+    generacion: Segunda generación (P21)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2021-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 Turbo 200 3 cilindros", cilindraje_cc: 999, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 120, rpm_potencia_max: 5750, torque_nm: 200, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.2, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "195/55 R16"}
+    dim: {largo_mm: 4055, ancho_sin_espejos_mm: 1745, alto_mm: 1450, distancia_entre_ejes_mm: 2540, distancia_libre_suelo_mm: 155, peso_vacio_kg: 1110, capacidad_baul_litros: 311, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.0}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.6, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el 208 brasileño tiene un diseño llamativo y un 1.0 Turbo 200 con cadena de distribución (no la correa en aceite del PureTech europeo) que rinde bien en altura. Las versiones 2021–2023 usaban un 1.6 atmosférico con caja automática Aisin de 6 velocidades, más sencillo. Su reventa es débil, la red Peugeot es pequeña y la posición del volante i-Cockpit no le sirve a todos. Mayor riesgo individual: la depreciación. No lo recomendamos a quien piense venderlo en pocos años."
+      para_quien_si: "Quien valora diseño y un turbo eficiente en altura."
+      para_quien_no: "Quien prioriza reventa o red de servicio amplia."
+      pros_reales: ["Turbo eficiente en altura", "Seis airbags", "Diseño interior moderno"]
+      contras:
+        - {componente: "Reventa", descripcion: "Débil en el mercado de usados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Baúl", descripcion: "311 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Active 1.0T CVT, precio_base_cop: 84900000}
+      - {anio: 2026, version: Allure 1.0T CVT, precio_base_cop: 92900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, medida_llantas: "205/45 R17", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+      - {anio: 2023, version: Allure 1.6 AT, precio_base_cop: 79900000, fecha_precio: 2023-02-01, motor_descripcion: "1.6 VTi", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 115, rpm_potencia_max: 5750, torque_nm: 150, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.5, transmision_tipo: Automática, numero_velocidades: 6, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.8}
+
+  - modelo: e-208
+    generacion: Segunda generación (P21)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Eslovaquia
+    fecha_lanzamiento_colombia: 2021-10-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 100 kW", alimentacion: Eléctrico, potencia_hp: 136, torque_nm: 260, aceleracion_0_100_seg: 8.1, velocidad_maxima_kmh: 150, potencia_electrica_kw: 100, capacidad_bateria_kwh: 50, potencia_carga_ac_kw: 7.4, potencia_carga_dc_kw: 100}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "205/45 R17"}
+    dim: {largo_mm: 4055, ancho_sin_espejos_mm: 1745, alto_mm: 1430, distancia_entre_ejes_mm: 2540, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1530, capacidad_baul_litros: 309, autonomia_estimada_km: 362, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 15.0, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 4, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 6.8, repuestos_y_red: 6.0, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un eléctrico compacto bien terminado, con 136 hp y 4 estrellas Euro NCAP (protocolo 2019). Su autonomía WLTP de 362 km es correcta para ciudad, pero la batería de 50 kWh y la eficiencia promedio lo dejan lejos de rivales chinos más baratos con más batería. El despeje de 140 mm exige cuidado. Mayor riesgo individual: la depreciación frente a eléctricos más nuevos y baratos. No lo recomendamos a quien priorice autonomía por peso invertido."
+      para_quien_si: "Conductor urbano que valora diseño europeo en un eléctrico compacto."
+      para_quien_no: "Quien busca máxima autonomía por su dinero."
+      pros_reales: ["Calidad de terminación", "136 hp sin pérdida en altura", "Exento de pico y placa (verifica la norma)"]
+      contras:
+        - {componente: "Relación precio-autonomía", descripcion: "Rivales ofrecen más batería por menos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: e-208 GT, precio_base_cop: 149900000, fecha_precio: 2025-01-01}
+
+  - modelo: "2008"
+    generacion: Segunda generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2020-11-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 Turbo 200 3 cilindros", cilindraje_cc: 999, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 120, rpm_potencia_max: 5750, torque_nm: 200, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.4, medida_llantas: "215/60 R17"}
+    dim: {largo_mm: 4300, ancho_sin_espejos_mm: 1770, alto_mm: 1550, distancia_entre_ejes_mm: 2605, distancia_libre_suelo_mm: 165, peso_vacio_kg: 1250, capacidad_baul_litros: 434, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.6, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: las 2008 europeas de 2020–2023 con motor 1.2 PureTech usan correa de distribución en baño de aceite, con degradación documentada y garantía extendida por Stellantis en Europa. Opinión editorial: la 2008 brasileña actual cambió a un 1.0 Turbo 200 con cadena y caja CVT, sin ese patrón. Es una SUV pequeña de diseño atractivo y baúl de 434 litros, con reventa débil. Mayor riesgo individual: en usados con PureTech, la correa. No recomendamos una 2008 PureTech usada sin certificado de cambio de correa."
+      para_quien_si: "Quien quiere una SUV pequeña con diseño europeo; mejor nueva que usada PureTech."
+      para_quien_no: "Quien compra una usada PureTech sin historial."
+      pros_reales: ["Baúl de 434 litros", "Turbo eficiente en altura", "Diseño interior moderno"]
+      contras:
+        - {componente: "Reventa", descripcion: "Débil en el mercado de usados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Frenos traseros", descripcion: "Tambor en la versión brasileña.", km_tipico: "40.000", costo_reparacion_cop_aprox: 450000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Active 1.0T CVT, precio_base_cop: 104900000}
+      - {anio: 2026, version: Allure 1.0T CVT, precio_base_cop: 114900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+      - {anio: 2023, version: Allure 1.2 PureTech EAT6, precio_base_cop: 109900000, fecha_precio: 2023-01-01, pais_origen: España, patrones: [puretech_correa], motor_descripcion: "1.2 PureTech 130 3 cilindros", cilindraje_cc: 1199, potencia_hp: 130, rpm_potencia_max: 5500, torque_nm: 230, transmision_tipo: Automática, numero_velocidades: 6, frenos_traseros: Disco, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 12.8, ncap_organismo: Euro NCAP, ncap_estrellas: 4, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019"}
+
+  - modelo: "308"
+    generacion: T9 (fase 2)
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: Francia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2017-11-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.2 PureTech 130 3 cilindros", cilindraje_cc: 1199, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 130, rpm_potencia_max: 5500, torque_nm: 230, rpm_torque_max: 1750, aceleracion_0_100_seg: 9.8, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "225/45 R17"}
+    dim: {largo_mm: 4253, ancho_sin_espejos_mm: 1804, alto_mm: 1457, distancia_entre_ejes_mm: 2620, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1250, capacidad_baul_litros: 420, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 13.5}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2013, ncap_protocolo: "Euro NCAP 2013", adas_incluidas: [Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 9.7, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [puretech_correa]
+      desglose: {motor_transmision: 4.8, electrica_electronica: 6.4, quejas_documentadas: 5.0, recalls: 6.0, repuestos_y_red: 6.2, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: el 1.2 PureTech de este 308 usa correa de distribución en baño de aceite, que se degrada y puede tapar la bomba de aceite; Stellantis amplió la garantía en Europa a 10 años o 175.000 km para motores fabricados hasta 2022. Opinión editorial: el 308 es un hatchback muy bien resuelto, con caja EAT8 y baúl de 420 litros, pero como usado el riesgo de la correa domina la compra. Mayor riesgo individual: daño de motor por la correa. No lo recomendamos sin certificado de cambio de correa y aceite especificado."
+      para_quien_si: "Solo comprador de usado con certificado de cambio de correa y mantenimiento con el aceite exacto."
+      para_quien_no: "Quien compra sin historial de mantenimiento."
+      pros_reales: ["Caja automática EAT8", "Baúl de 420 litros", "Buen aplomo en carretera"]
+      contras:
+        - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2021, version: GT Line 1.2 PureTech EAT8, precio_base_cop: 104900000, fecha_precio: 2021-02-01}
+
+  - modelo: "3008"
+    generacion: P84 (fase 2)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Francia
+    fecha_lanzamiento_colombia: 2017-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 THP", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 165, rpm_potencia_max: 6000, torque_nm: 240, rpm_torque_max: 1400, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 206, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "225/55 R18"}
+    dim: {largo_mm: 4447, ancho_sin_espejos_mm: 1841, alto_mm: 1624, distancia_entre_ejes_mm: 2675, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1490, capacidad_baul_litros: 520, capacidad_tanque_galones: 14.0}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.2}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2016, ncap_protocolo: "Euro NCAP 2016", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.6, electrica_electronica: 6.4, quejas_documentadas: 6.6, recalls: 6.8, repuestos_y_red: 6.4, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una de las SUV compactas con mejor diseño interior, con baúl de 520 litros, 5 estrellas Euro NCAP (protocolo 2016) y un 1.6 THP de 165 hp con caja automática convencional de 6 velocidades. El motor THP, desarrollado con BMW, tiene fama de sensibilidad a la cadena de distribución y al consumo de aceite en generaciones antiguas (opinión editorial basada en reportes de talleres, sin fuente específica registrada). Su reventa es débil. Mayor riesgo individual: la depreciación. No la recomendamos a quien la venda en pocos años."
+      para_quien_si: "Familia que valora diseño y espacio y conservará el carro."
+      para_quien_no: "Quien prioriza reventa."
+      pros_reales: ["Baúl de 520 litros", "Caja automática convencional", "Interior de diseño sobresaliente"]
+      contras:
+        - {componente: "Reventa", descripcion: "Débil en el mercado de usados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Mantenimiento del THP", descripcion: "Vigilar nivel de aceite y tensión de cadena.", km_tipico: "80.000+", costo_reparacion_cop_aprox: 3500000, severidad: Media}
+    versiones:
+      - {anio: 2025, version: GT 1.6 THP AT, precio_base_cop: 179900000, fecha_precio: 2025-01-01}
+
+  - modelo: "5008"
+    generacion: P87 (fase 2)
+    segmento: SUV Mediana
+    carroceria: SUV
+    plazas: 7
+    pais_origen: Francia
+    fecha_lanzamiento_colombia: 2018-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 THP", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 165, rpm_potencia_max: 6000, torque_nm: 240, rpm_torque_max: 1400, aceleracion_0_100_seg: 9.5, velocidad_maxima_kmh: 206, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "225/55 R18"}
+    dim: {largo_mm: 4641, ancho_sin_espejos_mm: 1844, alto_mm: 1646, distancia_entre_ejes_mm: 2840, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1590, capacidad_baul_litros: 166, capacidad_baul_abatido_litros: 1940, capacidad_tanque_galones: 14.0}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 10.8}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2017, ncap_protocolo: "Euro NCAP 2017", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [turbo_pequeno_pesado]
+      desglose: {motor_transmision: 6.4, electrica_electronica: 6.4, quejas_documentadas: 6.6, recalls: 6.8, repuestos_y_red: 6.4, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la 5008 ofrece siete asientos individuales, de los cuales la tercera fila es para niños, y un baúl enorme con ellos abatidos. El 1.6 THP de 165 hp trabaja exigido con siete ocupantes en montaña y el consumo real ronda 10,8 km/l. La caja automática es convencional, una ventaja. Su reventa es débil y la red Peugeot es pequeña fuera de las capitales. Mayor riesgo individual: la depreciación. No la recomendamos a quien lleve siete adultos con frecuencia."
+      para_quien_si: "Familia con niños que necesita siete puestos ocasionales y valora diseño."
+      para_quien_no: "Quien lleva siete adultos o prioriza reventa."
+      pros_reales: ["Siete asientos individuales", "Caja automática convencional", "Interior de diseño"]
+      contras:
+        - {componente: "Tercera fila", descripcion: "Solo para niños; 166 litros de baúl.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: GT 1.6 THP AT 7P, precio_base_cop: 199900000, fecha_precio: 2025-01-01}
+
+  - modelo: Landtrek
+    generacion: Primera generación
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2021-08-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "1.9 turbodiésel", cilindraje_cc: 1850, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 3600, torque_nm: 350, rpm_torque_max: 1600, aceleracion_0_100_seg: 12.8, velocidad_maxima_kmh: 165}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.3, medida_llantas: "265/60 R18", profundidad_vadeo_mm: 600, capacidad_remolque_kg: 3000}
+    dim: {largo_mm: 5330, ancho_sin_espejos_mm: 1963, alto_mm: 1855, distancia_entre_ejes_mm: 3180, distancia_libre_suelo_mm: 235, peso_vacio_kg: 2050, capacidad_carga_kg: 1000, capacidad_baul_litros: 1233, capacidad_tanque_galones: 21.1}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.6}
+    seg: {numero_airbags: 6, adas_incluidas: [Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 6.6, electrica_electronica: 6.4, quejas_documentadas: 6.6, recalls: 7.0, repuestos_y_red: 5.8, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una pickup de chasis desarrollada con la china Changan y vendida con marca Peugeot, con 235 mm de despeje, 1.000 kg de carga y buen equipamiento por su precio. El 1.9 turbodiésel de 150 hp es el menos potente de las pickups 4x4 del catálogo y se siente lento cargado en montaña. Su red de repuestos específicos es pequeña y su reventa no está probada. Mayor riesgo individual: la disponibilidad de repuestos en zonas rurales. No la recomendamos para trabajo pesado lejos de las capitales."
+      para_quien_si: "Quien quiere una pickup 4x4 equipada a precio contenido y vive cerca de un concesionario."
+      para_quien_no: "Quien trabaja lejos de las ciudades o necesita potencia para remolcar en montaña."
+      pros_reales: ["Despeje de 235 mm", "Carga de 1.000 kg", "Equipamiento por su precio"]
+      contras:
+        - {componente: "Potencia", descripcion: "150 hp para 2.050 kg.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Tamaño", descripcion: "5.330 mm de largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Allure 1.9 MT 4x2, precio_base_cop: 149900000, transmision_tipo: Manual, numero_velocidades: 6, traccion: Trasera, peso_vacio_kg: 1950}
+      - {anio: 2026, version: Allure 1.9 AT 4x4, precio_base_cop: 169900000}
