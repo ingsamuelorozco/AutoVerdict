@@ -90,6 +90,9 @@
   .campo-mini { @apply min-h-[36px] border border-linea bg-superficie px-2 text-sm text-tinta transition-colors focus:border-tinta; }
   label { @apply text-tenue; }
   .esqueleto { @apply animate-pulse bg-superficie; }
+  /* Franja M: divisor de 4 px con el tricolor. Solo firma de marca, nunca relleno ni acción. */
+  .franja-m { height: 4px; background: linear-gradient(90deg, rgb(var(--m-azul-claro)) 0 33.33%, rgb(var(--m-azul)) 33.33% 66.66%, rgb(var(--m-rojo)) 66.66% 100%); }
+  .franja-m-corta { @apply franja-m w-16; }
 }
 
 @media (prefers-reduced-motion: reduce) {
