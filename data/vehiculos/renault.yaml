@@ -1,0 +1,365 @@
+marca: Renault
+pais_origen: Francia
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Kwid
+    generacion: Primera generación (actualización 2023)
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2018-10-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 SCe 3 cilindros", cilindraje_cc: 999, cilindros: 3, valvulas: 12, alimentacion: Atmosférico, potencia_hp: 66, rpm_potencia_max: 5500, torque_nm: 94, rpm_torque_max: 4250, aceleracion_0_100_seg: 15.0, velocidad_maxima_kmh: 150, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_delanteros: Disco, frenos_traseros: Tambor, radio_giro_metros: 4.9, medida_llantas: "165/70 R14"}
+    dim: {largo_mm: 3731, ancho_sin_espejos_mm: 1579, alto_mm: 1490, distancia_entre_ejes_mm: 2423, distancia_libre_suelo_mm: 180, peso_vacio_kg: 790, capacidad_baul_litros: 290, capacidad_tanque_galones: 7.4}
+    consumo: {consumo_mixto_kml: 20.0, consumo_real_estimado_kml: 17.0}
+    seg: {numero_airbags: 4, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, sensores_parqueo: Trasero}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.5, repuestos_y_red: 8.8, costo_reparaciones: 8.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es el carro nuevo más barato de mantener del catálogo, con un tres cilindros de 66 hp, despeje de 180 mm y consumo real cercano a 17 km/l. A cambio, su estructura es liviana (790 kg) y su seguridad pasiva es limitada para estándares actuales; en Bogotá pierde cerca de una cuarta parte de su potencia (estimado) y adelantar en carretera es una maniobra larga. Mayor riesgo individual: la protección en un choque contra vehículos más pesados. No lo recomendamos para viajes frecuentes por carretera."
+      para_quien_si: "Quien necesita su primer carro nuevo para ciudad con el menor costo posible."
+      para_quien_no: "Quien viaja seguido por carretera o lleva niños a diario en autopista."
+      pros_reales: ["Consumo real cercano a 17 km/l", "Despeje de 180 mm", "Repuestos baratos y red amplia"]
+      contras:
+        - {componente: "Seguridad pasiva", descripcion: "Estructura liviana; protección limitada frente a vehículos más pesados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Potencia", descripcion: "66 hp: muy lento con carga en altura.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Zen 1.0 MT, precio_base_cop: 52900000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: Ninguno}
+      - {anio: 2026, version: Intens 1.0 MT, precio_base_cop: 57900000, camara_reversa: true}
+      - {anio: 2026, version: Outsider 1.0 MT, precio_base_cop: 59900000, camara_reversa: true, distancia_libre_suelo_mm: 184}
+
+  - modelo: Kwid E-Tech
+    generacion: Primera generación
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-04-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 48 kW", alimentacion: Eléctrico, potencia_hp: 65, torque_nm: 113, aceleracion_0_100_seg: 14.6, velocidad_maxima_kmh: 130, potencia_electrica_kw: 48, capacidad_bateria_kwh: 26.8, potencia_carga_ac_kw: 7, potencia_carga_dc_kw: 30}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_delanteros: Disco, frenos_traseros: Tambor, radio_giro_metros: 4.9, medida_llantas: "165/70 R14"}
+    dim: {largo_mm: 3734, ancho_sin_espejos_mm: 1579, alto_mm: 1516, distancia_entre_ejes_mm: 2423, distancia_libre_suelo_mm: 150, peso_vacio_kg: 977, capacidad_baul_litros: 290, autonomia_estimada_km: 220, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 12.5, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable, aire_acondicionado: Manual, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      patrones: []
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.5, repuestos_y_red: 6.4, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: es de los eléctricos más baratos del país y su costo por kilómetro con carga en casa es muy bajo. Pero la autonomía real ronda 200 km o menos con aire acondicionado y subidas, la carga rápida es de apenas 30 kW y la carrocería es la misma del Kwid de combustión, con espacio justo. Se fabrica en China con base en el Dacia Spring. Mayor riesgo individual: la depreciación de un eléctrico pequeño de primera generación. No lo recomendamos a quien viaje fuera de la ciudad."
+      para_quien_si: "Conductor urbano con carga en casa y recorridos diarios menores a 100 km."
+      para_quien_no: "Quien viaja a otras ciudades o no tiene dónde cargar."
+      pros_reales: ["Costo de energía muy bajo con carga en casa", "Exento de pico y placa (verifica la norma)", "Mantenimiento mínimo"]
+      contras:
+        - {componente: "Autonomía", descripcion: "Cerca de 200 km reales; no sirve para viajes intermunicipales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Carga rápida", descripcion: "Solo 30 kW en DC.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: E-Tech Intens, precio_base_cop: 89900000, fecha_precio: 2025-05-01}
+
+  - modelo: Sandero
+    generacion: Segunda generación (fase 2)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Colombia
+    fecha_lanzamiento_colombia: 2016-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 SCe", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 113, rpm_potencia_max: 5500, torque_nm: 156, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.1, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.3, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4068, ancho_sin_espejos_mm: 1733, alto_mm: 1529, distancia_entre_ejes_mm: 2589, distancia_libre_suelo_mm: 170, peso_vacio_kg: 1060, capacidad_baul_litros: 320, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 4, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.5, repuestos_y_red: 9.0, costo_reparaciones: 8.5}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: ensamblado en Colombia, con un 1.6 atmosférico de 113 hp y repuestos baratos en cualquier ciudad. Es amplio para su precio y su despeje de 170 mm tolera bien las calles colombianas. En contra: plataforma antigua, solo cuatro airbags, frenos traseros de tambor y una caja CVT de origen JATCO en la versión automática, con historial de sensibilidad al mantenimiento del fluido. Mayor riesgo individual: la CVT sin cambios de fluido a tiempo. No lo recomendamos con CVT a quien compre usado sin historial."
+      para_quien_si: "Quien busca un hatchback amplio y barato de mantener."
+      para_quien_no: "Quien prioriza seguridad activa moderna."
+      pros_reales: ["Repuestos baratos en todo el país", "Despeje de 170 mm", "Espacio interior amplio para su precio"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Plataforma antigua y cuatro airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Aislamiento", descripcion: "Ruido de rodadura y de motor en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Life 1.6 MT, precio_base_cop: 66900000}
+      - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 78900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], camara_reversa: true, aire_acondicionado: Automático}
+
+  - modelo: Stepway
+    generacion: Segunda generación (fase 2)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Colombia
+    fecha_lanzamiento_colombia: 2016-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 SCe", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 113, rpm_potencia_max: 5500, torque_nm: 156, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.4, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.3, medida_llantas: "205/60 R16"}
+    dim: {largo_mm: 4108, ancho_sin_espejos_mm: 1761, alto_mm: 1617, distancia_entre_ejes_mm: 2589, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1090, capacidad_baul_litros: 320, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.3}
+    seg: {numero_airbags: 4, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.5, repuestos_y_red: 9.0, costo_reparaciones: 8.5}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: es el Sandero elevado, con despeje de 200 mm que lo hace de los más cómodos para rompemuelles y calles destapadas en su precio. Mantiene el 1.6 atmosférico sencillo y barato de reparar. Sus límites: plataforma antigua, cuatro airbags, frenos traseros de tambor y la CVT de origen JATCO en la automática, sensible al mantenimiento del fluido. Mayor riesgo individual: la CVT en un usado sin historial. No lo recomendamos a quien busque la mejor protección en choques."
+      para_quien_si: "Quien vive en zonas con rompemuelles altos o vías sin pavimentar y quiere bajo costo de uso."
+      para_quien_no: "Quien prioriza seguridad activa y pasiva moderna."
+      pros_reales: ["Despeje de 200 mm", "Mecánica atmosférica sencilla", "Repuestos baratos y abundantes"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Plataforma antigua y cuatro airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Frenos traseros", descripcion: "Tambor; ajustar en cada mantenimiento.", km_tipico: "40.000", costo_reparacion_cop_aprox: 400000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Zen 1.6 MT, precio_base_cop: 72900000}
+      - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 84900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], aire_acondicionado: Automático}
+
+  - modelo: Logan
+    generacion: Segunda generación (fase 2)
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Colombia
+    fecha_lanzamiento_colombia: 2016-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 SCe", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 113, rpm_potencia_max: 5500, torque_nm: 156, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.3, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.3, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4359, ancho_sin_espejos_mm: 1733, alto_mm: 1517, distancia_entre_ejes_mm: 2634, distancia_libre_suelo_mm: 170, peso_vacio_kg: 1080, capacidad_baul_litros: 510, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 4, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.5, repuestos_y_red: 9.0, costo_reparaciones: 8.5}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el sedán de baúl grande (510 litros) más económico de mantener, ensamblado en Colombia y muy usado como taxi y carro de plataforma, lo que garantiza repuestos en cualquier esquina. Su despeje de 170 mm es generoso para un sedán. En contra: diseño interior antiguo, cuatro airbags, frenos traseros de tambor y la CVT de origen JATCO en la automática. Mayor riesgo individual: comprar un usado que fue de plataforma con kilometraje alterado. No lo recomendamos a quien busque tecnología o seguridad activa."
+      para_quien_si: "Quien necesita baúl grande y bajo costo de uso, incluido trabajo en plataformas."
+      para_quien_no: "Quien prioriza seguridad moderna o confort de marcha."
+      pros_reales: ["Baúl de 510 litros", "Repuestos baratos en todo el país", "Despeje de 170 mm para un sedán"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Cuatro airbags y sin ayudas de conducción.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Usados de plataforma", descripcion: "Alto kilometraje frecuente en el mercado de usados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Life 1.6 MT, precio_base_cop: 68900000}
+      - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 80900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], camara_reversa: true, aire_acondicionado: Automático}
+
+  - modelo: Duster
+    generacion: Segunda generación (fase 2)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Colombia
+    fecha_lanzamiento_colombia: 2021-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.3 TCe turbo", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 154, rpm_potencia_max: 5500, torque_nm: 250, rpm_torque_max: 1700, aceleracion_0_100_seg: 10.2, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.5, medida_llantas: "215/60 R17"}
+    dim: {largo_mm: 4341, ancho_sin_espejos_mm: 1804, alto_mm: 1693, distancia_entre_ejes_mm: 2676, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1300, capacidad_baul_litros: 475, capacidad_tanque_galones: 13.2, angulo_ataque_deg: 30, angulo_ventral_deg: 21, angulo_salida_deg: 33}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.6}
+    seg: {numero_airbags: 4, adas_incluidas: [Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.5, repuestos_y_red: 8.8, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: es la SUV compacta con mejores ángulos y despeje (210 mm) por su precio, ensamblada en Colombia y barata de reparar; la 4x4 con caja manual es de las pocas opciones reales para trocha liviana sin pagar una camioneta. El 1.3 turbo de 154 hp mejoró mucho el desempeño en altura. En contra: la versión automática usa CVT de origen JATCO, la seguridad es básica (cuatro airbags) y el interior es sencillo. Mayor riesgo individual: la CVT. No la recomendamos a quien priorice seguridad activa."
+      para_quien_si: "Quien sale a fincas por destapado y quiere una SUV económica de mantener."
+      para_quien_no: "Quien busca seguridad activa completa o acabados de calidad."
+      pros_reales: ["Despeje de 210 mm y buenos ángulos", "Versión 4x4 manual capaz", "Repuestos baratos y abundantes"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Solo cuatro airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros.", km_tipico: "40.000", costo_reparacion_cop_aprox: 450000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Intens 1.3T CVT 4x2, precio_base_cop: 112900000, patrones: [jatco_cvt]}
+      - {anio: 2026, version: Iconic 1.3T MT 4x4, precio_base_cop: 119900000, transmision_tipo: Manual, numero_velocidades: 6, traccion: 4x4, suspension_trasera: Multibrazo, tapiceria: Cuero sintético, peso_vacio_kg: 1390, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.8, adas_incluidas: [Monitoreo de punto ciego, Cámara 360]}
+      - {anio: 2024, version: Intens 1.3T CVT 4x2, precio_base_cop: 104900000, fecha_precio: 2024-03-01, patrones: [jatco_cvt]}
+
+  - modelo: Kardian
+    generacion: Primera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2024-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 TCe turbo 3 cilindros", cilindraje_cc: 999, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 120, rpm_potencia_max: 5000, torque_nm: 200, rpm_torque_max: 2000, aceleracion_0_100_seg: 10.4, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Doble embrague húmedo EDC, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.3, medida_llantas: "205/60 R17"}
+    dim: {largo_mm: 4122, ancho_sin_espejos_mm: 1747, alto_mm: 1544, distancia_entre_ejes_mm: 2604, distancia_libre_suelo_mm: 209, peso_vacio_kg: 1110, capacidad_baul_litros: 410, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.5, repuestos_y_red: 8.0, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es la nueva plataforma moderna de Renault para la región, con seis airbags, frenado autónomo y despeje de 209 mm. El tres cilindros turbo con caja de doble embrague húmeda (EDC) responde bien en altura; los embragues húmedos toleran mejor el trancón que los secos, pero esta combinación lleva poco tiempo en Colombia y su historial local es corto. Mayor riesgo individual: el comportamiento de la caja EDC a largo plazo en trancón y pendientes. No lo recomendamos a quien quiera la opción más probada."
+      para_quien_si: "Quien quiere una SUV pequeña moderna, con despeje alto y buena seguridad."
+      para_quien_no: "Quien prioriza mecánica con largo historial comprobado."
+      pros_reales: ["Seis airbags y frenado autónomo", "Despeje de 209 mm", "Turbo que conserva potencia en altura"]
+      contras:
+        - {componente: "Caja EDC", descripcion: "Doble embrague húmedo sin historial largo en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros.", km_tipico: "40.000", costo_reparacion_cop_aprox: 450000, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Evolution 1.0T EDC, precio_base_cop: 94900000}
+      - {anio: 2026, version: Iconic 1.0T EDC, precio_base_cop: 104900000, tapiceria: Cuero sintético, carga_inalambrica: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+
+  - modelo: Arkana
+    generacion: Primera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2023-03-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "1.3 TCe turbo + MHEV 12V", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 140, rpm_potencia_max: 5000, torque_nm: 260, rpm_torque_max: 1750, aceleracion_0_100_seg: 9.8, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 3}
+    chasis: {transmision_tipo: Doble embrague húmedo EDC, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "215/55 R18"}
+    dim: {largo_mm: 4568, ancho_sin_espejos_mm: 1821, alto_mm: 1571, distancia_entre_ejes_mm: 2720, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1400, capacidad_baul_litros: 513, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 16.5, consumo_real_estimado_kml: 13.5}
+    seg: {numero_airbags: 6, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2021, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 9.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.5, repuestos_y_red: 7.0, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: SUV coupé fabricada en Corea, con un 1.3 turbo de 140 hp e hibridación ligera de 12 V que ayuda poco en consumo. Ofrece buen equipamiento y 5 estrellas Euro NCAP (protocolo 2020), pero la línea de techo resta altura atrás y su volumen de ventas en Colombia es bajo, lo que pesa en reventa y en disponibilidad de repuestos de carrocería. Mayor riesgo individual: la depreciación. No la recomendamos a quien piense revenderla en pocos años."
+      para_quien_si: "Quien quiere diseño coupé con buen equipamiento y seguridad."
+      para_quien_no: "Pasajeros altos atrás o quien prioriza reventa."
+      pros_reales: ["5 estrellas Euro NCAP (2020)", "Baúl de 513 litros", "Equipamiento completo"]
+      contras:
+        - {componente: "Altura trasera", descripcion: "El techo coupé limita a pasajeros de más de 1,80 m.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Reventa", descripcion: "Volumen de ventas bajo en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: Intens MHEV EDC, precio_base_cop: 139900000, fecha_precio: 2025-04-01}
+
+  - modelo: Koleos
+    generacion: Segunda generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2017-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 atmosférico", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 170, rpm_potencia_max: 6000, torque_nm: 233, rpm_torque_max: 4000, aceleracion_0_100_seg: 9.8, velocidad_maxima_kmh: 199, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "225/55 R19"}
+    dim: {largo_mm: 4672, ancho_sin_espejos_mm: 1843, alto_mm: 1678, distancia_entre_ejes_mm: 2705, distancia_libre_suelo_mm: 208, peso_vacio_kg: 1650, capacidad_baul_litros: 498, capacidad_tanque_galones: 15.3}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.6}
+    seg: {numero_airbags: 6, adas_incluidas: [Monitoreo de punto ciego, Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 8.7, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.5, repuestos_y_red: 7.0, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: usa una CVT de la familia JATCO, cuyo historial muestra sensibilidad al fluido y a la temperatura. Opinión editorial: es una SUV mediana amplia y bien equipada, con AWD y despeje de 208 mm, desarrollada con base Nissan X-Trail. El 2.5 atmosférico pierde cerca de una cuarta parte de su potencia en Bogotá (estimado) y el consumo real ronda 9,6 km/l. Mayor riesgo individual: la CVT en un usado sin historial. No la recomendamos sin certificado de cambios de fluido."
+      para_quien_si: "Comprador de usado que busca espacio y AWD a buen precio."
+      para_quien_no: "Quien no puede verificar el mantenimiento de la CVT."
+      pros_reales: ["AWD y despeje de 208 mm", "Equipamiento de confort completo", "Espacio trasero amplio"]
+      contras:
+        - {componente: "Consumo", descripcion: "Cerca de 9,6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2024, version: Iconic 2.5 CVT 4x4, precio_base_cop: 159900000, fecha_precio: 2024-01-01}
+
+  - modelo: Oroch
+    generacion: Segunda generación
+    segmento: Pickup Compacta
+    carroceria: Pickup
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2016-05-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 SCe", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 115, rpm_potencia_max: 5500, torque_nm: 156, rpm_torque_max: 4000, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.6, medida_llantas: "215/65 R16"}
+    dim: {largo_mm: 4703, ancho_sin_espejos_mm: 1832, alto_mm: 1701, distancia_entre_ejes_mm: 2829, distancia_libre_suelo_mm: 214, peso_vacio_kg: 1280, capacidad_carga_kg: 650, capacidad_baul_litros: 683, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.8}
+    seg: {numero_airbags: 4, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.5, repuestos_y_red: 8.6, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es una pickup compacta basada en la Duster, con carrocería monocasco, despeje de 214 mm y repuestos baratos. Sirve para carga liviana (650 kg) y uso mixto ciudad-finca sin trocha exigente. La versión 1.6 atmosférica es lenta en altura con el platón cargado; la 1.3 turbo con CVT lo resuelve, pero suma la sensibilidad de esa caja de origen JATCO. Mayor riesgo individual: sobrecargarla como pickup mediana. No la recomendamos para trabajo pesado ni remolque."
+      para_quien_si: "Quien necesita platón para carga liviana con costos de mantenimiento de automóvil."
+      para_quien_no: "Quien requiere 4x4, carga pesada o remolque."
+      pros_reales: ["Despeje de 214 mm", "Repuestos de Duster baratos", "Se maneja como un automóvil"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Cuatro airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Capacidad de carga", descripcion: "650 kg útiles: no es una pickup de trabajo pesado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Zen 1.6 MT, precio_base_cop: 92900000}
+      - {anio: 2026, version: Intens 1.3T CVT, precio_base_cop: 112900000, motor_descripcion: "1.3 TCe turbo", cilindraje_cc: 1332, alimentacion: Turbo, potencia_hp: 154, torque_nm: 250, rpm_torque_max: 1700, aceleracion_0_100_seg: 10.5, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], consumo_mixto_kml: 12.8, consumo_real_estimado_kml: 10.6, aire_acondicionado: Automático, tapiceria: Cuero sintético}
+
+  - modelo: Alaskan
+    generacion: Primera generación
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Argentina
+    fecha_lanzamiento_colombia: 2020-11-01
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.3 dCi biturbo", cilindraje_cc: 2298, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 190, rpm_potencia_max: 3750, torque_nm: 450, rpm_torque_max: 1500, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 180}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 7, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Tambor, radio_giro_metros: 6.2, medida_llantas: "255/60 R18", profundidad_vadeo_mm: 600, capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 5399, ancho_sin_espejos_mm: 1850, alto_mm: 1810, distancia_entre_ejes_mm: 3150, distancia_libre_suelo_mm: 223, peso_vacio_kg: 2000, capacidad_carga_kg: 1000, capacidad_baul_litros: 1060, capacidad_tanque_galones: 21.1}
+    consumo: {consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.2, repuestos_y_red: 7.2, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: comparte chasis y mecánica con la Nissan Frontier, incluida la suspensión trasera multibrazo con resortes que la hace más cómoda que las rivales de ballestas. El 2.3 biturbo de 190 hp funciona bien en altura. Pero en Colombia se vende poco, lo que golpea su reventa frente a Hilux o Ranger, y los repuestos de carrocería pueden tardar. Mayor riesgo individual: la depreciación. No la recomendamos a quien la venda en pocos años."
+      para_quien_si: "Quien quiere una pickup 4x4 cómoda y bien equipada a precio menor que la Hilux."
+      para_quien_no: "Quien prioriza reventa."
+      pros_reales: ["Suspensión trasera multibrazo cómoda", "Biturbo de 450 Nm", "Buen equipamiento"]
+      contras:
+        - {componente: "Reventa", descripcion: "Menor demanda en el mercado de usados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Tamaño", descripcion: "5.399 mm de largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: Intens 2.3 dCi MT 4x4, precio_base_cop: 159900000, fecha_precio: 2025-02-01, motor_descripcion: "2.3 dCi turbo", potencia_hp: 160, torque_nm: 403, transmision_tipo: Manual, numero_velocidades: 6, tapiceria: Tela, aire_acondicionado: Manual}
+      - {anio: 2025, version: Iconic 2.3 dCi AT 4x4, precio_base_cop: 179900000, fecha_precio: 2025-02-01}
+
+  - modelo: Megane E-Tech
+    generacion: Primera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Francia
+    fecha_lanzamiento_colombia: 2023-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 160 kW", alimentacion: Eléctrico, potencia_hp: 218, torque_nm: 300, aceleracion_0_100_seg: 7.4, velocidad_maxima_kmh: 160, potencia_electrica_kw: 160, capacidad_bateria_kwh: 60, potencia_carga_ac_kw: 22, potencia_carga_dc_kw: 130}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "215/45 R20"}
+    dim: {largo_mm: 4200, ancho_sin_espejos_mm: 1860, alto_mm: 1500, distancia_entre_ejes_mm: 2685, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1636, capacidad_baul_litros: 440, autonomia_estimada_km: 450, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 16.1, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 4, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 12, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.5, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.0, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un crossover eléctrico de buena ingeniería, con 218 hp, carga AC de 22 kW y 450 km WLTP de autonomía homologada. Su despeje de 140 mm es bajo para un 'SUV' y lo obliga a cuidar los rompemuelles; las llantas de 20 pulgadas son caras y sensibles a huecos. Se vende poco en Colombia, con repuestos importados bajo pedido. Mayor riesgo individual: la depreciación y los tiempos de reparación. No lo recomendamos a quien circule por vías en mal estado."
+      para_quien_si: "Conductor urbano con carga en casa que valora potencia y tecnología."
+      para_quien_no: "Quien maneja por vías rotas o necesita reventa predecible."
+      pros_reales: ["218 hp sin pérdida en altura", "Carga AC trifásica de 22 kW", "Exento de pico y placa (verifica la norma)"]
+      contras:
+        - {componente: "Despeje", descripcion: "140 mm: bajo para un crossover.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Llantas de 20 pulgadas", descripcion: "Costosas y vulnerables a huecos.", km_tipico: "Variable", costo_reparacion_cop_aprox: 2400000, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: Iconic EV60, precio_base_cop: 199900000, fecha_precio: 2025-03-01}
