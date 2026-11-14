@@ -1,0 +1,316 @@
+marca: Chevrolet
+pais_origen: Estados Unidos
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Onix Sedán
+    generacion: GEM (segunda generación)
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2020-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 Turbo 3 cilindros", cilindraje_cc: 999, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 116, rpm_potencia_max: 5500, torque_nm: 160, rpm_torque_max: 2000, aceleracion_0_100_seg: 10.4, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "195/55 R16"}
+    dim: {largo_mm: 4474, ancho_sin_espejos_mm: 1730, alto_mm: 1471, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1100, capacidad_baul_litros: 469, capacidad_tanque_galones: 11.6}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.5}
+    seg: {numero_airbags: 6, ncap_organismo: Latin NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Latin NCAP 2016–2019", adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 60000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.4, quejas_documentadas: 7.0, recalls: 6.5, repuestos_y_red: 8.6, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Documentado: en 2019 GM llamó a revisión todos los Onix Plus 2020 en Brasil por una calibración de motor que podía causar preignición e incendio; se corrigió con software. Opinión editorial: hoy es un sedán B bien resuelto, con seis airbags y 5 estrellas Latin NCAP (protocolo 2016–2019), baúl de 469 litros y consumo real cercano a 14 km/l. El tres cilindros turbo exige aceite de especificación exacta. Mayor riesgo individual: comprar un 2020 usado sin verificar la actualización. No lo recomendamos a quien descuide los cambios de aceite."
+      para_quien_si: "Quien busca un sedán B moderno, seguro y barato de mantener."
+      para_quien_no: "Quien no puede garantizar mantenimiento con el aceite especificado."
+      pros_reales: ["Seis airbags y 5 estrellas Latin NCAP (2019)", "Baúl de 469 litros", "Repuestos baratos y red amplia"]
+      contras:
+        - {componente: "Frenos traseros", descripcion: "Tambor traseros en todas las versiones.", km_tipico: "40.000", costo_reparacion_cop_aprox: 400000, severidad: Baja}
+        - {componente: "Despeje", descripcion: "135 mm con bómper bajo: cuidado en rompemuelles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: LT MT, precio_base_cop: 79900000, transmision_tipo: Manual, numero_velocidades: 6, apple_carplay_android_auto: Cable}
+      - {anio: 2026, version: LTZ AT, precio_base_cop: 89900000, llave_inteligente: true}
+      - {anio: 2026, version: Premier AT, precio_base_cop: 96900000, llave_inteligente: true, carga_inalambrica: true, aire_acondicionado: Automático, tapiceria: Cuero sintético, luces_led: true, adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego, Asistente de parqueo]}
+      - {anio: 2024, version: LT AT, precio_base_cop: 82900000, fecha_precio: 2024-03-01}
+      - {anio: 2020, version: LT Turbo AT, precio_base_cop: 62900000, fecha_precio: 2020-02-01, patrones: [onix_2020_software], pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable}
+
+  - modelo: Onix Hatchback
+    generacion: GEM (segunda generación)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2021-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 Turbo 3 cilindros", cilindraje_cc: 999, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 116, rpm_potencia_max: 5500, torque_nm: 160, rpm_torque_max: 2000, aceleracion_0_100_seg: 10.1, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.0, medida_llantas: "195/55 R16"}
+    dim: {largo_mm: 4163, ancho_sin_espejos_mm: 1730, alto_mm: 1476, distancia_entre_ejes_mm: 2551, distancia_libre_suelo_mm: 135, peso_vacio_kg: 1075, capacidad_baul_litros: 303, capacidad_tanque_galones: 11.6}
+    consumo: {consumo_mixto_kml: 17.2, consumo_real_estimado_kml: 14.6}
+    seg: {numero_airbags: 6, ncap_organismo: Latin NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Latin NCAP 2016–2019", adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, llave_inteligente: true, luces_led: true, tapiceria: Cuero sintético}
+    garantia: {garantia_anos: 3, garantia_km: 60000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.4, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 8.6, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: es la versión hatchback del Onix, con el mismo tres cilindros turbo de 116 hp y caja automática convencional de 6 velocidades, una combinación que conserva casi toda su potencia en Bogotá. Va bien equipado para su precio, pero el baúl de 303 litros es menor que el del sedán y el despeje de 135 mm obliga a cuidar los rompemuelles. Mayor riesgo individual: el turbo pequeño, que exige aceite de especificación exacta. No lo recomendamos a quien descuide el mantenimiento."
+      para_quien_si: "Conductor urbano que quiere un hatchback equipado y ágil en altura."
+      para_quien_no: "Familias que necesitan baúl."
+      pros_reales: ["Turbo que conserva potencia en altura", "Caja automática convencional", "Equipamiento completo para su precio"]
+      contras:
+        - {componente: "Baúl", descripcion: "303 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Mantenimiento del turbo", descripcion: "Aceite dexos1 obligatorio y cambios puntuales.", km_tipico: "Cada 10.000", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: RS Turbo AT, precio_base_cop: 92900000}
+
+  - modelo: Spark GT
+    generacion: M300
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: Colombia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2010-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 SOHC", cilindraje_cc: 1206, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 81, rpm_potencia_max: 6400, torque_nm: 108, rpm_torque_max: 4800, aceleracion_0_100_seg: 13.9, velocidad_maxima_kmh: 164, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_delanteros: Disco, frenos_traseros: Tambor, radio_giro_metros: 4.9, medida_llantas: "155/70 R14"}
+    dim: {largo_mm: 3640, ancho_sin_espejos_mm: 1597, alto_mm: 1522, distancia_entre_ejes_mm: 2375, distancia_libre_suelo_mm: 150, peso_vacio_kg: 940, capacidad_baul_litros: 170, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 16.5, consumo_real_estimado_kml: 14.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, asistente_arranque_pendiente: false, anclajes_isofix: false}
+    equipo: {pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.5, repuestos_y_red: 9.2, costo_reparaciones: 8.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: es mecánica simple y barata de reparar, con repuestos en cualquier almacén del país, y por eso sigue siendo popular como usado. Pero su seguridad es de otra época: dos airbags, sin control de estabilidad ni anclajes ISOFIX. El 1.2 de 81 hp pierde cerca de una cuarta parte de su potencia en Bogotá (estimado) y adelantar en carretera exige planearlo. Mayor riesgo individual: la protección en un choque frente a cualquier carro moderno. No lo recomendamos como carro para llevar niños."
+      para_quien_si: "Quien necesita el carro más barato de mantener para trayectos urbanos cortos."
+      para_quien_no: "Familias con niños o quien maneja mucho en carretera."
+      pros_reales: ["Repuestos baratos en todo el país", "Mecánica sencilla", "Fácil de parquear"]
+      contras:
+        - {componente: "Seguridad pasiva", descripcion: "Dos airbags, sin ESC ni ISOFIX.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Potencia en altura", descripcion: "81 hp atmosféricos: muy lento con carga en Bogotá.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+      alertas:
+        - {nivel: AMARILLA, texto: "Sin control de estabilidad ni anclajes ISOFIX y solo dos airbags: protección limitada frente a carros actuales."}
+    versiones:
+      - {anio: 2019, version: LT 1.2 MT, precio_base_cop: 33900000, fecha_precio: 2019-03-01}
+      - {anio: 2019, version: LTZ 1.2 MT, precio_base_cop: 37900000, fecha_precio: 2019-03-01, aire_acondicionado: Manual}
+
+  - modelo: Tracker
+    generacion: GEM (segunda generación)
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2020-08-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 Turbo 3 cilindros", cilindraje_cc: 1199, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 132, rpm_potencia_max: 5500, torque_nm: 190, rpm_torque_max: 2000, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4270, ancho_sin_espejos_mm: 1791, alto_mm: 1626, distancia_entre_ejes_mm: 2570, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1210, capacidad_baul_litros: 393, capacidad_tanque_galones: 11.6}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 6, ncap_organismo: Latin NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Latin NCAP 2016–2019", adas_incluidas: [Alerta de colisión frontal]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 60000}
+    resena:
+      desglose: {motor_transmision: 7.5, electrica_electronica: 7.3, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 8.6, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: comparte la plataforma del Onix y usa un tres cilindros 1.2 turbo con caja automática convencional de 6 velocidades, lo que le da buen empuje en altura sin el riesgo de una CVT. Obtuvo 5 estrellas en Latin NCAP con el protocolo 2016–2019. El baúl de 393 litros y el espacio trasero son justos para una familia, y el consumo real se acerca más a 12 que a 15 km/l. Mayor riesgo individual: hurto de autopartes, alto en este modelo. No lo recomendamos como carro principal de una familia de cinco."
+      para_quien_si: "Pareja o familia pequeña que quiere una SUV subcompacta segura y fácil de mantener."
+      para_quien_no: "Familias de cinco que viajan con equipaje."
+      pros_reales: ["Caja automática convencional, no CVT", "Turbo que conserva potencia en altura", "Seis airbags y 5 estrellas Latin NCAP (2019)"]
+      contras:
+        - {componente: "Baúl", descripcion: "393 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Consumo real", descripcion: "Cerca de 12,8 km/l en ciudad, lejos del homologado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: LT 1.2T AT, precio_base_cop: 109900000}
+      - {anio: 2026, version: Premier 1.2T AT, precio_base_cop: 124900000, tapiceria: Cuero sintético, techo_corredizo: true, carga_inalambrica: true, luces_led: true, adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego, Asistente de parqueo, Frenado autónomo de emergencia]}
+      - {anio: 2026, version: RS 1.2T AT, precio_base_cop: 127900000, tapiceria: Cuero sintético, carga_inalambrica: true, luces_led: true, medida_llantas: "215/50 R18", adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego, Frenado autónomo de emergencia]}
+      - {anio: 2024, version: LTZ 1.2T AT, precio_base_cop: 114900000, fecha_precio: 2024-04-01, luces_led: true}
+
+  - modelo: Captiva
+    generacion: "Segunda generación (base Baojun 530)"
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2018-11-01
+    confianza_dato: Media
+    fuentes_ids: [wiki-baojun-530]
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 Turbo", cilindraje_cc: 1451, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 147, rpm_potencia_max: 5200, torque_nm: 250, rpm_torque_max: 2000, aceleracion_0_100_seg: 11.8, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, numero_velocidades: 8, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "225/55 R18"}
+    dim: {largo_mm: 4835, ancho_sin_espejos_mm: 1835, alto_mm: 1760, distancia_entre_ejes_mm: 2750, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1570, capacidad_baul_litros: 560, capacidad_tanque_galones: 13.7}
+    consumo: {consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 8.2}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10.4, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 60000}
+    resena:
+      patrones: [captiva_turbo, turbo_pequeno_pesado]
+      desglose: {motor_transmision: 2.5, electrica_electronica: 4.5, quejas_documentadas: 3.0, recalls: 6.0, repuestos_y_red: 6.5, costo_reparaciones: 4.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      retencion_valor: {"1": 0.76, "3": 0.56, "5": 0.43, "7": 0.33}
+      riesgo_hurto: Medio
+      veredicto: "Documentado: talleres colombianos y propietarios reportan fallas recurrentes de la caja CVT por sobrecalentamiento y desgaste de su correa interna, problemas del actuador del turbo y un consumo real de 28 a 33 km por galón en trancón de Bogotá. Opinión editorial: un 1.5 turbo de 147 hp es un motor pequeño y muy exigido para una carrocería de 1.570 kg y siete puestos, y los avisos de usados muestran que se deprecia rápido. Mayor riesgo individual: la CVT. No la recomendamos a nadie que piense conservarla más de tres años."
+      para_quien_si: "Solo quien consiga una unidad con precio muy por debajo del mercado y garantía vigente, y la use poco y en plano."
+      para_quien_no: "Familias que viajan llenas por montaña, quien hace trancón diario o quien quiere conservar el carro y revenderlo bien."
+      pros_reales: ["Mucho espacio interior por su precio", "Siete puestos disponibles", "Equipamiento de confort generoso"]
+      contras:
+        - {componente: "Plataforma", descripcion: "Diseño de origen chino (Baojun 530) con menor trayectoria de durabilidad documentada en Colombia que rivales japoneses o coreanos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: LT 1.5T CVT 5P, precio_base_cop: 122900000}
+      - {anio: 2026, version: Premier 1.5T CVT 7P, precio_base_cop: 139900000, plazas: 7, capacidad_baul_litros: 210, capacidad_baul_abatido_litros: 1050, tapiceria: Cuero sintético, techo_corredizo: true, luces_led: true, peso_vacio_kg: 1620, adas_incluidas: [Monitoreo de punto ciego]}
+      - {anio: 2024, version: Premier 1.5T CVT 7P, precio_base_cop: 129900000, fecha_precio: 2024-02-01, plazas: 7, capacidad_baul_litros: 210, capacidad_baul_abatido_litros: 1050, tapiceria: Cuero sintético, techo_corredizo: true, peso_vacio_kg: 1620}
+      - {anio: 2021, version: Premier 1.5T CVT 7P, precio_base_cop: 99900000, fecha_precio: 2021-03-01, plazas: 7, capacidad_baul_litros: 210, capacidad_baul_abatido_litros: 1050, tapiceria: Cuero sintético, techo_corredizo: true, peso_vacio_kg: 1620, pantalla_multimedia_pulgadas: 8}
+      - {anio: 2020, version: LT 1.5T CVT 5P, precio_base_cop: 89900000, fecha_precio: 2020-02-01, pantalla_multimedia_pulgadas: 8}
+
+  - modelo: Equinox
+    generacion: Tercera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2018-05-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 Turbo", cilindraje_cc: 1490, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 170, rpm_potencia_max: 5600, torque_nm: 275, rpm_torque_max: 2500, aceleracion_0_100_seg: 9.8, velocidad_maxima_kmh: 195, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "235/50 R19"}
+    dim: {largo_mm: 4652, ancho_sin_espejos_mm: 1843, alto_mm: 1661, distancia_entre_ejes_mm: 2725, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1640, capacidad_baul_litros: 830, capacidad_tanque_galones: 15.6}
+    consumo: {consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.2}
+    seg: {numero_airbags: 6, adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego, Asistente de mantenimiento de carril, Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 60000}
+    resena:
+      patrones: [turbo_pequeno_pesado]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.8, quejas_documentadas: 6.8, recalls: 6.8, repuestos_y_red: 7.6, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una SUV compacta amplia, con baúl grande y AWD, pero movida por un 1.5 turbo para 1.640 kg; en la práctica el consumo real ronda 10 km/l y el motor trabaja exigido con carga. La caja automática de 6 velocidades es convencional, lo que la pone en mejor lugar que rivales con CVT. Se deprecia más rápido que sus rivales japoneses. Mayor riesgo individual: el valor de reventa. No la recomendamos a quien quiera conservar valor o necesite empuje con cinco ocupantes en montaña."
+      para_quien_si: "Comprador de usado que encuentre una unidad con buen precio y historial de concesionario."
+      para_quien_no: "Quien prioriza reventa o bajo consumo."
+      pros_reales: ["Baúl amplio", "Caja automática convencional", "Equipamiento completo de seguridad activa"]
+      contras:
+        - {componente: "Reventa", descripcion: "Pierde valor más rápido que CX-5 o RAV4.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2024, version: Premier 1.5T AWD, precio_base_cop: 154900000, fecha_precio: 2024-01-01}
+
+  - modelo: Equinox EV
+    generacion: BEV3
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2024-10-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico delantero", alimentacion: Eléctrico, potencia_hp: 213, torque_nm: 330, aceleracion_0_100_seg: 8.0, velocidad_maxima_kmh: 160, potencia_electrica_kw: 159, capacidad_bateria_kwh: 85, potencia_carga_ac_kw: 11.5, potencia_carga_dc_kw: 150}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "235/55 R19"}
+    dim: {largo_mm: 4845, ancho_sin_espejos_mm: 1915, alto_mm: 1636, distancia_entre_ejes_mm: 3094, distancia_libre_suelo_mm: 180, peso_vacio_kg: 2200, capacidad_baul_litros: 742, autonomia_estimada_km: 513, autonomia_ciclo: EPA}
+    consumo: {consumo_kwh_100km: 17.8, ciclo_homologacion: EPA}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 17.7, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 60000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.0, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: ofrece una batería de 85 kWh y una autonomía homologada EPA de 513 km, de las mayores del mercado colombiano en su precio, y no pierde potencia en altura. Pero es una plataforma reciente con poco historial local, la red de técnicos certificados en alto voltaje es limitada fuera de las grandes ciudades y los eléctricos todavía se deprecian rápido en Colombia. Mayor riesgo individual: el valor de reventa. No la recomendamos a quien no tenga dónde cargar en casa."
+      para_quien_si: "Familia urbana con carga en casa que recorre mucho y quiere bajo costo por kilómetro."
+      para_quien_no: "Quien vive fuera de las grandes ciudades o depende de la carga pública."
+      pros_reales: ["Autonomía EPA de 513 km", "Potencia constante en altura", "Exento de pico y placa (verifica la norma)"]
+      contras:
+        - {componente: "Ancho", descripcion: "1.915 mm sin espejos: justo en plazas de 2,40 m.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Red de servicio", descripcion: "Pocos talleres certificados en alto voltaje fuera de las capitales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: RS FWD, precio_base_cop: 214900000}
+
+  - modelo: Colorado
+    generacion: Segunda generación (RG)
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Tailandia
+    fecha_lanzamiento_colombia: 2017-02-01
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.8 Duramax turbodiésel", cilindraje_cc: 2776, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 197, rpm_potencia_max: 3600, torque_nm: 500, rpm_torque_max: 2000, aceleracion_0_100_seg: 10.6, velocidad_maxima_kmh: 180}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.4, medida_llantas: "265/60 R18", profundidad_vadeo_mm: 800, capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 5361, ancho_sin_espejos_mm: 1874, alto_mm: 1795, distancia_entre_ejes_mm: 3096, distancia_libre_suelo_mm: 215, peso_vacio_kg: 2050, capacidad_carga_kg: 1000, capacidad_baul_litros: 1150, capacidad_tanque_galones: 20.9}
+    consumo: {consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.4}
+    seg: {numero_airbags: 6, adas_incluidas: [Alerta de colisión frontal, Alerta de cambio de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.2, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 8.0, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el 2.8 Duramax entrega 500 Nm y mueve con soltura la camioneta incluso a 2.600 msnm; es una pickup de trabajo sólida con red amplia. Frente a la Hilux pierde en reventa y frente a la Ranger en tecnología: el interior se siente antiguo y la seguridad activa es básica. Las ballestas hacen saltar el platón vacío. Mayor riesgo individual: el filtro de partículas en uso urbano corto, común a los turbodiésel modernos (opinión editorial). No la recomendamos solo para ciudad."
+      para_quien_si: "Quien necesita una pickup de trabajo potente a precio menor que la Hilux."
+      para_quien_no: "Quien prioriza tecnología interior o reventa máxima."
+      pros_reales: ["500 Nm de torque, ideal en altura", "Capacidad de remolque de 3.500 kg", "Red de servicio amplia"]
+      contras:
+        - {componente: "Interior", descripcion: "Diseño y materiales anticuados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Tamaño", descripcion: "5.361 mm: no cabe en una plaza estándar.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: LT 2.8D AT 4x4, precio_base_cop: 184900000}
+      - {anio: 2026, version: High Country 2.8D AT 4x4, precio_base_cop: 199900000, carga_inalambrica: true, llave_inteligente: true, sensores_parqueo: Delantero y trasero}
+
+  - modelo: Montana
+    generacion: Tercera generación
+    segmento: Pickup Compacta
+    carroceria: Pickup
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2023-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 Turbo 3 cilindros", cilindraje_cc: 1199, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 132, rpm_potencia_max: 5500, torque_nm: 190, rpm_torque_max: 2000, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.6, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4720, ancho_sin_espejos_mm: 1800, alto_mm: 1660, distancia_entre_ejes_mm: 2800, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1270, capacidad_carga_kg: 600, capacidad_baul_litros: 874, capacidad_tanque_galones: 11.6}
+    consumo: {consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 60000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.2, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 8.2, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es una pickup compacta de carrocería monocasco derivada de la Tracker, con su mismo 1.2 turbo y caja automática de 6 velocidades. Sirve para el día a día urbano con algo de carga (600 kg), pero no es un vehículo de trabajo pesado ni de trocha: no tiene 4x4 ni reductora. Lleva poco tiempo en el mercado, así que su historial local es corto. Mayor riesgo individual: sobrecargarla como si fuera una pickup mediana. No la recomendamos para fincas con destapado exigente."
+      para_quien_si: "Quien quiere un vehículo urbano con platón para carga liviana."
+      para_quien_no: "Quien necesita 4x4, remolque o carga pesada."
+      pros_reales: ["Se maneja como un carro, no como una camioneta", "Platón de 874 litros con tapa", "Mantenimiento barato"]
+      contras:
+        - {componente: "Capacidad de trabajo", descripcion: "Sin 4x4 y con carga útil limitada.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Historial", descripcion: "Generación reciente sin historial largo en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: Premier 1.2T AT, precio_base_cop: 109900000, fecha_precio: 2025-03-01, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego]}
+      - {anio: 2026, version: LTZ 1.2T AT, precio_base_cop: 112900000}
+
+  - modelo: Camaro
+    generacion: Sexta generación
+    segmento: Deportivo
+    carroceria: Coupé
+    pais_origen: Estados Unidos
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2016-09-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "6.2 V8 LT1", cilindraje_cc: 6162, cilindros: 8, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 455, rpm_potencia_max: 6000, torque_nm: 617, rpm_torque_max: 4400, aceleracion_0_100_seg: 4.3, velocidad_maxima_kmh: 290, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 10, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.8, medida_llantas: "245/40 R20"}
+    dim: {largo_mm: 4784, ancho_sin_espejos_mm: 1897, alto_mm: 1348, distancia_entre_ejes_mm: 2811, distancia_libre_suelo_mm: 120, peso_vacio_kg: 1700, capacidad_baul_litros: 258, capacidad_tanque_galones: 19.0}
+    consumo: {consumo_mixto_kml: 7.5, consumo_real_estimado_kml: 6.0}
+    seg: {numero_airbags: 8, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 60000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.0, repuestos_y_red: 5.5, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: un V8 atmosférico de 6,2 litros y 455 hp con tracción trasera, ya descontinuado. El motor LT1 tiene fama de robusto, pero en Colombia es un carro de nicho: repuestos importados, consumo real cercano a 6 km/l, gasolina extra y un despeje de 120 mm que hace sufrir en cualquier rompemuelle. La visibilidad hacia atrás es muy pobre. Mayor riesgo individual: el costo de llantas, frenos y reparaciones. No lo recomendamos como único carro ni a quien no tenga taller especializado cerca."
+      para_quien_si: "Aficionado al V8 que lo usa los fines de semana y tiene presupuesto holgado."
+      para_quien_no: "Quien busca un carro diario o economía de uso."
+      pros_reales: ["V8 atmosférico de 455 hp", "Caja automática de 10 velocidades rápida", "Chasis bien resuelto"]
+      contras:
+        - {componente: "Consumo", descripcion: "Cerca de 6 km/l reales con gasolina extra.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Despeje", descripcion: "120 mm: raspa en rampas y rompemuelles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
+    versiones:
+      - {anio: 2023, version: SS 6.2 V8 AT, precio_base_cop: 329900000, fecha_precio: 2023-01-01}
