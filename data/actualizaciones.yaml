@@ -1,0 +1,312 @@
+# Vehículos actualizados. `vehiculos`: slugs de las versiones nuevas (la primera es la de referencia);
+# `antes`: slug de la versión anterior comparable. Los cambios describen diferencias entre los registros
+# del catálogo y están marcados como estimados mientras no se contrasten con la ficha oficial.
+x-fuentes: &f [editorial-referencia, editorial-precio]
+actualizaciones:
+  - vehiculos: [toyota-corolla-cross-2026-xei-hev, toyota-corolla-cross-2026-seg-hev, toyota-corolla-cross-2026-gr-sport-hev]
+    antes: toyota-corolla-cross-2025-xli-2-0-cvt
+    tipo: Actualización mecánica
+    categorias: [Mecánica, Eficiencia, Tecnología]
+    fecha_lanzamiento_colombia: 2026-01-15
+    titulo: "Corolla Cross 2026: la gama se concentra en el híbrido"
+    resumen: "La versión de entrada a gasolina 2.0 da paso al híbrido 1.8 como base. Se gana consumo y exención de pico y placa; se pierde potencia pico."
+    cambios:
+      - {categoria: Mecánica, elemento: "Tren motriz", antes: "2.0 Dynamic Force, 169 hp, CVT", ahora: "1.8 híbrido, 122 hp, e-CVT", impacto: "Menos potencia pico, mucho más torque eléctrico a baja velocidad"}
+      - {categoria: Eficiencia, elemento: "Consumo real estimado", antes: "12,0 km/l", ahora: "19,0 km/l", impacto: "Cerca de 37% menos gasto en combustible"}
+      - {categoria: Tecnología, elemento: "Conectividad", antes: "CarPlay/Android Auto por cable, pantalla de 8\"", ahora: "Inalámbrico, pantalla de 10,1\"", impacto: "Mejor experiencia diaria"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "La diferencia de precio se recupera con el ahorro de combustible en pocos años de uso urbano y suma exención de pico y placa en Bogotá."
+    fuentes_ids: *f
+  - vehiculos: [toyota-hilux-2026-srv-2-8-at-4x4]
+    antes: toyota-hilux-2025-srv-2-8-at-4x4
+    tipo: Actualización de equipamiento
+    categorias: [Funcional]
+    fecha_lanzamiento_colombia: 2026-02-01
+    titulo: "Hilux 2026: ajuste de precio sin cambios de fondo"
+    resumen: "La SRV 2026 mantiene mecánica y equipamiento; el cambio principal es el precio."
+    cambios:
+      - {categoria: Funcional, elemento: "Precio de vitrina", antes: "$211,9 millones", ahora: "$219,9 millones", impacto: "Sube cerca de 4%"}
+    vale_la_pena: El anterior es mejor negocio
+    razon_veredicto: "Sin cambios técnicos, una 2025 nueva o seminueva con garantía es la compra más racional."
+    fuentes_ids: *f
+  - vehiculos: [toyota-rav4-2026-limited-hev-awd]
+    antes: toyota-rav4-2025-xle-hev-awd
+    tipo: Actualización de equipamiento
+    categorias: [Tecnología, Funcional]
+    fecha_lanzamiento_colombia: 2026-02-15
+    titulo: "RAV4 Limited 2026: más equipamiento en la versión tope"
+    resumen: "La gama se ordena alrededor de la Limited con cuero, techo y pantalla de 10,5\"."
+    cambios:
+      - {categoria: Tecnología, elemento: "Pantalla", antes: "8\"", ahora: "10,5\"", impacto: "Más legible"}
+      - {categoria: Funcional, elemento: "Techo corredizo y cuero", antes: "No / cuero sintético", ahora: "Sí / cuero", impacto: "Confort"}
+    vale_la_pena: Indiferente
+    razon_veredicto: "La mecánica híbrida es la misma; el sobreprecio paga solo confort."
+    fuentes_ids: *f
+  - vehiculos: [toyota-raize-2026-1-0t-cvt]
+    antes: toyota-raize-2025-1-0t-cvt
+    tipo: Actualización tecnológica
+    categorias: [Tecnología]
+    fecha_lanzamiento_colombia: 2025-12-01
+    titulo: "Raize 2026: pantalla más grande"
+    resumen: "Gana pantalla de 9\"; el resto se mantiene."
+    cambios:
+      - {categoria: Tecnología, elemento: "Pantalla", antes: "7\"", ahora: "9\"", impacto: "Mejor conectividad"}
+    vale_la_pena: El anterior es mejor negocio
+    razon_veredicto: "Cuatro millones más por una pantalla; la mecánica es idéntica."
+    fuentes_ids: *f
+  - vehiculos: [mazda-2-sedan-2026-touring-at, mazda-2-sedan-2026-grand-touring-at, mazda-2-sedan-2026-prime-mt]
+    antes: mazda-2-sedan-2025-touring-at
+    tipo: Actualización de equipamiento
+    categorias: [Funcional]
+    fecha_lanzamiento_colombia: 2026-01-10
+    titulo: "Mazda 2 Sedán 2026: precio actualizado y gama de tres versiones"
+    resumen: "La Touring sube de precio sin cambios técnicos; se agregan Prime manual de entrada y Grand Touring con ADAS."
+    cambios:
+      - {categoria: Funcional, elemento: "Precio Touring AT", antes: "$89,9 millones", ahora: "$92,9 millones", impacto: "Sube cerca de 3%"}
+    vale_la_pena: El anterior es mejor negocio
+    razon_veredicto: "Mismo carro: una 2025 en inventario con descuento es mejor compra."
+    fuentes_ids: *f
+  - vehiculos: [mazda-cx-30-2026-touring-2-0-at]
+    antes: mazda-cx-30-2025-touring-2-0-at
+    tipo: Actualización de equipamiento
+    categorias: [Funcional]
+    fecha_lanzamiento_colombia: 2026-01-10
+    titulo: "CX-30 2026: nueva versión Carbon Turbo y ajuste de precio"
+    resumen: "La Touring repite mecánica; la gama suma la Carbon Turbo AWD de 250 hp."
+    cambios:
+      - {categoria: Mecánica, elemento: "Tope de gama", antes: "Sin versión turbo", ahora: "2.5 Turbo AWD de 250 hp", impacto: "Opción para montaña"}
+      - {categoria: Funcional, elemento: "Precio Touring", antes: "$121,9 millones", ahora: "$125,9 millones", impacto: "Sube cerca de 3%"}
+    vale_la_pena: Indiferente
+    razon_veredicto: "En la Touring no hay cambios; la novedad está en la versión turbo."
+    fuentes_ids: *f
+  - vehiculos: [mazda-cx-5-2026-grand-touring-2-5-awd]
+    antes: mazda-cx-5-2024-grand-touring-2-5-awd
+    tipo: Actualización tecnológica
+    categorias: [Seguridad, Tecnología]
+    fecha_lanzamiento_colombia: 2025-11-01
+    titulo: "CX-5 2026: más ayudas de conducción"
+    resumen: "La Grand Touring suma crucero adaptativo, asistente de carril, lectura de señales y conectividad inalámbrica."
+    cambios:
+      - {categoria: Seguridad, elemento: "ADAS", antes: "Sin crucero adaptativo", ahora: "Crucero adaptativo, asistente de carril y lectura de señales", impacto: "Menos fatiga en carretera"}
+      - {categoria: Tecnología, elemento: "CarPlay / Android Auto", antes: "Cable", ahora: "Inalámbrico y carga inalámbrica", impacto: "Comodidad"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "Los ADAS añadidos tienen valor real en carretera por una diferencia de precio moderada."
+    fuentes_ids: *f
+  - vehiculos: [chevrolet-onix-sedan-2026-lt-mt, chevrolet-onix-sedan-2026-ltz-at, chevrolet-onix-sedan-2026-premier-at]
+    antes: chevrolet-onix-sedan-2024-lt-at
+    tipo: Actualización de equipamiento
+    categorias: [Tecnología, Seguridad]
+    fecha_lanzamiento_colombia: 2025-10-01
+    titulo: "Onix Sedán 2026: gama reorganizada y Premier con ADAS"
+    resumen: "Llega la versión Premier con alerta de colisión, punto ciego y carga inalámbrica; CarPlay inalámbrico en versiones automáticas."
+    cambios:
+      - {categoria: Seguridad, elemento: "ADAS (Premier)", antes: "No disponibles", ahora: "Alerta de colisión, punto ciego, asistente de parqueo", impacto: "Más seguridad activa"}
+      - {categoria: Tecnología, elemento: "Llave inteligente", antes: "No", ahora: "Sí desde LTZ", impacto: "Comodidad"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "Si se elige la Premier, las ayudas de seguridad justifican la diferencia."
+    fuentes_ids: *f
+  - vehiculos: [chevrolet-tracker-2026-premier-1-2t-at, chevrolet-tracker-2026-lt-1-2t-at, chevrolet-tracker-2026-rs-1-2t-at]
+    antes: chevrolet-tracker-2024-ltz-1-2t-at
+    tipo: Restyling o facelift
+    categorias: [Estética, Seguridad, Tecnología]
+    fecha_lanzamiento_colombia: 2025-08-01
+    titulo: "Tracker 2026: nueva cara y más seguridad en la Premier"
+    resumen: "Frente renovado, versión RS y frenado autónomo con punto ciego en la Premier."
+    cambios:
+      - {categoria: Estética, elemento: "Frente", antes: "Diseño 2020", ahora: "Frente renovado y versión RS", impacto: "Apariencia"}
+      - {categoria: Seguridad, elemento: "Frenado autónomo", antes: "No", ahora: "Sí en Premier y RS", impacto: "Menor riesgo de choque por alcance"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "El frenado autónomo es un avance de seguridad relevante."
+    fuentes_ids: *f
+  - vehiculos: [chevrolet-captiva-2026-premier-1-5t-cvt-7p, chevrolet-captiva-2026-lt-1-5t-cvt-5p]
+    antes: chevrolet-captiva-2024-premier-1-5t-cvt-7p
+    tipo: Actualización de equipamiento
+    categorias: [Seguridad, Funcional]
+    fecha_lanzamiento_colombia: 2025-09-01
+    titulo: "Captiva 2026: suma punto ciego pero mantiene la misma mecánica"
+    resumen: "Cambios menores de equipamiento; el 1.5 turbo y la caja CVT con historial de fallas siguen iguales."
+    cambios:
+      - {categoria: Seguridad, elemento: "Monitoreo de punto ciego", antes: "No", ahora: "Sí en Premier", impacto: "Menor"}
+      - {categoria: Mecánica, elemento: "Motor y caja", antes: "1.5 Turbo + CVT", ahora: "1.5 Turbo + CVT (sin cambios)", impacto: "Persiste el riesgo documentado"}
+    vale_la_pena: El anterior es mejor negocio
+    razon_veredicto: "Ni la nueva ni la anterior resuelven el problema de fondo; si se compra, que sea con el mayor descuento posible. Revisa la alerta roja."
+    fuentes_ids: *f
+  - vehiculos: [renault-duster-2026-intens-1-3t-cvt-4x2, renault-duster-2026-iconic-1-3t-mt-4x4]
+    antes: renault-duster-2024-intens-1-3t-cvt-4x2
+    tipo: Actualización de equipamiento
+    categorias: [Funcional]
+    fecha_lanzamiento_colombia: 2025-07-01
+    titulo: "Duster 2026: ajuste de precio y versión Iconic 4x4"
+    resumen: "La Intens 4x2 repite mecánica; la gama suma Iconic 4x4 manual con cámara 360."
+    cambios:
+      - {categoria: Funcional, elemento: "Precio Intens CVT", antes: "$104,9 millones", ahora: "$112,9 millones", impacto: "Sube cerca de 8%"}
+      - {categoria: Seguridad, elemento: "Cámara 360 (Iconic)", antes: "No", ahora: "Sí", impacto: "Maniobras más seguras"}
+    vale_la_pena: El anterior es mejor negocio
+    razon_veredicto: "En la Intens 4x2 no hay mejoras que justifiquen el aumento."
+    fuentes_ids: *f
+  - vehiculos: [kia-picanto-2026-vibrant-1-25-mt, kia-picanto-2026-zenith-1-25-at, kia-picanto-2026-gt-line-1-25-at]
+    antes: kia-picanto-2024-vibrant-1-25-mt
+    tipo: Restyling o facelift
+    categorias: [Estética, Tecnología, Seguridad]
+    fecha_lanzamiento_colombia: 2024-10-01
+    titulo: "Picanto 2026: pantalla de 8\" y GT-Line con frenado autónomo"
+    resumen: "La Vibrant gana pantalla más grande; la GT-Line suma frenado autónomo y luces LED."
+    cambios:
+      - {categoria: Tecnología, elemento: "Pantalla", antes: "7\"", ahora: "8\"", impacto: "Menor"}
+      - {categoria: Seguridad, elemento: "Frenado autónomo (GT-Line)", antes: "No", ahora: "Sí", impacto: "Relevante en ciudad"}
+    vale_la_pena: Indiferente
+    razon_veredicto: "En la Vibrant el cambio es menor; la mejora real está en las versiones con seis airbags."
+    fuentes_ids: *f
+  - vehiculos: [hyundai-creta-2026-premium-1-5-ivt, hyundai-creta-2026-limited-1-5-ivt]
+    antes: hyundai-creta-2024-premium-1-6-at
+    tipo: Nueva generación
+    categorias: [Mecánica, Tecnología, Eficiencia]
+    fecha_lanzamiento_colombia: 2025-03-01
+    titulo: "Creta 2026: cambia a 1.5 con caja IVT"
+    resumen: "El 1.6 con automática convencional de 6 velocidades da paso al 1.5 Smartstream con IVT, más eficiente pero con caja tipo CVT."
+    cambios:
+      - {categoria: Mecánica, elemento: "Motor y caja", antes: "1.6 MPI, 121 hp, automática de 6", ahora: "1.5 MPI, 115 hp, IVT", impacto: "Menos potencia; caja menos simple a largo plazo"}
+      - {categoria: Tecnología, elemento: "Pantalla y conectividad", antes: "8\", cable", ahora: "10,25\", inalámbrico", impacto: "Mejor experiencia"}
+    vale_la_pena: El anterior es mejor negocio
+    razon_veredicto: "Para quien prioriza durabilidad, la caja automática convencional de la 2024 es más sencilla; la nueva gana en tecnología."
+    fuentes_ids: *f
+  - vehiculos: [hyundai-venue-2026-premium-1-6-at]
+    antes: hyundai-venue-2024-premium-1-6-at
+    tipo: Actualización de equipamiento
+    categorias: [Estética]
+    fecha_lanzamiento_colombia: 2025-06-01
+    titulo: "Venue 2026: luces LED"
+    resumen: "Suma iluminación LED; mecánica sin cambios."
+    cambios:
+      - {categoria: Estética, elemento: "Luces", antes: "Halógenas", ahora: "LED", impacto: "Mejor visibilidad nocturna"}
+    vale_la_pena: Indiferente
+    razon_veredicto: "Cambio menor por una diferencia de precio pequeña."
+    fuentes_ids: *f
+  - vehiculos: [volkswagen-t-cross-2026-trendline-1-6-at, volkswagen-t-cross-2026-highline-1-4-tsi-at]
+    antes: volkswagen-t-cross-2024-comfortline-1-6-at
+    tipo: Restyling o facelift
+    categorias: [Estética, Tecnología, Mecánica]
+    fecha_lanzamiento_colombia: 2025-02-01
+    titulo: "T-Cross 2026: facelift y Highline con 1.4 TSI"
+    resumen: "Nuevo diseño y la Highline adopta el 1.4 TSI de 150 hp, ideal para altura."
+    cambios:
+      - {categoria: Mecánica, elemento: "Motor Highline", antes: "1.6 MSI 110 hp", ahora: "1.4 TSI 150 hp", impacto: "Mucho mejor desempeño en altura"}
+      - {categoria: Tecnología, elemento: "ADAS Highline", antes: "No", ahora: "Frenado autónomo, punto ciego, crucero adaptativo", impacto: "Seguridad"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "La Highline 1.4 TSI corrige la principal debilidad del modelo en Bogotá."
+    fuentes_ids: *f
+  - vehiculos: [ford-ranger-2026-xls-2-0-biturbo-at-4x4]
+    antes: ford-ranger-2025-xls-2-0-biturbo-at-4x4
+    tipo: Actualización de equipamiento
+    categorias: [Funcional]
+    fecha_lanzamiento_colombia: 2025-12-01
+    titulo: "Ranger XLS 2026: ajuste de precio"
+    resumen: "Sin cambios técnicos relevantes en la XLS."
+    cambios:
+      - {categoria: Funcional, elemento: "Precio", antes: "$182,9 millones", ahora: "$189,9 millones", impacto: "Sube cerca de 4%"}
+    vale_la_pena: El anterior es mejor negocio
+    razon_veredicto: "Misma pickup; la 2025 con descuento es mejor compra."
+    fuentes_ids: *f
+  - vehiculos: [nissan-kicks-2026-exclusive-1-6-cvt, nissan-kicks-2026-advance-1-6-cvt]
+    antes: nissan-kicks-2023-exclusive-1-6-cvt
+    tipo: Actualización tecnológica
+    categorias: [Tecnología, Seguridad]
+    fecha_lanzamiento_colombia: 2025-04-01
+    titulo: "Kicks 2026: pantalla de 12,3\" y más ADAS"
+    resumen: "La Exclusive suma pantalla grande, conectividad inalámbrica, punto ciego y tráfico cruzado."
+    cambios:
+      - {categoria: Tecnología, elemento: "Pantalla", antes: "8\", cable", ahora: "12,3\", inalámbrico", impacto: "Mejor experiencia"}
+      - {categoria: Seguridad, elemento: "ADAS", antes: "Frenado autónomo y cámara 360", ahora: "Suma punto ciego y tráfico cruzado", impacto: "Seguridad en parqueaderos"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "Mejoras útiles por una diferencia de precio moderada; la mecánica CVT es la misma."
+    fuentes_ids: *f
+  - vehiculos: [nissan-versa-2026-exclusive-1-6-cvt, nissan-versa-2026-advance-1-6-mt]
+    antes: nissan-versa-2023-sense-1-6-cvt
+    tipo: Actualización de equipamiento
+    categorias: [Seguridad, Funcional]
+    fecha_lanzamiento_colombia: 2025-02-01
+    titulo: "Versa 2026: Exclusive con paquete completo de ADAS"
+    resumen: "La versión Exclusive incorpora frenado autónomo, punto ciego, tráfico cruzado y asistente de carril."
+    cambios:
+      - {categoria: Seguridad, elemento: "ADAS", antes: "Ninguno (Sense)", ahora: "Cuatro ayudas activas", impacto: "Seguridad notable"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "El salto en seguridad activa frente a la Sense es grande."
+    fuentes_ids: *f
+  - vehiculos: [nissan-frontier-2026-le-2-3-biturbo-at-4x4]
+    antes: nissan-frontier-2025-le-2-3-biturbo-at-4x4
+    tipo: Actualización de equipamiento
+    categorias: [Funcional]
+    fecha_lanzamiento_colombia: 2026-01-01
+    titulo: "Frontier 2026: ajuste de precio"
+    resumen: "Sin cambios técnicos en la LE."
+    cambios:
+      - {categoria: Funcional, elemento: "Precio", antes: "$182,9 millones", ahora: "$189,9 millones", impacto: "Sube cerca de 4%"}
+    vale_la_pena: El anterior es mejor negocio
+    razon_veredicto: "Misma pickup a mayor precio."
+    fuentes_ids: *f
+  - vehiculos: [honda-hr-v-2026-ex-1-5-cvt, honda-hr-v-2026-touring-1-5t-cvt]
+    antes: honda-hr-v-2024-ex-1-5-cvt
+    tipo: Actualización mecánica
+    categorias: [Mecánica]
+    fecha_lanzamiento_colombia: 2025-05-01
+    titulo: "HR-V 2026: llega la Touring 1.5 turbo"
+    resumen: "La EX se mantiene; la nueva Touring con 1.5 turbo de 177 hp resuelve el desempeño en altura."
+    cambios:
+      - {categoria: Mecánica, elemento: "Tope de gama", antes: "Solo 1.5 atmosférico", ahora: "1.5 VTEC Turbo de 177 hp", impacto: "Mejor en montaña; ojo con la dilución de aceite en trayectos cortos"}
+    vale_la_pena: Indiferente
+    razon_veredicto: "En la EX no hay cambios; la Touring es otra propuesta."
+    fuentes_ids: *f
+  - vehiculos: [honda-cr-v-2026-touring-1-5t-awd, honda-cr-v-2026-e-hev-touring-awd]
+    antes: honda-cr-v-2024-touring-1-5t-awd
+    tipo: Actualización mecánica
+    categorias: [Mecánica, Eficiencia]
+    fecha_lanzamiento_colombia: 2025-06-01
+    titulo: "CR-V 2026: se suma la e:HEV híbrida"
+    resumen: "La gama agrega una versión híbrida de 204 hp sin turbo y con consumo cercano a 15 km/l."
+    cambios:
+      - {categoria: Eficiencia, elemento: "Consumo real estimado", antes: "11,2 km/l (turbo)", ahora: "15,0 km/l (e:HEV)", impacto: "Cerca de 25% menos gasto"}
+      - {categoria: Mecánica, elemento: "Tren motriz", antes: "1.5 turbo + CVT", ahora: "2.0 híbrido i-MMD", impacto: "Elimina el riesgo de dilución de aceite del turbo"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "La e:HEV elimina el principal riesgo documentado y gasta menos."
+    fuentes_ids: *f
+  - vehiculos: [suzuki-swift-2026-gl-mhev-mt, suzuki-swift-2026-glx-mhev-cvt]
+    antes: suzuki-swift-2023-glx-1-2-mt
+    tipo: Nueva generación
+    categorias: [Mecánica, Seguridad, Eficiencia]
+    fecha_lanzamiento_colombia: 2024-09-01
+    titulo: "Swift de cuarta generación: tres cilindros híbrido y seis airbags"
+    resumen: "Nuevo motor 1.2 de tres cilindros con hibridación ligera, seis airbags y frenado autónomo de serie."
+    cambios:
+      - {categoria: Seguridad, elemento: "Airbags", antes: "2", ahora: "6", impacto: "Mucho mejor protección"}
+      - {categoria: Seguridad, elemento: "Frenado autónomo", antes: "No", ahora: "Sí", impacto: "Relevante en ciudad"}
+      - {categoria: Eficiencia, elemento: "Consumo real estimado", antes: "15,5 km/l", ahora: "17,5 km/l", impacto: "Menor gasto"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "El salto en seguridad (de 2 a 6 airbags y frenado autónomo) justifica la diferencia."
+    fuentes_ids: *f
+  - vehiculos: [peugeot-2008-2026-allure-1-0t-cvt, peugeot-2008-2026-active-1-0t-cvt]
+    antes: peugeot-2008-2023-allure-1-2-puretech-eat6
+    tipo: Actualización mecánica
+    categorias: [Mecánica, Funcional]
+    fecha_lanzamiento_colombia: 2024-11-01
+    titulo: "2008 2026: de PureTech europeo a 1.0 Turbo brasileño"
+    resumen: "Cambia el origen y el motor: deja el 1.2 PureTech con correa en aceite por un 1.0 turbo con cadena y caja CVT."
+    cambios:
+      - {categoria: Mecánica, elemento: "Motor", antes: "1.2 PureTech 130 (correa en aceite)", ahora: "1.0 Turbo 200 (cadena)", impacto: "Elimina el riesgo documentado de la correa"}
+      - {categoria: Mecánica, elemento: "Caja", antes: "Automática EAT6", ahora: "CVT", impacto: "Sin historial local largo"}
+      - {categoria: Funcional, elemento: "Frenos traseros", antes: "Disco", ahora: "Tambor", impacto: "Menor"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "Evitar el riesgo de la correa PureTech pesa más que perder los frenos traseros de disco."
+    fuentes_ids: *f
+  - vehiculos: [peugeot-208-2026-allure-1-0t-cvt, peugeot-208-2026-active-1-0t-cvt]
+    antes: peugeot-208-2023-allure-1-6-at
+    tipo: Actualización mecánica
+    categorias: [Mecánica, Eficiencia]
+    fecha_lanzamiento_colombia: 2024-08-01
+    titulo: "208 2026: 1.0 Turbo con CVT en lugar del 1.6"
+    resumen: "Más torque y mejor desempeño en altura; cambia la caja automática Aisin de 6 por una CVT."
+    cambios:
+      - {categoria: Mecánica, elemento: "Motor", antes: "1.6 VTi 115 hp / 150 Nm", ahora: "1.0 Turbo 120 hp / 200 Nm", impacto: "Mejor en altura"}
+      - {categoria: Eficiencia, elemento: "Consumo real estimado", antes: "11,8 km/l", ahora: "13,0 km/l", impacto: "Menor gasto"}
+    vale_la_pena: Compra el nuevo
+    razon_veredicto: "El turbo mejora claramente el uso en ciudades de altura."
+    fuentes_ids: *f
