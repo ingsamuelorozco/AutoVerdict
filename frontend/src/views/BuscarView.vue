@@ -76,28 +76,28 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
 </script>
 
 <template>
-  <div class="contenedor py-10">
-    <h1 class="text-4xl font-semibold">{{ soloFavoritos ? 'Tus favoritos' : 'Buscar vehículo' }}</h1>
-    <div class="mt-6 flex flex-wrap items-center gap-2">
+  <div class="contenedor pagina">
+    <h1 class="titulo-pagina">{{ soloFavoritos ? 'Tus favoritos' : 'Buscar vehículo' }}</h1>
+    <div class="mt-10 flex flex-wrap items-center gap-3">
       <label class="relative min-w-[16rem] flex-1">
         <span class="sr-only">Buscar por marca, modelo o versión</span>
-        <Search class="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-tenue" aria-hidden="true" />
-        <input v-model="filtros.q" type="search" class="campo pl-9" placeholder="Ej.: corolla cross, captiva, eléctrico…" @input="recargar" />
+        <Search class="absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-tenue" aria-hidden="true" />
+        <input v-model="filtros.q" type="search" class="campo pl-11" placeholder="Ej.: corolla cross, captiva, eléctrico…" @input="recargar" />
       </label>
       <button class="boton-secundario lg:hidden" :aria-expanded="panel" @click="panel = !panel"><SlidersHorizontal class="h-4 w-4" aria-hidden="true" /> Filtros ({{ nFiltros }})</button>
       <select v-model="filtros.sort" class="campo w-auto" aria-label="Ordenar por" @change="recargar"><option v-for="o in ORDENES" :key="o.v" :value="o.v">{{ o.t }}</option></select>
       <div class="flex" role="group" aria-label="Vista">
-        <button :class="['grid h-11 w-11 place-items-center rounded-l-full border border-linea', vista === 'grid' ? 'bg-tinta text-papel' : '']" aria-label="Cuadrícula" @click="vista = 'grid'"><LayoutGrid class="h-4 w-4" aria-hidden="true" /></button>
-        <button :class="['grid h-11 w-11 place-items-center rounded-r-full border border-linea', vista === 'lista' ? 'bg-tinta text-papel' : '']" aria-label="Lista" @click="vista = 'lista'"><List class="h-4 w-4" aria-hidden="true" /></button>
+        <button :class="['grid h-12 w-12 place-items-center border border-linea transition-colors', vista === 'grid' ? 'border-tinta bg-tinta text-papel' : 'text-tenue hover:text-tinta']" aria-label="Cuadrícula" @click="vista = 'grid'"><LayoutGrid class="h-4 w-4" aria-hidden="true" /></button>
+        <button :class="['-ml-px grid h-12 w-12 place-items-center border border-linea transition-colors', vista === 'lista' ? 'border-tinta bg-tinta text-papel' : 'text-tenue hover:text-tinta']" aria-label="Lista" @click="vista = 'lista'"><List class="h-4 w-4" aria-hidden="true" /></button>
       </div>
       <button class="boton-secundario" @click="compartir"><Share2 class="h-4 w-4" aria-hidden="true" /> {{ copiado ? 'Enlace copiado' : 'Compartir' }}</button>
     </div>
 
-    <div class="mt-6 grid gap-8 lg:grid-cols-[16rem_1fr]">
-      <aside :class="['grid content-start gap-5 text-sm', panel ? '' : 'hidden lg:grid']" aria-label="Filtros">
+    <div class="mt-10 grid gap-10 lg:grid-cols-[17rem_1fr]">
+      <aside :class="['grid content-start gap-6 text-sm lg:border-r lg:border-linea lg:pr-8', panel ? '' : 'hidden lg:grid']" aria-label="Filtros">
         <fieldset v-for="k in (['marca', 'carroceria', 'segmento', 'combustible', 'transmision', 'traccion', 'adas', 'pais'] as const)" :key="k">
-          <legend class="etiqueta mb-2">{{ { marca: 'Marca', carroceria: 'Carrocería', segmento: 'Segmento', combustible: 'Combustible', transmision: 'Transmisión', traccion: 'Tracción', adas: 'ADAS incluidas', pais: 'País de origen' }[k] }}</legend>
-          <div class="flex flex-wrap gap-1">
+          <legend class="etiqueta mb-3 !text-tinta">{{ { marca: 'Marca', carroceria: 'Carrocería', segmento: 'Segmento', combustible: 'Combustible', transmision: 'Transmisión', traccion: 'Tracción', adas: 'ADAS incluidas', pais: 'País de origen' }[k] }}</legend>
+          <div class="flex flex-wrap gap-1.5">
             <button v-for="o in OPC[k]" :key="o" :class="['chip min-h-[32px] text-xs', filtros[k].includes(o) ? 'chip-activo' : '']" :aria-pressed="filtros[k].includes(o)" @click="alternar(k, o)">{{ o }}</button>
           </div>
         </fieldset>
@@ -120,14 +120,14 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
       </aside>
 
       <section aria-live="polite">
-        <p v-if="datos" class="mb-4 text-sm text-tenue num">{{ datos.total }} versiones</p>
+        <p v-if="datos" class="etiqueta mb-6 num">{{ datos.total }} versiones</p>
         <EstadoCarga :cargando="cargando" :error="error" :vacio="!!datos && !datos.total" :filas="6" @reintentar="ejecutar">
           <template #vacio><p class="text-sm text-tenue">{{ datos?.sugerencia }}</p></template>
-          <div :class="vista === 'grid' ? 'grid gap-4 sm:grid-cols-2 xl:grid-cols-3' : 'grid gap-3'">
+          <div :class="vista === 'grid' ? 'grid gap-6 sm:grid-cols-2 xl:grid-cols-3' : 'grid gap-6'">
             <TarjetaVehiculo v-for="v in datos?.resultados" :key="v.id" :v="v" :lista="vista === 'lista'" />
           </div>
-          <nav v-if="datos && datos.paginas > 1" class="mt-8 flex flex-wrap justify-center gap-1" aria-label="Paginación">
-            <button v-for="n in datos.paginas" :key="n" :class="['chip num', n === datos.page ? 'chip-activo' : '']" :aria-current="n === datos.page ? 'page' : undefined" @click="pagina(n)">{{ n }}</button>
+          <nav v-if="datos && datos.paginas > 1" class="mt-12 flex flex-wrap justify-center gap-1.5" aria-label="Paginación">
+            <button v-for="n in datos.paginas" :key="n" :class="['chip min-h-[44px] min-w-[44px] justify-center num', n === datos.page ? 'chip-activo' : '']" :aria-current="n === datos.page ? 'page' : undefined" @click="pagina(n)">{{ n }}</button>
           </nav>
         </EstadoCarga>
       </section>
