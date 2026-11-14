@@ -9,7 +9,7 @@ const columnas = [
 </script>
 
 <template>
-  <footer class="bg-papel pb-24 text-sm text-tenue lg:pb-0">
+  <footer class="bg-papel pb-24 text-sm text-tenue nav:pb-0">
     <div class="franja-m" aria-hidden="true" />
     <div class="contenedor grid gap-x-6 gap-y-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
       <div>

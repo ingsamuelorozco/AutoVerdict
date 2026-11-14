@@ -6,7 +6,7 @@ const comp = useComparador()
 </script>
 
 <template>
-  <nav class="fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-linea bg-papel lg:hidden" aria-label="Secciones principales">
+  <nav class="fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-linea bg-papel nav:hidden" aria-label="Secciones principales">
     <RouterLink to="/actualizados" class="pestana-movil" active-class="pestana-movil-activa">
       <RefreshCw class="h-5 w-5" aria-hidden="true" /> Actualizados
     </RouterLink>

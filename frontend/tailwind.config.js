@@ -38,6 +38,8 @@ export default {
         ambar: 'rgb(var(--ambar) / <alpha-value>)',
         roja: 'rgb(var(--roja) / <alpha-value>)',
       },
+      // «nav»: ancho a partir del cual cabe la navegación horizontal completa sin apretarse.
+      screens: { nav: '1360px' },
       spacing: { seccion: '96px' },
       maxWidth: { contenido: '1440px' },
       transitionDuration: { DEFAULT: '240ms' },

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { onClickOutside } from '@vueuse/core'
-import { ChevronDown, GitCompare, Heart, Menu, Moon, Sun, X } from 'lucide-vue-next'
+import { ChevronDown, GitCompare, Heart, Menu, Moon, SlidersHorizontal, Sun, X } from 'lucide-vue-next'
 import { useAjustes } from '@/stores/ajustes'
 import { useComparador } from '@/stores/comparador'
 import { useFavoritos } from '@/stores/favoritos'
@@ -14,6 +14,9 @@ const herramientasAbierto = ref(false)
 const lateralAbierto = ref(false)
 const menuRef = ref<HTMLElement | null>(null)
 onClickOutside(menuRef, () => (herramientasAbierto.value = false))
+const ajustesAbierto = ref(false)
+const ajustesRef = ref<HTMLElement | null>(null)
+onClickOutside(ajustesRef, () => (ajustesAbierto.value = false))
 
 function cambiarTrm(e: Event) {
   const v = Number((e.target as HTMLInputElement).value.replace(/\./g, '').replace(',', '.'))
@@ -36,7 +39,7 @@ const principales = [
         <span>{{ T.marca }}</span>
       </RouterLink>
 
-      <nav class="hidden h-full items-stretch gap-6 lg:flex xl:gap-8" aria-label="Secciones principales">
+      <nav class="hidden h-full items-stretch gap-6 nav:flex" aria-label="Secciones principales">
         <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="enlace-nav" active-class="enlace-nav-activo">{{ l.texto }}</RouterLink>
         <div ref="menuRef" class="relative flex items-stretch">
           <button class="enlace-nav gap-1" :aria-expanded="herramientasAbierto" aria-haspopup="menu" @click="herramientasAbierto = !herramientasAbierto">
@@ -52,17 +55,32 @@ const principales = [
         </div>
       </nav>
 
-      <div class="ml-auto hidden items-center gap-3 lg:flex">
-        <div class="hidden border border-linea text-xs xl:flex" role="group" aria-label="Moneda">
-          <button v-for="m in ['COP', 'USD'] as const" :key="m" :aria-pressed="aj.moneda === m" :class="['h-9 px-3 font-bold tracking-[1px] transition-colors', aj.moneda === m ? 'bg-tinta text-papel' : 'text-tenue hover:text-tinta']" @click="aj.moneda = m; aj.guardar()">{{ m }}</button>
+      <div class="ml-auto hidden h-full items-center gap-2 nav:flex">
+        <!-- Ajustes regionales agrupados en un solo panel para despejar la barra -->
+        <div ref="ajustesRef" class="relative flex h-full items-center">
+          <button class="flex h-11 items-center gap-2 px-3 text-xs font-bold uppercase tracking-[1px] text-tinta transition-colors hover:bg-superficie" :aria-expanded="ajustesAbierto" aria-haspopup="dialog" aria-label="Moneda, TRM y ciudad" @click="ajustesAbierto = !ajustesAbierto">
+            <SlidersHorizontal class="h-4 w-4" aria-hidden="true" /> {{ aj.moneda }}
+          </button>
+          <div v-if="ajustesAbierto" class="absolute right-0 top-full grid w-80 gap-5 border border-t-0 border-linea bg-papel p-6" role="dialog" aria-label="Ajustes regionales">
+            <div>
+              <p class="etiqueta">Moneda</p>
+              <div class="mt-2 flex border border-linea" role="group" aria-label="Moneda">
+                <button v-for="m in ['COP', 'USD'] as const" :key="m" :aria-pressed="aj.moneda === m" :class="['h-11 flex-1 text-xs font-bold tracking-maquinado transition-colors', aj.moneda === m ? 'bg-tinta text-papel' : 'text-tenue hover:text-tinta']" @click="aj.moneda = m; aj.guardar()">{{ m }}</button>
+              </div>
+            </div>
+            <label class="etiqueta block" title="TRM editable: vacía el campo para volver a la oficial">
+              TRM (pesos por dólar)
+              <input :value="Math.round(aj.trm)" inputmode="decimal" class="campo mt-2 num" aria-label="TRM en pesos por dólar" @change="cambiarTrm" />
+              <span class="mt-2 block text-xs font-light normal-case tracking-normal text-apagado">Vacía el campo para volver a la oficial.</span>
+            </label>
+            <label class="etiqueta block">
+              Ciudad
+              <select v-model="aj.ciudad" class="campo mt-2 normal-case tracking-normal" aria-label="Ciudad" @change="aj.guardar()">
+                <option v-for="c in aj.ciudades" :key="c.id" :value="c.id">{{ c.nombre }}</option>
+              </select>
+            </label>
+          </div>
         </div>
-        <label class="hidden items-center gap-2 text-xs font-bold uppercase tracking-[1px] 2xl:flex" title="TRM editable: vacía el campo para volver a la oficial">
-          TRM
-          <input :value="Math.round(aj.trm)" inputmode="decimal" class="campo-mini h-9 w-20 num" aria-label="TRM en pesos por dólar" @change="cambiarTrm" />
-        </label>
-        <select v-model="aj.ciudad" class="campo-mini hidden h-9 2xl:block" aria-label="Ciudad" @change="aj.guardar()">
-          <option v-for="c in aj.ciudades" :key="c.id" :value="c.id">{{ c.nombre }}</option>
-        </select>
         <button class="grid h-11 w-11 place-items-center rounded-full text-tinta transition-colors hover:bg-superficie" :aria-label="aj.tema === 'oscuro' ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro'" @click="aj.alternarTema()">
           <Sun v-if="aj.tema === 'oscuro'" class="h-5 w-5" aria-hidden="true" /><Moon v-else class="h-5 w-5" aria-hidden="true" />
         </button>
@@ -70,16 +88,16 @@ const principales = [
           <Heart class="h-5 w-5" aria-hidden="true" />
           <span v-if="fav.ids.length" class="absolute right-0.5 top-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-tinta px-1 text-[10px] font-bold text-papel num">{{ fav.ids.length }}</span>
         </RouterLink>
-        <RouterLink :to="{ path: '/comparador', query: comp.ids.length ? { ids: comp.ids.join(',') } : {} }" class="boton-primario min-h-[40px] px-5">
+        <RouterLink :to="{ path: '/comparador', query: comp.ids.length ? { ids: comp.ids.join(',') } : {} }" class="boton-primario ml-2 min-h-[40px] px-5">
           <GitCompare class="h-4 w-4" aria-hidden="true" /> Comparar ({{ comp.ids.length }})
         </RouterLink>
       </div>
 
-      <button class="ml-auto grid h-11 w-11 place-items-center text-tinta lg:hidden" aria-label="Abrir menú" @click="lateralAbierto = true"><Menu class="h-6 w-6" aria-hidden="true" /></button>
+      <button class="ml-auto grid h-11 w-11 place-items-center text-tinta nav:hidden" aria-label="Abrir menú" @click="lateralAbierto = true"><Menu class="h-6 w-6" aria-hidden="true" /></button>
     </div>
 
     <!-- Menú móvil: hoja a pantalla completa con la franja M arriba -->
-    <div v-if="lateralAbierto" class="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-papel lg:hidden" role="dialog" aria-modal="true" aria-label="Menú">
+    <div v-if="lateralAbierto" class="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-papel nav:hidden" role="dialog" aria-modal="true" aria-label="Menú">
       <div class="franja-m shrink-0" aria-hidden="true" />
       <div class="contenedor flex h-16 shrink-0 items-center justify-between border-b border-linea">
         <span class="text-lg font-bold uppercase tracking-[1px] text-tinta">{{ T.marca }}</span>
