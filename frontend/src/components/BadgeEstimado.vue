@@ -5,7 +5,7 @@ defineProps<{ texto?: string }>()
 
 <template>
   <span
-    class="ml-1 inline-flex cursor-help items-center rounded-full border border-linea px-1.5 py-0 align-middle text-[10px] font-medium uppercase tracking-wide text-tenue"
+    class="ml-1 inline-flex cursor-help items-center border border-linea px-1.5 py-0.5 align-middle text-[10px] font-bold uppercase leading-none tracking-[1px] text-tenue"
     :title="texto || T.estimadoAyuda"
     tabindex="0"
     role="note"
