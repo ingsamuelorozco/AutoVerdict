@@ -102,17 +102,17 @@ const issue = computed(() => {
         <section class="mt-20" aria-labelledby="recalls">
           <h2 id="recalls" class="text-display-sm">Recalls y campañas de seguridad</h2>
           <p v-if="!d.recalls.length" class="mt-2 text-sm text-tenue">No registramos campañas para este modelo y año. Verifica siempre por VIN en el portal de la SIC.</p>
-          <ul class="mt-3 grid gap-2">
-            <li v-for="r in d.recalls" :key="r.id" class="tarjeta p-4 text-sm"><strong>{{ r.titulo }}</strong> · {{ r.ente }} · {{ r.estado }}<p class="mt-1 text-tenue">{{ r.descripcion }}</p>
+          <ul class="mt-6 grid gap-4">
+            <li v-for="r in d.recalls" :key="r.id" class="tarjeta p-6 text-sm"><strong>{{ r.titulo }}</strong> · {{ r.ente }} · {{ r.estado }}<p class="mt-1 text-tenue">{{ r.descripcion }}</p>
               <a v-for="s in r.fuentes.filter(Boolean)" :key="s.id" :href="s.url" target="_blank" rel="noopener" class="mr-3 text-xs underline">{{ s.titulo.slice(0, 50) }}…</a></li>
           </ul>
         </section>
 
         <section class="mt-20" aria-labelledby="checklist">
           <h2 id="checklist" class="text-display-sm">Checklist de inspección para comprar usado</h2>
-          <ol class="mt-3 grid gap-3">
-            <li v-for="(c, i) in d.checklist_usado" :key="i" class="tarjeta p-4 text-sm">
-              <label class="flex gap-3"><input type="checkbox" class="mt-1 h-4 w-4 shrink-0" /><span><strong>{{ c.componente }}</strong> ({{ c.severidad }}, {{ c.km_tipico }})
+          <ol class="mt-6 grid gap-px border border-linea bg-linea">
+            <li v-for="(c, i) in d.checklist_usado" :key="i" class="bg-suave p-6 text-sm">
+              <label class="flex gap-4 text-cuerpo"><input type="checkbox" class="mt-1 h-4 w-4 shrink-0" /><span><strong>{{ c.componente }}</strong> ({{ c.severidad }}, {{ c.km_tipico }})
                 <span class="mt-1 block"><em>Qué revisar:</em> {{ c.que_revisar }}</span>
                 <span class="block"><em>Qué preguntar:</em> {{ c.que_preguntar }}</span>
                 <span class="block"><em>Prueba de manejo:</em> {{ c.prueba_de_manejo }}</span></span></label>
@@ -120,9 +120,9 @@ const issue = computed(() => {
           </ol>
         </section>
 
-        <section v-if="d.alternativas.length" class="mt-8" aria-labelledby="alternativas">
+        <section v-if="d.alternativas.length" class="mt-20" aria-labelledby="alternativas">
           <h2 id="alternativas" class="text-display-sm">Alternativas mejores</h2>
-          <div class="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div v-for="a in d.alternativas" :key="a.id" class="grid gap-2">
               <TarjetaVehiculo :v="a" />
               <button class="boton-secundario" @click="comp.agregar(d.vehiculo.id); comp.agregar(a.id); $router.push({ path: '/comparador', query: { ids: comp.ids.join(',') } })">Comparar</button>
@@ -130,8 +130,8 @@ const issue = computed(() => {
           </div>
         </section>
 
-        <section class="mt-10 text-sm" aria-labelledby="fuentes">
-          <h2 id="fuentes" class="text-lg font-semibold">Fuentes y fecha</h2>
+        <section class="mt-20 border-t border-linea pt-10 text-sm" aria-labelledby="fuentes">
+          <h2 id="fuentes" class="etiqueta !text-tinta">Fuentes y fecha</h2>
           <p class="text-tenue">Última verificación: {{ f.fecha(d.ultima_verificacion) }}</p>
           <ul class="mt-2 grid gap-1"><li v-for="s in d.fuentes.filter(Boolean)" :key="s.id"><a :href="s.url" target="_blank" rel="noopener" class="underline">{{ s.titulo }}</a> <span class="text-tenue">({{ s.tipo }})</span></li></ul>
           <a :href="issue" target="_blank" rel="noopener" class="boton-secundario mt-4"><Bug class="h-4 w-4" aria-hidden="true" /> Reportar un error en este dato</a>
