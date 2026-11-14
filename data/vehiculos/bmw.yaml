@@ -1,0 +1,242 @@
+marca: BMW
+pais_origen: Alemania
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Serie 1
+    generacion: F70
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2024-11-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.5 TwinPower Turbo 3 cilindros", cilindraje_cc: 1499, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 156, rpm_potencia_max: 5000, torque_nm: 230, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 223, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "225/45 R17"}
+    dim: {largo_mm: 4361, ancho_sin_espejos_mm: 1800, alto_mm: 1459, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1475, capacidad_baul_litros: 380, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.0}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 10.7, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.6, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el BMW de entrada ya es de tracción delantera y usa un tres cilindros turbo de 156 hp con caja de doble embrague húmeda: bien hecho y eficiente, pero lejos del manejo de los Serie 1 de propulsión anteriores. El mantenimiento y los repuestos tienen costo de marca premium, exige gasolina extra y la depreciación en los primeros años es alta. Mayor riesgo individual: reparaciones electrónicas fuera de garantía. La M135 suma 300 hp y AWD. No lo recomendamos a quien busque el menor costo de propiedad."
+      para_quien_si: "Quien quiere un compacto premium con tecnología y buena calidad interior."
+      para_quien_no: "Quien prioriza costo de propiedad o reventa."
+      pros_reales: ["Calidad interior premium", "Ocho airbags y ADAS", "Turbo eficiente en altura"]
+      contras:
+        - {componente: "Costo de mantenimiento", descripcion: "Servicios y repuestos de marca premium.", km_tipico: "Cada 10.000", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: 118i, precio_base_cop: 179900000}
+      - {anio: 2026, version: M135 xDrive, precio_base_cop: 279900000, segmento: Deportivo, motor_descripcion: "2.0 TwinPower Turbo", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, potencia_hp: 300, rpm_potencia_max: 5750, torque_nm: 400, rpm_torque_max: 2000, aceleracion_0_100_seg: 4.9, velocidad_maxima_kmh: 250, traccion: AWD, medida_llantas: "235/35 R19", tapiceria: Cuero, consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1625, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+
+  - modelo: Serie 3
+    generacion: G20 LCI
+    segmento: Sedán D
+    carroceria: Sedán
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2019-05-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "2.0 TwinPower Turbo B48", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 184, rpm_potencia_max: 5000, torque_nm: 300, rpm_torque_max: 1350, aceleracion_0_100_seg: 7.4, velocidad_maxima_kmh: 235, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "225/45 R18"}
+    dim: {largo_mm: 4713, ancho_sin_espejos_mm: 1827, alto_mm: 1440, distancia_entre_ejes_mm: 2851, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1575, capacidad_baul_litros: 480, capacidad_tanque_galones: 15.6}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2018", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 14.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 6.8, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 6.8, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la referencia del sedán deportivo de propulsión, con el 2.0 turbo B48 y la caja ZF de 8 velocidades, una combinación con buena reputación. La 330e híbrida enchufable suma unos 50 km eléctricos (estimado) y exención de pico y placa en Bogotá. A cambio: mantenimiento caro, depreciación alta, gasolina extra y despeje de 140 mm. Mayor riesgo individual: fugas de aceite y fallas electrónicas costosas a medida que envejece (opinión editorial). No lo recomendamos sin garantía extendida pasados los 100.000 km."
+      para_quien_si: "Quien prioriza manejo y calidad y puede pagar mantenimiento premium."
+      para_quien_no: "Quien busca bajo costo de propiedad o reventa."
+      pros_reales: ["Propulsión trasera y caja ZF de 8 velocidades", "5 estrellas Euro NCAP (2019)", "Baúl de 480 litros"]
+      contras:
+        - {componente: "Mantenimiento", descripcion: "Costos de marca premium.", km_tipico: "Cada 10.000", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Envejecimiento", descripcion: "Juntas y sensores costosos tras 100.000 km.", km_tipico: "100.000+", costo_reparacion_cop_aprox: 4500000, severidad: Media}
+    versiones:
+      - {anio: 2026, version: 320i M Sport, precio_base_cop: 239900000}
+      - {anio: 2026, version: 330e M Sport PHEV, precio_base_cop: 269900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo + motor eléctrico (PHEV)", potencia_hp: 292, torque_nm: 420, aceleracion_0_100_seg: 5.8, velocidad_maxima_kmh: 230, potencia_electrica_kw: 80, capacidad_bateria_kwh: 19.5, potencia_carga_ac_kw: 7.4, potencia_carga_dc_kw: null, consumo_kwh_100km: 17.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 375, capacidad_tanque_galones: 10.6, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.0, peso_vacio_kg: 1815}
+
+  - modelo: X1
+    generacion: U11
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2023-03-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "1.5 TwinPower Turbo 3 cilindros", cilindraje_cc: 1499, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 156, rpm_potencia_max: 5000, torque_nm: 230, rpm_torque_max: 1500, aceleracion_0_100_seg: 9.0, velocidad_maxima_kmh: 215, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "225/55 R18"}
+    dim: {largo_mm: 4500, ancho_sin_espejos_mm: 1845, alto_mm: 1642, distancia_entre_ejes_mm: 2692, distancia_libre_suelo_mm: 185, peso_vacio_kg: 1580, capacidad_baul_litros: 540, capacidad_tanque_galones: 14.3}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.2}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 10.7, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.8, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la SUV premium compacta más vendida del país, con baúl de 540 litros, 5 estrellas Euro NCAP (protocolo 2022) y un interior moderno dominado por pantallas. El tres cilindros turbo de la sDrive18i cumple, pero la sDrive20i con 2.0 turbo es la indicada para montaña; la iX1 eléctrica elimina el pico y placa. Mantenimiento y repuestos cuestan como premium y la depreciación es alta. Mayor riesgo individual: fallas electrónicas fuera de garantía. No la recomendamos a quien priorice reventa."
+      para_quien_si: "Quien busca una SUV premium práctica y bien equipada."
+      para_quien_no: "Quien prioriza costo de propiedad."
+      pros_reales: ["Baúl de 540 litros", "5 estrellas Euro NCAP (2022)", "Interior moderno"]
+      contras:
+        - {componente: "Controles táctiles", descripcion: "Casi todo se maneja desde la pantalla.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Mantenimiento", descripcion: "Costos premium.", km_tipico: "Cada 10.000", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: sDrive18i, precio_base_cop: 199900000}
+      - {anio: 2026, version: sDrive20i M Sport, precio_base_cop: 224900000, motor_descripcion: "2.0 TwinPower Turbo", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, potencia_hp: 204, rpm_potencia_max: 5000, torque_nm: 300, aceleracion_0_100_seg: 7.6, velocidad_maxima_kmh: 225, medida_llantas: "245/45 R19", consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.4, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+      - {anio: 2026, version: iX1 eDrive20, precio_base_cop: 239900000, tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 150 kW", alimentacion: Eléctrico, cilindraje_cc: null, cilindros: null, valvulas: null, potencia_hp: 204, rpm_potencia_max: null, torque_nm: 250, rpm_torque_max: null, aceleracion_0_100_seg: 8.6, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: null, transmision_tipo: Reductora, numero_velocidades: 1, potencia_electrica_kw: 150, capacidad_bateria_kwh: 64.7, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 130, consumo_kwh_100km: 16.5, autonomia_estimada_km: 475, autonomia_ciclo: WLTP, ciclo_homologacion: WLTP, consumo_mixto_kml: null, consumo_real_estimado_kml: null, capacidad_tanque_galones: null, garantia_bateria_anos: 8, garantia_bateria_km: 160000, peso_vacio_kg: 1940, capacidad_baul_litros: 490}
+
+  - modelo: X3
+    generacion: G45
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2025-02-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 TwinPower Turbo + MHEV 48V", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 208, rpm_potencia_max: 5000, torque_nm: 330, rpm_torque_max: 1500, aceleracion_0_100_seg: 7.8, velocidad_maxima_kmh: 215, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 13}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "245/50 R19", capacidad_remolque_kg: 2000}
+    dim: {largo_mm: 4755, ancho_sin_espejos_mm: 1920, alto_mm: 1660, distancia_entre_ejes_mm: 2865, distancia_libre_suelo_mm: 205, peso_vacio_kg: 1885, capacidad_baul_litros: 570, capacidad_tanque_galones: 17.2}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.0}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 14.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.4, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.6, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la nueva X3 conserva la base mecánica probada de BMW (2.0 turbo y caja ZF de 8 velocidades) y suma hibridación ligera de 48V; la 30e es híbrida enchufable con exención de pico y placa en Bogotá. Es una generación nueva con electrónica compleja y sin historial local. Es ancha (1,92 m sin espejos) y su costo de mantenimiento es alto. Mayor riesgo individual: reparaciones electrónicas fuera de garantía y la depreciación. No la recomendamos sin garantía extendida a quien la conserve muchos años."
+      para_quien_si: "Familia que busca SUV premium con buen manejo y tecnología."
+      para_quien_no: "Quien prioriza reventa o bajo costo de propiedad."
+      pros_reales: ["Caja ZF de 8 velocidades", "Baúl de 570 litros", "AWD de serie"]
+      contras:
+        - {componente: "Ancho", descripcion: "1.920 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Electrónica nueva", descripcion: "Generación sin historial local.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: xDrive20, precio_base_cop: 289900000}
+      - {anio: 2026, version: 30e xDrive PHEV, precio_base_cop: 329900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo + motor eléctrico (PHEV)", potencia_hp: 299, torque_nm: 450, aceleracion_0_100_seg: 6.2, potencia_electrica_kw: 135, capacidad_bateria_kwh: 19.7, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: null, consumo_kwh_100km: 19.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.0, capacidad_baul_litros: 460, peso_vacio_kg: 2080}
+
+  - modelo: X5
+    generacion: G05 LCI
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2019-03-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "3.0 TwinPower Turbo I6 + MHEV 48V", cilindraje_cc: 2998, cilindros: 6, valvulas: 24, alimentacion: Turbo, potencia_hp: 381, rpm_potencia_max: 5200, torque_nm: 540, rpm_torque_max: 1850, aceleracion_0_100_seg: 5.4, velocidad_maxima_kmh: 250, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 9}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: AWD, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 6.2, medida_llantas: "275/45 R20", capacidad_remolque_kg: 2700}
+    dim: {largo_mm: 4935, ancho_sin_espejos_mm: 2004, alto_mm: 1765, distancia_entre_ejes_mm: 2975, distancia_libre_suelo_mm: 214, peso_vacio_kg: 2200, capacidad_baul_litros: 650, capacidad_tanque_galones: 21.9}
+    consumo: {consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 8.8}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2018, ncap_protocolo: "Euro NCAP 2018", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 14.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.2, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 4.8}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el seis en línea turbo de 381 hp con caja ZF de 8 velocidades es de los mejores motores del segmento y no sufre en altura; la 50e enchufable suma unos 80 km eléctricos (estimado). Pero la X5 tiene suspensión neumática opcional, electrónica abundante y repuestos muy caros: fuera de garantía, una reparación puede costar lo de un carro pequeño. Mide más de 2 m de ancho. Mayor riesgo individual: el costo de reparaciones electrónicas y de suspensión. No la recomendamos sin garantía extendida."
+      para_quien_si: "Quien busca una SUV de lujo potente y puede pagar su mantenimiento."
+      para_quien_no: "Quien quiere conservarla muchos años sin garantía."
+      pros_reales: ["Seis en línea turbo de 381 hp", "Baúl de 650 litros", "5 estrellas Euro NCAP (2018)"]
+      contras:
+        - {componente: "Costo de reparaciones", descripcion: "Repuestos y mano de obra de lujo.", km_tipico: "100.000+", costo_reparacion_cop_aprox: 12000000, severidad: Alta}
+        - {componente: "Ancho", descripcion: "2.004 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: xDrive40i M Sport, precio_base_cop: 469900000}
+      - {anio: 2026, version: xDrive50e M Sport PHEV, precio_base_cop: 519900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "3.0 Turbo I6 + motor eléctrico (PHEV)", potencia_hp: 489, torque_nm: 700, aceleracion_0_100_seg: 4.8, potencia_electrica_kw: 145, capacidad_bateria_kwh: 25.7, potencia_carga_ac_kw: 7.4, potencia_carga_dc_kw: null, consumo_kwh_100km: 25.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 10.5, capacidad_baul_litros: 500, capacidad_tanque_galones: 18.5, peso_vacio_kg: 2450}
+
+  - modelo: i4
+    generacion: G26
+    segmento: Sedán D
+    carroceria: Sedán
+    pais_origen: Alemania
+    fecha_lanzamiento_colombia: 2022-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico trasero 210 kW", alimentacion: Eléctrico, potencia_hp: 286, torque_nm: 400, aceleracion_0_100_seg: 6.0, velocidad_maxima_kmh: 190, potencia_electrica_kw: 210, capacidad_bateria_kwh: 70.2, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 180}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "225/55 R17"}
+    dim: {largo_mm: 4785, ancho_sin_espejos_mm: 1852, alto_mm: 1448, distancia_entre_ejes_mm: 2856, distancia_libre_suelo_mm: 125, peso_vacio_kg: 2050, capacidad_baul_litros: 470, autonomia_estimada_km: 483, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 16.0, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 8, ncap_organismo: Euro NCAP, ncap_estrellas: 4, ncap_anio: 2022, ncap_protocolo: "Euro NCAP 2022", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 14.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 6.8, repuestos_y_red: 6.0, costo_reparaciones: 5.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un Gran Coupé eléctrico de propulsión trasera con 286 hp, portón tipo hatchback de 470 litros y 483 km WLTP; maneja como un BMW de verdad. Pero su despeje de 125 mm, con batería bajo el piso, es el más bajo de los eléctricos del catálogo: cada rompemuelle alto es un riesgo. La depreciación de eléctricos premium en Colombia es fuerte. Mayor riesgo individual: golpes en el piso de la batería. No lo recomendamos a quien circule por barrios con topes altos."
+      para_quien_si: "Conductor de autopista con carga en casa que quiere un eléctrico deportivo."
+      para_quien_no: "Quien vive en zona de rompemuelles altos."
+      pros_reales: ["Propulsión trasera y 286 hp", "Portón práctico de 470 litros", "Carga rápida de 180 kW"]
+      contras:
+        - {componente: "Despeje", descripcion: "125 mm con batería bajo el piso.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Depreciación", descripcion: "Eléctrico premium de bajo volumen.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: eDrive35 Gran Coupé, precio_base_cop: 279900000, fecha_precio: 2025-01-01}
+
+  - modelo: M2
+    generacion: G87
+    segmento: Deportivo
+    carroceria: Coupé
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2023-06-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "3.0 S58 biturbo I6", cilindraje_cc: 2993, cilindros: 6, valvulas: 24, alimentacion: Turbo, potencia_hp: 460, rpm_potencia_max: 6250, torque_nm: 550, rpm_torque_max: 2650, aceleracion_0_100_seg: 4.1, velocidad_maxima_kmh: 250, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.9, medida_llantas: "285/30 R20"}
+    dim: {largo_mm: 4580, ancho_sin_espejos_mm: 1887, alto_mm: 1403, distancia_entre_ejes_mm: 2747, distancia_libre_suelo_mm: 120, peso_vacio_kg: 1725, capacidad_baul_litros: 390, capacidad_tanque_galones: 13.7}
+    consumo: {consumo_mixto_kml: 9.5, consumo_real_estimado_kml: 7.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 14.9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.8, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 5.6, costo_reparaciones: 4.4}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el M más 'clásico' de la gama, con seis en línea biturbo de 460 hp y propulsión trasera. El motor S58 viene de la M3/M4 y conserva su potencia en altura gracias a sus dos turbos. Las llantas de 20 pulgadas de alto desempeño, los frenos y el mantenimiento M cuestan una fortuna, y los 120 mm de despeje hacen sufrir en rampas. Mayor riesgo individual: costo de consumibles y reparaciones. No lo recomendamos como carro diario sin presupuesto holgado."
+      para_quien_si: "Aficionado con presupuesto que quiere un coupé de propulsión de alto desempeño."
+      para_quien_no: "Quien busca economía o practicidad."
+      pros_reales: ["Seis en línea biturbo de 460 hp", "Propulsión trasera", "Potencia constante en altura"]
+      contras:
+        - {componente: "Consumibles", descripcion: "Llantas y frenos de alto desempeño.", km_tipico: "20.000", costo_reparacion_cop_aprox: 9000000, severidad: Media}
+        - {componente: "Despeje", descripcion: "120 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
+    versiones:
+      - {anio: 2025, version: M2 Coupé AT, precio_base_cop: 399900000, fecha_precio: 2025-01-01}
+
+  - modelo: Z4
+    generacion: G29
+    segmento: Deportivo
+    carroceria: Convertible
+    pais_origen: Austria
+    fecha_lanzamiento_colombia: 2019-06-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "2.0 TwinPower Turbo B48", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 258, rpm_potencia_max: 5000, torque_nm: 400, rpm_torque_max: 1550, aceleracion_0_100_seg: 5.4, velocidad_maxima_kmh: 250, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 5.2, medida_llantas: "255/40 R18"}
+    dim: {largo_mm: 4324, ancho_sin_espejos_mm: 1864, alto_mm: 1304, distancia_entre_ejes_mm: 2470, distancia_libre_suelo_mm: 115, peso_vacio_kg: 1490, capacidad_baul_litros: 281, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.5}
+    seg: {numero_airbags: 4, anclajes_isofix: false, adas_incluidas: [Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 6.8, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 5.8, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: roadster de dos plazas desarrollado junto al Toyota GR Supra y fabricado en Austria, con el 2.0 turbo B48 de 258 hp y caja ZF de 8 velocidades, una mecánica de buena reputación. Es un auto de fin de semana: dos puestos, 281 litros de baúl y apenas 115 mm de despeje, el menor del catálogo. La capota de lona exige cuidado en parqueaderos abiertos. Mayor riesgo individual: el bómper y el piso contra rampas. No lo recomendamos como carro diario en barrios con topes."
+      para_quien_si: "Aficionado que quiere un roadster de propulsión como segundo carro."
+      para_quien_no: "Quien necesita un carro diario práctico."
+      pros_reales: ["Propulsión trasera y 400 Nm", "Caja ZF de 8 velocidades", "Mecánica B48 probada"]
+      contras:
+        - {componente: "Despeje", descripcion: "115 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Alta}
+        - {componente: "Practicidad", descripcion: "Dos plazas y 281 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: sDrive30i M Sport, precio_base_cop: 299900000, fecha_precio: 2025-01-01}
