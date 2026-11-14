@@ -1,0 +1,396 @@
+marca: Ford
+pais_origen: Estados Unidos
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Fiesta
+    generacion: Sexta generación (fase 2)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2011-04-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 Ti-VCT", cilindraje_cc: 1596, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 120, rpm_potencia_max: 6350, torque_nm: 152, rpm_torque_max: 5000, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Doble embrague en seco Powershift, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.0, medida_llantas: "195/50 R16"}
+    dim: {largo_mm: 3969, ancho_sin_espejos_mm: 1722, alto_mm: 1495, distancia_entre_ejes_mm: 2489, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1120, capacidad_baul_litros: 281, capacidad_tanque_galones: 11.0}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 7, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 6.5, apple_carplay_android_auto: "No", aire_acondicionado: Automático}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [ford_powershift]
+      desglose: {motor_transmision: 3.0, electrica_electronica: 6.4, quejas_documentadas: 3.5, recalls: 5.0, repuestos_y_red: 6.4, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: la caja Powershift DPS6 de doble embrague en seco tiene un historial amplio de trepidación, desgaste prematuro de embragues y fugas en sellos, con demandas colectivas y programas de garantía extendida en Estados Unidos. Opinión editorial: el chasis del Fiesta es ágil y el 1.6 atmosférico es sano, pero la caja automática domina el riesgo y el costo de este usado. Mayor riesgo individual: la caja Powershift. No lo recomendamos con caja automática a nadie que no tenga presupuesto para repararla."
+      para_quien_si: "Solo quien consiga una versión manual o una automática con caja reparada y garantía escrita."
+      para_quien_no: "Cualquier comprador de la versión automática sin historial de la caja."
+      pros_reales: ["Chasis ágil y buen manejo", "Siete airbags", "Motor 1.6 atmosférico sencillo"]
+      contras:
+        - {componente: "Reventa", descripcion: "El historial de la caja castiga su precio de usado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2018, version: Titanium 1.6 Powershift, precio_base_cop: 58900000, fecha_precio: 2018-03-01}
+      - {anio: 2018, version: SE Sedán 1.6 Powershift, precio_base_cop: 54900000, fecha_precio: 2018-03-01, carroceria: Sedán, segmento: Sedán B, largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: Manual}
+
+  - modelo: Focus
+    generacion: Tercera generación (fase 2)
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Argentina
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2012-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Duratec GDI", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 170, rpm_potencia_max: 6600, torque_nm: 202, rpm_torque_max: 4450, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 210, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Doble embrague en seco Powershift, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "215/50 R17"}
+    dim: {largo_mm: 4534, ancho_sin_espejos_mm: 1823, alto_mm: 1484, distancia_entre_ejes_mm: 2648, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1340, capacidad_baul_litros: 421, capacidad_tanque_galones: 14.0}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.5}
+    seg: {numero_airbags: 7, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [ford_powershift]
+      desglose: {motor_transmision: 3.0, electrica_electronica: 6.4, quejas_documentadas: 3.5, recalls: 5.0, repuestos_y_red: 6.2, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Documentado: comparte con el Fiesta la caja Powershift DPS6 de doble embrague en seco, con trepidación y desgaste de embragues ampliamente reportados, demandas colectivas y programas de garantía en Estados Unidos que cubrieron el Focus hasta 2016. Opinión editorial: como sedán es amplio y su chasis con suspensión multibrazo es de los mejores de su época, pero la caja automática define la compra. Mayor riesgo individual: la Powershift. No lo recomendamos con caja automática sin reparación documentada."
+      para_quien_si: "Solo quien encuentre una unidad con la caja reparada y garantía escrita."
+      para_quien_no: "Quien compra usado sin historial de la transmisión."
+      pros_reales: ["Suspensión trasera multibrazo", "Equipamiento completo en Titanium", "Motor 2.0 de 170 hp"]
+      contras:
+        - {componente: "Reventa", descripcion: "Depreciación acelerada por el historial de la caja.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2018, version: Titanium 2.0 Powershift, precio_base_cop: 79900000, fecha_precio: 2018-02-01}
+
+  - modelo: EcoSport
+    generacion: Segunda generación (fase 2)
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2018-04-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 Ti-VCT 3 cilindros", cilindraje_cc: 1497, cilindros: 3, valvulas: 12, alimentacion: Atmosférico, potencia_hp: 123, rpm_potencia_max: 6500, torque_nm: 150, rpm_torque_max: 4500, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.3, medida_llantas: "205/60 R16"}
+    dim: {largo_mm: 4096, ancho_sin_espejos_mm: 1765, alto_mm: 1655, distancia_entre_ejes_mm: 2519, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1270, capacidad_baul_litros: 356, capacidad_tanque_galones: 13.7}
+    consumo: {consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.5}
+    seg: {numero_airbags: 7, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.6, electrica_electronica: 6.6, quejas_documentadas: 6.4, recalls: 6.8, repuestos_y_red: 6.8, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: esta fase usa caja automática convencional de 6 velocidades, no la Powershift de las EcoSport anteriores, lo que la hace mucho más recomendable como usado. Aun así, el tres cilindros de 123 hp es lento en altura, el consumo real ronda 10,5 km/l y la marca dejó de venderla, lo que golpea la reventa. El despeje de 200 mm es su mejor virtud. Mayor riesgo individual: confundirla con una EcoSport Powershift anterior. No la recomendamos sin verificar el tipo de caja."
+      para_quien_si: "Comprador de usado que verifica la caja convencional y busca despeje alto."
+      para_quien_no: "Quien prioriza consumo o reventa."
+      pros_reales: ["Caja automática convencional de 6 velocidades", "Despeje de 200 mm", "Siete airbags"]
+      contras:
+        - {componente: "Consumo real", descripcion: "Cerca de 10,5 km/l.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Reventa", descripcion: "Modelo descontinuado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2021, version: Titanium 1.5 AT, precio_base_cop: 89900000, fecha_precio: 2021-01-01}
+
+  - modelo: Escape
+    generacion: Cuarta generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2020-06-01
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "2.5 Atkinson híbrido", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 200, rpm_potencia_max: 6000, torque_nm: 210, rpm_torque_max: 4000, aceleracion_0_100_seg: 8.7, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 88, capacidad_bateria_kwh: 1.1}
+    chasis: {transmision_tipo: e-CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "225/60 R18", capacidad_remolque_kg: 680}
+    dim: {largo_mm: 4585, ancho_sin_espejos_mm: 1882, alto_mm: 1679, distancia_entre_ejes_mm: 2710, distancia_libre_suelo_mm: 188, peso_vacio_kg: 1740, capacidad_baul_litros: 526, capacidad_tanque_galones: 14.2}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.5}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2018", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.8, quejas_documentadas: 6.8, recalls: 6.4, repuestos_y_red: 6.8, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el sistema híbrido 2.5 con e-CVT (arquitectura similar a la de Toyota) es de lo más confiable de Ford, con 200 hp y consumo real cercano a 14,5 km/l con AWD. La Escape ha acumulado varios llamados a revisión en Estados Unidos en esta generación, y en Colombia su volumen de ventas es bajo, lo que pesa en reventa y repuestos de carrocería. Mayor riesgo individual: la depreciación. No la recomendamos a quien piense venderla en dos o tres años."
+      para_quien_si: "Familia que quiere un híbrido AWD con buen espacio y no piensa venderlo pronto."
+      para_quien_no: "Quien prioriza reventa o red de servicio amplia."
+      pros_reales: ["Híbrido con e-CVT de engranajes planetarios", "Baúl de 526 litros", "AWD"]
+      contras:
+        - {componente: "Reventa", descripcion: "Volumen de ventas bajo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Llamados a revisión", descripcion: "Generación con varias campañas en EE. UU.; verifica por VIN.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2025, version: Titanium HEV AWD, precio_base_cop: 189900000, fecha_precio: 2025-02-01}
+      - {anio: 2026, version: ST-Line HEV AWD, precio_base_cop: 194900000}
+
+  - modelo: Bronco Sport
+    generacion: Primera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2021-05-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 EcoBoost 3 cilindros", cilindraje_cc: 1497, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 181, rpm_potencia_max: 6000, torque_nm: 258, rpm_torque_max: 3000, aceleracion_0_100_seg: 9.0, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "225/65 R17", profundidad_vadeo_mm: 600, capacidad_remolque_kg: 1000}
+    dim: {largo_mm: 4387, ancho_sin_espejos_mm: 1887, alto_mm: 1783, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1650, capacidad_baul_litros: 640, capacidad_tanque_galones: 16.0, angulo_ataque_deg: 30, angulo_ventral_deg: 20, angulo_salida_deg: 33}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.5}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [turbo_pequeno_pesado]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.8, quejas_documentadas: 6.8, recalls: 6.2, repuestos_y_red: 6.8, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una SUV compacta con 4x4 real, buenos ángulos (30°/33°) y baúl alto y cuadrado, ideal para planes de fin de semana. El tres cilindros 1.5 turbo de 181 hp mueve 1.650 kg con presión de turbo alta: el consumo real ronda 9,5 km/l y se aleja bastante del homologado. La Badlands con 2.0 EcoBoost es mucho más capaz pero gasta más. Mayor riesgo individual: el consumo y el esfuerzo del tres cilindros. No la recomendamos a quien maneje sobre todo en ciudad."
+      para_quien_si: "Aventurero que hace trocha liviana y quiere una SUV compacta capaz."
+      para_quien_no: "Conductor urbano que busca bajo consumo."
+      pros_reales: ["4x4 con modos de terreno", "Ángulos de ataque y salida amplios", "Baúl de 640 litros"]
+      contras:
+        - {componente: "Consumo real", descripcion: "Cerca de 9,5 km/l.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Ancho", descripcion: "1.887 mm sin espejos para una SUV compacta.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Big Bend 1.5 EcoBoost 4x4, precio_base_cop: 164900000}
+      - {anio: 2026, version: Badlands 2.0 EcoBoost 4x4, precio_base_cop: 189900000, patrones_excluir: true, motor_descripcion: "2.0 EcoBoost", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, potencia_hp: 250, rpm_potencia_max: 5500, torque_nm: 373, aceleracion_0_100_seg: 7.4, consumo_mixto_kml: 10.5, consumo_real_estimado_kml: 8.6, peso_vacio_kg: 1700, distancia_libre_suelo_mm: 223, tapiceria: Cuero sintético, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+
+  - modelo: Territory
+    generacion: Segunda generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 EcoBoost", cilindraje_cc: 1497, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 168, rpm_potencia_max: 5500, torque_nm: 248, rpm_torque_max: 1500, aceleracion_0_100_seg: 10.2, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "235/50 R19"}
+    dim: {largo_mm: 4630, ancho_sin_espejos_mm: 1935, alto_mm: 1706, distancia_entre_ejes_mm: 2726, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1550, capacidad_baul_litros: 448, capacidad_tanque_galones: 15.0}
+    consumo: {consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.8}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.4, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.4, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: es una SUV de diseño y fabricación china (con Jiangling) vendida con marca Ford, con mucho equipamiento y pantallas grandes por su precio. Es ancha (1,94 m sin espejos), lo que la deja justa para abrir puertas en parqueaderos de 2,40 m. Lleva poco tiempo en el país y la caja de doble embrague húmeda no tiene historial local. Mayor riesgo individual: la depreciación de un producto chino con marca tradicional. No la recomendamos a quien priorice reventa."
+      para_quien_si: "Quien quiere el máximo equipamiento por su dinero."
+      para_quien_no: "Quien prioriza reventa o mecánica con historial largo."
+      pros_reales: ["Equipamiento de seguridad completo", "Pantallas grandes y conectividad", "Espacio interior amplio"]
+      contras:
+        - {componente: "Ancho", descripcion: "1.935 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Historial", descripcion: "Sin historial local largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Titanium 1.5 EcoBoost, precio_base_cop: 144900000}
+
+  - modelo: Explorer
+    generacion: Sexta generación
+    segmento: SUV Grande
+    carroceria: SUV
+    plazas: 7
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2020-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.3 EcoBoost", cilindraje_cc: 2261, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 300, rpm_potencia_max: 5500, torque_nm: 420, rpm_torque_max: 3000, aceleracion_0_100_seg: 7.5, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 10, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "255/55 R20", capacidad_remolque_kg: 2400}
+    dim: {largo_mm: 5050, ancho_sin_espejos_mm: 2004, alto_mm: 1778, distancia_entre_ejes_mm: 3025, distancia_libre_suelo_mm: 200, peso_vacio_kg: 2050, capacidad_baul_litros: 515, capacidad_baul_abatido_litros: 2486, capacidad_tanque_galones: 18.0}
+    consumo: {consumo_mixto_kml: 9.5, consumo_real_estimado_kml: 7.8}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.6, electrica_electronica: 6.2, quejas_documentadas: 6.2, recalls: 5.6, repuestos_y_red: 6.8, costo_reparaciones: 5.6}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: SUV de siete puestos de tracción trasera-integral con 2.3 turbo de 300 hp y caja de 10 velocidades, rápida y espaciosa. La sexta generación tuvo numerosos llamados a revisión en Estados Unidos en sus primeros años, y con más de 5 m de largo y 2 m de ancho no cabe con holgura en un parqueadero estándar. Consumo real cercano a 7,8 km/l. Mayor riesgo individual: la depreciación y el costo de reparaciones electrónicas. No la recomendamos a quien parquee en edificios antiguos."
+      para_quien_si: "Familia grande que viaja por carretera y quiere potencia."
+      para_quien_no: "Quien parquea en sótanos estrechos o prioriza reventa."
+      pros_reales: ["300 hp turbo: rinde en altura", "Tercera fila utilizable", "Equipamiento completo"]
+      contras:
+        - {componente: "Dimensiones", descripcion: "5.050 x 2.004 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Llamados a revisión", descripcion: "Generación con numerosas campañas en EE. UU.; verifica por VIN.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: Limited 2.3 EcoBoost 4x4, precio_base_cop: 289900000, fecha_precio: 2025-01-01}
+
+  - modelo: Ranger
+    generacion: Cuarta generación (P703)
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Sudáfrica
+    fecha_lanzamiento_colombia: 2023-04-01
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.0 biturbo diésel", cilindraje_cc: 1996, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 205, rpm_potencia_max: 3750, torque_nm: 500, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.0, velocidad_maxima_kmh: 180}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 10, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.4, medida_llantas: "255/70 R16", profundidad_vadeo_mm: 800, capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 5370, ancho_sin_espejos_mm: 1918, alto_mm: 1884, distancia_entre_ejes_mm: 3270, distancia_libre_suelo_mm: 234, peso_vacio_kg: 2200, capacidad_carga_kg: 1000, capacidad_baul_litros: 1200, capacidad_tanque_galones: 21.9, angulo_ataque_deg: 30, angulo_ventral_deg: 21, angulo_salida_deg: 26}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.6}
+    seg: {numero_airbags: 9, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.8, repuestos_y_red: 7.6, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Ranger de nueva generación es la pickup mediana más moderna del mercado, con nueve airbags, pantalla vertical grande y un 2.0 biturbo de 500 Nm con caja de 10 velocidades; la Limited suma un V6 3.0 turbodiésel. Es grande (5,37 m) y con platón vacío rebota por las ballestas. Es una generación reciente con poco historial local en el motor biturbo. Mayor riesgo individual: el filtro de partículas en uso urbano corto (opinión editorial). No la recomendamos como carro exclusivamente urbano."
+      para_quien_si: "Quien quiere una pickup de trabajo con tecnología y seguridad modernas."
+      para_quien_no: "Quien solo maneja en ciudad o parquea en plazas de 5 m."
+      pros_reales: ["Nueve airbags y ayudas modernas", "500 Nm de torque", "Capacidad de remolque de 3.500 kg"]
+      contras:
+        - {componente: "Tamaño", descripcion: "5.370 mm de largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Confort sin carga", descripcion: "Ballestas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: XLS 2.0 biturbo AT 4x4, precio_base_cop: 189900000}
+      - {anio: 2026, version: XLT 2.0 biturbo AT 4x4, precio_base_cop: 209900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, medida_llantas: "255/65 R18", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+      - {anio: 2026, version: Limited 3.0 V6 AT 4x4, precio_base_cop: 249900000, motor_descripcion: "3.0 V6 turbodiésel", cilindraje_cc: 2993, cilindros: 6, valvulas: 24, potencia_hp: 250, rpm_potencia_max: 3250, torque_nm: 600, aceleracion_0_100_seg: 8.5, tapiceria: Cuero, llave_inteligente: true, carga_inalambrica: true, pantalla_multimedia_pulgadas: 12, medida_llantas: "255/60 R20", consumo_mixto_kml: 10.5, consumo_real_estimado_kml: 8.8, peso_vacio_kg: 2350, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+      - {anio: 2025, version: XLS 2.0 biturbo AT 4x4, precio_base_cop: 182900000, fecha_precio: 2025-03-01}
+
+  - modelo: Ranger Raptor
+    generacion: Segunda generación
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Tailandia
+    fecha_lanzamiento_colombia: 2023-08-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "3.0 V6 EcoBoost biturbo", cilindraje_cc: 2956, cilindros: 6, valvulas: 24, alimentacion: Turbo, potencia_hp: 392, rpm_potencia_max: 5650, torque_nm: 583, rpm_torque_max: 3500, aceleracion_0_100_seg: 5.8, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 10, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido, frenos_traseros: Disco, radio_giro_metros: 6.4, medida_llantas: "285/70 R17", profundidad_vadeo_mm: 850, capacidad_remolque_kg: 2500}
+    dim: {largo_mm: 5381, ancho_sin_espejos_mm: 2028, alto_mm: 1926, distancia_entre_ejes_mm: 3270, distancia_libre_suelo_mm: 272, peso_vacio_kg: 2470, capacidad_carga_kg: 700, capacidad_baul_litros: 1150, capacidad_tanque_galones: 21.9, angulo_ataque_deg: 33, angulo_ventral_deg: 24, angulo_salida_deg: 27}
+    consumo: {consumo_mixto_kml: 7.5, consumo_real_estimado_kml: 6.2}
+    seg: {numero_airbags: 9, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.8, repuestos_y_red: 6.0, costo_reparaciones: 5.0}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: una pickup de desierto con V6 biturbo de 392 hp, amortiguadores FOX y 272 mm de despeje; en trocha rápida no tiene rival en el país. A cambio consume cerca de 6 km/l reales con gasolina extra, carga solo 700 kg y mide más de 2 m de ancho, lo que complica cualquier parqueadero. Mayor riesgo individual: el costo de llantas, amortiguadores y combustible. No la recomendamos como herramienta de trabajo ni como carro urbano."
+      para_quien_si: "Aficionado al todoterreno de alta velocidad con presupuesto holgado."
+      para_quien_no: "Quien necesita carga, economía o un vehículo urbano."
+      pros_reales: ["V6 biturbo de 392 hp", "Suspensión FOX de largo recorrido", "Despeje de 272 mm"]
+      contras:
+        - {componente: "Consumo", descripcion: "Cerca de 6 km/l con gasolina extra.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Ancho", descripcion: "2.028 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Raptor 3.0 V6 AT 4x4, precio_base_cop: 319900000}
+
+  - modelo: F-150
+    generacion: Decimocuarta generación
+    segmento: Pickup Grande
+    carroceria: Pickup
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2021-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "3.5 V6 EcoBoost", cilindraje_cc: 3496, cilindros: 6, valvulas: 24, alimentacion: Turbo, potencia_hp: 400, rpm_potencia_max: 6000, torque_nm: 678, rpm_torque_max: 3100, aceleracion_0_100_seg: 6.2, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 10, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Disco, radio_giro_metros: 7.1, medida_llantas: "275/60 R20", profundidad_vadeo_mm: 800, capacidad_remolque_kg: 5000}
+    dim: {largo_mm: 5910, ancho_sin_espejos_mm: 2029, alto_mm: 1960, distancia_entre_ejes_mm: 3685, distancia_libre_suelo_mm: 239, peso_vacio_kg: 2400, capacidad_carga_kg: 900, capacidad_baul_litros: 1500, capacidad_tanque_galones: 26.0}
+    consumo: {consumo_mixto_kml: 7.5, consumo_real_estimado_kml: 6.3}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.4, quejas_documentadas: 6.6, recalls: 6.0, repuestos_y_red: 6.0, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una pickup de tamaño completo con V6 biturbo de 400 hp, 678 Nm y 5 toneladas de remolque; en altura rinde sin esfuerzo. Pero mide 5,91 m: no cabe en casi ningún parqueadero residencial colombiano, gira en 7 m y consume cerca de 6,3 km/l reales. La versión PowerBoost híbrida baja el consumo urbano a cambio de más complejidad. Mayor riesgo individual: el costo de uso y la logística diaria de su tamaño. No la recomendamos a quien viva o trabaje en la ciudad."
+      para_quien_si: "Quien remolca cargas pesadas o necesita una pickup grande en zona rural."
+      para_quien_no: "Cualquier conductor urbano."
+      pros_reales: ["400 hp y 678 Nm", "5.000 kg de remolque", "Cabina muy amplia"]
+      contras:
+        - {componente: "Tamaño", descripcion: "5.910 mm de largo y 7,1 m de radio de giro.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Consumo", descripcion: "Cerca de 6,3 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: XLT 3.5 EcoBoost 4x4, precio_base_cop: 309900000, tapiceria: Tela, techo_corredizo: false}
+      - {anio: 2026, version: Lariat PowerBoost HEV 4x4, precio_base_cop: 359900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "3.5 V6 EcoBoost PowerBoost híbrido", potencia_hp: 430, torque_nm: 773, potencia_electrica_kw: 35, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 9.0, consumo_real_estimado_kml: 7.6, peso_vacio_kg: 2600}
+
+  - modelo: Maverick
+    generacion: Primera generación
+    segmento: Pickup Compacta
+    carroceria: Pickup
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2022-06-01
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "2.5 Atkinson híbrido", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 191, rpm_potencia_max: 6000, torque_nm: 210, rpm_torque_max: 4000, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 94, capacidad_bateria_kwh: 1.1}
+    chasis: {transmision_tipo: e-CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 6.0, medida_llantas: "225/65 R17", capacidad_remolque_kg: 900}
+    dim: {largo_mm: 5072, ancho_sin_espejos_mm: 1844, alto_mm: 1745, distancia_entre_ejes_mm: 3076, distancia_libre_suelo_mm: 218, peso_vacio_kg: 1700, capacidad_carga_kg: 680, capacidad_baul_litros: 960, capacidad_tanque_galones: 13.8}
+    consumo: {consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.8}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.8, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.8, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: una pickup monocasco híbrida con consumo real cercano a 13,8 km/l, algo que ninguna pickup diésel iguala, y platón práctico de 680 kg útiles. Sirve para ciudad y carretera con carga liviana, no para trocha: la híbrida es de tracción delantera. Ha tenido llamados a revisión en Estados Unidos; verifica por VIN. Mayor riesgo individual: confundir su capacidad con la de una pickup de chasis. No la recomendamos para trabajo pesado ni para destapados exigentes."
+      para_quien_si: "Quien quiere una pickup urbana eficiente para carga liviana y planes de fin de semana."
+      para_quien_no: "Quien necesita 4x4, remolque pesado o trocha."
+      pros_reales: ["Consumo real cercano a 13,8 km/l", "Se maneja como un automóvil", "Buena reventa por demanda"]
+      contras:
+        - {componente: "Capacidad", descripcion: "Tracción delantera y 680 kg de carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Largo", descripcion: "5.072 mm: apretada en plazas de 5 m.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: XLT HEV, precio_base_cop: 154900000}
+      - {anio: 2026, version: Lariat HEV, precio_base_cop: 169900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Control crucero adaptativo]}
+
+  - modelo: Mustang
+    generacion: S650
+    segmento: Deportivo
+    carroceria: Coupé
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2024-03-01
+    motor: {tipo_combustible: Gasolina Extra, motor_descripcion: "5.0 V8 Coyote", cilindraje_cc: 5038, cilindros: 8, valvulas: 32, alimentacion: Atmosférico, potencia_hp: 480, rpm_potencia_max: 7150, torque_nm: 556, rpm_torque_max: 4900, aceleracion_0_100_seg: 4.5, velocidad_maxima_kmh: 250, octanaje_minimo_recomendado: 95}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 10, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco ventilado, radio_giro_metros: 6.0, medida_llantas: "255/40 R19"}
+    dim: {largo_mm: 4811, ancho_sin_espejos_mm: 1916, alto_mm: 1397, distancia_entre_ejes_mm: 2720, distancia_libre_suelo_mm: 130, peso_vacio_kg: 1790, capacidad_baul_litros: 382, capacidad_tanque_galones: 16.0}
+    consumo: {consumo_mixto_kml: 7.5, consumo_real_estimado_kml: 6.0}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 13.2, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.6, repuestos_y_red: 6.0, costo_reparaciones: 5.2}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: uno de los últimos V8 atmosféricos del mercado, con 480 hp y tracción trasera; el motor Coyote tiene buena reputación de robustez. En Colombia es un carro de pasión: consume cerca de 6 km/l reales con gasolina extra, a 2.600 msnm pierde cerca de una cuarta parte de su potencia (estimado) y el despeje de 130 mm obliga a cuidar los rompemuelles. Las plazas traseras son simbólicas. Mayor riesgo individual: el costo de uso. No lo recomendamos como único carro."
+      para_quien_si: "Aficionado al V8 que lo usa como segundo carro."
+      para_quien_no: "Quien busca economía o practicidad."
+      pros_reales: ["V8 atmosférico de 480 hp", "Tracción trasera", "Baúl de 382 litros para un deportivo"]
+      contras:
+        - {componente: "Consumo", descripcion: "Cerca de 6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Despeje", descripcion: "130 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1200000, severidad: Media}
+    versiones:
+      - {anio: 2026, version: GT 5.0 V8 AT, precio_base_cop: 339900000}
+      - {anio: 2026, version: Dark Horse 5.0 V8 AT, precio_base_cop: 429900000, potencia_hp: 500, torque_nm: 567, aceleracion_0_100_seg: 4.2, medida_llantas: "275/35 R19", peso_vacio_kg: 1830}
+
+  - modelo: Mustang Mach-E
+    generacion: Primera generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: México
+    fecha_lanzamiento_colombia: 2022-03-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico trasero 198 kW", alimentacion: Eléctrico, potencia_hp: 269, torque_nm: 430, aceleracion_0_100_seg: 6.9, velocidad_maxima_kmh: 180, potencia_electrica_kw: 198, capacidad_bateria_kwh: 72, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 115}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "225/60 R18"}
+    dim: {largo_mm: 4713, ancho_sin_espejos_mm: 1881, alto_mm: 1624, distancia_entre_ejes_mm: 2984, distancia_libre_suelo_mm: 147, peso_vacio_kg: 2000, capacidad_baul_litros: 402, autonomia_estimada_km: 440, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 17.2, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 7, ncap_organismo: Euro NCAP, ncap_estrellas: 5, ncap_anio: 2021, ncap_protocolo: "Euro NCAP 2020", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 15.5, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.0, quejas_documentadas: 6.4, recalls: 6.0, repuestos_y_red: 5.6, costo_reparaciones: 5.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: un SUV eléctrico rápido y espacioso, con 5 estrellas Euro NCAP (protocolo 2020). Su historial en Estados Unidos incluye llamados a revisión por componentes de alto voltaje, y en Colombia la red de técnicos certificados y repuestos es reducida. El despeje de 147 mm con batería bajo el piso exige cuidado en rompemuelles. Mayor riesgo individual: la depreciación y los tiempos de reparación. No lo recomendamos a quien viva lejos de un concesionario Ford con taller eléctrico."
+      para_quien_si: "Conductor urbano con carga en casa cerca de un concesionario certificado."
+      para_quien_no: "Quien vive fuera de las capitales o prioriza reventa."
+      pros_reales: ["269 hp sin pérdida en altura", "5 estrellas Euro NCAP (2020)", "Exento de pico y placa (verifica la norma)"]
+      contras:
+        - {componente: "Despeje", descripcion: "147 mm con batería bajo el piso.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Llamados a revisión", descripcion: "Campañas por alto voltaje en EE. UU.; verifica por VIN.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2025, version: Select RWD 72 kWh, precio_base_cop: 229900000, fecha_precio: 2025-01-01}
