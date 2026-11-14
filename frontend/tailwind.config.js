@@ -5,8 +5,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        titulo: ['"Fraunces Variable"', 'Georgia', 'serif'],
-        sans: ['"Inter Variable"', 'system-ui', 'sans-serif'],
+        // Inter es el sustituto abierto de BMW Type Next Latin: 700 para titulares, 300 para cuerpo.
+        titulo: ['"Inter Variable"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+        sans: ['"Inter Variable"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+      },
+      // Par de pesos de la marca: titulares "estampados" (700) frente a cuerpo ligero (300).
+      fontWeight: { medium: '400', semibold: '700' },
+      letterSpacing: { maquinado: '1.5px' },
+      fontSize: {
+        'display-xl': ['80px', { lineHeight: '1', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'display-lg': ['56px', { lineHeight: '1.05', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'display-md': ['40px', { lineHeight: '1.1', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'display-sm': ['32px', { lineHeight: '1.15', letterSpacing: '0', fontWeight: '700' }],
       },
       colors: {
         tinta: 'rgb(var(--tinta) / <alpha-value>)',

@@ -41,8 +41,14 @@
 
 @layer base {
   html { -webkit-text-size-adjust: 100%; }
-  body { @apply bg-papel text-cuerpo font-sans antialiased; font-feature-settings: 'tnum' 1, 'cv11' 1; }
-  h1, h2, h3 { @apply font-titulo tracking-tight; }
+  body { @apply bg-papel text-cuerpo font-sans font-light antialiased; line-height: 1.5; font-feature-settings: 'tnum' 1, 'cv11' 1; }
+  /* Titulares en MAYÚSCULAS a 700; los subtítulos (h3) conservan mayúscula inicial. */
+  h1, h2, h3 { @apply font-titulo font-bold text-tinta; }
+  h1, h2 { @apply uppercase; letter-spacing: -0.5px; text-wrap: balance; }
+  h3 { letter-spacing: 0; }
+  strong, b, th, dt { @apply text-tinta; }
+  strong, b { @apply font-bold; }
+  p { text-wrap: pretty; }
   :focus-visible { @apply outline-none ring-2 ring-acento ring-offset-2 ring-offset-papel; }
   .num { font-variant-numeric: tabular-nums; }
 }
