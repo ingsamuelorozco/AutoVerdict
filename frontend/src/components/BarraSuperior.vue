@@ -23,78 +23,85 @@ const principales = [
   { to: '/actualizados', texto: T.nav.actualizados },
   { to: '/buscar', texto: T.nav.buscar },
   { to: '/comparador', texto: T.nav.comparador },
+  { to: '/reviews', texto: T.nav.reviews },
 ]
 </script>
 
 <template>
-  <header class="sticky top-0 z-40 border-b border-linea bg-papel/90 backdrop-blur">
-    <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:rounded focus:bg-tinta focus:px-3 focus:py-2 focus:text-papel">Saltar al contenido</a>
-    <div class="contenedor flex h-16 items-center gap-4">
-      <RouterLink to="/" class="flex items-center gap-2 font-titulo text-xl font-semibold" aria-label="AutoVerdict, inicio">
+  <header class="sticky top-0 z-40 border-b border-linea bg-papel">
+    <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:bg-tinta focus:px-3 focus:py-2 focus:text-papel">Saltar al contenido</a>
+    <div class="contenedor flex h-16 items-center gap-6">
+      <RouterLink to="/" class="flex shrink-0 items-center gap-3 text-lg font-bold uppercase tracking-[1px] text-tinta" aria-label="AutoVerdict, inicio">
         <img src="/favicon.svg" alt="" class="h-7 w-7" width="28" height="28" />
         <span>{{ T.marca }}</span>
       </RouterLink>
 
-      <nav class="mx-auto hidden items-center gap-1 lg:flex" aria-label="Secciones principales">
-        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="whitespace-nowrap rounded-full px-3 py-2 text-sm font-medium hover:bg-linea/50 xl:px-4" active-class="bg-tinta text-papel hover:bg-tinta">{{ l.texto }}</RouterLink>
-      </nav>
-
-      <div class="ml-auto hidden items-center gap-2 lg:flex">
-        <RouterLink to="/reviews" class="whitespace-nowrap rounded-full px-3 py-2 text-sm hover:bg-linea/50" active-class="font-semibold">{{ T.nav.reviews }}</RouterLink>
-        <div ref="menuRef" class="relative">
-          <button class="flex min-h-[44px] items-center gap-1 whitespace-nowrap rounded-full px-3 text-sm hover:bg-linea/50" :aria-expanded="herramientasAbierto" aria-haspopup="menu" @click="herramientasAbierto = !herramientasAbierto">
-            {{ T.nav.herramientas }} <ChevronDown class="h-4 w-4" aria-hidden="true" />
+      <nav class="hidden h-full items-stretch gap-6 lg:flex xl:gap-8" aria-label="Secciones principales">
+        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="enlace-nav" active-class="enlace-nav-activo">{{ l.texto }}</RouterLink>
+        <div ref="menuRef" class="relative flex items-stretch">
+          <button class="enlace-nav gap-1" :aria-expanded="herramientasAbierto" aria-haspopup="menu" @click="herramientasAbierto = !herramientasAbierto">
+            {{ T.nav.herramientas }} <ChevronDown :class="['h-4 w-4 transition-transform', herramientasAbierto ? 'rotate-180' : '']" aria-hidden="true" />
           </button>
-          <div v-if="herramientasAbierto" class="tarjeta absolute right-0 mt-2 w-80 p-2 shadow-xl" role="menu">
-            <RouterLink v-for="h in T.herramientas" :key="h.ruta" :to="h.ruta" role="menuitem" class="block rounded-xl p-3 hover:bg-linea/40" @click="herramientasAbierto = false">
-              <span class="block text-sm font-medium">{{ h.titulo }}</span>
-              <span class="block text-xs text-tenue">{{ h.desc }}</span>
+          <div v-if="herramientasAbierto" class="absolute left-0 top-full w-96 border border-t-0 border-linea bg-papel" role="menu">
+            <div class="franja-m" aria-hidden="true" />
+            <RouterLink v-for="h in T.herramientas" :key="h.ruta" :to="h.ruta" role="menuitem" class="block border-b border-linea px-6 py-4 transition-colors last:border-b-0 hover:bg-superficie" @click="herramientasAbierto = false">
+              <span class="block text-sm font-bold uppercase tracking-[1px] text-tinta">{{ h.titulo }}</span>
+              <span class="mt-1 block text-sm text-tenue">{{ h.desc }}</span>
             </RouterLink>
           </div>
         </div>
-        <div class="hidden items-center gap-1 rounded-full border border-linea p-1 text-xs xl:flex" role="group" aria-label="Moneda">
-          <button v-for="m in ['COP', 'USD'] as const" :key="m" :aria-pressed="aj.moneda === m" :class="['rounded-full px-2 py-1', aj.moneda === m ? 'bg-tinta text-papel' : '']" @click="aj.moneda = m; aj.guardar()">{{ m }}</button>
+      </nav>
+
+      <div class="ml-auto hidden items-center gap-3 lg:flex">
+        <div class="hidden border border-linea text-xs xl:flex" role="group" aria-label="Moneda">
+          <button v-for="m in ['COP', 'USD'] as const" :key="m" :aria-pressed="aj.moneda === m" :class="['h-9 px-3 font-bold tracking-[1px] transition-colors', aj.moneda === m ? 'bg-tinta text-papel' : 'text-tenue hover:text-tinta']" @click="aj.moneda = m; aj.guardar()">{{ m }}</button>
         </div>
-        <label class="hidden items-center gap-1 text-xs text-tenue 2xl:flex" title="TRM editable: vacía el campo para volver a la oficial">
+        <label class="hidden items-center gap-2 text-xs font-bold uppercase tracking-[1px] 2xl:flex" title="TRM editable: vacía el campo para volver a la oficial">
           TRM
-          <input :value="Math.round(aj.trm)" inputmode="decimal" class="w-16 rounded-md border border-linea bg-superficie px-1 py-1 text-tinta num" aria-label="TRM en pesos por dólar" @change="cambiarTrm" />
+          <input :value="Math.round(aj.trm)" inputmode="decimal" class="campo-mini h-9 w-20 num" aria-label="TRM en pesos por dólar" @change="cambiarTrm" />
         </label>
-        <select v-model="aj.ciudad" class="hidden rounded-full border border-linea bg-superficie px-2 py-2 text-xs 2xl:block" aria-label="Ciudad" @change="aj.guardar()">
+        <select v-model="aj.ciudad" class="campo-mini hidden h-9 2xl:block" aria-label="Ciudad" @change="aj.guardar()">
           <option v-for="c in aj.ciudades" :key="c.id" :value="c.id">{{ c.nombre }}</option>
         </select>
-        <button class="grid h-11 w-11 place-items-center rounded-full hover:bg-linea/50" :aria-label="aj.tema === 'oscuro' ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro'" @click="aj.alternarTema()">
+        <button class="grid h-11 w-11 place-items-center rounded-full text-tinta transition-colors hover:bg-superficie" :aria-label="aj.tema === 'oscuro' ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro'" @click="aj.alternarTema()">
           <Sun v-if="aj.tema === 'oscuro'" class="h-5 w-5" aria-hidden="true" /><Moon v-else class="h-5 w-5" aria-hidden="true" />
         </button>
-        <RouterLink to="/buscar?favoritos=1" class="relative grid h-11 w-11 place-items-center rounded-full hover:bg-linea/50" :aria-label="`Favoritos (${fav.ids.length})`">
+        <RouterLink to="/buscar?favoritos=1" class="relative grid h-11 w-11 place-items-center rounded-full text-tinta transition-colors hover:bg-superficie" :aria-label="`Favoritos (${fav.ids.length})`">
           <Heart class="h-5 w-5" aria-hidden="true" />
-          <span v-if="fav.ids.length" class="absolute right-1 top-1 rounded-full bg-roja px-1 text-[10px] text-white num">{{ fav.ids.length }}</span>
+          <span v-if="fav.ids.length" class="absolute right-0.5 top-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-tinta px-1 text-[10px] font-bold text-papel num">{{ fav.ids.length }}</span>
         </RouterLink>
-        <RouterLink :to="{ path: '/comparador', query: comp.ids.length ? { ids: comp.ids.join(',') } : {} }" class="boton-primario h-10 min-h-0 whitespace-nowrap px-4">
+        <RouterLink :to="{ path: '/comparador', query: comp.ids.length ? { ids: comp.ids.join(',') } : {} }" class="boton-primario min-h-[40px] px-5">
           <GitCompare class="h-4 w-4" aria-hidden="true" /> Comparar ({{ comp.ids.length }})
         </RouterLink>
       </div>
 
-      <button class="ml-auto grid h-11 w-11 place-items-center rounded-full lg:hidden" aria-label="Abrir menú" @click="lateralAbierto = true"><Menu class="h-6 w-6" aria-hidden="true" /></button>
+      <button class="ml-auto grid h-11 w-11 place-items-center text-tinta lg:hidden" aria-label="Abrir menú" @click="lateralAbierto = true"><Menu class="h-6 w-6" aria-hidden="true" /></button>
     </div>
 
-    <div v-if="lateralAbierto" class="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menú">
-      <div class="absolute inset-0 bg-black/40" @click="lateralAbierto = false" />
-      <aside class="absolute right-0 top-0 flex h-full w-80 max-w-[85vw] flex-col gap-4 overflow-y-auto bg-papel p-5">
-        <button class="ml-auto grid h-11 w-11 place-items-center" aria-label="Cerrar menú" @click="lateralAbierto = false"><X class="h-6 w-6" aria-hidden="true" /></button>
-        <RouterLink to="/reviews" class="text-lg font-medium" @click="lateralAbierto = false">{{ T.nav.reviews }}</RouterLink>
-        <p class="etiqueta">{{ T.nav.herramientas }}</p>
-        <RouterLink v-for="h in T.herramientas" :key="h.ruta" :to="h.ruta" class="py-1" @click="lateralAbierto = false">{{ h.titulo }}</RouterLink>
-        <p class="etiqueta">Ajustes</p>
-        <div class="flex gap-2">
-          <button v-for="m in ['COP', 'USD'] as const" :key="m" :class="['chip', aj.moneda === m ? 'chip-activo' : '']" @click="aj.moneda = m; aj.guardar()">{{ m }}</button>
+    <!-- Menú móvil: hoja a pantalla completa con la franja M arriba -->
+    <div v-if="lateralAbierto" class="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-papel lg:hidden" role="dialog" aria-modal="true" aria-label="Menú">
+      <div class="franja-m shrink-0" aria-hidden="true" />
+      <div class="contenedor flex h-16 shrink-0 items-center justify-between border-b border-linea">
+        <span class="text-lg font-bold uppercase tracking-[1px] text-tinta">{{ T.marca }}</span>
+        <button class="grid h-11 w-11 place-items-center text-tinta" aria-label="Cerrar menú" @click="lateralAbierto = false"><X class="h-6 w-6" aria-hidden="true" /></button>
+      </div>
+      <div class="contenedor flex flex-col pb-10">
+        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" @click="lateralAbierto = false">{{ l.texto }}</RouterLink>
+        <p class="etiqueta mt-8">{{ T.nav.herramientas }}</p>
+        <RouterLink v-for="h in T.herramientas" :key="h.ruta" :to="h.ruta" class="border-b border-linea py-4 text-tinta" @click="lateralAbierto = false">{{ h.titulo }}</RouterLink>
+        <RouterLink to="/buscar?favoritos=1" class="border-b border-linea py-4 text-tinta" @click="lateralAbierto = false">Favoritos ({{ fav.ids.length }})</RouterLink>
+        <p class="etiqueta mt-8">Ajustes</p>
+        <div class="mt-3 grid grid-cols-2 gap-4">
+          <div class="col-span-2 flex border border-linea" role="group" aria-label="Moneda">
+            <button v-for="m in ['COP', 'USD'] as const" :key="m" :aria-pressed="aj.moneda === m" :class="['h-12 flex-1 text-sm font-bold tracking-maquinado', aj.moneda === m ? 'bg-tinta text-papel' : 'text-tenue']" @click="aj.moneda = m; aj.guardar()">{{ m }}</button>
+          </div>
+          <label class="text-sm">TRM <input :value="Math.round(aj.trm)" class="campo mt-1 num" inputmode="decimal" @change="cambiarTrm" /></label>
+          <label class="text-sm">Ciudad
+            <select v-model="aj.ciudad" class="campo mt-1" @change="aj.guardar()"><option v-for="c in aj.ciudades" :key="c.id" :value="c.id">{{ c.nombre }}</option></select>
+          </label>
+          <button class="boton-secundario col-span-2" @click="aj.alternarTema()">Tema {{ aj.tema === 'oscuro' ? 'claro' : 'oscuro' }}</button>
         </div>
-        <label class="text-sm">TRM <input :value="Math.round(aj.trm)" class="campo mt-1" inputmode="decimal" @change="cambiarTrm" /></label>
-        <label class="text-sm">Ciudad
-          <select v-model="aj.ciudad" class="campo mt-1" @change="aj.guardar()"><option v-for="c in aj.ciudades" :key="c.id" :value="c.id">{{ c.nombre }}</option></select>
-        </label>
-        <button class="boton-secundario" @click="aj.alternarTema()">Tema {{ aj.tema === 'oscuro' ? 'claro' : 'oscuro' }}</button>
-        <RouterLink to="/buscar?favoritos=1" class="py-1" @click="lateralAbierto = false">Favoritos ({{ fav.ids.length }})</RouterLink>
-      </aside>
+      </div>
     </div>
   </header>
 </template>

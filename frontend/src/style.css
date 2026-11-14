@@ -77,6 +77,11 @@
   .boton-secundario { @apply boton border-linea bg-transparent text-tinta hover:border-tinta; }
   .boton-solido { @apply boton border-tinta bg-tinta text-papel hover:bg-transparent hover:text-tinta; }
   .boton-icono { @apply grid h-12 w-12 shrink-0 place-items-center rounded-full bg-superficie text-tinta transition-colors hover:bg-elevada; }
+  /* Navegación superior: 14 px / 400 con subrayado de 2 px en la sección activa. */
+  .enlace-nav { @apply relative inline-flex items-center whitespace-nowrap text-sm font-normal tracking-[0.5px] text-tenue transition-colors hover:text-tinta; }
+  .enlace-nav::after { content: ''; @apply absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-tinta transition-transform; }
+  .enlace-nav:hover::after, .enlace-nav-activo::after { @apply scale-x-100; }
+  .enlace-nav-activo { @apply text-tinta; }
   .enlace-texto { @apply inline-flex items-center gap-2 text-sm font-bold uppercase tracking-maquinado text-tinta; }
   .enlace-texto svg { @apply transition-transform; }
   .enlace-texto:hover svg, .group:hover .enlace-texto svg { @apply translate-x-1; }
