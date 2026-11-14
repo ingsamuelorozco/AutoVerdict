@@ -1,0 +1,64 @@
+# Imágenes libres (Unsplash, Pexels o Wikimedia Commons). Cada una revisada visualmente el 2026-11-13:
+# sin emblemas, logos de marca ni placas legibles. Se sirven en versión redimensionada (1920 px), nunca el original.
+# Fotos de catálogo por modelo: aún no hay fotos verificadas del modelo exacto; el catálogo usa la silueta SVG generada.
+imagenes:
+  - id: hero-atardecer-autopista
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Horizons_Embrace_-_Sunset_on_the_Highway.jpg/1920px-Horizons_Embrace_-_Sunset_on_the_Highway.jpg"
+    proveedor: Wikimedia Commons
+    autor: Joma433
+    licencia: CC BY-SA 4.0
+    url_origen: "https://commons.wikimedia.org/wiki/File:Horizons_Embrace_-_Sunset_on_the_Highway.jpg"
+    ancho: 4032
+    alto: 3024
+    contiene_logo: false
+    uso: hero
+    verificada_en: 2026-11-13
+    descripcion: "Autopista al atardecer vista desde el parabrisas"
+  - id: hero-estelas-nocturnas
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Car_trails_on_dual_highway_%28Unsplash%29.jpg/1920px-Car_trails_on_dual_highway_%28Unsplash%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: Cameron Kirby
+    licencia: CC0
+    url_origen: "https://commons.wikimedia.org/wiki/File:Car_trails_on_dual_highway_(Unsplash).jpg"
+    ancho: 6000
+    alto: 4000
+    contiene_logo: false
+    uso: hero
+    verificada_en: 2026-11-13
+    descripcion: "Estelas de luz de autos en una autopista de noche"
+  - id: hero-interior-nocturno
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Car_interior_close-up_with_dashboard_controls_and_charging_cable_at_night.jpg/1920px-Car_interior_close-up_with_dashboard_controls_and_charging_cable_at_night.jpg"
+    proveedor: Wikimedia Commons
+    autor: Shixart1985
+    licencia: CC BY 2.0
+    url_origen: "https://commons.wikimedia.org/wiki/File:Car_interior_close-up_with_dashboard_controls_and_charging_cable_at_night.jpg"
+    ancho: 6016
+    alto: 4016
+    contiene_logo: false
+    uso: hero
+    verificada_en: 2026-11-13
+    descripcion: "Controles de climatización de un interior de noche"
+  - id: hero-curva-montana
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/A_winding_road_up_Cerro_Armazones_%28dji-0661%29.jpg/1920px-A_winding_road_up_Cerro_Armazones_%28dji-0661%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: ESO/G. Vecchia
+    licencia: CC BY 4.0
+    url_origen: "https://commons.wikimedia.org/wiki/File:A_winding_road_up_Cerro_Armazones_(dji-0661).jpg"
+    ancho: 5472
+    alto: 3078
+    contiene_logo: false
+    uso: hero
+    verificada_en: 2026-11-13
+    descripcion: "Vía de montaña en curva vista desde el aire"
+  - id: hero-carretera-costera
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Maui%27s_NorthWestern_Coastal_Winding_Road%2C_James_Brennan_Hawaii_-_panoramio.jpg/1920px-Maui%27s_NorthWestern_Coastal_Winding_Road%2C_James_Brennan_Hawaii_-_panoramio.jpg"
+    proveedor: Wikimedia Commons
+    autor: James Brennan Molokaʻi
+    licencia: CC BY 3.0
+    url_origen: "https://commons.wikimedia.org/wiki/File:Maui%27s_NorthWestern_Coastal_Winding_Road,_James_Brennan_Hawaii_-_panoramio.jpg"
+    ancho: 4000
+    alto: 3000
+    contiene_logo: false
+    uso: hero
+    verificada_en: 2026-11-13
+    descripcion: "Carretera costera sinuosa vista desde el aire"
