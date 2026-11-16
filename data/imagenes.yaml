@@ -2069,3 +2069,39 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Tahoe"
+  - id: veh-citroen-c3
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Citroen_C3_Feel_2023_%2853060055260%29.jpg/960px-Citroen_C3_Feel_2023_%2853060055260%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ from Chile"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Citroen_C3_Feel_2023_(53060055260).jpg"
+    ancho: 4875
+    alto: 3355
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Citroën C3"
+  - id: veh-citroen-c4-cactus
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Citroen_C4_Cactus_%282018%29_IMG_4062.jpg/960px-Citroen_C4_Cactus_%282018%29_IMG_4062.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Citroen_C4_Cactus_(2018)_IMG_4062.jpg"
+    ancho: 4812
+    alto: 3203
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Citroën C4 Cactus"
+  - id: veh-citroen-c5-aircross
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/2022_Citro%C3%ABn_C5_Aircross_Automesse_Ludwigsburg_2024_IMG_1342.jpg/960px-2022_Citro%C3%ABn_C5_Aircross_Automesse_Ludwigsburg_2024_IMG_1342.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Citro%C3%ABn_C5_Aircross_Automesse_Ludwigsburg_2024_IMG_1342.jpg"
+    ancho: 4593
+    alto: 2793
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Citroën C5 Aircross"

@@ -3,6 +3,7 @@ pais_origen: Francia
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: C3
+    imagen_id: veh-citroen-c3
     generacion: Cuarta generación (CC21)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -35,6 +36,7 @@ modelos:
       - {anio: 2025, version: Feel 1.6 MT, precio_base_cop: 63900000, fecha_precio: 2025-03-01}
 
   - modelo: C4 Cactus
+    imagen_id: veh-citroen-c4-cactus
     generacion: Primera generación (versión Latinoamérica)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -67,6 +69,7 @@ modelos:
       - {anio: 2022, version: Shine 1.6 AT, precio_base_cop: 84900000, fecha_precio: 2022-03-01, aire_acondicionado: Automático, luces_led: true}
 
   - modelo: C5 Aircross
+    imagen_id: veh-citroen-c5-aircross
     generacion: Primera generación (actualización 2022)
     segmento: SUV Compacta
     carroceria: SUV
