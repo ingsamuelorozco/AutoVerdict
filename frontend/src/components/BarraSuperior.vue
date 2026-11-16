@@ -56,7 +56,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
         <!-- Ajustes regionales agrupados en un solo panel para despejar la barra -->
         <div ref="ajustesRef" class="relative flex h-full items-center">
           <button class="flex items-center gap-6 pr-6 text-xs font-bold uppercase tracking-[0.5px] text-tinta transition-colors hover:text-acento-texto" :aria-expanded="ajustesAbierto" aria-haspopup="dialog" title="Moneda, TRM y ciudad" @click="ajustesAbierto = !ajustesAbierto">
-            <span class="text-acento-texto num">{{ aj.moneda }}<span class="hidden min-[1440px]:inline"> · TRM {{ formatoNumero(aj.trm) }}</span></span>
+            <span class="text-acento-texto num">{{ aj.moneda }}<span> · TRM {{ formatoNumero(aj.trm) }}</span></span>
             <span>{{ ciudadNombre || 'Ajustes' }}</span>
           </button>
           <div v-if="ajustesAbierto" class="absolute right-0 top-full grid w-80 gap-5 border border-t-0 border-linea bg-papel p-6 shadow-menu" role="dialog" aria-label="Ajustes regionales">
