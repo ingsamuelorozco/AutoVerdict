@@ -48,7 +48,7 @@ function teclaPanel(e: KeyboardEvent) {
     </button>
     <ul v-show="abierto" :id="id" ref="panel" class="sobre-claro absolute left-0 top-[calc(100%-10px)] z-50 min-w-[150px] bg-papel py-2.5 shadow-menu" role="menu" :aria-label="etiqueta" @keydown="teclaPanel">
       <li v-for="o in opciones" :key="o.to" role="none">
-        <RouterLink :to="o.to" role="menuitem" tabindex="-1" @click="cerrar">
+        <RouterLink :to="o.to" role="menuitem" tabindex="-1" class="flex items-center justify-between gap-6 whitespace-nowrap px-[18px] py-2 text-[13px] font-normal text-cuerpo" @click="cerrar">
           <span>{{ o.texto }}</span>
         </RouterLink>
       </li>
