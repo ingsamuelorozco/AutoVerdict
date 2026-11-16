@@ -36,4 +36,7 @@
 
   <path fill="url(#cristal)" d="M40 130C70 119 130 119 160 130L168 184C132 175 68 175 32 184Z"/>
   <path fill="#fff" opacity=".14" d="M52 134C80 126 112 125 134 128L66 176C56 177 46 178 38 180Z"/>
+
+  <ellipse cx="11" cy="170" rx="9" ry="6" fill="#d6dade" stroke="#8d939a"/>
+  <ellipse cx="189" cy="170" rx="9" ry="6" fill="#d6dade" stroke="#8d939a"/>
 </svg>
