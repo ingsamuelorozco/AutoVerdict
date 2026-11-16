@@ -23,7 +23,7 @@ const carroceria = ref('')
         <div>
           <label for="bq-carroceria" class="block text-[13px]">{{ B.carroceria }}</label>
           <div class="relative mt-2">
-            <select id="bq-carroceria" v-model="carroceria" class="campo-mini w-full appearance-none bg-suave pl-4 pr-9 text-xs">
+            <select id="bq-carroceria" v-model="carroceria" class="campo-mini w-full appearance-none bg-suave pl-4 pr-9 text-xs" :class="carroceria ? 'text-tinta' : 'text-tenue'">
               <option value="">{{ B.carroceriaVacia }}</option>
               <option v-for="x in OPC.carroceria" :key="x" :value="x">{{ x }}</option>
             </select>
