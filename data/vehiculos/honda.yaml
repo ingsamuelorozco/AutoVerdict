@@ -32,6 +32,9 @@ modelos:
     versiones:
       - {anio: 2026, version: EX 1.5 CVT, precio_base_cop: 99900000}
       - {anio: 2026, version: Touring 1.5 CVT, precio_base_cop: 109900000, tapiceria: Cuero sintético, llave_inteligente: true, medida_llantas: "185/55 R16", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Cámara de punto ciego LaneWatch]}
+      - {anio: 2022, version: "EX 1.5 CVT", precio_base_cop: 72800000}
+      - {anio: 2023, version: "EX 1.5 CVT", precio_base_cop: 76600000}
+      - {anio: 2024, version: "EX 1.5 CVT", precio_base_cop: 80700000}
 
   - modelo: City Hatchback
     imagen_id: veh-honda-city-hatchback
@@ -62,6 +65,9 @@ modelos:
         - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: Touring 1.5 CVT, precio_base_cop: 104900000, fecha_precio: 2025-02-01}
+      - {anio: 2022, version: "Touring 1.5 CVT", precio_base_cop: 81000000}
+      - {anio: 2023, version: "Touring 1.5 CVT", precio_base_cop: 85300000}
+      - {anio: 2024, version: "Touring 1.5 CVT", precio_base_cop: 89800000}
 
   - modelo: Civic
     imagen_id: veh-honda-civic
@@ -93,6 +99,9 @@ modelos:
     versiones:
       - {anio: 2026, version: Touring 1.5T CVT, precio_base_cop: 149900000, patrones: [honda_15t]}
       - {anio: 2026, version: e:HEV Touring, precio_base_cop: 169900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "2.0 i-MMD e:HEV", cilindraje_cc: 1993, alimentacion: Atmosférico, potencia_hp: 200, rpm_potencia_max: 6000, torque_nm: 315, rpm_torque_max: null, aceleracion_0_100_seg: 7.8, transmision_tipo: e-CVT, potencia_electrica_kw: 135, capacidad_bateria_kwh: 1.05, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 22.0, consumo_real_estimado_kml: 19.0, peso_vacio_kg: 1450}
+      - {anio: 2022, version: "Touring 1.5T CVT", precio_base_cop: 109200000, patrones: ["honda_15t"]}
+      - {anio: 2023, version: "Touring 1.5T CVT", precio_base_cop: 115000000, patrones: ["honda_15t"]}
+      - {anio: 2024, version: "Touring 1.5T CVT", precio_base_cop: 121000000, patrones: ["honda_15t"]}
 
   - modelo: HR-V
     imagen_id: veh-honda-hr-v
@@ -125,6 +134,8 @@ modelos:
       - {anio: 2026, version: EX 1.5 CVT, precio_base_cop: 124900000}
       - {anio: 2026, version: Touring 1.5T CVT, precio_base_cop: 139900000, patrones: [honda_15t], motor_descripcion: "1.5 VTEC Turbo", alimentacion: Turbo, potencia_hp: 177, rpm_potencia_max: 6000, torque_nm: 240, rpm_torque_max: 1700, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 200, tapiceria: Cuero, llave_inteligente: true, carga_inalambrica: true, techo_corredizo: true, medida_llantas: "225/50 R18", consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.0, peso_vacio_kg: 1360}
       - {anio: 2024, version: EX 1.5 CVT, precio_base_cop: 119900000, fecha_precio: 2024-03-01}
+      - {anio: 2022, version: "EX 1.5 CVT", precio_base_cop: 91000000}
+      - {anio: 2023, version: "EX 1.5 CVT", precio_base_cop: 95800000}
 
   - modelo: WR-V
     imagen_id: veh-honda-wr-v
@@ -189,6 +200,7 @@ modelos:
       - {anio: 2026, version: Touring 1.5T AWD, precio_base_cop: 189900000}
       - {anio: 2026, version: e:HEV Touring AWD, precio_base_cop: 209900000, patrones_excluir: true, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "2.0 i-MMD e:HEV", cilindraje_cc: 1993, alimentacion: Atmosférico, potencia_hp: 204, rpm_potencia_max: 6100, torque_nm: 335, rpm_torque_max: null, aceleracion_0_100_seg: 9.4, transmision_tipo: e-CVT, potencia_electrica_kw: 135, capacidad_bateria_kwh: 1.06, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 17.5, consumo_real_estimado_kml: 15.0, peso_vacio_kg: 1780}
       - {anio: 2024, version: Touring 1.5T AWD, precio_base_cop: 179900000, fecha_precio: 2024-01-01}
+      - {anio: 2023, version: "Touring 1.5T AWD", precio_base_cop: 145700000}
 
   - modelo: Pilot
     imagen_id: veh-honda-pilot
@@ -220,3 +232,5 @@ modelos:
         - {componente: "Dimensiones", descripcion: "5.090 x 1.995 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: Touring 3.5 V6 AWD, precio_base_cop: 269900000, fecha_precio: 2025-01-01}
+      - {anio: 2023, version: "Touring 3.5 V6 AWD", precio_base_cop: 212600000}
+      - {anio: 2024, version: "Touring 3.5 V6 AWD", precio_base_cop: 227400000}
