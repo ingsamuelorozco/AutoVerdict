@@ -103,7 +103,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
         <button class="grid h-11 w-11 place-items-center text-tinta" aria-label="Cerrar menú" @click="lateralAbierto = false"><X class="h-6 w-6" aria-hidden="true" /></button>
       </div>
       <div class="contenedor flex flex-col pb-10">
-        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" @click="lateralAbierto = false">{{ l.texto }}</RouterLink>
+        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" active-class="!text-acento-texto" @click="lateralAbierto = false">{{ l.texto }}</RouterLink>
         <button class="flex items-center justify-between border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" :aria-expanded="herramientasMovil" aria-controls="herramientas-movil" @click="herramientasMovil = !herramientasMovil">
           {{ T.navCorto.herramientas }} <ChevronDown :class="['h-6 w-6 transition-transform', herramientasMovil ? 'rotate-180' : '']" aria-hidden="true" />
         </button>
