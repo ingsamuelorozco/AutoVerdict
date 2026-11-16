@@ -33,6 +33,15 @@ modelos:
     versiones:
       - {anio: 2026, version: Longitude 1.3T AT, precio_base_cop: 129900000}
       - {anio: 2026, version: Trailhawk 1.3T AT 4x4, precio_base_cop: 154900000, traccion: 4x4, numero_velocidades: 9, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1540, consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.4, tapiceria: Cuero sintético}
+      - {anio: 2016, version: "Longitude 1.3T AT", precio_base_cop: 47200000}
+      - {anio: 2017, version: "Longitude 1.3T AT", precio_base_cop: 51900000}
+      - {anio: 2018, version: "Longitude 1.3T AT", precio_base_cop: 57100000}
+      - {anio: 2019, version: "Longitude 1.3T AT", precio_base_cop: 62700000}
+      - {anio: 2020, version: "Longitude 1.3T AT", precio_base_cop: 68900000}
+      - {anio: 2021, version: "Longitude 1.3T AT", precio_base_cop: 75700000}
+      - {anio: 2022, version: "Longitude 1.3T AT", precio_base_cop: 83200000}
+      - {anio: 2023, version: "Longitude 1.3T AT", precio_base_cop: 91400000}
+      - {anio: 2024, version: "Longitude 1.3T AT", precio_base_cop: 100500000}
 
   - modelo: Compass
     imagen_id: veh-jeep-compass
@@ -65,6 +74,14 @@ modelos:
     versiones:
       - {anio: 2026, version: Longitude 1.3T AT, precio_base_cop: 159900000}
       - {anio: 2026, version: Limited 1.3T AT, precio_base_cop: 179900000, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+      - {anio: 2017, version: "Longitude 1.3T AT", precio_base_cop: 63900000}
+      - {anio: 2018, version: "Longitude 1.3T AT", precio_base_cop: 70200000}
+      - {anio: 2019, version: "Longitude 1.3T AT", precio_base_cop: 77200000}
+      - {anio: 2020, version: "Longitude 1.3T AT", precio_base_cop: 84800000}
+      - {anio: 2021, version: "Longitude 1.3T AT", precio_base_cop: 93200000}
+      - {anio: 2022, version: "Longitude 1.3T AT", precio_base_cop: 102400000}
+      - {anio: 2023, version: "Longitude 1.3T AT", precio_base_cop: 112600000}
+      - {anio: 2024, version: "Longitude 1.3T AT", precio_base_cop: 123700000}
 
   - modelo: Commander
     imagen_id: veh-jeep-commander
@@ -98,6 +115,9 @@ modelos:
         - {componente: "Tercera fila y baúl", descripcion: "Tercera fila pequeña; 233 L con todos los puestos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: Limited 1.3T AT, precio_base_cop: 199900000}
+      - {anio: 2022, version: "Limited 1.3T AT", precio_base_cop: 128000000}
+      - {anio: 2023, version: "Limited 1.3T AT", precio_base_cop: 140700000}
+      - {anio: 2024, version: "Limited 1.3T AT", precio_base_cop: 154600000}
 
   - modelo: Grand Cherokee
     imagen_id: veh-jeep-grand-cherokee
@@ -130,6 +150,9 @@ modelos:
     versiones:
       - {anio: 2026, version: Limited 3.6 V6 4x4, precio_base_cop: 349900000}
       - {anio: 2026, version: Summit 3.6 V6 4x4, precio_base_cop: 419900000, medida_llantas: "275/45 R21"}
+      - {anio: 2022, version: "Limited 3.6 V6 4x4", precio_base_cop: 224100000}
+      - {anio: 2023, version: "Limited 3.6 V6 4x4", precio_base_cop: 246300000}
+      - {anio: 2024, version: "Limited 3.6 V6 4x4", precio_base_cop: 270600000}
 
   - modelo: Wrangler
     imagen_id: veh-jeep-wrangler
@@ -162,3 +185,10 @@ modelos:
     versiones:
       - {anio: 2026, version: Sahara 2.0T 4x4, precio_base_cop: 329900000}
       - {anio: 2026, version: Rubicon 2.0T 4x4, precio_base_cop: 359900000, distancia_libre_suelo_mm: 252, medida_llantas: "285/70 R17"}
+      - {anio: 2018, version: "Sahara 2.0T 4x4", precio_base_cop: 195800000}
+      - {anio: 2019, version: "Sahara 2.0T 4x4", precio_base_cop: 206100000}
+      - {anio: 2020, version: "Sahara 2.0T 4x4", precio_base_cop: 217000000}
+      - {anio: 2021, version: "Sahara 2.0T 4x4", precio_base_cop: 228400000}
+      - {anio: 2022, version: "Sahara 2.0T 4x4", precio_base_cop: 240400000}
+      - {anio: 2023, version: "Sahara 2.0T 4x4", precio_base_cop: 253100000}
+      - {anio: 2024, version: "Sahara 2.0T 4x4", precio_base_cop: 266400000}
