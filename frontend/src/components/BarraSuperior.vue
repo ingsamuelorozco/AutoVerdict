@@ -27,13 +27,14 @@ function cambiarTrm(e: Event) {
   const v = Number((e.target as HTMLInputElement).value.replace(/\./g, '').replace(',', '.'))
   aj.fijarTrm(Number.isFinite(v) && v > 0 ? v : null)
 }
-const principales = [
-  { to: '/', texto: T.navCorto.inicio },
-  { to: '/actualizados', texto: T.navCorto.actualizados },
+const vehiculos = [
   { to: '/buscar', texto: T.navCorto.buscar },
   { to: '/comparador', texto: T.navCorto.comparador },
+  { to: '/actualizados', texto: T.navCorto.actualizados },
   { to: '/reviews', texto: T.navCorto.reviews },
 ]
+const enVehiculos = computed(() => vehiculos.some((v) => route.path.startsWith(v.to)))
+const vehiculosMovil = ref(false)
 const herramientas = T.herramientas.map((h) => ({ to: h.ruta, texto: h.titulo }))
 const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?.nombre ?? '')
 </script>
@@ -48,7 +49,8 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
       </RouterLink>
 
       <nav class="hidden items-stretch gap-6 nav:flex min-[1440px]:gap-7" aria-label="Secciones principales">
-        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="enlace-barra" active-class="enlace-barra-activo">{{ l.texto }}<span class="enlace-barra-mas" aria-hidden="true">+</span></RouterLink>
+        <RouterLink to="/" class="enlace-barra" exact-active-class="enlace-barra-activo">{{ T.navCorto.inicio }}</RouterLink>
+        <MenuDesplegable :etiqueta="T.navCorto.vehiculos" :opciones="vehiculos" :activo="enVehiculos" />
         <MenuDesplegable :etiqueta="T.navCorto.herramientas" :opciones="herramientas" :activo="route.path.startsWith('/herramientas')" />
       </nav>
 
@@ -103,7 +105,13 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
         <button class="grid h-11 w-11 place-items-center text-tinta" aria-label="Cerrar menú" @click="lateralAbierto = false"><X class="h-6 w-6" aria-hidden="true" /></button>
       </div>
       <div class="contenedor flex flex-col pb-10">
-        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" active-class="!text-acento-texto" @click="lateralAbierto = false">{{ l.texto }}</RouterLink>
+        <RouterLink to="/" class="border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" exact-active-class="!text-acento-texto" @click="lateralAbierto = false">{{ T.navCorto.inicio }}</RouterLink>
+        <button class="flex items-center justify-between border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" :aria-expanded="vehiculosMovil" aria-controls="vehiculos-movil" @click="vehiculosMovil = !vehiculosMovil">
+          {{ T.navCorto.vehiculos }} <ChevronDown :class="['h-6 w-6 transition-transform', vehiculosMovil ? 'rotate-180' : '']" aria-hidden="true" />
+        </button>
+        <div v-show="vehiculosMovil" id="vehiculos-movil" class="flex flex-col">
+          <RouterLink v-for="v in vehiculos" :key="v.to" :to="v.to" class="border-b border-linea py-4 pl-4 text-tinta" active-class="!text-acento-texto" @click="lateralAbierto = false">{{ v.texto }}</RouterLink>
+        </div>
         <button class="flex items-center justify-between border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" :aria-expanded="herramientasMovil" aria-controls="herramientas-movil" @click="herramientasMovil = !herramientasMovil">
           {{ T.navCorto.herramientas }} <ChevronDown :class="['h-6 w-6 transition-transform', herramientasMovil ? 'rotate-180' : '']" aria-hidden="true" />
         </button>
