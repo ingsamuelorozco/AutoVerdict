@@ -32,6 +32,8 @@ function teclaPanel(e: KeyboardEvent) {
   const actual = items().indexOf(document.activeElement as HTMLElement)
   if (e.key === 'ArrowDown') { e.preventDefault(); enfocar(actual + 1) }
   else if (e.key === 'ArrowUp') { e.preventDefault(); enfocar(actual - 1) }
+  else if (e.key === 'Home') { e.preventDefault(); enfocar(0) }
+  else if (e.key === 'End') { e.preventDefault(); enfocar(-1) }
 }
 </script>
 
