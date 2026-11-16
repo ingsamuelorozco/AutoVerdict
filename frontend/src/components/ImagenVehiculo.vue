@@ -8,7 +8,7 @@ import type { Medidas } from '@/lib/tipos'
  * Foto de referencia del modelo (Wikimedia Commons) cuando existe; si no hay foto o no carga,
  * la silueta generada a escala sobre un plano negro, nunca un ícono de imagen rota.
  */
-const props = defineProps<{ medidas: Medidas; nombre: string; imagenId?: string | null }>()
+const props = defineProps<{ medidas: Medidas; nombre: string; imagenId?: string | null; credito?: boolean }>()
 const imagenes = useImagenes()
 onMounted(() => imagenes.cargar())
 const fallo = ref(false)
@@ -19,6 +19,7 @@ const foto = computed(() => (props.imagenId && !fallo.value ? imagenes.porId[pro
   <div v-if="foto" class="relative aspect-[16/9] overflow-hidden bg-superficie">
     <img :src="foto.url" :alt="`Foto de referencia: ${nombre}`" :title="`Foto: ${foto.autor}, ${foto.licencia}`" loading="lazy" decoding="async" class="h-full w-full object-cover" @error="fallo = true" />
     <span class="absolute left-3 top-3 bg-black/60 px-2 py-1 text-[10px] font-bold uppercase tracking-maquinado text-white">Foto de referencia</span>
+    <a v-if="credito" :href="foto.url_origen" target="_blank" rel="noopener" class="absolute bottom-0 right-0 max-w-full truncate bg-black/60 px-2 py-1 text-[10px] text-white/80 transition-colors hover:text-white">Foto: {{ foto.autor }} · {{ foto.licencia }}</a>
   </div>
   <div v-else class="sobre-foto relative aspect-[16/9] overflow-hidden bg-[#0d0d0d]">
     <div class="absolute inset-x-6 bottom-5 top-10">
