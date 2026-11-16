@@ -336,3 +336,353 @@ modelos:
       - {anio: 2022, version: "SV 40 kWh", precio_base_cop: 115400000}
       - {anio: 2023, version: "SV 40 kWh", precio_base_cop: 126800000}
       - {anio: 2024, version: "SV 40 kWh", precio_base_cop: 139300000}
+
+  - modelo: "Sentra"
+    generacion: "B15"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2001-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 QG18DE", cilindraje_cc: 1769, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 126, rpm_potencia_max: 5600, torque_nm: 174, rpm_torque_max: 4400, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4510, ancho_sin_espejos_mm: 1710, alto_mm: 1410, distancia_entre_ejes_mm: 2535, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1150, capacidad_baul_litros: 368, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 13.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.0, quejas_documentadas: 7.4, recalls: 7.2, repuestos_y_red: 8.2, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Sentra B15 es un sedán mediano sencillo y durable, con un 1.8 de cadena de repartición que aguanta mucho y repuestos baratos en todo el país. Fue muy usado como taxi ejecutivo. Como usado de casi veinte años se consigue barato, pero su seguridad se queda en dos airbags y sin control de estabilidad, y aparecen fallas por edad en eléctricos y suspensión. Mayor riesgo individual: kilometraje muy alto en unidades de servicio. No lo recomendamos sin revisar historial y estado de la suspensión."
+      para_quien_si: "Quien busca un sedán usado sencillo y durable a precio bajo."
+      para_quien_no: "Quien prioriza seguridad moderna."
+      pros_reales: ["Motor de cadena durable", "Repuestos baratos", "Mecánica sencilla"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Edad", descripcion: "Eléctricos y suspensión envejecidos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2006, version: "1.8 MT", precio_base_cop: 17500000}
+      - {anio: 2005, version: "1.8 MT", precio_base_cop: 16400000}
+      - {anio: 2004, version: "1.8 MT", precio_base_cop: 15300000}
+      - {anio: 2003, version: "1.8 MT", precio_base_cop: 14300000}
+      - {anio: 2002, version: "1.8 MT", precio_base_cop: 13400000}
+      - {anio: 2001, version: "1.8 MT", precio_base_cop: 12500000}
+
+  - modelo: "Sentra"
+    generacion: "B16"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2007-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 MR20DE", cilindraje_cc: 1997, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 140, rpm_potencia_max: 5100, torque_nm: 196, rpm_torque_max: 4800, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4565, ancho_sin_espejos_mm: 1790, alto_mm: 1510, distancia_entre_ejes_mm: 2685, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1300, capacidad_baul_litros: 370, capacidad_tanque_galones: 13.7}
+    consumo: {consumo_mixto_kml: 13.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 8.0, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Sentra B16 es un sedán amplio y cómodo, con un 2.0 confiable y mucho espacio para las piernas atrás. Su punto débil documentado es la caja CVT de primera generación, que con el kilometraje y sin cambios de aceite a tiempo presenta patinamiento y ruido, y es costosa de reparar. Las versiones mecánicas evitan ese riesgo. Mayor riesgo individual: la caja CVT. No lo recomendamos en versión automática sin historial de mantenimiento de la caja."
+      para_quien_si: "Quien busca un sedán amplio usado y prefiere la versión mecánica."
+      para_quien_no: "Quien no puede asumir la reparación de una caja CVT."
+      pros_reales: ["Espacio trasero amplio", "Motor 2.0 confiable", "Precio de usado bajo"]
+      contras:
+        - {componente: "Caja CVT", descripcion: "Patinamiento y ruido con el kilometraje.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Seguridad", descripcion: "Dos airbags en la mayoría de versiones.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2012, version: "2.0 CVT", precio_base_cop: 28000000}
+      - {anio: 2011, version: "2.0 CVT", precio_base_cop: 26200000}
+      - {anio: 2010, version: "2.0 CVT", precio_base_cop: 24500000}
+      - {anio: 2009, version: "2.0 CVT", precio_base_cop: 22900000}
+      - {anio: 2008, version: "2.0 CVT", precio_base_cop: 21400000}
+      - {anio: 2007, version: "2.0 CVT", precio_base_cop: 20000000}
+
+  - modelo: "Sentra"
+    generacion: "B17"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2013-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 MRA8DE", cilindraje_cc: 1798, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 129, rpm_potencia_max: 6000, torque_nm: 174, rpm_torque_max: 3600, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4625, ancho_sin_espejos_mm: 1760, alto_mm: 1495, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1270, capacidad_baul_litros: 430, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 15.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 7.0, electrica_electronica: 7.2, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 8.2, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Sentra B17 es un sedán mediano muy amplio atrás, con seis airbags, control de estabilidad y un 1.8 económico, que como usado ofrece mucho espacio por su precio. La caja CVT de esta generación es más confiable que la anterior, pero sigue pidiendo cambios de aceite a tiempo. El manejo es blando y poco preciso. Mayor riesgo individual: la caja CVT sin mantenimiento. No lo recomendamos sin historial de servicio de la caja."
+      para_quien_si: "Quien busca un sedán amplio, seguro y económico como usado."
+      para_quien_no: "Quien busca manejo deportivo."
+      pros_reales: ["Espacio trasero muy amplio", "Seis airbags y control de estabilidad", "Consumo bajo"]
+      contras:
+        - {componente: "Caja CVT", descripcion: "Requiere cambios de aceite a tiempo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Manejo", descripcion: "Blando y poco preciso.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2019, version: "Advance 1.8 CVT", precio_base_cop: 52000000}
+      - {anio: 2018, version: "Advance 1.8 CVT", precio_base_cop: 48600000}
+      - {anio: 2017, version: "Advance 1.8 CVT", precio_base_cop: 45500000}
+      - {anio: 2016, version: "Advance 1.8 CVT", precio_base_cop: 42500000}
+      - {anio: 2015, version: "Advance 1.8 CVT", precio_base_cop: 39700000}
+      - {anio: 2014, version: "Advance 1.8 CVT", precio_base_cop: 37200000}
+      - {anio: 2013, version: "Advance 1.8 CVT", precio_base_cop: 34700000}
+
+  - modelo: "Tiida"
+    generacion: "C11"
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2007-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 MR18DE", cilindraje_cc: 1798, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 125, rpm_potencia_max: 5200, torque_nm: 173, rpm_torque_max: 4800, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4205, ancho_sin_espejos_mm: 1695, alto_mm: 1535, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 155, peso_vacio_kg: 1150, capacidad_baul_litros: 340, capacidad_tanque_galones: 13.7}
+    consumo: {consumo_mixto_kml: 13.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.2, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Tiida es un hatchback grande por dentro, con espacio trasero de sedán mediano, un 1.8 confiable y suspensión cómoda para calles rotas. Fue muy usado como taxi y carro de plataforma, así que hay muchas unidades con kilometraje muy alto. Es sencillo de mantener y los repuestos abundan. Su seguridad se queda en dos airbags sin control de estabilidad. Mayor riesgo individual: unidades muy trabajadas. No lo recomendamos sin revisar historial."
+      para_quien_si: "Quien busca un hatchback usado amplio, cómodo y confiable."
+      para_quien_no: "Quien prioriza seguridad o equipamiento moderno."
+      pros_reales: ["Espacio interior muy amplio", "Motor confiable", "Suspensión cómoda"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Kilometraje", descripcion: "Muchas unidades fueron taxi o plataforma.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2017, version: "1.8 MT", precio_base_cop: 33000000}
+      - {anio: 2016, version: "1.8 MT", precio_base_cop: 30900000}
+      - {anio: 2015, version: "1.8 MT", precio_base_cop: 28800000}
+      - {anio: 2014, version: "1.8 MT", precio_base_cop: 27000000}
+      - {anio: 2013, version: "1.8 MT", precio_base_cop: 25200000}
+      - {anio: 2012, version: "1.8 MT", precio_base_cop: 23600000}
+      - {anio: 2011, version: "1.8 MT", precio_base_cop: 22000000}
+      - {anio: 2010, version: "1.8 MT", precio_base_cop: 20600000}
+      - {anio: 2009, version: "1.8 MT", precio_base_cop: 19300000}
+      - {anio: 2008, version: "1.8 MT", precio_base_cop: 18000000}
+      - {anio: 2007, version: "1.8 MT", precio_base_cop: 16900000}
+
+  - modelo: "Versa"
+    generacion: "N17"
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2012-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 HR16DE", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 106, rpm_potencia_max: 5600, torque_nm: 142, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4455, ancho_sin_espejos_mm: 1695, alto_mm: 1515, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1040, capacidad_baul_litros: 460, capacidad_tanque_galones: 10.8}
+    consumo: {consumo_mixto_kml: 15.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Versa de primera generación en Colombia es un sedán de entrada muy espacioso, con baúl de 460 litros, espacio trasero amplio y un 1.6 de consumo bajo. Fue muy usado en plataformas, así que hay muchas unidades con alto kilometraje. Es sencillo y barato de mantener, pero su terminación es básica y la seguridad se queda en dos airbags sin control de estabilidad. Mayor riesgo individual: unidades muy trabajadas. No lo recomendamos sin revisar historial."
+      para_quien_si: "Quien busca un sedán usado amplio y económico."
+      para_quien_no: "Quien prioriza seguridad o terminación."
+      pros_reales: ["Baúl de 460 litros", "Espacio trasero amplio", "Consumo bajo"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Kilometraje", descripcion: "Muchas unidades vienen de plataforma.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2019, version: "Sense 1.6 MT", precio_base_cop: 37000000}
+      - {anio: 2018, version: "Sense 1.6 MT", precio_base_cop: 34600000}
+      - {anio: 2017, version: "Sense 1.6 MT", precio_base_cop: 32300000}
+      - {anio: 2016, version: "Sense 1.6 MT", precio_base_cop: 30200000}
+      - {anio: 2015, version: "Sense 1.6 MT", precio_base_cop: 28300000}
+      - {anio: 2014, version: "Sense 1.6 MT", precio_base_cop: 26400000}
+      - {anio: 2013, version: "Sense 1.6 MT", precio_base_cop: 24700000}
+      - {anio: 2012, version: "Sense 1.6 MT", precio_base_cop: 23100000}
+
+  - modelo: "X-Trail"
+    generacion: "T30"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2002-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 QR25DE", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 165, rpm_potencia_max: 6000, torque_nm: 230, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/65 R16"}
+    dim: {largo_mm: 4510, ancho_sin_espejos_mm: 1765, alto_mm: 1675, distancia_entre_ejes_mm: 2625, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1450, capacidad_baul_litros: 410, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 10.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 7.8, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la X-Trail de primera generación es una SUV compacta cuadrada y práctica, con tracción 4x4 seleccionable, buen despeje y un 2.5 de buena fuerza en altura. Hoy se consigue barata y su mecánica es conocida. Como usada de casi veinte años hay que revisar el sistema 4x4, la suspensión y el consumo de aceite del motor en unidades muy recorridas. Su seguridad se queda en dos airbags. Mayor riesgo individual: desgaste del sistema 4x4. No la recomendamos sin revisión mecánica."
+      para_quien_si: "Quien busca una SUV 4x4 usada práctica y barata."
+      para_quien_no: "Quien prioriza seguridad o bajo consumo."
+      pros_reales: ["Tracción 4x4 seleccionable", "Motor con fuerza en altura", "Interior práctico"]
+      contras:
+        - {componente: "Sistema 4x4", descripcion: "Desgaste por edad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2007, version: "2.5 MT 4x4", precio_base_cop: 29000000}
+      - {anio: 2006, version: "2.5 MT 4x4", precio_base_cop: 27100000}
+      - {anio: 2005, version: "2.5 MT 4x4", precio_base_cop: 25400000}
+      - {anio: 2004, version: "2.5 MT 4x4", precio_base_cop: 23700000}
+      - {anio: 2003, version: "2.5 MT 4x4", precio_base_cop: 22200000}
+      - {anio: 2002, version: "2.5 MT 4x4", precio_base_cop: 20700000}
+
+  - modelo: "X-Trail"
+    generacion: "T31"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2008-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 QR25DE", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 169, rpm_potencia_max: 6000, torque_nm: 233, rpm_torque_max: 4400, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/65 R16"}
+    dim: {largo_mm: 4630, ancho_sin_espejos_mm: 1785, alto_mm: 1685, distancia_entre_ejes_mm: 2630, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1550, capacidad_baul_litros: 479, capacidad_tanque_galones: 17.2}
+    consumo: {consumo_mixto_kml: 10.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 7.8, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la X-Trail de segunda generación conserva el diseño práctico y el 4x4 de la primera, con más espacio, seis airbags y control de estabilidad. El punto débil es la caja CVT de las versiones automáticas, que con el kilometraje puede presentar patinamiento y es costosa de reparar; las mecánicas evitan ese riesgo. Mayor riesgo individual: la caja CVT. No la recomendamos en versión automática sin historial de mantenimiento."
+      para_quien_si: "Quien busca una SUV 4x4 usada práctica y segura, idealmente mecánica."
+      para_quien_no: "Quien no puede asumir una reparación de caja CVT."
+      pros_reales: ["Tracción 4x4", "Seis airbags y control de estabilidad", "Baúl de 479 litros"]
+      contras:
+        - {componente: "Caja CVT", descripcion: "Costosa de reparar.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Consumo", descripcion: "Alrededor de 8,5 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2014, version: "2.5 CVT 4x4", precio_base_cop: 45000000}
+      - {anio: 2013, version: "2.5 CVT 4x4", precio_base_cop: 42100000}
+      - {anio: 2012, version: "2.5 CVT 4x4", precio_base_cop: 39300000}
+      - {anio: 2011, version: "2.5 CVT 4x4", precio_base_cop: 36800000}
+      - {anio: 2010, version: "2.5 CVT 4x4", precio_base_cop: 34400000}
+      - {anio: 2009, version: "2.5 CVT 4x4", precio_base_cop: 32200000}
+      - {anio: 2008, version: "2.5 CVT 4x4", precio_base_cop: 30100000}
+
+  - modelo: "X-Trail"
+    generacion: "T32"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2015-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 QR25DE", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 169, rpm_potencia_max: 6000, torque_nm: 233, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "225/60 R18"}
+    dim: {largo_mm: 4690, ancho_sin_espejos_mm: 1820, alto_mm: 1740, distancia_entre_ejes_mm: 2705, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1600, capacidad_baul_litros: 550, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 11.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 7.2, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 8.0, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la X-Trail de tercera generación es una SUV compacta amplia, con opción de siete puestos, tracción integral, seis airbags y un baúl de 550 litros, muy popular como usada. Su 2.5 atmosférico es confiable, pero la caja CVT pide cambios de aceite a tiempo y es costosa de reparar si falla. La tercera fila es para niños. Mayor riesgo individual: la caja CVT. No la recomendamos sin historial de mantenimiento de la caja."
+      para_quien_si: "Familias que buscan una SUV amplia y segura como usada."
+      para_quien_no: "Quien no puede asumir una reparación de caja CVT."
+      pros_reales: ["Baúl de 550 litros", "Seis airbags y tracción integral", "Opción de siete puestos"]
+      contras:
+        - {componente: "Caja CVT", descripcion: "Costosa de reparar.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Tercera fila", descripcion: "Solo para niños.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2022, version: "Advance 2.5 CVT AWD", precio_base_cop: 92000000}
+      - {anio: 2021, version: "Advance 2.5 CVT AWD", precio_base_cop: 86000000}
+      - {anio: 2020, version: "Advance 2.5 CVT AWD", precio_base_cop: 80400000}
+      - {anio: 2019, version: "Advance 2.5 CVT AWD", precio_base_cop: 75200000}
+      - {anio: 2018, version: "Advance 2.5 CVT AWD", precio_base_cop: 70300000}
+      - {anio: 2017, version: "Advance 2.5 CVT AWD", precio_base_cop: 65700000}
+      - {anio: 2016, version: "Advance 2.5 CVT AWD", precio_base_cop: 61500000}
+      - {anio: 2015, version: "Advance 2.5 CVT AWD", precio_base_cop: 57500000}
+
+  - modelo: "Frontier"
+    generacion: "D22"
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Brasil
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2000-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.5 turbodiésel YD25", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 133, rpm_potencia_max: 4000, torque_nm: 304, rpm_torque_max: 2000, aceleracion_0_100_seg: 14.5, velocidad_maxima_kmh: 160}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.1, medida_llantas: "235/75 R15"}
+    dim: {largo_mm: 5050, ancho_sin_espejos_mm: 1825, alto_mm: 1735, distancia_entre_ejes_mm: 2950, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1800, capacidad_baul_litros: 1000, capacidad_tanque_galones: 19.0}
+    consumo: {consumo_mixto_kml: 11.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.2, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 8.2, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Frontier D22 es una pickup de trabajo clásica, robusta y sencilla, que se vendió por más de quince años en Colombia. Su motor diésel aguanta mucho, los repuestos son baratos y conserva bien su valor. Es tosca, ruidosa, de suspensión dura y con seguridad mínima: dos airbags como máximo. Muchas unidades vienen de trabajo pesado. Mayor riesgo individual: el estado de embrague, suspensión y chasis en unidades de finca. No la recomendamos como vehículo familiar."
+      para_quien_si: "Quien necesita una pickup de trabajo robusta y barata."
+      para_quien_no: "Quien busca confort o seguridad moderna."
+      pros_reales: ["Mecánica robusta y sencilla", "Repuestos baratos", "Buena reventa"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Hasta dos airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Uso previo", descripcion: "Muchas unidades vienen de trabajo pesado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2015, version: "2.5 Diésel MT 4x4", precio_base_cop: 55000000}
+      - {anio: 2014, version: "2.5 Diésel MT 4x4", precio_base_cop: 52200000}
+      - {anio: 2013, version: "2.5 Diésel MT 4x4", precio_base_cop: 49600000}
+      - {anio: 2012, version: "2.5 Diésel MT 4x4", precio_base_cop: 47200000}
+      - {anio: 2011, version: "2.5 Diésel MT 4x4", precio_base_cop: 44800000}
+      - {anio: 2010, version: "2.5 Diésel MT 4x4", precio_base_cop: 42600000}
+      - {anio: 2009, version: "2.5 Diésel MT 4x4", precio_base_cop: 40400000}
+      - {anio: 2008, version: "2.5 Diésel MT 4x4", precio_base_cop: 38400000}
+      - {anio: 2007, version: "2.5 Diésel MT 4x4", precio_base_cop: 36500000}
+      - {anio: 2006, version: "2.5 Diésel MT 4x4", precio_base_cop: 34700000}
+      - {anio: 2005, version: "2.5 Diésel MT 4x4", precio_base_cop: 32900000}
+      - {anio: 2004, version: "2.5 Diésel MT 4x4", precio_base_cop: 31300000}
+      - {anio: 2003, version: "2.5 Diésel MT 4x4", precio_base_cop: 29700000}
+      - {anio: 2002, version: "2.5 Diésel MT 4x4", precio_base_cop: 28200000}
+      - {anio: 2001, version: "2.5 Diésel MT 4x4", precio_base_cop: 26800000}
+      - {anio: 2000, version: "2.5 Diésel MT 4x4", precio_base_cop: 25500000}
