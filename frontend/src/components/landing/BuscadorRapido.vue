@@ -67,6 +67,7 @@ const listaMarcas = computed(() => (props.marcas?.length ? props.marcas : OPC.ma
           <legend class="text-[13px] text-tenue">{{ B.precio }}</legend>
           <RangoDoble v-model="rango" class="mt-3" :min="LIMITE.min" :max="LIMITE.max" :paso="LIMITE.paso" :formato="millones" :etiqueta-min="B.precioMin" :etiqueta-max="B.precioMax" />
         </fieldset>
+        <button type="submit" class="boton-acento">{{ B.boton }}</button>
       </div>
     </form>
   </section>
