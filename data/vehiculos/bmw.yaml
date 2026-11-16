@@ -32,6 +32,7 @@ modelos:
     versiones:
       - {anio: 2026, version: 118i, precio_base_cop: 179900000}
       - {anio: 2026, version: M135 xDrive, precio_base_cop: 279900000, segmento: Deportivo, motor_descripcion: "2.0 TwinPower Turbo", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, potencia_hp: 300, rpm_potencia_max: 5750, torque_nm: 400, rpm_torque_max: 2000, aceleracion_0_100_seg: 4.9, velocidad_maxima_kmh: 250, traccion: AWD, medida_llantas: "235/35 R19", tapiceria: Cuero, consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1625, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+      - {anio: 2024, version: "118i", precio_base_cop: 139200000}
 
   - modelo: Serie 3
     imagen_id: veh-bmw-serie-3
@@ -63,6 +64,12 @@ modelos:
     versiones:
       - {anio: 2026, version: 320i M Sport, precio_base_cop: 239900000}
       - {anio: 2026, version: 330e M Sport PHEV, precio_base_cop: 269900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo + motor eléctrico (PHEV)", potencia_hp: 292, torque_nm: 420, aceleracion_0_100_seg: 5.8, velocidad_maxima_kmh: 230, potencia_electrica_kw: 80, capacidad_bateria_kwh: 19.5, potencia_carga_ac_kw: 7.4, potencia_carga_dc_kw: null, consumo_kwh_100km: 17.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 375, capacidad_tanque_galones: 10.6, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.0, peso_vacio_kg: 1815}
+      - {anio: 2019, version: "320i M Sport", precio_base_cop: 115800000}
+      - {anio: 2020, version: "320i M Sport", precio_base_cop: 127200000}
+      - {anio: 2021, version: "320i M Sport", precio_base_cop: 139800000}
+      - {anio: 2022, version: "320i M Sport", precio_base_cop: 153700000}
+      - {anio: 2023, version: "320i M Sport", precio_base_cop: 168900000}
+      - {anio: 2024, version: "320i M Sport", precio_base_cop: 185600000}
 
   - modelo: X1
     imagen_id: veh-bmw-x1
@@ -95,6 +102,8 @@ modelos:
       - {anio: 2026, version: sDrive18i, precio_base_cop: 199900000}
       - {anio: 2026, version: sDrive20i M Sport, precio_base_cop: 224900000, motor_descripcion: "2.0 TwinPower Turbo", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, potencia_hp: 204, rpm_potencia_max: 5000, torque_nm: 300, aceleracion_0_100_seg: 7.6, velocidad_maxima_kmh: 225, medida_llantas: "245/45 R19", consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.4, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
       - {anio: 2026, version: iX1 eDrive20, precio_base_cop: 239900000, tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 150 kW", alimentacion: Eléctrico, cilindraje_cc: null, cilindros: null, valvulas: null, potencia_hp: 204, rpm_potencia_max: null, torque_nm: 250, rpm_torque_max: null, aceleracion_0_100_seg: 8.6, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: null, transmision_tipo: Reductora, numero_velocidades: 1, potencia_electrica_kw: 150, capacidad_bateria_kwh: 64.7, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 130, consumo_kwh_100km: 16.5, autonomia_estimada_km: 475, autonomia_ciclo: WLTP, ciclo_homologacion: WLTP, consumo_mixto_kml: null, consumo_real_estimado_kml: null, capacidad_tanque_galones: null, garantia_bateria_anos: 8, garantia_bateria_km: 160000, peso_vacio_kg: 1940, capacidad_baul_litros: 490}
+      - {anio: 2023, version: "sDrive18i", precio_base_cop: 140700000}
+      - {anio: 2024, version: "sDrive18i", precio_base_cop: 154600000}
 
   - modelo: X3
     imagen_id: veh-bmw-x3
@@ -157,6 +166,12 @@ modelos:
     versiones:
       - {anio: 2026, version: xDrive40i M Sport, precio_base_cop: 469900000}
       - {anio: 2026, version: xDrive50e M Sport PHEV, precio_base_cop: 519900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "3.0 Turbo I6 + motor eléctrico (PHEV)", potencia_hp: 489, torque_nm: 700, aceleracion_0_100_seg: 4.8, potencia_electrica_kw: 145, capacidad_bateria_kwh: 25.7, potencia_carga_ac_kw: 7.4, potencia_carga_dc_kw: null, consumo_kwh_100km: 25.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 10.5, capacidad_baul_litros: 500, capacidad_tanque_galones: 18.5, peso_vacio_kg: 2450}
+      - {anio: 2019, version: "xDrive40i M Sport", precio_base_cop: 226800000}
+      - {anio: 2020, version: "xDrive40i M Sport", precio_base_cop: 249200000}
+      - {anio: 2021, version: "xDrive40i M Sport", precio_base_cop: 273900000}
+      - {anio: 2022, version: "xDrive40i M Sport", precio_base_cop: 301000000}
+      - {anio: 2023, version: "xDrive40i M Sport", precio_base_cop: 330800000}
+      - {anio: 2024, version: "xDrive40i M Sport", precio_base_cop: 363500000}
 
   - modelo: i4
     imagen_id: veh-bmw-i4
@@ -188,6 +203,9 @@ modelos:
         - {componente: "Depreciación", descripcion: "Eléctrico premium de bajo volumen.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: eDrive35 Gran Coupé, precio_base_cop: 279900000, fecha_precio: 2025-01-01}
+      - {anio: 2022, version: "eDrive35 Gran Coupé", precio_base_cop: 190000000}
+      - {anio: 2023, version: "eDrive35 Gran Coupé", precio_base_cop: 208800000}
+      - {anio: 2024, version: "eDrive35 Gran Coupé", precio_base_cop: 229500000}
 
   - modelo: M2
     imagen_id: veh-bmw-m2
@@ -218,6 +236,8 @@ modelos:
         - {componente: "Despeje", descripcion: "120 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
     versiones:
       - {anio: 2025, version: M2 Coupé AT, precio_base_cop: 399900000, fecha_precio: 2025-01-01}
+      - {anio: 2023, version: "M2 Coupé AT", precio_base_cop: 315000000}
+      - {anio: 2024, version: "M2 Coupé AT", precio_base_cop: 336900000}
 
   - modelo: Z4
     imagen_id: veh-bmw-z4
@@ -248,3 +268,9 @@ modelos:
         - {componente: "Practicidad", descripcion: "Dos plazas y 281 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: sDrive30i M Sport, precio_base_cop: 299900000, fecha_precio: 2025-01-01}
+      - {anio: 2019, version: "sDrive30i M Sport", precio_base_cop: 180500000}
+      - {anio: 2020, version: "sDrive30i M Sport", precio_base_cop: 193100000}
+      - {anio: 2021, version: "sDrive30i M Sport", precio_base_cop: 206500000}
+      - {anio: 2022, version: "sDrive30i M Sport", precio_base_cop: 220900000}
+      - {anio: 2023, version: "sDrive30i M Sport", precio_base_cop: 236200000}
+      - {anio: 2024, version: "sDrive30i M Sport", precio_base_cop: 252600000}
