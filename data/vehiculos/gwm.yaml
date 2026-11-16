@@ -34,6 +34,8 @@ modelos:
     versiones:
       - {anio: 2026, version: HEV Supreme, precio_base_cop: 159900000}
       - {anio: 2025, version: HEV Supreme, precio_base_cop: 154900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "HEV Supreme", precio_base_cop: 112600000}
+      - {anio: 2024, version: "HEV Supreme", precio_base_cop: 123700000}
 
   - modelo: Haval Jolion
     imagen_id: veh-gwm-haval-jolion
@@ -67,6 +69,8 @@ modelos:
     versiones:
       - {anio: 2026, version: Active 1.5T DCT, precio_base_cop: 99900000}
       - {anio: 2026, version: Supreme 1.5T DCT, precio_base_cop: 109900000, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+      - {anio: 2023, version: "Active 1.5T DCT", precio_base_cop: 70300000}
+      - {anio: 2024, version: "Active 1.5T DCT", precio_base_cop: 77300000}
 
   - modelo: Poer
     imagen_id: veh-gwm-poer
@@ -100,6 +104,8 @@ modelos:
     versiones:
       - {anio: 2026, version: Poer 2.0 Diésel AT 4x4, precio_base_cop: 169900000}
       - {anio: 2025, version: Poer 2.0 Diésel AT 4x4, precio_base_cop: 164900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "Poer 2.0 Diésel AT 4x4", precio_base_cop: 119600000}
+      - {anio: 2024, version: "Poer 2.0 Diésel AT 4x4", precio_base_cop: 131400000}
 
   - modelo: Ora 03
     imagen_id: veh-gwm-ora-03
@@ -133,3 +139,5 @@ modelos:
     versiones:
       - {anio: 2026, version: GT 63 kWh, precio_base_cop: 129900000}
       - {anio: 2025, version: GT 63 kWh, precio_base_cop: 134900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "GT 63 kWh", precio_base_cop: 91400000}
+      - {anio: 2024, version: "GT 63 kWh", precio_base_cop: 100500000}
