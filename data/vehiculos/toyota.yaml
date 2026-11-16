@@ -3,6 +3,7 @@ pais_origen: Japón
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Yaris Sedán
+    imagen_id: veh-toyota-yaris-sedan
     generacion: XP150
     segmento: Sedán B
     carroceria: Sedán
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2023, version: XLS CVT, precio_base_cop: 90900000, fecha_precio: 2023-03-01, camara_reversa: true, llave_inteligente: true, aire_acondicionado: Automático}
 
   - modelo: Corolla
+    imagen_id: veh-toyota-corolla
     generacion: E210
     segmento: Sedán C
     carroceria: Sedán
@@ -65,6 +67,7 @@ modelos:
       - {anio: 2024, version: XLi 2.0 CVT, precio_base_cop: 112900000, fecha_precio: 2024-03-01, tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Dynamic Force M20A", cilindraje_cc: 1987, potencia_hp: 169, rpm_potencia_max: 6600, torque_nm: 200, rpm_torque_max: 4400, aceleracion_0_100_seg: 9.2, velocidad_maxima_kmh: 200, transmision_tipo: CVT, numero_velocidades: 10, potencia_electrica_kw: null, capacidad_bateria_kwh: null, garantia_bateria_anos: null, garantia_bateria_km: null, consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.2, peso_vacio_kg: 1330}
 
   - modelo: Corolla Cross
+    imagen_id: veh-toyota-corolla-cross
     generacion: XG10
     segmento: SUV Compacta
     carroceria: SUV
@@ -98,6 +101,7 @@ modelos:
       - {anio: 2025, version: XLi 2.0 CVT, precio_base_cop: 129900000, fecha_precio: 2025-04-01, tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Dynamic Force M20A", cilindraje_cc: 1987, potencia_hp: 169, rpm_potencia_max: 6600, torque_nm: 202, rpm_torque_max: 4400, aceleracion_0_100_seg: 9.9, velocidad_maxima_kmh: 185, transmision_tipo: CVT, numero_velocidades: 10, potencia_electrica_kw: null, capacidad_bateria_kwh: null, garantia_bateria_anos: null, garantia_bateria_km: null, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 12.0, peso_vacio_kg: 1385, apple_carplay_android_auto: Cable, pantalla_multimedia_pulgadas: 8}
 
   - modelo: Yaris Cross
+    imagen_id: veh-toyota-yaris-cross
     generacion: AC200
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -128,6 +132,7 @@ modelos:
       - {anio: 2026, version: HEV Premium, precio_base_cop: 129900000, tapiceria: Cuero sintético, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Cámara 360]}
 
   - modelo: RAV4
+    imagen_id: veh-toyota-rav4
     generacion: XA50
     segmento: SUV Compacta
     carroceria: SUV
@@ -158,6 +163,7 @@ modelos:
       - {anio: 2025, version: XLE HEV AWD, precio_base_cop: 199900000, fecha_precio: 2025-05-01, tapiceria: Cuero sintético, techo_corredizo: false, pantalla_multimedia_pulgadas: 8}
 
   - modelo: Fortuner
+    imagen_id: veh-toyota-fortuner
     generacion: AN160
     segmento: SUV Grande
     carroceria: SUV
@@ -190,6 +196,7 @@ modelos:
       - {anio: 2026, version: Legender 2.8 AT 4x4, precio_base_cop: 279900000, pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "265/55 R20", adas_incluidas: [Control crucero adaptativo, Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Cámara 360]}
 
   - modelo: Hilux
+    imagen_id: veh-toyota-hilux
     generacion: AN120
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -223,6 +230,7 @@ modelos:
       - {anio: 2025, version: SRV 2.8 AT 4x4, precio_base_cop: 211900000, fecha_precio: 2025-03-01}
 
   - modelo: Land Cruiser Prado
+    imagen_id: veh-toyota-land-cruiser-prado
     generacion: J250
     segmento: SUV Grande
     carroceria: SUV
@@ -254,6 +262,7 @@ modelos:
       - {anio: 2026, version: TX-L 2.8 AT 4x4, precio_base_cop: 359900000}
 
   - modelo: GR86
+    imagen_id: veh-toyota-gr86
     generacion: ZN8
     segmento: Deportivo
     carroceria: Coupé
@@ -283,6 +292,7 @@ modelos:
       - {anio: 2026, version: 2.4 MT, precio_base_cop: 199900000}
 
   - modelo: GR Yaris
+    imagen_id: veh-toyota-gr-yaris
     generacion: GXPA16
     segmento: Deportivo
     carroceria: Hatchback
@@ -315,6 +325,7 @@ modelos:
       - {anio: 2024, version: 1.6T MT AWD, precio_base_cop: 249900000, fecha_precio: 2024-02-01}
 
   - modelo: Raize
+    imagen_id: veh-toyota-raize
     generacion: A200
     segmento: SUV Subcompacta
     carroceria: SUV
