@@ -5,13 +5,11 @@ import { onClickOutside } from '@vueuse/core'
 import { ChevronDown, Heart, Menu, Moon, Sun, X } from 'lucide-vue-next'
 import MenuDesplegable from '@/components/MenuDesplegable.vue'
 import { useAjustes } from '@/stores/ajustes'
-import { useComparador } from '@/stores/comparador'
 import { useFavoritos } from '@/stores/favoritos'
 import { formatoNumero } from '@/composables/useFormato'
 import { T } from '@/lib/textos'
 
 const aj = useAjustes()
-const comp = useComparador()
 const fav = useFavoritos()
 const route = useRoute()
 /** En la portada la barra flota transparente sobre el hero; en el resto queda fija arriba. */
@@ -88,9 +86,6 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
         <RouterLink to="/buscar?favoritos=1" class="relative mr-5 grid h-11 w-11 place-items-center self-center rounded-full text-tinta transition-colors hover:bg-white/10" :aria-label="`Favoritos (${fav.ids.length})`">
           <Heart class="h-5 w-5" aria-hidden="true" />
           <span v-if="fav.ids.length" class="absolute right-0.5 top-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-acento px-1 text-[10px] font-bold text-white num">{{ fav.ids.length }}</span>
-        </RouterLink>
-        <RouterLink :to="{ path: '/comparador', query: comp.ids.length ? { ids: comp.ids.join(',') } : {} }" class="flex items-center gap-2 bg-acento px-8 text-[13px] font-bold text-white transition-colors hover:bg-acento-hondo">
-          Comparar ({{ comp.ids.length }})
         </RouterLink>
       </div>
 
