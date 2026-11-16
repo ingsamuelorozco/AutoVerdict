@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import fondo from '@/assets/images/hero-bg-city.jpg'
 import { T } from '@/lib/textos'
+
+defineProps<{ versiones?: number | null; marcas?: number | null }>()
 </script>
 
 <template>
@@ -15,6 +17,7 @@ import { T } from '@/lib/textos'
       </div>
       <div>
         <p>{{ T.landing.hero.datoTitulo }}</p>
+        <p><span class="num">{{ versiones ?? '—' }}</span> versiones · <span class="num">{{ marcas ?? '—' }}</span> marcas</p>
       </div>
     </div>
   </section>
