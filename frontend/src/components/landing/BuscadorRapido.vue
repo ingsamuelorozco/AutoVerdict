@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { useRouter } from 'vue-router'
 import { ChevronDown } from 'lucide-vue-next'
 import RangoDoble from '@/components/landing/RangoDoble.vue'
 import { formatoNumero } from '@/composables/useFormato'
@@ -16,13 +17,23 @@ const aj = useAjustes()
 /** Rango del precio en calle del catálogo en COP (35 M a 523 M), redondeado a pasos de 5 M. */
 const LIMITE = { min: 30_000_000, max: 550_000_000, paso: 5_000_000 }
 const rango = ref<[number, number]>([LIMITE.min, LIMITE.max])
+const router = useRouter()
+
+function buscar() {
+  const q: Record<string, string> = {}
+  if (carroceria.value) q.carroceria = carroceria.value
+  if (marca.value) q.marca = marca.value
+  if (rango.value[0] > LIMITE.min) q.precio_min = String(rango.value[0])
+  if (rango.value[1] < LIMITE.max) q.precio_max = String(rango.value[1])
+  router.push({ path: '/buscar', query: q })
+}
 const millones = (v: number) => `$${formatoNumero(v / 1_000_000)} M`
 const listaMarcas = computed(() => (props.marcas?.length ? props.marcas : OPC.marca))
 </script>
 
 <template>
   <section class="relative bg-[linear-gradient(to_bottom,rgb(var(--velo))_0_56px,transparent_56px)] px-4" aria-labelledby="buscador-titulo">
-    <form class="mx-auto max-w-[940px] bg-papel px-[35px] dark:bg-superficie pb-[50px] pt-6 shadow-tarjeta" @submit.prevent>
+    <form class="mx-auto max-w-[940px] bg-papel px-[35px] dark:bg-superficie pb-[50px] pt-6 shadow-tarjeta" @submit.prevent="buscar">
       <div class="flex flex-wrap items-center justify-between gap-4 border-b border-linea pb-5">
         <div class="flex items-baseline gap-4">
           <h2 id="buscador-titulo" class="text-[26px] leading-none">{{ B.titulo }}</h2>
