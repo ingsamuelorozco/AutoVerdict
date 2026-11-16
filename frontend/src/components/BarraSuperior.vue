@@ -2,7 +2,7 @@
 import { computed, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { onClickOutside } from '@vueuse/core'
-import { Heart, Menu, Moon, Sun, X } from 'lucide-vue-next'
+import { ChevronDown, Heart, Menu, Moon, Sun, X } from 'lucide-vue-next'
 import MenuDesplegable from '@/components/MenuDesplegable.vue'
 import { useAjustes } from '@/stores/ajustes'
 import { useComparador } from '@/stores/comparador'
@@ -17,6 +17,7 @@ const route = useRoute()
 /** En la portada la barra flota transparente sobre el hero; en el resto queda fija arriba. */
 const enInicio = computed(() => route.path === '/')
 const lateralAbierto = ref(false)
+const herramientasMovil = ref(false)
 const ajustesAbierto = ref(false)
 const ajustesRef = ref<HTMLElement | null>(null)
 onClickOutside(ajustesRef, () => (ajustesAbierto.value = false))
@@ -103,8 +104,12 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
       </div>
       <div class="contenedor flex flex-col pb-10">
         <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" @click="lateralAbierto = false">{{ l.texto }}</RouterLink>
-        <p class="etiqueta mt-8">{{ T.nav.herramientas }}</p>
-        <RouterLink v-for="h in T.herramientas" :key="h.ruta" :to="h.ruta" class="border-b border-linea py-4 text-tinta" @click="lateralAbierto = false">{{ h.titulo }}</RouterLink>
+        <button class="flex items-center justify-between border-b border-linea py-5 text-2xl font-bold uppercase text-tinta" :aria-expanded="herramientasMovil" aria-controls="herramientas-movil" @click="herramientasMovil = !herramientasMovil">
+          {{ T.navCorto.herramientas }} <ChevronDown :class="['h-6 w-6 transition-transform', herramientasMovil ? 'rotate-180' : '']" aria-hidden="true" />
+        </button>
+        <div v-show="herramientasMovil" id="herramientas-movil" class="flex flex-col">
+          <RouterLink v-for="h in T.herramientas" :key="h.ruta" :to="h.ruta" class="border-b border-linea py-4 pl-4 text-tinta" @click="lateralAbierto = false">{{ h.titulo }}</RouterLink>
+        </div>
         <RouterLink to="/buscar?favoritos=1" class="border-b border-linea py-4 text-tinta" @click="lateralAbierto = false">Favoritos ({{ fav.ids.length }})</RouterLink>
         <p class="etiqueta mt-8">Ajustes</p>
         <div class="mt-3 grid grid-cols-2 gap-4">
