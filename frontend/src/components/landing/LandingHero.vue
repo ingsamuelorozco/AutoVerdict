@@ -17,7 +17,7 @@ defineProps<{ versiones?: number | null; marcas?: number | null }>()
         <p class="mt-6 max-w-[310px] text-[15px] font-normal leading-[1.6] text-tinta">{{ T.sublema }}</p>
         <RouterLink to="/comparador" class="boton-acento mt-9 px-7">{{ T.landing.hero.boton }}</RouterLink>
       </div>
-      <div class="absolute right-[140px] top-[33%] z-20 text-right">
+      <div class="relative z-20 mt-10 lg:absolute lg:right-[140px] lg:top-[33%] lg:mt-0 lg:text-right">
         <p class="text-base font-bold uppercase tracking-[1px] text-acento-texto">{{ T.landing.hero.datoTitulo }}</p>
         <p class="mt-3 text-sm font-bold text-tinta"><span class="num">{{ versiones ?? '—' }}</span> versiones · <span class="num">{{ marcas ?? '—' }}</span> marcas</p>
       </div>
