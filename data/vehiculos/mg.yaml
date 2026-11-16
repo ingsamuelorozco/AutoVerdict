@@ -1,0 +1,131 @@
+marca: MG
+pais_origen: China
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: ZS
+    generacion: Primera generación (actualización 2021)
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-03-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 VTi-Tech", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 114, rpm_potencia_max: 6000, torque_nm: 150, rpm_torque_max: 4500, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4323, ancho_sin_espejos_mm: 1809, alto_mm: 1653, distancia_entre_ejes_mm: 2585, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1270, capacidad_baul_litros: 448, capacidad_tanque_galones: 12.7}
+    consumo: {consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.3}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true}
+    garantia: {garantia_anos: 5, garantia_km: 150000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.4, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la MG ZS es una SUV subcompacta espaciosa para su precio, con baúl de 448 litros, seis airbags, pantalla de 10 pulgadas y una garantía de cinco años o 150.000 km. El 1.5 atmosférico con CVT es sencillo pero lento en altura, y la marca lleva poco tiempo en el país, así que la red de servicio y la reventa todavía están por probarse. Mayor riesgo individual: la depreciación en los primeros años. No la recomendamos a quien maneja mucho en montaña con carga."
+      para_quien_si: "Quien busca espacio y garantía larga en una SUV de entrada."
+      para_quien_no: "Quien prioriza desempeño en altura o la reventa."
+      pros_reales: ["Baúl de 448 litros", "Garantía de 5 años o 150.000 km", "Seis airbags"]
+      contras:
+        - {componente: "Desempeño", descripcion: "114 hp atmosféricos con CVT: lenta en subida.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Red y reventa", descripcion: "Marca con poco recorrido en Colombia.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Comfort 1.5 CVT, precio_base_cop: 79900000}
+      - {anio: 2026, version: Luxury 1.5 CVT, precio_base_cop: 89900000, techo_corredizo: true, tapiceria: Cuero sintético, luces_led: true}
+      - {anio: 2025, version: Comfort 1.5 CVT, precio_base_cop: 77900000, fecha_precio: 2025-03-01}
+
+  - modelo: ZS EV
+    generacion: Segunda generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 130 kW", alimentacion: Eléctrico, potencia_hp: 174, torque_nm: 280, aceleracion_0_100_seg: 8.6, velocidad_maxima_kmh: 175, potencia_electrica_kw: 130, capacidad_bateria_kwh: 51, potencia_carga_ac_kw: 7, potencia_carga_dc_kw: 76}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "215/55 R17"}
+    dim: {largo_mm: 4323, ancho_sin_espejos_mm: 1809, alto_mm: 1649, distancia_entre_ejes_mm: 2585, distancia_libre_suelo_mm: 161, peso_vacio_kg: 1530, capacidad_baul_litros: 448, autonomia_estimada_km: 320, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 16.5, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 5, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.6, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.4, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la ZS EV es la versión eléctrica de la ZS, con 174 hp, unos 320 km de autonomía WLTP, carga rápida de 76 kW y ayudas de manejo que la versión de gasolina no trae. Sirve muy bien para ciudad y viajes medianos, sin pico y placa en varias ciudades. Su autonomía real baja en carretera rápida y la reventa de eléctricos de marcas nuevas es incierta. Mayor riesgo individual: el valor de reventa a cinco años. No la recomendamos para quien hace viajes largos cada semana."
+      para_quien_si: "Quien maneja sobre todo en ciudad y quiere un eléctrico con buen equipo."
+      para_quien_no: "Quien hace viajes largos frecuentes sin cargadores rápidos en la ruta."
+      pros_reales: ["Exenta de pico y placa en varias ciudades", "174 hp y respuesta inmediata", "Ayudas de manejo completas"]
+      contras:
+        - {componente: "Autonomía en carretera", descripcion: "La autonomía real baja a velocidades de autopista.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Reventa", descripcion: "Mercado de eléctricos usados todavía pequeño.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Luxury 51 kWh, precio_base_cop: 129900000}
+
+  - modelo: MG5
+    generacion: Segunda generación
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-03-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 VTi-Tech", cilindraje_cc: 1498, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 114, rpm_potencia_max: 6000, torque_nm: 150, rpm_torque_max: 4500, aceleracion_0_100_seg: 11.8, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4675, ancho_sin_espejos_mm: 1842, alto_mm: 1480, distancia_entre_ejes_mm: 2680, distancia_libre_suelo_mm: 140, peso_vacio_kg: 1215, capacidad_baul_litros: 401, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.2}
+    seg: {numero_airbags: 4, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 5, garantia_km: 150000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.4, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: el MG5 es un sedán grande a precio de sedán pequeño: 4,67 metros de largo, buen espacio atrás, pantalla de 10 pulgadas y garantía de cinco años. El 1.5 atmosférico con CVT es tranquilo y consume poco, pero le falta empuje en altura. Tiene cuatro airbags y despeje bajo de 140 mm, que obliga a cuidar los rompemuelles. Mayor riesgo individual: la reventa de una marca nueva. No lo recomendamos para quien vive en zonas con rompemuelles altos o vías destapadas."
+      para_quien_si: "Quien quiere un sedán amplio y económico para ciudad y carretera plana."
+      para_quien_no: "Quien prioriza desempeño, despeje o reventa."
+      pros_reales: ["Mucho espacio por su precio", "Consumo bajo", "Garantía de 5 años o 150.000 km"]
+      contras:
+        - {componente: "Despeje", descripcion: "140 mm: hay que pasar rompemuelles con cuidado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Desempeño", descripcion: "114 hp con CVT: lento en subida.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Comfort 1.5 CVT, precio_base_cop: 74900000}
+      - {anio: 2026, version: Luxury 1.5 CVT, precio_base_cop: 82900000, numero_airbags: 6, techo_corredizo: true, luces_led: true, llave_inteligente: true}
+
+  - modelo: HS
+    generacion: Segunda generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-09-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 turbo", cilindraje_cc: 1490, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 162, rpm_potencia_max: 5500, torque_nm: 250, rpm_torque_max: 1700, aceleracion_0_100_seg: 9.9, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Doble embrague, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "235/50 R18"}
+    dim: {largo_mm: 4574, ancho_sin_espejos_mm: 1876, alto_mm: 1664, distancia_entre_ejes_mm: 2720, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1520, capacidad_baul_litros: 463, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.2}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 5, garantia_km: 150000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.4, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la MG HS es una SUV compacta grande y muy equipada para su precio, con un 1.5 turbo de 162 hp, caja de doble embrague de 7 marchas, techo corredizo y ayudas de manejo completas desde la versión de entrada. Rinde bien en altura. La caja de doble embrague puede ser brusca en trancón y su durabilidad en uso urbano pesado está por verse en el país. Mayor riesgo individual: el embrague de la caja en trancón diario (opinión editorial). No la recomendamos a quien vive en trancón todos los días."
+      para_quien_si: "Quien quiere una SUV compacta con mucho equipo y motor turbo por menos dinero."
+      para_quien_no: "Quien maneja casi siempre en trancón o prioriza la reventa."
+      pros_reales: ["Ayudas de manejo completas", "Motor turbo de 162 hp", "Mucho espacio y equipamiento"]
+      contras:
+        - {componente: "Caja de doble embrague", descripcion: "Puede ser brusca a baja velocidad en trancón.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Reventa", descripcion: "Marca con poco recorrido en el mercado de usados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Luxury 1.5T DCT, precio_base_cop: 119900000}
+      - {anio: 2026, version: Trophy 1.5T DCT, precio_base_cop: 129900000, tapiceria: Cuero, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
