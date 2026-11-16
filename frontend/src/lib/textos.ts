@@ -53,7 +53,7 @@ export const T = {
     },
     caracteristicas: {
       titulo: 'Lo que revisamos por ti',
-      autoAlt: 'Ilustración de un auto blanco visto desde arriba con techo panorámico',
+      autoAlt: 'Auto blanco visto desde arriba con techo oscuro',
       izquierda: [
         { titulo: 'Tamaño real a escala', texto: 'Siluetas lateral, de planta y frontal a escala, con Índice de Garaje e Índice Rompemuelle para saber si cabe en tu vida.' },
         { titulo: 'Costo total de propiedad', texto: 'SOAT, matrícula, impuesto, crédito, seguro, combustible y mantenimiento sumados en un solo número mensual.' },
