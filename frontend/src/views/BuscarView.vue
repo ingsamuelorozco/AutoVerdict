@@ -11,6 +11,7 @@ import { useFavoritos } from '@/stores/favoritos'
 import EstadoCarga from '@/components/EstadoCarga.vue'
 import TarjetaVehiculo from '@/components/TarjetaVehiculo.vue'
 import type { Paginado, Tarjeta } from '@/lib/tipos'
+import { OPC } from '@/lib/opciones'
 
 useHead({ title: 'Buscar vehículo' })
 const route = useRoute()
@@ -34,16 +35,6 @@ const vista = ref<'grid' | 'lista'>('grid')
 const panel = ref(false)
 const soloFavoritos = computed(() => route.query.favoritos === '1')
 
-const OPC = {
-  marca: ['Audi', 'BMW', 'BYD', 'Chery', 'Chevrolet', 'Ford', 'Honda', 'Hyundai', 'Kia', 'Mazda', 'Mercedes-Benz', 'Nissan', 'Peugeot', 'Renault', 'Subaru', 'Suzuki', 'Toyota', 'Volkswagen'],
-  carroceria: ['Sedán', 'Hatchback', 'SUV', 'Pickup', 'Coupé', 'Convertible'],
-  segmento: ['Hatchback A', 'Hatchback B', 'Hatchback C', 'Sedán B', 'Sedán C', 'Sedán D', 'SUV Subcompacta', 'SUV Compacta', 'SUV Mediana', 'SUV Grande', 'Pickup Compacta', 'Pickup Mediana', 'Pickup Grande', 'Deportivo'],
-  combustible: ['Gasolina Corriente', 'Gasolina Extra', 'Diésel', 'Híbrido Ligero MHEV', 'Híbrido Completo HEV', 'Híbrido Enchufable PHEV', '100% Eléctrico BEV'],
-  transmision: ['Manual', 'Automática', 'CVT', 'Doble embrague', 'Reductora'],
-  traccion: ['Delantera', 'Trasera', 'AWD', '4x4'],
-  adas: ['Frenado autónomo de emergencia', 'Control crucero adaptativo', 'Asistente de mantenimiento de carril', 'Monitoreo de punto ciego', 'Cámara 360'],
-  pais: ['Brasil', 'México', 'Colombia', 'Japón', 'Corea del Sur', 'China', 'India', 'Alemania', 'Estados Unidos', 'Tailandia', 'Argentina'],
-}
 const ORDENES = [
   { v: 'puntaje', t: 'Puntaje AutoVerdict' }, { v: 'precio_calle', t: 'Precio en calle: menor' }, { v: 'precio_calle_desc', t: 'Precio en calle: mayor' },
   { v: 'potencia', t: 'Potencia' }, { v: 'consumo', t: 'Consumo' }, { v: 'fiabilidad', t: 'Fiabilidad' }, { v: 'despeje', t: 'Despeje' }, { v: 'recientes', t: 'Más recientes' },
