@@ -8,9 +8,9 @@ test.beforeEach(({ page }) => {
 })
 test.afterEach(() => expect(errores, errores.join('\n')).toEqual([]))
 
-test('la landing muestra el lema y las alertas rojas', async ({ page }) => {
+test('la landing muestra el titular y las alertas rojas', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Compra el carro')
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Precio & verdad')
   await expect(page.getByRole('heading', { name: /Alertas rojas/ })).toBeVisible()
 })
 
