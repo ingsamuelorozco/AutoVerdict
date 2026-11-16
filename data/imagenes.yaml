@@ -1061,3 +1061,111 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Sportage"
+  - id: veh-mazda-2-hatchback
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/2021_Mazda2_GT_Sport_NAV_MHEV_1.5_Front.jpg/960px-2021_Mazda2_GT_Sport_NAV_MHEV_1.5_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Mazda2_GT_Sport_NAV_MHEV_1.5_Front.jpg"
+    ancho: 3789
+    alto: 2010
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda 2 Hatchback"
+  - id: veh-mazda-2-sedan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/2016_Mazda2_%28DL%29_Maxx_sedan_%282017-11-18%29.jpg/960px-2016_Mazda2_%28DL%29_Maxx_sedan_%282017-11-18%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "EurovisionNim"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2016_Mazda2_(DL)_Maxx_sedan_(2017-11-18).jpg"
+    ancho: 4385
+    alto: 2557
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda 2 Sedán"
+  - id: veh-mazda-3-hatchback
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Mazda3_SKYACTIV-G.jpg/960px-Mazda3_SKYACTIV-G.jpg"
+    proveedor: Wikimedia Commons
+    autor: "TTTNIS"
+    licencia: "CC0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mazda3_SKYACTIV-G.jpg"
+    ancho: 5976
+    alto: 3130
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda 3 Hatchback"
+  - id: veh-mazda-3-sedan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/MAZDA3_SEDAN_%28BP%29_China.jpg/960px-MAZDA3_SEDAN_%28BP%29_China.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Dinkun Chen"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:MAZDA3_SEDAN_(BP)_China.jpg"
+    ancho: 6401
+    alto: 3367
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda 3 Sedán"
+  - id: veh-mazda-cx-3
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/2017_Mazda_CX-3_Sport_NAV_Automatic_2.0_Front.jpg/960px-2017_Mazda_CX-3_Sport_NAV_Automatic_2.0_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2017_Mazda_CX-3_Sport_NAV_Automatic_2.0_Front.jpg"
+    ancho: 4365
+    alto: 2360
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda CX-3"
+  - id: veh-mazda-cx-30
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Mazda_CX-30_Touring%2C_2020_front.jpg/960px-Mazda_CX-30_Touring%2C_2020_front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "EurovisionNim"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mazda_CX-30_Touring,_2020_front.jpg"
+    ancho: 5255
+    alto: 3015
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda CX-30"
+  - id: veh-mazda-cx-5
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2024_Mazda_CX-5_2.5_S_Select_in_Platinum_Quartz_Metallic%2C_front_right.jpg/960px-2024_Mazda_CX-5_2.5_S_Select_in_Platinum_Quartz_Metallic%2C_front_right.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Mr.choppers"
+    licencia: "CC BY-SA 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Mazda_CX-5_2.5_S_Select_in_Platinum_Quartz_Metallic,_front_right.jpg"
+    ancho: 5339
+    alto: 3440
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda CX-5"
+  - id: veh-mazda-cx-90
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2024_Mazda_CX-90_Mild_Hybrid_Inline_6_Turbo_GS-L_AWD_in_Deep_Crystal_Blue_Mica%2C_Front_Left%2C_09-10-2023.jpg/960px-2024_Mazda_CX-90_Mild_Hybrid_Inline_6_Turbo_GS-L_AWD_in_Deep_Crystal_Blue_Mica%2C_Front_Left%2C_09-10-2023.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Elise240SX"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Mazda_CX-90_Mild_Hybrid_Inline_6_Turbo_GS-L_AWD_in_Deep_Crystal_Blue_Mica,_Front_Left,_09-10-2023.jpg"
+    ancho: 3750
+    alto: 1820
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda CX-90"
+  - id: veh-mazda-mx-5
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Mazda_Roadster_%28MX-5%29_by_Negawa_Bridge_%28cropped%29.jpg/960px-Mazda_Roadster_%28MX-5%29_by_Negawa_Bridge_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "根川大橋 (Negawa Ohashi)"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mazda_Roadster_(MX-5)_by_Negawa_Bridge_(cropped).jpg"
+    ancho: 4373
+    alto: 2593
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda MX-5"

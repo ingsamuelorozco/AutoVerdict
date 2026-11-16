@@ -3,6 +3,7 @@ pais_origen: Japón
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: "2 Sedán"
+    imagen_id: veh-mazda-2-sedan
     generacion: "DJ, segunda actualización"
     segmento: Sedán B
     carroceria: Sedán
@@ -36,6 +37,7 @@ modelos:
       - {anio: 2025, version: Touring AT, precio_base_cop: 89900000, fecha_precio: 2025-06-01, camara_reversa: true}
 
   - modelo: "2 Hatchback"
+    imagen_id: veh-mazda-2-hatchback
     generacion: "DJ, segunda actualización"
     segmento: Hatchback B
     carroceria: Hatchback
@@ -66,6 +68,7 @@ modelos:
       - {anio: 2026, version: Grand Touring LX AT, precio_base_cop: 104900000, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, medida_llantas: "185/55 R16", adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Frenado autónomo de emergencia]}
 
   - modelo: "3 Sedán"
+    imagen_id: veh-mazda-3-sedan
     generacion: BP
     segmento: Sedán C
     carroceria: Sedán
@@ -96,6 +99,7 @@ modelos:
       - {anio: 2026, version: Grand Touring LX 2.5 AT, precio_base_cop: 146900000, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 186, torque_nm: 252, rpm_torque_max: 4000, aceleracion_0_100_seg: 8.2, velocidad_maxima_kmh: 210, consumo_mixto_kml: 14.6, consumo_real_estimado_kml: 12.2, medida_llantas: "215/45 R18", tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia]}
 
   - modelo: "3 Hatchback"
+    imagen_id: veh-mazda-3-hatchback
     generacion: BP
     segmento: Hatchback C
     carroceria: Hatchback
@@ -126,6 +130,7 @@ modelos:
       - {anio: 2026, version: 2.5 Turbo AWD Carbon, precio_base_cop: 169900000, motor_descripcion: "2.5 Skyactiv-G Turbo", alimentacion: Turbo, potencia_hp: 250, rpm_potencia_max: 5000, torque_nm: 434, rpm_torque_max: 2500, aceleracion_0_100_seg: 6.4, velocidad_maxima_kmh: 225, traccion: AWD, suspension_trasera: Barra de torsión, octanaje_minimo_recomendado: 95, tipo_combustible: Gasolina Extra, consumo_mixto_kml: 11.8, consumo_real_estimado_kml: 9.6, peso_vacio_kg: 1520}
 
   - modelo: CX-30
+    imagen_id: veh-mazda-cx-30
     generacion: DM
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -158,6 +163,7 @@ modelos:
       - {anio: 2025, version: Touring 2.0 AT, precio_base_cop: 121900000, fecha_precio: 2025-06-01}
 
   - modelo: CX-5
+    imagen_id: veh-mazda-cx-5
     generacion: KF
     segmento: SUV Compacta
     carroceria: SUV
@@ -190,6 +196,7 @@ modelos:
       - {anio: 2024, version: Grand Touring 2.5 AWD, precio_base_cop: 172900000, fecha_precio: 2024-06-01, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 187, torque_nm: 252, aceleracion_0_100_seg: 9.0, traccion: AWD, consumo_mixto_kml: 12.4, consumo_real_estimado_kml: 10.6, tapiceria: Cuero, techo_corredizo: true, pantalla_multimedia_pulgadas: 10.25, sensores_parqueo: Delantero y trasero, medida_llantas: "225/55 R19", peso_vacio_kg: 1640}
 
   - modelo: CX-90
+    imagen_id: veh-mazda-cx-90
     generacion: KK
     segmento: SUV Grande
     carroceria: SUV
@@ -221,6 +228,7 @@ modelos:
       - {anio: 2026, version: Signature MHEV, precio_base_cop: 319900000, plazas: 6}
 
   - modelo: MX-5
+    imagen_id: veh-mazda-mx-5
     generacion: ND
     segmento: Deportivo
     carroceria: Convertible
@@ -251,6 +259,7 @@ modelos:
       - {anio: 2026, version: RF Grand Touring AT, precio_base_cop: 179900000, carroceria: Coupé, transmision_tipo: Automática, numero_velocidades: 6, peso_vacio_kg: 1120, aceleracion_0_100_seg: 7.2}
 
   - modelo: CX-3
+    imagen_id: veh-mazda-cx-3
     generacion: DK
     segmento: SUV Subcompacta
     carroceria: SUV
