@@ -35,7 +35,7 @@ const principales = [
 </script>
 
 <template>
-  <header :class="['top-0 z-40 w-full', enInicio ? 'absolute inset-x-0 bg-transparent' : 'sticky border-b border-linea bg-papel']">
+  <header :class="['sobre-foto top-0 z-40 w-full', enInicio ? 'absolute inset-x-0 bg-transparent' : 'sticky bg-velo']">
     <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:bg-tinta focus:px-3 focus:py-2 focus:text-papel">Saltar al contenido</a>
     <div class="contenedor flex h-16 items-center gap-6">
       <RouterLink to="/" class="flex shrink-0 items-center gap-3 text-lg font-bold uppercase tracking-[1px] text-tinta" aria-label="AutoVerdict, inicio">
