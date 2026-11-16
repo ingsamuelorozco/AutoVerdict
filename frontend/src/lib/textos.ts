@@ -58,6 +58,11 @@ export const T = {
         { titulo: 'Costo total de propiedad', texto: 'SOAT, matrícula, impuesto, crédito, seguro, combustible y mantenimiento sumados en un solo número mensual.' },
         { titulo: 'Fallas documentadas', texto: 'Cada falla conocida se respalda con dos o más fuentes públicas, junto con recalls y checklist de usado.' },
       ],
+      derecha: [
+        { titulo: 'Comparador de hasta 10', texto: 'Ganador automático por fila, marcador y Puntaje AutoVerdict según tu perfil de uso, lado a lado.' },
+        { titulo: 'Precios en COP y USD', texto: 'Precio puesto en calle por ciudad, con la TRM oficial o la que tú definas en los ajustes.' },
+        { titulo: '¿Qué carro me alcanza?', texto: 'Cruza tus ingresos con el costo mensual real y te muestra lo que puedes sostener sin ahogarte.' },
+      ],
     },
   },
   estimado: 'Estimado',
