@@ -173,3 +173,99 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi RS 3"
+  - id: veh-bmw-m2
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/BMW_G87_M2_1X7A1838.jpg/960px-BMW_G87_M2_1X7A1838.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BMW_G87_M2_1X7A1838.jpg"
+    ancho: 4546
+    alto: 2252
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BMW M2"
+  - id: veh-bmw-serie-1
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/BMW_120_%28F70%29_Leonberg_2024_IMG_1068.jpg/960px-BMW_120_%28F70%29_Leonberg_2024_IMG_1068.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BMW_120_(F70)_Leonberg_2024_IMG_1068.jpg"
+    ancho: 5046
+    alto: 3200
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BMW Serie 1"
+  - id: veh-bmw-serie-3
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/BMW_G20_%282022%29_IMG_7316_%282%29.jpg/960px-BMW_G20_%282022%29_IMG_7316_%282%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BMW_G20_(2022)_IMG_7316_(2).jpg"
+    ancho: 5086
+    alto: 2604
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BMW Serie 3"
+  - id: veh-bmw-x1
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/BMW_U11_1X7A6826.jpg/960px-BMW_U11_1X7A6826.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BMW_U11_1X7A6826.jpg"
+    ancho: 5021
+    alto: 2827
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BMW X1"
+  - id: veh-bmw-x3
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/BMW_G45_20_IMG_3794.jpg/960px-BMW_G45_20_IMG_3794.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BMW_G45_20_IMG_3794.jpg"
+    ancho: 4741
+    alto: 2664
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BMW X3"
+  - id: veh-bmw-x5
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_BMW_X5_M50d_Automatic_3.0.jpg/960px-2019_BMW_X5_M50d_Automatic_3.0.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2019_BMW_X5_M50d_Automatic_3.0.jpg"
+    ancho: 5131
+    alto: 3189
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BMW X5"
+  - id: veh-bmw-z4
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/BMW_G29_Z4_M40i_%28Facelift%29_1X7A6946.jpg/960px-BMW_G29_Z4_M40i_%28Facelift%29_1X7A6946.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BMW_G29_Z4_M40i_(Facelift)_1X7A6946.jpg"
+    ancho: 5820
+    alto: 2871
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BMW Z4"
+  - id: veh-bmw-i4
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/BMW_i4_IMG_6695.jpg/960px-BMW_i4_IMG_6695.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BMW_i4_IMG_6695.jpg"
+    ancho: 4383
+    alto: 2100
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BMW i4"
