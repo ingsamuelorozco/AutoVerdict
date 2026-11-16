@@ -21,7 +21,7 @@ const unPrecio = computed(() => props.m.precio_calle_min === props.m.precio_call
     </RouterLink>
     <div class="flex min-w-0 flex-1 flex-col p-6">
       <p class="etiqueta truncate">{{ m.segmento }} · {{ m.carroceria }}</p>
-      <h3 class="mt-2 truncate text-2xl leading-tight">
+      <h3 class="mt-2 line-clamp-2 text-2xl leading-tight">
         <!-- El enlace cubre toda la tarjeta para que cualquier clic abra el modelo -->
         <RouterLink :to="destino" class="after:absolute after:inset-0 after:content-['']">{{ nombre }}</RouterLink>
       </h3>
