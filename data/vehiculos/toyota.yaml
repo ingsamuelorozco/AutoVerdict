@@ -354,3 +354,63 @@ modelos:
     versiones:
       - {anio: 2026, version: 1.0T CVT, precio_base_cop: 96900000}
       - {anio: 2025, version: 1.0T CVT, precio_base_cop: 92900000, fecha_precio: 2025-02-01, pantalla_multimedia_pulgadas: 7}
+
+  - modelo: Rush
+    generacion: Segunda generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Indonesia
+    fecha_lanzamiento_colombia: 2019-04-01
+    plazas: 7
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 2NR-VE", cilindraje_cc: 1496, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 103, rpm_potencia_max: 6000, torque_nm: 136, rpm_torque_max: 4200, aceleracion_0_100_seg: 14.5, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 4, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Eje rígido con resortes, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "215/65 R16"}
+    dim: {largo_mm: 4435, ancho_sin_espejos_mm: 1695, alto_mm: 1705, distancia_entre_ejes_mm: 2685, distancia_libre_suelo_mm: 220, peso_vacio_kg: 1280, capacidad_baul_litros: 213, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.5}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.6, electrica_electronica: 8.0, quejas_documentadas: 8.4, recalls: 8.2, repuestos_y_red: 8.8, costo_reparaciones: 8.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Rush es una SUV de siete puestos con chasis de tracción trasera, despeje de 220 mm y la mecánica Toyota de bajo mantenimiento, con seis airbags y una reventa muy alta. Aguanta caminos destapados mejor que otras de su precio. A cambio, el 1.5 atmosférico con caja de 4 velocidades es lento, sobre todo en altura y con carga, y la tercera fila es para niños. Mayor riesgo individual: adelantar en carretera con la casa llena. No la recomendamos a quien busca desempeño."
+      para_quien_si: "Familias que necesitan siete puestos, despeje alto y confiabilidad."
+      para_quien_no: "Quien busca potencia o confort de autopista."
+      pros_reales: ["Mecánica Toyota confiable", "Despeje de 220 mm", "Reventa muy alta"]
+      contras:
+        - {componente: "Desempeño", descripcion: "103 hp y caja de 4 velocidades: lenta con carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Tercera fila", descripcion: "Solo para niños.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: G 1.5 AT, precio_base_cop: 109900000}
+      - {anio: 2025, version: G 1.5 AT, precio_base_cop: 106900000, fecha_precio: 2025-03-01}
+
+  - modelo: 4Runner
+    generacion: Sexta generación
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2025-02-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.4 turbo i-Force", cilindraje_cc: 2393, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 278, rpm_potencia_max: 6000, torque_nm: 430, rpm_torque_max: 1700, aceleracion_0_100_seg: 8.0, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido con resortes, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "265/70 R18", profundidad_vadeo_mm: 700, capacidad_remolque_kg: 2700}
+    dim: {largo_mm: 4950, ancho_sin_espejos_mm: 1976, alto_mm: 1859, distancia_entre_ejes_mm: 2850, distancia_libre_suelo_mm: 236, peso_vacio_kg: 2150, capacidad_baul_litros: 1000, capacidad_tanque_galones: 21.6}
+    consumo: {consumo_mixto_kml: 9.5, consumo_real_estimado_kml: 8.0}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 14, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.6, quejas_documentadas: 7.8, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la 4Runner de sexta generación cambia el viejo V6 por un 2.4 turbo de 278 hp y 430 Nm con caja de 8 velocidades, y conserva lo que la hace famosa: chasis de largueros, 4x4 con reductora y una reventa altísima. Gana pantalla grande y ayudas de manejo. Es una generación nueva con un motor turbo sin historial en el país, y su consumo sigue siendo alto. Mayor riesgo individual: la durabilidad a largo plazo del nuevo turbo (opinión editorial). No la recomendamos para uso exclusivamente urbano."
+      para_quien_si: "Quien hace trocha y viaja por carretera y valora la reventa."
+      para_quien_no: "Uso urbano exclusivo o presupuesto de combustible ajustado."
+      pros_reales: ["Chasis de largueros con reductora", "Reventa altísima", "430 Nm de torque"]
+      contras:
+        - {componente: "Motor nuevo", descripcion: "Turbo de cuatro cilindros sin historial local.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Consumo", descripcion: "Alrededor de 8 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: SR5 2.4T 4x4, precio_base_cop: 329900000}
