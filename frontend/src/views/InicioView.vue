@@ -44,11 +44,6 @@ const visibles = computed(() => imagenes.value.filter((i) => !fallidas.value.has
 /** La banda de cierre usa una foto fija distinta a la primera del hero. */
 const fotoCierre = computed(() => visibles.value[visibles.value.length - 1])
 
-const pasos = [
-  { n: 1, t: 'Elige hasta 10 vehículos', d: 'Por marca, modelo, año y versión exacta.' },
-  { n: 2, t: 'Analiza lo que importa', d: 'Ganadores automáticos, dimensiones reales y costo puesto en calle en COP y USD.' },
-  { n: 3, t: 'Lee el veredicto sin filtro', d: 'Fallas conocidas, recalls y para quién no es, antes de pagar.' },
-]
 const herramientas = [
   { to: '/herramientas/credito', icono: Calculator, t: 'Crédito', d: 'Cuota real, intereses y el costo de alargar el plazo.' },
   { to: '/herramientas/seguro', icono: Shield, t: 'Seguro', d: 'SOAT oficial 2026 y rango del todo riesgo.' },
@@ -61,19 +56,6 @@ const herramientas = [
   <LandingHero :versiones="totalVersiones" :marcas="marcas.length || null" />
   <BuscadorRapido :total="totalVersiones" :marcas="marcas" />
   <SeccionCaracteristicas />
-
-  <!-- Cómo funciona: celdas de dato sobre lienzo -->
-  <section class="contenedor seccion" aria-labelledby="como">
-    <p class="etiqueta">El método</p>
-    <h2 id="como" class="titulo-seccion mt-3">Cómo funciona</h2>
-    <ol class="mt-10 grid gap-px border border-linea bg-linea md:grid-cols-3">
-      <li v-for="p in pasos" :key="p.n" class="celda-dato lg:p-10">
-        <span class="text-display-md text-apagado num" aria-hidden="true">0{{ p.n }}</span>
-        <h3 class="mt-6 text-2xl">{{ p.t }}</h3>
-        <p class="mt-3 text-tenue">{{ p.d }}</p>
-      </li>
-    </ol>
-  </section>
 
   <!-- Herramientas: rejilla de tarjetas sobre banda suave -->
   <section class="banda-suave" aria-labelledby="herr">
