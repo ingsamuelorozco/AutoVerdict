@@ -154,8 +154,12 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
             <option v-for="o in conActual(CONSUMOS, filtros.consumo_min)" :key="o" :value="String(o)">{{ o }} km/l o más</option>
           </select>
         </label>
-        <label>Fiabilidad mínima: <strong class="num">{{ filtros.fiabilidad_min || 1 }}</strong>
-          <input v-model="filtros.fiabilidad_min" type="range" min="1" max="10" step="0.5" class="mt-1 w-full" @change="recargar" />
+        <label class="block">
+          <span class="etiqueta mb-2 block !text-tinta">Fiabilidad mínima</span>
+          <select v-model="filtros.fiabilidad_min" class="campo text-sm" @change="recargar">
+            <option value="">Cualquiera</option>
+            <option v-for="o in conActual(FIABILIDADES, filtros.fiabilidad_min)" :key="o" :value="String(o)">{{ o }} de 10 o más</option>
+          </select>
         </label>
         <button class="boton-secundario" @click="router.replace({ query: {} })">Limpiar filtros</button>
       </aside>
