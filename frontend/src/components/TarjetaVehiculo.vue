@@ -30,7 +30,7 @@ const datosClave = computed(() => {
 <template>
   <article :class="['tarjeta group relative flex transition-colors hover:border-tinta', lista ? 'flex-col sm:flex-row' : 'h-full flex-col']">
     <RouterLink :to="`/vehiculo/${v.slug}`" :class="['block shrink-0', lista ? 'sm:w-72' : '']" :aria-label="`Ver ficha de ${nombre} ${v.version}`" tabindex="-1">
-      <ImagenVehiculo :medidas="v" :nombre="nombre" />
+      <ImagenVehiculo :medidas="v" :nombre="nombre" :imagen-id="v.imagen_id" />
     </RouterLink>
     <div class="flex min-w-0 flex-1 flex-col p-6">
       <div class="flex items-start justify-between gap-3">
