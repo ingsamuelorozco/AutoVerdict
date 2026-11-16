@@ -15,6 +15,11 @@
       <stop offset="0" stop-color="#3b4550"/>
       <stop offset="1" stop-color="#11151a"/>
     </linearGradient>
+    <linearGradient id="techo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b333b"/>
+      <stop offset=".5" stop-color="#0f1216"/>
+      <stop offset="1" stop-color="#1e252c"/>
+    </linearGradient>
   </defs>
 
   <rect x="22" y="22" width="156" height="410" rx="60" fill="#000" opacity=".35" filter="url(#sombra)"/>
@@ -39,4 +44,12 @@
 
   <ellipse cx="11" cy="170" rx="9" ry="6" fill="#d6dade" stroke="#8d939a"/>
   <ellipse cx="189" cy="170" rx="9" ry="6" fill="#d6dade" stroke="#8d939a"/>
+
+  <rect x="36" y="186" width="128" height="148" rx="22" fill="#e9ecee"/>
+  <rect x="48" y="194" width="104" height="132" rx="16" fill="url(#techo)"/>
+  <g stroke="#3a434c" stroke-width="1.5" fill="none">
+    <rect x="60" y="206" width="80" height="50" rx="6"/>
+    <rect x="60" y="264" width="80" height="50" rx="6"/>
+  </g>
+  <path fill="#fff" opacity=".12" d="M54 200L96 200 60 320 54 320Z"/>
 </svg>
