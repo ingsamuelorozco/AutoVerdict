@@ -20,6 +20,7 @@ export const T = {
   ],
   navCorto: {
     inicio: 'Inicio',
+    vehiculos: 'Vehículos',
     actualizados: 'Actualizados',
     buscar: 'Buscar',
     comparador: 'Comparador',
