@@ -27,3 +27,11 @@ Rediseño de la parte superior de la portada a partir de una referencia de dise�
 4. Sección de características: seis ítems alrededor de un auto visto desde arriba.
 
 El resto de la portada (método, calculadoras, actualizados, alertas rojas y cierre) se mantiene.
+
+## Contenido
+
+- Menú: Inicio, Actualizados, Buscar, Comparador, Reviews y Herramientas (el desplegable lista las cinco calculadoras).
+- Derecha de la barra: ajustes regionales (moneda, TRM y ciudad), favoritos y el botón Comparar a toda la altura.
+- Hero: titular "Precio & verdad", sublema del sitio y conteo real del catálogo.
+- Buscador: carrocería, marca y ciudad reales; rango de precio en calle en COP; lleva a `/buscar` con los filtros.
+- Características: seis funciones reales del producto.
