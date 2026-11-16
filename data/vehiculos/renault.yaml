@@ -33,6 +33,13 @@ modelos:
       - {anio: 2026, version: Zen 1.0 MT, precio_base_cop: 52900000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: Ninguno}
       - {anio: 2026, version: Intens 1.0 MT, precio_base_cop: 57900000, camara_reversa: true}
       - {anio: 2026, version: Outsider 1.0 MT, precio_base_cop: 59900000, camara_reversa: true, distancia_libre_suelo_mm: 184}
+      - {anio: 2018, version: "Zen 1.0 MT", precio_base_cop: 28100000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: "Ninguno"}
+      - {anio: 2019, version: "Zen 1.0 MT", precio_base_cop: 30000000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: "Ninguno"}
+      - {anio: 2020, version: "Zen 1.0 MT", precio_base_cop: 32100000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: "Ninguno"}
+      - {anio: 2021, version: "Zen 1.0 MT", precio_base_cop: 34400000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: "Ninguno"}
+      - {anio: 2022, version: "Zen 1.0 MT", precio_base_cop: 36800000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: "Ninguno"}
+      - {anio: 2023, version: "Zen 1.0 MT", precio_base_cop: 39300000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: "Ninguno"}
+      - {anio: 2024, version: "Zen 1.0 MT", precio_base_cop: 42000000, pantalla_multimedia_pulgadas: null, apple_carplay_android_auto: "No", sensores_parqueo: "Ninguno"}
 
   - modelo: Kwid E-Tech
     imagen_id: veh-renault-kwid-e-tech
@@ -65,6 +72,8 @@ modelos:
         - {componente: "Carga rápida", descripcion: "Solo 30 kW en DC.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: E-Tech Intens, precio_base_cop: 89900000, fecha_precio: 2025-05-01}
+      - {anio: 2023, version: "E-Tech Intens", precio_base_cop: 67100000}
+      - {anio: 2024, version: "E-Tech Intens", precio_base_cop: 73700000}
 
   - modelo: Sandero
     imagen_id: veh-renault-sandero
@@ -96,6 +105,15 @@ modelos:
     versiones:
       - {anio: 2026, version: Life 1.6 MT, precio_base_cop: 66900000}
       - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 78900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], camara_reversa: true, aire_acondicionado: Automático}
+      - {anio: 2016, version: "Life 1.6 MT", precio_base_cop: 31100000}
+      - {anio: 2017, version: "Life 1.6 MT", precio_base_cop: 33200000}
+      - {anio: 2018, version: "Life 1.6 MT", precio_base_cop: 35500000}
+      - {anio: 2019, version: "Life 1.6 MT", precio_base_cop: 38000000}
+      - {anio: 2020, version: "Life 1.6 MT", precio_base_cop: 40600000}
+      - {anio: 2021, version: "Life 1.6 MT", precio_base_cop: 43500000}
+      - {anio: 2022, version: "Life 1.6 MT", precio_base_cop: 46500000}
+      - {anio: 2023, version: "Life 1.6 MT", precio_base_cop: 49700000}
+      - {anio: 2024, version: "Life 1.6 MT", precio_base_cop: 53200000}
 
   - modelo: Stepway
     imagen_id: veh-renault-stepway
@@ -127,6 +145,15 @@ modelos:
     versiones:
       - {anio: 2026, version: Zen 1.6 MT, precio_base_cop: 72900000}
       - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 84900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], aire_acondicionado: Automático}
+      - {anio: 2016, version: "Zen 1.6 MT", precio_base_cop: 33800000}
+      - {anio: 2017, version: "Zen 1.6 MT", precio_base_cop: 36200000}
+      - {anio: 2018, version: "Zen 1.6 MT", precio_base_cop: 38700000}
+      - {anio: 2019, version: "Zen 1.6 MT", precio_base_cop: 41400000}
+      - {anio: 2020, version: "Zen 1.6 MT", precio_base_cop: 44300000}
+      - {anio: 2021, version: "Zen 1.6 MT", precio_base_cop: 47400000}
+      - {anio: 2022, version: "Zen 1.6 MT", precio_base_cop: 50700000}
+      - {anio: 2023, version: "Zen 1.6 MT", precio_base_cop: 54200000}
+      - {anio: 2024, version: "Zen 1.6 MT", precio_base_cop: 57900000}
 
   - modelo: Logan
     imagen_id: veh-renault-logan
@@ -158,6 +185,15 @@ modelos:
     versiones:
       - {anio: 2026, version: Life 1.6 MT, precio_base_cop: 68900000}
       - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 80900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], camara_reversa: true, aire_acondicionado: Automático}
+      - {anio: 2016, version: "Life 1.6 MT", precio_base_cop: 32000000}
+      - {anio: 2017, version: "Life 1.6 MT", precio_base_cop: 34200000}
+      - {anio: 2018, version: "Life 1.6 MT", precio_base_cop: 36600000}
+      - {anio: 2019, version: "Life 1.6 MT", precio_base_cop: 39100000}
+      - {anio: 2020, version: "Life 1.6 MT", precio_base_cop: 41900000}
+      - {anio: 2021, version: "Life 1.6 MT", precio_base_cop: 44800000}
+      - {anio: 2022, version: "Life 1.6 MT", precio_base_cop: 47900000}
+      - {anio: 2023, version: "Life 1.6 MT", precio_base_cop: 51200000}
+      - {anio: 2024, version: "Life 1.6 MT", precio_base_cop: 54800000}
 
   - modelo: Duster
     imagen_id: veh-renault-duster
@@ -190,6 +226,9 @@ modelos:
       - {anio: 2026, version: Intens 1.3T CVT 4x2, precio_base_cop: 112900000, patrones: [jatco_cvt]}
       - {anio: 2026, version: Iconic 1.3T MT 4x4, precio_base_cop: 119900000, transmision_tipo: Manual, numero_velocidades: 6, traccion: 4x4, suspension_trasera: Multibrazo, tapiceria: Cuero sintético, peso_vacio_kg: 1390, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.8, adas_incluidas: [Monitoreo de punto ciego, Cámara 360]}
       - {anio: 2024, version: Intens 1.3T CVT 4x2, precio_base_cop: 104900000, fecha_precio: 2024-03-01, patrones: [jatco_cvt]}
+      - {anio: 2021, version: "Intens 1.3T CVT 4x2", precio_base_cop: 73300000, patrones: ["jatco_cvt"]}
+      - {anio: 2022, version: "Intens 1.3T CVT 4x2", precio_base_cop: 78400000, patrones: ["jatco_cvt"]}
+      - {anio: 2023, version: "Intens 1.3T CVT 4x2", precio_base_cop: 83900000, patrones: ["jatco_cvt"]}
 
   - modelo: Kardian
     imagen_id: veh-renault-kardian
@@ -221,6 +260,7 @@ modelos:
     versiones:
       - {anio: 2026, version: Evolution 1.0T EDC, precio_base_cop: 94900000}
       - {anio: 2026, version: Iconic 1.0T EDC, precio_base_cop: 104900000, tapiceria: Cuero sintético, carga_inalambrica: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+      - {anio: 2024, version: "Evolution 1.0T EDC", precio_base_cop: 75400000}
 
   - modelo: Arkana
     imagen_id: veh-renault-arkana
@@ -251,6 +291,8 @@ modelos:
         - {componente: "Reventa", descripcion: "Volumen de ventas bajo en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: Intens MHEV EDC, precio_base_cop: 139900000, fecha_precio: 2025-04-01}
+      - {anio: 2023, version: "Intens MHEV EDC", precio_base_cop: 104400000}
+      - {anio: 2024, version: "Intens MHEV EDC", precio_base_cop: 114700000}
 
   - modelo: Koleos
     imagen_id: veh-renault-koleos
@@ -282,6 +324,13 @@ modelos:
         - {componente: "Consumo", descripcion: "Cerca de 9,6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2024, version: Iconic 2.5 CVT 4x4, precio_base_cop: 159900000, fecha_precio: 2024-01-01}
+      - {anio: 2017, version: "Iconic 2.5 CVT 4x4", precio_base_cop: 71800000}
+      - {anio: 2018, version: "Iconic 2.5 CVT 4x4", precio_base_cop: 78900000}
+      - {anio: 2019, version: "Iconic 2.5 CVT 4x4", precio_base_cop: 86700000}
+      - {anio: 2020, version: "Iconic 2.5 CVT 4x4", precio_base_cop: 95300000}
+      - {anio: 2021, version: "Iconic 2.5 CVT 4x4", precio_base_cop: 104700000}
+      - {anio: 2022, version: "Iconic 2.5 CVT 4x4", precio_base_cop: 115100000}
+      - {anio: 2023, version: "Iconic 2.5 CVT 4x4", precio_base_cop: 126500000}
 
   - modelo: Oroch
     imagen_id: veh-renault-oroch
@@ -313,6 +362,15 @@ modelos:
     versiones:
       - {anio: 2026, version: Zen 1.6 MT, precio_base_cop: 92900000}
       - {anio: 2026, version: Intens 1.3T CVT, precio_base_cop: 112900000, motor_descripcion: "1.3 TCe turbo", cilindraje_cc: 1332, alimentacion: Turbo, potencia_hp: 154, torque_nm: 250, rpm_torque_max: 1700, aceleracion_0_100_seg: 10.5, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], consumo_mixto_kml: 12.8, consumo_real_estimado_kml: 10.6, aire_acondicionado: Automático, tapiceria: Cuero sintético}
+      - {anio: 2016, version: "Zen 1.6 MT", precio_base_cop: 43100000}
+      - {anio: 2017, version: "Zen 1.6 MT", precio_base_cop: 46100000}
+      - {anio: 2018, version: "Zen 1.6 MT", precio_base_cop: 49300000}
+      - {anio: 2019, version: "Zen 1.6 MT", precio_base_cop: 52800000}
+      - {anio: 2020, version: "Zen 1.6 MT", precio_base_cop: 56400000}
+      - {anio: 2021, version: "Zen 1.6 MT", precio_base_cop: 60400000}
+      - {anio: 2022, version: "Zen 1.6 MT", precio_base_cop: 64500000}
+      - {anio: 2023, version: "Zen 1.6 MT", precio_base_cop: 69000000}
+      - {anio: 2024, version: "Zen 1.6 MT", precio_base_cop: 73800000}
 
   - modelo: Alaskan
     imagen_id: veh-renault-alaskan
@@ -344,6 +402,11 @@ modelos:
     versiones:
       - {anio: 2025, version: Intens 2.3 dCi MT 4x4, precio_base_cop: 159900000, fecha_precio: 2025-02-01, motor_descripcion: "2.3 dCi turbo", potencia_hp: 160, torque_nm: 403, transmision_tipo: Manual, numero_velocidades: 6, tapiceria: Tela, aire_acondicionado: Manual}
       - {anio: 2025, version: Iconic 2.3 dCi AT 4x4, precio_base_cop: 179900000, fecha_precio: 2025-02-01}
+      - {anio: 2020, version: "Intens 2.3 dCi MT 4x4", precio_base_cop: 89900000, motor_descripcion: "2.3 dCi turbo", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, tapiceria: "Tela", aire_acondicionado: "Manual"}
+      - {anio: 2021, version: "Intens 2.3 dCi MT 4x4", precio_base_cop: 98800000, motor_descripcion: "2.3 dCi turbo", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, tapiceria: "Tela", aire_acondicionado: "Manual"}
+      - {anio: 2022, version: "Intens 2.3 dCi MT 4x4", precio_base_cop: 108600000, motor_descripcion: "2.3 dCi turbo", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, tapiceria: "Tela", aire_acondicionado: "Manual"}
+      - {anio: 2023, version: "Intens 2.3 dCi MT 4x4", precio_base_cop: 119300000, motor_descripcion: "2.3 dCi turbo", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, tapiceria: "Tela", aire_acondicionado: "Manual"}
+      - {anio: 2024, version: "Intens 2.3 dCi MT 4x4", precio_base_cop: 131100000, motor_descripcion: "2.3 dCi turbo", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, tapiceria: "Tela", aire_acondicionado: "Manual"}
 
   - modelo: Megane E-Tech
     imagen_id: veh-renault-megane-e-tech
@@ -375,6 +438,8 @@ modelos:
         - {componente: "Llantas de 20 pulgadas", descripcion: "Costosas y vulnerables a huecos.", km_tipico: "Variable", costo_reparacion_cop_aprox: 2400000, severidad: Baja}
     versiones:
       - {anio: 2025, version: Iconic EV60, precio_base_cop: 199900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "Iconic EV60", precio_base_cop: 149100000}
+      - {anio: 2024, version: "Iconic EV60", precio_base_cop: 163900000}
 
   - modelo: Captur
     imagen_id: veh-renault-captur
@@ -407,3 +472,9 @@ modelos:
     versiones:
       - {anio: 2023, version: Intens 2.0 MT, precio_base_cop: 89900000, fecha_precio: 2023-03-01}
       - {anio: 2021, version: Zen 2.0 MT, precio_base_cop: 76900000, fecha_precio: 2021-03-01}
+      - {anio: 2017, version: "Intens 2.0 MT", precio_base_cop: 53200000}
+      - {anio: 2018, version: "Intens 2.0 MT", precio_base_cop: 56900000}
+      - {anio: 2019, version: "Intens 2.0 MT", precio_base_cop: 60800000}
+      - {anio: 2020, version: "Intens 2.0 MT", precio_base_cop: 65000000}
+      - {anio: 2022, version: "Intens 2.0 MT", precio_base_cop: 74400000}
+      - {anio: 2024, version: "Intens 2.0 MT", precio_base_cop: 85100000}
