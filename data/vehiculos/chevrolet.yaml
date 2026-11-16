@@ -326,6 +326,7 @@ modelos:
       - {anio: 2023, version: SS 6.2 V8 AT, precio_base_cop: 329900000, fecha_precio: 2023-01-01}
 
   - modelo: Groove
+    imagen_id: veh-chevrolet-groove
     generacion: Primera generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -387,6 +388,7 @@ modelos:
       - {anio: 2021, version: LS 1.2 MT, precio_base_cop: 42900000, fecha_precio: 2021-03-01}
 
   - modelo: Tahoe
+    imagen_id: veh-chevrolet-tahoe
     generacion: Quinta generación
     segmento: SUV Grande
     carroceria: SUV

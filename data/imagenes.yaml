@@ -2045,3 +2045,27 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Virtus"
+  - id: veh-chevrolet-groove
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Chevrolet_Groove_1.5_Premier_2022.jpg/960px-Chevrolet_Groove_1.5_Premier_2022.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Chevrolet_Groove_1.5_Premier_2022.jpg"
+    ancho: 3200
+    alto: 2000
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Groove"
+  - id: veh-chevrolet-tahoe
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/2022_Chevrolet_Tahoe_RST%2C_front_3.7.22.jpg/960px-2022_Chevrolet_Tahoe_RST%2C_front_3.7.22.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Tahoe_RST,_front_3.7.22.jpg"
+    ancho: 4287
+    alto: 2613
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Tahoe"
