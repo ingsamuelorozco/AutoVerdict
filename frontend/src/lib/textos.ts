@@ -33,7 +33,7 @@ export const T = {
       titulo: 'verdad',
       boton: 'Comparar ahora',
       datoTitulo: 'Catálogo 2018 – 2026',
-      autoAlt: 'Ilustración de un coupé blanco visto de perfil',
+      autoAlt: 'BMW M2 blanco visto de tres cuartos frontal',
       hotspots: ['Siluetas a escala real', 'Fallas con dos o más fuentes'],
     },
     buscador: {

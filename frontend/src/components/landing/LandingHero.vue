@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import fondo from '@/assets/images/hero-bg-city.jpg'
-import auto from '@/assets/images/hero-car.svg'
+import auto from '@/assets/images/hero-car.png'
 import HeroHotspot from '@/components/landing/HeroHotspot.vue'
 import { useHead } from '@unhead/vue'
 import { T } from '@/lib/textos'
@@ -26,7 +26,7 @@ useHead({ link: [{ rel: 'preload', as: 'image', href: fondo }] })
       </div>
     </div>
     <div class="absolute bottom-0 right-[3%] z-10 w-[92%] max-w-[940px] sm:w-[72%] lg:w-[52%] translate-y-[7%]">
-      <img :src="auto" :alt="T.landing.hero.autoAlt" class="block w-full" width="1000" height="450" decoding="async" />
+      <img :src="auto" :alt="T.landing.hero.autoAlt" class="block w-full drop-shadow-[0_24px_24px_rgb(0_0_0/0.55)]" width="1400" height="632" decoding="async" />
       <HeroHotspot class="left-[58%] top-[38%]" :texto="T.landing.hero.hotspots[0]" />
       <HeroHotspot class="left-[22.5%] top-[92%]" :texto="T.landing.hero.hotspots[1]" />
     </div>
