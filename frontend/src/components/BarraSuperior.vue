@@ -27,6 +27,7 @@ function cambiarTrm(e: Event) {
   aj.fijarTrm(Number.isFinite(v) && v > 0 ? v : null)
 }
 const principales = [
+  { to: '/', texto: T.navCorto.inicio },
   { to: '/actualizados', texto: T.nav.actualizados },
   { to: '/buscar', texto: T.nav.buscar },
   { to: '/comparador', texto: T.nav.comparador },
