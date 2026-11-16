@@ -129,6 +129,7 @@
   .boton-acento { @apply boton border-acento bg-acento text-white hover:border-acento-hondo hover:bg-acento-hondo; }
   /* Barra superior: enlaces de 12,5 px en mayúsculas con signo "+" al final. */
   .enlace-barra { @apply relative inline-flex h-full items-center whitespace-nowrap text-[12.5px] font-bold uppercase tracking-[0.6px] text-tinta transition-colors; }
+  .enlace-barra:hover, .enlace-barra-activo { @apply text-acento-texto; }
 }
 
 @media (prefers-reduced-motion: reduce) {
