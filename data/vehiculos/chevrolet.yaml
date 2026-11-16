@@ -607,7 +607,7 @@ modelos:
       - {anio: 2005, version: "Emotion GT 1.6 AT", precio_base_cop: 13600000}
 
   - modelo: "Spark"
-    generacion: "M200 / M300 (Spark y Spark Life)"
+    generacion: "M200 (Spark y Spark Life)"
     segmento: Hatchback A
     carroceria: Hatchback
     pais_origen: Corea del Sur
