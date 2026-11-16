@@ -57,7 +57,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
             <span class="text-acento-texto num">{{ aj.moneda }} · TRM {{ formatoNumero(aj.trm) }}</span>
             <span>{{ ciudadNombre || 'Ajustes' }}</span>
           </button>
-          <div v-if="ajustesAbierto" class="absolute right-0 top-full grid w-80 gap-5 border border-t-0 border-linea bg-papel p-6" role="dialog" aria-label="Ajustes regionales">
+          <div v-if="ajustesAbierto" class="absolute right-0 top-full grid w-80 gap-5 border border-t-0 border-linea bg-papel p-6 shadow-menu" role="dialog" aria-label="Ajustes regionales">
             <div>
               <p class="etiqueta">Moneda</p>
               <div class="mt-2 flex border border-linea" role="group" aria-label="Moneda">
