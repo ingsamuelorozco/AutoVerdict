@@ -49,7 +49,7 @@ function teclaPanel(e: KeyboardEvent) {
     </button>
     <ul v-show="abierto" :id="id" ref="panel" class="sobre-claro absolute left-0 top-[calc(100%-10px)] z-50 min-w-[150px] bg-papel py-2.5 shadow-menu" role="menu" :aria-label="etiqueta" @keydown="teclaPanel">
       <li v-for="o in opciones" :key="o.to" role="none">
-        <RouterLink :to="o.to" role="menuitem" tabindex="-1" class="flex items-center justify-between gap-6 whitespace-nowrap px-[18px] py-2 text-[13px] font-normal text-cuerpo transition-colors hover:text-acento-texto" active-class="text-acento-texto" @click="cerrar">
+        <RouterLink :to="o.to" role="menuitem" tabindex="-1" class="flex items-center justify-between gap-6 whitespace-nowrap px-[18px] py-2 text-[13px] font-normal text-cuerpo transition-colors hover:text-acento-texto focus-visible:text-acento-texto focus-visible:ring-inset focus-visible:ring-offset-0" active-class="text-acento-texto" @click="cerrar">
           <span>{{ o.texto }}</span>
           <ChevronRight class="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
         </RouterLink>
