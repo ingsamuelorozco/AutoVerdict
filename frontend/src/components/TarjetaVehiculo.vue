@@ -7,6 +7,7 @@ import { useComparador } from '@/stores/comparador'
 import { useFavoritos } from '@/stores/favoritos'
 import { T } from '@/lib/textos'
 import type { Tarjeta } from '@/lib/tipos'
+import { esUsado } from '@/lib/usado'
 
 const props = defineProps<{ v: Tarjeta; lista?: boolean }>()
 const f = useFormato()
@@ -52,9 +53,9 @@ const datosClave = computed(() => {
       </div>
 
       <div class="mt-5 num">
-        <p class="etiqueta">En calle</p>
+        <p class="etiqueta">{{ esUsado(v.anio, v.fecha_precio) ? 'Usado con trámites' : 'En calle' }}</p>
         <p class="mt-1 text-2xl font-bold leading-tight text-tinta">{{ f.dinero(v.precio_total_en_calle_cop) }}</p>
-        <p class="mt-1 text-sm text-tenue">Base {{ f.dinero(v.precio_base_cop) }}</p>
+        <p class="mt-1 text-sm text-tenue">{{ esUsado(v.anio, v.fecha_precio) ? 'Valor usado estimado' : 'Base' }} {{ f.dinero(v.precio_base_cop) }}</p>
       </div>
 
       <dl class="mt-5 grid grid-cols-3 gap-4 border-t border-linea pt-4">

@@ -36,6 +36,7 @@ export interface Tarjeta {
   indice_rompemuelle_etiqueta: string
   puntaje_autoverdict_base: number | null
   pais_origen: string
+  fecha_precio: string
 }
 
 export interface Alerta {

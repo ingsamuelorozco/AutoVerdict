@@ -29,7 +29,7 @@ export const T = {
   },
   landing: {
     hero: {
-      datoTitulo: 'Catálogo 2018 – 2026',
+      datoTitulo: 'Catálogo 2000 – 2026',
     },
     buscador: {
       titulo: 'Encuentra tu carro',

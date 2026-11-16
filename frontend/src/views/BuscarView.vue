@@ -28,7 +28,7 @@ onMounted(() => catalogo.cargar())
 const MULTI = ['marca', 'segmento', 'carroceria', 'combustible', 'transmision', 'traccion', 'adas', 'pais'] as const
 const SIMPLE = ['q', 'precio_min', 'precio_max', 'anio_min', 'anio_max', 'plazas', 'despeje_min', 'baul_min', 'consumo_min', 'fiabilidad_min', 'sort', 'page'] as const
 const ETIQUETAS: Record<(typeof MULTI)[number], string> = { marca: 'Marca', carroceria: 'Carrocería', segmento: 'Segmento', combustible: 'Combustible', transmision: 'Transmisión', traccion: 'Tracción', adas: 'ADAS incluidas', pais: 'País de origen' }
-const ANIOS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+const ANIOS = Array.from({ length: 2026 - 2000 + 1 }, (_, i) => 2000 + i)
 const PLAZAS = [2, 4, 5, 7, 8]
 const DESPEJES = [150, 170, 190, 210, 230]
 const BAULES = [300, 400, 500, 600, 800]

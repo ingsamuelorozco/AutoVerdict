@@ -109,7 +109,7 @@ async function compartir() {
             <h1 class="titulo-pagina">{{ d.marca }} {{ d.modelo }} <span class="text-tenue">{{ d.anio }}</span></h1>
             <p class="-mt-2 text-xl text-tenue">{{ d.version }}</p>
             <dl class="grid gap-px border border-linea bg-linea sm:grid-cols-2">
-              <div class="celda-dato"><dt class="etiqueta">Precio base</dt><dd class="mt-2 text-2xl num">{{ f.dinero(d.cabecera.precio_base_cop) }}<BadgeEstimado /></dd><dd class="text-xs text-tenue num">{{ f.dineroSecundario(d.cabecera.precio_base_cop) }} · {{ f.fecha(d.cabecera.fecha_precio) }}</dd></div>
+              <div class="celda-dato"><dt class="etiqueta">{{ d.precio.puesta_en_calle.usado ? 'Valor usado estimado (hoy)' : 'Precio base' }}</dt><dd class="mt-2 text-2xl num">{{ f.dinero(d.cabecera.precio_base_cop) }}<BadgeEstimado /></dd><dd class="text-xs text-tenue num">{{ f.dineroSecundario(d.cabecera.precio_base_cop) }} · {{ f.fecha(d.cabecera.fecha_precio) }}</dd></div>
               <div class="celda-dato"><dt class="etiqueta">Total puesto en calle ({{ d.ciudad.nombre }})</dt><dd class="cifra mt-2">{{ f.dinero(d.precio.puesta_en_calle.total_cop) }}</dd></div>
             </dl>
             <div class="flex flex-wrap gap-3">
@@ -249,7 +249,7 @@ async function compartir() {
                   <tr class="border-t border-tinta text-base text-tinta"><td class="pt-3 font-bold">{{ d.precio.puesta_en_calle.etiqueta_total }}</td><td class="pt-3 text-right font-bold">{{ f.dinero(d.precio.puesta_en_calle.total_cop) }}</td></tr>
                 </tbody>
               </table>
-              <p class="mt-2 text-xs text-tenue">SOAT: tarifas {{ d.precio.puesta_en_calle.soat.vigencia }} (Superfinanciera). Precio de vitrina {{ f.fecha(d.cabecera.fecha_precio) }}; TRM de referencia {{ f.numero(d.cabecera.trm_referencia, 2) }}.</p>
+              <p class="mt-2 text-xs text-tenue">SOAT: tarifas {{ d.precio.puesta_en_calle.soat.vigencia }} (Superfinanciera). {{ d.precio.puesta_en_calle.usado ? `Valor de usado estimado a ${f.fecha(d.cabecera.fecha_precio)}: no incluye alistamiento de concesionario y el SOAT usa la tarifa por antigüedad` : `Precio de vitrina ${f.fecha(d.cabecera.fecha_precio)}` }}; TRM de referencia {{ f.numero(d.cabecera.trm_referencia, 2) }}.</p>
             </div>
             <div class="tarjeta p-6">
               <h3 class="text-xl">Simulador de crédito</h3>
