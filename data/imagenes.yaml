@@ -2153,3 +2153,39 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del GWM Poer"
+  - id: veh-jac-js2
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/JAC_Refine_S2_01_China_2016-04-03.jpg/960px-JAC_Refine_S2_01_China_2016-04-03.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Navigator84"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:JAC_Refine_S2_01_China_2016-04-03.jpg"
+    ancho: 1300
+    alto: 829
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del JAC JS2"
+  - id: veh-jac-js4
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/2021_JAC_JS4_1.6_Comfort.jpg/960px-2021_JAC_JS4_1.6_Comfort.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_JAC_JS4_1.6_Comfort.jpg"
+    ancho: 4000
+    alto: 2250
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del JAC JS4"
+  - id: veh-jac-t8
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/JAC_Frison.jpg/960px-JAC_Frison.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Jason Lawrence"
+    licencia: "CC BY 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:JAC_Frison.jpg"
+    ancho: 5184
+    alto: 3888
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del JAC T8"

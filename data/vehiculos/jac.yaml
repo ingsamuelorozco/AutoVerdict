@@ -3,6 +3,7 @@ pais_origen: China
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: JS2
+    imagen_id: veh-jac-js2
     generacion: Primera generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -36,6 +37,7 @@ modelos:
       - {anio: 2025, version: Comfort 1.5 MT, precio_base_cop: 67900000, fecha_precio: 2025-03-01}
 
   - modelo: JS4
+    imagen_id: veh-jac-js4
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -69,6 +71,7 @@ modelos:
       - {anio: 2025, version: Luxury 1.5T CVT, precio_base_cop: 97900000, fecha_precio: 2025-03-01, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true}
 
   - modelo: T8
+    imagen_id: veh-jac-t8
     generacion: Primera generación (Pro)
     segmento: Pickup Mediana
     carroceria: Pickup
