@@ -66,6 +66,10 @@ docs/               PLAN.md, METODOLOGIA.md, FUENTES.md
 
 Metodología completa en [docs/METODOLOGIA.md](docs/METODOLOGIA.md) y fuentes en [docs/FUENTES.md](docs/FUENTES.md). Para contribuir, lee [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Portada
+
+La barra superior, el hero, el buscador rápido y la sección de características se describen en [docs/LANDING.md](docs/LANDING.md). Los créditos de las imágenes están en [CREDITS.md](CREDITS.md).
+
 ## Aviso
 
 Precios referenciales y sujetos a cambio. **No es una cotización ni asesoría financiera.** Las fichas técnicas y los precios de vitrina de la versión 1.0 están marcados como *estimados* hasta contrastarlos con la ficha oficial vigente. Las reviews son opinión editorial basada en fuentes públicas citadas, no un diagnóstico mecánico de un vehículo en particular.
