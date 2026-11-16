@@ -377,6 +377,7 @@ modelos:
       - {anio: 2025, version: Iconic EV60, precio_base_cop: 199900000, fecha_precio: 2025-03-01}
 
   - modelo: Captur
+    imagen_id: veh-renault-captur
     generacion: Primera generación (versión Latinoamérica)
     segmento: SUV Subcompacta
     carroceria: SUV

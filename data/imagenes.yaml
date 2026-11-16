@@ -2429,3 +2429,15 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del RAM 1500"
+  - id: veh-renault-captur
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Renault_Captur_2.0_Intens_2017.jpg/960px-Renault_Captur_2.0_Intens_2017.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_Captur_2.0_Intens_2017.jpg"
+    ancho: 4832
+    alto: 2720
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Captur"
