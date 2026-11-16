@@ -29,7 +29,6 @@ export const T = {
   },
   landing: {
     hero: {
-      boton: 'Comparar ahora',
       datoTitulo: 'Catálogo 2018 – 2026',
     },
     buscador: {

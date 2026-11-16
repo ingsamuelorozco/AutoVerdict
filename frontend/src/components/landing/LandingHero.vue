@@ -79,42 +79,43 @@ watch(() => aj.ciudad, () => cargarFicha(auto.value))
 </script>
 
 <template>
-  <section class="sobre-foto relative isolate flex min-h-[max(600px,calc(100svh-57px))] overflow-hidden nav:min-h-[max(600px,100svh)] bg-velo" aria-labelledby="hero-titulo">
+  <section class="sobre-foto relative isolate flex min-h-[calc(100svh-57px)] items-center overflow-hidden bg-velo nav:min-h-svh" aria-labelledby="hero-titulo">
     <img :src="fondo" alt="" class="absolute inset-0 -z-20 h-full w-full object-cover grayscale" width="1600" height="1193" fetchpriority="high" decoding="async" />
     <div class="absolute inset-0 -z-10 bg-velo/[0.88]" aria-hidden="true" />
-    <div class="relative mx-auto flex w-full max-w-landing flex-col items-start justify-center px-[15px] pb-[96vw] pt-barra sm:pb-[34vw] lg:flex-row lg:pb-0 lg:items-center lg:justify-start">
-      <div class="relative z-20 pt-10 lg:pl-[145px] lg:pt-16">
-        <h1 id="hero-titulo" class="whitespace-nowrap text-[44px] leading-[0.95] sm:text-[56px] lg:text-[64px] tracking-[-1px] text-tinta">
+
+    <!-- Dos columnas en flujo normal: el texto y el auto nunca se enciman, sea cual sea el alto de la pantalla -->
+    <div class="relative mx-auto grid w-full max-w-[1400px] items-center gap-10 px-4 pb-[120px] pt-[calc(72px+24px)] sm:px-6 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.45fr)] lg:gap-8 lg:px-10 lg:pb-[150px] xl:pl-[110px]">
+      <div class="relative z-20">
+        <h1 id="hero-titulo" class="whitespace-nowrap text-[44px] leading-[0.95] tracking-[-1px] text-tinta sm:text-[56px] lg:text-[64px]">
           <Transition mode="out-in" enter-active-class="transition duration-500 ease-out" leave-active-class="transition duration-300 ease-in" enter-from-class="translate-y-3 opacity-0" leave-to-class="-translate-y-3 opacity-0">
             <span :key="auto.slug" class="block"><span class="block text-acento-texto">{{ auto.pregunta[0] }}</span> <span class="block">{{ auto.pregunta[1] }}</span></span>
           </Transition>
         </h1>
-        <p class="mt-6 max-w-[310px] text-[15px] font-normal leading-[1.6] text-tinta">{{ T.sublema }}</p>
-        <RouterLink to="/comparador" class="boton-acento mt-9 px-7">{{ T.landing.hero.boton }}</RouterLink>
+        <p class="mt-6 max-w-[320px] text-[15px] font-normal leading-[1.6] text-tinta">{{ T.sublema }}</p>
+        <div class="mt-8 border-l-2 border-acento pl-4">
+          <p class="text-sm font-bold uppercase tracking-[1px] text-acento-texto">{{ T.landing.hero.datoTitulo }}</p>
+          <p class="mt-2 text-sm font-bold text-tinta"><span class="num">{{ versiones ?? '—' }}</span> versiones · <span class="num">{{ marcas ?? '—' }}</span> marcas</p>
+        </div>
       </div>
-      <div class="relative z-20 mt-10 lg:absolute lg:right-[140px] lg:top-[22%] lg:mt-0 lg:text-right">
-        <p class="text-base font-bold uppercase tracking-[1px] text-acento-texto">{{ T.landing.hero.datoTitulo }}</p>
-        <p class="mt-3 text-sm font-bold text-tinta"><span class="num">{{ versiones ?? '—' }}</span> versiones · <span class="num">{{ marcas ?? '—' }}</span> marcas</p>
-      </div>
-    </div>
 
-    <div class="absolute bottom-[112px] right-[3%] sm:bottom-[16%] z-10 w-[92%] max-w-[820px] sm:w-[72%] lg:bottom-[19%] lg:right-[2%] lg:w-[40%]">
-      <Transition mode="out-in" enter-active-class="transition duration-500 ease-out" leave-active-class="transition duration-300 ease-in" enter-from-class="translate-x-8 opacity-0" leave-to-class="-translate-x-8 opacity-0">
-        <div :key="auto.slug" class="relative">
-          <img :src="auto.imagen" :alt="auto.alt" class="block w-full drop-shadow-[0_24px_24px_rgb(0_0_0/0.55)]" width="1400" :height="auto.alto" decoding="async" />
-          <HeroHotspot v-for="p in puntos" :key="p.clave" :x="p.xy[0]" :y="p.xy[1]" :titulo="p.titulo" :texto="p.texto" />
+      <div class="relative z-10">
+        <Transition mode="out-in" enter-active-class="transition duration-500 ease-out" leave-active-class="transition duration-300 ease-in" enter-from-class="translate-x-8 opacity-0" leave-to-class="-translate-x-8 opacity-0">
+          <div :key="auto.slug" class="relative">
+            <img :src="auto.imagen" :alt="auto.alt" class="block w-full drop-shadow-[0_24px_24px_rgb(0_0_0/0.55)]" width="1400" :height="auto.alto" decoding="async" />
+            <HeroHotspot v-for="p in puntos" :key="p.clave" :x="p.xy[0]" :y="p.xy[1]" :titulo="p.titulo" :texto="p.texto" />
+          </div>
+        </Transition>
+        <!-- Nombre del auto, enlace a su ficha y selector manual -->
+        <div class="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <RouterLink :to="`/vehiculo/${auto.slug}`" class="text-xs font-bold uppercase tracking-maquinado text-tinta transition-colors hover:text-acento-texto">{{ auto.nombre }} · ver ficha</RouterLink>
+          <div class="flex items-center gap-1" role="group" aria-label="Elegir auto del encabezado">
+            <button v-for="(a, i) in AUTOS_HERO" :key="a.slug" type="button" class="group/p flex h-6 items-center px-0.5" :aria-label="`Ver ${a.nombre}`" :aria-current="i === indice" @click="elegir(i)">
+              <span :class="['block h-0.5 transition-all', i === indice ? 'w-6 bg-acento' : 'w-3 bg-white/30 group-hover/p:bg-white/60']" />
+            </button>
+          </div>
         </div>
-      </Transition>
-      <!-- Nombre del auto, enlace a su ficha y selector manual -->
-      <div class="mt-3 flex flex-wrap items-center justify-between gap-3 pr-2">
-        <RouterLink :to="`/vehiculo/${auto.slug}`" class="text-xs font-bold uppercase tracking-maquinado text-tinta transition-colors hover:text-acento-texto">{{ auto.nombre }} · ver ficha</RouterLink>
-        <div class="flex items-center gap-1" role="group" aria-label="Elegir auto del encabezado">
-          <button v-for="(a, i) in AUTOS_HERO" :key="a.slug" type="button" class="group/p flex h-6 items-center px-0.5" :aria-label="`Ver ${a.nombre}`" :aria-current="i === indice" @click="elegir(i)">
-            <span :class="['block h-0.5 transition-all', i === indice ? 'w-6 bg-acento' : 'w-3 bg-white/30 group-hover/p:bg-white/60']" />
-          </button>
-        </div>
+        <p class="mt-1 text-right text-[10px] text-apagado">Foto: <a :href="auto.credito.url" target="_blank" rel="noopener" class="underline hover:text-white">{{ auto.credito.autor }}</a>, {{ auto.credito.licencia }}</p>
       </div>
-      <p class="mt-1 pr-2 text-right text-[10px] text-apagado">Foto: <a :href="auto.credito.url" target="_blank" rel="noopener" class="underline hover:text-white">{{ auto.credito.autor }}</a>, {{ auto.credito.licencia }}</p>
     </div>
   </section>
 </template>
