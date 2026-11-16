@@ -3,7 +3,8 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useHead } from '@unhead/vue'
 import { useStorage } from '@vueuse/core'
-import { ChevronDown, Pin, Plus, Printer, Share2, ShieldAlert, Trash2 } from 'lucide-vue-next'
+import { ChevronDown, Pin, Plus, Printer, Share2, ShieldAlert, Trash2, X } from 'lucide-vue-next'
+import type { Paginado, Tarjeta } from '@/lib/tipos'
 import { api, FalloApi } from '@/lib/api'
 import { useAjustes } from '@/stores/ajustes'
 import { useComparador, MAX_COMPARAR } from '@/stores/comparador'
@@ -79,6 +80,16 @@ function elegido(id: number) {
   slots.value = Math.max(slots.value, comp.ids.length)
 }
 const vacios = computed(() => Math.max(0, slots.value - comp.ids.length))
+
+/** Tarjetas de los autos ya elegidos, en el orden de la selección (se muestran arriba aunque haya uno solo). */
+const elegidos = ref<Tarjeta[]>([])
+watch(() => comp.ids.slice(), async (ids) => {
+  if (!ids.length) { elegidos.value = []; return }
+  try {
+    const r = await api.get<Paginado<Tarjeta>>('/vehiculos', { ids, size: ids.length })
+    elegidos.value = ids.map((id) => r.resultados.find((x) => x.id === id)).filter((x): x is Tarjeta => !!x)
+  } catch { /* la tabla muestra el error */ }
+}, { immediate: true })
 const v = computed(() => datos.value?.vehiculos || [])
 function formatear(fila: Fila, x: unknown): string {
   if (x === null || x === undefined) return '—'
@@ -114,24 +125,33 @@ const puntajeDe = (id: number) => datos.value?.puntajes.find((p) => p.id === id)
   <div class="contenedor pagina">
     <div class="flex flex-wrap items-end gap-x-6 gap-y-4">
       <h1 class="titulo-pagina">Comparador</h1>
-      <div class="ml-auto flex flex-wrap items-center gap-3 no-imprimir">
-        <label class="flex items-center gap-2 text-sm">Perfil
-          <select v-model="aj.perfil" class="campo-mini min-h-[44px] px-3" @change="aj.guardar()"><option v-for="p in PERFILES" :key="p.v" :value="p.v">{{ p.t }}</option></select>
+      <div class="grid w-full grid-cols-2 items-center gap-3 no-imprimir sm:ml-auto sm:flex sm:w-auto sm:flex-wrap">
+        <label class="col-span-2 flex items-center gap-2 text-sm sm:col-span-1">Perfil
+          <select v-model="aj.perfil" class="campo-mini min-h-[44px] flex-1 px-3" @change="aj.guardar()"><option v-for="p in PERFILES" :key="p.v" :value="p.v">{{ p.t }}</option></select>
         </label>
-        <label class="flex items-center gap-2 text-sm"><input v-model="soloDiferencias" type="checkbox" class="h-4 w-4" /> Mostrar solo diferencias</label>
-        <button class="boton-secundario px-5" @click="compartir"><Share2 class="h-4 w-4" aria-hidden="true" /> {{ copiado ? 'Copiado' : 'Compartir' }}</button>
-        <button class="boton-secundario px-5" @click="imprimir"><Printer class="h-4 w-4" aria-hidden="true" /> PDF / Imprimir</button>
+        <label class="col-span-2 flex min-h-[44px] items-center gap-2 text-sm sm:col-span-1"><input v-model="soloDiferencias" type="checkbox" class="h-4 w-4" /> Mostrar solo diferencias</label>
+        <button class="boton-secundario px-4 sm:px-5" @click="compartir"><Share2 class="h-4 w-4" aria-hidden="true" /> {{ copiado ? 'Copiado' : 'Compartir' }}</button>
+        <button class="boton-secundario px-4 sm:px-5" @click="imprimir"><Printer class="h-4 w-4" aria-hidden="true" /> PDF</button>
       </div>
     </div>
 
     <!-- Selección -->
-    <div class="mt-10 flex snap-x gap-6 overflow-x-auto pb-2 no-imprimir">
-      <div v-for="n in vacios" :key="`s${n}`" class="tarjeta w-72 shrink-0 snap-start p-6">
+    <div class="mt-10 grid grid-cols-2 gap-3 pb-2 no-imprimir sm:flex sm:snap-x sm:gap-4 sm:overflow-x-auto" aria-label="Vehículos elegidos">
+      <article v-for="(x, i) in elegidos" :key="x.id" class="tarjeta relative min-w-0 shrink-0 snap-start sm:w-64">
+        <ImagenVehiculo :medidas="x" :nombre="`${x.marca} ${x.modelo}`" :imagen-id="x.imagen_id" />
+        <div class="p-3 sm:p-4">
+          <p class="etiqueta truncate">Vehículo {{ i + 1 }} · {{ x.anio }}</p>
+          <RouterLink :to="`/vehiculo/${x.slug}`" class="mt-1 block truncate text-base font-bold text-tinta hover:underline">{{ x.marca }} {{ x.modelo }}</RouterLink>
+          <p class="truncate text-xs text-tenue">{{ x.version }}</p>
+        </div>
+        <button class="absolute right-2 top-2 grid h-9 w-9 place-items-center rounded-full bg-black/60 text-white transition-colors hover:bg-black/80" :aria-label="`Quitar ${x.marca} ${x.modelo} ${x.version}`" @click="comp.quitar(x.id)"><X class="h-4 w-4" aria-hidden="true" /></button>
+      </article>
+      <div v-for="n in vacios" :key="`s${n}`" class="tarjeta col-span-2 shrink-0 snap-start p-5 sm:w-64">
         <p class="etiqueta mb-4 !text-tinta">Vehículo {{ comp.ids.length + n }}</p>
         <SelectorCascada @elegido="elegido" />
       </div>
       <button
-        class="grid w-56 shrink-0 snap-start place-items-center border border-dashed border-linea p-6 text-xs font-bold uppercase tracking-maquinado text-tenue transition-colors hover:border-tinta hover:text-tinta disabled:pointer-events-none disabled:opacity-40"
+        class="grid min-h-[160px] shrink-0 snap-start place-items-center border border-dashed sm:min-h-[200px] sm:w-48 border-linea p-6 text-xs font-bold uppercase tracking-maquinado text-tenue transition-colors hover:border-tinta hover:text-tinta disabled:pointer-events-none disabled:opacity-40"
         :disabled="comp.ids.length + vacios >= MAX_COMPARAR"
         :title="comp.ids.length + vacios >= MAX_COMPARAR ? T.maximo10 : ''"
         @click="slots++"
