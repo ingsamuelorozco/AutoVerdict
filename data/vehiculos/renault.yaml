@@ -375,3 +375,34 @@ modelos:
         - {componente: "Llantas de 20 pulgadas", descripcion: "Costosas y vulnerables a huecos.", km_tipico: "Variable", costo_reparacion_cop_aprox: 2400000, severidad: Baja}
     versiones:
       - {anio: 2025, version: Iconic EV60, precio_base_cop: 199900000, fecha_precio: 2025-03-01}
+
+  - modelo: Captur
+    generacion: Primera generación (versión Latinoamérica)
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Colombia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2017-11-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 16V", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 143, rpm_potencia_max: 5750, torque_nm: 195, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.3, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.4, medida_llantas: "215/60 R17"}
+    dim: {largo_mm: 4329, ancho_sin_espejos_mm: 1813, alto_mm: 1619, distancia_entre_ejes_mm: 2673, distancia_libre_suelo_mm: 212, peso_vacio_kg: 1290, capacidad_baul_litros: 437, capacidad_tanque_galones: 13.7}
+    consumo: {consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.6}
+    seg: {numero_airbags: 4, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.8, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 8.2, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Captur ensamblada en Colombia sobre base Duster es una SUV con buen despeje (212 mm), baúl de 437 litros y un 2.0 atmosférico de 143 hp que anda bien en altura, con repuestos abundantes y baratos. Ya no se vende nueva, así que se compra usada a buen precio. Consume más que rivales con motor pequeño y la seguridad es básica, con cuatro airbags. Mayor riesgo individual: comprar una unidad sin historial de mantenimiento. No la recomendamos sin una revisión técnica previa."
+      para_quien_si: "Quien busca una SUV usada con buen despeje y repuestos baratos."
+      para_quien_no: "Quien prioriza consumo bajo o seguridad avanzada."
+      pros_reales: ["Despeje de 212 mm", "Motor 2.0 con buen empuje en altura", "Repuestos abundantes"]
+      contras:
+        - {componente: "Consumo", descripcion: "Alrededor de 10,6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Seguridad", descripcion: "Cuatro airbags y sin ayudas de manejo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2023, version: Intens 2.0 MT, precio_base_cop: 89900000, fecha_precio: 2023-03-01}
+      - {anio: 2021, version: Zen 2.0 MT, precio_base_cop: 76900000, fecha_precio: 2021-03-01}
