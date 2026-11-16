@@ -98,7 +98,7 @@ async function compartir() {
       <template v-if="d">
         <!-- Encabezado -->
         <header class="grid items-start gap-8 lg:grid-cols-[1.3fr_1fr] lg:gap-12">
-          <ImagenVehiculo :medidas="d.tamano.medidas" :nombre="d.nombre" />
+          <ImagenVehiculo :medidas="d.tamano.medidas" :nombre="d.nombre" :imagen-id="d.cabecera.imagen_id" credito />
           <div class="flex flex-col gap-5">
             <div class="flex flex-wrap gap-1.5">
               <span class="insignia border border-linea text-tenue">{{ d.cabecera.segmento }}</span>
