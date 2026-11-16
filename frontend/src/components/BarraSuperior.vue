@@ -53,7 +53,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
       <div class="ml-auto hidden items-stretch nav:flex">
         <!-- Ajustes regionales agrupados en un solo panel para despejar la barra -->
         <div ref="ajustesRef" class="relative flex h-full items-center">
-          <button class="flex h-11 items-center gap-2 px-3 text-xs font-bold uppercase tracking-[1px] text-tinta transition-colors hover:bg-superficie" :aria-expanded="ajustesAbierto" aria-haspopup="dialog" aria-label="Moneda, TRM y ciudad" @click="ajustesAbierto = !ajustesAbierto">
+          <button class="flex items-center gap-7 pr-7 text-xs font-bold uppercase tracking-[0.5px] text-tinta transition-colors hover:text-acento-texto" :aria-expanded="ajustesAbierto" aria-haspopup="dialog" aria-label="Moneda, TRM y ciudad" @click="ajustesAbierto = !ajustesAbierto">
             <span class="text-acento-texto num">{{ aj.moneda }} · TRM {{ formatoNumero(aj.trm) }}</span>
             <span>{{ ciudadNombre || 'Ajustes' }}</span>
           </button>
