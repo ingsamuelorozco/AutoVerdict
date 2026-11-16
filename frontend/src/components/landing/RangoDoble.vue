@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps<{ min: number; max: number; paso: number }>()
+const props = defineProps<{ min: number; max: number; paso: number; formato: (v: number) => string }>()
 const modelo = defineModel<[number, number]>({ required: true })
 
 const pct = (v: number) => ((v - props.min) / (props.max - props.min)) * 100
@@ -16,6 +16,9 @@ function cambiar(i: 0 | 1, e: Event) {
 
 <template>
   <div>
+    <div class="relative mx-[7px] h-4" aria-hidden="true">
+      <span v-for="(v, i) in modelo" :key="i" class="absolute top-0 whitespace-nowrap" :style="{ left: `${pct(v)}%`, transform: `translateX(-${pct(v)}%)` }">{{ formato(v) }}</span>
+    </div>
     <div class="relative mt-2 h-[14px]">
       <div class="absolute inset-x-[7px] top-1/2 h-[3px] -translate-y-1/2 bg-linea" aria-hidden="true">
         <div class="absolute inset-y-0 bg-acento" :style="{ left: `${pct(modelo[0])}%`, right: `${100 - pct(modelo[1])}%` }" />
