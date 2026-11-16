@@ -15,6 +15,7 @@ function cambiar(i: 0 | 1, e: Event) {
 <template>
   <div>
     <div class="relative mt-2 h-[14px]">
+      <div class="absolute inset-x-[7px] top-1/2 h-[3px] -translate-y-1/2 bg-linea" aria-hidden="true" />
       <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[0]" @input="cambiar(0, $event)" />
       <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[1]" @input="cambiar(1, $event)" />
     </div>
