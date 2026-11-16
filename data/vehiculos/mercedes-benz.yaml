@@ -31,6 +31,13 @@ modelos:
         - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: A 200 Progressive, precio_base_cop: 199900000}
+      - {anio: 2018, version: "A 200 Progressive", precio_base_cop: 87800000}
+      - {anio: 2019, version: "A 200 Progressive", precio_base_cop: 96500000}
+      - {anio: 2020, version: "A 200 Progressive", precio_base_cop: 106000000}
+      - {anio: 2021, version: "A 200 Progressive", precio_base_cop: 116500000}
+      - {anio: 2022, version: "A 200 Progressive", precio_base_cop: 128000000}
+      - {anio: 2023, version: "A 200 Progressive", precio_base_cop: 140700000}
+      - {anio: 2024, version: "A 200 Progressive", precio_base_cop: 154600000}
 
   - modelo: Clase A Sedán
     imagen_id: veh-mercedes-benz-clase-a-sedan
@@ -61,6 +68,12 @@ modelos:
         - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: A 200 Sedán Progressive, precio_base_cop: 209900000}
+      - {anio: 2019, version: "A 200 Sedán Progressive", precio_base_cop: 101300000}
+      - {anio: 2020, version: "A 200 Sedán Progressive", precio_base_cop: 111300000}
+      - {anio: 2021, version: "A 200 Sedán Progressive", precio_base_cop: 122300000}
+      - {anio: 2022, version: "A 200 Sedán Progressive", precio_base_cop: 134400000}
+      - {anio: 2023, version: "A 200 Sedán Progressive", precio_base_cop: 147700000}
+      - {anio: 2024, version: "A 200 Sedán Progressive", precio_base_cop: 162400000}
 
   - modelo: Clase C
     imagen_id: veh-mercedes-benz-clase-c
@@ -92,6 +105,9 @@ modelos:
     versiones:
       - {anio: 2026, version: C 200 Avantgarde, precio_base_cop: 279900000}
       - {anio: 2026, version: C 300 e AMG Line PHEV, precio_base_cop: 329900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo M254 + motor eléctrico (PHEV)", cilindraje_cc: 1999, potencia_hp: 313, torque_nm: 550, aceleracion_0_100_seg: 6.1, potencia_electrica_kw: 95, capacidad_bateria_kwh: 25.4, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 55, consumo_kwh_100km: 20.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 360, capacidad_tanque_galones: 13.2, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 12.5, peso_vacio_kg: 2030}
+      - {anio: 2022, version: "C 200 Avantgarde", precio_base_cop: 179300000}
+      - {anio: 2023, version: "C 200 Avantgarde", precio_base_cop: 197000000}
+      - {anio: 2024, version: "C 200 Avantgarde", precio_base_cop: 216500000}
 
   - modelo: GLA
     imagen_id: veh-mercedes-benz-gla
@@ -123,6 +139,11 @@ modelos:
     versiones:
       - {anio: 2026, version: GLA 200 Progressive, precio_base_cop: 229900000}
       - {anio: 2026, version: AMG GLA 35 4MATIC, precio_base_cop: 319900000, motor_descripcion: "2.0 Turbo M260", cilindraje_cc: 1991, potencia_hp: 306, rpm_potencia_max: 5800, torque_nm: 400, rpm_torque_max: 3000, aceleracion_0_100_seg: 5.1, velocidad_maxima_kmh: 250, transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 8, traccion: AWD, suspension_trasera: Multibrazo, medida_llantas: "235/50 R19", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 9.6, peso_vacio_kg: 1625}
+      - {anio: 2020, version: "GLA 200 Progressive", precio_base_cop: 121900000}
+      - {anio: 2021, version: "GLA 200 Progressive", precio_base_cop: 134000000}
+      - {anio: 2022, version: "GLA 200 Progressive", precio_base_cop: 147300000}
+      - {anio: 2023, version: "GLA 200 Progressive", precio_base_cop: 161800000}
+      - {anio: 2024, version: "GLA 200 Progressive", precio_base_cop: 177800000}
 
   - modelo: GLB
     imagen_id: veh-mercedes-benz-glb
@@ -154,6 +175,11 @@ modelos:
         - {componente: "Tercera fila", descripcion: "Solo para niños; 150 litros de baúl.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: GLB 200 7P Progressive, precio_base_cop: 249900000}
+      - {anio: 2020, version: "GLB 200 7P Progressive", precio_base_cop: 132600000}
+      - {anio: 2021, version: "GLB 200 7P Progressive", precio_base_cop: 145700000}
+      - {anio: 2022, version: "GLB 200 7P Progressive", precio_base_cop: 160100000}
+      - {anio: 2023, version: "GLB 200 7P Progressive", precio_base_cop: 175900000}
+      - {anio: 2024, version: "GLB 200 7P Progressive", precio_base_cop: 193300000}
 
   - modelo: GLC
     imagen_id: veh-mercedes-benz-glc
@@ -185,6 +211,8 @@ modelos:
     versiones:
       - {anio: 2026, version: GLC 200 4MATIC, precio_base_cop: 309900000}
       - {anio: 2026, version: GLC 300 e 4MATIC PHEV, precio_base_cop: 359900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo M254 + motor eléctrico (PHEV)", potencia_hp: 313, torque_nm: 550, aceleracion_0_100_seg: 6.7, potencia_electrica_kw: 100, capacidad_bateria_kwh: 31.2, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 60, consumo_kwh_100km: 21.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 470, capacidad_tanque_galones: 13.2, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 11.5, peso_vacio_kg: 2310}
+      - {anio: 2023, version: "GLC 200 4MATIC", precio_base_cop: 218100000}
+      - {anio: 2024, version: "GLC 200 4MATIC", precio_base_cop: 239700000}
 
   - modelo: GLE
     imagen_id: veh-mercedes-benz-gle
@@ -215,6 +243,12 @@ modelos:
         - {componente: "Ancho", descripcion: "2.018 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: GLE 450 4MATIC, precio_base_cop: 499900000, fecha_precio: 2025-01-01}
+      - {anio: 2019, version: "GLE 450 4MATIC", precio_base_cop: 255800000}
+      - {anio: 2020, version: "GLE 450 4MATIC", precio_base_cop: 281100000}
+      - {anio: 2021, version: "GLE 450 4MATIC", precio_base_cop: 308900000}
+      - {anio: 2022, version: "GLE 450 4MATIC", precio_base_cop: 339400000}
+      - {anio: 2023, version: "GLE 450 4MATIC", precio_base_cop: 373000000}
+      - {anio: 2024, version: "GLE 450 4MATIC", precio_base_cop: 409900000}
 
   - modelo: EQA
     imagen_id: veh-mercedes-benz-eqa
@@ -246,6 +280,10 @@ modelos:
         - {componente: "Depreciación", descripcion: "Eléctrico premium de bajo volumen.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: EQA 250+, precio_base_cop: 239900000, fecha_precio: 2025-01-01}
+      - {anio: 2021, version: "EQA 250+", precio_base_cop: 148200000}
+      - {anio: 2022, version: "EQA 250+", precio_base_cop: 162900000}
+      - {anio: 2023, version: "EQA 250+", precio_base_cop: 179000000}
+      - {anio: 2024, version: "EQA 250+", precio_base_cop: 196700000}
 
   - modelo: AMG C 43
     imagen_id: veh-mercedes-benz-amg-c-43
@@ -276,3 +314,5 @@ modelos:
         - {componente: "Despeje", descripcion: "120 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
     versiones:
       - {anio: 2025, version: AMG C 43 4MATIC, precio_base_cop: 399900000, fecha_precio: 2025-01-01}
+      - {anio: 2023, version: "AMG C 43 4MATIC", precio_base_cop: 298400000}
+      - {anio: 2024, version: "AMG C 43 4MATIC", precio_base_cop: 327900000}
