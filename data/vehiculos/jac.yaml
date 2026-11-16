@@ -1,0 +1,133 @@
+marca: JAC
+pais_origen: China
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: JS2
+    generacion: Primera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2021-07-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 VVT", cilindraje_cc: 1499, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 112, rpm_potencia_max: 6000, torque_nm: 146, rpm_torque_max: 4500, aceleracion_0_100_seg: 12.8, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4135, ancho_sin_espejos_mm: 1750, alto_mm: 1550, distancia_entre_ejes_mm: 2490, distancia_libre_suelo_mm: 185, peso_vacio_kg: 1170, capacidad_baul_litros: 450, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.6, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: el JS2 es una SUV pequeña que da mucho por su precio: seis airbags, pantalla de 10 pulgadas, cámara de reversa y cinco años de garantía, con un 1.5 atmosférico sencillo. Cumple en ciudad, pero en carretera de montaña se siente justo, y los acabados interiores son básicos. La reventa de la marca todavía es débil frente a Kia o Suzuki. Mayor riesgo individual: la pérdida de valor si se vende en pocos años. No lo recomendamos a quien piensa cambiar de carro pronto."
+      para_quien_si: "Quien quiere una SUV pequeña nueva, bien equipada y con garantía larga por poco dinero."
+      para_quien_no: "Quien prioriza la reventa o maneja mucho en montaña."
+      pros_reales: ["Seis airbags a precio de entrada", "Cinco años de garantía", "Despeje de 185 mm"]
+      contras:
+        - {componente: "Reventa", descripcion: "Se desvaloriza más rápido que marcas con más trayectoria.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Desempeño en altura", descripcion: "112 hp atmosféricos se sienten justos en subida.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Comfort 1.5 MT, precio_base_cop: 69900000}
+      - {anio: 2026, version: Luxury 1.5 CVT, precio_base_cop: 75900000, transmision_tipo: CVT, numero_velocidades: null, consumo_mixto_kml: 14.2, consumo_real_estimado_kml: 12.1, luces_led: true}
+      - {anio: 2025, version: Comfort 1.5 MT, precio_base_cop: 67900000, fecha_precio: 2025-03-01}
+
+  - modelo: JS4
+    generacion: Primera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2021-03-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 turbo", cilindraje_cc: 1499, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5500, torque_nm: 210, rpm_torque_max: 1700, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "215/55 R18"}
+    dim: {largo_mm: 4410, ancho_sin_espejos_mm: 1800, alto_mm: 1660, distancia_entre_ejes_mm: 2620, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1350, capacidad_baul_litros: 450, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 11.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.6, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: el JS4 compite con SUVs compactas más caras ofreciendo un 1.5 turbo de 150 hp, caja CVT, seis airbags y cinco años de garantía. El motor turbo anda bien en altura y el equipamiento es generoso. Sus límites están en los materiales interiores, la afinación de la caja en arrancadas y la reventa, que todavía es baja para la marca. Mayor riesgo individual: la depreciación en los primeros años. No lo recomendamos a quien compra pensando en revender pronto."
+      para_quien_si: "Quien busca una SUV compacta con motor turbo y mucho equipo a precio contenido."
+      para_quien_no: "Quien prioriza la reventa o la terminación interior."
+      pros_reales: ["Motor turbo de 150 hp", "Seis airbags", "Cinco años de garantía"]
+      contras:
+        - {componente: "Reventa", descripcion: "Pierde valor más rápido que rivales coreanos y japoneses.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Acabados", descripcion: "Plásticos duros y terminación básica en el interior.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Comfort 1.5T CVT, precio_base_cop: 89900000}
+      - {anio: 2026, version: Luxury 1.5T CVT, precio_base_cop: 99900000, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true}
+      - {anio: 2025, version: Luxury 1.5T CVT, precio_base_cop: 97900000, fecha_precio: 2025-03-01, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true}
+
+  - modelo: T8
+    generacion: Primera generación (Pro)
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2019-05-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.0 turbodiésel", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 141, rpm_potencia_max: 3600, torque_nm: 320, rpm_torque_max: 1800, aceleracion_0_100_seg: 13.5, velocidad_maxima_kmh: 160}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.3, medida_llantas: "245/70 R16", capacidad_remolque_kg: 2500}
+    dim: {largo_mm: 5325, ancho_sin_espejos_mm: 1880, alto_mm: 1830, distancia_entre_ejes_mm: 3090, distancia_libre_suelo_mm: 210, peso_vacio_kg: 2000, capacidad_carga_kg: 1000, capacidad_baul_litros: 1050, capacidad_tanque_galones: 20.1}
+    consumo: {consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.0}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.6, recalls: 7.0, repuestos_y_red: 6.4, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la T8 es la pickup diésel 4x4 de cabina doble más barata de su tamaño en el mercado, con 1.000 kg de carga, platón grande y cinco años de garantía. Su 2.0 turbodiésel de 141 hp es lento frente a Hilux o Ranger y la seguridad se queda en dos airbags, sin ayudas de manejo. Para trabajo sirve, pero la reventa es baja. Mayor riesgo individual: la protección en un choque. No la recomendamos como vehículo familiar para viajes largos."
+      para_quien_si: "Quien necesita una pickup 4x4 de trabajo con el menor presupuesto posible."
+      para_quien_no: "Quien busca seguridad para la familia o buena reventa."
+      pros_reales: ["Precio bajo para una pickup 4x4 diésel", "1.000 kg de carga", "Cinco años de garantía"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin ayudas de manejo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Desempeño", descripcion: "141 hp: lenta en carretera con carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Pro 2.0 Diésel MT 4x4, precio_base_cop: 129900000}
+      - {anio: 2025, version: Pro 2.0 Diésel MT 4x4, precio_base_cop: 125900000, fecha_precio: 2025-03-01}
+
+  - modelo: E30X
+    generacion: Primera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-02-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 70 kW", alimentacion: Eléctrico, potencia_hp: 94, torque_nm: 175, aceleracion_0_100_seg: 11.9, velocidad_maxima_kmh: 140, potencia_electrica_kw: 70, capacidad_bateria_kwh: 41, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: 50}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4135, ancho_sin_espejos_mm: 1765, alto_mm: 1570, distancia_entre_ejes_mm: 2490, distancia_libre_suelo_mm: 170, peso_vacio_kg: 1450, capacidad_baul_litros: 450, autonomia_estimada_km: 330, autonomia_ciclo: Estimada}
+    consumo: {consumo_kwh_100km: 13.5}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 150000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.4, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: el E30X es una de las SUV eléctricas más baratas del país, con unos 330 km de autonomía estimada, carga rápida de 50 kW y el beneficio de no tener pico y placa en varias ciudades. Para uso urbano es muy económico de mover. Sus límites son la seguridad, con dos airbags, la carga rápida lenta para viajes y una reventa incierta en eléctricos de marcas nuevas. Mayor riesgo individual: el valor de reventa a cinco años. No lo recomendamos para viajes largos frecuentes."
+      para_quien_si: "Quien maneja en ciudad y quiere bajar el costo por kilómetro y evitar el pico y placa."
+      para_quien_no: "Quien viaja seguido por carretera o prioriza seguridad pasiva."
+      pros_reales: ["Costo por kilómetro muy bajo", "Exento de pico y placa en varias ciudades", "Ocho años de garantía de batería"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags en las versiones registradas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Carga en viaje", descripcion: "Carga rápida de 50 kW: paradas largas en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: E30X 41 kWh, precio_base_cop: 109900000}
+      - {anio: 2025, version: E30X 41 kWh, precio_base_cop: 114900000, fecha_precio: 2025-03-01}
