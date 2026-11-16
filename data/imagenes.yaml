@@ -269,3 +269,135 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW i4"
+  - id: veh-byd-dolphin
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2021_BYD_Dolphin_EV_%28front%29.jpg/960px-2021_BYD_Dolphin_EV_%28front%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "User3204"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_BYD_Dolphin_EV_(front).jpg"
+    ancho: 5898
+    alto: 3932
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Dolphin"
+  - id: veh-byd-dolphin-mini
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/2023_%D0%92YD_Seagull_%28front%29.jpg/960px-2023_%D0%92YD_Seagull_%28front%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "User3204"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2023_%D0%92YD_Seagull_(front).jpg"
+    ancho: 6345
+    alto: 3837
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Dolphin Mini"
+  - id: veh-byd-han-ev
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/2023_BYD_Han_DM-i_%28facelift%29%2C_front_8.17.23.jpg/960px-2023_BYD_Han_DM-i_%28facelift%29%2C_front_8.17.23.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2023_BYD_Han_DM-i_(facelift),_front_8.17.23.jpg"
+    ancho: 4196
+    alto: 1922
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Han EV"
+  - id: veh-byd-king-dm-i
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/BYD_Qin_Plus_DM-i_2021061903.jpg/960px-BYD_Qin_Plus_DM-i_2021061903.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Evnerd"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BYD_Qin_Plus_DM-i_2021061903.jpg"
+    ancho: 2424
+    alto: 1823
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD King DM-i"
+  - id: veh-byd-seal
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2022_BYD_Seal.jpg/960px-2022_BYD_Seal.jpg"
+    proveedor: Wikimedia Commons
+    autor: "User3204"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_BYD_Seal.jpg"
+    ancho: 5985
+    alto: 3406
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Seal"
+  - id: veh-byd-sealion-7
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/2025_BYD_Sealion_7_Performance_front.jpg/960px-2025_BYD_Sealion_7_Performance_front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "LuvsMG481"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_BYD_Sealion_7_Performance_front.jpg"
+    ancho: 5470
+    alto: 2701
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Sealion 7"
+  - id: veh-byd-shark
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/2025_BYD_Shark_6_front.jpg/960px-2025_BYD_Shark_6_front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "LuvsMG481"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_BYD_Shark_6_front.jpg"
+    ancho: 5736
+    alto: 3049
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Shark"
+  - id: veh-byd-song-plus-dm-i
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/2023_BYD_Song_Plus_DM-i_%28front%29.jpg/960px-2023_BYD_Song_Plus_DM-i_%28front%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "User3204"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2023_BYD_Song_Plus_DM-i_(front).jpg"
+    ancho: 6307
+    alto: 3887
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Song Plus DM-i"
+  - id: veh-byd-song-pro-dm-i
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/BYD_Song_Pro_DM-i_2023_facelift_001_%28cropped%29.jpg/960px-BYD_Song_Pro_DM-i_2023_facelift_001_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Quzhouliulian"
+    licencia: "CC0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BYD_Song_Pro_DM-i_2023_facelift_001_(cropped).jpg"
+    ancho: 3654
+    alto: 1934
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Song Pro DM-i"
+  - id: veh-byd-tang-ev
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/BYD_Tang_DM-p_front_quarter_trimmed_2.jpg/960px-BYD_Tang_DM-p_front_quarter_trimmed_2.jpg"
+    proveedor: Wikimedia Commons
+    autor: "BYD Tang DM-p front quarter.jpg: Taylormilan3216 derivative work: Mariordo (Mario Roberto Durán Ortiz)"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BYD_Tang_DM-p_front_quarter_trimmed_2.jpg"
+    ancho: 3600
+    alto: 2401
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Tang EV"
+  - id: veh-byd-yuan-plus
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/BYD_Yuan_Plus_II_011.jpg/960px-BYD_Yuan_Plus_II_011.jpg"
+    proveedor: Wikimedia Commons
+    autor: "JustAnotherCarDesigner"
+    licencia: "CC0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:BYD_Yuan_Plus_II_011.jpg"
+    ancho: 4032
+    alto: 3024
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del BYD Yuan Plus"

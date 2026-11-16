@@ -3,6 +3,7 @@ pais_origen: China
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Dolphin Mini
+    imagen_id: veh-byd-dolphin-mini
     generacion: Primera generación
     segmento: Hatchback A
     carroceria: Hatchback
@@ -35,6 +36,7 @@ modelos:
       - {anio: 2026, version: GS 38 kWh, precio_base_cop: 89900000}
 
   - modelo: Dolphin
+    imagen_id: veh-byd-dolphin
     generacion: Primera generación
     segmento: Hatchback C
     carroceria: Hatchback
@@ -67,6 +69,7 @@ modelos:
       - {anio: 2026, version: "Plus 60,4 kWh", precio_base_cop: 129900000, motor_descripcion: "Motor eléctrico 150 kW", potencia_hp: 204, torque_nm: 310, aceleracion_0_100_seg: 7.0, velocidad_maxima_kmh: 160, potencia_electrica_kw: 150, capacidad_bateria_kwh: 60.4, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 88, autonomia_estimada_km: 427, consumo_kwh_100km: 15.2, peso_vacio_kg: 1658, suspension_trasera: Multibrazo, medida_llantas: "205/50 R17"}
 
   - modelo: Yuan Plus
+    imagen_id: veh-byd-yuan-plus
     generacion: Primera generación (Atto 3)
     segmento: SUV Compacta
     carroceria: SUV
@@ -98,6 +101,7 @@ modelos:
       - {anio: 2026, version: "GS 60,5 kWh", precio_base_cop: 149900000}
 
   - modelo: Seal
+    imagen_id: veh-byd-seal
     generacion: Primera generación
     segmento: Sedán D
     carroceria: Sedán
@@ -130,6 +134,7 @@ modelos:
       - {anio: 2026, version: Performance AWD, precio_base_cop: 219900000, motor_descripcion: "Dos motores eléctricos AWD", potencia_hp: 530, torque_nm: 670, aceleracion_0_100_seg: 3.8, potencia_electrica_kw: 390, traccion: AWD, autonomia_estimada_km: 520, consumo_kwh_100km: 18.1, peso_vacio_kg: 2185, medida_llantas: "245/45 R19"}
 
   - modelo: Song Plus DM-i
+    imagen_id: veh-byd-song-plus-dm-i
     generacion: Primera generación
     segmento: SUV Mediana
     carroceria: SUV
@@ -161,6 +166,7 @@ modelos:
       - {anio: 2026, version: GS DM-i, precio_base_cop: 149900000}
 
   - modelo: Song Pro DM-i
+    imagen_id: veh-byd-song-pro-dm-i
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -192,6 +198,7 @@ modelos:
       - {anio: 2026, version: GS DM-i, precio_base_cop: 129900000}
 
   - modelo: Sealion 7
+    imagen_id: veh-byd-sealion-7
     generacion: Primera generación
     segmento: SUV Mediana
     carroceria: SUV
@@ -223,6 +230,7 @@ modelos:
       - {anio: 2026, version: Premium RWD, precio_base_cop: 209900000}
 
   - modelo: Tang EV
+    imagen_id: veh-byd-tang-ev
     generacion: Segunda generación
     segmento: SUV Grande
     carroceria: SUV
@@ -255,6 +263,7 @@ modelos:
       - {anio: 2025, version: "AWD 108,8 kWh", precio_base_cop: 259900000, fecha_precio: 2025-01-01}
 
   - modelo: Han EV
+    imagen_id: veh-byd-han-ev
     generacion: Primera generación
     segmento: Sedán D
     carroceria: Sedán
@@ -286,6 +295,7 @@ modelos:
       - {anio: 2025, version: "AWD 85,4 kWh", precio_base_cop: 229900000, fecha_precio: 2025-01-01}
 
   - modelo: King DM-i
+    imagen_id: veh-byd-king-dm-i
     generacion: Primera generación
     segmento: Sedán C
     carroceria: Sedán
@@ -318,6 +328,7 @@ modelos:
       - {anio: 2026, version: "GS 18,3 kWh", precio_base_cop: 109900000, capacidad_bateria_kwh: 18.3, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: 18, peso_vacio_kg: 1620, carga_inalambrica: true, adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
 
   - modelo: Shark
+    imagen_id: veh-byd-shark
     generacion: Primera generación
     segmento: Pickup Mediana
     carroceria: Pickup
