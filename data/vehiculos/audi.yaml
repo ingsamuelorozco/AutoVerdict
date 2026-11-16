@@ -31,6 +31,10 @@ modelos:
         - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: 35 TFSI Advanced, precio_base_cop: 189900000}
+      - {anio: 2021, version: "35 TFSI Advanced", precio_base_cop: 110700000}
+      - {anio: 2022, version: "35 TFSI Advanced", precio_base_cop: 121600000}
+      - {anio: 2023, version: "35 TFSI Advanced", precio_base_cop: 133700000}
+      - {anio: 2024, version: "35 TFSI Advanced", precio_base_cop: 146900000}
 
   - modelo: A3 Sedán
     imagen_id: veh-audi-a3-sedan
@@ -61,6 +65,10 @@ modelos:
         - {componente: "Depreciación", descripcion: "Alta en los primeros años.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: 35 TFSI Advanced, precio_base_cop: 199900000}
+      - {anio: 2021, version: "35 TFSI Advanced", precio_base_cop: 116500000}
+      - {anio: 2022, version: "35 TFSI Advanced", precio_base_cop: 128000000}
+      - {anio: 2023, version: "35 TFSI Advanced", precio_base_cop: 140700000}
+      - {anio: 2024, version: "35 TFSI Advanced", precio_base_cop: 154600000}
 
   - modelo: A4
     imagen_id: veh-audi-a4
@@ -92,6 +100,15 @@ modelos:
         - {componente: "Mantenimiento", descripcion: "Costos premium.", km_tipico: "Cada 10.000", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: 40 TFSI Advanced, precio_base_cop: 239900000, fecha_precio: 2025-01-01}
+      - {anio: 2016, version: "40 TFSI Advanced", precio_base_cop: 92500000}
+      - {anio: 2017, version: "40 TFSI Advanced", precio_base_cop: 101600000}
+      - {anio: 2018, version: "40 TFSI Advanced", precio_base_cop: 111700000}
+      - {anio: 2019, version: "40 TFSI Advanced", precio_base_cop: 122700000}
+      - {anio: 2020, version: "40 TFSI Advanced", precio_base_cop: 134900000}
+      - {anio: 2021, version: "40 TFSI Advanced", precio_base_cop: 148200000}
+      - {anio: 2022, version: "40 TFSI Advanced", precio_base_cop: 162900000}
+      - {anio: 2023, version: "40 TFSI Advanced", precio_base_cop: 179000000}
+      - {anio: 2024, version: "40 TFSI Advanced", precio_base_cop: 196700000}
 
   - modelo: Q2
     imagen_id: veh-audi-q2
@@ -122,6 +139,14 @@ modelos:
         - {componente: "Espacio trasero", descripcion: "Justo para adultos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: 35 TFSI Advanced, precio_base_cop: 169900000, fecha_precio: 2025-01-01}
+      - {anio: 2017, version: "35 TFSI Advanced", precio_base_cop: 72000000}
+      - {anio: 2018, version: "35 TFSI Advanced", precio_base_cop: 79100000}
+      - {anio: 2019, version: "35 TFSI Advanced", precio_base_cop: 86900000}
+      - {anio: 2020, version: "35 TFSI Advanced", precio_base_cop: 95500000}
+      - {anio: 2021, version: "35 TFSI Advanced", precio_base_cop: 105000000}
+      - {anio: 2022, version: "35 TFSI Advanced", precio_base_cop: 115400000}
+      - {anio: 2023, version: "35 TFSI Advanced", precio_base_cop: 126800000}
+      - {anio: 2024, version: "35 TFSI Advanced", precio_base_cop: 139300000}
 
   - modelo: Q3
     imagen_id: veh-audi-q3
@@ -153,6 +178,12 @@ modelos:
     versiones:
       - {anio: 2026, version: 35 TFSI Advanced, precio_base_cop: 209900000}
       - {anio: 2026, version: Sportback 40 TFSI quattro S line, precio_base_cop: 259900000, motor_descripcion: "2.0 TFSI", cilindraje_cc: 1984, potencia_hp: 190, rpm_potencia_max: 4200, torque_nm: 320, aceleracion_0_100_seg: 7.4, velocidad_maxima_kmh: 220, traccion: AWD, transmision_tipo: Doble embrague húmedo S tronic, alto_mm: 1567, capacidad_baul_litros: 530, medida_llantas: "235/50 R19", tapiceria: Cuero, consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1620}
+      - {anio: 2019, version: "35 TFSI Advanced", precio_base_cop: 101300000}
+      - {anio: 2020, version: "35 TFSI Advanced", precio_base_cop: 111300000}
+      - {anio: 2021, version: "35 TFSI Advanced", precio_base_cop: 122300000}
+      - {anio: 2022, version: "35 TFSI Advanced", precio_base_cop: 134400000}
+      - {anio: 2023, version: "35 TFSI Advanced", precio_base_cop: 147700000}
+      - {anio: 2024, version: "35 TFSI Advanced", precio_base_cop: 162400000}
 
   - modelo: Q5
     imagen_id: veh-audi-q5
@@ -184,6 +215,14 @@ modelos:
     versiones:
       - {anio: 2026, version: TFSI quattro MHEV Advanced, precio_base_cop: 299900000}
       - {anio: 2025, version: 55 TFSI e quattro PHEV, precio_base_cop: 349900000, fecha_precio: 2025-01-01, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 TFSI + motor eléctrico (PHEV)", potencia_hp: 367, torque_nm: 500, aceleracion_0_100_seg: 5.3, potencia_electrica_kw: 105, capacidad_bateria_kwh: 17.9, potencia_carga_ac_kw: 7.4, potencia_carga_dc_kw: null, consumo_kwh_100km: 20.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 465, capacidad_tanque_galones: 14.0, consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 11.0, peso_vacio_kg: 2085, largo_mm: 4682, ancho_sin_espejos_mm: 1893}
+      - {anio: 2017, version: "TFSI quattro MHEV Advanced", precio_base_cop: 119900000}
+      - {anio: 2018, version: "TFSI quattro MHEV Advanced", precio_base_cop: 131700000}
+      - {anio: 2019, version: "TFSI quattro MHEV Advanced", precio_base_cop: 144800000}
+      - {anio: 2020, version: "TFSI quattro MHEV Advanced", precio_base_cop: 159100000}
+      - {anio: 2021, version: "TFSI quattro MHEV Advanced", precio_base_cop: 174800000}
+      - {anio: 2022, version: "TFSI quattro MHEV Advanced", precio_base_cop: 192100000}
+      - {anio: 2023, version: "TFSI quattro MHEV Advanced", precio_base_cop: 211100000}
+      - {anio: 2024, version: "TFSI quattro MHEV Advanced", precio_base_cop: 232000000}
 
   - modelo: Q4 e-tron
     imagen_id: veh-audi-q4-e-tron
@@ -215,6 +254,9 @@ modelos:
         - {componente: "Depreciación", descripcion: "Eléctrico premium de bajo volumen.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: 40 e-tron Advanced, precio_base_cop: 259900000, fecha_precio: 2025-01-01}
+      - {anio: 2022, version: "40 e-tron Advanced", precio_base_cop: 176500000}
+      - {anio: 2023, version: "40 e-tron Advanced", precio_base_cop: 193900000}
+      - {anio: 2024, version: "40 e-tron Advanced", precio_base_cop: 213100000}
 
   - modelo: Q8 e-tron
     imagen_id: veh-audi-q8-e-tron
@@ -246,6 +288,8 @@ modelos:
         - {componente: "Suspensión neumática", descripcion: "Reparación costosa con los años.", km_tipico: "100.000+", costo_reparacion_cop_aprox: 14000000, severidad: Media}
     versiones:
       - {anio: 2025, version: 55 e-tron quattro, precio_base_cop: 449900000, fecha_precio: 2025-01-01}
+      - {anio: 2023, version: "55 e-tron quattro", precio_base_cop: 335700000}
+      - {anio: 2024, version: "55 e-tron quattro", precio_base_cop: 368900000}
 
   - modelo: RS 3
     imagen_id: veh-audi-rs-3
@@ -276,3 +320,6 @@ modelos:
         - {componente: "Despeje", descripcion: "125 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
     versiones:
       - {anio: 2025, version: RS 3 Sportback, precio_base_cop: 389900000, fecha_precio: 2025-01-01}
+      - {anio: 2022, version: "RS 3 Sportback", precio_base_cop: 287200000}
+      - {anio: 2023, version: "RS 3 Sportback", precio_base_cop: 307100000}
+      - {anio: 2024, version: "RS 3 Sportback", precio_base_cop: 328500000}
