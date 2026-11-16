@@ -45,6 +45,10 @@ export default {
       screens: { nav: '1360px' },
       spacing: { seccion: '96px', barra: '72px' },
       maxWidth: { contenido: '1440px', landing: '1170px' },
+      boxShadow: {
+        tarjeta: '0 12px 40px -16px rgb(0 0 0 / 0.28)',
+        menu: '0 14px 34px -10px rgb(0 0 0 / 0.4)',
+      },
       transitionDuration: { DEFAULT: '240ms' },
     },
   },
