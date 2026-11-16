@@ -348,6 +348,7 @@ modelos:
       - {anio: 2026, version: Light FWD 64 kWh, precio_base_cop: 189900000}
 
   - modelo: Rio Hatchback
+    imagen_id: veh-kia-rio-hatchback
     generacion: Cuarta generación (YB)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -379,6 +380,7 @@ modelos:
       - {anio: 2022, version: Zenith 1.4 AT, precio_base_cop: 70900000, fecha_precio: 2022-03-01, transmision_tipo: Automática, numero_velocidades: 6, numero_airbags: 6, camara_reversa: true, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
 
   - modelo: Stonic
+    imagen_id: veh-kia-stonic
     generacion: Primera generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -409,6 +411,7 @@ modelos:
       - {anio: 2025, version: Vibrant 1.4 AT, precio_base_cop: 82900000, fecha_precio: 2025-03-01}
 
   - modelo: Carnival
+    imagen_id: veh-kia-carnival
     generacion: Cuarta generación (KA4)
     segmento: SUV Grande
     carroceria: SUV

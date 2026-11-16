@@ -2249,3 +2249,39 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Jeep Wrangler"
+  - id: veh-kia-carnival
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/2025_Kia_Carnival_Hybrid_EX%2C_front_right%2C_10-12-2025.jpg/960px-2025_Kia_Carnival_Hybrid_EX%2C_front_right%2C_10-12-2025.jpg"
+    proveedor: Wikimedia Commons
+    autor: "MercurySable99"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Kia_Carnival_Hybrid_EX,_front_right,_10-12-2025.jpg"
+    ancho: 4116
+    alto: 2923
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Carnival"
+  - id: veh-kia-rio-hatchback
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/2021_Kia_Rio_3_MHEV_facelift_1.0.jpg/960px-2021_Kia_Rio_3_MHEV_facelift_1.0.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Kia_Rio_3_MHEV_facelift_1.0.jpg"
+    ancho: 3397
+    alto: 1910
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Rio Hatchback"
+  - id: veh-kia-stonic
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/2017_Kia_Stonic_First_Edition_1.0.jpg/960px-2017_Kia_Stonic_First_Edition_1.0.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2017_Kia_Stonic_First_Edition_1.0.jpg"
+    ancho: 4627
+    alto: 2347
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Stonic"
