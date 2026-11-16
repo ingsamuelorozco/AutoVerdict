@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { onClickOutside } from '@vueuse/core'
-import { GitCompare, Heart, Menu, Moon, Sun, X } from 'lucide-vue-next'
+import { Heart, Menu, Moon, Sun, X } from 'lucide-vue-next'
 import MenuDesplegable from '@/components/MenuDesplegable.vue'
 import { useAjustes } from '@/stores/ajustes'
 import { useComparador } from '@/stores/comparador'
@@ -86,7 +86,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
           <span v-if="fav.ids.length" class="absolute right-0.5 top-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-acento px-1 text-[10px] font-bold text-white num">{{ fav.ids.length }}</span>
         </RouterLink>
         <RouterLink :to="{ path: '/comparador', query: comp.ids.length ? { ids: comp.ids.join(',') } : {} }" class="flex items-center gap-2 bg-acento px-8 text-[13px] font-bold text-white transition-colors hover:bg-acento-hondo">
-          <GitCompare class="h-4 w-4" aria-hidden="true" /> Comparar ({{ comp.ids.length }})
+          Comparar ({{ comp.ids.length }})
         </RouterLink>
       </div>
 
