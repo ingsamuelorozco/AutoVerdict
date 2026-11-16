@@ -3,6 +3,7 @@ pais_origen: Japón
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: March
+    imagen_id: veh-nissan-march
     generacion: K13
     segmento: Hatchback A
     carroceria: Hatchback
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2022, version: Exclusive 1.6 CVT, precio_base_cop: 61900000, fecha_precio: 2022-02-01, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], numero_airbags: 6, aire_acondicionado: Automático}
 
   - modelo: Versa
+    imagen_id: veh-nissan-versa
     generacion: N18
     segmento: Sedán B
     carroceria: Sedán
@@ -66,6 +68,7 @@ modelos:
       - {anio: 2023, version: Sense 1.6 CVT, precio_base_cop: 79900000, fecha_precio: 2023-02-01, numero_airbags: 6, adas_incluidas: []}
 
   - modelo: Sentra
+    imagen_id: veh-nissan-sentra
     generacion: B18
     segmento: Sedán C
     carroceria: Sedán
@@ -96,6 +99,7 @@ modelos:
       - {anio: 2026, version: Exclusive 2.0 CVT, precio_base_cop: 132900000, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, pantalla_multimedia_pulgadas: 12.3, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Asistente de mantenimiento de carril, Control crucero adaptativo, Cámara 360]}
 
   - modelo: Kicks
+    imagen_id: veh-nissan-kicks
     generacion: P15 (segunda generación)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -127,6 +131,7 @@ modelos:
       - {anio: 2023, version: Exclusive 1.6 CVT, precio_base_cop: 99900000, fecha_precio: 2023-03-01, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, adas_incluidas: [Frenado autónomo de emergencia, Cámara 360]}
 
   - modelo: Kicks e-Power
+    imagen_id: veh-nissan-kicks-e-power
     generacion: P15
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -156,6 +161,7 @@ modelos:
       - {anio: 2025, version: e-Power Exclusive, precio_base_cop: 129900000, fecha_precio: 2025-01-01}
 
   - modelo: Qashqai
+    imagen_id: veh-nissan-qashqai
     generacion: J12
     segmento: SUV Compacta
     carroceria: SUV
@@ -185,6 +191,7 @@ modelos:
       - {anio: 2025, version: Exclusive 1.3T MHEV CVT, precio_base_cop: 159900000, fecha_precio: 2025-01-01}
 
   - modelo: X-Trail
+    imagen_id: veh-nissan-x-trail
     generacion: T33
     segmento: SUV Mediana
     carroceria: SUV
@@ -215,6 +222,7 @@ modelos:
       - {anio: 2026, version: e-Power e-4ORCE, precio_base_cop: 209900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.5 VC-Turbo e-Power (híbrido en serie)", cilindraje_cc: 1497, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 213, torque_nm: 525, rpm_torque_max: null, aceleracion_0_100_seg: 7.0, velocidad_maxima_kmh: 180, transmision_tipo: Reductora, numero_velocidades: 1, potencia_electrica_kw: 157, capacidad_bateria_kwh: 2.1, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.5, peso_vacio_kg: 1850}
 
   - modelo: Frontier
+    imagen_id: veh-nissan-frontier
     generacion: D23
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -247,6 +255,7 @@ modelos:
       - {anio: 2025, version: LE 2.3 biturbo AT 4x4, precio_base_cop: 182900000, fecha_precio: 2025-02-01}
 
   - modelo: Leaf
+    imagen_id: veh-nissan-leaf
     generacion: ZE1
     segmento: Hatchback C
     carroceria: Hatchback

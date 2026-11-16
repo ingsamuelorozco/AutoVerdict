@@ -1277,3 +1277,111 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz GLE"
+  - id: veh-nissan-frontier
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/2021_Nissan_Frontier_Pro_4X_%28Colombia%3B_facelift%29_front_view_01.png/960px-2021_Nissan_Frontier_Pro_4X_%28Colombia%3B_facelift%29_front_view_01.png"
+    proveedor: Wikimedia Commons
+    autor: "Autosdeprimera"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Nissan_Frontier_Pro_4X_(Colombia;_facelift)_front_view_01.png"
+    ancho: 1920
+    alto: 1152
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan Frontier"
+  - id: veh-nissan-kicks
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/2025_Nissan_Kicks_SV_AWD_in_Deep_Blue_Pearl%2C_front_right%2C_2024-10-06.jpg/960px-2025_Nissan_Kicks_SV_AWD_in_Deep_Blue_Pearl%2C_front_right%2C_2024-10-06.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Elise240SX"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_SV_AWD_in_Deep_Blue_Pearl,_front_right,_2024-10-06.jpg"
+    ancho: 5069
+    alto: 3170
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan Kicks"
+  - id: veh-nissan-kicks-e-power
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/2025_Nissan_Kicks_SV_AWD_in_Deep_Blue_Pearl%2C_front_right%2C_2024-10-06.jpg/960px-2025_Nissan_Kicks_SV_AWD_in_Deep_Blue_Pearl%2C_front_right%2C_2024-10-06.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Elise240SX"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Nissan_Kicks_SV_AWD_in_Deep_Blue_Pearl,_front_right,_2024-10-06.jpg"
+    ancho: 5069
+    alto: 3170
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan Kicks e-Power"
+  - id: veh-nissan-leaf
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nissan_Leaf_%28ZE2%29_autoMOBIL_T%C3%BCbingen_2025_DSC_2752.jpg/960px-Nissan_Leaf_%28ZE2%29_autoMOBIL_T%C3%BCbingen_2025_DSC_2752.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_(ZE2)_autoMOBIL_T%C3%BCbingen_2025_DSC_2752.jpg"
+    ancho: 4851
+    alto: 2662
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan Leaf"
+  - id: veh-nissan-march
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/2015_Nissan_Micra_SR_in_Brilliant_Silver%2C_front_right%2C_2024-10-11.jpg/960px-2015_Nissan_Micra_SR_in_Brilliant_Silver%2C_front_right%2C_2024-10-11.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Elise240SX"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2015_Nissan_Micra_SR_in_Brilliant_Silver,_front_right,_2024-10-11.jpg"
+    ancho: 3859
+    alto: 2456
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan March"
+  - id: veh-nissan-qashqai
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/2024_Nissan_Qashqai_e-Power_IMG_2187.jpg/960px-2024_Nissan_Qashqai_e-Power_IMG_2187.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Nissan_Qashqai_e-Power_IMG_2187.jpg"
+    ancho: 5368
+    alto: 3215
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan Qashqai"
+  - id: veh-nissan-sentra
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg/960px-2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Nissan_Sentra_(B18)_DSC_3754.jpg"
+    ancho: 5528
+    alto: 3727
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan Sentra"
+  - id: veh-nissan-versa
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/2020_Nissan_Versa_SR_front_NYIAS_2019.jpg/960px-2020_Nissan_Versa_SR_front_NYIAS_2019.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2020_Nissan_Versa_SR_front_NYIAS_2019.jpg"
+    ancho: 5118
+    alto: 3142
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan Versa"
+  - id: veh-nissan-x-trail
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Nissan_X-Trail_%28T33%29_1X7A7179.jpg/960px-Nissan_X-Trail_%28T33%29_1X7A7179.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_(T33)_1X7A7179.jpg"
+    ancho: 5693
+    alto: 3086
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Nissan X-Trail"
