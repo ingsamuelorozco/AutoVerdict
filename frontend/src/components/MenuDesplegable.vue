@@ -17,6 +17,8 @@ function cerrar() { clearTimeout(temporizador); abierto.value = false }
 /** Solo el ratón abre al pasar por encima; en pantallas táctiles manda el toque. */
 function alEntrar(e: PointerEvent) { if (e.pointerType === 'mouse') abrir() }
 function alSalir(e: PointerEvent) { if (e.pointerType === 'mouse') temporizador = setTimeout(cerrar, 150) }
+/** Con ratón el hover ya abrió el menú: el clic lo deja abierto. Con teclado o toque, alterna. */
+function alClic(e: MouseEvent) { if ((e as PointerEvent).pointerType === 'mouse') abrir(); else if (abierto.value) cerrar(); else abrir() }
 onClickOutside(raiz, cerrar)
 
 function items() { return Array.from(panel.value?.querySelectorAll<HTMLElement>('[role="menuitem"]') ?? []) }
@@ -44,7 +46,7 @@ function teclaPanel(e: KeyboardEvent) {
 
 <template>
   <div ref="raiz" class="relative flex items-stretch" @pointerenter="alEntrar" @pointerleave="alSalir">
-    <button ref="boton" type="button" :class="['enlace-barra', { 'enlace-barra-activo': activo || abierto }]" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()" @keydown="teclaBoton">
+    <button ref="boton" type="button" :class="['enlace-barra', { 'enlace-barra-activo': activo || abierto }]" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="alClic" @keydown="teclaBoton">
       {{ etiqueta }}<span class="enlace-barra-mas" aria-hidden="true">+</span>
     </button>
     <Transition name="desplegable">
