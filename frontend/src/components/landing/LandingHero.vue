@@ -10,6 +10,7 @@ import { T } from '@/lib/textos'
     <div class="relative mx-auto flex w-full max-w-landing px-[15px] pt-barra">
       <div class="relative z-20">
         <h1 id="hero-titulo" class="whitespace-nowrap text-[64px] leading-none tracking-[-1px] text-tinta"><span class="text-acento-texto">{{ T.landing.hero.acento }}</span> {{ T.landing.hero.titulo }}</h1>
+        <p>{{ T.sublema }}</p>
       </div>
     </div>
   </section>
