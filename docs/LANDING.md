@@ -48,4 +48,4 @@ El resto de la portada (método, calculadoras, actualizados, alertas rojas y cie
 Viven en `frontend/src/assets/images/` y sus créditos en `CREDITS.md`.
 
 - Fondos: fotos libres de Wikimedia Commons, redimensionadas y sin metadatos.
-- Autos: fotos reales de Wikimedia Commons con el fondo eliminado y exportadas como PNG transparente (`hero-car.png`, `car-top-view.png`).
+- Autos: fotos reales de Wikimedia Commons con el fondo eliminado y exportadas como PNG transparente. El hero rota entre 7 autos cada minuto (`frontend/src/lib/autosHero.ts`); cada uno tiene 3 puntos: motor, precio en calle de la ciudad elegida y un dato propio (0-100, consumo, autonomía, tracción, fiabilidad o baúl), leídos de la ficha en la API. La vista cenital (`car-top-view.png`) es fija.
