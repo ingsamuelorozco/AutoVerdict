@@ -4,6 +4,7 @@ import { useHead } from '@unhead/vue'
 import { ArrowRight, Calculator, ParkingSquare, Shield, ShieldAlert, Wallet } from 'lucide-vue-next'
 import LandingHero from '@/components/landing/LandingHero.vue'
 import BuscadorRapido from '@/components/landing/BuscadorRapido.vue'
+import SeccionCaracteristicas from '@/components/landing/SeccionCaracteristicas.vue'
 import { api } from '@/lib/api'
 import { T } from '@/lib/textos'
 import { useFormato } from '@/composables/useFormato'
@@ -59,6 +60,7 @@ const herramientas = [
 <template>
   <LandingHero :versiones="totalVersiones" :marcas="marcas.length || null" />
   <BuscadorRapido :total="totalVersiones" :marcas="marcas" />
+  <SeccionCaracteristicas />
 
   <!-- Cómo funciona: celdas de dato sobre lienzo -->
   <section class="contenedor seccion" aria-labelledby="como">
