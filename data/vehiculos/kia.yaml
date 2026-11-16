@@ -3,6 +3,7 @@ pais_origen: Corea del Sur
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Picanto
+    imagen_id: veh-kia-picanto
     generacion: JA (actualización 2024)
     segmento: Hatchback A
     carroceria: Hatchback
@@ -35,6 +36,7 @@ modelos:
       - {anio: 2024, version: Vibrant 1.25 MT, precio_base_cop: 55900000, fecha_precio: 2024-02-01, pantalla_multimedia_pulgadas: 7}
 
   - modelo: Soluto
+    imagen_id: veh-kia-soluto
     generacion: Primera generación
     segmento: Sedán B
     carroceria: Sedán
@@ -67,6 +69,7 @@ modelos:
       - {anio: 2026, version: Emotion 1.4 AT, precio_base_cop: 72900000, transmision_tipo: Automática, numero_velocidades: 4, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
 
   - modelo: K3 Sedán
+    imagen_id: veh-kia-k3-sedan
     generacion: Primera generación (BL7)
     segmento: Sedán C
     carroceria: Sedán
@@ -97,6 +100,7 @@ modelos:
       - {anio: 2026, version: Zenith 2.0 IVT, precio_base_cop: 114900000, tapiceria: Cuero sintético, techo_corredizo: true, carga_inalambrica: true, llave_inteligente: true, medida_llantas: "225/45 R17", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
 
   - modelo: K3 Cross
+    imagen_id: veh-kia-k3-cross
     generacion: Primera generación (BL7)
     segmento: Hatchback C
     carroceria: Hatchback
@@ -126,6 +130,7 @@ modelos:
       - {anio: 2026, version: GT-Line 2.0 IVT, precio_base_cop: 116900000}
 
   - modelo: Sonet
+    imagen_id: veh-kia-sonet
     generacion: Primera generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -156,6 +161,7 @@ modelos:
       - {anio: 2026, version: Zenith 1.5 IVT, precio_base_cop: 97900000, tapiceria: Cuero sintético, techo_corredizo: true, luces_led: true, llave_inteligente: true, pantalla_multimedia_pulgadas: 10.25, carga_inalambrica: true}
 
   - modelo: Seltos
+    imagen_id: veh-kia-seltos
     generacion: SP2 (actualización)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -186,6 +192,7 @@ modelos:
       - {anio: 2026, version: GT-Line 1.6T DCT, precio_base_cop: 129900000, motor_descripcion: "1.6 T-GDi", alimentacion: Turbo, potencia_hp: 175, rpm_potencia_max: 5500, torque_nm: 265, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.5, transmision_tipo: Doble embrague en seco DCT, numero_velocidades: 7, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.5, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true, carga_inalambrica: true, medida_llantas: "235/45 R18", peso_vacio_kg: 1360, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero]}
 
   - modelo: Sportage
+    imagen_id: veh-kia-sportage
     generacion: NQ5
     segmento: SUV Compacta
     carroceria: SUV
@@ -217,6 +224,7 @@ modelos:
       - {anio: 2026, version: GT-Line 1.6T HEV AWD, precio_base_cop: 189900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 T-GDi híbrido", cilindraje_cc: 1598, alimentacion: Turbo, potencia_hp: 230, rpm_potencia_max: 5500, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.0, traccion: AWD, potencia_electrica_kw: 44, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 17.5, consumo_real_estimado_kml: 15.0, peso_vacio_kg: 1690, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "235/55 R19", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero, Cámara 360]}
 
   - modelo: Sorento
+    imagen_id: veh-kia-sorento
     generacion: MQ4
     segmento: SUV Grande
     carroceria: SUV
@@ -247,6 +255,7 @@ modelos:
       - {anio: 2026, version: HEV AWD 7P, precio_base_cop: 229900000}
 
   - modelo: Niro
+    imagen_id: veh-kia-niro
     generacion: SG2
     segmento: SUV Compacta
     carroceria: SUV
@@ -276,6 +285,7 @@ modelos:
       - {anio: 2025, version: HEV Emotion, precio_base_cop: 139900000, fecha_precio: 2025-01-01}
 
   - modelo: EV6
+    imagen_id: veh-kia-ev6
     generacion: CV
     segmento: SUV Mediana
     carroceria: SUV
@@ -307,6 +317,7 @@ modelos:
       - {anio: 2026, version: GT-Line AWD 77 kWh, precio_base_cop: 259900000, motor_descripcion: "Dos motores eléctricos AWD", potencia_hp: 325, torque_nm: 605, aceleracion_0_100_seg: 5.2, potencia_electrica_kw: 239, capacidad_bateria_kwh: 77.4, potencia_carga_dc_kw: 233, traccion: AWD, autonomia_estimada_km: 484, consumo_kwh_100km: 18.0, peso_vacio_kg: 2090, medida_llantas: "255/45 R20", techo_corredizo: true, apple_carplay_android_auto: Inalámbrico}
 
   - modelo: EV5
+    imagen_id: veh-kia-ev5
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV

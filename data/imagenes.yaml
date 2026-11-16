@@ -929,3 +929,135 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Venue"
+  - id: veh-kia-ev5
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/2024_Kia_EV5_Earth_Exclusive_AWD_%28Thailand%29_front_view.png/960px-2024_Kia_EV5_Earth_Exclusive_AWD_%28Thailand%29_front_view.png"
+    proveedor: Wikimedia Commons
+    autor: "iMoD Official"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Kia_EV5_Earth_Exclusive_AWD_(Thailand)_front_view.png"
+    ancho: 3142
+    alto: 1767
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia EV5"
+  - id: veh-kia-ev6
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/2021_Kia_EV6_GT-Line_S.jpg/960px-2021_Kia_EV6_GT-Line_S.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Kia_EV6_GT-Line_S.jpg"
+    ancho: 4471
+    alto: 2118
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia EV6"
+  - id: veh-kia-k3-cross
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/2024_Kia_K3_Sedan_GT_Line_%28Colombia%29_front_view.jpg/960px-2024_Kia_K3_Sedan_GT_Line_%28Colombia%29_front_view.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Autosdeprimera"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Kia_K3_Sedan_GT_Line_(Colombia)_front_view.jpg"
+    ancho: 3225
+    alto: 1613
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia K3 Cross"
+  - id: veh-kia-k3-sedan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/2024_Kia_K3_Sedan_GT_Line_%28Colombia%29_front_view.jpg/960px-2024_Kia_K3_Sedan_GT_Line_%28Colombia%29_front_view.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Autosdeprimera"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Kia_K3_Sedan_GT_Line_(Colombia)_front_view.jpg"
+    ancho: 3225
+    alto: 1613
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia K3 Sedán"
+  - id: veh-kia-niro
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Kia_Niro_%28SG2%29_PHEV_Leonberg_2022_1X7A0474.jpg/960px-Kia_Niro_%28SG2%29_PHEV_Leonberg_2022_1X7A0474.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Kia_Niro_(SG2)_PHEV_Leonberg_2022_1X7A0474.jpg"
+    ancho: 5319
+    alto: 3150
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Niro"
+  - id: veh-kia-picanto
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/2018_Kia_Picanto_3_Automatic_1.2_Front.jpg/960px-2018_Kia_Picanto_3_Automatic_1.2_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Kia_Picanto_3_Automatic_1.2_Front.jpg"
+    ancho: 4586
+    alto: 2716
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Picanto"
+  - id: veh-kia-seltos
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg/960px-Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Damian B Oh"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Kia_Seltos_SP2_PE_Snow_White_Pearl_(17)_(cropped).jpg"
+    ancho: 3548
+    alto: 1977
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Seltos"
+  - id: veh-kia-soluto
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Kia_Pegas_Shishi_01_2022-10-15.jpg/960px-Kia_Pegas_Shishi_01_2022-10-15.jpg"
+    proveedor: Wikimedia Commons
+    autor: "JamesYoung8167"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Kia_Pegas_Shishi_01_2022-10-15.jpg"
+    ancho: 4032
+    alto: 2520
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Soluto"
+  - id: veh-kia-sonet
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_03.jpg/960px-2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_03.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Andra Febrian"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Kia_Sonet_1.5_Premiere_(Indonesia)_front_view_03.jpg"
+    ancho: 2872
+    alto: 1723
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Sonet"
+  - id: veh-kia-sorento
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/2024_Kia_Sorento_X-Line_SX_Prestige_%28facelift%29%2C_front_12.20.24.jpg/960px-2024_Kia_Sorento_X-Line_SX_Prestige_%28facelift%29%2C_front_12.20.24.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Kia_Sorento_X-Line_SX_Prestige_(facelift),_front_12.20.24.jpg"
+    ancho: 3279
+    alto: 1907
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Sorento"
+  - id: veh-kia-sportage
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/2025_Kia_Sportage_S_front_only.jpg/960px-2025_Kia_Sportage_S_front_only.jpg"
+    proveedor: Wikimedia Commons
+    autor: "LuvsMG481"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Kia_Sportage_S_front_only.jpg"
+    ancho: 4705
+    alto: 2466
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Kia Sportage"
