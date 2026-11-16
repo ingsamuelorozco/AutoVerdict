@@ -1,0 +1,163 @@
+marca: Mitsubishi
+pais_origen: Japón
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: L200
+    generacion: Sexta generación (Triton)
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Tailandia
+    fecha_lanzamiento_colombia: 2024-10-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.4 biturbo diésel 4N16", cilindraje_cc: 2442, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 184, rpm_potencia_max: 3500, torque_nm: 430, rpm_torque_max: 2250, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 175}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.2, medida_llantas: "265/60 R18", profundidad_vadeo_mm: 600, capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 5320, ancho_sin_espejos_mm: 1865, alto_mm: 1795, distancia_entre_ejes_mm: 3130, distancia_libre_suelo_mm: 222, peso_vacio_kg: 2050, capacidad_carga_kg: 1000, capacidad_baul_litros: 1100, capacidad_tanque_galones: 19.8, angulo_ataque_deg: 30, angulo_ventral_deg: 23, angulo_salida_deg: 22}
+    consumo: {consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 7.0, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la L200 de sexta generación estrena chasis y un 2.4 biturbo diésel de 430 Nm con caja automática de 6 velocidades y la tracción Super Select, que permite usar 4x4 en pavimento. Es más grande y silenciosa que la anterior, con siete airbags. Su red de concesionarios es más pequeña que la de Toyota o Ford, y es una generación con poco historial local. Mayor riesgo individual: tiempos de repuesto fuera de las capitales. No la recomendamos como carro exclusivamente urbano."
+      para_quien_si: "Quien necesita una pickup de trabajo con 4x4 de verdad y buena capacidad de remolque."
+      para_quien_no: "Quien solo maneja en ciudad o parquea en plazas cortas."
+      pros_reales: ["Tracción Super Select con 4x4 en pavimento", "430 Nm de torque", "Siete airbags"]
+      contras:
+        - {componente: "Red de posventa", descripcion: "Menos talleres autorizados que las marcas líderes de pickups.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Confort sin carga", descripcion: "Ballestas: rebota con el platón vacío.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GLX 2.4 MT 4x4, precio_base_cop: 159900000, transmision_tipo: Manual, numero_velocidades: 6, pantalla_multimedia_pulgadas: 7, aire_acondicionado: Manual, adas_incluidas: []}
+      - {anio: 2026, version: GLS 2.4 AT 4x4, precio_base_cop: 179900000, tapiceria: Cuero sintético, llave_inteligente: true}
+
+  - modelo: Montero Sport
+    generacion: Tercera generación (actualización 2020)
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Tailandia
+    fecha_lanzamiento_colombia: 2016-04-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.4 turbodiésel 4N15", cilindraje_cc: 2442, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 181, rpm_potencia_max: 3500, torque_nm: 430, rpm_torque_max: 2500, aceleracion_0_100_seg: 11.4, velocidad_maxima_kmh: 180}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido con resortes, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "265/60 R18", profundidad_vadeo_mm: 700, capacidad_remolque_kg: 3100}
+    dim: {largo_mm: 4825, ancho_sin_espejos_mm: 1815, alto_mm: 1835, distancia_entre_ejes_mm: 2800, distancia_libre_suelo_mm: 218, peso_vacio_kg: 2100, capacidad_baul_litros: 502, capacidad_tanque_galones: 18.0, angulo_ataque_deg: 30, angulo_ventral_deg: 23, angulo_salida_deg: 24}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.6}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 7.0, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Montero Sport es un todoterreno de chasis de largueros con siete puestos, reductora y una caja automática de 8 velocidades que aprovecha bien el 2.4 turbodiésel. Comparte base con la L200 anterior, lo que da mecánica probada. Frente a Fortuner y Territory gana en equipo, pero pierde en red de servicio y reventa. La tercera fila es para niños. Mayor riesgo individual: el costo de mantenimiento del sistema diésel moderno. No lo recomendamos a quien no sale de la ciudad."
+      para_quien_si: "Familias que viajan por carretera destapada y necesitan 4x4 con reductora."
+      para_quien_no: "Uso urbano exclusivo o quien busca bajo costo de mantenimiento."
+      pros_reales: ["Chasis de largueros con reductora", "Caja automática de 8 velocidades", "Siete puestos"]
+      contras:
+        - {componente: "Tercera fila", descripcion: "Espacio solo para niños o trayectos cortos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Red de posventa", descripcion: "Menos talleres que Toyota en ciudades intermedias.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: GLS 2.4 AT 4x4, precio_base_cop: 215900000}
+      - {anio: 2024, version: GLS 2.4 AT 4x4, precio_base_cop: 199900000, fecha_precio: 2024-03-01}
+
+  - modelo: Outlander
+    generacion: Cuarta generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2023-03-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 MIVEC", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 181, rpm_potencia_max: 6000, torque_nm: 245, rpm_torque_max: 3600, aceleracion_0_100_seg: 10.4, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "255/45 R20"}
+    dim: {largo_mm: 4710, ancho_sin_espejos_mm: 1860, alto_mm: 1745, distancia_entre_ejes_mm: 2705, distancia_libre_suelo_mm: 212, peso_vacio_kg: 1650, capacidad_baul_litros: 495, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.6}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 7.0, electrica_electronica: 7.4, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 6.8, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Outlander de cuarta generación comparte plataforma con el X-Trail y llega muy equipado: tracción integral S-AWC, siete puestos, techo corredizo y ayudas de manejo completas. El 2.5 atmosférico con caja CVT cumple, pero se queda corto en altura con siete ocupantes. Se desvaloriza más rápido que CR-V o RAV4. Mayor riesgo individual: el cuidado de la caja CVT, que pide cambios de aceite a tiempo. No lo recomendamos a quien prioriza la reventa."
+      para_quien_si: "Familias que quieren siete puestos y mucho equipo por su precio."
+      para_quien_no: "Quien prioriza reventa o potencia en altura."
+      pros_reales: ["Siete puestos con tracción integral", "Equipamiento de seguridad completo", "Despeje de 212 mm"]
+      contras:
+        - {componente: "Caja CVT", descripcion: "Requiere mantenimiento estricto del aceite.", km_tipico: "60.000", costo_reparacion_cop_aprox: 1200000, severidad: Media}
+        - {componente: "Reventa", descripcion: "Pierde valor más rápido que sus rivales japoneses.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: GLS 2.5 CVT AWD, precio_base_cop: 189900000}
+
+  - modelo: Eclipse Cross
+    generacion: Primera generación (actualización 2021)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2018-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 turbo MIVEC", cilindraje_cc: 1499, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5500, torque_nm: 250, rpm_torque_max: 2000, aceleracion_0_100_seg: 10.3, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "225/55 R18"}
+    dim: {largo_mm: 4545, ancho_sin_espejos_mm: 1805, alto_mm: 1685, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 183, peso_vacio_kg: 1450, capacidad_baul_litros: 437, capacidad_tanque_galones: 16.6}
+    consumo: {consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.4}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 7.2, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 6.8, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Eclipse Cross es una SUV compacta con diseño de coupé, un 1.5 turbo de 250 Nm que anda bien en altura y siete airbags desde la versión de entrada. La caída del techo recorta la visibilidad trasera y el espacio para la cabeza atrás, y el baúl de 437 litros es medio. Su reventa es inferior a la de Tucson o Sportage. Mayor riesgo individual: la caja CVT si no se respeta su mantenimiento. No la recomendamos a quien lleva adultos altos atrás."
+      para_quien_si: "Quien quiere una SUV compacta con motor turbo y buena seguridad pasiva."
+      para_quien_no: "Familias con pasajeros altos atrás o quien prioriza la reventa."
+      pros_reales: ["Motor turbo de 250 Nm", "Siete airbags", "Tracción integral disponible"]
+      contras:
+        - {componente: "Visibilidad trasera", descripcion: "Techo tipo coupé y ventana trasera pequeña.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Espacio trasero", descripcion: "Poca altura para la cabeza en la segunda fila.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GLS 1.5T CVT 4x2, precio_base_cop: 139900000}
+      - {anio: 2026, version: GLS 1.5T CVT AWD, precio_base_cop: 149900000, traccion: AWD, peso_vacio_kg: 1530, consumo_mixto_kml: 12.8, consumo_real_estimado_kml: 10.8}
+
+  - modelo: Xpander
+    generacion: Primera generación (actualización 2022)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Indonesia
+    fecha_lanzamiento_colombia: 2019-02-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 MIVEC", cilindraje_cc: 1499, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 104, rpm_potencia_max: 6000, torque_nm: 141, rpm_torque_max: 4000, aceleracion_0_100_seg: 13.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "205/55 R17"}
+    dim: {largo_mm: 4595, ancho_sin_espejos_mm: 1750, alto_mm: 1750, distancia_entre_ejes_mm: 2775, distancia_libre_suelo_mm: 225, peso_vacio_kg: 1250, capacidad_baul_litros: 220, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [jatco_cvt]
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.6, repuestos_y_red: 6.8, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Xpander es de los pocos carros de siete puestos a precio de hatchback, con despeje de 225 mm que pasa rompemuelles sin problema y una tercera fila usable para niños. El 1.5 atmosférico de 104 hp se queda corto con siete ocupantes en subida, y la seguridad es básica: dos airbags en las versiones que registramos. Con todos los puestos arriba el baúl casi desaparece. Mayor riesgo individual: la protección en un choque. No lo recomendamos para viajes largos de carretera con la casa llena."
+      para_quien_si: "Familias grandes con presupuesto ajustado y uso mayormente urbano."
+      para_quien_no: "Quien prioriza seguridad o viaja cargado por carretera de montaña."
+      pros_reales: ["Siete puestos a precio bajo", "Despeje de 225 mm", "Mecánica atmosférica sencilla"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags en las versiones registradas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Potencia con carga", descripcion: "104 hp se quedan cortos con siete ocupantes en altura.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: GLS 1.5 CVT, precio_base_cop: 99900000}
+      - {anio: 2026, version: Cross 1.5 CVT, precio_base_cop: 109900000, luces_led: true, medida_llantas: "205/55 R17", aire_acondicionado: Automático}
