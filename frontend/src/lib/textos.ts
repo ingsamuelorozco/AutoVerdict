@@ -26,6 +26,16 @@ export const T = {
     reviews: 'Reviews',
     herramientas: 'Herramientas',
   },
+  landing: {
+    hero: {
+      acento: 'Precio &',
+      titulo: 'verdad',
+      boton: 'Comparar ahora',
+      datoTitulo: 'Catálogo 2018 – 2026',
+      autoAlt: 'Ilustración de un coupé blanco visto de perfil',
+      hotspots: ['Siluetas a escala real', 'Fallas con dos o más fuentes'],
+    },
+  },
   estimado: 'Estimado',
   estimadoAyuda: 'Dato de referencia pendiente de verificación contra la ficha oficial vigente en Colombia. Ver metodología.',
   avisoLegal:
