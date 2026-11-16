@@ -123,6 +123,8 @@
   /* Franja M: divisor de 4 px con el tricolor. Solo firma de marca, nunca relleno ni acción. */
   .franja-m { height: 4px; background: linear-gradient(90deg, rgb(var(--m-azul-claro)) 0 33.33%, rgb(var(--m-azul)) 33.33% 66.66%, rgb(var(--m-rojo)) 66.66% 100%); }
   .franja-m-corta { @apply franja-m w-16; }
+  /* Isla clara: menús que se ven blancos aunque la página esté en tema oscuro. */
+  .sobre-claro { --tinta: 0 0 0; --cuerpo: 38 38 38; --papel: 255 255 255; --suave: 247 247 247; --superficie: 250 250 250; --elevada: 236 236 236; --linea: 226 226 226; --tenue: 110 110 110; --apagado: 126 126 126; --acento-texto: 28 105 212; @apply text-cuerpo; }
 }
 
 @media (prefers-reduced-motion: reduce) {
