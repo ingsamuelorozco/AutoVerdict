@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps<{ min: number; max: number; paso: number; formato: (v: number) => string }>()
+const props = defineProps<{ min: number; max: number; paso: number; formato: (v: number) => string; etiquetaMin: string; etiquetaMax: string }>()
 const modelo = defineModel<[number, number]>({ required: true })
 
 const pct = (v: number) => ((v - props.min) / (props.max - props.min)) * 100
@@ -23,8 +23,8 @@ function cambiar(i: 0 | 1, e: Event) {
       <div class="absolute inset-x-[7px] top-1/2 h-[3px] -translate-y-1/2 bg-linea" aria-hidden="true">
         <div class="absolute inset-y-0 bg-acento" :style="{ left: `${pct(modelo[0])}%`, right: `${100 - pct(modelo[1])}%` }" />
       </div>
-      <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[0]" @input="cambiar(0, $event)" />
-      <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[1]" @input="cambiar(1, $event)" />
+      <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[0]" :aria-label="etiquetaMin" :aria-valuetext="formato(modelo[0])" @input="cambiar(0, $event)" />
+      <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[1]" :aria-label="etiquetaMax" :aria-valuetext="formato(modelo[1])" @input="cambiar(1, $event)" />
     </div>
   </div>
 </template>
