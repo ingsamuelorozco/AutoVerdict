@@ -494,3 +494,295 @@ modelos:
       - {anio: 2022, version: "Signature 3.5 V6 AT", precio_base_cop: 180600000}
       - {anio: 2023, version: "Signature 3.5 V6 AT", precio_base_cop: 193100000}
       - {anio: 2024, version: "Signature 3.5 V6 AT", precio_base_cop: 206600000}
+
+  - modelo: "Picanto"
+    generacion: "Primera generación (SA, Picanto Ion)"
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2004-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.1 SOHC", cilindraje_cc: 1086, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 64, rpm_potencia_max: 5500, torque_nm: 97, rpm_torque_max: 3500, aceleracion_0_100_seg: 14.5, velocidad_maxima_kmh: 155, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.7, medida_llantas: "155/70 R13"}
+    dim: {largo_mm: 3495, ancho_sin_espejos_mm: 1595, alto_mm: 1480, distancia_entre_ejes_mm: 2370, distancia_libre_suelo_mm: 150, peso_vacio_kg: 860, capacidad_baul_litros: 157, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 17.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 8.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Picanto de primera generación, conocido como Picanto Ion, es un citadino de un litro y algo que consume poco, se parquea en cualquier lado y tiene repuestos baratos. Conserva su valor mejor que otros pequeños de la época por la buena fama de la marca. Es lento en carretera, el baúl es mínimo y la seguridad se queda en dos airbags en las mejores versiones, sin control de estabilidad. Mayor riesgo individual: la protección en un choque en carretera. No lo recomendamos para viajes largos."
+      para_quien_si: "Quien busca un citadino usado barato de comprar y mantener."
+      para_quien_no: "Quien viaja por carretera o lleva familia con frecuencia."
+      pros_reales: ["Consumo bajo", "Fácil de parquear", "Repuestos baratos"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Hasta dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Espacio", descripcion: "Baúl de 157 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2011, version: "Ion 1.1 MT", precio_base_cop: 19500000}
+      - {anio: 2010, version: "Ion 1.1 MT", precio_base_cop: 18500000}
+      - {anio: 2009, version: "Ion 1.1 MT", precio_base_cop: 17600000}
+      - {anio: 2008, version: "Ion 1.1 MT", precio_base_cop: 16700000}
+      - {anio: 2007, version: "Ion 1.1 MT", precio_base_cop: 15900000}
+      - {anio: 2006, version: "Ion 1.1 MT", precio_base_cop: 15100000}
+      - {anio: 2005, version: "Ion 1.1 MT", precio_base_cop: 14300000}
+      - {anio: 2004, version: "Ion 1.1 MT", precio_base_cop: 13600000}
+
+  - modelo: "Picanto"
+    generacion: "Segunda generación (TA)"
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2012-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.25 MPI", cilindraje_cc: 1248, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 85, rpm_potencia_max: 5500, torque_nm: 121, rpm_torque_max: 3500, aceleracion_0_100_seg: 14.5, velocidad_maxima_kmh: 155, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.7, medida_llantas: "155/70 R13"}
+    dim: {largo_mm: 3595, ancho_sin_espejos_mm: 1595, alto_mm: 1480, distancia_entre_ejes_mm: 2385, distancia_libre_suelo_mm: 152, peso_vacio_kg: 910, capacidad_baul_litros: 200, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 16.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 8.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Picanto de segunda generación es de los citadinos usados más buscados del país: un 1.25 confiable y económico, buena terminación para su segmento y una reventa alta. Es ágil en ciudad y barato de mantener. Su espacio trasero y su baúl son pequeños, la caja automática de cuatro marchas de algunas versiones gasta en carretera y la seguridad se queda en dos airbags. Mayor riesgo individual: la protección en un choque en carretera. No lo recomendamos para viajes frecuentes con cuatro adultos."
+      para_quien_si: "Quien busca un citadino usado barato de comprar y mantener."
+      para_quien_no: "Quien viaja por carretera o lleva familia con frecuencia."
+      pros_reales: ["Reventa alta", "Motor confiable y económico", "Fácil de parquear"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Espacio", descripcion: "Plazas traseras y baúl pequeños.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2016, version: "1.25 MT", precio_base_cop: 30000000}
+      - {anio: 2015, version: "1.25 MT", precio_base_cop: 28500000}
+      - {anio: 2014, version: "1.25 MT", precio_base_cop: 27100000}
+      - {anio: 2013, version: "1.25 MT", precio_base_cop: 25700000}
+      - {anio: 2012, version: "1.25 MT", precio_base_cop: 24400000}
+
+  - modelo: "Rio Hatchback"
+    generacion: "Tercera generación (UB)"
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2012-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.4 MPI", cilindraje_cc: 1396, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 107, rpm_potencia_max: 6300, torque_nm: 137, rpm_torque_max: 4200, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4045, ancho_sin_espejos_mm: 1720, alto_mm: 1455, distancia_entre_ejes_mm: 2570, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1080, capacidad_baul_litros: 288, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 15.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Rio de tercera generación es un hatchback bien diseñado, con un 1.4 eficiente, caja manual de seis marchas y buena reputación de confiabilidad, que conserva bien su valor. Es cómodo en ciudad y tiene repuestos abundantes. Su despeje de 150 mm pide cuidado en rompemuelles y la seguridad se queda en dos airbags sin control de estabilidad en la mayoría de versiones. Mayor riesgo individual: la protección en un choque en carretera. No lo recomendamos sin revisar la suspensión delantera."
+      para_quien_si: "Quien busca un hatchback usado confiable y con buena reventa."
+      para_quien_no: "Quien prioriza seguridad o despeje alto."
+      pros_reales: ["Motor confiable y eficiente", "Buena reventa", "Repuestos abundantes"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags en la mayoría de versiones.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Despeje", descripcion: "150 mm: cuidado con rompemuelles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2016, version: "1.4 MT", precio_base_cop: 36000000}
+      - {anio: 2015, version: "1.4 MT", precio_base_cop: 34200000}
+      - {anio: 2014, version: "1.4 MT", precio_base_cop: 32500000}
+      - {anio: 2013, version: "1.4 MT", precio_base_cop: 30900000}
+      - {anio: 2012, version: "1.4 MT", precio_base_cop: 29300000}
+
+  - modelo: "Cerato"
+    generacion: "YD (Cerato Pro)"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2014-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 Gamma", cilindraje_cc: 1591, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 124, rpm_potencia_max: 6300, torque_nm: 156, rpm_torque_max: 4200, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4560, ancho_sin_espejos_mm: 1780, alto_mm: 1445, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1250, capacidad_baul_litros: 482, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 13.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.2, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Cerato Pro fue el sedán mediano de Kia en Colombia entre 2014 y 2018, con buen espacio, baúl de 482 litros, seis airbags, control de estabilidad y un 1.6 suficiente para ciudad. Su relación precio-equipo como usado es muy buena. En altura y con carga el 1.6 se siente justo, y las versiones de entrada traen menos equipo de confort. Mayor riesgo individual: la caja automática sin mantenimiento. No lo recomendamos sin revisar el historial de cambios de aceite de la caja."
+      para_quien_si: "Quien busca un sedán mediano usado bien equipado a buen precio."
+      para_quien_no: "Quien maneja cargado en montaña con frecuencia."
+      pros_reales: ["Baúl de 482 litros", "Seis airbags y control de estabilidad", "Buena relación precio-equipo"]
+      contras:
+        - {componente: "Potencia en altura", descripcion: "El 1.6 se siente justo con carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Caja automática", descripcion: "Sensible al mantenimiento del aceite.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2018, version: "Pro 1.6 AT", precio_base_cop: 52000000}
+      - {anio: 2017, version: "Pro 1.6 AT", precio_base_cop: 48600000}
+      - {anio: 2016, version: "Pro 1.6 AT", precio_base_cop: 45500000}
+      - {anio: 2015, version: "Pro 1.6 AT", precio_base_cop: 42500000}
+      - {anio: 2014, version: "Pro 1.6 AT", precio_base_cop: 39700000}
+
+  - modelo: "Sportage"
+    generacion: "Segunda generación (KM)"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2005-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Beta", cilindraje_cc: 1975, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 141, rpm_potencia_max: 6000, torque_nm: 184, rpm_torque_max: 4500, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "215/65 R16"}
+    dim: {largo_mm: 4350, ancho_sin_espejos_mm: 1800, alto_mm: 1695, distancia_entre_ejes_mm: 2630, distancia_libre_suelo_mm: 195, peso_vacio_kg: 1500, capacidad_baul_litros: 520, capacidad_tanque_galones: 15.3}
+    consumo: {consumo_mixto_kml: 10.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 8.0, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Sportage de segunda generación es una SUV compacta con tracción 4x4, despeje de 195 mm y un baúl amplio, que hoy se consigue barata. Su 2.0 es sencillo y conocido por los talleres. Como usada de más de quince años hay que revisar la suspensión, los cardanes y la caja de transferencia, y su seguridad se queda en dos airbags sin control de estabilidad. Mayor riesgo individual: desgaste del sistema 4x4 en unidades descuidadas. No la recomendamos sin revisión del tren de tracción."
+      para_quien_si: "Quien busca una SUV 4x4 usada a precio bajo."
+      para_quien_no: "Quien prioriza seguridad o consumo."
+      pros_reales: ["Tracción 4x4", "Baúl amplio", "Precio de usado bajo"]
+      contras:
+        - {componente: "Tracción 4x4", descripcion: "Cardanes y transferencia gastados por edad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2010, version: "2.0 MT 4x4", precio_base_cop: 30000000}
+      - {anio: 2009, version: "2.0 MT 4x4", precio_base_cop: 28000000}
+      - {anio: 2008, version: "2.0 MT 4x4", precio_base_cop: 26200000}
+      - {anio: 2007, version: "2.0 MT 4x4", precio_base_cop: 24500000}
+      - {anio: 2006, version: "2.0 MT 4x4", precio_base_cop: 22900000}
+      - {anio: 2005, version: "2.0 MT 4x4", precio_base_cop: 21400000}
+
+  - modelo: "Sportage"
+    generacion: "Tercera generación (SL, Sportage Revolution)"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2011-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Theta II", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 164, rpm_potencia_max: 6200, torque_nm: 197, rpm_torque_max: 4600, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "225/60 R17"}
+    dim: {largo_mm: 4440, ancho_sin_espejos_mm: 1855, alto_mm: 1635, distancia_entre_ejes_mm: 2640, distancia_libre_suelo_mm: 172, peso_vacio_kg: 1500, capacidad_baul_litros: 465, capacidad_tanque_galones: 15.3}
+    consumo: {consumo_mixto_kml: 11.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.2, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Sportage Revolution fue la SUV que cambió la imagen de Kia en Colombia, con un diseño atractivo, seis airbags, control de estabilidad y una caja automática de seis marchas. Es cómoda y bien equipada para su precio de usado. Su despeje de 172 mm es menor que el de otras SUV y el espacio del baúl es medio. Mayor riesgo individual: el hurto, alto en este modelo. No la recomendamos a quien maneja mucho en destapado."
+      para_quien_si: "Quien busca una SUV usada equipada y segura para ciudad y carretera."
+      para_quien_no: "Quien maneja mucho en caminos destapados."
+      pros_reales: ["Seis airbags y control de estabilidad", "Caja automática de 6 marchas", "Buen equipamiento"]
+      contras:
+        - {componente: "Despeje", descripcion: "172 mm, menos que otras SUV.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Hurto", descripcion: "Buscada para robo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2015, version: "Revolution 2.0 AT", precio_base_cop: 52000000}
+      - {anio: 2014, version: "Revolution 2.0 AT", precio_base_cop: 48600000}
+      - {anio: 2013, version: "Revolution 2.0 AT", precio_base_cop: 45500000}
+      - {anio: 2012, version: "Revolution 2.0 AT", precio_base_cop: 42500000}
+      - {anio: 2011, version: "Revolution 2.0 AT", precio_base_cop: 39700000}
+
+  - modelo: "Sportage"
+    generacion: "Cuarta generación (QL)"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2016-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Nu", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 155, rpm_potencia_max: 6200, torque_nm: 192, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "225/60 R17"}
+    dim: {largo_mm: 4480, ancho_sin_espejos_mm: 1855, alto_mm: 1655, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 172, peso_vacio_kg: 1500, capacidad_baul_litros: 491, capacidad_tanque_galones: 16.4}
+    consumo: {consumo_mixto_kml: 11.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.6, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 8.4, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Sportage de cuarta generación es una SUV compacta muy completa como usada: seis airbags, control de estabilidad, cámara de reversa y un baúl de 491 litros, con un 2.0 atmosférico confiable y repuestos abundantes. Su diseño divide opiniones y el despeje de 172 mm es moderado. En altura y con carga el motor se siente justo. Mayor riesgo individual: el hurto, alto en este modelo. No la recomendamos a quien busca desempeño en montaña con la casa llena."
+      para_quien_si: "Quien busca una SUV usada segura, equipada y confiable."
+      para_quien_no: "Quien busca potencia en altura o despeje alto."
+      pros_reales: ["Seis airbags y control de estabilidad", "Baúl de 491 litros", "Mecánica confiable"]
+      contras:
+        - {componente: "Potencia en altura", descripcion: "Justo con carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Hurto", descripcion: "Buscada para robo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2021, version: "Zenith 2.0 AT", precio_base_cop: 82000000}
+      - {anio: 2020, version: "Zenith 2.0 AT", precio_base_cop: 76700000}
+      - {anio: 2019, version: "Zenith 2.0 AT", precio_base_cop: 71700000}
+      - {anio: 2018, version: "Zenith 2.0 AT", precio_base_cop: 67000000}
+      - {anio: 2017, version: "Zenith 2.0 AT", precio_base_cop: 62700000}
+      - {anio: 2016, version: "Zenith 2.0 AT", precio_base_cop: 58600000}
+
+  - modelo: "Sorento"
+    generacion: "Segunda y tercera generación (XM / UM)"
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2010-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.4 Theta II", cilindraje_cc: 2359, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 172, rpm_potencia_max: 6000, torque_nm: 225, rpm_torque_max: 3750, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "235/60 R18"}
+    dim: {largo_mm: 4780, ancho_sin_espejos_mm: 1890, alto_mm: 1690, distancia_entre_ejes_mm: 2780, distancia_libre_suelo_mm: 185, peso_vacio_kg: 1800, capacidad_baul_litros: 605, capacidad_tanque_galones: 18.5}
+    consumo: {consumo_mixto_kml: 10.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, tapiceria: "Cuero", camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.2, repuestos_y_red: 8.0, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Sorento de segunda y tercera generación es una SUV mediana de siete puestos con buena seguridad, tracción integral y mucho equipo, que como usada cuesta bastante menos que rivales japoneses. Su 2.4 atmosférico es confiable, aunque se queda corto con siete ocupantes en altura y consume. La tercera fila es para niños. Mayor riesgo individual: el consumo con la casa llena. No la recomendamos a quien viaja seguido con siete adultos por montaña."
+      para_quien_si: "Familias que buscan siete puestos y equipamiento completo a precio de usado razonable."
+      para_quien_no: "Quien viaja con siete adultos por montaña."
+      pros_reales: ["Siete puestos con tracción integral", "Seis airbags", "Mucho equipamiento"]
+      contras:
+        - {componente: "Motor con carga", descripcion: "2.4 atmosférico justo con siete ocupantes en altura.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Tercera fila", descripcion: "Solo para niños.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2020, version: "2.4 AT AWD", precio_base_cop: 82000000}
+      - {anio: 2019, version: "2.4 AT AWD", precio_base_cop: 76700000}
+      - {anio: 2018, version: "2.4 AT AWD", precio_base_cop: 71700000}
+      - {anio: 2017, version: "2.4 AT AWD", precio_base_cop: 67000000}
+      - {anio: 2016, version: "2.4 AT AWD", precio_base_cop: 62700000}
+      - {anio: 2015, version: "2.4 AT AWD", precio_base_cop: 58600000}
+      - {anio: 2014, version: "2.4 AT AWD", precio_base_cop: 54800000}
+      - {anio: 2013, version: "2.4 AT AWD", precio_base_cop: 51200000}
+      - {anio: 2012, version: "2.4 AT AWD", precio_base_cop: 47900000}
+      - {anio: 2011, version: "2.4 AT AWD", precio_base_cop: 44800000}
+      - {anio: 2010, version: "2.4 AT AWD", precio_base_cop: 41900000}
