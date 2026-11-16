@@ -346,3 +346,94 @@ modelos:
         - {componente: "Historial", descripcion: "Sin historial local de fiabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: Light FWD 64 kWh, precio_base_cop: 189900000}
+
+  - modelo: Rio Hatchback
+    generacion: Cuarta generación (YB)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2017-09-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.4 MPI", cilindraje_cc: 1368, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 100, rpm_potencia_max: 6000, torque_nm: 133, rpm_torque_max: 4000, aceleracion_0_100_seg: 12.2, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4065, ancho_sin_espejos_mm: 1725, alto_mm: 1450, distancia_entre_ejes_mm: 2580, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1080, capacidad_baul_litros: 325, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.6}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.6, quejas_documentadas: 7.8, recalls: 7.8, repuestos_y_red: 8.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Rio de cuarta generación es uno de los hatchback B más confiables del mercado de usados, con un 1.4 atmosférico sencillo, buena red de repuestos y una reventa alta. Es cómodo en ciudad y gasta poco. Ya no se vende nuevo en Colombia, así que se compra usado. Sus límites son la seguridad de las versiones de entrada, con dos airbags, y un despeje de 150 mm que pide cuidado con los rompemuelles. Mayor riesgo individual: comprar una unidad usada sin historial de mantenimiento. No lo recomendamos sin revisión técnica previa."
+      para_quien_si: "Quien busca un hatchback usado confiable y fácil de revender."
+      para_quien_no: "Quien prioriza seguridad pasiva o necesita despeje alto."
+      pros_reales: ["Mecánica atmosférica confiable", "Reventa alta", "Repuestos abundantes"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags en las versiones de entrada.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Despeje", descripcion: "150 mm: cuidado con rompemuelles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2023, version: Vibrant 1.4 MT, precio_base_cop: 66900000, fecha_precio: 2023-03-01}
+      - {anio: 2022, version: Zenith 1.4 AT, precio_base_cop: 70900000, fecha_precio: 2022-03-01, transmision_tipo: Automática, numero_velocidades: 6, numero_airbags: 6, camara_reversa: true, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
+
+  - modelo: Stonic
+    generacion: Primera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2018-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.4 MPI", cilindraje_cc: 1368, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 100, rpm_potencia_max: 6000, torque_nm: 133, rpm_torque_max: 4000, aceleracion_0_100_seg: 12.6, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "205/55 R17"}
+    dim: {largo_mm: 4140, ancho_sin_espejos_mm: 1760, alto_mm: 1520, distancia_entre_ejes_mm: 2580, distancia_libre_suelo_mm: 183, peso_vacio_kg: 1150, capacidad_baul_litros: 352, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.3}
+    seg: {numero_airbags: 6, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.6, quejas_documentadas: 7.6, recalls: 7.8, repuestos_y_red: 8.2, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Stonic es una SUV subcompacta derivada del Rio, con más despeje (183 mm), seis airbags y la misma mecánica 1.4 atmosférica, sencilla y confiable. Es práctico en ciudad y barato de mantener, con cinco años de garantía. Le falta potencia en altura con carga y el baúl de 352 litros es justo. Frente a rivales más nuevos como Sonet o Fronx se siente básico en equipamiento. Mayor riesgo individual: quedarse corto de potencia en carretera de montaña. No lo recomendamos para viajes frecuentes cargado."
+      para_quien_si: "Quien quiere una SUV pequeña confiable y barata de mantener."
+      para_quien_no: "Quien maneja cargado en montaña o busca mucho equipo."
+      pros_reales: ["Seis airbags", "Mecánica confiable", "Cinco años de garantía"]
+      contras:
+        - {componente: "Potencia", descripcion: "100 hp atmosféricos: justo en altura.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Baúl", descripcion: "352 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Vibrant 1.4 AT, precio_base_cop: 84900000}
+      - {anio: 2025, version: Vibrant 1.4 AT, precio_base_cop: 82900000, fecha_precio: 2025-03-01}
+
+  - modelo: Carnival
+    generacion: Cuarta generación (KA4)
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    fecha_lanzamiento_colombia: 2021-05-01
+    plazas: 8
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "3.5 V6 MPI", cilindraje_cc: 3470, cilindros: 6, valvulas: 24, alimentacion: Atmosférico, potencia_hp: 290, rpm_potencia_max: 6400, torque_nm: 355, rpm_torque_max: 5000, aceleracion_0_100_seg: 8.4, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "235/60 R18"}
+    dim: {largo_mm: 5155, ancho_sin_espejos_mm: 1995, alto_mm: 1775, distancia_entre_ejes_mm: 3090, distancia_libre_suelo_mm: 172, peso_vacio_kg: 2050, capacidad_baul_litros: 627, capacidad_tanque_galones: 19.0}
+    consumo: {consumo_mixto_kml: 9.0, consumo_real_estimado_kml: 7.6}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 5, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 7.8, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Carnival es la mejor opción del mercado para mover ocho personas con comodidad de verdad: puertas laterales corredizas eléctricas, tres filas usables por adultos y un baúl de 627 litros incluso con todos los puestos arriba. El V6 3.5 atmosférico es suave y probado. Sus contras son el tamaño, más de 5,1 metros, un consumo cercano a 7,6 km/l reales y un despeje de 172 mm. Mayor riesgo individual: los parqueaderos estrechos. No la recomendamos a quien parquea en espacios cortos."
+      para_quien_si: "Familias grandes o transporte de personas con confort."
+      para_quien_no: "Quien parquea en espacios cortos o busca bajo consumo."
+      pros_reales: ["Ocho puestos usables por adultos", "Puertas corredizas eléctricas", "Baúl de 627 litros con todas las filas"]
+      contras:
+        - {componente: "Tamaño", descripcion: "5.155 mm de largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Consumo", descripcion: "Alrededor de 7,6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Signature 3.5 V6 AT, precio_base_cop: 259900000}
