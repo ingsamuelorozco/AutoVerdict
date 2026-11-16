@@ -15,7 +15,7 @@ onMounted(ejecutar)
 <template>
   <div class="contenedor pagina">
     <h1 class="titulo-pagina">Créditos de fotos</h1>
-    <p class="entradilla">Usamos solo imágenes de Unsplash, Pexels o Wikimedia Commons, revisadas para que no muestren emblemas, logos ni placas legibles. Las fichas usan siluetas generadas a escala mientras no tengamos una foto verificada del modelo exacto.</p>
+    <p class="entradilla">Usamos solo imágenes con licencia libre de Unsplash, Pexels o Wikimedia Commons. Las fotos del catálogo son de referencia: muestran el modelo, pero la versión, el color o el mercado pueden no coincidir, y pueden verse emblemas o placas. Si un modelo no tiene foto, la ficha usa su silueta generada a escala.</p>
     <EstadoCarga :cargando="cargando" :error="error" @reintentar="ejecutar">
       <ul class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <li v-for="i in datos" :key="i.id" class="tarjeta overflow-hidden">
