@@ -37,6 +37,7 @@ function teclaPanel(e: KeyboardEvent) {
   else if (e.key === 'Home') { e.preventDefault(); enfocar(0) }
   else if (e.key === 'End') { e.preventDefault(); enfocar(-1) }
   else if (e.key === 'Escape') { e.preventDefault(); cerrar(); boton.value?.focus() }
+  else if (e.key === 'Tab') cerrar()
 }
 </script>
 
