@@ -1925,3 +1925,123 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Yaris Sedán"
+  - id: veh-volkswagen-amarok
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/VW_Amarok_3.0_TDI_4Motion_Style_%28II%29_%E2%80%93_f_05072025.jpg/960px-VW_Amarok_3.0_TDI_4Motion_Style_%28II%29_%E2%80%93_f_05072025.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:VW_Amarok_3.0_TDI_4Motion_Style_(II)_%E2%80%93_f_05072025.jpg"
+    ancho: 5834
+    alto: 3103
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Amarok"
+  - id: veh-volkswagen-golf
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Volkswagen_Golf_Style_1.5_Front.jpg/960px-2020_Volkswagen_Golf_Style_1.5_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2020_Volkswagen_Golf_Style_1.5_Front.jpg"
+    ancho: 4946
+    alto: 2523
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Golf"
+  - id: veh-volkswagen-jetta
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/2025_Volkswagen_Jetta_SEL%2C_front_3.28.25.jpg/960px-2025_Volkswagen_Jetta_SEL%2C_front_3.28.25.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Jetta_SEL,_front_3.28.25.jpg"
+    ancho: 2864
+    alto: 1531
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Jetta"
+  - id: veh-volkswagen-nivus
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Volkswagen_Taigo_1X7A0350.jpg/960px-Volkswagen_Taigo_1X7A0350.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Volkswagen_Taigo_1X7A0350.jpg"
+    ancho: 5730
+    alto: 3231
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Nivus"
+  - id: veh-volkswagen-polo
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/VW_Polo_beats_%28VI%29_%E2%80%93_f_03032019.jpg/960px-VW_Polo_beats_%28VI%29_%E2%80%93_f_03032019.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:VW_Polo_beats_(VI)_%E2%80%93_f_03032019.jpg"
+    ancho: 3398
+    alto: 1873
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Polo"
+  - id: veh-volkswagen-saveiro
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/2016_Volkswagen_Saveiro_1.6_Safety.jpg/960px-2016_Volkswagen_Saveiro_1.6_Safety.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Just a Man"
+    licencia: "CC BY 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2016_Volkswagen_Saveiro_1.6_Safety.jpg"
+    ancho: 3000
+    alto: 1840
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Saveiro"
+  - id: veh-volkswagen-t-cross
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/VW_T-Cross_Style_%28Facelift%29_%E2%80%93_f_22022025.jpg/960px-VW_T-Cross_Style_%28Facelift%29_%E2%80%93_f_22022025.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:VW_T-Cross_Style_(Facelift)_%E2%80%93_f_22022025.jpg"
+    ancho: 5804
+    alto: 3301
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen T-Cross"
+  - id: veh-volkswagen-taos
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Volkswagen_Taos_1X7A6750.jpg/960px-Volkswagen_Taos_1X7A6750.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Volkswagen_Taos_1X7A6750.jpg"
+    ancho: 4965
+    alto: 2601
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Taos"
+  - id: veh-volkswagen-tiguan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg/960px-Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Volkswagen_Tiguan_III_IMG_8823_(cropped).jpg"
+    ancho: 5012
+    alto: 2975
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Tiguan"
+  - id: veh-volkswagen-virtus
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png/960px-2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png"
+    proveedor: Wikimedia Commons
+    autor: "DriveSpark"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Volkswagen_Virtus_1.5_GT_(India)_front_view_02.png"
+    ancho: 1920
+    alto: 1152
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Virtus"

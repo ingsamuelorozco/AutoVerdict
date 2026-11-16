@@ -3,6 +3,7 @@ pais_origen: Alemania
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Polo
+    imagen_id: veh-volkswagen-polo
     generacion: AW (MQB A0)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2026, version: GTS 1.4 TSI AT, precio_base_cop: 109900000, motor_descripcion: "1.4 TSI", cilindraje_cc: 1395, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.3, velocidad_maxima_kmh: 210, transmision_tipo: Automática, numero_velocidades: 6, frenos_traseros: Disco, medida_llantas: "205/50 R17", aire_acondicionado: Automático, camara_reversa: true, luces_led: true, llave_inteligente: true, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.6, adas_incluidas: [Frenado autónomo de emergencia]}
 
   - modelo: Virtus
+    imagen_id: veh-volkswagen-virtus
     generacion: MQB A0
     segmento: Sedán B
     carroceria: Sedán
@@ -65,6 +67,7 @@ modelos:
       - {anio: 2026, version: Exclusive 1.4 TSI AT, precio_base_cop: 112900000, motor_descripcion: "1.4 TSI", cilindraje_cc: 1395, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.6, velocidad_maxima_kmh: 205, transmision_tipo: Automática, numero_velocidades: 6, frenos_traseros: Disco, tapiceria: Cuero sintético, aire_acondicionado: Automático, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, pantalla_multimedia_pulgadas: 10.1, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.6, adas_incluidas: [Frenado autónomo de emergencia]}
 
   - modelo: T-Cross
+    imagen_id: veh-volkswagen-t-cross
     generacion: MQB A0
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -96,6 +99,7 @@ modelos:
       - {anio: 2024, version: Comfortline 1.6 AT, precio_base_cop: 101900000, fecha_precio: 2024-03-01}
 
   - modelo: Nivus
+    imagen_id: veh-volkswagen-nivus
     generacion: MQB A0
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -126,6 +130,7 @@ modelos:
       - {anio: 2026, version: Highline 1.0 TSI AT, precio_base_cop: 119900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, medida_llantas: "205/55 R17", adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril]}
 
   - modelo: Taos
+    imagen_id: veh-volkswagen-taos
     generacion: MQB A1
     segmento: SUV Compacta
     carroceria: SUV
@@ -156,6 +161,7 @@ modelos:
       - {anio: 2026, version: Highline 1.4 TSI AT, precio_base_cop: 154900000, tapiceria: Cuero sintético, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "215/50 R18", adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
 
   - modelo: Tiguan
+    imagen_id: veh-volkswagen-tiguan
     generacion: Tiguan Allspace (MQB)
     segmento: SUV Mediana
     carroceria: SUV
@@ -186,6 +192,7 @@ modelos:
       - {anio: 2026, version: Allspace Elegance 2.0 TSI 4Motion, precio_base_cop: 199900000}
 
   - modelo: Jetta
+    imagen_id: veh-volkswagen-jetta
     generacion: A7
     segmento: Sedán C
     carroceria: Sedán
@@ -216,6 +223,7 @@ modelos:
       - {anio: 2026, version: GLI 2.0 TSI DSG, precio_base_cop: 169900000, motor_descripcion: "2.0 TSI", cilindraje_cc: 1984, potencia_hp: 228, rpm_potencia_max: 5000, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 6.5, velocidad_maxima_kmh: 250, transmision_tipo: Doble embrague húmedo DSG, numero_velocidades: 7, suspension_trasera: Multibrazo, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, medida_llantas: "225/40 R18", octanaje_minimo_recomendado: 95, tipo_combustible: Gasolina Extra, consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1440, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Control crucero adaptativo, Asistente de mantenimiento de carril]}
 
   - modelo: Golf
+    imagen_id: veh-volkswagen-golf
     generacion: Mk7.5 / Mk8
     segmento: Hatchback C
     carroceria: Hatchback
@@ -246,6 +254,7 @@ modelos:
       - {anio: 2025, version: GTI 2.0 TSI DSG, precio_base_cop: 199900000, fecha_precio: 2025-02-01, segmento: Deportivo, motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: Doble embrague húmedo DSG, numero_velocidades: 7, tipo_combustible: Gasolina Extra, octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Inalámbrico, tapiceria: Cuero, llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
 
   - modelo: Amarok
+    imagen_id: veh-volkswagen-amarok
     generacion: Primera generación (V6)
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -276,6 +285,7 @@ modelos:
       - {anio: 2026, version: Comfortline 2.0 TDI MT 4x4, precio_base_cop: 179900000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: Manual, numero_velocidades: 6, traccion: 4x4, medida_llantas: "245/65 R17", tapiceria: Tela, aire_acondicionado: Manual, consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
 
   - modelo: Saveiro
+    imagen_id: veh-volkswagen-saveiro
     generacion: G7
     segmento: Pickup Compacta
     carroceria: Pickup
