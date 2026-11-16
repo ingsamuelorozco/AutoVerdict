@@ -31,4 +31,9 @@
   <path fill="url(#vidrio)" d="M424 206C466 174 512 150 566 139C622 130 690 132 736 146C772 158 800 178 822 198Z"/>
   <path fill="#fff" opacity=".18" d="M470 196C500 172 530 156 566 148L600 146 540 196Z"/>
   <path d="M652 136 640 201" stroke="#e8ebee" stroke-width="7"/>
+
+  <path fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="2" d="M140 262C330 254 640 250 944 250"/>
+  <path fill="none" stroke="#9ea4ab" stroke-width="1.5" d="M300 290C450 287 650 286 830 288"/>
+  <path fill="none" stroke="#a8aeb4" stroke-width="2" d="M430 210 446 330M650 204 646 330"/>
+  <rect x="560" y="226" width="44" height="7" rx="3.5" fill="#b8bdc2"/>
 </svg>
