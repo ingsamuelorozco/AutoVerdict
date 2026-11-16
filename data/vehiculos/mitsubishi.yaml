@@ -3,6 +3,7 @@ pais_origen: Japón
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: L200
+    imagen_id: veh-mitsubishi-l200
     generacion: Sexta generación (Triton)
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2026, version: GLS 2.4 AT 4x4, precio_base_cop: 179900000, tapiceria: Cuero sintético, llave_inteligente: true}
 
   - modelo: Montero Sport
+    imagen_id: veh-mitsubishi-montero-sport
     generacion: Tercera generación (actualización 2020)
     segmento: SUV Grande
     carroceria: SUV
@@ -66,6 +68,7 @@ modelos:
       - {anio: 2024, version: GLS 2.4 AT 4x4, precio_base_cop: 199900000, fecha_precio: 2024-03-01}
 
   - modelo: Outlander
+    imagen_id: veh-mitsubishi-outlander
     generacion: Cuarta generación
     segmento: SUV Mediana
     carroceria: SUV
@@ -98,6 +101,7 @@ modelos:
       - {anio: 2026, version: GLS 2.5 CVT AWD, precio_base_cop: 189900000}
 
   - modelo: Eclipse Cross
+    imagen_id: veh-mitsubishi-eclipse-cross
     generacion: Primera generación (actualización 2021)
     segmento: SUV Compacta
     carroceria: SUV
@@ -130,6 +134,7 @@ modelos:
       - {anio: 2026, version: GLS 1.5T CVT AWD, precio_base_cop: 149900000, traccion: AWD, peso_vacio_kg: 1530, consumo_mixto_kml: 12.8, consumo_real_estimado_kml: 10.8}
 
   - modelo: Xpander
+    imagen_id: veh-mitsubishi-xpander
     generacion: Primera generación (actualización 2022)
     segmento: SUV Compacta
     carroceria: SUV

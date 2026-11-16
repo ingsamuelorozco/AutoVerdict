@@ -2357,3 +2357,63 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda CX-60"
+  - id: veh-mitsubishi-eclipse-cross
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/2023_Mitsubishi_Eclipse_Cross_SEL_Touring%2C_front_left.jpg/960px-2023_Mitsubishi_Eclipse_Cross_SEL_Touring%2C_front_left.jpg"
+    proveedor: Wikimedia Commons
+    autor: "MercurySable99"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2023_Mitsubishi_Eclipse_Cross_SEL_Touring,_front_left.jpg"
+    ancho: 4286
+    alto: 2100
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mitsubishi Eclipse Cross"
+  - id: veh-mitsubishi-l200
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Mitsubishi_Triton_LC_2.4_GLS_2WD_Blade_Silver_Metallic_%28cropped%29.jpg/960px-Mitsubishi_Triton_LC_2.4_GLS_2WD_Blade_Silver_Metallic_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Ethan Llamas"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mitsubishi_Triton_LC_2.4_GLS_2WD_Blade_Silver_Metallic_(cropped).jpg"
+    ancho: 3666
+    alto: 1999
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mitsubishi L200"
+  - id: veh-mitsubishi-montero-sport
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Mitsubishi_Pajero_Sport_%283rd_generation%29_1X7A0409.jpg/960px-Mitsubishi_Pajero_Sport_%283rd_generation%29_1X7A0409.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_(3rd_generation)_1X7A0409.jpg"
+    ancho: 4105
+    alto: 2396
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mitsubishi Montero Sport"
+  - id: veh-mitsubishi-outlander
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2025_Mitsubishi_Outlander_PHEV_%28fourth_generation%29_IMG_3129.jpg/960px-2025_Mitsubishi_Outlander_PHEV_%28fourth_generation%29_IMG_3129.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Mitsubishi_Outlander_PHEV_(fourth_generation)_IMG_3129.jpg"
+    ancho: 5417
+    alto: 3344
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mitsubishi Outlander"
+  - id: veh-mitsubishi-xpander
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/2018_Mitsubishi_Xpander_Ultimate_1.5_NC1W_%2820190623%29.jpg/960px-2018_Mitsubishi_Xpander_Ultimate_1.5_NC1W_%2820190623%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "オーバードライブ83"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Mitsubishi_Xpander_Ultimate_1.5_NC1W_(20190623).jpg"
+    ancho: 4563
+    alto: 2712
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mitsubishi Xpander"
