@@ -1,0 +1,129 @@
+marca: Volvo
+pais_origen: Suecia
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: EX30
+    generacion: Primera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2024-04-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico trasero 200 kW", alimentacion: Eléctrico, potencia_hp: 272, torque_nm: 343, aceleracion_0_100_seg: 5.3, velocidad_maxima_kmh: 180, potencia_electrica_kw: 200, capacidad_bateria_kwh: 69, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 153}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Trasera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "245/45 R19"}
+    dim: {largo_mm: 4233, ancho_sin_espejos_mm: 1837, alto_mm: 1555, distancia_entre_ejes_mm: 2650, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1850, capacidad_baul_litros: 318, autonomia_estimada_km: 476, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 16.0, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000, garantia_bateria_anos: 8, garantia_bateria_km: 160000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 6.6, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 6.6, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el EX30 es el Volvo más pequeño y el eléctrico premium más accesible del mercado, con 272 hp, 0 a 100 en 5,3 s, unos 476 km de autonomía WLTP y la seguridad característica de la marca. Todo se controla desde la pantalla central, sin tablero frente al conductor, lo que no a todos convence, y el baúl de 318 litros es pequeño. Mayor riesgo individual: fallas de software que dependen de actualizaciones (opinión editorial). No lo recomendamos a quien necesita baúl grande."
+      para_quien_si: "Quien quiere un eléctrico rápido, seguro y premium para ciudad y carretera."
+      para_quien_no: "Familias que necesitan baúl grande o quien prefiere botones físicos."
+      pros_reales: ["272 hp y 0 a 100 en 5,3 s", "Autonomía WLTP cercana a 476 km", "Ayudas de manejo completas"]
+      contras:
+        - {componente: "Baúl", descripcion: "318 litros: pequeño para viajes en familia.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Mandos", descripcion: "Casi todo depende de la pantalla central.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Core 69 kWh, precio_base_cop: 189900000}
+      - {anio: 2026, version: Plus 69 kWh, precio_base_cop: 209900000, techo_corredizo: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+
+  - modelo: XC40
+    generacion: Primera generación (actualización 2023)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Bélgica
+    fecha_lanzamiento_colombia: 2018-07-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 turbo B4 + MHEV 48V", cilindraje_cc: 1969, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 197, rpm_potencia_max: 5000, torque_nm: 300, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.4, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 10}
+    chasis: {transmision_tipo: Doble embrague, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "235/50 R19"}
+    dim: {largo_mm: 4440, ancho_sin_espejos_mm: 1863, alto_mm: 1652, distancia_entre_ejes_mm: 2702, distancia_libre_suelo_mm: 211, peso_vacio_kg: 1650, capacidad_baul_litros: 452, capacidad_tanque_galones: 14.3}
+    consumo: {consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 11.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.8, repuestos_y_red: 6.6, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la XC40 es la SUV premium compacta más equilibrada para el uso diario: buen despeje de 211 mm, interior práctico y bien terminado, siete airbags y un 2.0 turbo de 197 hp con apoyo híbrido ligero que anda bien en altura. Frente a X1 o GLA es más cómoda y menos deportiva. El mantenimiento en concesionario es caro y la red es más pequeña que la de las marcas alemanas. Mayor riesgo individual: el costo de reparación fuera de garantía. No la recomendamos a quien busca un premium barato de mantener."
+      para_quien_si: "Quien quiere una SUV premium compacta cómoda, segura y práctica."
+      para_quien_no: "Quien busca costo de mantenimiento bajo o manejo deportivo."
+      pros_reales: ["Despeje de 211 mm", "Interior práctico y bien terminado", "Seguridad activa completa"]
+      contras:
+        - {componente: "Costo de servicio", descripcion: "Mantenimiento en concesionario caro.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Red de posventa", descripcion: "Menos puntos de servicio que las marcas alemanas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: B4 Plus, precio_base_cop: 209900000}
+      - {anio: 2025, version: B4 Plus, precio_base_cop: 199900000, fecha_precio: 2025-03-01}
+
+  - modelo: XC60
+    generacion: Segunda generación (actualización 2022)
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Suecia
+    fecha_lanzamiento_colombia: 2017-11-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 turbo B5 + MHEV 48V", cilindraje_cc: 1969, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 250, rpm_potencia_max: 5400, torque_nm: 350, rpm_torque_max: 1800, aceleracion_0_100_seg: 6.9, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 10}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: AWD, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "235/55 R19"}
+    dim: {largo_mm: 4708, ancho_sin_espejos_mm: 1902, alto_mm: 1658, distancia_entre_ejes_mm: 2865, distancia_libre_suelo_mm: 216, peso_vacio_kg: 1900, capacidad_baul_litros: 483, capacidad_tanque_galones: 18.8}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.8, repuestos_y_red: 6.6, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la XC60 es una de las SUV medianas premium más cómodas y seguras, con tracción integral, 250 hp, caja automática de 8 velocidades y un interior de mucha calidad. Viene muy completa desde la versión de entrada. Su costo de propiedad es alto: mantenimiento caro, llantas de rin 19 o 20 y una red de servicio más pequeña que la de BMW o Mercedes. Mayor riesgo individual: el costo de reparaciones fuera de garantía. No la recomendamos a quien no puede asumir un mantenimiento premium."
+      para_quien_si: "Familias que priorizan seguridad y confort en una SUV premium."
+      para_quien_no: "Quien busca bajo costo de propiedad."
+      pros_reales: ["Tracción integral y 250 hp", "Seguridad activa muy completa", "Interior de alta calidad"]
+      contras:
+        - {componente: "Costo de propiedad", descripcion: "Mantenimiento, llantas y seguro caros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Red de posventa", descripcion: "Menos puntos de servicio que sus rivales alemanes.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: B5 AWD Plus, precio_base_cop: 289900000}
+      - {anio: 2026, version: B5 AWD Ultra, precio_base_cop: 319900000, medida_llantas: "255/45 R20"}
+
+  - modelo: XC90
+    generacion: Segunda generación (actualización 2025)
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Suecia
+    fecha_lanzamiento_colombia: 2015-09-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 turbo B6 + MHEV 48V", cilindraje_cc: 1969, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 300, rpm_potencia_max: 5400, torque_nm: 420, rpm_torque_max: 2100, aceleracion_0_100_seg: 6.7, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 10}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: AWD, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "275/45 R20"}
+    dim: {largo_mm: 4953, ancho_sin_espejos_mm: 1931, alto_mm: 1776, distancia_entre_ejes_mm: 2984, distancia_libre_suelo_mm: 238, peso_vacio_kg: 2100, capacidad_baul_litros: 302, capacidad_tanque_galones: 18.8}
+    consumo: {consumo_mixto_kml: 9.5, consumo_real_estimado_kml: 8.0}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 11.2, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [turbo_pequeno_pesado]
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 5.8}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la XC90 es una SUV de siete puestos de lujo con una tercera fila usable por adultos bajos, despeje de 238 mm y la seguridad más completa del segmento. Mueve 2,1 toneladas con un 2.0 turbo de 300 hp con apoyo híbrido ligero, suficiente pero exigido con la casa llena. Con siete puestos arriba el baúl queda en 302 litros. El costo de propiedad es muy alto. Mayor riesgo individual: el desgaste de un motor de cuatro cilindros exigido en un carro tan pesado (opinión editorial). No la recomendamos a quien busca bajo costo de uso."
+      para_quien_si: "Familias grandes que priorizan seguridad y confort premium."
+      para_quien_no: "Quien busca bajo costo de propiedad o un motor de muchos cilindros."
+      pros_reales: ["Siete puestos con tercera fila usable", "Seguridad muy completa", "Despeje de 238 mm"]
+      contras:
+        - {componente: "Costo de propiedad", descripcion: "Mantenimiento, llantas de rin 20 y seguro muy caros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Motor para su peso", descripcion: "2.0 turbo para 2,1 toneladas: exigido con siete ocupantes.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: B6 AWD Plus, precio_base_cop: 389900000}
+      - {anio: 2026, version: B6 AWD Ultra, precio_base_cop: 429900000, medida_llantas: "275/40 R21"}
