@@ -15,12 +15,15 @@ import SelectorMultiple from '@/components/SelectorMultiple.vue'
 import type { Modelo, Paginado, PaginadoModelos, Tarjeta } from '@/lib/tipos'
 import { formatoNumero } from '@/composables/useFormato'
 import { OPC } from '@/lib/opciones'
+import { useCatalogo } from '@/stores/catalogo'
 
 useHead({ title: 'Buscar vehículo' })
 const route = useRoute()
 const router = useRouter()
 const aj = useAjustes()
 const fav = useFavoritos()
+const catalogo = useCatalogo()
+onMounted(() => catalogo.cargar())
 
 const MULTI = ['marca', 'segmento', 'carroceria', 'combustible', 'transmision', 'traccion', 'adas', 'pais'] as const
 const SIMPLE = ['q', 'precio_min', 'precio_max', 'anio_min', 'anio_max', 'plazas', 'despeje_min', 'baul_min', 'consumo_min', 'fiabilidad_min', 'sort', 'page'] as const
@@ -111,7 +114,7 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
 
     <div class="mt-10 grid gap-10 lg:grid-cols-[18rem_1fr]">
       <aside :class="['grid content-start gap-5 text-sm lg:border-r lg:border-linea lg:pr-8', panel ? '' : 'hidden lg:grid']" aria-label="Filtros">
-        <SelectorMultiple v-for="k in MULTI" :key="k" v-model="filtros[k]" :etiqueta="ETIQUETAS[k]" :opciones="OPC[k]" @cambio="recargar" />
+        <SelectorMultiple v-for="k in MULTI" :key="k" v-model="filtros[k]" :etiqueta="ETIQUETAS[k]" :opciones="k === 'marca' ? catalogo.marcas : OPC[k]" @cambio="recargar" />
         <fieldset>
           <legend class="etiqueta mb-2 !text-tinta">Precio base ({{ aj.moneda }})</legend>
           <div class="grid grid-cols-2 gap-2">

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useCatalogo } from '@/stores/catalogo'
 import { onMounted, ref, watch } from 'vue'
 import { useHead } from '@unhead/vue'
 import { useDebounceFn } from '@vueuse/core'
@@ -27,7 +28,8 @@ const { datos, cargando, error, ejecutar } = useCarga(() => api.get<{ total: num
 const buscar = useDebounceFn(ejecutar, 150)
 onMounted(ejecutar)
 watch([marca, minimo, maximo, mant, dep, soloRojas], ejecutar)
-const MARCAS = ['Audi', 'BMW', 'BYD', 'Chery', 'Chevrolet', 'Ford', 'Honda', 'Hyundai', 'Kia', 'Mazda', 'Mercedes-Benz', 'Nissan', 'Peugeot', 'Renault', 'Subaru', 'Suzuki', 'Toyota', 'Volkswagen']
+const catalogo = useCatalogo()
+onMounted(() => catalogo.cargar())
 </script>
 
 <template>
@@ -40,7 +42,7 @@ const MARCAS = ['Audi', 'BMW', 'BYD', 'Chery', 'Chevrolet', 'Ford', 'Honda', 'Hy
       <input v-model="q" type="search" class="campo pl-11" placeholder="Busca un modelo: captiva, hilux, fiesta…" @input="buscar" />
     </label>
     <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-3 text-sm">
-      <select v-model="marca" class="campo-mini min-h-[44px] px-3" aria-label="Marca"><option value="">Todas las marcas</option><option v-for="m in MARCAS" :key="m">{{ m }}</option></select>
+      <select v-model="marca" class="campo-mini min-h-[44px] px-3" aria-label="Marca"><option value="">Todas las marcas</option><option v-for="m in catalogo.marcas" :key="m">{{ m }}</option></select>
       <label class="flex items-center gap-1">Puntaje <input v-model.number="minimo" type="number" min="1" max="10" step="0.5" class="campo-mini w-16 num" aria-label="Puntaje mínimo" /> a <input v-model.number="maximo" type="number" min="1" max="10" step="0.5" class="campo-mini w-16 num" aria-label="Puntaje máximo" /></label>
       <select v-model="mant" class="campo-mini min-h-[44px] px-3" aria-label="Costo de mantenimiento"><option value="">Mantenimiento: todos</option><option v-for="m in ['Bajo', 'Moderado', 'Alto', 'Muy Alto']" :key="m">{{ m }}</option></select>
       <select v-model="dep" class="campo-mini min-h-[44px] px-3" aria-label="Retención de valor"><option value="">Reventa: todas</option><option v-for="m in ['Baja - Alta reventa', 'Media', 'Alta - Se desvaloriza rápido']" :key="m">{{ m }}</option></select>
