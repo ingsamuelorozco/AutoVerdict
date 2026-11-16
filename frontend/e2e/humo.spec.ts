@@ -8,10 +8,10 @@ test.beforeEach(({ page }) => {
 })
 test.afterEach(() => expect(errores, errores.join('\n')).toEqual([]))
 
-test('la landing muestra el titular y las alertas rojas', async ({ page }) => {
+test('la landing muestra el titular y el buscador rápido', async ({ page }) => {
   await page.goto('/')
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Precio & verdad')
-  await expect(page.getByRole('heading', { name: /Alertas rojas/ })).toBeVisible()
+  await expect(page.getByRole('heading', { name: /Encuentra tu carro/i })).toBeVisible()
 })
 
 test('el buscador encuentra la Captiva sin tilde y con tilde', async ({ page }) => {
