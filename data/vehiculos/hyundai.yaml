@@ -411,3 +411,478 @@ modelos:
       - {anio: 2025, version: N 2.0T DCT, precio_base_cop: 219900000, fecha_precio: 2025-02-01}
       - {anio: 2023, version: "N 2.0T DCT", precio_base_cop: 173200000}
       - {anio: 2024, version: "N 2.0T DCT", precio_base_cop: 185300000}
+
+  - modelo: "Atos"
+    generacion: "Atos Prime"
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2000-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.1 SOHC", cilindraje_cc: 1086, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 63, rpm_potencia_max: 5500, torque_nm: 96, rpm_torque_max: 3500, aceleracion_0_100_seg: 14.5, velocidad_maxima_kmh: 155, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.7, medida_llantas: "155/70 R13"}
+    dim: {largo_mm: 3565, ancho_sin_espejos_mm: 1525, alto_mm: 1570, distancia_entre_ejes_mm: 2380, distancia_libre_suelo_mm: 160, peso_vacio_kg: 860, capacidad_baul_litros: 263, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 16.5}
+    seg: {numero_airbags: 0, control_estabilidad_esc: false, frenos_abs_ebd: false, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 8.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Atos es un citadino alto y cuadrado, con mucho espacio para la cabeza y un 1.1 que consume poco, muy usado como primer carro y como taxi pequeño. Sus repuestos son baratos y la mecánica es sencilla. Como usado de muchos años su seguridad es mínima: sin airbags ni ABS en la mayoría de unidades, y su carrocería alta lo hace inestable con viento. Mayor riesgo individual: un choque sin protección. No lo recomendamos para carretera."
+      para_quien_si: "Quien busca un citadino usado barato de comprar y mantener."
+      para_quien_no: "Quien viaja por carretera o lleva familia con frecuencia."
+      pros_reales: ["Consumo bajo", "Mucho espacio para la cabeza", "Repuestos baratos"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Sin airbags ni ABS en la mayoría de unidades.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Crítica}
+        - {componente: "Estabilidad", descripcion: "Carrocería alta: sensible al viento.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2011, version: "Prime 1.1 MT", precio_base_cop: 16000000}
+      - {anio: 2010, version: "Prime 1.1 MT", precio_base_cop: 15000000}
+      - {anio: 2009, version: "Prime 1.1 MT", precio_base_cop: 14000000}
+      - {anio: 2008, version: "Prime 1.1 MT", precio_base_cop: 13100000}
+      - {anio: 2007, version: "Prime 1.1 MT", precio_base_cop: 12200000}
+      - {anio: 2006, version: "Prime 1.1 MT", precio_base_cop: 11400000}
+      - {anio: 2005, version: "Prime 1.1 MT", precio_base_cop: 10700000}
+      - {anio: 2004, version: "Prime 1.1 MT", precio_base_cop: 10500000}
+      - {anio: 2003, version: "Prime 1.1 MT", precio_base_cop: 10500000}
+      - {anio: 2002, version: "Prime 1.1 MT", precio_base_cop: 10500000}
+      - {anio: 2001, version: "Prime 1.1 MT", precio_base_cop: 10500000}
+      - {anio: 2000, version: "Prime 1.1 MT", precio_base_cop: 10500000}
+
+  - modelo: "i10"
+    generacion: "Primera generación (PA)"
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: India
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2008-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.1 iRDE", cilindraje_cc: 1086, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 66, rpm_potencia_max: 5500, torque_nm: 99, rpm_torque_max: 3500, aceleracion_0_100_seg: 14.5, velocidad_maxima_kmh: 155, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.7, medida_llantas: "155/70 R13"}
+    dim: {largo_mm: 3585, ancho_sin_espejos_mm: 1595, alto_mm: 1550, distancia_entre_ejes_mm: 2380, distancia_libre_suelo_mm: 165, peso_vacio_kg: 900, capacidad_baul_litros: 225, capacidad_tanque_galones: 9.2}
+    consumo: {consumo_mixto_kml: 17.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 8.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el i10 de primera generación es un citadino práctico, con buen espacio interior para su tamaño, consumo bajo y una mecánica sencilla que da poca guerra. Como usado se consigue barato y es fácil de mantener. Es lento en carretera y su seguridad se queda en dos airbags en las mejores versiones, sin control de estabilidad. El aislamiento acústico es pobre. Mayor riesgo individual: la protección en un choque en carretera. No lo recomendamos para viajes largos."
+      para_quien_si: "Quien busca un citadino usado barato de comprar y mantener."
+      para_quien_no: "Quien viaja por carretera o lleva familia con frecuencia."
+      pros_reales: ["Consumo bajo", "Espacio interior bueno para su tamaño", "Mecánica sencilla"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Hasta dos airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Ruido", descripcion: "Cabina ruidosa en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2013, version: "1.1 MT", precio_base_cop: 22000000}
+      - {anio: 2012, version: "1.1 MT", precio_base_cop: 20600000}
+      - {anio: 2011, version: "1.1 MT", precio_base_cop: 19200000}
+      - {anio: 2010, version: "1.1 MT", precio_base_cop: 18000000}
+      - {anio: 2009, version: "1.1 MT", precio_base_cop: 16800000}
+      - {anio: 2008, version: "1.1 MT", precio_base_cop: 15700000}
+
+  - modelo: "Getz"
+    generacion: "Primera generación (TB)"
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2004-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.4 Alpha", cilindraje_cc: 1399, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 96, rpm_potencia_max: 6000, torque_nm: 125, rpm_torque_max: 3200, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.8, medida_llantas: "175/65 R14"}
+    dim: {largo_mm: 3825, ancho_sin_espejos_mm: 1665, alto_mm: 1490, distancia_entre_ejes_mm: 2455, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1000, capacidad_baul_litros: 254, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 14.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.0, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.2, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Getz es un hatchback pequeño y robusto, con un 1.4 sencillo, buena altura interior y repuestos baratos, muy popular como primer carro en la década de 2000. Como usado de más de quince años se consigue barato, pero su seguridad es limitada, con dos airbags como máximo y sin control de estabilidad. Con la edad aparecen desgastes en suspensión y embrague. Mayor riesgo individual: la protección en un choque. No lo recomendamos para viajes por carretera con niños."
+      para_quien_si: "Quien busca un hatchback usado barato y robusto."
+      para_quien_no: "Quien prioriza seguridad."
+      pros_reales: ["Mecánica sencilla y robusta", "Repuestos baratos", "Precio de usado bajo"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Hasta dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Edad", descripcion: "Suspensión y embrague cansados.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2011, version: "1.4 MT", precio_base_cop: 19000000}
+      - {anio: 2010, version: "1.4 MT", precio_base_cop: 17800000}
+      - {anio: 2009, version: "1.4 MT", precio_base_cop: 16600000}
+      - {anio: 2008, version: "1.4 MT", precio_base_cop: 15500000}
+      - {anio: 2007, version: "1.4 MT", precio_base_cop: 14500000}
+      - {anio: 2006, version: "1.4 MT", precio_base_cop: 13600000}
+      - {anio: 2005, version: "1.4 MT", precio_base_cop: 12700000}
+      - {anio: 2004, version: "1.4 MT", precio_base_cop: 11900000}
+
+  - modelo: "Accent"
+    generacion: "MC (Accent Vision)"
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2006-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.4 Alpha", cilindraje_cc: 1399, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 95, rpm_potencia_max: 6000, torque_nm: 125, rpm_torque_max: 4700, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.0, medida_llantas: "175/70 R14"}
+    dim: {largo_mm: 4280, ancho_sin_espejos_mm: 1695, alto_mm: 1470, distancia_entre_ejes_mm: 2500, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1070, capacidad_baul_litros: 389, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 14.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.0, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Accent Vision fue el sedán de entrada de Hyundai durante buena parte de la década de 2000, muy usado como taxi y carro de trabajo. Su 1.4 es sencillo, consume poco y los repuestos son baratos. Es básico, la seguridad se queda en dos airbags como máximo y muchas unidades vienen de servicio público con kilometrajes muy altos. Mayor riesgo individual: comprar una unidad muy trabajada sin revisión. No lo recomendamos sin revisar historial y kilometraje real."
+      para_quien_si: "Quien busca un sedán usado barato y fácil de mantener."
+      para_quien_no: "Quien prioriza seguridad o confort."
+      pros_reales: ["Consumo bajo", "Repuestos baratos", "Baúl de 389 litros"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Hasta dos airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Kilometraje", descripcion: "Muchas unidades fueron taxi.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2011, version: "Vision 1.4 MT", precio_base_cop: 20000000}
+      - {anio: 2010, version: "Vision 1.4 MT", precio_base_cop: 18700000}
+      - {anio: 2009, version: "Vision 1.4 MT", precio_base_cop: 17500000}
+      - {anio: 2008, version: "Vision 1.4 MT", precio_base_cop: 16300000}
+      - {anio: 2007, version: "Vision 1.4 MT", precio_base_cop: 15300000}
+      - {anio: 2006, version: "Vision 1.4 MT", precio_base_cop: 14300000}
+
+  - modelo: "Accent"
+    generacion: "RB (i25)"
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2012-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.4 Gamma", cilindraje_cc: 1396, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 107, rpm_potencia_max: 6300, torque_nm: 137, rpm_torque_max: 4200, aceleracion_0_100_seg: 11.8, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4370, ancho_sin_espejos_mm: 1700, alto_mm: 1457, distancia_entre_ejes_mm: 2570, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1100, capacidad_baul_litros: 465, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 15.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Accent RB, vendido también como i25, es un sedán de entrada bien construido, con un 1.4 eficiente, baúl de 465 litros y buena reputación de confiabilidad. Se usó mucho como taxi y en plataformas. Es cómodo en ciudad y barato de mantener. Su seguridad se queda en dos airbags sin control de estabilidad en la mayoría de versiones y el despeje de 150 mm pide cuidado. Mayor riesgo individual: kilometraje alto en unidades de servicio. No lo recomendamos sin revisar el uso previo."
+      para_quien_si: "Quien busca un sedán usado confiable y económico."
+      para_quien_no: "Quien prioriza seguridad o despeje alto."
+      pros_reales: ["Motor confiable y eficiente", "Baúl de 465 litros", "Repuestos baratos"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags en la mayoría de versiones.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Kilometraje", descripcion: "Muchas unidades vienen de plataforma o taxi.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2017, version: "i25 1.4 MT", precio_base_cop: 36000000}
+      - {anio: 2016, version: "i25 1.4 MT", precio_base_cop: 33700000}
+      - {anio: 2015, version: "i25 1.4 MT", precio_base_cop: 31500000}
+      - {anio: 2014, version: "i25 1.4 MT", precio_base_cop: 29400000}
+      - {anio: 2013, version: "i25 1.4 MT", precio_base_cop: 27500000}
+      - {anio: 2012, version: "i25 1.4 MT", precio_base_cop: 25700000}
+
+  - modelo: "Accent"
+    generacion: "HC"
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2018-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 Gamma", cilindraje_cc: 1591, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 121, rpm_potencia_max: 6300, torque_nm: 151, rpm_torque_max: 4850, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4385, ancho_sin_espejos_mm: 1729, alto_mm: 1460, distancia_entre_ejes_mm: 2580, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1150, capacidad_baul_litros: 387, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 15.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Manual", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.6, quejas_documentadas: 7.6, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Accent HC mejoró mucho la seguridad del modelo, con seis airbags y control de estabilidad en las versiones más vendidas, y conserva la mecánica 1.6 confiable y económica de la marca. Es cómodo, silencioso para su segmento y barato de mantener. Su baúl de 387 litros es menor que el de la generación anterior y el despeje de 150 mm obliga a pasar despacio los rompemuelles. Mayor riesgo individual: unidades de plataforma con mucho uso. No lo recomendamos sin revisar el historial."
+      para_quien_si: "Quien busca un sedán usado seguro, confiable y económico."
+      para_quien_no: "Quien necesita baúl grande o despeje alto."
+      pros_reales: ["Seis airbags y control de estabilidad", "Mecánica confiable", "Consumo bajo"]
+      contras:
+        - {componente: "Despeje", descripcion: "150 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Kilometraje", descripcion: "Muchas unidades vienen de plataforma.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2023, version: "1.6 AT", precio_base_cop: 62000000}
+      - {anio: 2022, version: "1.6 AT", precio_base_cop: 58000000}
+      - {anio: 2021, version: "1.6 AT", precio_base_cop: 54200000}
+      - {anio: 2020, version: "1.6 AT", precio_base_cop: 50700000}
+      - {anio: 2019, version: "1.6 AT", precio_base_cop: 47400000}
+      - {anio: 2018, version: "1.6 AT", precio_base_cop: 44300000}
+
+  - modelo: "Elantra"
+    generacion: "MD"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2012-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 Nu", cilindraje_cc: 1797, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 148, rpm_potencia_max: 6500, torque_nm: 178, rpm_torque_max: 4700, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 195, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4530, ancho_sin_espejos_mm: 1775, alto_mm: 1445, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1250, capacidad_baul_litros: 420, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 13.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.2, repuestos_y_red: 8.2, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Elantra de quinta generación es un sedán mediano con buen equipamiento, seis airbags y un diseño que envejeció bien. Como usado ofrece mucho por su precio. Su 1.8 es eficiente y confiable, aunque la suspensión trasera de barra de torsión lo hace menos cómodo en calles rotas. Su despeje de 150 mm pide cuidado. Mayor riesgo individual: desgaste de suspensión por calles en mal estado. No lo recomendamos sin revisar el tren delantero."
+      para_quien_si: "Quien busca un sedán mediano usado bien equipado a precio contenido."
+      para_quien_no: "Quien maneja mucho en calles rotas."
+      pros_reales: ["Seis airbags y control de estabilidad", "Buen equipamiento", "Motor eficiente"]
+      contras:
+        - {componente: "Suspensión", descripcion: "Firme en calles rotas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Despeje", descripcion: "150 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2016, version: "1.8 AT", precio_base_cop: 47000000}
+      - {anio: 2015, version: "1.8 AT", precio_base_cop: 43900000}
+      - {anio: 2014, version: "1.8 AT", precio_base_cop: 41100000}
+      - {anio: 2013, version: "1.8 AT", precio_base_cop: 38400000}
+      - {anio: 2012, version: "1.8 AT", precio_base_cop: 35900000}
+
+  - modelo: "Tucson"
+    generacion: "Primera generación (JM)"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2005-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Beta", cilindraje_cc: 1975, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 141, rpm_potencia_max: 6000, torque_nm: 184, rpm_torque_max: 4500, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "215/65 R16"}
+    dim: {largo_mm: 4325, ancho_sin_espejos_mm: 1830, alto_mm: 1730, distancia_entre_ejes_mm: 2630, distancia_libre_suelo_mm: 195, peso_vacio_kg: 1500, capacidad_baul_litros: 644, capacidad_tanque_galones: 15.3}
+    consumo: {consumo_mixto_kml: 10.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 8.2, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Tucson de primera generación es una SUV compacta sencilla y robusta, con tracción 4x4, despeje de 195 mm y un baúl muy amplio, que hoy se consigue a precio bajo. Su 2.0 es conocido por cualquier taller y los repuestos abundan. Como usada de más de quince años, revisar cardanes, transferencia y suspensión es clave, y la seguridad se queda en dos airbags. Mayor riesgo individual: desgaste del sistema 4x4. No la recomendamos sin revisión del tren de tracción."
+      para_quien_si: "Quien busca una SUV 4x4 usada robusta y barata."
+      para_quien_no: "Quien prioriza seguridad o consumo."
+      pros_reales: ["Tracción 4x4", "Baúl muy amplio", "Repuestos abundantes"]
+      contras:
+        - {componente: "Tracción 4x4", descripcion: "Cardanes y transferencia gastados por edad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2010, version: "2.0 MT 4x4", precio_base_cop: 31000000}
+      - {anio: 2009, version: "2.0 MT 4x4", precio_base_cop: 29000000}
+      - {anio: 2008, version: "2.0 MT 4x4", precio_base_cop: 27100000}
+      - {anio: 2007, version: "2.0 MT 4x4", precio_base_cop: 25300000}
+      - {anio: 2006, version: "2.0 MT 4x4", precio_base_cop: 23700000}
+      - {anio: 2005, version: "2.0 MT 4x4", precio_base_cop: 22200000}
+
+  - modelo: "Tucson"
+    generacion: "Segunda generación (LM, Tucson ix35)"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2011-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Theta II", cilindraje_cc: 1998, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 164, rpm_potencia_max: 6200, torque_nm: 197, rpm_torque_max: 4600, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "225/60 R17"}
+    dim: {largo_mm: 4410, ancho_sin_espejos_mm: 1820, alto_mm: 1655, distancia_entre_ejes_mm: 2640, distancia_libre_suelo_mm: 170, peso_vacio_kg: 1480, capacidad_baul_litros: 465, capacidad_tanque_galones: 15.3}
+    consumo: {consumo_mixto_kml: 11.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.2, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Tucson ix35 fue una de las SUV más vendidas del país en su época, con diseño atractivo, seis airbags, control de estabilidad y caja automática de seis marchas. Es cómoda y bien equipada como usada. El despeje de 170 mm es menor que el de una Duster y el consumo es moderado-alto. Tiene un riesgo de hurto elevado. Mayor riesgo individual: el hurto. No la recomendamos a quien no tiene parqueadero seguro."
+      para_quien_si: "Quien busca una SUV usada equipada y segura."
+      para_quien_no: "Quien maneja mucho en destapado o no tiene parqueadero seguro."
+      pros_reales: ["Seis airbags y control de estabilidad", "Caja automática de 6 marchas", "Buen equipamiento"]
+      contras:
+        - {componente: "Despeje", descripcion: "170 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Hurto", descripcion: "Riesgo de hurto alto.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2015, version: "ix35 2.0 AT", precio_base_cop: 52000000}
+      - {anio: 2014, version: "ix35 2.0 AT", precio_base_cop: 48600000}
+      - {anio: 2013, version: "ix35 2.0 AT", precio_base_cop: 45500000}
+      - {anio: 2012, version: "ix35 2.0 AT", precio_base_cop: 42500000}
+      - {anio: 2011, version: "ix35 2.0 AT", precio_base_cop: 39700000}
+
+  - modelo: "Tucson"
+    generacion: "Tercera generación (TL)"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2016-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Nu", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 155, rpm_potencia_max: 6200, torque_nm: 192, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.3, medida_llantas: "225/60 R17"}
+    dim: {largo_mm: 4475, ancho_sin_espejos_mm: 1850, alto_mm: 1660, distancia_entre_ejes_mm: 2670, distancia_libre_suelo_mm: 172, peso_vacio_kg: 1500, capacidad_baul_litros: 513, capacidad_tanque_galones: 16.4}
+    consumo: {consumo_mixto_kml: 11.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.6, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 8.4, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Tucson de tercera generación es una SUV compacta muy completa como usada, con seis airbags, control de estabilidad, cámara de reversa y un baúl de 513 litros, sobre un 2.0 atmosférico confiable. Comparte base con la Sportage QL. El motor se siente justo en altura con carga y el despeje de 172 mm es moderado. Su riesgo de hurto es alto. Mayor riesgo individual: el hurto. No la recomendamos a quien busca desempeño en montaña con la casa llena."
+      para_quien_si: "Quien busca una SUV usada segura y bien equipada."
+      para_quien_no: "Quien busca potencia en altura."
+      pros_reales: ["Seis airbags y control de estabilidad", "Baúl de 513 litros", "Mecánica confiable"]
+      contras:
+        - {componente: "Potencia en altura", descripcion: "Justo con carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Hurto", descripcion: "Riesgo de hurto alto.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2020, version: "2.0 AT", precio_base_cop: 80000000}
+      - {anio: 2019, version: "2.0 AT", precio_base_cop: 74800000}
+      - {anio: 2018, version: "2.0 AT", precio_base_cop: 69900000}
+      - {anio: 2017, version: "2.0 AT", precio_base_cop: 65400000}
+      - {anio: 2016, version: "2.0 AT", precio_base_cop: 61100000}
+
+  - modelo: "Santa Fe"
+    generacion: "Tercera generación (DM)"
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2013-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.4 Theta II", cilindraje_cc: 2359, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 172, rpm_potencia_max: 6000, torque_nm: 225, rpm_torque_max: 3750, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "235/60 R18"}
+    dim: {largo_mm: 4770, ancho_sin_espejos_mm: 1890, alto_mm: 1680, distancia_entre_ejes_mm: 2765, distancia_libre_suelo_mm: 185, peso_vacio_kg: 1800, capacidad_baul_litros: 625, capacidad_tanque_galones: 18.5}
+    consumo: {consumo_mixto_kml: 10.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, tapiceria: "Cuero", camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.4, quejas_documentadas: 7.4, recalls: 7.2, repuestos_y_red: 8.0, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Santa Fe de tercera generación es la SUV mediana de siete puestos de Hyundai, con tracción integral, seis airbags y mucho equipamiento, más barata como usada que rivales japoneses. El 2.4 atmosférico de las versiones más comunes es confiable pero se queda corto con siete ocupantes en altura, y el consumo es alto. La tercera fila es para niños. Mayor riesgo individual: el hurto, alto en este modelo. No la recomendamos a quien viaja seguido con siete adultos por montaña."
+      para_quien_si: "Familias que buscan siete puestos y equipamiento completo a precio de usado razonable."
+      para_quien_no: "Quien viaja con siete adultos por montaña."
+      pros_reales: ["Siete puestos con tracción integral", "Seis airbags", "Mucho equipamiento"]
+      contras:
+        - {componente: "Motor con carga", descripcion: "2.4 atmosférico justo con siete ocupantes.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Hurto", descripcion: "Riesgo de hurto alto.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2018, version: "2.4 AT AWD", precio_base_cop: 85000000}
+      - {anio: 2017, version: "2.4 AT AWD", precio_base_cop: 79500000}
+      - {anio: 2016, version: "2.4 AT AWD", precio_base_cop: 74300000}
+      - {anio: 2015, version: "2.4 AT AWD", precio_base_cop: 69500000}
+      - {anio: 2014, version: "2.4 AT AWD", precio_base_cop: 65000000}
+      - {anio: 2013, version: "2.4 AT AWD", precio_base_cop: 60700000}
+
+  - modelo: "Santa Fe"
+    generacion: "Segunda generación (CM)"
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2007-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.7 V6 Mu", cilindraje_cc: 2656, cilindros: 6, valvulas: 24, alimentacion: Atmosférico, potencia_hp: 189, rpm_potencia_max: 6000, torque_nm: 248, rpm_torque_max: 4500, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 5, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "235/65 R17"}
+    dim: {largo_mm: 4675, ancho_sin_espejos_mm: 1890, alto_mm: 1795, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1850, capacidad_baul_litros: 528, capacidad_tanque_galones: 19.0}
+    consumo: {consumo_mixto_kml: 8.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, tapiceria: "Cuero"}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 7.8, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Santa Fe de segunda generación es una SUV mediana de siete puestos con un V6 2.7 suave, tracción integral, seis airbags y control de estabilidad, que hoy se consigue usada muy barata. Su V6 es confiable pero consume mucho, cerca de 7 km/l reales en ciudad, y la caja automática de cinco marchas es de diseño antiguo. La tercera fila es pequeña. Mayor riesgo individual: el consumo de combustible. No la recomendamos a quien busca bajo costo de uso."
+      para_quien_si: "Familias que buscan siete puestos y tracción integral a precio de usado muy bajo."
+      para_quien_no: "Quien busca bajo consumo."
+      pros_reales: ["Motor V6 suave", "Tracción integral y seis airbags", "Precio de usado bajo"]
+      contras:
+        - {componente: "Consumo", descripcion: "Alrededor de 7 km/l reales en ciudad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Tercera fila", descripcion: "Pequeña.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2012, version: "2.7 V6 AT AWD", precio_base_cop: 42000000}
+      - {anio: 2011, version: "2.7 V6 AT AWD", precio_base_cop: 38200000}
+      - {anio: 2010, version: "2.7 V6 AT AWD", precio_base_cop: 34800000}
+      - {anio: 2009, version: "2.7 V6 AT AWD", precio_base_cop: 31600000}
+      - {anio: 2008, version: "2.7 V6 AT AWD", precio_base_cop: 28800000}
+      - {anio: 2007, version: "2.7 V6 AT AWD", precio_base_cop: 26200000}
+
+  - modelo: "Santa Fe"
+    generacion: "Cuarta generación (TM)"
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2019-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.4 Theta II", cilindraje_cc: 2359, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 172, rpm_potencia_max: 6000, torque_nm: 225, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "235/60 R18"}
+    dim: {largo_mm: 4770, ancho_sin_espejos_mm: 1890, alto_mm: 1680, distancia_entre_ejes_mm: 2765, distancia_libre_suelo_mm: 185, peso_vacio_kg: 1800, capacidad_baul_litros: 625, capacidad_tanque_galones: 18.5}
+    consumo: {consumo_mixto_kml: 10.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, tapiceria: "Cuero", camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.2, repuestos_y_red: 8.2, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Santa Fe de cuarta generación es una SUV de siete puestos bien equipada, con tracción integral, seis airbags, control de estabilidad y un diseño moderno, que como usada cuesta menos que una Highlander o una CX-90. Su 2.4 atmosférico es confiable pero justo con siete ocupantes en altura, y la tercera fila es para niños. Su riesgo de hurto es alto. Mayor riesgo individual: el hurto. No la recomendamos a quien viaja seguido con siete adultos por montaña."
+      para_quien_si: "Familias que buscan siete puestos y equipamiento completo como usado."
+      para_quien_no: "Quien viaja con siete adultos por montaña."
+      pros_reales: ["Siete puestos con tracción integral", "Seis airbags y control de estabilidad", "Buen equipamiento"]
+      contras:
+        - {componente: "Motor con carga", descripcion: "2.4 atmosférico justo con siete ocupantes en altura.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Hurto", descripcion: "Riesgo de hurto alto.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2023, version: "2.4 AT AWD", precio_base_cop: 120000000}
+      - {anio: 2022, version: "2.4 AT AWD", precio_base_cop: 112200000}
+      - {anio: 2021, version: "2.4 AT AWD", precio_base_cop: 104900000}
+      - {anio: 2020, version: "2.4 AT AWD", precio_base_cop: 98100000}
+      - {anio: 2019, version: "2.4 AT AWD", precio_base_cop: 91700000}
