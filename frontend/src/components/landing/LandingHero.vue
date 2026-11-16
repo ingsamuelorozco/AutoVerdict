@@ -13,6 +13,9 @@ import { T } from '@/lib/textos'
         <p class="mt-6 max-w-[310px] text-[15px] font-normal leading-[1.6] text-tinta">{{ T.sublema }}</p>
         <RouterLink to="/comparador" class="boton-acento mt-9 px-7">{{ T.landing.hero.boton }}</RouterLink>
       </div>
+      <div>
+        <p>{{ T.landing.hero.datoTitulo }}</p>
+      </div>
     </div>
   </section>
 </template>
