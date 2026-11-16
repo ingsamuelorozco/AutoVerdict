@@ -25,6 +25,7 @@ defineProps<{ versiones?: number | null; marcas?: number | null }>()
     <div class="absolute bottom-0 right-[3.5%] z-10 w-[46%] max-w-[860px] translate-y-[14%]">
       <img :src="auto" :alt="T.landing.hero.autoAlt" class="block w-full" width="1000" height="450" decoding="async" />
       <HeroHotspot class="left-[58%] top-[38%]" :texto="T.landing.hero.hotspots[0]" />
+      <HeroHotspot class="left-[22.5%] top-[88%]" :texto="T.landing.hero.hotspots[1]" />
     </div>
   </section>
 </template>
