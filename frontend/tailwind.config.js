@@ -49,6 +49,14 @@ export default {
         tarjeta: '0 12px 40px -16px rgb(0 0 0 / 0.28)',
         menu: '0 14px 34px -10px rgb(0 0 0 / 0.4)',
       },
+      keyframes: {
+        pulso: {
+          '0%': { boxShadow: '0 0 0 0 rgb(var(--acento) / 0.55)' },
+          '70%': { boxShadow: '0 0 0 14px rgb(var(--acento) / 0)' },
+          '100%': { boxShadow: '0 0 0 0 rgb(var(--acento) / 0)' },
+        },
+      },
+      animation: { pulso: 'pulso 2.2s ease-out infinite' },
       transitionDuration: { DEFAULT: '240ms' },
     },
   },
