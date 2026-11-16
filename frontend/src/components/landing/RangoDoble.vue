@@ -31,4 +31,5 @@ function cambiar(i: 0 | 1, e: Event) {
 .rango-input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; background: transparent; pointer-events: none; -webkit-appearance: none; appearance: none; }
 .rango-input::-webkit-slider-runnable-track { height: 14px; background: transparent; }
 .rango-input::-moz-range-track { background: transparent; }
+.rango-input::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; pointer-events: auto; width: 14px; height: 14px; border-radius: 9999px; background: #fff; border: 3px solid rgb(var(--acento)); }
 </style>
