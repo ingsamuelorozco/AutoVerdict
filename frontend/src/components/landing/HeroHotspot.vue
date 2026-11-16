@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { Plus } from 'lucide-vue-next'
+import { computed, ref, type Component } from 'vue'
 
-const props = defineProps<{ titulo: string; texto: string; x: number; y: number }>()
+const props = defineProps<{ titulo: string; texto: string; x: number; y: number; icono: Component }>()
 const abierto = ref(false)
 /** Cerca de los bordes de la foto la etiqueta se abre hacia adentro para no quedar cortada. */
 const lado = computed(() => (props.x < 25 ? 'izq' : props.x > 75 ? 'der' : 'centro'))
@@ -10,8 +9,8 @@ const lado = computed(() => (props.x < 25 ? 'izq' : props.x > 75 ? 'der' : 'cent
 
 <template>
   <span class="group absolute z-10 -translate-x-1/2 -translate-y-1/2" :style="{ left: `${x}%`, top: `${y}%` }">
-    <button type="button" class="grid h-[38px] w-[38px] place-items-center rounded-full bg-acento text-white transition-colors hover:bg-acento-hondo motion-safe:animate-pulso" :aria-label="`${titulo}: ${texto}`" :aria-expanded="abierto" @click="abierto = !abierto" @blur="abierto = false">
-      <Plus class="h-4 w-4" :stroke-width="3" aria-hidden="true" />
+    <button type="button" class="grid h-[42px] w-[42px] place-items-center rounded-full bg-acento text-white ring-2 ring-white/80 transition-colors hover:bg-acento-hondo motion-safe:animate-pulso" :aria-label="`${titulo}: ${texto}`" :aria-expanded="abierto" @click="abierto = !abierto" @blur="abierto = false">
+      <component :is="icono" class="h-5 w-5" :stroke-width="2" aria-hidden="true" />
     </button>
     <span
       :class="[
