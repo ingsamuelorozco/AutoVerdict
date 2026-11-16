@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
+import { useRoute } from 'vue-router'
 import { onClickOutside } from '@vueuse/core'
 import { ChevronDown, GitCompare, Heart, Menu, Moon, SlidersHorizontal, Sun, X } from 'lucide-vue-next'
 import { useAjustes } from '@/stores/ajustes'
@@ -10,6 +11,9 @@ import { T } from '@/lib/textos'
 const aj = useAjustes()
 const comp = useComparador()
 const fav = useFavoritos()
+const route = useRoute()
+/** En la portada la barra flota transparente sobre el hero; en el resto queda fija arriba. */
+const enInicio = computed(() => route.path === '/')
 const herramientasAbierto = ref(false)
 const lateralAbierto = ref(false)
 const menuRef = ref<HTMLElement | null>(null)
@@ -31,7 +35,7 @@ const principales = [
 </script>
 
 <template>
-  <header class="sticky top-0 z-40 border-b border-linea bg-papel">
+  <header :class="['top-0 z-40 w-full', enInicio ? 'absolute inset-x-0 bg-transparent' : 'sticky border-b border-linea bg-papel']">
     <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:bg-tinta focus:px-3 focus:py-2 focus:text-papel">Saltar al contenido</a>
     <div class="contenedor flex h-16 items-center gap-6">
       <RouterLink to="/" class="flex shrink-0 items-center gap-3 text-lg font-bold uppercase tracking-[1px] text-tinta" aria-label="AutoVerdict, inicio">
