@@ -91,7 +91,8 @@ def main() -> int:
             errores.append(f"{s}: precio total en calle ≠ base + SOAT + matrícula")
         if v["cilindraje_cc"] and v["alimentacion"] in HP_POR_LITRO and v["tipo_combustible"] not in ELECTRIFICADOS:
             hpl = v["potencia_hp"] / (v["cilindraje_cc"] / 1000)
-            lo, hi = HP_POR_LITRO[v["alimentacion"]]
+            # Los turbodiésel de trabajo rinden menos por litro que un turbo de gasolina (p. ej., 43 hp/L en un 3.0 TD).
+            lo, hi = (30, 120) if v["tipo_combustible"] == "Diésel" else HP_POR_LITRO[v["alimentacion"]]
             if not lo <= hpl <= hi:
                 errores.append(f"{s}: potencia implausible para el cilindraje ({hpl:.0f} hp/L, {v['alimentacion']})")
         if v["torque_nm"] < v["potencia_hp"] * 0.5:
