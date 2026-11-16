@@ -288,3 +288,61 @@ modelos:
         - {componente: "Multimedia", descripcion: "Pantalla de 7 pulgadas sin conectividad moderna en versiones antiguas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2021, version: Grand Touring AT, precio_base_cop: 95900000, fecha_precio: 2021-06-01}
+
+  - modelo: BT-50
+    generacion: Tercera generación
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Tailandia
+    fecha_lanzamiento_colombia: 2021-08-01
+    motor: {tipo_combustible: Diésel, motor_descripcion: "3.0 turbodiésel", cilindraje_cc: 2999, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 190, rpm_potencia_max: 3600, torque_nm: 450, rpm_torque_max: 1600, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 180}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.2, medida_llantas: "265/60 R18", profundidad_vadeo_mm: 800, capacidad_remolque_kg: 3500}
+    dim: {largo_mm: 5280, ancho_sin_espejos_mm: 1870, alto_mm: 1790, distancia_entre_ejes_mm: 3125, distancia_libre_suelo_mm: 240, peso_vacio_kg: 2050, capacidad_carga_kg: 1000, capacidad_baul_litros: 1150, capacidad_tanque_galones: 20.1}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.6}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 7.4, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la BT-50 de tercera generación comparte chasis y motor con la Isuzu D-Max: un 3.0 turbodiésel de 450 Nm conocido por su robustez, 4x4 con reductora, ocho airbags y un interior con diseño Mazda bien terminado. Es de las pickups más seguras y mejor equipadas. La red de servicio de Mazda para pickups diésel es menor que la de Toyota, y el motor es más ruidoso que el de una Ranger. Mayor riesgo individual: los tiempos de repuestos específicos del motor Isuzu. No la recomendamos para uso exclusivamente urbano."
+      para_quien_si: "Quien quiere una pickup robusta, segura y bien terminada."
+      para_quien_no: "Uso urbano exclusivo o quien busca el motor más silencioso."
+      pros_reales: ["Motor diésel 3.0 robusto", "Ocho airbags y ayudas de manejo", "Despeje de 240 mm"]
+      contras:
+        - {componente: "Ruido del motor", descripcion: "Más ruidoso que los rivales con motores nuevos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Red de servicio diésel", descripcion: "Menos talleres especializados que Toyota.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Grand Touring 3.0 Diésel AT 4x4, precio_base_cop: 209900000}
+
+  - modelo: CX-60
+    generacion: Primera generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Japón
+    fecha_lanzamiento_colombia: 2024-03-01
+    motor: {tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "3.3 e-Skyactiv G Turbo I6 + MHEV 48V", cilindraje_cc: 3283, cilindros: 6, valvulas: 24, alimentacion: Turbo, potencia_hp: 280, rpm_potencia_max: 5000, torque_nm: 450, rpm_torque_max: 2000, aceleracion_0_100_seg: 6.9, velocidad_maxima_kmh: 220, octanaje_minimo_recomendado: 95, potencia_electrica_kw: 12}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: AWD, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "235/50 R20"}
+    dim: {largo_mm: 4745, ancho_sin_espejos_mm: 1890, alto_mm: 1680, distancia_entre_ejes_mm: 2870, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1900, capacidad_baul_litros: 570, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.4}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 7.6, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la CX-60 inaugura la plataforma de tracción trasera de Mazda con un seis en línea 3.3 turbo de 280 hp con apoyo híbrido ligero y caja de 8 velocidades, y un interior que compite con marcas premium a menor precio. Es rápida y bien terminada. Su suspensión es firme en calles rotas, la caja ha recibido críticas por suavidad en baja velocidad y pide gasolina extra. Mayor riesgo individual: el costo de un motor nuevo y complejo fuera de garantía (opinión editorial). No la recomendamos a quien prioriza la suavidad de marcha en calles en mal estado."
+      para_quien_si: "Quien quiere una SUV con calidad premium, seis cilindros y precio menor que las alemanas."
+      para_quien_no: "Quien busca suavidad en calles rotas o usar gasolina corriente."
+      pros_reales: ["Seis cilindros de 280 hp", "Interior de calidad premium", "Equipamiento completo"]
+      contras:
+        - {componente: "Suspensión", descripcion: "Firme en calles en mal estado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Combustible", descripcion: "Pide gasolina extra.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Signature 3.3T MHEV AWD, precio_base_cop: 279900000}
