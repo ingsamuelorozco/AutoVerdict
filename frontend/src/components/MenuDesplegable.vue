@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, useId } from 'vue'
 import { onClickOutside } from '@vueuse/core'
 
 defineProps<{ etiqueta: string; opciones: { to: string; texto: string }[]; activo?: boolean }>()
 const abierto = ref(false)
 const raiz = ref<HTMLElement | null>(null)
+const id = useId()
 
 let temporizador: ReturnType<typeof setTimeout> | undefined
 
@@ -18,10 +19,10 @@ onClickOutside(raiz, cerrar)
 
 <template>
   <div ref="raiz" class="relative flex items-stretch" @pointerenter="alEntrar" @pointerleave="alSalir">
-    <button type="button" @click="abierto ? cerrar() : abrir()">
+    <button type="button" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()">
       {{ etiqueta }}
     </button>
-    <ul v-show="abierto">
+    <ul v-show="abierto" :id="id">
       <li v-for="o in opciones" :key="o.to">
         <RouterLink :to="o.to">
           <span>{{ o.texto }}</span>
