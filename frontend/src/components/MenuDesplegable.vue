@@ -48,7 +48,7 @@ function teclaPanel(e: KeyboardEvent) {
     </button>
     <ul v-show="abierto" :id="id" ref="panel" role="menu" :aria-label="etiqueta" @keydown="teclaPanel">
       <li v-for="o in opciones" :key="o.to" role="none">
-        <RouterLink :to="o.to" role="menuitem" tabindex="-1">
+        <RouterLink :to="o.to" role="menuitem" tabindex="-1" @click="cerrar">
           <span>{{ o.texto }}</span>
         </RouterLink>
       </li>
