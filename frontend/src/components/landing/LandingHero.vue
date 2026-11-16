@@ -21,7 +21,7 @@ defineProps<{ versiones?: number | null; marcas?: number | null }>()
         <p class="mt-3 text-sm font-bold text-tinta"><span class="num">{{ versiones ?? '—' }}</span> versiones · <span class="num">{{ marcas ?? '—' }}</span> marcas</p>
       </div>
     </div>
-    <div class="absolute bottom-0 right-[3.5%] w-[46%] max-w-[860px] translate-y-[14%]">
+    <div class="absolute bottom-0 right-[3.5%] z-10 w-[46%] max-w-[860px] translate-y-[14%]">
       <img :src="auto" :alt="T.landing.hero.autoAlt" class="block w-full" width="1000" height="450" decoding="async" />
     </div>
   </section>
