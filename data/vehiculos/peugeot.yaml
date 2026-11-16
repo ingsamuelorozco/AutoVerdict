@@ -33,6 +33,9 @@ modelos:
       - {anio: 2026, version: Active 1.0T CVT, precio_base_cop: 84900000}
       - {anio: 2026, version: Allure 1.0T CVT, precio_base_cop: 92900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, medida_llantas: "205/45 R17", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
       - {anio: 2023, version: Allure 1.6 AT, precio_base_cop: 79900000, fecha_precio: 2023-02-01, motor_descripcion: "1.6 VTi", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 115, rpm_potencia_max: 5750, torque_nm: 150, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.5, transmision_tipo: Automática, numero_velocidades: 6, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.8}
+      - {anio: 2021, version: "Active 1.0T CVT", precio_base_cop: 49500000}
+      - {anio: 2022, version: "Active 1.0T CVT", precio_base_cop: 54400000}
+      - {anio: 2024, version: "Active 1.0T CVT", precio_base_cop: 65700000}
 
   - modelo: e-208
     imagen_id: veh-peugeot-e-208
@@ -64,6 +67,10 @@ modelos:
         - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: e-208 GT, precio_base_cop: 149900000, fecha_precio: 2025-01-01}
+      - {anio: 2021, version: "e-208 GT", precio_base_cop: 92600000}
+      - {anio: 2022, version: "e-208 GT", precio_base_cop: 101800000}
+      - {anio: 2023, version: "e-208 GT", precio_base_cop: 111800000}
+      - {anio: 2024, version: "e-208 GT", precio_base_cop: 122900000}
 
   - modelo: "2008"
     imagen_id: veh-peugeot-2008
@@ -96,6 +103,10 @@ modelos:
       - {anio: 2026, version: Active 1.0T CVT, precio_base_cop: 104900000}
       - {anio: 2026, version: Allure 1.0T CVT, precio_base_cop: 114900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
       - {anio: 2023, version: Allure 1.2 PureTech EAT6, precio_base_cop: 109900000, fecha_precio: 2023-01-01, pais_origen: España, patrones: [puretech_correa], motor_descripcion: "1.2 PureTech 130 3 cilindros", cilindraje_cc: 1199, potencia_hp: 130, rpm_potencia_max: 5500, torque_nm: 230, transmision_tipo: Automática, numero_velocidades: 6, frenos_traseros: Disco, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 12.8, ncap_organismo: Euro NCAP, ncap_estrellas: 4, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019"}
+      - {anio: 2020, version: "Active 1.0T CVT", precio_base_cop: 55600000}
+      - {anio: 2021, version: "Active 1.0T CVT", precio_base_cop: 61100000}
+      - {anio: 2022, version: "Active 1.0T CVT", precio_base_cop: 67200000}
+      - {anio: 2024, version: "Active 1.0T CVT", precio_base_cop: 81100000}
 
   - modelo: "308"
     imagen_id: veh-peugeot-308
@@ -127,6 +138,13 @@ modelos:
         - {componente: "Despeje", descripcion: "140 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2021, version: GT Line 1.2 PureTech EAT8, precio_base_cop: 104900000, fecha_precio: 2021-02-01}
+      - {anio: 2017, version: "GT Line 1.2 PureTech EAT8", precio_base_cop: 56100000}
+      - {anio: 2018, version: "GT Line 1.2 PureTech EAT8", precio_base_cop: 61700000}
+      - {anio: 2019, version: "GT Line 1.2 PureTech EAT8", precio_base_cop: 67800000}
+      - {anio: 2020, version: "GT Line 1.2 PureTech EAT8", precio_base_cop: 74500000}
+      - {anio: 2022, version: "GT Line 1.2 PureTech EAT8", precio_base_cop: 89900000}
+      - {anio: 2023, version: "GT Line 1.2 PureTech EAT8", precio_base_cop: 98800000}
+      - {anio: 2024, version: "GT Line 1.2 PureTech EAT8", precio_base_cop: 108600000}
 
   - modelo: "3008"
     imagen_id: veh-peugeot-3008
@@ -157,6 +175,14 @@ modelos:
         - {componente: "Mantenimiento del THP", descripcion: "Vigilar nivel de aceite y tensión de cadena.", km_tipico: "80.000+", costo_reparacion_cop_aprox: 3500000, severidad: Media}
     versiones:
       - {anio: 2025, version: GT 1.6 THP AT, precio_base_cop: 179900000, fecha_precio: 2025-01-01}
+      - {anio: 2017, version: "GT 1.6 THP AT", precio_base_cop: 76200000}
+      - {anio: 2018, version: "GT 1.6 THP AT", precio_base_cop: 83800000}
+      - {anio: 2019, version: "GT 1.6 THP AT", precio_base_cop: 92000000}
+      - {anio: 2020, version: "GT 1.6 THP AT", precio_base_cop: 101100000}
+      - {anio: 2021, version: "GT 1.6 THP AT", precio_base_cop: 111200000}
+      - {anio: 2022, version: "GT 1.6 THP AT", precio_base_cop: 122100000}
+      - {anio: 2023, version: "GT 1.6 THP AT", precio_base_cop: 134200000}
+      - {anio: 2024, version: "GT 1.6 THP AT", precio_base_cop: 147500000}
 
   - modelo: "5008"
     imagen_id: veh-peugeot-5008
@@ -188,6 +214,13 @@ modelos:
         - {componente: "Tercera fila", descripcion: "Solo para niños; 166 litros de baúl.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: GT 1.6 THP AT 7P, precio_base_cop: 199900000, fecha_precio: 2025-01-01}
+      - {anio: 2018, version: "GT 1.6 THP AT 7P", precio_base_cop: 93100000}
+      - {anio: 2019, version: "GT 1.6 THP AT 7P", precio_base_cop: 102300000}
+      - {anio: 2020, version: "GT 1.6 THP AT 7P", precio_base_cop: 112400000}
+      - {anio: 2021, version: "GT 1.6 THP AT 7P", precio_base_cop: 123500000}
+      - {anio: 2022, version: "GT 1.6 THP AT 7P", precio_base_cop: 135700000}
+      - {anio: 2023, version: "GT 1.6 THP AT 7P", precio_base_cop: 149100000}
+      - {anio: 2024, version: "GT 1.6 THP AT 7P", precio_base_cop: 163900000}
 
   - modelo: Landtrek
     imagen_id: veh-peugeot-landtrek
@@ -221,3 +254,7 @@ modelos:
     versiones:
       - {anio: 2026, version: Allure 1.9 MT 4x2, precio_base_cop: 149900000, transmision_tipo: Manual, numero_velocidades: 6, traccion: Trasera, peso_vacio_kg: 1950}
       - {anio: 2026, version: Allure 1.9 AT 4x4, precio_base_cop: 169900000}
+      - {anio: 2021, version: "Allure 1.9 MT 4x2", precio_base_cop: 87400000, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", peso_vacio_kg: 1950}
+      - {anio: 2022, version: "Allure 1.9 MT 4x2", precio_base_cop: 96000000, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", peso_vacio_kg: 1950}
+      - {anio: 2023, version: "Allure 1.9 MT 4x2", precio_base_cop: 105500000, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", peso_vacio_kg: 1950}
+      - {anio: 2024, version: "Allure 1.9 MT 4x2", precio_base_cop: 115900000, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", peso_vacio_kg: 1950}
