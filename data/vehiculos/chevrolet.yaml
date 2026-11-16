@@ -324,3 +324,94 @@ modelos:
         - {componente: "Despeje", descripcion: "120 mm: raspa en rampas y rompemuelles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
     versiones:
       - {anio: 2023, version: SS 6.2 V8 AT, precio_base_cop: 329900000, fecha_precio: 2023-01-01}
+
+  - modelo: Groove
+    generacion: Primera generación
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2021-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 DVVT", cilindraje_cc: 1485, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 105, rpm_potencia_max: 6000, torque_nm: 141, rpm_torque_max: 4400, aceleracion_0_100_seg: 13.5, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: CVT, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "205/60 R16"}
+    dim: {largo_mm: 4180, ancho_sin_espejos_mm: 1740, alto_mm: 1640, distancia_entre_ejes_mm: 2550, distancia_libre_suelo_mm: 175, peso_vacio_kg: 1200, capacidad_baul_litros: 312, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, camara_reversa: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 7.8, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la Groove es una SUV pequeña de origen chino con el respaldo de la red Chevrolet: aspecto de SUV, cámara de reversa y un 1.5 atmosférico con caja CVT para ciudad. Es económica de comprar y mantener. Su seguridad es básica, con dos airbags, el motor de 105 hp se queda corto en carretera y su reventa ha sido débil. Mayor riesgo individual: la protección en un choque. No la recomendamos como carro familiar para viajes por carretera."
+      para_quien_si: "Quien busca una SUV pequeña barata para ciudad con red de servicio amplia."
+      para_quien_no: "Quien prioriza seguridad o desempeño en carretera."
+      pros_reales: ["Precio de compra bajo", "Red de servicio Chevrolet", "Consumo moderado"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Reventa", descripcion: "Se desvaloriza rápido.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Premier 1.5 CVT, precio_base_cop: 76900000}
+      - {anio: 2024, version: LT 1.5 MT, precio_base_cop: 68900000, fecha_precio: 2024-03-01, transmision_tipo: Manual, numero_velocidades: 5}
+
+  - modelo: Joy Hatchback
+    generacion: Primera generación (base Beat)
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2019-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 SOHC", cilindraje_cc: 1206, cilindros: 4, valvulas: 8, alimentacion: Atmosférico, potencia_hp: 80, rpm_potencia_max: 6000, torque_nm: 108, rpm_torque_max: 4800, aceleracion_0_100_seg: 14.5, velocidad_maxima_kmh: 160, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.9, medida_llantas: "165/65 R14"}
+    dim: {largo_mm: 3640, ancho_sin_espejos_mm: 1597, alto_mm: 1522, distancia_entre_ejes_mm: 2375, distancia_libre_suelo_mm: 160, peso_vacio_kg: 900, capacidad_baul_litros: 170, capacidad_tanque_galones: 9.2}
+    consumo: {consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No"}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.0, recalls: 7.2, repuestos_y_red: 8.4, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Joy es un citadino muy básico y barato, con un 1.2 atmosférico de bajo consumo y repuestos en cualquier parte del país. Ya no se vende nuevo y se consigue usado a precios bajos, lo que lo hace popular como primer carro. Es pequeño de verdad, con un baúl de 170 litros, y su seguridad es mínima: dos airbags y sin control de estabilidad. Mayor riesgo individual: la protección en un choque en carretera. No lo recomendamos para viajes por carretera."
+      para_quien_si: "Quien busca el carro usado más barato de mover en ciudad."
+      para_quien_no: "Quien viaja por carretera o prioriza seguridad."
+      pros_reales: ["Consumo muy bajo", "Repuestos baratos", "Fácil de parquear"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Espacio", descripcion: "Baúl de 170 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2023, version: LS 1.2 MT, precio_base_cop: 48900000, fecha_precio: 2023-03-01}
+      - {anio: 2021, version: LS 1.2 MT, precio_base_cop: 42900000, fecha_precio: 2021-03-01}
+
+  - modelo: Tahoe
+    generacion: Quinta generación
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2021-03-01
+    plazas: 8
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "5.3 V8 EcoTec3", cilindraje_cc: 5328, cilindros: 8, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 355, rpm_potencia_max: 5600, torque_nm: 519, rpm_torque_max: 4100, aceleracion_0_100_seg: 7.4, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 10, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 6.0, medida_llantas: "275/60 R20", capacidad_remolque_kg: 3600}
+    dim: {largo_mm: 5351, ancho_sin_espejos_mm: 2058, alto_mm: 1927, distancia_entre_ejes_mm: 3071, distancia_libre_suelo_mm: 200, peso_vacio_kg: 2600, capacidad_baul_litros: 722, capacidad_tanque_galones: 24.0}
+    consumo: {consumo_mixto_kml: 7.0, consumo_real_estimado_kml: 5.9}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 10.2, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.6, repuestos_y_red: 7.0, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Tahoe es una SUV americana de ocho puestos con un V8 5.3 de 355 hp, caja de 10 velocidades, suspensión trasera independiente y una tercera fila que por fin sirve para adultos. Es imponente y muy cómoda en carretera. En Colombia la penalizan su tamaño, más de 5,3 metros, un consumo cercano a 6 km/l reales y un costo de mantenimiento muy alto. Mayor riesgo individual: los parqueaderos y las calles estrechas. No la recomendamos para uso urbano diario."
+      para_quien_si: "Familias grandes que viajan por carretera y quieren espacio y confort máximos."
+      para_quien_no: "Uso urbano diario o presupuesto de combustible ajustado."
+      pros_reales: ["Ocho puestos con tercera fila para adultos", "V8 suave y probado", "Remolque de 3.600 kg"]
+      contras:
+        - {componente: "Tamaño", descripcion: "5.351 mm de largo y 2 m de ancho.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Consumo", descripcion: "Alrededor de 6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: High Country 5.3 V8 4x4, precio_base_cop: 449900000}
