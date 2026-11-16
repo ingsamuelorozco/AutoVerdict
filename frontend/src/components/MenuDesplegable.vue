@@ -43,8 +43,8 @@ function teclaPanel(e: KeyboardEvent) {
 
 <template>
   <div ref="raiz" class="relative flex items-stretch" @pointerenter="alEntrar" @pointerleave="alSalir">
-    <button ref="boton" type="button" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()" @keydown="teclaBoton">
-      {{ etiqueta }}
+    <button ref="boton" type="button" :class="['enlace-barra', { 'enlace-barra-activo': activo }]" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()" @keydown="teclaBoton">
+      {{ etiqueta }}<span class="enlace-barra-mas" aria-hidden="true">+</span>
     </button>
     <ul v-show="abierto" :id="id" ref="panel" role="menu" :aria-label="etiqueta" @keydown="teclaPanel">
       <li v-for="o in opciones" :key="o.to" role="none">
