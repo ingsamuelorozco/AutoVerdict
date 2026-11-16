@@ -42,7 +42,7 @@ export default {
         roja: 'rgb(var(--roja) / <alpha-value>)',
       },
       // «nav»: ancho a partir del cual cabe la navegación horizontal completa sin apretarse.
-      screens: { nav: '1280px' },
+      screens: { nav: '993px' },
       spacing: { seccion: '96px', barra: '72px' },
       maxWidth: { contenido: '1440px', landing: '1170px' },
       boxShadow: {
