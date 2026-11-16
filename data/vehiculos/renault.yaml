@@ -3,6 +3,7 @@ pais_origen: Francia
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Kwid
+    imagen_id: veh-renault-kwid
     generacion: Primera generación (actualización 2023)
     segmento: Hatchback A
     carroceria: Hatchback
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2026, version: Outsider 1.0 MT, precio_base_cop: 59900000, camara_reversa: true, distancia_libre_suelo_mm: 184}
 
   - modelo: Kwid E-Tech
+    imagen_id: veh-renault-kwid-e-tech
     generacion: Primera generación
     segmento: Hatchback A
     carroceria: Hatchback
@@ -65,6 +67,7 @@ modelos:
       - {anio: 2025, version: E-Tech Intens, precio_base_cop: 89900000, fecha_precio: 2025-05-01}
 
   - modelo: Sandero
+    imagen_id: veh-renault-sandero
     generacion: Segunda generación (fase 2)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -95,6 +98,7 @@ modelos:
       - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 78900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], camara_reversa: true, aire_acondicionado: Automático}
 
   - modelo: Stepway
+    imagen_id: veh-renault-stepway
     generacion: Segunda generación (fase 2)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -125,6 +129,7 @@ modelos:
       - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 84900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], aire_acondicionado: Automático}
 
   - modelo: Logan
+    imagen_id: veh-renault-logan
     generacion: Segunda generación (fase 2)
     segmento: Sedán B
     carroceria: Sedán
@@ -155,6 +160,7 @@ modelos:
       - {anio: 2026, version: Intens 1.6 CVT, precio_base_cop: 80900000, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], camara_reversa: true, aire_acondicionado: Automático}
 
   - modelo: Duster
+    imagen_id: veh-renault-duster
     generacion: Segunda generación (fase 2)
     segmento: SUV Compacta
     carroceria: SUV
@@ -186,6 +192,7 @@ modelos:
       - {anio: 2024, version: Intens 1.3T CVT 4x2, precio_base_cop: 104900000, fecha_precio: 2024-03-01, patrones: [jatco_cvt]}
 
   - modelo: Kardian
+    imagen_id: veh-renault-kardian
     generacion: Primera generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -216,6 +223,7 @@ modelos:
       - {anio: 2026, version: Iconic 1.0T EDC, precio_base_cop: 104900000, tapiceria: Cuero sintético, carga_inalambrica: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
 
   - modelo: Arkana
+    imagen_id: veh-renault-arkana
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -245,6 +253,7 @@ modelos:
       - {anio: 2025, version: Intens MHEV EDC, precio_base_cop: 139900000, fecha_precio: 2025-04-01}
 
   - modelo: Koleos
+    imagen_id: veh-renault-koleos
     generacion: Segunda generación
     segmento: SUV Mediana
     carroceria: SUV
@@ -275,6 +284,7 @@ modelos:
       - {anio: 2024, version: Iconic 2.5 CVT 4x4, precio_base_cop: 159900000, fecha_precio: 2024-01-01}
 
   - modelo: Oroch
+    imagen_id: veh-renault-oroch
     generacion: Segunda generación
     segmento: Pickup Compacta
     carroceria: Pickup
@@ -305,6 +315,7 @@ modelos:
       - {anio: 2026, version: Intens 1.3T CVT, precio_base_cop: 112900000, motor_descripcion: "1.3 TCe turbo", cilindraje_cc: 1332, alimentacion: Turbo, potencia_hp: 154, torque_nm: 250, rpm_torque_max: 1700, aceleracion_0_100_seg: 10.5, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], consumo_mixto_kml: 12.8, consumo_real_estimado_kml: 10.6, aire_acondicionado: Automático, tapiceria: Cuero sintético}
 
   - modelo: Alaskan
+    imagen_id: veh-renault-alaskan
     generacion: Primera generación
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -335,6 +346,7 @@ modelos:
       - {anio: 2025, version: Iconic 2.3 dCi AT 4x4, precio_base_cop: 179900000, fecha_precio: 2025-02-01}
 
   - modelo: Megane E-Tech
+    imagen_id: veh-renault-megane-e-tech
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV

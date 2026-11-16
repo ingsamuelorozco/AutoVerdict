@@ -1469,3 +1469,147 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Peugeot e-208"
+  - id: veh-renault-alaskan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Renault_Alaskan_IMG_9663.jpg/960px-Renault_Alaskan_IMG_9663.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_Alaskan_IMG_9663.jpg"
+    ancho: 4926
+    alto: 2684
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Alaskan"
+  - id: veh-renault-arkana
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Renault_Arkana_%28CMF-B%29_Facelift_IMG_9961.jpg/960px-Renault_Arkana_%28CMF-B%29_Facelift_IMG_9961.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_Arkana_(CMF-B)_Facelift_IMG_9961.jpg"
+    ancho: 4977
+    alto: 3079
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Arkana"
+  - id: veh-renault-duster
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Renault_Duster_2020_%28Russia%29.jpg/960px-Renault_Duster_2020_%28Russia%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Milhouse35"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_Duster_2020_(Russia).jpg"
+    ancho: 3301
+    alto: 2394
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Duster"
+  - id: veh-renault-kardian
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Renault_Kardian_2024_Evolution_1.0_TCe_in_Montevideo_%28front%29_01.jpg/960px-Renault_Kardian_2024_Evolution_1.0_TCe_in_Montevideo_%28front%29_01.jpg"
+    proveedor: Wikimedia Commons
+    autor: "NaBUru38"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_Kardian_2024_Evolution_1.0_TCe_in_Montevideo_(front)_01.jpg"
+    ancho: 6500
+    alto: 4500
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Kardian"
+  - id: veh-renault-koleos
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/2018_Renault_Koleos_Initiale_Paris_DCi_4X4_2.0_Front.jpg/960px-2018_Renault_Koleos_Initiale_Paris_DCi_4X4_2.0_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Renault_Koleos_Initiale_Paris_DCi_4X4_2.0_Front.jpg"
+    ancho: 4307
+    alto: 2441
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Koleos"
+  - id: veh-renault-kwid
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png/960px-2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png"
+    proveedor: Wikimedia Commons
+    autor: "Autosdeprimera"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2023_Renault_Kwid_Iconic_(Colombia)_front_view_01.png"
+    ancho: 2819
+    alto: 1691
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Kwid"
+  - id: veh-renault-kwid-e-tech
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png/960px-2023_Renault_Kwid_Iconic_%28Colombia%29_front_view_01.png"
+    proveedor: Wikimedia Commons
+    autor: "Autosdeprimera"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2023_Renault_Kwid_Iconic_(Colombia)_front_view_01.png"
+    ancho: 2819
+    alto: 1691
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Kwid E-Tech"
+  - id: veh-renault-logan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Renault_Symbol_1.6_Expression_2015.jpg/960px-Renault_Symbol_1.6_Expression_2015.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_Symbol_1.6_Expression_2015.jpg"
+    ancho: 3200
+    alto: 1978
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Logan"
+  - id: veh-renault-megane-e-tech
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Renault_M%C3%A9gane_E-Tech_IMG_4064.jpg/960px-Renault_M%C3%A9gane_E-Tech_IMG_4064.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_M%C3%A9gane_E-Tech_IMG_4064.jpg"
+    ancho: 4809
+    alto: 2749
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Megane E-Tech"
+  - id: veh-renault-oroch
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Renault_Duster_Oroch_2016_in_Punta_del_Este_01.JPG/960px-Renault_Duster_Oroch_2016_in_Punta_del_Este_01.JPG"
+    proveedor: Wikimedia Commons
+    autor: "NaBUru38"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_2016_in_Punta_del_Este_01.JPG"
+    ancho: 2200
+    alto: 1400
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Oroch"
+  - id: veh-renault-sandero
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Renault_Sandero_R.S._2020_-_BugWarp_03.jpg/960px-Renault_Sandero_R.S._2020_-_BugWarp_03.jpg"
+    proveedor: Wikimedia Commons
+    autor: "BugWarp"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Renault_Sandero_R.S._2020_-_BugWarp_03.jpg"
+    ancho: 5600
+    alto: 3728
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Sandero"
+  - id: veh-renault-stepway
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/2020_Renault_Stepway_2020_%28Colombia%29_front_view.png/960px-2020_Renault_Stepway_2020_%28Colombia%29_front_view.png"
+    proveedor: Wikimedia Commons
+    autor: "Autosdeprimera"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2020_Renault_Stepway_2020_(Colombia)_front_view.png"
+    ancho: 1730
+    alto: 1038
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Renault Stepway"
