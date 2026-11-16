@@ -50,6 +50,15 @@ export const T = {
       precioMax: 'Precio máximo',
       boton: 'Buscar vehículos',
     },
+    caracteristicas: {
+      titulo: 'Lo que revisamos por ti',
+      autoAlt: 'Ilustración de un auto blanco visto desde arriba con techo panorámico',
+      izquierda: [
+        { titulo: 'Tamaño real a escala', texto: 'Siluetas lateral, de planta y frontal a escala, con Índice de Garaje e Índice Rompemuelle para saber si cabe en tu vida.' },
+        { titulo: 'Costo total de propiedad', texto: 'SOAT, matrícula, impuesto, crédito, seguro, combustible y mantenimiento sumados en un solo número mensual.' },
+        { titulo: 'Fallas documentadas', texto: 'Cada falla conocida se respalda con dos o más fuentes públicas, junto con recalls y checklist de usado.' },
+      ],
+    },
   },
   estimado: 'Estimado',
   estimadoAyuda: 'Dato de referencia pendiente de verificación contra la ficha oficial vigente en Colombia. Ver metodología.',
