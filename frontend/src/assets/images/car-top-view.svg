@@ -52,4 +52,9 @@
     <rect x="60" y="264" width="80" height="50" rx="6"/>
   </g>
   <path fill="#fff" opacity=".12" d="M54 200L96 200 60 320 54 320Z"/>
+
+  <path fill="url(#cristal)" d="M34 338C68 346 132 346 166 338L158 376C130 384 70 384 42 376Z"/>
+  <path fill="none" stroke="#b9bec3" stroke-width="1.2" d="M46 392C80 400 120 400 154 392"/>
+  <path fill="#7a1b22" d="M24 404C30 414 40 420 52 424L54 416C44 413 36 408 30 400Z"/>
+  <path fill="#7a1b22" d="M176 404C170 414 160 420 148 424L146 416C156 413 164 408 170 400Z"/>
 </svg>
