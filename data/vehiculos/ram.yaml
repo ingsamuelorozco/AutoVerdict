@@ -1,0 +1,100 @@
+marca: RAM
+pais_origen: Estados Unidos
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: "700"
+    generacion: Segunda generación (base Strada)
+    segmento: Pickup Compacta
+    carroceria: Pickup
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2021-11-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.3 Firefly", cilindraje_cc: 1332, cilindros: 4, valvulas: 8, alimentacion: Atmosférico, potencia_hp: 107, rpm_potencia_max: 6250, torque_nm: 134, rpm_torque_max: 3500, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 5.6, medida_llantas: "205/60 R16"}
+    dim: {largo_mm: 4480, ancho_sin_espejos_mm: 1732, alto_mm: 1600, distancia_entre_ejes_mm: 2737, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1150, capacidad_carga_kg: 650, capacidad_baul_litros: 844, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.2, repuestos_y_red: 7.0, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la RAM 700 es una pickup pequeña de trabajo con cabina doble, platón de 844 litros y 650 kg de carga, movida por un 1.3 atmosférico sencillo y barato de mantener. Se maneja como un carro, consume poco y cabe en cualquier parqueadero. A cambio, su seguridad es básica, con dos airbags, y el motor se queda corto con carga en subidas largas. Mayor riesgo individual: la protección en un choque. No la recomendamos para trabajo pesado ni trocha."
+      para_quien_si: "Pequeños negocios que necesitan cargar en ciudad con bajo costo."
+      para_quien_no: "Trabajo pesado, remolque o caminos destapados exigentes."
+      pros_reales: ["Consumo bajo para una pickup", "Fácil de parquear", "Mantenimiento barato"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin ayudas de manejo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Potencia con carga", descripcion: "107 hp se quedan cortos con el platón lleno en subida.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Big Horn 1.3 MT, precio_base_cop: 84900000}
+      - {anio: 2026, version: Laramie 1.3 CVT, precio_base_cop: 96900000, transmision_tipo: CVT, numero_velocidades: null, numero_airbags: 4, pantalla_multimedia_pulgadas: 8.4, apple_carplay_android_auto: Inalámbrico, camara_reversa: true}
+      - {anio: 2025, version: Big Horn 1.3 MT, precio_base_cop: 82900000, fecha_precio: 2025-03-01}
+      - {anio: 2025, version: Laramie 1.3 CVT, precio_base_cop: 93900000, fecha_precio: 2025-03-01, transmision_tipo: CVT, numero_velocidades: null, numero_airbags: 4, pantalla_multimedia_pulgadas: 8.4, apple_carplay_android_auto: Inalámbrico, camara_reversa: true}
+
+  - modelo: "1000"
+    generacion: Primera generación (base Toro)
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2018-08-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.0 Multijet turbodiésel", cilindraje_cc: 1956, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 170, rpm_potencia_max: 3750, torque_nm: 350, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 190}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 9, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 6.2, medida_llantas: "225/65 R17", profundidad_vadeo_mm: 500, capacidad_remolque_kg: 1500}
+    dim: {largo_mm: 4945, ancho_sin_espejos_mm: 1844, alto_mm: 1735, distancia_entre_ejes_mm: 2990, distancia_libre_suelo_mm: 226, peso_vacio_kg: 1850, capacidad_carga_kg: 1000, capacidad_baul_litros: 937, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.8, repuestos_y_red: 6.6, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la RAM 1000 es una pickup de carrocería monocasco con suspensión trasera independiente, lo que la hace mucho más cómoda que una pickup de largueros en la vida diaria. El 2.0 turbodiésel con caja de 9 velocidades y 4x4 rinde bien en carretera. El platón es más pequeño que el de una Hilux o una Ranger y no es para trabajo pesado. Mayor riesgo individual: el sistema de postratamiento diésel en uso urbano corto (opinión editorial). No la recomendamos para carga pesada diaria."
+      para_quien_si: "Quien quiere una pickup cómoda para familia y fines de semana con 4x4."
+      para_quien_no: "Trabajo pesado diario o remolque frecuente."
+      pros_reales: ["Suspensión trasera independiente: muy cómoda", "Caja automática de 9 velocidades", "Seis airbags"]
+      contras:
+        - {componente: "Capacidad de trabajo", descripcion: "Monocasco y platón más pequeño que las pickups de largueros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Diésel en ciudad", descripcion: "Trayectos cortos complican la regeneración del filtro de partículas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Laramie 2.0 Diésel AT 4x4, precio_base_cop: 159900000}
+      - {anio: 2025, version: Laramie 2.0 Diésel AT 4x4, precio_base_cop: 154900000, fecha_precio: 2025-03-01}
+      - {anio: 2024, version: Laramie 2.0 Diésel AT 4x4, precio_base_cop: 149900000, fecha_precio: 2024-03-01, pantalla_multimedia_pulgadas: 8.4, apple_carplay_android_auto: Cable}
+
+  - modelo: "1500"
+    generacion: Quinta generación (DT)
+    segmento: Pickup Grande
+    carroceria: Pickup
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2019-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "5.7 HEMI V8", cilindraje_cc: 5654, cilindros: 8, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 395, rpm_potencia_max: 5600, torque_nm: 556, rpm_torque_max: 3950, aceleracion_0_100_seg: 6.6, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido con resortes, frenos_traseros: Disco, radio_giro_metros: 7.0, medida_llantas: "275/55 R20", profundidad_vadeo_mm: 610, capacidad_remolque_kg: 4500}
+    dim: {largo_mm: 5916, ancho_sin_espejos_mm: 2084, alto_mm: 1971, distancia_entre_ejes_mm: 3672, distancia_libre_suelo_mm: 220, peso_vacio_kg: 2450, capacidad_carga_kg: 800, capacidad_baul_litros: 1500, capacidad_tanque_galones: 26.0}
+    consumo: {consumo_mixto_kml: 6.5, consumo_real_estimado_kml: 5.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 12, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.4, repuestos_y_red: 6.2, costo_reparaciones: 6.0}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Baja
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la RAM 1500 es una pickup grande americana con un V8 HEMI de 395 hp, remolque de 4.500 kg y una cabina amplia y lujosa que se siente de sedán grande. Su suspensión trasera de resortes la hace la más cómoda de su tipo. En Colombia sus problemas son el tamaño, casi 6 metros que no caben en muchos parqueaderos, el consumo de 5 a 6 km/l y una red de repuestos limitada. Mayor riesgo individual: los tiempos de espera de repuestos. No la recomendamos para uso urbano diario."
+      para_quien_si: "Quien remolca pesado o quiere una pickup de lujo para finca y carretera."
+      para_quien_no: "Uso urbano diario, parqueaderos estrechos o presupuesto de combustible ajustado."
+      pros_reales: ["V8 de 395 hp y 556 Nm", "Remolque de 4.500 kg", "Cabina muy amplia y cómoda"]
+      contras:
+        - {componente: "Tamaño", descripcion: "Casi 6 metros de largo: no cabe en muchos parqueaderos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Consumo", descripcion: "Entre 5 y 6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Laramie 5.7 V8 4x4, precio_base_cop: 359900000}
+      - {anio: 2025, version: Laramie 5.7 V8 4x4, precio_base_cop: 349900000, fecha_precio: 2025-03-01}
+      - {anio: 2026, version: Limited 5.7 V8 4x4, precio_base_cop: 429900000, pantalla_multimedia_pulgadas: 12, adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
