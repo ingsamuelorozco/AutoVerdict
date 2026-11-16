@@ -34,6 +34,10 @@ modelos:
       - {anio: 2026, version: Laramie 1.3 CVT, precio_base_cop: 96900000, transmision_tipo: CVT, numero_velocidades: null, numero_airbags: 4, pantalla_multimedia_pulgadas: 8.4, apple_carplay_android_auto: Inalámbrico, camara_reversa: true}
       - {anio: 2025, version: Big Horn 1.3 MT, precio_base_cop: 82900000, fecha_precio: 2025-03-01}
       - {anio: 2025, version: Laramie 1.3 CVT, precio_base_cop: 93900000, fecha_precio: 2025-03-01, transmision_tipo: CVT, numero_velocidades: null, numero_airbags: 4, pantalla_multimedia_pulgadas: 8.4, apple_carplay_android_auto: Inalámbrico, camara_reversa: true}
+      - {anio: 2021, version: "Big Horn 1.3 MT", precio_base_cop: 55200000}
+      - {anio: 2022, version: "Big Horn 1.3 MT", precio_base_cop: 59000000}
+      - {anio: 2023, version: "Big Horn 1.3 MT", precio_base_cop: 63100000}
+      - {anio: 2024, version: "Big Horn 1.3 MT", precio_base_cop: 67500000}
 
   - modelo: "1000"
     generacion: Primera generación (base Toro)
@@ -66,6 +70,12 @@ modelos:
       - {anio: 2026, version: Laramie 2.0 Diésel AT 4x4, precio_base_cop: 159900000}
       - {anio: 2025, version: Laramie 2.0 Diésel AT 4x4, precio_base_cop: 154900000, fecha_precio: 2025-03-01}
       - {anio: 2024, version: Laramie 2.0 Diésel AT 4x4, precio_base_cop: 149900000, fecha_precio: 2024-03-01, pantalla_multimedia_pulgadas: 8.4, apple_carplay_android_auto: Cable}
+      - {anio: 2018, version: "Laramie 2.0 Diésel AT 4x4", precio_base_cop: 84900000}
+      - {anio: 2019, version: "Laramie 2.0 Diésel AT 4x4", precio_base_cop: 90800000}
+      - {anio: 2020, version: "Laramie 2.0 Diésel AT 4x4", precio_base_cop: 97100000}
+      - {anio: 2021, version: "Laramie 2.0 Diésel AT 4x4", precio_base_cop: 103900000}
+      - {anio: 2022, version: "Laramie 2.0 Diésel AT 4x4", precio_base_cop: 111100000}
+      - {anio: 2023, version: "Laramie 2.0 Diésel AT 4x4", precio_base_cop: 118800000}
 
   - modelo: "1500"
     imagen_id: veh-ram-1500
@@ -99,3 +109,9 @@ modelos:
       - {anio: 2026, version: Laramie 5.7 V8 4x4, precio_base_cop: 359900000}
       - {anio: 2025, version: Laramie 5.7 V8 4x4, precio_base_cop: 349900000, fecha_precio: 2025-03-01}
       - {anio: 2026, version: Limited 5.7 V8 4x4, precio_base_cop: 429900000, pantalla_multimedia_pulgadas: 12, adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+      - {anio: 2019, version: "Laramie 5.7 V8 4x4", precio_base_cop: 204400000}
+      - {anio: 2020, version: "Laramie 5.7 V8 4x4", precio_base_cop: 218600000}
+      - {anio: 2021, version: "Laramie 5.7 V8 4x4", precio_base_cop: 233800000}
+      - {anio: 2022, version: "Laramie 5.7 V8 4x4", precio_base_cop: 250100000}
+      - {anio: 2023, version: "Laramie 5.7 V8 4x4", precio_base_cop: 267400000}
+      - {anio: 2024, version: "Laramie 5.7 V8 4x4", precio_base_cop: 286000000}
