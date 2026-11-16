@@ -35,3 +35,10 @@ El resto de la portada (método, calculadoras, actualizados, alertas rojas y cie
 - Hero: titular "Precio & verdad", sublema del sitio y conteo real del catálogo.
 - Buscador: carrocería, marca y ciudad reales; rango de precio en calle en COP; lleva a `/buscar` con los filtros.
 - Características: seis funciones reales del producto.
+
+## Imágenes
+
+Viven en `frontend/src/assets/images/` y sus créditos en `CREDITS.md`.
+
+- Fondos: fotos libres de Wikimedia Commons, redimensionadas y sin metadatos.
+- Autos: no hay fotos libres de autos con fondo transparente y sin emblemas, así que se usan ilustraciones SVG propias (`hero-car.svg`, `car-top-view.svg`). Para usar una foto, basta con cambiar el import en el componente.
