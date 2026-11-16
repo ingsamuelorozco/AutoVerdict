@@ -32,6 +32,11 @@ modelos:
     versiones:
       - {anio: 2026, version: Comfort 1.2 MT, precio_base_cop: 57900000}
       - {anio: 2026, version: Premium 1.2 AMT, precio_base_cop: 64900000, transmision_tipo: Automatizada AMT, numero_airbags: 6, camara_reversa: true}
+      - {anio: 2020, version: "Comfort 1.2 MT", precio_base_cop: 35200000}
+      - {anio: 2021, version: "Comfort 1.2 MT", precio_base_cop: 37600000}
+      - {anio: 2022, version: "Comfort 1.2 MT", precio_base_cop: 40200000}
+      - {anio: 2023, version: "Comfort 1.2 MT", precio_base_cop: 43000000}
+      - {anio: 2024, version: "Comfort 1.2 MT", precio_base_cop: 46000000}
 
   - modelo: Grand i10 Sedán
     imagen_id: veh-hyundai-grand-i10-sedan
@@ -62,6 +67,11 @@ modelos:
         - {componente: "Potencia", descripcion: "83 hp atmosféricos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: Premium 1.2 MT, precio_base_cop: 61900000}
+      - {anio: 2020, version: "Premium 1.2 MT", precio_base_cop: 37600000}
+      - {anio: 2021, version: "Premium 1.2 MT", precio_base_cop: 40200000}
+      - {anio: 2022, version: "Premium 1.2 MT", precio_base_cop: 43000000}
+      - {anio: 2023, version: "Premium 1.2 MT", precio_base_cop: 46000000}
+      - {anio: 2024, version: "Premium 1.2 MT", precio_base_cop: 49200000}
 
   - modelo: Accent
     imagen_id: veh-hyundai-accent
@@ -93,6 +103,7 @@ modelos:
     versiones:
       - {anio: 2026, version: Comfort 1.5 MT, precio_base_cop: 79900000}
       - {anio: 2026, version: Premium 1.5 IVT, precio_base_cop: 89900000, transmision_tipo: CVT (IVT), numero_velocidades: null, aire_acondicionado: Automático, llave_inteligente: true, luces_led: true, medida_llantas: "205/55 R16", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+      - {anio: 2024, version: "Comfort 1.5 MT", precio_base_cop: 63500000}
 
   - modelo: Venue
     imagen_id: veh-hyundai-venue
@@ -124,6 +135,10 @@ modelos:
     versiones:
       - {anio: 2026, version: Premium 1.6 AT, precio_base_cop: 89900000, pantalla_multimedia_pulgadas: 8, luces_led: true}
       - {anio: 2024, version: Premium 1.6 AT, precio_base_cop: 86900000, fecha_precio: 2024-02-01}
+      - {anio: 2020, version: "Premium 1.6 AT", precio_base_cop: 54600000, pantalla_multimedia_pulgadas: 8, luces_led: true}
+      - {anio: 2021, version: "Premium 1.6 AT", precio_base_cop: 58400000, pantalla_multimedia_pulgadas: 8, luces_led: true}
+      - {anio: 2022, version: "Premium 1.6 AT", precio_base_cop: 62500000, pantalla_multimedia_pulgadas: 8, luces_led: true}
+      - {anio: 2023, version: "Premium 1.6 AT", precio_base_cop: 66800000, pantalla_multimedia_pulgadas: 8, luces_led: true}
 
   - modelo: Creta
     imagen_id: veh-hyundai-creta
@@ -156,6 +171,9 @@ modelos:
       - {anio: 2026, version: Premium 1.5 IVT, precio_base_cop: 109900000}
       - {anio: 2026, version: Limited 1.5 IVT, precio_base_cop: 119900000, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
       - {anio: 2024, version: Premium 1.6 AT, precio_base_cop: 104900000, fecha_precio: 2024-02-01, motor_descripcion: "1.6 MPI Gamma", cilindraje_cc: 1591, potencia_hp: 121, torque_nm: 151, rpm_torque_max: 4850, transmision_tipo: Automática, numero_velocidades: 6, pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable}
+      - {anio: 2021, version: "Premium 1.5 IVT", precio_base_cop: 71400000}
+      - {anio: 2022, version: "Premium 1.5 IVT", precio_base_cop: 76400000}
+      - {anio: 2023, version: "Premium 1.5 IVT", precio_base_cop: 81700000}
 
   - modelo: Tucson
     imagen_id: veh-hyundai-tucson
@@ -187,6 +205,10 @@ modelos:
     versiones:
       - {anio: 2026, version: Premium 2.0 AT, precio_base_cop: 149900000}
       - {anio: 2026, version: Limited 1.6T HEV AWD, precio_base_cop: 189900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 T-GDi híbrido", cilindraje_cc: 1598, alimentacion: Turbo, potencia_hp: 230, rpm_potencia_max: 5500, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.0, traccion: AWD, potencia_electrica_kw: 44, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.8, peso_vacio_kg: 1700, capacidad_baul_litros: 616, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero, Cámara 360]}
+      - {anio: 2021, version: "Premium 2.0 AT", precio_base_cop: 97400000}
+      - {anio: 2022, version: "Premium 2.0 AT", precio_base_cop: 104100000}
+      - {anio: 2023, version: "Premium 2.0 AT", precio_base_cop: 111400000}
+      - {anio: 2024, version: "Premium 2.0 AT", precio_base_cop: 119100000}
 
   - modelo: Santa Fe
     imagen_id: veh-hyundai-santa-fe
@@ -219,6 +241,7 @@ modelos:
         - {componente: "Llantas de 20 pulgadas", descripcion: "Costosas de reemplazar.", km_tipico: "40.000", costo_reparacion_cop_aprox: 4800000, severidad: Baja}
     versiones:
       - {anio: 2026, version: HEV AWD 7P, precio_base_cop: 239900000}
+      - {anio: 2024, version: "HEV AWD 7P", precio_base_cop: 190700000}
 
   - modelo: Kona
     imagen_id: veh-hyundai-kona
@@ -250,6 +273,8 @@ modelos:
     versiones:
       - {anio: 2026, version: EV Limited 65 kWh, precio_base_cop: 179900000}
       - {anio: 2026, version: HEV Limited, precio_base_cop: 134900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 GDi híbrido", cilindraje_cc: 1580, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 141, rpm_potencia_max: 5700, torque_nm: 265, rpm_torque_max: 1000, aceleracion_0_100_seg: 11.2, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 32, capacidad_bateria_kwh: 1.32, potencia_carga_ac_kw: null, potencia_carga_dc_kw: null, transmision_tipo: Doble embrague en seco DCT, numero_velocidades: 6, peso_vacio_kg: 1400, capacidad_baul_litros: 407, autonomia_estimada_km: null, autonomia_ciclo: Estimada, consumo_kwh_100km: null, ciclo_homologacion: Estimado, consumo_mixto_kml: 21.0, capacidad_tanque_galones: 10.3}
+      - {anio: 2023, version: "HEV Limited", precio_base_cop: 95000000, tipo_combustible: "Híbrido Completo HEV", motor_descripcion: "1.6 GDi híbrido", cilindraje_cc: 1580, cilindros: 4, valvulas: 16, alimentacion: "Atmosférico", potencia_hp: 141, rpm_potencia_max: 5700, torque_nm: 265, rpm_torque_max: 1000, aceleracion_0_100_seg: 11.2, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 32, capacidad_bateria_kwh: 1.32, potencia_carga_ac_kw: null, potencia_carga_dc_kw: null, transmision_tipo: "Doble embrague en seco DCT", numero_velocidades: 6, peso_vacio_kg: 1400, capacidad_baul_litros: 407, autonomia_estimada_km: null, autonomia_ciclo: "Estimada", consumo_kwh_100km: null, ciclo_homologacion: "Estimado", consumo_mixto_kml: 21.0, capacidad_tanque_galones: 10.3}
+      - {anio: 2024, version: "HEV Limited", precio_base_cop: 104300000, tipo_combustible: "Híbrido Completo HEV", motor_descripcion: "1.6 GDi híbrido", cilindraje_cc: 1580, cilindros: 4, valvulas: 16, alimentacion: "Atmosférico", potencia_hp: 141, rpm_potencia_max: 5700, torque_nm: 265, rpm_torque_max: 1000, aceleracion_0_100_seg: 11.2, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 32, capacidad_bateria_kwh: 1.32, potencia_carga_ac_kw: null, potencia_carga_dc_kw: null, transmision_tipo: "Doble embrague en seco DCT", numero_velocidades: 6, peso_vacio_kg: 1400, capacidad_baul_litros: 407, autonomia_estimada_km: null, autonomia_ciclo: "Estimada", consumo_kwh_100km: null, ciclo_homologacion: "Estimado", consumo_mixto_kml: 21.0, capacidad_tanque_galones: 10.3}
 
   - modelo: Ioniq 5
     imagen_id: veh-hyundai-ioniq-5
@@ -281,6 +306,9 @@ modelos:
     versiones:
       - {anio: 2026, version: Long Range RWD 84 kWh, precio_base_cop: 239900000}
       - {anio: 2025, version: N 84 kWh AWD, precio_base_cop: 329900000, fecha_precio: 2025-05-01, segmento: Deportivo, motor_descripcion: "Dos motores eléctricos AWD", potencia_hp: 641, torque_nm: 770, aceleracion_0_100_seg: 3.5, velocidad_maxima_kmh: 260, potencia_electrica_kw: 478, traccion: AWD, autonomia_estimada_km: 448, consumo_kwh_100km: 21.2, peso_vacio_kg: 2200, medida_llantas: "275/35 R21", distancia_libre_suelo_mm: 140}
+      - {anio: 2022, version: "Long Range RWD 84 kWh", precio_base_cop: 153700000}
+      - {anio: 2023, version: "Long Range RWD 84 kWh", precio_base_cop: 168900000}
+      - {anio: 2024, version: "Long Range RWD 84 kWh", precio_base_cop: 185600000}
 
   - modelo: Ioniq 6
     imagen_id: veh-hyundai-ioniq-6
@@ -312,6 +340,8 @@ modelos:
         - {componente: "Baúl", descripcion: "401 litros con boca de sedán.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: Long Range RWD, precio_base_cop: 229900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "Long Range RWD", precio_base_cop: 171500000}
+      - {anio: 2024, version: "Long Range RWD", precio_base_cop: 188500000}
 
   - modelo: Palisade
     imagen_id: veh-hyundai-palisade
@@ -343,6 +373,11 @@ modelos:
         - {componente: "Dimensiones", descripcion: "4.995 mm de largo y 1.975 mm de ancho.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: Limited 3.8 V6 AWD, precio_base_cop: 279900000, fecha_precio: 2025-01-01}
+      - {anio: 2020, version: "Limited 3.8 V6 AWD", precio_base_cop: 157400000}
+      - {anio: 2021, version: "Limited 3.8 V6 AWD", precio_base_cop: 172900000}
+      - {anio: 2022, version: "Limited 3.8 V6 AWD", precio_base_cop: 190000000}
+      - {anio: 2023, version: "Limited 3.8 V6 AWD", precio_base_cop: 208800000}
+      - {anio: 2024, version: "Limited 3.8 V6 AWD", precio_base_cop: 229500000}
 
   - modelo: Elantra N
     imagen_id: veh-hyundai-elantra-n
@@ -374,3 +409,5 @@ modelos:
         - {componente: "Repuestos N", descripcion: "Frenos y suspensión específicos bajo pedido.", km_tipico: "Variable", costo_reparacion_cop_aprox: 5000000, severidad: Media}
     versiones:
       - {anio: 2025, version: N 2.0T DCT, precio_base_cop: 219900000, fecha_precio: 2025-02-01}
+      - {anio: 2023, version: "N 2.0T DCT", precio_base_cop: 173200000}
+      - {anio: 2024, version: "N 2.0T DCT", precio_base_cop: 185300000}
