@@ -74,7 +74,7 @@ imagenes:
     ancho: 4745
     alto: 2581
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi A3 Sedán"
   - id: veh-audi-a3-sportback
@@ -86,7 +86,7 @@ imagenes:
     ancho: 5451
     alto: 3610
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi A3 Sportback"
   - id: veh-audi-a4
@@ -98,7 +98,7 @@ imagenes:
     ancho: 5421
     alto: 2822
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi A4"
   - id: veh-audi-q2
@@ -110,7 +110,7 @@ imagenes:
     ancho: 4886
     alto: 2625
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi Q2"
   - id: veh-audi-q3
@@ -122,7 +122,7 @@ imagenes:
     ancho: 4578
     alto: 3060
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi Q3"
   - id: veh-audi-q4-e-tron
@@ -134,7 +134,7 @@ imagenes:
     ancho: 3720
     alto: 2021
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi Q4 e-tron"
   - id: veh-audi-q5
@@ -146,7 +146,7 @@ imagenes:
     ancho: 4073
     alto: 2301
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi Q5"
   - id: veh-audi-q8-e-tron
@@ -158,7 +158,7 @@ imagenes:
     ancho: 4473
     alto: 2484
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi Q8 e-tron"
   - id: veh-audi-rs-3
@@ -170,7 +170,7 @@ imagenes:
     ancho: 4745
     alto: 3158
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Audi RS 3"
   - id: veh-bmw-m2
@@ -182,7 +182,7 @@ imagenes:
     ancho: 4546
     alto: 2252
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW M2"
   - id: veh-bmw-serie-1
@@ -194,7 +194,7 @@ imagenes:
     ancho: 5046
     alto: 3200
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW Serie 1"
   - id: veh-bmw-serie-3
@@ -206,7 +206,7 @@ imagenes:
     ancho: 5086
     alto: 2604
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW Serie 3"
   - id: veh-bmw-x1
@@ -218,7 +218,7 @@ imagenes:
     ancho: 5021
     alto: 2827
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW X1"
   - id: veh-bmw-x3
@@ -230,7 +230,7 @@ imagenes:
     ancho: 4741
     alto: 2664
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW X3"
   - id: veh-bmw-x5
@@ -242,7 +242,7 @@ imagenes:
     ancho: 5131
     alto: 3189
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW X5"
   - id: veh-bmw-z4
@@ -254,7 +254,7 @@ imagenes:
     ancho: 5820
     alto: 2871
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW Z4"
   - id: veh-bmw-i4
@@ -266,7 +266,7 @@ imagenes:
     ancho: 4383
     alto: 2100
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BMW i4"
   - id: veh-byd-dolphin
@@ -278,7 +278,7 @@ imagenes:
     ancho: 5898
     alto: 3932
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Dolphin"
   - id: veh-byd-dolphin-mini
@@ -290,7 +290,7 @@ imagenes:
     ancho: 6345
     alto: 3837
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Dolphin Mini"
   - id: veh-byd-han-ev
@@ -302,7 +302,7 @@ imagenes:
     ancho: 4196
     alto: 1922
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Han EV"
   - id: veh-byd-king-dm-i
@@ -314,7 +314,7 @@ imagenes:
     ancho: 2424
     alto: 1823
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD King DM-i"
   - id: veh-byd-seal
@@ -326,7 +326,7 @@ imagenes:
     ancho: 5985
     alto: 3406
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Seal"
   - id: veh-byd-sealion-7
@@ -338,7 +338,7 @@ imagenes:
     ancho: 5470
     alto: 2701
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Sealion 7"
   - id: veh-byd-shark
@@ -350,7 +350,7 @@ imagenes:
     ancho: 5736
     alto: 3049
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Shark"
   - id: veh-byd-song-plus-dm-i
@@ -362,7 +362,7 @@ imagenes:
     ancho: 6307
     alto: 3887
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Song Plus DM-i"
   - id: veh-byd-song-pro-dm-i
@@ -374,7 +374,7 @@ imagenes:
     ancho: 3654
     alto: 1934
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Song Pro DM-i"
   - id: veh-byd-tang-ev
@@ -386,7 +386,7 @@ imagenes:
     ancho: 3600
     alto: 2401
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Tang EV"
   - id: veh-byd-yuan-plus
@@ -398,7 +398,7 @@ imagenes:
     ancho: 4032
     alto: 3024
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Yuan Plus"
   - id: veh-chery-tiggo-7-pro
@@ -410,7 +410,7 @@ imagenes:
     ancho: 3782
     alto: 2269
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chery Tiggo 7 Pro"
   - id: veh-chery-tiggo-8-pro
@@ -422,7 +422,7 @@ imagenes:
     ancho: 3449
     alto: 2070
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chery Tiggo 8 Pro"
   - id: veh-chevrolet-camaro
@@ -434,7 +434,7 @@ imagenes:
     ancho: 4567
     alto: 2437
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Camaro"
   - id: veh-chevrolet-captiva
@@ -446,7 +446,7 @@ imagenes:
     ancho: 1300
     alto: 819
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Captiva"
   - id: veh-chevrolet-colorado
@@ -458,7 +458,7 @@ imagenes:
     ancho: 3418
     alto: 2154
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Colorado"
   - id: veh-chevrolet-equinox
@@ -470,7 +470,7 @@ imagenes:
     ancho: 5408
     alto: 2969
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Equinox"
   - id: veh-chevrolet-equinox-ev
@@ -482,7 +482,7 @@ imagenes:
     ancho: 3071
     alto: 1821
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Equinox EV"
   - id: veh-chevrolet-montana
@@ -494,7 +494,7 @@ imagenes:
     ancho: 4566
     alto: 2570
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Montana"
   - id: veh-chevrolet-onix-hatchback
@@ -506,7 +506,7 @@ imagenes:
     ancho: 2830
     alto: 1680
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Onix Hatchback"
   - id: veh-chevrolet-onix-sedan
@@ -518,7 +518,7 @@ imagenes:
     ancho: 4060
     alto: 2580
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Onix Sedán"
   - id: veh-chevrolet-spark-gt
@@ -530,7 +530,7 @@ imagenes:
     ancho: 4261
     alto: 3313
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Spark GT"
   - id: veh-chevrolet-tracker
@@ -542,7 +542,7 @@ imagenes:
     ancho: 1664
     alto: 832
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Tracker"
   - id: veh-ford-bronco-sport
@@ -554,7 +554,7 @@ imagenes:
     ancho: 2845
     alto: 1865
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Bronco Sport"
   - id: veh-ford-ecosport
@@ -566,7 +566,7 @@ imagenes:
     ancho: 3275
     alto: 1958
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford EcoSport"
   - id: veh-ford-escape
@@ -578,7 +578,7 @@ imagenes:
     ancho: 5100
     alto: 3268
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Escape"
   - id: veh-ford-explorer
@@ -590,7 +590,7 @@ imagenes:
     ancho: 4892
     alto: 2638
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Explorer"
   - id: veh-ford-f-150
@@ -602,7 +602,7 @@ imagenes:
     ancho: 4661
     alto: 2529
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford F-150"
   - id: veh-ford-fiesta
@@ -614,7 +614,7 @@ imagenes:
     ancho: 5458
     alto: 3183
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Fiesta"
   - id: veh-ford-focus
@@ -626,7 +626,7 @@ imagenes:
     ancho: 4763
     alto: 2405
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Focus"
   - id: veh-ford-maverick
@@ -638,7 +638,7 @@ imagenes:
     ancho: 4648
     alto: 2344
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Maverick"
   - id: veh-ford-mustang
@@ -650,7 +650,7 @@ imagenes:
     ancho: 5480
     alto: 2883
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Mustang"
   - id: veh-ford-mustang-mach-e
@@ -662,7 +662,7 @@ imagenes:
     ancho: 3559
     alto: 1729
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Mustang Mach-E"
   - id: veh-ford-ranger
@@ -674,7 +674,7 @@ imagenes:
     ancho: 5281
     alto: 2982
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Ranger"
   - id: veh-ford-ranger-raptor
@@ -686,7 +686,7 @@ imagenes:
     ancho: 4694
     alto: 2544
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Ranger Raptor"
   - id: veh-ford-territory
@@ -698,7 +698,7 @@ imagenes:
     ancho: 4685
     alto: 2638
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Territory"
   - id: veh-honda-cr-v
@@ -710,7 +710,7 @@ imagenes:
     ancho: 5798
     alto: 3190
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Honda CR-V"
   - id: veh-honda-city-hatchback
@@ -722,7 +722,7 @@ imagenes:
     ancho: 4608
     alto: 3456
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Honda City Hatchback"
   - id: veh-honda-city-sedan
@@ -734,7 +734,7 @@ imagenes:
     ancho: 5973
     alto: 3131
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Honda City Sedán"
   - id: veh-honda-civic
@@ -746,7 +746,7 @@ imagenes:
     ancho: 5690
     alto: 2897
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Honda Civic"
   - id: veh-honda-hr-v
@@ -758,7 +758,7 @@ imagenes:
     ancho: 4284
     alto: 2459
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Honda HR-V"
   - id: veh-honda-pilot
@@ -770,7 +770,7 @@ imagenes:
     ancho: 1000
     alto: 750
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Honda Pilot"
   - id: veh-honda-wr-v
@@ -782,7 +782,7 @@ imagenes:
     ancho: 3331
     alto: 1998
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Honda WR-V"
   - id: veh-hyundai-accent
@@ -794,7 +794,7 @@ imagenes:
     ancho: 4913
     alto: 2450
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Accent"
   - id: veh-hyundai-creta
@@ -806,7 +806,7 @@ imagenes:
     ancho: 1920
     alto: 1152
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Creta"
   - id: veh-hyundai-elantra-n
@@ -818,7 +818,7 @@ imagenes:
     ancho: 4016
     alto: 2256
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Elantra N"
   - id: veh-hyundai-grand-i10-hatchback
@@ -830,7 +830,7 @@ imagenes:
     ancho: 5616
     alto: 3216
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Grand i10 Hatchback"
   - id: veh-hyundai-grand-i10-sedan
@@ -842,7 +842,7 @@ imagenes:
     ancho: 4000
     alto: 1714
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Grand i10 Sedán"
   - id: veh-hyundai-ioniq-5
@@ -854,7 +854,7 @@ imagenes:
     ancho: 5801
     alto: 2972
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Ioniq 5"
   - id: veh-hyundai-ioniq-6
@@ -866,7 +866,7 @@ imagenes:
     ancho: 2892
     alto: 1480
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Ioniq 6"
   - id: veh-hyundai-kona
@@ -878,7 +878,7 @@ imagenes:
     ancho: 5013
     alto: 2825
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Kona"
   - id: veh-hyundai-palisade
@@ -890,7 +890,7 @@ imagenes:
     ancho: 3580
     alto: 2219
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Palisade"
   - id: veh-hyundai-santa-fe
@@ -902,7 +902,7 @@ imagenes:
     ancho: 3729
     alto: 2275
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Santa Fe"
   - id: veh-hyundai-tucson
@@ -914,7 +914,7 @@ imagenes:
     ancho: 5912
     alto: 3174
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Tucson"
   - id: veh-hyundai-venue
@@ -926,7 +926,7 @@ imagenes:
     ancho: 3768
     alto: 2034
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Hyundai Venue"
   - id: veh-kia-ev5
@@ -938,7 +938,7 @@ imagenes:
     ancho: 3142
     alto: 1767
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia EV5"
   - id: veh-kia-ev6
@@ -950,7 +950,7 @@ imagenes:
     ancho: 4471
     alto: 2118
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia EV6"
   - id: veh-kia-k3-cross
@@ -962,7 +962,7 @@ imagenes:
     ancho: 3225
     alto: 1613
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia K3 Cross"
   - id: veh-kia-k3-sedan
@@ -974,7 +974,7 @@ imagenes:
     ancho: 3225
     alto: 1613
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia K3 Sedán"
   - id: veh-kia-niro
@@ -986,7 +986,7 @@ imagenes:
     ancho: 5319
     alto: 3150
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Niro"
   - id: veh-kia-picanto
@@ -998,7 +998,7 @@ imagenes:
     ancho: 4586
     alto: 2716
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Picanto"
   - id: veh-kia-seltos
@@ -1010,7 +1010,7 @@ imagenes:
     ancho: 3548
     alto: 1977
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Seltos"
   - id: veh-kia-soluto
@@ -1022,7 +1022,7 @@ imagenes:
     ancho: 4032
     alto: 2520
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Soluto"
   - id: veh-kia-sonet
@@ -1034,7 +1034,7 @@ imagenes:
     ancho: 2872
     alto: 1723
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Sonet"
   - id: veh-kia-sorento
@@ -1046,7 +1046,7 @@ imagenes:
     ancho: 3279
     alto: 1907
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Sorento"
   - id: veh-kia-sportage
@@ -1058,7 +1058,7 @@ imagenes:
     ancho: 4705
     alto: 2466
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Sportage"
   - id: veh-mazda-2-hatchback
@@ -1070,7 +1070,7 @@ imagenes:
     ancho: 3789
     alto: 2010
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda 2 Hatchback"
   - id: veh-mazda-2-sedan
@@ -1082,7 +1082,7 @@ imagenes:
     ancho: 4385
     alto: 2557
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda 2 Sedán"
   - id: veh-mazda-3-hatchback
@@ -1094,7 +1094,7 @@ imagenes:
     ancho: 5976
     alto: 3130
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda 3 Hatchback"
   - id: veh-mazda-3-sedan
@@ -1106,7 +1106,7 @@ imagenes:
     ancho: 6401
     alto: 3367
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda 3 Sedán"
   - id: veh-mazda-cx-3
@@ -1118,7 +1118,7 @@ imagenes:
     ancho: 4365
     alto: 2360
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda CX-3"
   - id: veh-mazda-cx-30
@@ -1130,7 +1130,7 @@ imagenes:
     ancho: 5255
     alto: 3015
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda CX-30"
   - id: veh-mazda-cx-5
@@ -1142,7 +1142,7 @@ imagenes:
     ancho: 5339
     alto: 3440
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda CX-5"
   - id: veh-mazda-cx-90
@@ -1154,7 +1154,7 @@ imagenes:
     ancho: 3750
     alto: 1820
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda CX-90"
   - id: veh-mazda-mx-5
@@ -1166,7 +1166,7 @@ imagenes:
     ancho: 4373
     alto: 2593
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda MX-5"
   - id: veh-mercedes-benz-amg-c-43
@@ -1178,7 +1178,7 @@ imagenes:
     ancho: 4997
     alto: 2717
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz AMG C 43"
   - id: veh-mercedes-benz-clase-a-hatchback
@@ -1190,7 +1190,7 @@ imagenes:
     ancho: 3960
     alto: 1873
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz Clase A Hatchback"
   - id: veh-mercedes-benz-clase-a-sedan
@@ -1202,7 +1202,7 @@ imagenes:
     ancho: 3407
     alto: 2555
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz Clase A Sedán"
   - id: veh-mercedes-benz-clase-c
@@ -1214,7 +1214,7 @@ imagenes:
     ancho: 4580
     alto: 2234
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz Clase C"
   - id: veh-mercedes-benz-eqa
@@ -1226,7 +1226,7 @@ imagenes:
     ancho: 4959
     alto: 2710
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz EQA"
   - id: veh-mercedes-benz-gla
@@ -1238,7 +1238,7 @@ imagenes:
     ancho: 5637
     alto: 3027
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz GLA"
   - id: veh-mercedes-benz-glb
@@ -1250,7 +1250,7 @@ imagenes:
     ancho: 4473
     alto: 2355
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz GLB"
   - id: veh-mercedes-benz-glc
@@ -1262,7 +1262,7 @@ imagenes:
     ancho: 5837
     alto: 3177
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz GLC"
   - id: veh-mercedes-benz-gle
@@ -1274,7 +1274,7 @@ imagenes:
     ancho: 5681
     alto: 3111
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mercedes-Benz GLE"
   - id: veh-nissan-frontier
@@ -1286,7 +1286,7 @@ imagenes:
     ancho: 1920
     alto: 1152
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan Frontier"
   - id: veh-nissan-kicks
@@ -1298,7 +1298,7 @@ imagenes:
     ancho: 5069
     alto: 3170
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan Kicks"
   - id: veh-nissan-kicks-e-power
@@ -1310,7 +1310,7 @@ imagenes:
     ancho: 5069
     alto: 3170
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan Kicks e-Power"
   - id: veh-nissan-leaf
@@ -1322,7 +1322,7 @@ imagenes:
     ancho: 4851
     alto: 2662
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan Leaf"
   - id: veh-nissan-march
@@ -1334,7 +1334,7 @@ imagenes:
     ancho: 3859
     alto: 2456
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan March"
   - id: veh-nissan-qashqai
@@ -1346,7 +1346,7 @@ imagenes:
     ancho: 5368
     alto: 3215
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan Qashqai"
   - id: veh-nissan-sentra
@@ -1358,7 +1358,7 @@ imagenes:
     ancho: 5528
     alto: 3727
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan Sentra"
   - id: veh-nissan-versa
@@ -1370,7 +1370,7 @@ imagenes:
     ancho: 5118
     alto: 3142
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan Versa"
   - id: veh-nissan-x-trail
@@ -1382,7 +1382,7 @@ imagenes:
     ancho: 5693
     alto: 3086
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan X-Trail"
   - id: veh-peugeot-2008
@@ -1394,7 +1394,7 @@ imagenes:
     ancho: 3236
     alto: 1852
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Peugeot 2008"
   - id: veh-peugeot-208
@@ -1406,7 +1406,7 @@ imagenes:
     ancho: 4554
     alto: 2265
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Peugeot 208"
   - id: veh-peugeot-3008
@@ -1418,7 +1418,7 @@ imagenes:
     ancho: 4771
     alto: 2927
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Peugeot 3008"
   - id: veh-peugeot-308
@@ -1430,7 +1430,7 @@ imagenes:
     ancho: 5186
     alto: 2781
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Peugeot 308"
   - id: veh-peugeot-5008
@@ -1442,7 +1442,7 @@ imagenes:
     ancho: 5151
     alto: 3498
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Peugeot 5008"
   - id: veh-peugeot-landtrek
@@ -1454,7 +1454,7 @@ imagenes:
     ancho: 4164
     alto: 2596
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Peugeot Landtrek"
   - id: veh-peugeot-e-208
@@ -1466,7 +1466,7 @@ imagenes:
     ancho: 4554
     alto: 2265
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Peugeot e-208"
   - id: veh-renault-alaskan
@@ -1478,7 +1478,7 @@ imagenes:
     ancho: 4926
     alto: 2684
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Alaskan"
   - id: veh-renault-arkana
@@ -1490,7 +1490,7 @@ imagenes:
     ancho: 4977
     alto: 3079
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Arkana"
   - id: veh-renault-duster
@@ -1502,7 +1502,7 @@ imagenes:
     ancho: 3301
     alto: 2394
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Duster"
   - id: veh-renault-kardian
@@ -1514,7 +1514,7 @@ imagenes:
     ancho: 6500
     alto: 4500
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Kardian"
   - id: veh-renault-koleos
@@ -1526,7 +1526,7 @@ imagenes:
     ancho: 4307
     alto: 2441
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Koleos"
   - id: veh-renault-kwid
@@ -1538,7 +1538,7 @@ imagenes:
     ancho: 2819
     alto: 1691
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Kwid"
   - id: veh-renault-kwid-e-tech
@@ -1550,7 +1550,7 @@ imagenes:
     ancho: 2819
     alto: 1691
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Kwid E-Tech"
   - id: veh-renault-logan
@@ -1562,7 +1562,7 @@ imagenes:
     ancho: 3200
     alto: 1978
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Logan"
   - id: veh-renault-megane-e-tech
@@ -1574,7 +1574,7 @@ imagenes:
     ancho: 4809
     alto: 2749
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Megane E-Tech"
   - id: veh-renault-oroch
@@ -1586,7 +1586,7 @@ imagenes:
     ancho: 2200
     alto: 1400
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Oroch"
   - id: veh-renault-sandero
@@ -1598,7 +1598,7 @@ imagenes:
     ancho: 5600
     alto: 3728
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Sandero"
   - id: veh-renault-stepway
@@ -1610,7 +1610,7 @@ imagenes:
     ancho: 1730
     alto: 1038
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Stepway"
   - id: veh-subaru-brz
@@ -1622,7 +1622,7 @@ imagenes:
     ancho: 5000
     alto: 3333
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Subaru BRZ"
   - id: veh-subaru-crosstrek
@@ -1634,7 +1634,7 @@ imagenes:
     ancho: 5780
     alto: 3163
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Subaru Crosstrek"
   - id: veh-subaru-forester
@@ -1646,7 +1646,7 @@ imagenes:
     ancho: 4967
     alto: 2857
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Subaru Forester"
   - id: veh-subaru-impreza
@@ -1658,7 +1658,7 @@ imagenes:
     ancho: 4792
     alto: 2686
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Subaru Impreza"
   - id: veh-subaru-outback
@@ -1670,7 +1670,7 @@ imagenes:
     ancho: 4646
     alto: 3105
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Subaru Outback"
   - id: veh-subaru-solterra
@@ -1682,7 +1682,7 @@ imagenes:
     ancho: 5003
     alto: 3338
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Subaru Solterra"
   - id: veh-subaru-wrx
@@ -1694,7 +1694,7 @@ imagenes:
     ancho: 3972
     alto: 2269
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Subaru WRX"
   - id: veh-suzuki-baleno
@@ -1706,7 +1706,7 @@ imagenes:
     ancho: 1920
     alto: 1153
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki Baleno"
   - id: veh-suzuki-dzire
@@ -1718,7 +1718,7 @@ imagenes:
     ancho: 3912
     alto: 2200
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki Dzire"
   - id: veh-suzuki-fronx
@@ -1730,7 +1730,7 @@ imagenes:
     ancho: 4752
     alto: 2284
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki Fronx"
   - id: veh-suzuki-grand-vitara
@@ -1742,7 +1742,7 @@ imagenes:
     ancho: 5262
     alto: 3240
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki Grand Vitara"
   - id: veh-suzuki-jimny
@@ -1754,7 +1754,7 @@ imagenes:
     ancho: 2724
     alto: 1531
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki Jimny"
   - id: veh-suzuki-s-cross
@@ -1766,7 +1766,7 @@ imagenes:
     ancho: 4902
     alto: 2784
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki S-Cross"
   - id: veh-suzuki-swift
@@ -1778,7 +1778,7 @@ imagenes:
     ancho: 4038
     alto: 2610
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki Swift"
   - id: veh-suzuki-vitara
@@ -1790,7 +1790,7 @@ imagenes:
     ancho: 3970
     alto: 2008
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki Vitara"
   - id: veh-toyota-corolla
@@ -1802,7 +1802,7 @@ imagenes:
     ancho: 4359
     alto: 2202
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Corolla"
   - id: veh-toyota-corolla-cross
@@ -1814,7 +1814,7 @@ imagenes:
     ancho: 3616
     alto: 2259
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Corolla Cross"
   - id: veh-toyota-fortuner
@@ -1826,7 +1826,7 @@ imagenes:
     ancho: 2865
     alto: 1689
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Fortuner"
   - id: veh-toyota-gr-yaris
@@ -1838,7 +1838,7 @@ imagenes:
     ancho: 3420
     alto: 1833
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota GR Yaris"
   - id: veh-toyota-gr86
@@ -1850,7 +1850,7 @@ imagenes:
     ancho: 3875
     alto: 2580
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota GR86"
   - id: veh-toyota-hilux
@@ -1862,7 +1862,7 @@ imagenes:
     ancho: 4968
     alto: 2463
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Hilux"
   - id: veh-toyota-land-cruiser-prado
@@ -1874,7 +1874,7 @@ imagenes:
     ancho: 5212
     alto: 3252
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Land Cruiser Prado"
   - id: veh-toyota-rav4
@@ -1886,7 +1886,7 @@ imagenes:
     ancho: 5142
     alto: 3078
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota RAV4"
   - id: veh-toyota-raize
@@ -1898,7 +1898,7 @@ imagenes:
     ancho: 4027
     alto: 2416
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Raize"
   - id: veh-toyota-yaris-cross
@@ -1910,7 +1910,7 @@ imagenes:
     ancho: 4837
     alto: 2780
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Yaris Cross"
   - id: veh-toyota-yaris-sedan
@@ -1922,7 +1922,7 @@ imagenes:
     ancho: 2048
     alto: 1200
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Yaris Sedán"
   - id: veh-volkswagen-amarok
@@ -1934,7 +1934,7 @@ imagenes:
     ancho: 5834
     alto: 3103
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Amarok"
   - id: veh-volkswagen-golf
@@ -1946,7 +1946,7 @@ imagenes:
     ancho: 4946
     alto: 2523
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Golf"
   - id: veh-volkswagen-jetta
@@ -1958,7 +1958,7 @@ imagenes:
     ancho: 2864
     alto: 1531
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Jetta"
   - id: veh-volkswagen-nivus
@@ -1970,7 +1970,7 @@ imagenes:
     ancho: 5730
     alto: 3231
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Nivus"
   - id: veh-volkswagen-polo
@@ -1982,7 +1982,7 @@ imagenes:
     ancho: 3398
     alto: 1873
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Polo"
   - id: veh-volkswagen-saveiro
@@ -1994,7 +1994,7 @@ imagenes:
     ancho: 3000
     alto: 1840
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Saveiro"
   - id: veh-volkswagen-t-cross
@@ -2006,7 +2006,7 @@ imagenes:
     ancho: 5804
     alto: 3301
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen T-Cross"
   - id: veh-volkswagen-taos
@@ -2018,7 +2018,7 @@ imagenes:
     ancho: 4965
     alto: 2601
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Taos"
   - id: veh-volkswagen-tiguan
@@ -2030,7 +2030,7 @@ imagenes:
     ancho: 5012
     alto: 2975
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Tiguan"
   - id: veh-volkswagen-virtus
@@ -2042,6 +2042,6 @@ imagenes:
     ancho: 1920
     alto: 1152
     contiene_logo: true
-    uso: vehiculo
+    uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Volkswagen Virtus"
