@@ -33,6 +33,12 @@ modelos:
     versiones:
       - {anio: 2023, version: XS CVT, precio_base_cop: 82900000, fecha_precio: 2023-03-01, numero_airbags: 3}
       - {anio: 2023, version: XLS CVT, precio_base_cop: 90900000, fecha_precio: 2023-03-01, camara_reversa: true, llave_inteligente: true, aire_acondicionado: Automático}
+      - {anio: 2018, version: "XS CVT", precio_base_cop: 58600000, numero_airbags: 3}
+      - {anio: 2019, version: "XS CVT", precio_base_cop: 61700000, numero_airbags: 3}
+      - {anio: 2020, version: "XS CVT", precio_base_cop: 64900000, numero_airbags: 3}
+      - {anio: 2021, version: "XS CVT", precio_base_cop: 68400000, numero_airbags: 3}
+      - {anio: 2022, version: "XS CVT", precio_base_cop: 72000000, numero_airbags: 3}
+      - {anio: 2024, version: "XS CVT", precio_base_cop: 79700000, numero_airbags: 3}
 
   - modelo: Corolla
     imagen_id: veh-toyota-corolla
@@ -65,6 +71,11 @@ modelos:
       - {anio: 2026, version: XEi HEV, precio_base_cop: 128900000}
       - {anio: 2026, version: SEG HEV, precio_base_cop: 139900000, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, apple_carplay_android_auto: Inalámbrico, medida_llantas: "225/45 R17", adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Luces altas automáticas, Monitoreo de punto ciego]}
       - {anio: 2024, version: XLi 2.0 CVT, precio_base_cop: 112900000, fecha_precio: 2024-03-01, tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Dynamic Force M20A", cilindraje_cc: 1987, potencia_hp: 169, rpm_potencia_max: 6600, torque_nm: 200, rpm_torque_max: 4400, aceleracion_0_100_seg: 9.2, velocidad_maxima_kmh: 200, transmision_tipo: CVT, numero_velocidades: 10, potencia_electrica_kw: null, capacidad_bateria_kwh: null, garantia_bateria_anos: null, garantia_bateria_km: null, consumo_mixto_kml: 15.5, consumo_real_estimado_kml: 13.2, peso_vacio_kg: 1330}
+      - {anio: 2019, version: "XEi HEV", precio_base_cop: 80500000}
+      - {anio: 2020, version: "XEi HEV", precio_base_cop: 84800000}
+      - {anio: 2021, version: "XEi HEV", precio_base_cop: 89200000}
+      - {anio: 2022, version: "XEi HEV", precio_base_cop: 93900000}
+      - {anio: 2023, version: "XEi HEV", precio_base_cop: 98900000}
 
   - modelo: Corolla Cross
     imagen_id: veh-toyota-corolla-cross
@@ -99,6 +110,10 @@ modelos:
       - {anio: 2026, version: SEG HEV, precio_base_cop: 159900000, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, medida_llantas: "225/50 R18", sensores_parqueo: Delantero y trasero, adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Luces altas automáticas, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
       - {anio: 2026, version: GR-Sport HEV, precio_base_cop: 164900000, tapiceria: Cuero sintético, medida_llantas: "225/50 R18", adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Luces altas automáticas, Monitoreo de punto ciego]}
       - {anio: 2025, version: XLi 2.0 CVT, precio_base_cop: 129900000, fecha_precio: 2025-04-01, tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Dynamic Force M20A", cilindraje_cc: 1987, potencia_hp: 169, rpm_potencia_max: 6600, torque_nm: 202, rpm_torque_max: 4400, aceleracion_0_100_seg: 9.9, velocidad_maxima_kmh: 185, transmision_tipo: CVT, numero_velocidades: 10, potencia_electrica_kw: null, capacidad_bateria_kwh: null, garantia_bateria_anos: null, garantia_bateria_km: null, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 12.0, peso_vacio_kg: 1385, apple_carplay_android_auto: Cable, pantalla_multimedia_pulgadas: 8}
+      - {anio: 2021, version: "XEi HEV", precio_base_cop: 101700000}
+      - {anio: 2022, version: "XEi HEV", precio_base_cop: 107100000}
+      - {anio: 2023, version: "XEi HEV", precio_base_cop: 112700000}
+      - {anio: 2024, version: "XEi HEV", precio_base_cop: 118600000}
 
   - modelo: Yaris Cross
     imagen_id: veh-toyota-yaris-cross
@@ -130,6 +145,7 @@ modelos:
     versiones:
       - {anio: 2026, version: HEV, precio_base_cop: 119900000}
       - {anio: 2026, version: HEV Premium, precio_base_cop: 129900000, tapiceria: Cuero sintético, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Cámara 360]}
+      - {anio: 2024, version: "HEV", precio_base_cop: 96800000}
 
   - modelo: RAV4
     imagen_id: veh-toyota-rav4
@@ -161,6 +177,12 @@ modelos:
     versiones:
       - {anio: 2026, version: Limited HEV AWD, precio_base_cop: 219900000}
       - {anio: 2025, version: XLE HEV AWD, precio_base_cop: 199900000, fecha_precio: 2025-05-01, tapiceria: Cuero sintético, techo_corredizo: false, pantalla_multimedia_pulgadas: 8}
+      - {anio: 2019, version: "Limited HEV AWD", precio_base_cop: 137400000}
+      - {anio: 2020, version: "Limited HEV AWD", precio_base_cop: 144600000}
+      - {anio: 2021, version: "Limited HEV AWD", precio_base_cop: 152200000}
+      - {anio: 2022, version: "Limited HEV AWD", precio_base_cop: 160300000}
+      - {anio: 2023, version: "Limited HEV AWD", precio_base_cop: 168700000}
+      - {anio: 2024, version: "Limited HEV AWD", precio_base_cop: 177600000}
 
   - modelo: Fortuner
     imagen_id: veh-toyota-fortuner
@@ -194,6 +216,15 @@ modelos:
     versiones:
       - {anio: 2026, version: SRV 2.8 AT 4x4, precio_base_cop: 249900000}
       - {anio: 2026, version: Legender 2.8 AT 4x4, precio_base_cop: 279900000, pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "265/55 R20", adas_incluidas: [Control crucero adaptativo, Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Cámara 360]}
+      - {anio: 2016, version: "SRV 2.8 AT 4x4", precio_base_cop: 133900000}
+      - {anio: 2017, version: "SRV 2.8 AT 4x4", precio_base_cop: 140900000}
+      - {anio: 2018, version: "SRV 2.8 AT 4x4", precio_base_cop: 148300000}
+      - {anio: 2019, version: "SRV 2.8 AT 4x4", precio_base_cop: 156100000}
+      - {anio: 2020, version: "SRV 2.8 AT 4x4", precio_base_cop: 164400000}
+      - {anio: 2021, version: "SRV 2.8 AT 4x4", precio_base_cop: 173000000}
+      - {anio: 2022, version: "SRV 2.8 AT 4x4", precio_base_cop: 182100000}
+      - {anio: 2023, version: "SRV 2.8 AT 4x4", precio_base_cop: 191700000}
+      - {anio: 2024, version: "SRV 2.8 AT 4x4", precio_base_cop: 201800000}
 
   - modelo: Hilux
     imagen_id: veh-toyota-hilux
@@ -228,6 +259,15 @@ modelos:
       - {anio: 2026, version: SRV 2.8 AT 4x4, precio_base_cop: 219900000}
       - {anio: 2026, version: GR-Sport 2.8 AT 4x4, precio_base_cop: 249900000, potencia_hp: 221, torque_nm: 550, medida_llantas: "265/60 R18", apple_carplay_android_auto: Inalámbrico, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
       - {anio: 2025, version: SRV 2.8 AT 4x4, precio_base_cop: 211900000, fecha_precio: 2025-03-01}
+      - {anio: 2016, version: "DX 2.4 MT 4x4", precio_base_cop: 92600000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2017, version: "DX 2.4 MT 4x4", precio_base_cop: 97500000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2018, version: "DX 2.4 MT 4x4", precio_base_cop: 102600000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2019, version: "DX 2.4 MT 4x4", precio_base_cop: 108000000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2020, version: "DX 2.4 MT 4x4", precio_base_cop: 113700000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2021, version: "DX 2.4 MT 4x4", precio_base_cop: 119700000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2022, version: "DX 2.4 MT 4x4", precio_base_cop: 126000000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2023, version: "DX 2.4 MT 4x4", precio_base_cop: 132600000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
+      - {anio: 2024, version: "DX 2.4 MT 4x4", precio_base_cop: 139600000, motor_descripcion: "2.4 2GD-FTV turbodiésel", cilindraje_cc: 2393, potencia_hp: 148, rpm_potencia_max: 3400, torque_nm: 400, rpm_torque_max: 1600, aceleracion_0_100_seg: 13.0, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 3, tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, luces_led: false, adas_incluidas: [], medida_llantas: "265/65 R17", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.5, peso_vacio_kg: 1985}
 
   - modelo: Land Cruiser Prado
     imagen_id: veh-toyota-land-cruiser-prado
@@ -260,6 +300,7 @@ modelos:
         - {componente: "Electrónica nueva", descripcion: "Generación reciente sin historial largo en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: TX-L 2.8 AT 4x4, precio_base_cop: 359900000}
+      - {anio: 2024, version: "TX-L 2.8 AT 4x4", precio_base_cop: 290600000}
 
   - modelo: GR86
     imagen_id: veh-toyota-gr86
@@ -290,6 +331,9 @@ modelos:
         - {componente: "Gasolina extra", descripcion: "Requiere octanaje alto; costo por kilómetro mayor.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: 2.4 MT, precio_base_cop: 199900000}
+      - {anio: 2022, version: "2.4 MT", precio_base_cop: 145700000}
+      - {anio: 2023, version: "2.4 MT", precio_base_cop: 153300000}
+      - {anio: 2024, version: "2.4 MT", precio_base_cop: 161400000}
 
   - modelo: GR Yaris
     imagen_id: veh-toyota-gr-yaris
@@ -323,6 +367,8 @@ modelos:
         - {componente: "Practicidad", descripcion: "Tres puertas y baúl de 174 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2024, version: 1.6T MT AWD, precio_base_cop: 249900000, fecha_precio: 2024-02-01}
+      - {anio: 2022, version: "1.6T MT AWD", precio_base_cop: 204600000}
+      - {anio: 2023, version: "1.6T MT AWD", precio_base_cop: 215400000}
 
   - modelo: Raize
     imagen_id: veh-toyota-raize
@@ -354,6 +400,9 @@ modelos:
     versiones:
       - {anio: 2026, version: 1.0T CVT, precio_base_cop: 96900000}
       - {anio: 2025, version: 1.0T CVT, precio_base_cop: 92900000, fecha_precio: 2025-02-01, pantalla_multimedia_pulgadas: 7}
+      - {anio: 2022, version: "1.0T CVT", precio_base_cop: 67300000}
+      - {anio: 2023, version: "1.0T CVT", precio_base_cop: 72000000}
+      - {anio: 2024, version: "1.0T CVT", precio_base_cop: 77000000}
 
   - modelo: Rush
     imagen_id: veh-toyota-rush
@@ -386,6 +435,12 @@ modelos:
     versiones:
       - {anio: 2026, version: G 1.5 AT, precio_base_cop: 109900000}
       - {anio: 2025, version: G 1.5 AT, precio_base_cop: 106900000, fecha_precio: 2025-03-01}
+      - {anio: 2019, version: "G 1.5 AT", precio_base_cop: 68700000}
+      - {anio: 2020, version: "G 1.5 AT", precio_base_cop: 72300000}
+      - {anio: 2021, version: "G 1.5 AT", precio_base_cop: 76100000}
+      - {anio: 2022, version: "G 1.5 AT", precio_base_cop: 80100000}
+      - {anio: 2023, version: "G 1.5 AT", precio_base_cop: 84300000}
+      - {anio: 2024, version: "G 1.5 AT", precio_base_cop: 88700000}
 
   - modelo: 4Runner
     imagen_id: veh-toyota-4runner
