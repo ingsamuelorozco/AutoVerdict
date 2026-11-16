@@ -35,6 +35,8 @@ modelos:
       - {anio: 2026, version: Comfort 1.5 CVT, precio_base_cop: 79900000}
       - {anio: 2026, version: Luxury 1.5 CVT, precio_base_cop: 89900000, techo_corredizo: true, tapiceria: Cuero sintético, luces_led: true}
       - {anio: 2025, version: Comfort 1.5 CVT, precio_base_cop: 77900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "Comfort 1.5 CVT", precio_base_cop: 56200000}
+      - {anio: 2024, version: "Comfort 1.5 CVT", precio_base_cop: 61800000}
 
   - modelo: ZS EV
     imagen_id: veh-mg-zs-ev
@@ -67,6 +69,8 @@ modelos:
         - {componente: "Reventa", descripcion: "Mercado de eléctricos usados todavía pequeño.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: Luxury 51 kWh, precio_base_cop: 129900000}
+      - {anio: 2023, version: "Luxury 51 kWh", precio_base_cop: 91400000}
+      - {anio: 2024, version: "Luxury 51 kWh", precio_base_cop: 100500000}
 
   - modelo: MG5
     imagen_id: veh-mg-mg5
@@ -100,6 +104,8 @@ modelos:
     versiones:
       - {anio: 2026, version: Comfort 1.5 CVT, precio_base_cop: 74900000}
       - {anio: 2026, version: Luxury 1.5 CVT, precio_base_cop: 82900000, numero_airbags: 6, techo_corredizo: true, luces_led: true, llave_inteligente: true}
+      - {anio: 2023, version: "Comfort 1.5 CVT", precio_base_cop: 52700000}
+      - {anio: 2024, version: "Comfort 1.5 CVT", precio_base_cop: 57900000}
 
   - modelo: HS
     imagen_id: veh-mg-hs
@@ -133,3 +139,5 @@ modelos:
     versiones:
       - {anio: 2026, version: Luxury 1.5T DCT, precio_base_cop: 119900000}
       - {anio: 2026, version: Trophy 1.5T DCT, precio_base_cop: 129900000, tapiceria: Cuero, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+      - {anio: 2023, version: "Luxury 1.5T DCT", precio_base_cop: 84400000}
+      - {anio: 2024, version: "Luxury 1.5T DCT", precio_base_cop: 92700000}
