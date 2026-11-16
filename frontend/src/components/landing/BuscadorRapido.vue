@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { ChevronDown } from 'lucide-vue-next'
+import RangoDoble from '@/components/landing/RangoDoble.vue'
+import { formatoNumero } from '@/composables/useFormato'
 import { OPC } from '@/lib/opciones'
 import { useAjustes } from '@/stores/ajustes'
 import { T } from '@/lib/textos'
@@ -11,6 +13,10 @@ const carroceria = ref('')
 const marca = ref('')
 const ciudad = ref('')
 const aj = useAjustes()
+/** Rango del precio en calle del catálogo en COP (35 M a 523 M), redondeado a pasos de 5 M. */
+const LIMITE = { min: 30_000_000, max: 550_000_000, paso: 5_000_000 }
+const rango = ref<[number, number]>([LIMITE.min, LIMITE.max])
+const millones = (v: number) => `$${formatoNumero(v / 1_000_000)} M`
 const listaMarcas = computed(() => (props.marcas?.length ? props.marcas : OPC.marca))
 </script>
 
@@ -55,6 +61,12 @@ const listaMarcas = computed(() => (props.marcas?.length ? props.marcas : OPC.ma
             <ChevronDown class="pointer-events-none absolute right-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-tenue" aria-hidden="true" />
           </div>
         </div>
+      </div>
+      <div class="mt-8 grid items-center gap-6">
+        <fieldset>
+          <legend class="text-[13px] text-tenue">{{ B.precio }}</legend>
+          <RangoDoble v-model="rango" class="mt-3" :min="LIMITE.min" :max="LIMITE.max" :paso="LIMITE.paso" :formato="millones" :etiqueta-min="B.precioMin" :etiqueta-max="B.precioMax" />
+        </fieldset>
       </div>
     </form>
   </section>
