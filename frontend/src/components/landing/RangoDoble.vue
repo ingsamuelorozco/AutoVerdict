@@ -32,4 +32,5 @@ function cambiar(i: 0 | 1, e: Event) {
 .rango-input::-webkit-slider-runnable-track { height: 14px; background: transparent; }
 .rango-input::-moz-range-track { background: transparent; }
 .rango-input::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; pointer-events: auto; width: 14px; height: 14px; border-radius: 9999px; background: #fff; border: 3px solid rgb(var(--acento)); }
+.rango-input::-moz-range-thumb { pointer-events: auto; box-sizing: border-box; width: 14px; height: 14px; border-radius: 9999px; background: #fff; border: 3px solid rgb(var(--acento)); }
 </style>
