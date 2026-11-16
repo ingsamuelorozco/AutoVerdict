@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import fondo from '@/assets/images/features-bg-snow-road.jpg'
+import ItemCaracteristica from '@/components/landing/ItemCaracteristica.vue'
 import { T } from '@/lib/textos'
 
 const C = T.landing.caracteristicas
@@ -10,6 +11,9 @@ const C = T.landing.caracteristicas
     <img :src="fondo" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover opacity-[0.07] grayscale" width="1600" height="1063" loading="lazy" decoding="async" />
     <h2 id="caract-titulo" class="sr-only">{{ C.titulo }}</h2>
     <div class="mx-auto grid max-w-landing items-center gap-12 px-[15px] lg:grid-cols-[1fr_300px_1fr] lg:gap-10">
+      <ul class="grid">
+        <ItemCaracteristica v-for="i in C.izquierda" :key="i.titulo" v-bind="i" lado="izquierda" />
+      </ul>
     </div>
   </section>
 </template>
