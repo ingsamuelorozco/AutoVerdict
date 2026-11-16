@@ -1,6 +1,6 @@
 import bmwM2 from '@/assets/images/hero/bmw-m2.png'
 import fordMustang from '@/assets/images/hero/ford-mustang.png'
-import bydSeal from '@/assets/images/hero/byd-seal.png'
+import hyundaiIoniq6 from '@/assets/images/hero/hyundai-ioniq-6.png'
 import subaruWrx from '@/assets/images/hero/subaru-wrx.png'
 import hondaCivic from '@/assets/images/hero/honda-civic.png'
 import toyotaCorollaCross from '@/assets/images/hero/toyota-corolla-cross.png'
@@ -26,7 +26,7 @@ export interface AutoHero {
   pregunta: [string, string]
 }
 
-/** Autos del hero: fotos reales con fondo eliminado (ancho 1400 px). Rotan cada minuto. */
+/** Autos del hero: fotos reales con fondo eliminado (ancho 1400 px), todos mirando a la izquierda. Rotan cada minuto. */
 export const AUTOS_HERO: AutoHero[] = [
   {
     slug: 'bmw-m2-2025-m2-coupe-at', nombre: 'BMW M2 2025', imagen: bmwM2, alto: 632,
@@ -39,14 +39,14 @@ export const AUTOS_HERO: AutoHero[] = [
     slug: 'ford-mustang-2026-dark-horse-5-0-v8-at', nombre: 'Ford Mustang 2026', imagen: fordMustang, alto: 673,
     alt: 'Ford Mustang azul visto de tres cuartos frontal',
     credito: { autor: 'Alexander Migl', licencia: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Ford_Mustang_VII_GT_Rutesheimer_Autoschau_2025_DSC_9234.jpg' },
-    puntos: { motor: [72, 36], costo: [18, 48], extra: [44, 78] }, extra: 'aceleracion',
+    puntos: { motor: [28, 36], costo: [82, 48], extra: [56, 78] }, extra: 'aceleracion',
     pregunta: ['¿Es', 'rápido?'],
   },
   {
-    slug: 'byd-seal-2026-performance-awd', nombre: 'BYD Seal 2026', imagen: bydSeal, alto: 728,
-    alt: 'BYD Seal celeste visto de tres cuartos frontal',
-    credito: { autor: 'User3204', licencia: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:2022_BYD_Seal.jpg' },
-    puntos: { motor: [62, 38], costo: [16, 44], extra: [37, 76] }, extra: 'autonomia',
+    slug: 'hyundai-ioniq-6-2025-long-range-rwd', nombre: 'Hyundai Ioniq 6 2025', imagen: hyundaiIoniq6, alto: 621,
+    alt: 'Hyundai Ioniq 6 gris visto de tres cuartos frontal',
+    credito: { autor: 'Kevauto', licencia: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:2023_Hyundai_Ioniq_6_Limited,_front_4.27.23.jpg' },
+    puntos: { motor: [28, 38], costo: [72, 48], extra: [50, 76] }, extra: 'autonomia',
     pregunta: ['¿Llega', 'lejos?'],
   },
   {
@@ -74,7 +74,7 @@ export const AUTOS_HERO: AutoHero[] = [
     slug: 'mazda-cx-30-2026-carbon-turbo-awd', nombre: 'Mazda CX-30 2026', imagen: mazdaCx30, alto: 683,
     alt: 'Mazda CX-30 blanca vista de tres cuartos frontal',
     credito: { autor: 'EurovisionNim', licencia: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Mazda_CX-30_Touring,_2020_front.jpg' },
-    puntos: { motor: [76, 40], costo: [22, 44], extra: [8, 26] }, extra: 'baul',
+    puntos: { motor: [24, 40], costo: [78, 44], extra: [92, 26] }, extra: 'baul',
     pregunta: ['¿Le cabe', 'todo?'],
   },
 ]
