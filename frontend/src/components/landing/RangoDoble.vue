@@ -14,9 +14,16 @@ function cambiar(i: 0 | 1, e: Event) {
 
 <template>
   <div>
-    <div class="relative">
-      <input type="range" :min="min" :max="max" :step="paso" :value="modelo[0]" @input="cambiar(0, $event)" />
-      <input type="range" :min="min" :max="max" :step="paso" :value="modelo[1]" @input="cambiar(1, $event)" />
+    <div class="relative mt-2 h-[14px]">
+      <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[0]" @input="cambiar(0, $event)" />
+      <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[1]" @input="cambiar(1, $event)" />
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Dos rangos nativos superpuestos: solo las manijas reciben el puntero. */
+.rango-input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; background: transparent; pointer-events: none; -webkit-appearance: none; appearance: none; }
+.rango-input::-webkit-slider-runnable-track { height: 14px; background: transparent; }
+.rango-input::-moz-range-track { background: transparent; }
+</style>
