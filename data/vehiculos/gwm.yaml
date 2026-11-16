@@ -1,0 +1,131 @@
+marca: GWM
+pais_origen: China
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Haval H6 HEV
+    generacion: Tercera generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.5 turbo + motor eléctrico (HEV)", cilindraje_cc: 1497, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 243, rpm_potencia_max: 5500, torque_nm: 530, rpm_torque_max: 1500, aceleracion_0_100_seg: 7.9, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 130, capacidad_bateria_kwh: 1.7}
+    chasis: {transmision_tipo: e-CVT (DHT), traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.6, medida_llantas: "225/55 R19"}
+    dim: {largo_mm: 4653, ancho_sin_espejos_mm: 1886, alto_mm: 1730, distancia_entre_ejes_mm: 2738, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1700, capacidad_baul_litros: 560, capacidad_tanque_galones: 16.1}
+    consumo: {consumo_mixto_kml: 18.0, consumo_real_estimado_kml: 15.5}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 5, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 150000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.2, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la Haval H6 HEV es una SUV mediana híbrida completa con 243 hp combinados, consumo real cercano a 15 km/l y un equipamiento que en otras marcas cuesta mucho más: cámara 360, techo corredizo y ayudas de manejo completas. Es espaciosa y silenciosa. La marca lleva poco tiempo en Colombia, así que la red de servicio, el costo de reparación del sistema híbrido y la reventa están por comprobarse. Mayor riesgo individual: la depreciación en los primeros años. No la recomendamos a quien prioriza una marca con trayectoria local."
+      para_quien_si: "Quien quiere una SUV mediana híbrida muy equipada con bajo consumo."
+      para_quien_no: "Quien prioriza la reventa o una red de servicio amplia y probada."
+      pros_reales: ["Consumo real cercano a 15 km/l", "Equipamiento muy completo", "Garantía de 5 años o 150.000 km"]
+      contras:
+        - {componente: "Red y reventa", descripcion: "Marca nueva en el país: posventa y reventa por probar.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Infoentretenimiento", descripcion: "Muchos mandos solo en la pantalla.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: HEV Supreme, precio_base_cop: 159900000}
+      - {anio: 2025, version: HEV Supreme, precio_base_cop: 154900000, fecha_precio: 2025-03-01}
+
+  - modelo: Haval Jolion
+    generacion: Primera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 turbo", cilindraje_cc: 1497, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5600, torque_nm: 210, rpm_torque_max: 1800, aceleracion_0_100_seg: 10.3, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Doble embrague, numero_velocidades: 7, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "215/60 R18"}
+    dim: {largo_mm: 4472, ancho_sin_espejos_mm: 1841, alto_mm: 1619, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1450, capacidad_baul_litros: 337, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.6}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 5, garantia_km: 150000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.2, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la Jolion es una SUV compacta con mucho espacio atrás gracias a sus 2,70 m entre ejes, un 1.5 turbo de 150 hp y seis airbags, a precio de SUV pequeña. La caja de doble embrague de 7 marchas es eficiente, pero puede ser brusca en trancón. El baúl de 337 litros es menor de lo que sugiere su tamaño y la marca todavía construye su red y su reventa. Mayor riesgo individual: el desgaste de la caja de doble embrague en trancón diario (opinión editorial). No la recomendamos a quien vive en trancón."
+      para_quien_si: "Quien quiere espacio trasero y motor turbo por poco dinero."
+      para_quien_no: "Quien maneja en trancón todos los días o necesita baúl grande."
+      pros_reales: ["Mucho espacio en la segunda fila", "Motor turbo de 150 hp", "Garantía de 5 años o 150.000 km"]
+      contras:
+        - {componente: "Caja de doble embrague", descripcion: "Puede ser brusca a baja velocidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Baúl", descripcion: "337 litros, poco para su tamaño.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Active 1.5T DCT, precio_base_cop: 99900000}
+      - {anio: 2026, version: Supreme 1.5T DCT, precio_base_cop: 109900000, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+
+  - modelo: Poer
+    generacion: Primera generación
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-08-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "2.0 turbodiésel", cilindraje_cc: 1996, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 161, rpm_potencia_max: 3600, torque_nm: 400, rpm_torque_max: 1500, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 170}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Disco, radio_giro_metros: 6.6, medida_llantas: "265/60 R18", profundidad_vadeo_mm: 600, capacidad_remolque_kg: 3000}
+    dim: {largo_mm: 5410, ancho_sin_espejos_mm: 1934, alto_mm: 1886, distancia_entre_ejes_mm: 3230, distancia_libre_suelo_mm: 232, peso_vacio_kg: 2150, capacidad_carga_kg: 1000, capacidad_baul_litros: 1200, capacidad_tanque_galones: 20.6}
+    consumo: {consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.2}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 9, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 5, garantia_km: 150000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.2, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Poer es una pickup mediana grande, con 5,41 m de largo, caja automática de 8 velocidades, 4x4 con reductora, seis airbags y cámara 360, a precio por debajo de Hilux o Ranger equivalentes. Su 2.0 turbodiésel de 400 Nm cumple, pero es más lento que los rivales líderes. La marca es nueva en el país y la reventa de pickups depende mucho del nombre. Mayor riesgo individual: la pérdida de valor en los primeros años. No la recomendamos a quien la va a vender pronto."
+      para_quien_si: "Quien quiere una pickup 4x4 muy equipada y con garantía larga por menos dinero."
+      para_quien_no: "Quien prioriza la reventa de una marca establecida."
+      pros_reales: ["Caja automática de 8 velocidades con reductora", "Seis airbags y cámara 360", "Garantía de 5 años o 150.000 km"]
+      contras:
+        - {componente: "Tamaño", descripcion: "5.410 mm: difícil en parqueaderos urbanos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Reventa", descripcion: "Marca nueva frente a Toyota y Ford en pickups.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Poer 2.0 Diésel AT 4x4, precio_base_cop: 169900000}
+      - {anio: 2025, version: Poer 2.0 Diésel AT 4x4, precio_base_cop: 164900000, fecha_precio: 2025-03-01}
+
+  - modelo: Ora 03
+    generacion: Primera generación
+    segmento: Hatchback C
+    carroceria: Hatchback
+    pais_origen: China
+    fecha_lanzamiento_colombia: 2023-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: 100% Eléctrico BEV, motor_descripcion: "Motor eléctrico 126 kW", alimentacion: Eléctrico, potencia_hp: 171, torque_nm: 250, aceleracion_0_100_seg: 8.3, velocidad_maxima_kmh: 160, potencia_electrica_kw: 126, capacidad_bateria_kwh: 63, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 64}
+    chasis: {transmision_tipo: Reductora, numero_velocidades: 1, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "215/50 R18"}
+    dim: {largo_mm: 4235, ancho_sin_espejos_mm: 1825, alto_mm: 1603, distancia_entre_ejes_mm: 2650, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1600, capacidad_baul_litros: 228, autonomia_estimada_km: 420, autonomia_ciclo: WLTP}
+    consumo: {consumo_kwh_100km: 15.5, ciclo_homologacion: WLTP}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 10.25, apple_carplay_android_auto: Cable, aire_acondicionado: Automático, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 5, garantia_km: 150000, garantia_bateria_anos: 8, garantia_bateria_km: 150000}
+    resena:
+      patrones: [red_posventa_nueva]
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 6.2, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: el Ora 03 es un hatchback eléctrico con diseño retro, 171 hp, unos 420 km de autonomía WLTP y un interior bien terminado con ayudas de manejo completas. Es silencioso y muy barato de mover en ciudad, sin pico y placa en varias ciudades. Su baúl de 228 litros es pequeño, la carga rápida de 64 kW es lenta para viajes y la reventa de eléctricos de marcas nuevas es incierta. Mayor riesgo individual: la depreciación a cinco años. No lo recomendamos a quien necesita baúl o viaja seguido."
+      para_quien_si: "Quien maneja en ciudad y quiere un eléctrico con estilo y buena autonomía."
+      para_quien_no: "Familias que necesitan baúl o quien hace viajes largos frecuentes."
+      pros_reales: ["Autonomía WLTP cercana a 420 km", "Ayudas de manejo completas", "Exento de pico y placa en varias ciudades"]
+      contras:
+        - {componente: "Baúl", descripcion: "228 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Carga rápida", descripcion: "64 kW: paradas largas en viaje.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GT 63 kWh, precio_base_cop: 129900000}
+      - {anio: 2025, version: GT 63 kWh, precio_base_cop: 134900000, fecha_precio: 2025-03-01}
