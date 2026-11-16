@@ -3,6 +3,7 @@ pais_origen: Alemania
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: A3 Sportback
+    imagen_id: veh-audi-a3-sportback
     generacion: 8Y
     segmento: Hatchback C
     carroceria: Hatchback
@@ -32,6 +33,7 @@ modelos:
       - {anio: 2026, version: 35 TFSI Advanced, precio_base_cop: 189900000}
 
   - modelo: A3 Sedán
+    imagen_id: veh-audi-a3-sedan
     generacion: 8Y
     segmento: Sedán C
     carroceria: Sedán
@@ -61,6 +63,7 @@ modelos:
       - {anio: 2026, version: 35 TFSI Advanced, precio_base_cop: 199900000}
 
   - modelo: A4
+    imagen_id: veh-audi-a4
     generacion: B9 (fase 2)
     segmento: Sedán D
     carroceria: Sedán
@@ -91,6 +94,7 @@ modelos:
       - {anio: 2025, version: 40 TFSI Advanced, precio_base_cop: 239900000, fecha_precio: 2025-01-01}
 
   - modelo: Q2
+    imagen_id: veh-audi-q2
     generacion: GA
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -120,6 +124,7 @@ modelos:
       - {anio: 2025, version: 35 TFSI Advanced, precio_base_cop: 169900000, fecha_precio: 2025-01-01}
 
   - modelo: Q3
+    imagen_id: veh-audi-q3
     generacion: F3
     segmento: SUV Compacta
     carroceria: SUV
@@ -150,6 +155,7 @@ modelos:
       - {anio: 2026, version: Sportback 40 TFSI quattro S line, precio_base_cop: 259900000, motor_descripcion: "2.0 TFSI", cilindraje_cc: 1984, potencia_hp: 190, rpm_potencia_max: 4200, torque_nm: 320, aceleracion_0_100_seg: 7.4, velocidad_maxima_kmh: 220, traccion: AWD, transmision_tipo: Doble embrague húmedo S tronic, alto_mm: 1567, capacidad_baul_litros: 530, medida_llantas: "235/50 R19", tapiceria: Cuero, consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1620}
 
   - modelo: Q5
+    imagen_id: veh-audi-q5
     generacion: FY / GU
     segmento: SUV Mediana
     carroceria: SUV
@@ -180,6 +186,7 @@ modelos:
       - {anio: 2025, version: 55 TFSI e quattro PHEV, precio_base_cop: 349900000, fecha_precio: 2025-01-01, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 TFSI + motor eléctrico (PHEV)", potencia_hp: 367, torque_nm: 500, aceleracion_0_100_seg: 5.3, potencia_electrica_kw: 105, capacidad_bateria_kwh: 17.9, potencia_carga_ac_kw: 7.4, potencia_carga_dc_kw: null, consumo_kwh_100km: 20.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 465, capacidad_tanque_galones: 14.0, consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 11.0, peso_vacio_kg: 2085, largo_mm: 4682, ancho_sin_espejos_mm: 1893}
 
   - modelo: Q4 e-tron
+    imagen_id: veh-audi-q4-e-tron
     generacion: F4
     segmento: SUV Compacta
     carroceria: SUV
@@ -210,6 +217,7 @@ modelos:
       - {anio: 2025, version: 40 e-tron Advanced, precio_base_cop: 259900000, fecha_precio: 2025-01-01}
 
   - modelo: Q8 e-tron
+    imagen_id: veh-audi-q8-e-tron
     generacion: GE
     segmento: SUV Grande
     carroceria: SUV
@@ -240,6 +248,7 @@ modelos:
       - {anio: 2025, version: 55 e-tron quattro, precio_base_cop: 449900000, fecha_precio: 2025-01-01}
 
   - modelo: RS 3
+    imagen_id: veh-audi-rs-3
     generacion: 8Y
     segmento: Deportivo
     carroceria: Hatchback

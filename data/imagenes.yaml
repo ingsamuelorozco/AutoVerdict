@@ -62,3 +62,114 @@ imagenes:
     uso: hero
     verificada_en: 2026-11-13
     descripcion: "Carretera costera sinuosa vista desde el aire"
+
+# Fotos de referencia del catálogo, una por modelo (foto principal del artículo de Wikipedia o elegida en Commons).
+# Revisadas el 2026-11-16: muestran el modelo, pero la versión, el color o el mercado pueden no coincidir.
+  - id: veh-audi-a3-sedan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Audi_A3_8Y_Sedan_IMG_5936.jpg/960px-Audi_A3_8Y_Sedan_IMG_5936.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Audi_A3_8Y_Sedan_IMG_5936.jpg"
+    ancho: 4745
+    alto: 2581
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi A3 Sedán"
+  - id: veh-audi-a3-sportback
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/AUDI_A3_SPORTBACK_%28Typ_8Y%29_China_%2810%29.jpg/960px-AUDI_A3_SPORTBACK_%28Typ_8Y%29_China_%2810%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Dinkun Chen"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:AUDI_A3_SPORTBACK_(Typ_8Y)_China_(10).jpg"
+    ancho: 5451
+    alto: 3610
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi A3 Sportback"
+  - id: veh-audi-a4
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg/960px-Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Audi_A4_B9_sedans_(FL)_1X7A2441.jpg"
+    ancho: 5421
+    alto: 2822
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi A4"
+  - id: veh-audi-q2
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2017_Audi_Q2_Sport_TDi_1.6_Front.jpg/960px-2017_Audi_Q2_Sport_TDi_1.6_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2017_Audi_Q2_Sport_TDi_1.6_Front.jpg"
+    ancho: 4886
+    alto: 2625
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi Q2"
+  - id: veh-audi-q3
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Audi_Q3_F3_DSC_7494.jpg/960px-Audi_Q3_F3_DSC_7494.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Audi_Q3_F3_DSC_7494.jpg"
+    ancho: 4578
+    alto: 3060
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi Q3"
+  - id: veh-audi-q4-e-tron
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/2021_Audi_Q4_e-tron_Sport_35.jpg/960px-2021_Audi_Q4_e-tron_Sport_35.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Audi_Q4_e-tron_Sport_35.jpg"
+    ancho: 3720
+    alto: 2021
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi Q4 e-tron"
+  - id: veh-audi-q5
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Audi_Q5_2.0_TDI_quattro_S_line_%28GU%29_%E2%80%93_f_13102025.jpg/960px-Audi_Q5_2.0_TDI_quattro_S_line_%28GU%29_%E2%80%93_f_13102025.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Audi_Q5_2.0_TDI_quattro_S_line_(GU)_%E2%80%93_f_13102025.jpg"
+    ancho: 4073
+    alto: 2301
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi Q5"
+  - id: veh-audi-q8-e-tron
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/2020_Audi_e-Tron_Sport_50_Quattro.jpg/960px-2020_Audi_e-Tron_Sport_50_Quattro.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2020_Audi_e-Tron_Sport_50_Quattro.jpg"
+    ancho: 4473
+    alto: 2484
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi Q8 e-tron"
+  - id: veh-audi-rs-3
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Audi_RS3_8Y_IMG_8404.jpg/960px-Audi_RS3_8Y_IMG_8404.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Audi_RS3_8Y_IMG_8404.jpg"
+    ancho: 4745
+    alto: 3158
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Audi RS 3"
