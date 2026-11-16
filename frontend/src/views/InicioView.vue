@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { useHead } from '@unhead/vue'
-import { ArrowRight, Calculator, ParkingSquare, Shield, ShieldAlert, Wallet } from 'lucide-vue-next'
+import { ArrowRight, ShieldAlert } from 'lucide-vue-next'
 import LandingHero from '@/components/landing/LandingHero.vue'
 import BuscadorRapido from '@/components/landing/BuscadorRapido.vue'
 import SeccionCaracteristicas from '@/components/landing/SeccionCaracteristicas.vue'
@@ -44,34 +44,12 @@ const visibles = computed(() => imagenes.value.filter((i) => !fallidas.value.has
 /** La banda de cierre usa una foto fija distinta a la primera del hero. */
 const fotoCierre = computed(() => visibles.value[visibles.value.length - 1])
 
-const herramientas = [
-  { to: '/herramientas/credito', icono: Calculator, t: 'Crédito', d: 'Cuota real, intereses y el costo de alargar el plazo.' },
-  { to: '/herramientas/seguro', icono: Shield, t: 'Seguro', d: 'SOAT oficial 2026 y rango del todo riesgo.' },
-  { to: '/herramientas/costo-total', icono: Wallet, t: 'Costo total a 5 años', d: 'Cuánto te cuesta por mes y por kilómetro.' },
-  { to: '/comparador', icono: ParkingSquare, t: 'Huella en garaje', d: 'Siluetas a escala contra una plaza de 5,00 × 2,40 m.' },
-]
 </script>
 
 <template>
   <LandingHero :versiones="totalVersiones" :marcas="marcas.length || null" />
   <BuscadorRapido :total="totalVersiones" :marcas="marcas" />
   <SeccionCaracteristicas />
-
-  <!-- Herramientas: rejilla de tarjetas sobre banda suave -->
-  <section class="banda-suave" aria-labelledby="herr">
-    <div class="contenedor seccion">
-      <p class="etiqueta">Calculadoras</p>
-      <h2 id="herr" class="titulo-seccion mt-3 max-w-3xl">Herramientas que no verás en otros sitios</h2>
-      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        <RouterLink v-for="h in herramientas" :key="h.to" :to="h.to" class="tarjeta group flex flex-col p-6 transition-colors hover:border-tinta lg:p-8">
-          <component :is="h.icono" class="h-8 w-8 text-tinta" :stroke-width="1.5" aria-hidden="true" />
-          <h3 class="mt-8 text-2xl">{{ h.t }}</h3>
-          <p class="mb-8 mt-2 text-tenue">{{ h.d }}</p>
-          <span class="enlace-texto mt-auto">Abrir <ArrowRight class="h-4 w-4" aria-hidden="true" /></span>
-        </RouterLink>
-      </div>
-    </div>
-  </section>
 
   <!-- Recién actualizados: tarjetas tipo revista con filete -->
   <section v-if="actualizados.length" class="contenedor seccion" aria-labelledby="recien">
