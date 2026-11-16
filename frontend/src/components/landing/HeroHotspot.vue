@@ -6,8 +6,8 @@ defineProps<{ texto: string }>()
 
 <template>
   <span class="absolute">
-    <button type="button" :aria-label="texto">
-      <Plus aria-hidden="true" />
+    <button type="button" class="grid h-[38px] w-[38px] place-items-center rounded-full bg-acento text-white transition-colors hover:bg-acento-hondo" :aria-label="texto">
+      <Plus class="h-4 w-4" :stroke-width="3" aria-hidden="true" />
     </button>
   </span>
 </template>
