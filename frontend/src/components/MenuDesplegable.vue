@@ -6,13 +6,18 @@ defineProps<{ etiqueta: string; opciones: { to: string; texto: string }[]; activ
 const abierto = ref(false)
 const raiz = ref<HTMLElement | null>(null)
 
-function abrir() { abierto.value = true }
-function cerrar() { abierto.value = false }
+let temporizador: ReturnType<typeof setTimeout> | undefined
+
+function abrir() { clearTimeout(temporizador); abierto.value = true }
+function cerrar() { clearTimeout(temporizador); abierto.value = false }
+/** Solo el ratón abre al pasar por encima; en pantallas táctiles manda el toque. */
+function alEntrar(e: PointerEvent) { if (e.pointerType === 'mouse') abrir() }
+function alSalir(e: PointerEvent) { if (e.pointerType === 'mouse') temporizador = setTimeout(cerrar, 150) }
 onClickOutside(raiz, cerrar)
 </script>
 
 <template>
-  <div ref="raiz" class="relative flex items-stretch">
+  <div ref="raiz" class="relative flex items-stretch" @pointerenter="alEntrar" @pointerleave="alSalir">
     <button type="button" @click="abierto ? cerrar() : abrir()">
       {{ etiqueta }}
     </button>
