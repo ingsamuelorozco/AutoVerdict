@@ -2417,3 +2417,15 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mitsubishi Xpander"
+  - id: veh-ram-1500
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/2019_Ram_1500_Laramie%2C_front_2.28.20.jpg/960px-2019_Ram_1500_Laramie%2C_front_2.28.20.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2019_Ram_1500_Laramie,_front_2.28.20.jpg"
+    ancho: 4311
+    alto: 2279
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del RAM 1500"

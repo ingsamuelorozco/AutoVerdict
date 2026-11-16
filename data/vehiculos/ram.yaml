@@ -68,6 +68,7 @@ modelos:
       - {anio: 2024, version: Laramie 2.0 Diésel AT 4x4, precio_base_cop: 149900000, fecha_precio: 2024-03-01, pantalla_multimedia_pulgadas: 8.4, apple_carplay_android_auto: Cable}
 
   - modelo: "1500"
+    imagen_id: veh-ram-1500
     generacion: Quinta generación (DT)
     segmento: Pickup Grande
     carroceria: Pickup
