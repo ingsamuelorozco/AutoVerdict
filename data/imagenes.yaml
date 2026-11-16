@@ -2489,3 +2489,27 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Toyota Rush"
+  - id: veh-volkswagen-gol
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Volkswagen_Gol_Highline_2023_%2853708009248%29_%28cropped%29.jpg/960px-Volkswagen_Gol_Highline_2023_%2853708009248%29_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ from Chile"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Volkswagen_Gol_Highline_2023_(53708009248)_(cropped).jpg"
+    ancho: 3220
+    alto: 1811
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Gol"
+  - id: veh-volkswagen-teramont
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/2024_Volkswagen_Atlas_IMG_2146.jpg/960px-2024_Volkswagen_Atlas_IMG_2146.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Atlas_IMG_2146.jpg"
+    ancho: 5073
+    alto: 3120
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Volkswagen Teramont"

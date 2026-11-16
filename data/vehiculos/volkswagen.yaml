@@ -317,6 +317,7 @@ modelos:
       - {anio: 2025, version: Robust 1.6 MT, precio_base_cop: 79900000, fecha_precio: 2025-01-01}
 
   - modelo: Gol
+    imagen_id: veh-volkswagen-gol
     generacion: Sexta generación (G7)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -379,6 +380,7 @@ modelos:
       - {anio: 2020, version: Comfortline 1.6 MT, precio_base_cop: 52900000, fecha_precio: 2020-03-01}
 
   - modelo: Teramont
+    imagen_id: veh-volkswagen-teramont
     generacion: Primera generación (actualización 2021)
     segmento: SUV Grande
     carroceria: SUV
