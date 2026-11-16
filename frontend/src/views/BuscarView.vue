@@ -10,6 +10,7 @@ import { useAjustes } from '@/stores/ajustes'
 import { useFavoritos } from '@/stores/favoritos'
 import EstadoCarga from '@/components/EstadoCarga.vue'
 import TarjetaVehiculo from '@/components/TarjetaVehiculo.vue'
+import SelectorMultiple from '@/components/SelectorMultiple.vue'
 import type { Paginado, Tarjeta } from '@/lib/tipos'
 import { OPC } from '@/lib/opciones'
 
@@ -21,6 +22,7 @@ const fav = useFavoritos()
 
 const MULTI = ['marca', 'segmento', 'carroceria', 'combustible', 'transmision', 'traccion', 'adas', 'pais'] as const
 const SIMPLE = ['q', 'precio_min', 'precio_max', 'anio_min', 'anio_max', 'plazas', 'despeje_min', 'baul_min', 'consumo_min', 'fiabilidad_min', 'sort', 'page'] as const
+const ETIQUETAS: Record<(typeof MULTI)[number], string> = { marca: 'Marca', carroceria: 'Carrocería', segmento: 'Segmento', combustible: 'Combustible', transmision: 'Transmisión', traccion: 'Tracción', adas: 'ADAS incluidas', pais: 'País de origen' }
 type Filtros = Record<(typeof MULTI)[number], string[]> & Record<(typeof SIMPLE)[number], string>
 function desdeUrl(): Filtros {
   const q = route.query
@@ -86,12 +88,7 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
 
     <div class="mt-10 grid gap-10 lg:grid-cols-[17rem_1fr]">
       <aside :class="['grid content-start gap-6 text-sm lg:border-r lg:border-linea lg:pr-8', panel ? '' : 'hidden lg:grid']" aria-label="Filtros">
-        <fieldset v-for="k in (['marca', 'carroceria', 'segmento', 'combustible', 'transmision', 'traccion', 'adas', 'pais'] as const)" :key="k">
-          <legend class="etiqueta mb-3 !text-tinta">{{ { marca: 'Marca', carroceria: 'Carrocería', segmento: 'Segmento', combustible: 'Combustible', transmision: 'Transmisión', traccion: 'Tracción', adas: 'ADAS incluidas', pais: 'País de origen' }[k] }}</legend>
-          <div class="flex flex-wrap gap-1.5">
-            <button v-for="o in OPC[k]" :key="o" :class="['chip min-h-[32px] text-xs', filtros[k].includes(o) ? 'chip-activo' : '']" :aria-pressed="filtros[k].includes(o)" @click="alternar(k, o)">{{ o }}</button>
-          </div>
-        </fieldset>
+        <SelectorMultiple v-for="k in MULTI" :key="k" v-model="filtros[k]" :etiqueta="ETIQUETAS[k]" :opciones="OPC[k]" @cambio="recargar" />
         <fieldset>
           <legend class="etiqueta mb-2">Precio base ({{ aj.moneda }})</legend>
           <div class="flex gap-2"><input v-model="filtros.precio_min" class="campo" inputmode="numeric" placeholder="Mín." aria-label="Precio mínimo" @input="recargar" /><input v-model="filtros.precio_max" class="campo" inputmode="numeric" placeholder="Máx." aria-label="Precio máximo" @input="recargar" /></div>
