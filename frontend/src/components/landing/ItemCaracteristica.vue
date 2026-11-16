@@ -4,7 +4,7 @@ defineProps<{ titulo: string; texto: string; lado: 'izquierda' | 'derecha' }>()
 
 <template>
   <li>
-    <h3>
+    <h3 class="text-lg leading-tight">
       <span>{{ titulo }}</span>
     </h3>
     <p>{{ texto }}</p>
