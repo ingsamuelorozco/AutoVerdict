@@ -48,4 +48,4 @@ El resto de la portada (método, calculadoras, actualizados, alertas rojas y cie
 Viven en `frontend/src/assets/images/` y sus créditos en `CREDITS.md`.
 
 - Fondos: fotos libres de Wikimedia Commons, redimensionadas y sin metadatos.
-- Autos: no hay fotos libres de autos con fondo transparente y sin emblemas, así que se usan ilustraciones SVG propias (`hero-car.svg`, `car-top-view.svg`). Para usar una foto, basta con cambiar el import en el componente.
+- Autos: fotos reales de Wikimedia Commons con el fondo eliminado y exportadas como PNG transparente (`hero-car.png`, `car-top-view.png`).
