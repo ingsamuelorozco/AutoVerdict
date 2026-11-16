@@ -15,11 +15,11 @@ const C = T.landing.caracteristicas
       <ul class="grid gap-10 lg:order-1">
         <ItemCaracteristica v-for="i in C.izquierda" :key="i.titulo" v-bind="i" lado="izquierda" />
       </ul>
-      <div class="relative order-first mx-auto flex h-[420px] w-[300px] md:col-span-2 lg:order-2 lg:col-span-1 items-center justify-center">
-        <span class="absolute left-1/2 top-[45%] h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-elevada/50" aria-hidden="true" />
-        <span class="absolute left-1/2 top-[45%] h-[240px] w-[240px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-elevada" aria-hidden="true" />
-        <span class="absolute left-[calc(50%-12px)] top-[45%] h-[200px] w-[200px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-acento" aria-hidden="true" />
-        <img :src="autoCenital" :alt="C.autoAlt" class="relative h-[400px] w-auto drop-shadow-[0_18px_16px_rgb(0_0_0/0.18)]" width="200" height="440" loading="lazy" decoding="async" />
+      <div class="relative order-first mx-auto flex h-[340px] w-[260px] sm:h-[420px] sm:w-[300px] md:col-span-2 lg:order-2 lg:col-span-1 items-center justify-center">
+        <span class="absolute left-1/2 top-[45%] h-[260px] w-[260px] sm:h-[300px] sm:w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-elevada/50" aria-hidden="true" />
+        <span class="absolute left-1/2 top-[45%] h-[210px] w-[210px] sm:h-[240px] sm:w-[240px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-elevada" aria-hidden="true" />
+        <span class="absolute left-[calc(50%-12px)] top-[45%] h-[170px] w-[170px] sm:h-[200px] sm:w-[200px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-acento" aria-hidden="true" />
+        <img :src="autoCenital" :alt="C.autoAlt" class="relative h-[320px] w-auto sm:h-[400px] drop-shadow-[0_18px_16px_rgb(0_0_0/0.18)]" width="200" height="440" loading="lazy" decoding="async" />
       </div>
       <ul class="grid gap-10 lg:order-3">
         <ItemCaracteristica v-for="i in C.derecha" :key="i.titulo" v-bind="i" lado="derecha" />
