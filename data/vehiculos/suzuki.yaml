@@ -3,6 +3,7 @@ pais_origen: Japón
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Swift
+    imagen_id: veh-suzuki-swift
     generacion: Cuarta generación (AZ)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2023, version: GLX 1.2 MT, precio_base_cop: 64900000, fecha_precio: 2023-02-01, tipo_combustible: Gasolina Corriente, motor_descripcion: "1.2 K12M", cilindros: 4, valvulas: 16, potencia_hp: 83, torque_nm: 113, potencia_electrica_kw: null, numero_airbags: 2, adas_incluidas: [], frenos_traseros: Tambor, consumo_mixto_kml: 18.0, consumo_real_estimado_kml: 15.5, peso_vacio_kg: 890, largo_mm: 3845, pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable}
 
   - modelo: Dzire
+    imagen_id: veh-suzuki-dzire
     generacion: Cuarta generación
     segmento: Sedán B
     carroceria: Sedán
@@ -64,6 +66,7 @@ modelos:
       - {anio: 2026, version: GL 1.2 MT, precio_base_cop: 64900000}
 
   - modelo: Baleno
+    imagen_id: veh-suzuki-baleno
     generacion: Segunda generación
     segmento: Hatchback B
     carroceria: Hatchback
@@ -94,6 +97,7 @@ modelos:
       - {anio: 2025, version: GLX 1.5 AT, precio_base_cop: 74900000, fecha_precio: 2025-02-01, transmision_tipo: Automática, numero_velocidades: 4, aire_acondicionado: Automático, consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.2}
 
   - modelo: Fronx
+    imagen_id: veh-suzuki-fronx
     generacion: Primera generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -124,6 +128,7 @@ modelos:
       - {anio: 2026, version: GLX MHEV AT, precio_base_cop: 89900000, transmision_tipo: Automática, numero_velocidades: 6, llave_inteligente: true, tapiceria: Cuero sintético, consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.2, adas_incluidas: [Cámara 360]}
 
   - modelo: Vitara
+    imagen_id: veh-suzuki-vitara
     generacion: LY (actualización)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -154,6 +159,7 @@ modelos:
       - {anio: 2026, version: GL 1.5 MHEV 2WD, precio_base_cop: 99900000, motor_descripcion: "1.5 K15C + MHEV 12V", cilindraje_cc: 1462, alimentacion: Atmosférico, potencia_hp: 102, rpm_potencia_max: 6000, torque_nm: 137, rpm_torque_max: 4400, aceleracion_0_100_seg: 12.5, traccion: Delantera, potencia_electrica_kw: 2.3, consumo_mixto_kml: 16.5, consumo_real_estimado_kml: 13.6, tapiceria: Tela, llave_inteligente: false, adas_incluidas: []}
 
   - modelo: S-Cross
+    imagen_id: veh-suzuki-s-cross
     generacion: Tercera generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -183,6 +189,7 @@ modelos:
       - {anio: 2025, version: GLX 1.4T MHEV AllGrip, precio_base_cop: 124900000, fecha_precio: 2025-02-01}
 
   - modelo: Jimny
+    imagen_id: veh-suzuki-jimny
     generacion: JB74
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -215,6 +222,7 @@ modelos:
       - {anio: 2026, version: GLX 1.5 AT 5P, precio_base_cop: 114900000, puertas: 5, plazas: 4, transmision_tipo: Automática, numero_velocidades: 4, largo_mm: 3985, distancia_entre_ejes_mm: 2590, peso_vacio_kg: 1210, capacidad_baul_litros: 208, capacidad_baul_abatido_litros: 640, angulo_ventral_deg: 24, angulo_salida_deg: 47, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.8}
 
   - modelo: Grand Vitara
+    imagen_id: veh-suzuki-grand-vitara
     generacion: Primera generación (YT)
     segmento: SUV Compacta
     carroceria: SUV

@@ -1697,3 +1697,99 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Subaru WRX"
+  - id: veh-suzuki-baleno
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2022_Maruti_Suzuki_Baleno_Alpha_%28India%29_front_view.jpg/960px-2022_Maruti_Suzuki_Baleno_Alpha_%28India%29_front_view.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Milind Kwatra"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Maruti_Suzuki_Baleno_Alpha_(India)_front_view.jpg"
+    ancho: 1920
+    alto: 1153
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki Baleno"
+  - id: veh-suzuki-dzire
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Suzuki_Dzire_II_1.2_GLX_Hybrid_Arctic_White_Pearl.jpg/960px-Suzuki_Dzire_II_1.2_GLX_Hybrid_Arctic_White_Pearl.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Ethan Llamas"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Suzuki_Dzire_II_1.2_GLX_Hybrid_Arctic_White_Pearl.jpg"
+    ancho: 3912
+    alto: 2200
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki Dzire"
+  - id: veh-suzuki-fronx
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/2024_Suzuki_Fronx.jpg/960px-2024_Suzuki_Fronx.jpg"
+    proveedor: Wikimedia Commons
+    autor: "TTTNIS"
+    licencia: "CC0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Suzuki_Fronx.jpg"
+    ancho: 4752
+    alto: 2284
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki Fronx"
+  - id: veh-suzuki-grand-vitara
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Suzuki_Grand_Vitara_1.5_GL_2023_%2853068765582%29.jpg/960px-Suzuki_Grand_Vitara_1.5_GL_2023_%2853068765582%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ from Chile"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Suzuki_Grand_Vitara_1.5_GL_2023_(53068765582).jpg"
+    ancho: 5262
+    alto: 3240
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki Grand Vitara"
+  - id: veh-suzuki-jimny
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/2019_Suzuki_Jimny_SZ5_4X4_Automatic_1.5.jpg/960px-2019_Suzuki_Jimny_SZ5_4X4_Automatic_1.5.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2019_Suzuki_Jimny_SZ5_4X4_Automatic_1.5.jpg"
+    ancho: 2724
+    alto: 1531
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki Jimny"
+  - id: veh-suzuki-s-cross
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Suzuki_SX4_%283rd_generation%29_1X7A6968.jpg/960px-Suzuki_SX4_%283rd_generation%29_1X7A6968.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Suzuki_SX4_(3rd_generation)_1X7A6968.jpg"
+    ancho: 4902
+    alto: 2784
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki S-Cross"
+  - id: veh-suzuki-swift
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg/960px-Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Suzuki_Swift_(2024)_hybrid_DSC_6076.jpg"
+    ancho: 4038
+    alto: 2610
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki Swift"
+  - id: veh-suzuki-vitara
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2018_Suzuki_Vitara_%28LY%29_S_Turbo_wagon_%282018-11-02%29_01.jpg/960px-2018_Suzuki_Vitara_%28LY%29_S_Turbo_wagon_%282018-11-02%29_01.jpg"
+    proveedor: Wikimedia Commons
+    autor: "EurovisionNim"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Suzuki_Vitara_(LY)_S_Turbo_wagon_(2018-11-02)_01.jpg"
+    ancho: 3970
+    alto: 2008
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki Vitara"
