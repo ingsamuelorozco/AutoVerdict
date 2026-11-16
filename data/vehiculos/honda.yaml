@@ -3,6 +3,7 @@ pais_origen: Japón
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: City Sedán
+    imagen_id: veh-honda-city-sedan
     generacion: Séptima generación
     segmento: Sedán B
     carroceria: Sedán
@@ -33,6 +34,7 @@ modelos:
       - {anio: 2026, version: Touring 1.5 CVT, precio_base_cop: 109900000, tapiceria: Cuero sintético, llave_inteligente: true, medida_llantas: "185/55 R16", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Cámara de punto ciego LaneWatch]}
 
   - modelo: City Hatchback
+    imagen_id: veh-honda-city-hatchback
     generacion: Séptima generación
     segmento: Hatchback B
     carroceria: Hatchback
@@ -62,6 +64,7 @@ modelos:
       - {anio: 2025, version: Touring 1.5 CVT, precio_base_cop: 104900000, fecha_precio: 2025-02-01}
 
   - modelo: Civic
+    imagen_id: veh-honda-civic
     generacion: Undécima generación (FE)
     segmento: Sedán C
     carroceria: Sedán
@@ -92,6 +95,7 @@ modelos:
       - {anio: 2026, version: e:HEV Touring, precio_base_cop: 169900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "2.0 i-MMD e:HEV", cilindraje_cc: 1993, alimentacion: Atmosférico, potencia_hp: 200, rpm_potencia_max: 6000, torque_nm: 315, rpm_torque_max: null, aceleracion_0_100_seg: 7.8, transmision_tipo: e-CVT, potencia_electrica_kw: 135, capacidad_bateria_kwh: 1.05, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 22.0, consumo_real_estimado_kml: 19.0, peso_vacio_kg: 1450}
 
   - modelo: HR-V
+    imagen_id: veh-honda-hr-v
     generacion: Tercera generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -123,6 +127,7 @@ modelos:
       - {anio: 2024, version: EX 1.5 CVT, precio_base_cop: 119900000, fecha_precio: 2024-03-01}
 
   - modelo: WR-V
+    imagen_id: veh-honda-wr-v
     generacion: Segunda generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -153,6 +158,7 @@ modelos:
       - {anio: 2026, version: EXL 1.5 CVT, precio_base_cop: 109900000}
 
   - modelo: CR-V
+    imagen_id: veh-honda-cr-v
     generacion: Sexta generación (RS)
     segmento: SUV Compacta
     carroceria: SUV
@@ -185,6 +191,7 @@ modelos:
       - {anio: 2024, version: Touring 1.5T AWD, precio_base_cop: 179900000, fecha_precio: 2024-01-01}
 
   - modelo: Pilot
+    imagen_id: veh-honda-pilot
     generacion: Cuarta generación
     segmento: SUV Grande
     carroceria: SUV

@@ -701,3 +701,87 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Ford Territory"
+  - id: veh-honda-cr-v
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Honda_CR-V_e-HEV_Elegance_AWD_%28VI%29_%E2%80%93_f_14072024.jpg/960px-Honda_CR-V_e-HEV_Elegance_AWD_%28VI%29_%E2%80%93_f_14072024.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Honda_CR-V_e-HEV_Elegance_AWD_(VI)_%E2%80%93_f_14072024.jpg"
+    ancho: 5798
+    alto: 3190
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Honda CR-V"
+  - id: veh-honda-city-hatchback
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/2021_Honda_City_Hatchback_e-HEV_RS.jpg/960px-2021_Honda_City_Hatchback_e-HEV_RS.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Chanokchon"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Honda_City_Hatchback_e-HEV_RS.jpg"
+    ancho: 4608
+    alto: 3456
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Honda City Hatchback"
+  - id: veh-honda-city-sedan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Honda_City_1.5_i-VTEC_V_%28VIII%2C_Facelift%29_%E2%80%93_f_22032025.jpg/960px-Honda_City_1.5_i-VTEC_V_%28VIII%2C_Facelift%29_%E2%80%93_f_22032025.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Honda_City_1.5_i-VTEC_V_(VIII,_Facelift)_%E2%80%93_f_22032025.jpg"
+    ancho: 5973
+    alto: 3131
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Honda City Sedán"
+  - id: veh-honda-civic
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Honda_Civic_e-HEV_Sport_%28XI%29_%E2%80%93_f_30062024.jpg/960px-Honda_Civic_e-HEV_Sport_%28XI%29_%E2%80%93_f_30062024.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Honda_Civic_e-HEV_Sport_(XI)_%E2%80%93_f_30062024.jpg"
+    ancho: 5690
+    alto: 2897
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Honda Civic"
+  - id: veh-honda-hr-v
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2023_Honda_HR-V_Advance_i-MMD_CVT_1.5.jpg/960px-2023_Honda_HR-V_Advance_i-MMD_CVT_1.5.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2023_Honda_HR-V_Advance_i-MMD_CVT_1.5.jpg"
+    ancho: 4284
+    alto: 2459
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Honda HR-V"
+  - id: veh-honda-pilot
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2025_Honda_Pilot.jpg/960px-2025_Honda_Pilot.jpg"
+    proveedor: Wikimedia Commons
+    autor: "SIGSauerP365XL"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Honda_Pilot.jpg"
+    ancho: 1000
+    alto: 750
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Honda Pilot"
+  - id: veh-honda-wr-v
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/2022_Honda_WR-V_RS_with_Honda_Sensing_%28Indonesia%29_front_view.jpg/960px-2022_Honda_WR-V_RS_with_Honda_Sensing_%28Indonesia%29_front_view.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Andra Febrian"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Honda_WR-V_RS_with_Honda_Sensing_(Indonesia)_front_view.jpg"
+    ancho: 3331
+    alto: 1998
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Honda WR-V"
