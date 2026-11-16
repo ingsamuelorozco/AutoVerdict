@@ -4,6 +4,7 @@ import { useHead } from '@unhead/vue'
 import { api } from '@/lib/api'
 import { useCarga } from '@/composables/useCarga'
 import EstadoCarga from '@/components/EstadoCarga.vue'
+import { CREDITOS_LANDING } from '@/lib/creditosLanding'
 
 useHead({ title: 'Créditos de fotos' })
 interface Img { id: string; url: string; autor: string; licencia: string; url_origen: string; proveedor: string; descripcion: string }
@@ -23,5 +24,12 @@ onMounted(ejecutar)
         </li>
       </ul>
     </EstadoCarga>
+    <h2 class="titulo-seccion mt-16">Portada</h2>
+    <ul class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <li v-for="c in CREDITOS_LANDING" :key="c.archivo" class="tarjeta p-6 text-sm">
+        <strong>{{ c.descripcion }}</strong><br />Autor: {{ c.autor }} · Licencia: {{ c.licencia }}
+        <template v-if="c.url"><br /><a :href="c.url" class="underline" target="_blank" rel="noopener">Ver original</a></template>
+      </li>
+    </ul>
   </div>
 </template>
