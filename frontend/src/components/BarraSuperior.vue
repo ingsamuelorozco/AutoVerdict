@@ -37,7 +37,7 @@ const principales = [
 <template>
   <header :class="['sobre-foto top-0 z-40 w-full', enInicio ? 'absolute inset-x-0 bg-transparent' : 'sticky bg-velo']">
     <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:bg-tinta focus:px-3 focus:py-2 focus:text-papel">Saltar al contenido</a>
-    <div class="contenedor flex h-barra items-center gap-6">
+    <div class="flex h-barra items-stretch gap-6 pl-4 lg:pl-6">
       <RouterLink to="/" class="flex shrink-0 items-center gap-3 text-lg font-bold uppercase tracking-[1px] text-tinta" aria-label="AutoVerdict, inicio">
         <img src="/favicon.svg" alt="" class="h-7 w-7" width="28" height="28" />
         <span>{{ T.marca }}</span>
@@ -97,7 +97,7 @@ const principales = [
         </RouterLink>
       </div>
 
-      <button class="ml-auto grid h-11 w-11 place-items-center text-tinta nav:hidden" aria-label="Abrir menú" @click="lateralAbierto = true"><Menu class="h-6 w-6" aria-hidden="true" /></button>
+      <button class="ml-auto mr-2 grid h-11 w-11 place-items-center self-center text-tinta nav:hidden" aria-label="Abrir menú" @click="lateralAbierto = true"><Menu class="h-6 w-6" aria-hidden="true" /></button>
     </div>
 
     <!-- Menú móvil: hoja a pantalla completa con la franja M arriba -->
