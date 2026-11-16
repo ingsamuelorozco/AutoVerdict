@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useHead } from '@unhead/vue'
-import { usePreferredReducedMotion } from '@vueuse/core'
 import { ArrowRight, Calculator, ParkingSquare, Shield, ShieldAlert, Wallet } from 'lucide-vue-next'
+import LandingHero from '@/components/landing/LandingHero.vue'
 import { api } from '@/lib/api'
 import { T } from '@/lib/textos'
 import { useFormato } from '@/composables/useFormato'
@@ -13,10 +13,7 @@ const f = useFormato()
 
 interface Imagen { id: string; url: string; autor: string; licencia: string; url_origen: string; uso: string; descripcion: string }
 const imagenes = ref<Imagen[]>([])
-const actual = ref(0)
 const fallidas = ref(new Set<string>())
-const movimiento = usePreferredReducedMotion()
-let temporizador: ReturnType<typeof setInterval> | undefined
 
 const actualizados = ref<{ id: number; titulo: string; resumen: string; vale_la_pena: string; marca: string; modelo: string; anio_modelo: number; fecha_lanzamiento_colombia: string }[]>([])
 const rojas = ref<(Tarjeta & { linea_veredicto: string })[]>([])
@@ -33,13 +30,8 @@ onMounted(async () => {
     const vistos = new Set<string>()
     rojas.value = fia.value.resultados.filter((r) => !vistos.has(r.modelo) && vistos.add(r.modelo)).slice(0, 4)
   }
-  temporizador = setInterval(() => {
-    if (imagenes.value.length) actual.value = (actual.value + 1) % imagenes.value.length
-  }, 6000)
 })
-onUnmounted(() => clearInterval(temporizador))
 const visibles = computed(() => imagenes.value.filter((i) => !fallidas.value.has(i.id)))
-const fotoActual = computed(() => visibles.value[actual.value % (visibles.value.length || 1)])
 /** La banda de cierre usa una foto fija distinta a la primera del hero. */
 const fotoCierre = computed(() => visibles.value[visibles.value.length - 1])
 
@@ -57,42 +49,7 @@ const herramientas = [
 </script>
 
 <template>
-  <!-- Banda hero: la fotografía a sangre completa es la banda; sin marco ni degradado decorativo -->
-  <section class="sobre-foto relative isolate min-h-[calc(100vh-4rem)] overflow-hidden bg-black lg:min-h-[86vh]">
-    <template v-for="(img, i) in visibles" :key="img.id">
-      <img
-        :src="img.url"
-        :alt="img.descripcion"
-        :loading="i === 0 ? 'eager' : 'lazy'"
-        :fetchpriority="i === 0 ? 'high' : 'auto'"
-        decoding="async"
-        :class="['absolute inset-0 -z-10 h-full w-full object-cover transition-opacity duration-[1500ms]', i === actual % visibles.length ? 'opacity-100' : 'opacity-0', movimiento === 'no-preference' ? 'kenburns' : '']"
-        @error="fallidas.add(img.id)"
-      />
-    </template>
-    <!-- Velo de legibilidad sobre la foto (no es un fondo decorativo) -->
-    <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black via-black/55 to-black/30 lg:bg-gradient-to-r lg:from-black/85 lg:via-black/45 lg:to-transparent" />
-    <div class="contenedor flex min-h-[calc(100vh-4rem)] flex-col justify-end pb-16 pt-24 lg:min-h-[86vh]">
-      <div class="franja-m-corta" aria-hidden="true" />
-      <p class="etiqueta mt-6">Colombia · {{ new Date().getFullYear() }}</p>
-      <h1 class="mt-4 max-w-5xl text-[44px] leading-none sm:text-[64px] lg:text-display-xl">{{ T.lema }}</h1>
-      <p class="mt-6 max-w-xl text-lg text-cuerpo">{{ T.sublema }}</p>
-      <div class="mt-10 flex flex-col gap-4 sm:flex-row">
-        <RouterLink to="/comparador" class="boton-solido">Comparar vehículos <ArrowRight class="h-4 w-4" aria-hidden="true" /></RouterLink>
-        <RouterLink to="/reviews" class="boton-primario !bg-transparent hover:!bg-white">Buscar reviews honestas</RouterLink>
-      </div>
-      <div class="mt-12 flex flex-wrap items-center justify-between gap-4">
-        <div v-if="visibles.length > 1" class="flex gap-2" role="group" aria-label="Fotografías del encabezado">
-          <button v-for="(img, i) in visibles" :key="img.id" class="group/p flex h-11 items-center" :aria-label="`Ver foto ${i + 1} de ${visibles.length}`" :aria-current="i === actual % visibles.length" @click="actual = i">
-            <span :class="['block h-0.5 w-10 transition-colors', i === actual % visibles.length ? 'bg-white' : 'bg-white/30 group-hover/p:bg-white/60']" />
-          </button>
-        </div>
-        <p v-if="fotoActual" class="text-xs tracking-[0.5px] text-apagado">
-          Foto: <a :href="fotoActual.url_origen" class="underline hover:text-white" target="_blank" rel="noopener">{{ fotoActual.autor }}</a>, {{ fotoActual.licencia }} · <RouterLink to="/creditos" class="underline hover:text-white">créditos</RouterLink>
-        </p>
-      </div>
-    </div>
-  </section>
+  <LandingHero />
 
   <!-- Cómo funciona: celdas de dato sobre lienzo -->
   <section class="contenedor seccion" aria-labelledby="como">
@@ -175,8 +132,3 @@ const herramientas = [
     </div>
   </section>
 </template>
-
-<style scoped>
-@keyframes kenburns { from { transform: scale(1.02) } to { transform: scale(1.1) translate(-1%, -1%) } }
-.kenburns { animation: kenburns 14s ease-in-out infinite alternate; }
-</style>
