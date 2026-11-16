@@ -3,6 +3,7 @@ pais_origen: Estados Unidos
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Renegade
+    imagen_id: veh-jeep-renegade
     generacion: Primera generación (actualización 2022)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2026, version: Trailhawk 1.3T AT 4x4, precio_base_cop: 154900000, traccion: 4x4, numero_velocidades: 9, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1540, consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.4, tapiceria: Cuero sintético}
 
   - modelo: Compass
+    imagen_id: veh-jeep-compass
     generacion: Segunda generación (actualización 2022)
     segmento: SUV Compacta
     carroceria: SUV
@@ -65,6 +67,7 @@ modelos:
       - {anio: 2026, version: Limited 1.3T AT, precio_base_cop: 179900000, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
 
   - modelo: Commander
+    imagen_id: veh-jeep-commander
     generacion: Primera generación
     segmento: SUV Mediana
     carroceria: SUV
@@ -97,6 +100,7 @@ modelos:
       - {anio: 2026, version: Limited 1.3T AT, precio_base_cop: 199900000}
 
   - modelo: Grand Cherokee
+    imagen_id: veh-jeep-grand-cherokee
     generacion: Quinta generación (WL)
     segmento: SUV Grande
     carroceria: SUV
@@ -128,6 +132,7 @@ modelos:
       - {anio: 2026, version: Summit 3.6 V6 4x4, precio_base_cop: 419900000, medida_llantas: "275/45 R21"}
 
   - modelo: Wrangler
+    imagen_id: veh-jeep-wrangler
     generacion: Cuarta generación (JL)
     segmento: SUV Mediana
     carroceria: SUV
