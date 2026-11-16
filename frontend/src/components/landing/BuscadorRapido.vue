@@ -62,8 +62,8 @@ const listaMarcas = computed(() => (props.marcas?.length ? props.marcas : OPC.ma
           </div>
         </div>
       </div>
-      <div class="mt-8 grid items-center gap-6">
-        <fieldset>
+      <div class="mt-8 grid items-center gap-6 md:grid-cols-3">
+        <fieldset class="md:col-span-2">
           <legend class="text-[13px] text-tenue">{{ B.precio }}</legend>
           <RangoDoble v-model="rango" class="mt-3" :min="LIMITE.min" :max="LIMITE.max" :paso="LIMITE.paso" :formato="millones" :etiqueta-min="B.precioMin" :etiqueta-max="B.precioMax" />
         </fieldset>
