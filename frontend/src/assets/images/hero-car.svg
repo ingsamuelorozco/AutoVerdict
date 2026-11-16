@@ -25,6 +25,22 @@
       <stop offset="0" stop-color="#7d848b"/>
       <stop offset="1" stop-color="#2b3036"/>
     </linearGradient>
+    <radialGradient id="rin" cx=".42" cy=".38" r=".7">
+      <stop offset="0" stop-color="#f4f5f6"/>
+      <stop offset=".6" stop-color="#a9afb5"/>
+      <stop offset="1" stop-color="#5d646b"/>
+    </radialGradient>
+    <g id="rueda">
+      <circle r="72" fill="#121417"/>
+      <circle r="66" fill="none" stroke="#2a2e33" stroke-width="3"/>
+      <circle r="52" fill="url(#rin)"/>
+      <g stroke="#6b737b" stroke-width="7" stroke-linecap="round">
+        <path d="M0-12V-48M11.4-3.7 45.6-14.8M7.1 9.7 28.2 38.8M-7.1 9.7-28.2 38.8M-11.4-3.7-45.6-14.8"/>
+      </g>
+      <path d="M-30-30a42 42 0 0 1 22-10" fill="none" stroke="#1C69D4" stroke-width="9" stroke-linecap="round"/>
+      <circle r="13" fill="#d9dde1" stroke="#7a8188" stroke-width="2"/>
+      <circle r="4" fill="#5d646b"/>
+    </g>
   </defs>
 
   <ellipse cx="500" cy="440" rx="470" ry="14" fill="#000" opacity=".55" filter="url(#difuso)"/>
@@ -48,4 +64,7 @@
   <path fill="#cfe3ff" d="M60 262C82 254 106 250 126 248" stroke="#cfe3ff" stroke-width="3" stroke-linecap="round"/>
   <path fill="#1a1e22" d="M48 300C70 296 104 296 132 300L128 322C100 322 70 322 52 320Z"/>
   <path fill="#7a1b22" d="M934 240 962 244 964 258 936 256Z"/>
+
+  <use href="#rueda" x="225" y="370"/>
+  <use href="#rueda" x="760" y="370"/>
 </svg>
