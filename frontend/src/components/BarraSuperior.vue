@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { onClickOutside } from '@vueuse/core'
 import { Heart, Menu, Moon, Sun, X } from 'lucide-vue-next'
@@ -20,6 +20,7 @@ const lateralAbierto = ref(false)
 const ajustesAbierto = ref(false)
 const ajustesRef = ref<HTMLElement | null>(null)
 onClickOutside(ajustesRef, () => (ajustesAbierto.value = false))
+watch(() => route.fullPath, () => { lateralAbierto.value = false; ajustesAbierto.value = false })
 
 function cambiarTrm(e: Event) {
   const v = Number((e.target as HTMLInputElement).value.replace(/\./g, '').replace(',', '.'))
