@@ -251,3 +251,65 @@ modelos:
         - {componente: "Baúl", descripcion: "373 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: GLX HEV, precio_base_cop: 119900000}
+
+  - modelo: Ertiga
+    generacion: Segunda generación (actualización 2022)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: India
+    fecha_lanzamiento_colombia: 2019-06-01
+    plazas: 7
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 K15B", cilindraje_cc: 1462, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 103, rpm_potencia_max: 6000, torque_nm: 138, rpm_torque_max: 4400, aceleracion_0_100_seg: 13.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "185/65 R15"}
+    dim: {largo_mm: 4395, ancho_sin_espejos_mm: 1735, alto_mm: 1690, distancia_entre_ejes_mm: 2740, distancia_libre_suelo_mm: 180, peso_vacio_kg: 1130, capacidad_baul_litros: 209, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.6}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.2, electrica_electronica: 7.6, quejas_documentadas: 7.8, recalls: 7.8, repuestos_y_red: 8.0, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la Ertiga es el carro de siete puestos más económico de mantener del mercado: un 1.5 atmosférico de Suzuki muy confiable, consumo cercano a 13,6 km/l reales y repuestos baratos. La tercera fila sirve para niños y con ella arriba el baúl queda en 209 litros. La seguridad es básica, con dos airbags, y el motor se queda corto con la casa llena en subida. Mayor riesgo individual: la protección en un choque. No la recomendamos para viajes largos de carretera con siete ocupantes."
+      para_quien_si: "Familias grandes con presupuesto ajustado y uso urbano."
+      para_quien_no: "Quien prioriza seguridad o viaja cargado por montaña."
+      pros_reales: ["Siete puestos con consumo bajo", "Mecánica muy confiable", "Mantenimiento barato"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags en las versiones registradas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Potencia con carga", descripcion: "103 hp con siete ocupantes en subida.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: GL 1.5 MT, precio_base_cop: 79900000}
+      - {anio: 2026, version: GLX 1.5 AT, precio_base_cop: 87900000, transmision_tipo: Automática, numero_velocidades: 4, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8, camara_reversa: true}
+
+  - modelo: XL7
+    generacion: Primera generación
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Indonesia
+    fecha_lanzamiento_colombia: 2020-09-01
+    plazas: 7
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.5 K15B", cilindraje_cc: 1462, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 103, rpm_potencia_max: 6000, torque_nm: 138, rpm_torque_max: 4400, aceleracion_0_100_seg: 14.0, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 4, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "195/60 R16"}
+    dim: {largo_mm: 4450, ancho_sin_espejos_mm: 1775, alto_mm: 1710, distancia_entre_ejes_mm: 2740, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1175, capacidad_baul_litros: 153, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
+    seg: {numero_airbags: 2, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Cable, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.6, quejas_documentadas: 7.8, recalls: 7.8, repuestos_y_red: 8.0, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: la XL7 es la Ertiga con aspecto de SUV: más despeje (200 mm), protecciones plásticas, luces LED y pantalla de 10 pulgadas, con la misma mecánica 1.5 atmosférica confiable y económica. Ofrece siete puestos a precio bajo. Arrastra los mismos límites: dos airbags, caja automática de solo 4 velocidades y un motor que se queda corto con carga. Con la tercera fila arriba el baúl casi no existe. Mayor riesgo individual: la protección en un choque. No la recomendamos para carretera de montaña con la casa llena."
+      para_quien_si: "Familias que quieren siete puestos y aspecto de SUV con bajo costo."
+      para_quien_no: "Quien prioriza seguridad o desempeño en carretera."
+      pros_reales: ["Siete puestos y despeje de 200 mm", "Mecánica confiable y económica", "Pantalla de 10 pulgadas"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Caja automática", descripcion: "Solo 4 velocidades: ruidosa en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: GLX 1.5 AT, precio_base_cop: 92900000}
+      - {anio: 2025, version: GLX 1.5 AT, precio_base_cop: 90900000, fecha_precio: 2025-03-01}
