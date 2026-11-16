@@ -140,7 +140,13 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
             <option v-for="o in conActual(DESPEJES, filtros.despeje_min)" :key="o" :value="String(o)">{{ o }} mm o más</option>
           </select>
         </label>
-        <label>Baúl mínimo (L) <input v-model="filtros.baul_min" class="campo mt-1" inputmode="numeric" @input="recargar" /></label>
+        <label class="block">
+          <span class="etiqueta mb-2 block !text-tinta">Baúl mínimo</span>
+          <select v-model="filtros.baul_min" class="campo text-sm" @change="recargar">
+            <option value="">Cualquiera</option>
+            <option v-for="o in conActual(BAULES, filtros.baul_min)" :key="o" :value="String(o)">{{ o }} L o más</option>
+          </select>
+        </label>
         <label>Consumo real mínimo (km/l) <input v-model="filtros.consumo_min" class="campo mt-1" inputmode="decimal" @input="recargar" /></label>
         <label>Fiabilidad mínima: <strong class="num">{{ filtros.fiabilidad_min || 1 }}</strong>
           <input v-model="filtros.fiabilidad_min" type="range" min="1" max="10" step="0.5" class="mt-1 w-full" @change="recargar" />
