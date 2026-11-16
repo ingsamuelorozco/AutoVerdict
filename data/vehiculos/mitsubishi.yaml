@@ -33,6 +33,7 @@ modelos:
     versiones:
       - {anio: 2026, version: GLX 2.4 MT 4x4, precio_base_cop: 159900000, transmision_tipo: Manual, numero_velocidades: 6, pantalla_multimedia_pulgadas: 7, aire_acondicionado: Manual, adas_incluidas: []}
       - {anio: 2026, version: GLS 2.4 AT 4x4, precio_base_cop: 179900000, tapiceria: Cuero sintético, llave_inteligente: true}
+      - {anio: 2024, version: "GLX 2.4 MT 4x4", precio_base_cop: 127100000, transmision_tipo: "Manual", numero_velocidades: 6, pantalla_multimedia_pulgadas: 7, aire_acondicionado: "Manual", adas_incluidas: []}
 
   - modelo: Montero Sport
     imagen_id: veh-mitsubishi-montero-sport
@@ -66,6 +67,14 @@ modelos:
     versiones:
       - {anio: 2026, version: GLS 2.4 AT 4x4, precio_base_cop: 215900000}
       - {anio: 2024, version: GLS 2.4 AT 4x4, precio_base_cop: 199900000, fecha_precio: 2024-03-01}
+      - {anio: 2016, version: "GLS 2.4 AT 4x4", precio_base_cop: 100200000}
+      - {anio: 2017, version: "GLS 2.4 AT 4x4", precio_base_cop: 107200000}
+      - {anio: 2018, version: "GLS 2.4 AT 4x4", precio_base_cop: 114600000}
+      - {anio: 2019, version: "GLS 2.4 AT 4x4", precio_base_cop: 122600000}
+      - {anio: 2020, version: "GLS 2.4 AT 4x4", precio_base_cop: 131100000}
+      - {anio: 2021, version: "GLS 2.4 AT 4x4", precio_base_cop: 140300000}
+      - {anio: 2022, version: "GLS 2.4 AT 4x4", precio_base_cop: 150000000}
+      - {anio: 2023, version: "GLS 2.4 AT 4x4", precio_base_cop: 160400000}
 
   - modelo: Outlander
     imagen_id: veh-mitsubishi-outlander
@@ -99,6 +108,8 @@ modelos:
         - {componente: "Reventa", descripcion: "Pierde valor más rápido que sus rivales japoneses.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: GLS 2.5 CVT AWD, precio_base_cop: 189900000}
+      - {anio: 2023, version: "GLS 2.5 CVT AWD", precio_base_cop: 133700000}
+      - {anio: 2024, version: "GLS 2.5 CVT AWD", precio_base_cop: 146900000}
 
   - modelo: Eclipse Cross
     imagen_id: veh-mitsubishi-eclipse-cross
@@ -132,6 +143,13 @@ modelos:
     versiones:
       - {anio: 2026, version: GLS 1.5T CVT 4x2, precio_base_cop: 139900000}
       - {anio: 2026, version: GLS 1.5T CVT AWD, precio_base_cop: 149900000, traccion: AWD, peso_vacio_kg: 1530, consumo_mixto_kml: 12.8, consumo_real_estimado_kml: 10.8}
+      - {anio: 2018, version: "GLS 1.5T CVT 4x2", precio_base_cop: 74300000}
+      - {anio: 2019, version: "GLS 1.5T CVT 4x2", precio_base_cop: 79500000}
+      - {anio: 2020, version: "GLS 1.5T CVT 4x2", precio_base_cop: 85000000}
+      - {anio: 2021, version: "GLS 1.5T CVT 4x2", precio_base_cop: 90900000}
+      - {anio: 2022, version: "GLS 1.5T CVT 4x2", precio_base_cop: 97200000}
+      - {anio: 2023, version: "GLS 1.5T CVT 4x2", precio_base_cop: 104000000}
+      - {anio: 2024, version: "GLS 1.5T CVT 4x2", precio_base_cop: 111200000}
 
   - modelo: Xpander
     imagen_id: veh-mitsubishi-xpander
@@ -166,3 +184,9 @@ modelos:
     versiones:
       - {anio: 2026, version: GLS 1.5 CVT, precio_base_cop: 99900000}
       - {anio: 2026, version: Cross 1.5 CVT, precio_base_cop: 109900000, luces_led: true, medida_llantas: "205/55 R17", aire_acondicionado: Automático}
+      - {anio: 2019, version: "GLS 1.5 CVT", precio_base_cop: 56700000}
+      - {anio: 2020, version: "GLS 1.5 CVT", precio_base_cop: 60700000}
+      - {anio: 2021, version: "GLS 1.5 CVT", precio_base_cop: 64900000}
+      - {anio: 2022, version: "GLS 1.5 CVT", precio_base_cop: 69400000}
+      - {anio: 2023, version: "GLS 1.5 CVT", precio_base_cop: 74200000}
+      - {anio: 2024, version: "GLS 1.5 CVT", precio_base_cop: 79400000}
