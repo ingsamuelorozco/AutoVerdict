@@ -126,7 +126,13 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
             </select>
           </div>
         </fieldset>
-        <label>Plazas mínimas <input v-model="filtros.plazas" class="campo mt-1" inputmode="numeric" @input="recargar" /></label>
+        <label class="block">
+          <span class="etiqueta mb-2 block !text-tinta">Plazas mínimas</span>
+          <select v-model="filtros.plazas" class="campo text-sm" @change="recargar">
+            <option value="">Cualquiera</option>
+            <option v-for="o in conActual(PLAZAS, filtros.plazas)" :key="o" :value="String(o)">{{ o }} o más</option>
+          </select>
+        </label>
         <label>Despeje mínimo (mm) <input v-model="filtros.despeje_min" class="campo mt-1" inputmode="numeric" @input="recargar" /></label>
         <label>Baúl mínimo (L) <input v-model="filtros.baul_min" class="campo mt-1" inputmode="numeric" @input="recargar" /></label>
         <label>Consumo real mínimo (km/l) <input v-model="filtros.consumo_min" class="campo mt-1" inputmode="decimal" @input="recargar" /></label>
