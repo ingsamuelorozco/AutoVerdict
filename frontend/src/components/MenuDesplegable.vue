@@ -7,6 +7,7 @@ const abierto = ref(false)
 const raiz = ref<HTMLElement | null>(null)
 const id = useId()
 const panel = ref<HTMLElement | null>(null)
+const boton = ref<HTMLButtonElement | null>(null)
 
 let temporizador: ReturnType<typeof setTimeout> | undefined
 
@@ -27,6 +28,7 @@ async function enfocar(i: number) {
 function teclaBoton(e: KeyboardEvent) {
   if (e.key === 'ArrowDown') { e.preventDefault(); enfocar(0) }
   else if (e.key === 'ArrowUp') { e.preventDefault(); enfocar(-1) }
+  else if (e.key === 'Escape') cerrar()
 }
 function teclaPanel(e: KeyboardEvent) {
   const actual = items().indexOf(document.activeElement as HTMLElement)
@@ -34,12 +36,13 @@ function teclaPanel(e: KeyboardEvent) {
   else if (e.key === 'ArrowUp') { e.preventDefault(); enfocar(actual - 1) }
   else if (e.key === 'Home') { e.preventDefault(); enfocar(0) }
   else if (e.key === 'End') { e.preventDefault(); enfocar(-1) }
+  else if (e.key === 'Escape') { e.preventDefault(); cerrar(); boton.value?.focus() }
 }
 </script>
 
 <template>
   <div ref="raiz" class="relative flex items-stretch" @pointerenter="alEntrar" @pointerleave="alSalir">
-    <button type="button" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()" @keydown="teclaBoton">
+    <button ref="boton" type="button" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()" @keydown="teclaBoton">
       {{ etiqueta }}
     </button>
     <ul v-show="abierto" :id="id" ref="panel" role="menu" :aria-label="etiqueta" @keydown="teclaPanel">
