@@ -36,6 +36,13 @@ El resto de la portada (método, calculadoras, actualizados, alertas rojas y cie
 - Buscador: carrocería, marca y ciudad reales; rango de precio en calle en COP; lleva a `/buscar` con los filtros.
 - Características: seis funciones reales del producto.
 
+## Puntos de quiebre
+
+- Barra completa desde 1280 px (`nav`): por debajo, menú hamburguesa con Herramientas plegable. Con seis secciones, ajustes, favoritos y Comparar no cabe en 992 px sin apretarse. Entre 1280 y 1440 px se ocultan la cifra de la TRM y parte del espaciado.
+- Hero: titular de 38/52/64 px; por debajo de 1024 px el dato del catálogo pasa bajo el botón y el auto ocupa el 92 % (móvil) o el 72 % (tableta) del ancho.
+- Buscador: una columna por debajo de 768 px y botón a todo el ancho.
+- Características: el auto va primero; dos columnas en tableta y tres desde 1024 px.
+
 ## Imágenes
 
 Viven en `frontend/src/assets/images/` y sus créditos en `CREDITS.md`.
