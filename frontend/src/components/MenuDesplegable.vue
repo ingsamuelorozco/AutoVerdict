@@ -22,9 +22,9 @@ onClickOutside(raiz, cerrar)
     <button type="button" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()">
       {{ etiqueta }}
     </button>
-    <ul v-show="abierto" :id="id">
-      <li v-for="o in opciones" :key="o.to">
-        <RouterLink :to="o.to">
+    <ul v-show="abierto" :id="id" role="menu" :aria-label="etiqueta">
+      <li v-for="o in opciones" :key="o.to" role="none">
+        <RouterLink :to="o.to" role="menuitem" tabindex="-1">
           <span>{{ o.texto }}</span>
         </RouterLink>
       </li>
