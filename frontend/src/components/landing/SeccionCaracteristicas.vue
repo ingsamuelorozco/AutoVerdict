@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import fondo from '@/assets/images/features-bg-snow-road.jpg'
+import autoCenital from '@/assets/images/car-top-view.svg'
 import ItemCaracteristica from '@/components/landing/ItemCaracteristica.vue'
 import { T } from '@/lib/textos'
 
@@ -14,6 +15,9 @@ const C = T.landing.caracteristicas
       <ul class="grid gap-10">
         <ItemCaracteristica v-for="i in C.izquierda" :key="i.titulo" v-bind="i" lado="izquierda" />
       </ul>
+      <div class="relative mx-auto flex h-[420px] w-[300px] items-center justify-center">
+        <img :src="autoCenital" :alt="C.autoAlt" class="relative" width="200" height="440" loading="lazy" decoding="async" />
+      </div>
       <ul class="grid gap-10">
         <ItemCaracteristica v-for="i in C.derecha" :key="i.titulo" v-bind="i" lado="derecha" />
       </ul>
