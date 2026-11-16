@@ -23,8 +23,10 @@ function buscar() {
   const q: Record<string, string> = {}
   if (carroceria.value) q.carroceria = carroceria.value
   if (marca.value) q.marca = marca.value
-  if (rango.value[0] > LIMITE.min) q.precio_min = String(rango.value[0])
-  if (rango.value[1] < LIMITE.max) q.precio_max = String(rango.value[1])
+  // /buscar lee el precio en la moneda elegida: se convierte si el usuario ve dólares.
+  const factor = aj.moneda === 'USD' ? aj.trm : 1
+  if (rango.value[0] > LIMITE.min) q.precio_min = String(Math.round(rango.value[0] / factor))
+  if (rango.value[1] < LIMITE.max) q.precio_max = String(Math.round(rango.value[1] / factor))
   router.push({ path: '/buscar', query: q })
 }
 const millones = (v: number) => `$${formatoNumero(v / 1_000_000)} M`
