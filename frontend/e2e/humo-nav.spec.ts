@@ -15,5 +15,5 @@ test('la navegación superior cambia de vista sin dejar la página en blanco', a
     await expect(page.getByRole('heading', { level: 1, name: titulo })).toBeVisible()
   }
   await page.getByRole('link', { name: 'AutoVerdict, inicio' }).click()
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Precio & verdad')
+  await expect(page.getByRole('heading', { level: 1 })).toContainText(/^¿[^?]+\?$/)
 })

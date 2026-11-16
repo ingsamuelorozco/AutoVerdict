@@ -84,7 +84,11 @@ watch(() => aj.ciudad, () => cargarFicha(auto.value))
     <div class="absolute inset-0 -z-10 bg-velo/[0.88]" aria-hidden="true" />
     <div class="relative mx-auto flex w-full max-w-landing flex-col items-start justify-center px-[15px] pb-[96vw] pt-barra sm:pb-[34vw] lg:flex-row lg:pb-0 lg:items-center lg:justify-start">
       <div class="relative z-20 pt-10 lg:pl-[145px] lg:pt-16">
-        <h1 id="hero-titulo" class="text-[38px] sm:whitespace-nowrap leading-none sm:text-[52px] lg:text-[64px] tracking-[-1px] text-tinta"><span class="text-acento-texto">{{ T.landing.hero.acento }}</span> {{ T.landing.hero.titulo }}</h1>
+        <h1 id="hero-titulo" class="whitespace-nowrap text-[44px] leading-[0.95] sm:text-[56px] lg:text-[64px] tracking-[-1px] text-tinta">
+          <Transition mode="out-in" enter-active-class="transition duration-500 ease-out" leave-active-class="transition duration-300 ease-in" enter-from-class="translate-y-3 opacity-0" leave-to-class="-translate-y-3 opacity-0">
+            <span :key="auto.slug" class="block"><span class="block text-acento-texto">{{ auto.pregunta[0] }}</span> <span class="block">{{ auto.pregunta[1] }}</span></span>
+          </Transition>
+        </h1>
         <p class="mt-6 max-w-[310px] text-[15px] font-normal leading-[1.6] text-tinta">{{ T.sublema }}</p>
         <RouterLink to="/comparador" class="boton-acento mt-9 px-7">{{ T.landing.hero.boton }}</RouterLink>
       </div>

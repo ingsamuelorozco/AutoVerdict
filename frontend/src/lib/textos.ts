@@ -29,8 +29,6 @@ export const T = {
   },
   landing: {
     hero: {
-      acento: 'Precio &',
-      titulo: 'verdad',
       boton: 'Comparar ahora',
       datoTitulo: 'Catálogo 2018 – 2026',
     },
