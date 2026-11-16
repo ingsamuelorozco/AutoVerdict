@@ -81,7 +81,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
             </button>
           </div>
         </div>
-        <RouterLink to="/buscar?favoritos=1" class="relative grid h-11 w-11 place-items-center self-center rounded-full text-tinta transition-colors hover:bg-superficie" :aria-label="`Favoritos (${fav.ids.length})`">
+        <RouterLink to="/buscar?favoritos=1" class="relative mr-5 grid h-11 w-11 place-items-center self-center rounded-full text-tinta transition-colors hover:bg-white/10" :aria-label="`Favoritos (${fav.ids.length})`">
           <Heart class="h-5 w-5" aria-hidden="true" />
           <span v-if="fav.ids.length" class="absolute right-0.5 top-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-tinta px-1 text-[10px] font-bold text-papel num">{{ fav.ids.length }}</span>
         </RouterLink>
