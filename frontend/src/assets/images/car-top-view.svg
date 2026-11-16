@@ -11,6 +11,10 @@
     <filter id="sombra" x="-30%" y="-10%" width="160%" height="120%">
       <feGaussianBlur stdDeviation="7"/>
     </filter>
+    <linearGradient id="cristal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4550"/>
+      <stop offset="1" stop-color="#11151a"/>
+    </linearGradient>
   </defs>
 
   <rect x="22" y="22" width="156" height="410" rx="60" fill="#000" opacity=".35" filter="url(#sombra)"/>
@@ -29,4 +33,7 @@
   <path fill="#1d2329" d="M170 20C158 14 146 12 136 12L140 22C152 23 162 26 170 30Z"/>
   <path fill="#cfe3ff" opacity=".8" d="M34 22C42 18 50 16 58 16" stroke="#cfe3ff" stroke-width="2" stroke-linecap="round"/>
   <path fill="#cfe3ff" opacity=".8" d="M166 22C158 18 150 16 142 16" stroke="#cfe3ff" stroke-width="2" stroke-linecap="round"/>
+
+  <path fill="url(#cristal)" d="M40 130C70 119 130 119 160 130L168 184C132 175 68 175 32 184Z"/>
+  <path fill="#fff" opacity=".14" d="M52 134C80 126 112 125 134 128L66 176C56 177 46 178 38 180Z"/>
 </svg>
