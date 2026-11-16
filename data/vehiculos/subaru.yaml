@@ -32,6 +32,7 @@ modelos:
     versiones:
       - {anio: 2026, version: 2.0i CVT AWD, precio_base_cop: 119900000}
       - {anio: 2026, version: 2.0i-S CVT AWD, precio_base_cop: 129900000, tapiceria: Cuero sintético, llave_inteligente: true, medida_llantas: "215/50 R17", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+      - {anio: 2024, version: "2.0i CVT AWD", precio_base_cop: 95300000}
 
   - modelo: Crosstrek
     imagen_id: veh-subaru-crosstrek
@@ -63,6 +64,8 @@ modelos:
     versiones:
       - {anio: 2026, version: 2.0i-L CVT AWD, precio_base_cop: 134900000}
       - {anio: 2026, version: e-Boxer Limited, precio_base_cop: 149900000, tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 bóxer e-Boxer", potencia_electrica_kw: 12, capacidad_bateria_kwh: 0.6, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.8, peso_vacio_kg: 1590, tapiceria: Cuero, techo_corredizo: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
+      - {anio: 2023, version: "2.0i-L CVT AWD", precio_base_cop: 100200000}
+      - {anio: 2024, version: "2.0i-L CVT AWD", precio_base_cop: 107200000}
 
   - modelo: Forester
     imagen_id: veh-subaru-forester
@@ -125,6 +128,10 @@ modelos:
     versiones:
       - {anio: 2026, version: Limited 2.5, precio_base_cop: 199900000}
       - {anio: 2026, version: Onyx XT 2.4T, precio_base_cop: 224900000, motor_descripcion: "2.4 bóxer turbo FA24", cilindraje_cc: 2387, alimentacion: Turbo, potencia_hp: 260, rpm_potencia_max: 5600, torque_nm: 376, rpm_torque_max: 2000, aceleracion_0_100_seg: 7.3, consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.2, peso_vacio_kg: 1780}
+      - {anio: 2021, version: "Limited 2.5", precio_base_cop: 129900000}
+      - {anio: 2022, version: "Limited 2.5", precio_base_cop: 138900000}
+      - {anio: 2023, version: "Limited 2.5", precio_base_cop: 148500000}
+      - {anio: 2024, version: "Limited 2.5", precio_base_cop: 158900000}
 
   - modelo: WRX
     imagen_id: veh-subaru-wrx
@@ -155,6 +162,9 @@ modelos:
         - {componente: "Repuestos", descripcion: "Específicos y bajo pedido.", km_tipico: "Variable", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: GT 2.4T SPT AWD, precio_base_cop: 219900000}
+      - {anio: 2022, version: "GT 2.4T SPT AWD", precio_base_cop: 152800000}
+      - {anio: 2023, version: "GT 2.4T SPT AWD", precio_base_cop: 163400000}
+      - {anio: 2024, version: "GT 2.4T SPT AWD", precio_base_cop: 174800000}
 
   - modelo: BRZ
     imagen_id: veh-subaru-brz
@@ -185,6 +195,9 @@ modelos:
         - {componente: "Red de servicio", descripcion: "Menor que la de Toyota para su gemelo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: Limited 2.4 MT, precio_base_cop: 199900000, fecha_precio: 2025-01-01}
+      - {anio: 2022, version: "Limited 2.4 MT", precio_base_cop: 147200000}
+      - {anio: 2023, version: "Limited 2.4 MT", precio_base_cop: 157500000}
+      - {anio: 2024, version: "Limited 2.4 MT", precio_base_cop: 168400000}
 
   - modelo: Solterra
     imagen_id: veh-subaru-solterra
@@ -216,3 +229,5 @@ modelos:
         - {componente: "Reventa", descripcion: "Eléctrico de bajo volumen.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: AWD 71 kWh, precio_base_cop: 229900000, fecha_precio: 2025-01-01}
+      - {anio: 2023, version: "AWD 71 kWh", precio_base_cop: 171500000}
+      - {anio: 2024, version: "AWD 71 kWh", precio_base_cop: 188500000}
