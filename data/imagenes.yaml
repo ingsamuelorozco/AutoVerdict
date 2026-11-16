@@ -2333,3 +2333,27 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del MG ZS EV"
+  - id: veh-mazda-bt-50
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/2022_Mazda_BT-50_3.0d_Turbo_4x4_%28Chile%29_front_view.jpg/960px-2022_Mazda_BT-50_3.0d_Turbo_4x4_%28Chile%29_front_view.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Mazda_BT-50_3.0d_Turbo_4x4_(Chile)_front_view.jpg"
+    ancho: 4400
+    alto: 2200
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda BT-50"
+  - id: veh-mazda-cx-60
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Mazda_CX-60_PHEV_Automesse_Ludwigsburg_2022_1X7A5890.jpg/960px-Mazda_CX-60_PHEV_Automesse_Ludwigsburg_2022_1X7A5890.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mazda_CX-60_PHEV_Automesse_Ludwigsburg_2022_1X7A5890.jpg"
+    ancho: 4924
+    alto: 2618
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mazda CX-60"

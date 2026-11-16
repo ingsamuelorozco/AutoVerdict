@@ -290,6 +290,7 @@ modelos:
       - {anio: 2021, version: Grand Touring AT, precio_base_cop: 95900000, fecha_precio: 2021-06-01}
 
   - modelo: BT-50
+    imagen_id: veh-mazda-bt-50
     generacion: Tercera generación
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -319,6 +320,7 @@ modelos:
       - {anio: 2026, version: Grand Touring 3.0 Diésel AT 4x4, precio_base_cop: 209900000}
 
   - modelo: CX-60
+    imagen_id: veh-mazda-cx-60
     generacion: Primera generación
     segmento: SUV Mediana
     carroceria: SUV
