@@ -14,6 +14,9 @@ const C = T.landing.caracteristicas
       <ul class="grid">
         <ItemCaracteristica v-for="i in C.izquierda" :key="i.titulo" v-bind="i" lado="izquierda" />
       </ul>
+      <ul class="grid">
+        <ItemCaracteristica v-for="i in C.derecha" :key="i.titulo" v-bind="i" lado="derecha" />
+      </ul>
     </div>
   </section>
 </template>
