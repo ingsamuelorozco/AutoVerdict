@@ -2,9 +2,12 @@
 import fondo from '@/assets/images/hero-bg-city.jpg'
 import auto from '@/assets/images/hero-car.svg'
 import HeroHotspot from '@/components/landing/HeroHotspot.vue'
+import { useHead } from '@unhead/vue'
 import { T } from '@/lib/textos'
 
 defineProps<{ versiones?: number | null; marcas?: number | null }>()
+// El fondo es la imagen más grande sobre el pliegue: se pide antes que el JS de la vista.
+useHead({ link: [{ rel: 'preload', as: 'image', href: fondo }] })
 </script>
 
 <template>
