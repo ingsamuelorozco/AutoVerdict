@@ -45,7 +45,7 @@ const principales = [
       </RouterLink>
 
       <nav class="hidden h-full items-stretch gap-6 nav:flex" aria-label="Secciones principales">
-        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="enlace-nav" active-class="enlace-nav-activo">{{ l.texto }}</RouterLink>
+        <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="enlace-barra" active-class="enlace-barra-activo">{{ l.texto }}</RouterLink>
         <div ref="menuRef" class="relative flex items-stretch">
           <button class="enlace-nav gap-1" :aria-expanded="herramientasAbierto" aria-haspopup="menu" @click="herramientasAbierto = !herramientasAbierto">
             {{ T.nav.herramientas }} <ChevronDown :class="['h-4 w-4 transition-transform', herramientasAbierto ? 'rotate-180' : '']" aria-hidden="true" />
