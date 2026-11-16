@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { nextTick, ref, useId } from 'vue'
 import { onClickOutside } from '@vueuse/core'
+import { ChevronRight } from 'lucide-vue-next'
 
 defineProps<{ etiqueta: string; opciones: { to: string; texto: string }[]; activo?: boolean }>()
 const abierto = ref(false)
@@ -50,6 +51,7 @@ function teclaPanel(e: KeyboardEvent) {
       <li v-for="o in opciones" :key="o.to" role="none">
         <RouterLink :to="o.to" role="menuitem" tabindex="-1" class="flex items-center justify-between gap-6 whitespace-nowrap px-[18px] py-2 text-[13px] font-normal text-cuerpo" @click="cerrar">
           <span>{{ o.texto }}</span>
+          <ChevronRight class="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
         </RouterLink>
       </li>
     </ul>
