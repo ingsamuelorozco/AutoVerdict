@@ -27,8 +27,8 @@ useHead({ link: [{ rel: 'preload', as: 'image', href: fondo }] })
     </div>
     <div class="absolute bottom-0 right-[3%] z-10 w-[92%] max-w-[940px] sm:w-[72%] lg:w-[52%] translate-y-[7%]">
       <img :src="auto" :alt="T.landing.hero.autoAlt" class="block w-full drop-shadow-[0_24px_24px_rgb(0_0_0/0.55)]" width="1400" height="632" decoding="async" />
-      <HeroHotspot class="left-[58%] top-[38%]" :texto="T.landing.hero.hotspots[0]" />
-      <HeroHotspot class="left-[22.5%] top-[92%]" :texto="T.landing.hero.hotspots[1]" />
+      <HeroHotspot class="left-[47%] top-[20%]" :texto="T.landing.hero.hotspots[0]" />
+      <HeroHotspot class="left-[24%] top-[93%]" :texto="T.landing.hero.hotspots[1]" />
     </div>
   </section>
 </template>
