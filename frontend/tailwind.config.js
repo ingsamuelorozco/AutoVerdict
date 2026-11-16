@@ -43,7 +43,7 @@ export default {
       },
       // «nav»: ancho a partir del cual cabe la navegación horizontal completa sin apretarse.
       screens: { nav: '1360px' },
-      spacing: { seccion: '96px' },
+      spacing: { seccion: '96px', barra: '72px' },
       maxWidth: { contenido: '1440px' },
       transitionDuration: { DEFAULT: '240ms' },
     },
