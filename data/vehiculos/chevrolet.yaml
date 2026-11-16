@@ -35,6 +35,9 @@ modelos:
       - {anio: 2026, version: Premier AT, precio_base_cop: 96900000, llave_inteligente: true, carga_inalambrica: true, aire_acondicionado: Automático, tapiceria: Cuero sintético, luces_led: true, adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego, Asistente de parqueo]}
       - {anio: 2024, version: LT AT, precio_base_cop: 82900000, fecha_precio: 2024-03-01}
       - {anio: 2020, version: LT Turbo AT, precio_base_cop: 62900000, fecha_precio: 2020-02-01, patrones: [onix_2020_software], pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable}
+      - {anio: 2021, version: "LT MT", precio_base_cop: 51900000, transmision_tipo: "Manual", numero_velocidades: 6, apple_carplay_android_auto: "Cable"}
+      - {anio: 2022, version: "LT MT", precio_base_cop: 55500000, transmision_tipo: "Manual", numero_velocidades: 6, apple_carplay_android_auto: "Cable"}
+      - {anio: 2023, version: "LT MT", precio_base_cop: 59400000, transmision_tipo: "Manual", numero_velocidades: 6, apple_carplay_android_auto: "Cable"}
 
   - modelo: Onix Hatchback
     imagen_id: veh-chevrolet-onix-hatchback
@@ -65,6 +68,10 @@ modelos:
         - {componente: "Mantenimiento del turbo", descripcion: "Aceite dexos1 obligatorio y cambios puntuales.", km_tipico: "Cada 10.000", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: RS Turbo AT, precio_base_cop: 92900000}
+      - {anio: 2021, version: "RS Turbo AT", precio_base_cop: 60400000}
+      - {anio: 2022, version: "RS Turbo AT", precio_base_cop: 64500000}
+      - {anio: 2023, version: "RS Turbo AT", precio_base_cop: 69000000}
+      - {anio: 2024, version: "RS Turbo AT", precio_base_cop: 73800000}
 
   - modelo: Spark GT
     imagen_id: veh-chevrolet-spark-gt
@@ -99,6 +106,20 @@ modelos:
     versiones:
       - {anio: 2019, version: LT 1.2 MT, precio_base_cop: 33900000, fecha_precio: 2019-03-01}
       - {anio: 2019, version: LTZ 1.2 MT, precio_base_cop: 37900000, fecha_precio: 2019-03-01, aire_acondicionado: Manual}
+      - {anio: 2010, version: "LT 1.2 MT", precio_base_cop: 15800000}
+      - {anio: 2011, version: "LT 1.2 MT", precio_base_cop: 16900000}
+      - {anio: 2012, version: "LT 1.2 MT", precio_base_cop: 18100000}
+      - {anio: 2013, version: "LT 1.2 MT", precio_base_cop: 19300000}
+      - {anio: 2014, version: "LT 1.2 MT", precio_base_cop: 20700000}
+      - {anio: 2015, version: "LT 1.2 MT", precio_base_cop: 22100000}
+      - {anio: 2016, version: "LT 1.2 MT", precio_base_cop: 23700000}
+      - {anio: 2017, version: "LT 1.2 MT", precio_base_cop: 25300000}
+      - {anio: 2018, version: "LT 1.2 MT", precio_base_cop: 27100000}
+      - {anio: 2020, version: "LT 1.2 MT", precio_base_cop: 31000000}
+      - {anio: 2021, version: "LT 1.2 MT", precio_base_cop: 33100000}
+      - {anio: 2022, version: "LT 1.2 MT", precio_base_cop: 35400000}
+      - {anio: 2023, version: "LT 1.2 MT", precio_base_cop: 37900000}
+      - {anio: 2024, version: "LT 1.2 MT", precio_base_cop: 40500000}
 
   - modelo: Tracker
     imagen_id: veh-chevrolet-tracker
@@ -132,6 +153,10 @@ modelos:
       - {anio: 2026, version: Premier 1.2T AT, precio_base_cop: 124900000, tapiceria: Cuero sintético, techo_corredizo: true, carga_inalambrica: true, luces_led: true, adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego, Asistente de parqueo, Frenado autónomo de emergencia]}
       - {anio: 2026, version: RS 1.2T AT, precio_base_cop: 127900000, tapiceria: Cuero sintético, carga_inalambrica: true, luces_led: true, medida_llantas: "215/50 R18", adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego, Frenado autónomo de emergencia]}
       - {anio: 2024, version: LTZ 1.2T AT, precio_base_cop: 114900000, fecha_precio: 2024-04-01, luces_led: true}
+      - {anio: 2020, version: "LT 1.2T AT", precio_base_cop: 66800000}
+      - {anio: 2021, version: "LT 1.2T AT", precio_base_cop: 71400000}
+      - {anio: 2022, version: "LT 1.2T AT", precio_base_cop: 76400000}
+      - {anio: 2023, version: "LT 1.2T AT", precio_base_cop: 81700000}
 
   - modelo: Captiva
     imagen_id: veh-chevrolet-captiva
@@ -169,6 +194,10 @@ modelos:
       - {anio: 2024, version: Premier 1.5T CVT 7P, precio_base_cop: 129900000, fecha_precio: 2024-02-01, plazas: 7, capacidad_baul_litros: 210, capacidad_baul_abatido_litros: 1050, tapiceria: Cuero sintético, techo_corredizo: true, peso_vacio_kg: 1620}
       - {anio: 2021, version: Premier 1.5T CVT 7P, precio_base_cop: 99900000, fecha_precio: 2021-03-01, plazas: 7, capacidad_baul_litros: 210, capacidad_baul_abatido_litros: 1050, tapiceria: Cuero sintético, techo_corredizo: true, peso_vacio_kg: 1620, pantalla_multimedia_pulgadas: 8}
       - {anio: 2020, version: LT 1.5T CVT 5P, precio_base_cop: 89900000, fecha_precio: 2020-02-01, pantalla_multimedia_pulgadas: 8}
+      - {anio: 2018, version: "LT 1.5T CVT 5P", precio_base_cop: 54000000}
+      - {anio: 2019, version: "LT 1.5T CVT 5P", precio_base_cop: 59300000}
+      - {anio: 2022, version: "LT 1.5T CVT 5P", precio_base_cop: 78700000}
+      - {anio: 2023, version: "LT 1.5T CVT 5P", precio_base_cop: 86500000}
 
   - modelo: Equinox
     imagen_id: veh-chevrolet-equinox
@@ -200,6 +229,12 @@ modelos:
         - {componente: "Reventa", descripcion: "Pierde valor más rápido que CX-5 o RAV4.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2024, version: Premier 1.5T AWD, precio_base_cop: 154900000, fecha_precio: 2024-01-01}
+      - {anio: 2018, version: "Premier 1.5T AWD", precio_base_cop: 76400000}
+      - {anio: 2019, version: "Premier 1.5T AWD", precio_base_cop: 84000000}
+      - {anio: 2020, version: "Premier 1.5T AWD", precio_base_cop: 92300000}
+      - {anio: 2021, version: "Premier 1.5T AWD", precio_base_cop: 101400000}
+      - {anio: 2022, version: "Premier 1.5T AWD", precio_base_cop: 111500000}
+      - {anio: 2023, version: "Premier 1.5T AWD", precio_base_cop: 122500000}
 
   - modelo: Equinox EV
     imagen_id: veh-chevrolet-equinox-ev
@@ -231,6 +266,7 @@ modelos:
         - {componente: "Red de servicio", descripcion: "Pocos talleres certificados en alto voltaje fuera de las capitales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: RS FWD, precio_base_cop: 214900000}
+      - {anio: 2024, version: "RS FWD", precio_base_cop: 166200000}
 
   - modelo: Colorado
     imagen_id: veh-chevrolet-colorado
@@ -262,6 +298,14 @@ modelos:
     versiones:
       - {anio: 2026, version: LT 2.8D AT 4x4, precio_base_cop: 184900000}
       - {anio: 2026, version: High Country 2.8D AT 4x4, precio_base_cop: 199900000, carga_inalambrica: true, llave_inteligente: true, sensores_parqueo: Delantero y trasero}
+      - {anio: 2017, version: "LT 2.8D AT 4x4", precio_base_cop: 91800000}
+      - {anio: 2018, version: "LT 2.8D AT 4x4", precio_base_cop: 98200000}
+      - {anio: 2019, version: "LT 2.8D AT 4x4", precio_base_cop: 105000000}
+      - {anio: 2020, version: "LT 2.8D AT 4x4", precio_base_cop: 112300000}
+      - {anio: 2021, version: "LT 2.8D AT 4x4", precio_base_cop: 120100000}
+      - {anio: 2022, version: "LT 2.8D AT 4x4", precio_base_cop: 128500000}
+      - {anio: 2023, version: "LT 2.8D AT 4x4", precio_base_cop: 137400000}
+      - {anio: 2024, version: "LT 2.8D AT 4x4", precio_base_cop: 146900000}
 
   - modelo: Montana
     imagen_id: veh-chevrolet-montana
@@ -293,6 +337,8 @@ modelos:
     versiones:
       - {anio: 2025, version: Premier 1.2T AT, precio_base_cop: 109900000, fecha_precio: 2025-03-01, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, adas_incluidas: [Alerta de colisión frontal, Monitoreo de punto ciego]}
       - {anio: 2026, version: LTZ 1.2T AT, precio_base_cop: 112900000}
+      - {anio: 2023, version: "LTZ 1.2T AT", precio_base_cop: 83900000}
+      - {anio: 2024, version: "LTZ 1.2T AT", precio_base_cop: 89700000}
 
   - modelo: Camaro
     imagen_id: veh-chevrolet-camaro
@@ -324,6 +370,14 @@ modelos:
         - {componente: "Despeje", descripcion: "120 mm: raspa en rampas y rompemuelles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 1500000, severidad: Media}
     versiones:
       - {anio: 2023, version: SS 6.2 V8 AT, precio_base_cop: 329900000, fecha_precio: 2023-01-01}
+      - {anio: 2016, version: "SS 6.2 V8 AT", precio_base_cop: 182400000}
+      - {anio: 2017, version: "SS 6.2 V8 AT", precio_base_cop: 195100000}
+      - {anio: 2018, version: "SS 6.2 V8 AT", precio_base_cop: 208600000}
+      - {anio: 2019, version: "SS 6.2 V8 AT", precio_base_cop: 223100000}
+      - {anio: 2020, version: "SS 6.2 V8 AT", precio_base_cop: 238700000}
+      - {anio: 2021, version: "SS 6.2 V8 AT", precio_base_cop: 255200000}
+      - {anio: 2022, version: "SS 6.2 V8 AT", precio_base_cop: 273000000}
+      - {anio: 2024, version: "SS 6.2 V8 AT", precio_base_cop: 312300000}
 
   - modelo: Groove
     imagen_id: veh-chevrolet-groove
@@ -355,6 +409,9 @@ modelos:
     versiones:
       - {anio: 2026, version: Premier 1.5 CVT, precio_base_cop: 76900000}
       - {anio: 2024, version: LT 1.5 MT, precio_base_cop: 68900000, fecha_precio: 2024-03-01, transmision_tipo: Manual, numero_velocidades: 5}
+      - {anio: 2021, version: "Premier 1.5 CVT", precio_base_cop: 44800000}
+      - {anio: 2022, version: "Premier 1.5 CVT", precio_base_cop: 49300000}
+      - {anio: 2023, version: "Premier 1.5 CVT", precio_base_cop: 54100000}
 
   - modelo: Joy Hatchback
     generacion: Primera generación (base Beat)
@@ -386,6 +443,10 @@ modelos:
     versiones:
       - {anio: 2023, version: LS 1.2 MT, precio_base_cop: 48900000, fecha_precio: 2023-03-01}
       - {anio: 2021, version: LS 1.2 MT, precio_base_cop: 42900000, fecha_precio: 2021-03-01}
+      - {anio: 2019, version: "LS 1.2 MT", precio_base_cop: 33100000}
+      - {anio: 2020, version: "LS 1.2 MT", precio_base_cop: 35400000}
+      - {anio: 2022, version: "LS 1.2 MT", precio_base_cop: 40500000}
+      - {anio: 2024, version: "LS 1.2 MT", precio_base_cop: 46300000}
 
   - modelo: Tahoe
     imagen_id: veh-chevrolet-tahoe
@@ -417,3 +478,7 @@ modelos:
         - {componente: "Consumo", descripcion: "Alrededor de 6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: High Country 5.3 V8 4x4, precio_base_cop: 449900000}
+      - {anio: 2021, version: "High Country 5.3 V8 4x4", precio_base_cop: 292300000}
+      - {anio: 2022, version: "High Country 5.3 V8 4x4", precio_base_cop: 312600000}
+      - {anio: 2023, version: "High Country 5.3 V8 4x4", precio_base_cop: 334300000}
+      - {anio: 2024, version: "High Country 5.3 V8 4x4", precio_base_cop: 357600000}
