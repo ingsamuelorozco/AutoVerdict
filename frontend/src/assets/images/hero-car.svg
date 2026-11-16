@@ -43,4 +43,9 @@
 
   <path fill="url(#umbral)" d="M307 333 678 333 672 318C560 314 420 314 312 318Z"/>
   <path fill="#e3e6e9" stroke="#b5bbc1" stroke-width="2" d="M446 206C452 192 468 186 486 188L492 206Z"/>
+
+  <path fill="#14181c" d="M48 264C70 250 104 244 136 242L132 254C104 258 76 262 50 270Z"/>
+  <path fill="#cfe3ff" d="M60 262C82 254 106 250 126 248" stroke="#cfe3ff" stroke-width="3" stroke-linecap="round"/>
+  <path fill="#1a1e22" d="M48 300C70 296 104 296 132 300L128 322C100 322 70 322 52 320Z"/>
+  <path fill="#7a1b22" d="M934 240 962 244 964 258 936 256Z"/>
 </svg>
