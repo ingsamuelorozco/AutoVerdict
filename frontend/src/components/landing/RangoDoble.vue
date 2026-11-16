@@ -2,6 +2,8 @@
 const props = defineProps<{ min: number; max: number; paso: number }>()
 const modelo = defineModel<[number, number]>({ required: true })
 
+const pct = (v: number) => ((v - props.min) / (props.max - props.min)) * 100
+
 function cambiar(i: 0 | 1, e: Event) {
   const el = e.target as HTMLInputElement
   const v = Number(el.value)
@@ -15,7 +17,9 @@ function cambiar(i: 0 | 1, e: Event) {
 <template>
   <div>
     <div class="relative mt-2 h-[14px]">
-      <div class="absolute inset-x-[7px] top-1/2 h-[3px] -translate-y-1/2 bg-linea" aria-hidden="true" />
+      <div class="absolute inset-x-[7px] top-1/2 h-[3px] -translate-y-1/2 bg-linea" aria-hidden="true">
+        <div class="absolute inset-y-0 bg-acento" :style="{ left: `${pct(modelo[0])}%`, right: `${100 - pct(modelo[1])}%` }" />
+      </div>
       <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[0]" @input="cambiar(0, $event)" />
       <input type="range" class="rango-input" :min="min" :max="max" :step="paso" :value="modelo[1]" @input="cambiar(1, $event)" />
     </div>
