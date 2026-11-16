@@ -92,3 +92,22 @@ export interface Medidas {
   ancho_sin_espejos_mm?: number
   ancho_con_espejos_mm?: number
 }
+
+/** Un modelo con sus versiones agrupadas (GET /api/vehiculos/modelos). */
+export interface Modelo {
+  marca: string
+  modelo: string
+  carroceria: string
+  segmento: string
+  anios: number[]
+  versiones: number
+  combustibles: string[]
+  precio_calle_min: number | null
+  precio_calle_max: number | null
+  puntaje_fiabilidad: number
+  tiene_alerta_roja: boolean
+  /** Mejor versión del grupo según el orden pedido: aporta foto, medidas y datos de muestra. */
+  representante: Tarjeta
+}
+
+export type PaginadoModelos = Paginado<Modelo> & { total_versiones: number }
