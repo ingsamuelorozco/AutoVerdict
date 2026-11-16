@@ -37,7 +37,7 @@ const listaMarcas = computed(() => (props.marcas?.length ? props.marcas : OPC.ma
 <template>
   <section class="relative bg-[linear-gradient(to_bottom,rgb(var(--velo))_0_56px,transparent_56px)] px-4" aria-labelledby="buscador-titulo">
     <form class="mx-auto max-w-[940px] bg-papel px-5 pb-8 dark:bg-superficie sm:px-[35px] sm:pb-[50px] pt-6 shadow-tarjeta" @submit.prevent="buscar">
-      <div class="flex flex-wrap items-center justify-between gap-4 border-b border-linea pb-5">
+      <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 border-b border-linea pb-5">
         <div class="flex items-baseline gap-4">
           <h2 id="buscador-titulo" class="text-[22px] leading-none sm:text-[26px]">{{ B.titulo }}</h2>
           <RouterLink to="/buscar" class="text-[13px] font-normal text-acento-texto hover:underline">{{ B.avanzada }}</RouterLink>
