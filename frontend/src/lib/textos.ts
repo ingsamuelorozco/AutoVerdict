@@ -18,6 +18,14 @@ export const T = {
     { ruta: '/herramientas/que-me-alcanza', titulo: '¿Qué carro me alcanza?', desc: 'Según tus ingresos, con el costo mensual real.' },
     { ruta: '/herramientas/encuentra-mi-carro', titulo: 'Encuentra mi carro', desc: 'Seis preguntas, cinco recomendaciones explicadas.' },
   ],
+  navCorto: {
+    inicio: 'Inicio',
+    actualizados: 'Actualizados',
+    buscar: 'Buscar',
+    comparador: 'Comparador',
+    reviews: 'Reviews',
+    herramientas: 'Herramientas',
+  },
   estimado: 'Estimado',
   estimadoAyuda: 'Dato de referencia pendiente de verificación contra la ficha oficial vigente en Colombia. Ver metodología.',
   avisoLegal:
