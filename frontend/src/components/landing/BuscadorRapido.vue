@@ -35,7 +35,7 @@ const listaMarcas = computed(() => (props.marcas?.length ? props.marcas : OPC.ma
 </script>
 
 <template>
-  <section class="relative bg-[linear-gradient(to_bottom,rgb(var(--velo))_0_56px,transparent_56px)] px-4" aria-labelledby="buscador-titulo">
+  <section class="relative z-30 -mt-24 px-4 lg:-mt-28" aria-labelledby="buscador-titulo">
     <form class="mx-auto max-w-[940px] bg-papel px-5 pb-8 dark:bg-superficie sm:px-[35px] sm:pb-[50px] pt-6 shadow-tarjeta" @submit.prevent="buscar">
       <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 border-b border-linea pb-5">
         <div class="flex items-baseline gap-4">
