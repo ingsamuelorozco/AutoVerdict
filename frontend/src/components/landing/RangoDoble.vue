@@ -16,7 +16,7 @@ function cambiar(i: 0 | 1, e: Event) {
 
 <template>
   <div>
-    <div class="relative mx-[7px] h-4" aria-hidden="true">
+    <div class="relative mx-[7px] h-4 text-[11px] text-tenue num" aria-hidden="true">
       <span v-for="(v, i) in modelo" :key="i" class="absolute top-0 whitespace-nowrap" :style="{ left: `${pct(v)}%`, transform: `translateX(-${pct(v)}%)` }">{{ formato(v) }}</span>
     </div>
     <div class="relative mt-2 h-[14px]">
