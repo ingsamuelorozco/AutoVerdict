@@ -91,7 +91,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
         </RouterLink>
       </div>
 
-      <button class="ml-auto mr-2 grid h-11 w-11 place-items-center self-center text-tinta nav:hidden" aria-label="Abrir menú" @click="lateralAbierto = true"><Menu class="h-6 w-6" aria-hidden="true" /></button>
+      <button class="ml-auto grid w-[72px] place-items-center text-tinta transition-colors hover:bg-white/10 nav:hidden" aria-label="Abrir menú" @click="lateralAbierto = true"><Menu class="h-6 w-6" aria-hidden="true" /></button>
     </div>
 
     <!-- Menú móvil: hoja a pantalla completa con la franja M arriba -->
