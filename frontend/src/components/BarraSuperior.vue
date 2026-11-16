@@ -52,7 +52,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
         <MenuDesplegable :etiqueta="T.navCorto.herramientas" :opciones="herramientas" :activo="route.path.startsWith('/herramientas')" />
       </nav>
 
-      <div class="ml-auto hidden items-stretch nav:flex">
+      <div class="ml-auto hidden items-stretch pr-1 nav:flex">
         <!-- Ajustes regionales agrupados en un solo panel para despejar la barra -->
         <div ref="ajustesRef" class="relative flex h-full items-center">
           <button class="flex items-center gap-6 pr-6 text-xs font-bold uppercase tracking-[0.5px] text-tinta transition-colors hover:text-acento-texto" :aria-expanded="ajustesAbierto" aria-haspopup="dialog" title="Moneda, TRM y ciudad" @click="ajustesAbierto = !ajustesAbierto">
