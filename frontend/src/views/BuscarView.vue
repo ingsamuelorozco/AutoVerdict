@@ -12,6 +12,7 @@ import EstadoCarga from '@/components/EstadoCarga.vue'
 import TarjetaVehiculo from '@/components/TarjetaVehiculo.vue'
 import SelectorMultiple from '@/components/SelectorMultiple.vue'
 import type { Paginado, Tarjeta } from '@/lib/tipos'
+import { formatoNumero } from '@/composables/useFormato'
 import { OPC } from '@/lib/opciones'
 
 useHead({ title: 'Buscar vehículo' })
@@ -42,6 +43,11 @@ const ORDENES = [
   { v: 'potencia', t: 'Potencia' }, { v: 'consumo', t: 'Consumo' }, { v: 'fiabilidad', t: 'Fiabilidad' }, { v: 'despeje', t: 'Despeje' }, { v: 'recientes', t: 'Más recientes' },
 ]
 const factorMoneda = computed(() => (aj.moneda === 'USD' ? aj.trm : 1))
+/** Escalones de precio en la moneda elegida: millones de pesos o miles de dólares redondeados. */
+const PRECIOS = computed(() => [40, 60, 80, 100, 130, 160, 200, 250, 300, 400, 500].map((m) => (aj.moneda === 'USD' ? Math.round((m * 1_000_000) / aj.trm / 1000) * 1000 : m * 1_000_000)))
+const fmtPrecio = (v: number) => (aj.moneda === 'USD' ? `US$ ${formatoNumero(v / 1000)} mil` : `$${formatoNumero(v / 1_000_000)} M`)
+/** Si la URL trae un valor que no está en los escalones (p. ej., desde la portada), se agrega para que el desplegable lo muestre. */
+const conActual = (lista: number[], v: string) => (v && !lista.includes(Number(v)) ? [...lista, Number(v)].sort((a, b) => a - b) : lista)
 
 const { datos, cargando, error, ejecutar } = useCarga(async () => {
   const p: Record<string, unknown> = { ...filtros.value, size: 24, page: Number(filtros.value.page) || 1 }
@@ -89,8 +95,17 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
       <aside :class="['grid content-start gap-6 text-sm lg:border-r lg:border-linea lg:pr-8', panel ? '' : 'hidden lg:grid']" aria-label="Filtros">
         <SelectorMultiple v-for="k in MULTI" :key="k" v-model="filtros[k]" :etiqueta="ETIQUETAS[k]" :opciones="OPC[k]" @cambio="recargar" />
         <fieldset>
-          <legend class="etiqueta mb-2">Precio base ({{ aj.moneda }})</legend>
-          <div class="flex gap-2"><input v-model="filtros.precio_min" class="campo" inputmode="numeric" placeholder="Mín." aria-label="Precio mínimo" @input="recargar" /><input v-model="filtros.precio_max" class="campo" inputmode="numeric" placeholder="Máx." aria-label="Precio máximo" @input="recargar" /></div>
+          <legend class="etiqueta mb-2 !text-tinta">Precio base ({{ aj.moneda }})</legend>
+          <div class="grid grid-cols-2 gap-2">
+            <select v-model="filtros.precio_min" class="campo text-sm" aria-label="Precio base desde" @change="recargar">
+              <option value="">Desde</option>
+              <option v-for="o in conActual(PRECIOS, filtros.precio_min)" :key="o" :value="String(o)">{{ fmtPrecio(o) }}</option>
+            </select>
+            <select v-model="filtros.precio_max" class="campo text-sm" aria-label="Precio base hasta" @change="recargar">
+              <option value="">Hasta</option>
+              <option v-for="o in conActual(PRECIOS, filtros.precio_max)" :key="o" :value="String(o)">{{ fmtPrecio(o) }}</option>
+            </select>
+          </div>
         </fieldset>
         <fieldset>
           <legend class="etiqueta mb-2">Año</legend>
