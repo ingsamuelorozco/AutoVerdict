@@ -7,7 +7,7 @@ const B = T.landing.buscador
 
 <template>
   <section class="relative px-4" aria-labelledby="buscador-titulo">
-    <form class="mx-auto" @submit.prevent>
+    <form class="mx-auto max-w-[940px] bg-papel shadow-tarjeta" @submit.prevent>
       <div>
         <h2 id="buscador-titulo">{{ B.titulo }}</h2>
       </div>
