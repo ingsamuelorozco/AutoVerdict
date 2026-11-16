@@ -8,6 +8,7 @@ export const router = createRouter({
     { path: '/actualizados', component: () => import('./views/ActualizadosView.vue') },
     { path: '/buscar', component: () => import('./views/BuscarView.vue') },
     { path: '/comparador', component: () => import('./views/ComparadorView.vue') },
+    { path: '/modelo', component: () => import('./views/ModeloView.vue') },
     { path: '/vehiculo/:slug', component: () => import('./views/VehiculoView.vue'), props: true },
     { path: '/reviews', component: () => import('./views/ReviewsView.vue') },
     { path: '/reviews/:slug', component: () => import('./views/ReviewView.vue'), props: true },
