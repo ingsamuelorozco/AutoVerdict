@@ -35,6 +35,15 @@ modelos:
       - {anio: 2026, version: Touring AT, precio_base_cop: 92900000, camara_reversa: true}
       - {anio: 2026, version: Grand Touring AT, precio_base_cop: 101900000, pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, camara_reversa: true, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Frenado autónomo de emergencia]}
       - {anio: 2025, version: Touring AT, precio_base_cop: 89900000, fecha_precio: 2025-06-01, camara_reversa: true}
+      - {anio: 2016, version: "Prime MT", precio_base_cop: 42800000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
+      - {anio: 2017, version: "Prime MT", precio_base_cop: 45100000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
+      - {anio: 2018, version: "Prime MT", precio_base_cop: 47400000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
+      - {anio: 2019, version: "Prime MT", precio_base_cop: 49900000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
+      - {anio: 2020, version: "Prime MT", precio_base_cop: 52600000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
+      - {anio: 2021, version: "Prime MT", precio_base_cop: 55300000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
+      - {anio: 2022, version: "Prime MT", precio_base_cop: 58200000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
+      - {anio: 2023, version: "Prime MT", precio_base_cop: 61300000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
+      - {anio: 2024, version: "Prime MT", precio_base_cop: 64500000, transmision_tipo: "Manual", numero_velocidades: 6, numero_airbags: 2, medida_llantas: "185/65 R15", pantalla_multimedia_pulgadas: 7, sensores_parqueo: "Ninguno"}
 
   - modelo: "2 Hatchback"
     imagen_id: veh-mazda-2-hatchback
@@ -66,6 +75,16 @@ modelos:
     versiones:
       - {anio: 2026, version: Touring AT, precio_base_cop: 91500000}
       - {anio: 2026, version: Grand Touring LX AT, precio_base_cop: 104900000, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, medida_llantas: "185/55 R16", adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Frenado autónomo de emergencia]}
+      - {anio: 2015, version: "Touring AT", precio_base_cop: 46600000}
+      - {anio: 2016, version: "Touring AT", precio_base_cop: 49000000}
+      - {anio: 2017, version: "Touring AT", precio_base_cop: 51600000}
+      - {anio: 2018, version: "Touring AT", precio_base_cop: 54300000}
+      - {anio: 2019, version: "Touring AT", precio_base_cop: 57200000}
+      - {anio: 2020, version: "Touring AT", precio_base_cop: 60200000}
+      - {anio: 2021, version: "Touring AT", precio_base_cop: 63300000}
+      - {anio: 2022, version: "Touring AT", precio_base_cop: 66700000}
+      - {anio: 2023, version: "Touring AT", precio_base_cop: 70200000}
+      - {anio: 2024, version: "Touring AT", precio_base_cop: 73900000}
 
   - modelo: "3 Sedán"
     imagen_id: veh-mazda-3-sedan
@@ -97,6 +116,12 @@ modelos:
     versiones:
       - {anio: 2026, version: Touring 2.0 AT, precio_base_cop: 128900000}
       - {anio: 2026, version: Grand Touring LX 2.5 AT, precio_base_cop: 146900000, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 186, torque_nm: 252, rpm_torque_max: 4000, aceleracion_0_100_seg: 8.2, velocidad_maxima_kmh: 210, consumo_mixto_kml: 14.6, consumo_real_estimado_kml: 12.2, medida_llantas: "215/45 R18", tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia]}
+      - {anio: 2019, version: "Touring 2.0 AT", precio_base_cop: 80500000}
+      - {anio: 2020, version: "Touring 2.0 AT", precio_base_cop: 84800000}
+      - {anio: 2021, version: "Touring 2.0 AT", precio_base_cop: 89200000}
+      - {anio: 2022, version: "Touring 2.0 AT", precio_base_cop: 93900000}
+      - {anio: 2023, version: "Touring 2.0 AT", precio_base_cop: 98900000}
+      - {anio: 2024, version: "Touring 2.0 AT", precio_base_cop: 104100000}
 
   - modelo: "3 Hatchback"
     imagen_id: veh-mazda-3-hatchback
@@ -128,6 +153,12 @@ modelos:
     versiones:
       - {anio: 2026, version: Grand Touring LX 2.5 AT, precio_base_cop: 149900000}
       - {anio: 2026, version: 2.5 Turbo AWD Carbon, precio_base_cop: 169900000, motor_descripcion: "2.5 Skyactiv-G Turbo", alimentacion: Turbo, potencia_hp: 250, rpm_potencia_max: 5000, torque_nm: 434, rpm_torque_max: 2500, aceleracion_0_100_seg: 6.4, velocidad_maxima_kmh: 225, traccion: AWD, suspension_trasera: Barra de torsión, octanaje_minimo_recomendado: 95, tipo_combustible: Gasolina Extra, consumo_mixto_kml: 11.8, consumo_real_estimado_kml: 9.6, peso_vacio_kg: 1520}
+      - {anio: 2019, version: "Grand Touring LX 2.5 AT", precio_base_cop: 85100000}
+      - {anio: 2020, version: "Grand Touring LX 2.5 AT", precio_base_cop: 91000000}
+      - {anio: 2021, version: "Grand Touring LX 2.5 AT", precio_base_cop: 97400000}
+      - {anio: 2022, version: "Grand Touring LX 2.5 AT", precio_base_cop: 104100000}
+      - {anio: 2023, version: "Grand Touring LX 2.5 AT", precio_base_cop: 111400000}
+      - {anio: 2024, version: "Grand Touring LX 2.5 AT", precio_base_cop: 119100000}
 
   - modelo: CX-30
     imagen_id: veh-mazda-cx-30
@@ -161,6 +192,11 @@ modelos:
       - {anio: 2026, version: Grand Touring 2.5 AWD, precio_base_cop: 145900000, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 186, torque_nm: 252, aceleracion_0_100_seg: 8.6, traccion: AWD, consumo_mixto_kml: 13.4, consumo_real_estimado_kml: 11.3, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, pantalla_multimedia_pulgadas: 10.25, llave_inteligente: true, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia]}
       - {anio: 2026, version: Carbon Turbo AWD, precio_base_cop: 168900000, motor_descripcion: "2.5 Skyactiv-G Turbo", cilindraje_cc: 2488, alimentacion: Turbo, potencia_hp: 250, rpm_potencia_max: 5000, torque_nm: 434, rpm_torque_max: 2500, aceleracion_0_100_seg: 6.8, traccion: AWD, tipo_combustible: Gasolina Extra, octanaje_minimo_recomendado: 95, consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.4, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, pantalla_multimedia_pulgadas: 10.25, llave_inteligente: true, carga_inalambrica: true, peso_vacio_kg: 1560}
       - {anio: 2025, version: Touring 2.0 AT, precio_base_cop: 121900000, fecha_precio: 2025-06-01}
+      - {anio: 2020, version: "Touring 2.0 AT", precio_base_cop: 82800000}
+      - {anio: 2021, version: "Touring 2.0 AT", precio_base_cop: 87200000}
+      - {anio: 2022, version: "Touring 2.0 AT", precio_base_cop: 91800000}
+      - {anio: 2023, version: "Touring 2.0 AT", precio_base_cop: 96600000}
+      - {anio: 2024, version: "Touring 2.0 AT", precio_base_cop: 101700000}
 
   - modelo: CX-5
     imagen_id: veh-mazda-cx-5
@@ -194,6 +230,13 @@ modelos:
       - {anio: 2026, version: Grand Touring 2.5 AWD, precio_base_cop: 178900000, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 187, torque_nm: 252, aceleracion_0_100_seg: 9.0, traccion: AWD, consumo_mixto_kml: 12.4, consumo_real_estimado_kml: 10.6, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "225/55 R19", peso_vacio_kg: 1640, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Lectura de señales]}
       - {anio: 2026, version: Signature 2.5 Turbo AWD, precio_base_cop: 199900000, motor_descripcion: "2.5 Skyactiv-G Turbo", cilindraje_cc: 2488, alimentacion: Turbo, potencia_hp: 227, rpm_potencia_max: 5000, torque_nm: 420, rpm_torque_max: 2000, aceleracion_0_100_seg: 7.4, traccion: AWD, consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.2, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "225/55 R19", peso_vacio_kg: 1700, adas_incluidas: [Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Control crucero adaptativo, Asistente de mantenimiento de carril, Frenado autónomo de emergencia, Lectura de señales, Cámara 360]}
       - {anio: 2024, version: Grand Touring 2.5 AWD, precio_base_cop: 172900000, fecha_precio: 2024-06-01, motor_descripcion: "2.5 Skyactiv-G", cilindraje_cc: 2488, potencia_hp: 187, torque_nm: 252, aceleracion_0_100_seg: 9.0, traccion: AWD, consumo_mixto_kml: 12.4, consumo_real_estimado_kml: 10.6, tapiceria: Cuero, techo_corredizo: true, pantalla_multimedia_pulgadas: 10.25, sensores_parqueo: Delantero y trasero, medida_llantas: "225/55 R19", peso_vacio_kg: 1640}
+      - {anio: 2017, version: "Touring 2.0 2WD", precio_base_cop: 84500000}
+      - {anio: 2018, version: "Touring 2.0 2WD", precio_base_cop: 89000000}
+      - {anio: 2019, version: "Touring 2.0 2WD", precio_base_cop: 93700000}
+      - {anio: 2020, version: "Touring 2.0 2WD", precio_base_cop: 98600000}
+      - {anio: 2021, version: "Touring 2.0 2WD", precio_base_cop: 103800000}
+      - {anio: 2022, version: "Touring 2.0 2WD", precio_base_cop: 109200000}
+      - {anio: 2023, version: "Touring 2.0 2WD", precio_base_cop: 115000000}
 
   - modelo: CX-90
     imagen_id: veh-mazda-cx-90
@@ -226,6 +269,8 @@ modelos:
     versiones:
       - {anio: 2026, version: Grand Touring MHEV, precio_base_cop: 289900000}
       - {anio: 2026, version: Signature MHEV, precio_base_cop: 319900000, plazas: 6}
+      - {anio: 2023, version: "Grand Touring MHEV", precio_base_cop: 204100000}
+      - {anio: 2024, version: "Grand Touring MHEV", precio_base_cop: 224200000}
 
   - modelo: MX-5
     imagen_id: veh-mazda-mx-5
@@ -257,6 +302,15 @@ modelos:
     versiones:
       - {anio: 2026, version: Grand Touring MT, precio_base_cop: 159900000}
       - {anio: 2026, version: RF Grand Touring AT, precio_base_cop: 179900000, carroceria: Coupé, transmision_tipo: Automática, numero_velocidades: 6, peso_vacio_kg: 1120, aceleracion_0_100_seg: 7.2}
+      - {anio: 2016, version: "Grand Touring MT", precio_base_cop: 85700000}
+      - {anio: 2017, version: "Grand Touring MT", precio_base_cop: 90200000}
+      - {anio: 2018, version: "Grand Touring MT", precio_base_cop: 94900000}
+      - {anio: 2019, version: "Grand Touring MT", precio_base_cop: 99900000}
+      - {anio: 2020, version: "Grand Touring MT", precio_base_cop: 105200000}
+      - {anio: 2021, version: "Grand Touring MT", precio_base_cop: 110700000}
+      - {anio: 2022, version: "Grand Touring MT", precio_base_cop: 116500000}
+      - {anio: 2023, version: "Grand Touring MT", precio_base_cop: 122700000}
+      - {anio: 2024, version: "Grand Touring MT", precio_base_cop: 129100000}
 
   - modelo: CX-3
     imagen_id: veh-mazda-cx-3
@@ -288,6 +342,14 @@ modelos:
         - {componente: "Multimedia", descripcion: "Pantalla de 7 pulgadas sin conectividad moderna en versiones antiguas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2021, version: Grand Touring AT, precio_base_cop: 95900000, fecha_precio: 2021-06-01}
+      - {anio: 2016, version: "Grand Touring AT", precio_base_cop: 68800000}
+      - {anio: 2017, version: "Grand Touring AT", precio_base_cop: 72400000}
+      - {anio: 2018, version: "Grand Touring AT", precio_base_cop: 76200000}
+      - {anio: 2019, version: "Grand Touring AT", precio_base_cop: 80200000}
+      - {anio: 2020, version: "Grand Touring AT", precio_base_cop: 84400000}
+      - {anio: 2022, version: "Grand Touring AT", precio_base_cop: 93500000}
+      - {anio: 2023, version: "Grand Touring AT", precio_base_cop: 98400000}
+      - {anio: 2024, version: "Grand Touring AT", precio_base_cop: 103600000}
 
   - modelo: BT-50
     imagen_id: veh-mazda-bt-50
@@ -318,6 +380,10 @@ modelos:
         - {componente: "Red de servicio diésel", descripcion: "Menos talleres especializados que Toyota.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: Grand Touring 3.0 Diésel AT 4x4, precio_base_cop: 209900000}
+      - {anio: 2021, version: "Grand Touring 3.0 Diésel AT 4x4", precio_base_cop: 136400000}
+      - {anio: 2022, version: "Grand Touring 3.0 Diésel AT 4x4", precio_base_cop: 145800000}
+      - {anio: 2023, version: "Grand Touring 3.0 Diésel AT 4x4", precio_base_cop: 156000000}
+      - {anio: 2024, version: "Grand Touring 3.0 Diésel AT 4x4", precio_base_cop: 166800000}
 
   - modelo: CX-60
     imagen_id: veh-mazda-cx-60
@@ -348,3 +414,4 @@ modelos:
         - {componente: "Combustible", descripcion: "Pide gasolina extra.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: Signature 3.3T MHEV AWD, precio_base_cop: 279900000}
+      - {anio: 2024, version: "Signature 3.3T MHEV AWD", precio_base_cop: 222500000}
