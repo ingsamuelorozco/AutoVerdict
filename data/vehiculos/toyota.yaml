@@ -471,3 +471,389 @@ modelos:
         - {componente: "Consumo", descripcion: "Alrededor de 8 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: SR5 2.4T 4x4, precio_base_cop: 329900000}
+
+  - modelo: "Corolla"
+    generacion: "E120"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2003-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 1ZZ-FE", cilindraje_cc: 1794, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 130, rpm_potencia_max: 6000, torque_nm: 171, rpm_torque_max: 4200, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 4, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "195/60 R15"}
+    dim: {largo_mm: 4530, ancho_sin_espejos_mm: 1705, alto_mm: 1480, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1180, capacidad_baul_litros: 450, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 12.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.6, electrica_electronica: 7.8, quejas_documentadas: 8.2, recalls: 7.6, repuestos_y_red: 8.8, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Corolla de novena generación es de los sedanes usados más confiables que se pueden comprar: el 1.8 1ZZ dura cientos de miles de kilómetros con mantenimiento básico, los repuestos están en todo el país y conserva su valor como pocos. Como carro de casi veinte años, su seguridad es limitada, con dos airbags y sin control de estabilidad, y la caja automática de cuatro marchas gasta en carretera. Mayor riesgo individual: el robo, alto en este modelo. No lo recomendamos a quien prioriza la seguridad."
+      para_quien_si: "Quien busca un sedán usado muy confiable y fácil de revender."
+      para_quien_no: "Quien prioriza seguridad moderna."
+      pros_reales: ["Confiabilidad de referencia", "Reventa alta", "Repuestos en todo el país"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Hurto", descripcion: "Muy buscado para robo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2008, version: "XEi 1.8 AT", precio_base_cop: 33000000}
+      - {anio: 2007, version: "XEi 1.8 AT", precio_base_cop: 31400000}
+      - {anio: 2006, version: "XEi 1.8 AT", precio_base_cop: 29800000}
+      - {anio: 2005, version: "XEi 1.8 AT", precio_base_cop: 28300000}
+      - {anio: 2004, version: "XEi 1.8 AT", precio_base_cop: 26900000}
+      - {anio: 2003, version: "XEi 1.8 AT", precio_base_cop: 25500000}
+
+  - modelo: "Corolla"
+    generacion: "E140"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2009-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 2ZR-FE", cilindraje_cc: 1798, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 136, rpm_potencia_max: 6000, torque_nm: 175, rpm_torque_max: 4400, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 195, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 4, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "195/65 R15"}
+    dim: {largo_mm: 4540, ancho_sin_espejos_mm: 1760, alto_mm: 1480, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1250, capacidad_baul_litros: 450, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 13.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 8.0, quejas_documentadas: 8.4, recalls: 7.6, repuestos_y_red: 8.8, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Corolla de décima generación conserva todo lo que hace confiable al modelo, con el motor 1.8 2ZR de cadena de repartición, seis airbags y una reventa altísima. Es cómodo y silencioso, pero poco emocionante, y la caja automática de cuatro marchas consume más de lo necesario en carretera. No trae control de estabilidad. Mayor riesgo individual: el robo, alto en este modelo. No lo recomendamos a quien busca manejo deportivo o bajo consumo en carretera."
+      para_quien_si: "Quien busca el sedán usado más confiable posible."
+      para_quien_no: "Quien busca manejo deportivo o tecnología moderna."
+      pros_reales: ["Confiabilidad de referencia", "Seis airbags", "Reventa altísima"]
+      contras:
+        - {componente: "Caja de 4 marchas", descripcion: "Más consumo y ruido en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Hurto", descripcion: "Muy buscado para robo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2014, version: "XEi 1.8 AT", precio_base_cop: 50000000}
+      - {anio: 2013, version: "XEi 1.8 AT", precio_base_cop: 47500000}
+      - {anio: 2012, version: "XEi 1.8 AT", precio_base_cop: 45100000}
+      - {anio: 2011, version: "XEi 1.8 AT", precio_base_cop: 42900000}
+      - {anio: 2010, version: "XEi 1.8 AT", precio_base_cop: 40700000}
+      - {anio: 2009, version: "XEi 1.8 AT", precio_base_cop: 38700000}
+
+  - modelo: "Corolla"
+    generacion: "E170"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2015-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 2ZR-FE", cilindraje_cc: 1798, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 138, rpm_potencia_max: 6400, torque_nm: 173, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 195, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 4, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "205/55 R16"}
+    dim: {largo_mm: 4620, ancho_sin_espejos_mm: 1775, alto_mm: 1460, distancia_entre_ejes_mm: 2700, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1270, capacidad_baul_litros: 470, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 13.5}
+    seg: {numero_airbags: 7, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 8.0, quejas_documentadas: 8.4, recalls: 7.8, repuestos_y_red: 8.8, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Corolla de undécima generación suma siete airbags y control de estabilidad a la confiabilidad de siempre: motor 1.8 atmosférico de cadena, repuestos en todo el país y una reventa altísima. Es cómodo, amplio atrás y poco emocionante, y las versiones con caja automática de cuatro marchas consumen más en carretera. Mayor riesgo individual: el robo, alto en este modelo. No lo recomendamos a quien busca manejo deportivo."
+      para_quien_si: "Quien busca el sedán usado más confiable posible."
+      para_quien_no: "Quien busca manejo deportivo o tecnología moderna."
+      pros_reales: ["Confiabilidad de referencia", "Reventa altísima", "Repuestos en todo el país"]
+      contras:
+        - {componente: "Caja de 4 marchas", descripcion: "Más consumo y ruido en carretera en algunas versiones.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Hurto", descripcion: "Muy buscado para robo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2018, version: "XEi 1.8 AT", precio_base_cop: 72000000}
+      - {anio: 2017, version: "XEi 1.8 AT", precio_base_cop: 68400000}
+      - {anio: 2016, version: "XEi 1.8 AT", precio_base_cop: 65000000}
+      - {anio: 2015, version: "XEi 1.8 AT", precio_base_cop: 61700000}
+
+  - modelo: "Hilux"
+    generacion: "Séptima generación (AN10 / AN20)"
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Tailandia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2005-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "3.0 D-4D turbodiésel", cilindraje_cc: 2982, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 171, rpm_potencia_max: 3400, torque_nm: 343, rpm_torque_max: 1400, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 175}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.2, medida_llantas: "255/70 R15"}
+    dim: {largo_mm: 5255, ancho_sin_espejos_mm: 1835, alto_mm: 1810, distancia_entre_ejes_mm: 3085, distancia_libre_suelo_mm: 222, peso_vacio_kg: 1900, capacidad_baul_litros: 1100, capacidad_tanque_galones: 20.0}
+    consumo: {consumo_mixto_kml: 11.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 7.8, quejas_documentadas: 8.4, recalls: 7.8, repuestos_y_red: 9.0, costo_reparaciones: 7.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Hilux de séptima generación es probablemente la pickup usada más buscada de Colombia: el 3.0 D-4D turbodiésel aguanta kilometrajes enormes, los repuestos están en todas partes y su valor casi no baja. Es dura de suspensión, ruidosa, y su seguridad en las versiones de trabajo se queda en dos airbags. Hay muchas unidades maltratadas por trabajo en finca o minería. Mayor riesgo individual: inyectores dañados por combustible de mala calidad. No la recomendamos sin revisión del sistema de inyección."
+      para_quien_si: "Quien necesita una pickup de trabajo indestructible y que no pierda valor."
+      para_quien_no: "Quien busca confort o seguridad moderna."
+      pros_reales: ["Motor diésel extremadamente robusto", "Reventa altísima", "Repuestos en todo el país"]
+      contras:
+        - {componente: "Inyectores", descripcion: "Sensibles a combustible de mala calidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Uso previo", descripcion: "Muchas unidades vienen de trabajo pesado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2015, version: "3.0 Diésel MT 4x4", precio_base_cop: 98000000}
+      - {anio: 2014, version: "3.0 Diésel MT 4x4", precio_base_cop: 93100000}
+      - {anio: 2013, version: "3.0 Diésel MT 4x4", precio_base_cop: 88400000}
+      - {anio: 2012, version: "3.0 Diésel MT 4x4", precio_base_cop: 84000000}
+      - {anio: 2011, version: "3.0 Diésel MT 4x4", precio_base_cop: 79800000}
+      - {anio: 2010, version: "3.0 Diésel MT 4x4", precio_base_cop: 75800000}
+      - {anio: 2009, version: "3.0 Diésel MT 4x4", precio_base_cop: 72000000}
+      - {anio: 2008, version: "3.0 Diésel MT 4x4", precio_base_cop: 68400000}
+      - {anio: 2007, version: "3.0 Diésel MT 4x4", precio_base_cop: 65000000}
+      - {anio: 2006, version: "3.0 Diésel MT 4x4", precio_base_cop: 61800000}
+      - {anio: 2005, version: "3.0 Diésel MT 4x4", precio_base_cop: 58700000}
+
+  - modelo: "Fortuner"
+    generacion: "Primera generación (AN50)"
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Tailandia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2006-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.7 2TR-FE", cilindraje_cc: 2694, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 158, rpm_potencia_max: 5200, torque_nm: 241, rpm_torque_max: 3800, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 4, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido con resortes, frenos_traseros: Tambor, radio_giro_metros: 5.9, medida_llantas: "265/65 R17"}
+    dim: {largo_mm: 4705, ancho_sin_espejos_mm: 1840, alto_mm: 1850, distancia_entre_ejes_mm: 2750, distancia_libre_suelo_mm: 220, peso_vacio_kg: 1900, capacidad_baul_litros: 400, capacidad_tanque_galones: 17.4}
+    consumo: {consumo_mixto_kml: 8.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.6, electrica_electronica: 7.8, quejas_documentadas: 8.2, recalls: 7.8, repuestos_y_red: 8.8, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Fortuner de primera generación es una SUV de siete puestos sobre chasis de Hilux, con 4x4, reductora y una confiabilidad que la hace conservar su valor como pocas. El 2.7 de gasolina es muy durable pero consume mucho y la caja automática de cuatro marchas es lenta. La tercera fila es para niños y la seguridad se queda en dos airbags. Mayor riesgo individual: el consumo en ciudad. No la recomendamos a quien busca bajo costo de combustible."
+      para_quien_si: "Familias que viajan por carretera destapada y quieren una SUV indestructible."
+      para_quien_no: "Quien busca bajo consumo o seguridad moderna."
+      pros_reales: ["Chasis de Hilux con reductora", "Confiabilidad muy alta", "Reventa altísima"]
+      contras:
+        - {componente: "Consumo", descripcion: "Alrededor de 7 km/l reales en ciudad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2015, version: "2.7 AT 4x4", precio_base_cop: 92000000}
+      - {anio: 2014, version: "2.7 AT 4x4", precio_base_cop: 87400000}
+      - {anio: 2013, version: "2.7 AT 4x4", precio_base_cop: 83000000}
+      - {anio: 2012, version: "2.7 AT 4x4", precio_base_cop: 78900000}
+      - {anio: 2011, version: "2.7 AT 4x4", precio_base_cop: 74900000}
+      - {anio: 2010, version: "2.7 AT 4x4", precio_base_cop: 71200000}
+      - {anio: 2009, version: "2.7 AT 4x4", precio_base_cop: 67600000}
+      - {anio: 2008, version: "2.7 AT 4x4", precio_base_cop: 64200000}
+      - {anio: 2007, version: "2.7 AT 4x4", precio_base_cop: 61000000}
+      - {anio: 2006, version: "2.7 AT 4x4", precio_base_cop: 58000000}
+
+  - modelo: "Land Cruiser Prado"
+    generacion: "J120"
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2003-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.7 2TR-FE", cilindraje_cc: 2694, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 161, rpm_potencia_max: 5200, torque_nm: 246, rpm_torque_max: 3800, aceleracion_0_100_seg: 13.5, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 4, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido con resortes, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "265/65 R17"}
+    dim: {largo_mm: 4715, ancho_sin_espejos_mm: 1875, alto_mm: 1895, distancia_entre_ejes_mm: 2790, distancia_libre_suelo_mm: 220, peso_vacio_kg: 2000, capacidad_baul_litros: 600, capacidad_tanque_galones: 23.8}
+    consumo: {consumo_mixto_kml: 8.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 7.6, quejas_documentadas: 8.4, recalls: 7.8, repuestos_y_red: 8.6, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Prado J120 es un todoterreno de lujo de su época, con chasis de largueros, 4x4 permanente con reductora y siete puestos, que casi no pierde valor en Colombia. La versión con motor 2.7 de gasolina es la más común: muy durable pero lenta para el peso del carro, con consumo alto y caja de cuatro marchas. Su seguridad se queda en dos airbags en muchas unidades. Mayor riesgo individual: el hurto, muy alto en este modelo. No la recomendamos a quien no tiene parqueadero seguro."
+      para_quien_si: "Quien busca un todoterreno de lujo robusto que conserve su valor."
+      para_quien_no: "Quien busca bajo consumo o no tiene parqueadero seguro."
+      pros_reales: ["Confiabilidad y reventa muy altas", "4x4 permanente con reductora", "Siete puestos"]
+      contras:
+        - {componente: "Consumo", descripcion: "Alrededor de 7 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Hurto", descripcion: "Riesgo de hurto muy alto.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2009, version: "VX 2.7 AT 4x4", precio_base_cop: 88000000}
+      - {anio: 2008, version: "VX 2.7 AT 4x4", precio_base_cop: 83600000}
+      - {anio: 2007, version: "VX 2.7 AT 4x4", precio_base_cop: 79400000}
+      - {anio: 2006, version: "VX 2.7 AT 4x4", precio_base_cop: 75400000}
+      - {anio: 2005, version: "VX 2.7 AT 4x4", precio_base_cop: 71700000}
+      - {anio: 2004, version: "VX 2.7 AT 4x4", precio_base_cop: 68100000}
+      - {anio: 2003, version: "VX 2.7 AT 4x4", precio_base_cop: 64700000}
+
+  - modelo: "Land Cruiser Prado"
+    generacion: "J150"
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2010-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "4.0 V6 1GR-FE", cilindraje_cc: 3956, cilindros: 6, valvulas: 24, alimentacion: Atmosférico, potencia_hp: 271, rpm_potencia_max: 5600, torque_nm: 381, rpm_torque_max: 4400, aceleracion_0_100_seg: 9.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Eje rígido con resortes, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "265/60 R18"}
+    dim: {largo_mm: 4780, ancho_sin_espejos_mm: 1885, alto_mm: 1890, distancia_entre_ejes_mm: 2790, distancia_libre_suelo_mm: 220, peso_vacio_kg: 2200, capacidad_baul_litros: 620, capacidad_tanque_galones: 23.8}
+    consumo: {consumo_mixto_kml: 7.5}
+    seg: {numero_airbags: 7, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "No", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, tapiceria: "Cuero"}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.8, electrica_electronica: 7.8, quejas_documentadas: 8.4, recalls: 7.8, repuestos_y_red: 8.6, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Prado J150 es la SUV de lujo todoterreno que más conserva su valor en Colombia: chasis de largueros, 4x4 permanente con reductora, siete puestos y un V6 4.0 de gasolina muy durable. Es pesada, consume mucho y tiene un riesgo de hurto muy alto. Sus repuestos y mantenimiento son caros, pero rara vez falla. Mayor riesgo individual: el hurto. No la recomendamos a quien busca bajo costo de uso o vive en zonas sin parqueadero seguro."
+      para_quien_si: "Quien quiere una SUV todoterreno de lujo que casi no pierde valor."
+      para_quien_no: "Quien busca bajo consumo o no tiene parqueadero seguro."
+      pros_reales: ["Confiabilidad y reventa de referencia", "4x4 con reductora", "Siete puestos"]
+      contras:
+        - {componente: "Consumo", descripcion: "Alrededor de 6,5 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Hurto", descripcion: "Riesgo de hurto muy alto.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2023, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 245000000}
+      - {anio: 2022, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 232800000}
+      - {anio: 2021, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 221100000}
+      - {anio: 2020, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 210100000}
+      - {anio: 2019, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 199600000}
+      - {anio: 2018, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 189600000}
+      - {anio: 2017, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 180100000}
+      - {anio: 2016, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 171100000}
+      - {anio: 2015, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 162500000}
+      - {anio: 2014, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 154400000}
+      - {anio: 2013, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 146700000}
+      - {anio: 2012, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 139400000}
+      - {anio: 2011, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 132400000}
+      - {anio: 2010, version: "TX-L 4.0 V6 AT 4x4", precio_base_cop: 125800000}
+
+  - modelo: "RAV4"
+    generacion: "XA30"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2006-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.4 2AZ-FE", cilindraje_cc: 2362, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 170, rpm_potencia_max: 6000, torque_nm: 224, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 4, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "225/65 R17"}
+    dim: {largo_mm: 4395, ancho_sin_espejos_mm: 1815, alto_mm: 1685, distancia_entre_ejes_mm: 2560, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1550, capacidad_baul_litros: 410, capacidad_tanque_galones: 15.8}
+    consumo: {consumo_mixto_kml: 10.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.2, electrica_electronica: 7.8, quejas_documentadas: 8.0, recalls: 7.8, repuestos_y_red: 8.6, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la RAV4 de tercera generación es una SUV compacta confiable, con tracción integral, seis airbags y control de estabilidad, que conserva bien su valor. El 2.4 2AZ es durable, aunque algunas unidades con mucho kilometraje consumen aceite, y la caja automática de cuatro marchas gasta en carretera. La rueda de repuesto en la puerta trasera dificulta abrir en espacios estrechos. Mayor riesgo individual: el consumo de aceite en motores muy recorridos. No la recomendamos sin medir el consumo de aceite."
+      para_quien_si: "Quien busca una SUV usada confiable con tracción integral."
+      para_quien_no: "Quien busca bajo consumo en carretera."
+      pros_reales: ["Confiabilidad alta", "Tracción integral", "Seis airbags y control de estabilidad"]
+      contras:
+        - {componente: "Consumo de aceite", descripcion: "Algunos 2AZ muy recorridos consumen aceite.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Caja de 4 marchas", descripcion: "Consumo alto en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2012, version: "2.4 AT AWD", precio_base_cop: 50000000}
+      - {anio: 2011, version: "2.4 AT AWD", precio_base_cop: 47500000}
+      - {anio: 2010, version: "2.4 AT AWD", precio_base_cop: 45100000}
+      - {anio: 2009, version: "2.4 AT AWD", precio_base_cop: 42900000}
+      - {anio: 2008, version: "2.4 AT AWD", precio_base_cop: 40700000}
+      - {anio: 2007, version: "2.4 AT AWD", precio_base_cop: 38700000}
+      - {anio: 2006, version: "2.4 AT AWD", precio_base_cop: 36800000}
+
+  - modelo: "RAV4"
+    generacion: "XA40"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2013-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 2AR-FE", cilindraje_cc: 2494, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 176, rpm_potencia_max: 6000, torque_nm: 233, rpm_torque_max: 4100, aceleracion_0_100_seg: 10.0, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.4, medida_llantas: "225/65 R17"}
+    dim: {largo_mm: 4570, ancho_sin_espejos_mm: 1845, alto_mm: 1660, distancia_entre_ejes_mm: 2660, distancia_libre_suelo_mm: 197, peso_vacio_kg: 1600, capacidad_baul_litros: 547, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 11.5}
+    seg: {numero_airbags: 7, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.6, electrica_electronica: 7.8, quejas_documentadas: 8.2, recalls: 7.8, repuestos_y_red: 8.6, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la RAV4 de cuarta generación es de las SUV compactas usadas más confiables: motor 2.5 atmosférico durable, caja automática de seis marchas, tracción integral, siete airbags y un baúl de 547 litros. Su reventa es de las más altas del segmento. Consume más que una SUV moderna y la cabina es ruidosa en carretera. Mayor riesgo individual: el robo, alto en este modelo. No la recomendamos a quien busca bajo consumo en ciudad."
+      para_quien_si: "Quien busca una SUV usada muy confiable con buen espacio."
+      para_quien_no: "Quien prioriza el consumo en ciudad."
+      pros_reales: ["Confiabilidad muy alta", "Baúl de 547 litros", "Reventa alta"]
+      contras:
+        - {componente: "Consumo", descripcion: "Alrededor de 9,5 km/l reales en ciudad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Hurto", descripcion: "Muy buscada para robo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2018, version: "2.5 AT AWD", precio_base_cop: 85000000}
+      - {anio: 2017, version: "2.5 AT AWD", precio_base_cop: 80800000}
+      - {anio: 2016, version: "2.5 AT AWD", precio_base_cop: 76700000}
+      - {anio: 2015, version: "2.5 AT AWD", precio_base_cop: 72900000}
+      - {anio: 2014, version: "2.5 AT AWD", precio_base_cop: 69200000}
+      - {anio: 2013, version: "2.5 AT AWD", precio_base_cop: 65800000}
+
+  - modelo: "Yaris"
+    generacion: "XP90 / XP130 (hatchback)"
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2006-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.3 2NZ-FE", cilindraje_cc: 1299, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 86, rpm_potencia_max: 6000, torque_nm: 121, rpm_torque_max: 4200, aceleracion_0_100_seg: 12.5, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.8, medida_llantas: "175/65 R14"}
+    dim: {largo_mm: 3885, ancho_sin_espejos_mm: 1695, alto_mm: 1510, distancia_entre_ejes_mm: 2510, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1000, capacidad_baul_litros: 286, capacidad_tanque_galones: 11.1}
+    consumo: {consumo_mixto_kml: 16.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.6, electrica_electronica: 7.8, quejas_documentadas: 8.2, recalls: 7.8, repuestos_y_red: 8.6, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Yaris hatchback es un pequeño muy confiable, con un 1.3 que consume poco y dura muchísimo, repuestos fáciles y una reventa alta para su segmento. Es un primer carro sensato. Su motor se queda corto en carretera de montaña, el espacio trasero y el baúl son justos y la seguridad se queda en dos airbags sin control de estabilidad. Mayor riesgo individual: la protección en un choque en carretera. No lo recomendamos para viajes largos con familia."
+      para_quien_si: "Quien busca un hatchback usado pequeño, confiable y barato de mantener."
+      para_quien_no: "Quien viaja seguido por carretera con familia."
+      pros_reales: ["Confiabilidad muy alta", "Consumo bajo", "Buena reventa"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Potencia", descripcion: "Justo en carretera de montaña.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2017, version: "1.3 MT", precio_base_cop: 33000000}
+      - {anio: 2016, version: "1.3 MT", precio_base_cop: 31400000}
+      - {anio: 2015, version: "1.3 MT", precio_base_cop: 29800000}
+      - {anio: 2014, version: "1.3 MT", precio_base_cop: 28300000}
+      - {anio: 2013, version: "1.3 MT", precio_base_cop: 26900000}
+      - {anio: 2012, version: "1.3 MT", precio_base_cop: 25500000}
+      - {anio: 2011, version: "1.3 MT", precio_base_cop: 24300000}
+      - {anio: 2010, version: "1.3 MT", precio_base_cop: 23000000}
+      - {anio: 2009, version: "1.3 MT", precio_base_cop: 21900000}
+      - {anio: 2008, version: "1.3 MT", precio_base_cop: 20800000}
+      - {anio: 2007, version: "1.3 MT", precio_base_cop: 19800000}
+      - {anio: 2006, version: "1.3 MT", precio_base_cop: 18800000}
