@@ -1,0 +1,159 @@
+marca: Jeep
+pais_origen: Estados Unidos
+fuentes_ids: [editorial-referencia, editorial-precio]
+modelos:
+  - modelo: Renegade
+    generacion: Primera generación (actualización 2022)
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2016-03-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.3 turbo T270", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 175, rpm_potencia_max: 5750, torque_nm: 270, rpm_torque_max: 1850, aceleracion_0_100_seg: 9.2, velocidad_maxima_kmh: 205, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: McPherson, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "215/60 R17"}
+    dim: {largo_mm: 4236, ancho_sin_espejos_mm: 1805, alto_mm: 1690, distancia_entre_ejes_mm: 2570, distancia_libre_suelo_mm: 198, peso_vacio_kg: 1450, capacidad_baul_litros: 351, capacidad_tanque_galones: 12.7}
+    consumo: {consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 10.2}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
+    equipo: {pantalla_multimedia_pulgadas: 8.4, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, camara_reversa: true, luces_led: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.4, quejas_documentadas: 6.6, recalls: 6.6, repuestos_y_red: 6.6, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Renegade es la SUV pequeña con más carácter del segmento, con diseño cuadrado, buena altura al piso y un 1.3 turbo de 175 hp que se siente fuerte en altura. Lo que paga es el baúl de 351 litros, un consumo alto para su tamaño y una reventa débil frente a japoneses y coreanos. Su electrónica ha tenido más quejas que la media del segmento (opinión editorial). Mayor riesgo individual: el costo de reparaciones fuera de garantía. No lo recomendamos a quien prioriza la reventa."
+      para_quien_si: "Quien quiere una SUV pequeña con estilo y motor turbo potente."
+      para_quien_no: "Quien prioriza bajo consumo, baúl grande o reventa."
+      pros_reales: ["Motor turbo de 175 hp", "Despeje de 198 mm", "Seis airbags"]
+      contras:
+        - {componente: "Baúl", descripcion: "351 litros, chico para viajes en familia.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Reventa", descripcion: "Se desvaloriza más rápido que rivales japoneses.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Longitude 1.3T AT, precio_base_cop: 129900000}
+      - {anio: 2026, version: Trailhawk 1.3T AT 4x4, precio_base_cop: 154900000, traccion: 4x4, numero_velocidades: 9, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1540, consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.4, tapiceria: Cuero sintético}
+
+  - modelo: Compass
+    generacion: Segunda generación (actualización 2022)
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2017-10-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.3 turbo T270", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 175, rpm_potencia_max: 5750, torque_nm: 270, rpm_torque_max: 1850, aceleracion_0_100_seg: 9.6, velocidad_maxima_kmh: 205, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: McPherson, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "225/55 R18"}
+    dim: {largo_mm: 4404, ancho_sin_espejos_mm: 1819, alto_mm: 1640, distancia_entre_ejes_mm: 2636, distancia_libre_suelo_mm: 198, peso_vacio_kg: 1550, capacidad_baul_litros: 410, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero sintético, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 6.8, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Compass es la SUV compacta de Jeep con mejor terminación interior que el Renegade, pantalla de 10 pulgadas, siete airbags y el mismo 1.3 turbo de 175 hp. Es cómodo en carretera y tiene buen despeje. Frente a Tucson, Sportage o CX-30 pierde en consumo, en red de posventa y sobre todo en reventa. Mayor riesgo individual: la depreciación si se vende antes de cinco años. No lo recomendamos a quien cambia de carro con frecuencia."
+      para_quien_si: "Quien quiere una SUV compacta bien terminada y con buena seguridad."
+      para_quien_no: "Quien prioriza consumo o vender pronto sin perder plata."
+      pros_reales: ["Siete airbags y ayudas de manejo", "Interior bien terminado", "Motor turbo de 270 Nm"]
+      contras:
+        - {componente: "Reventa", descripcion: "Pierde valor más rápido que sus rivales asiáticos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Consumo", descripcion: "Alrededor de 10 km/l reales en ciudad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Longitude 1.3T AT, precio_base_cop: 159900000}
+      - {anio: 2026, version: Limited 1.3T AT, precio_base_cop: 179900000, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+
+  - modelo: Commander
+    generacion: Primera generación
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Brasil
+    fecha_lanzamiento_colombia: 2022-09-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.3 turbo T270", cilindraje_cc: 1332, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 175, rpm_potencia_max: 5750, torque_nm: 270, rpm_torque_max: 1850, aceleracion_0_100_seg: 10.3, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: McPherson, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "235/50 R19"}
+    dim: {largo_mm: 4769, ancho_sin_espejos_mm: 1859, alto_mm: 1682, distancia_entre_ejes_mm: 2794, distancia_libre_suelo_mm: 210, peso_vacio_kg: 1700, capacidad_baul_litros: 233, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 10.8, consumo_real_estimado_kml: 9.2}
+    seg: {numero_airbags: 7, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      patrones: [turbo_pequeno_pesado]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.8, repuestos_y_red: 6.6, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Commander estira la base del Compass para dar siete puestos, con equipamiento completo y buen confort. El problema es que mueve 1,7 toneladas con el mismo 1.3 turbo: con la casa llena y en altura va justo y el consumo sube. La tercera fila es para niños y con ella arriba el baúl queda en 233 litros. Mayor riesgo individual: exigir mucho a un motor pequeño con carga. No lo recomendamos a quien viaja seguido con siete ocupantes por montaña."
+      para_quien_si: "Familias que usan la tercera fila de vez en cuando y quieren mucho equipo."
+      para_quien_no: "Quien viaja con siete personas por carretera de montaña."
+      pros_reales: ["Siete puestos con buen equipamiento", "Despeje de 210 mm", "Ayudas de manejo completas"]
+      contras:
+        - {componente: "Motor con carga", descripcion: "1.3 turbo para 1.700 kg: justo con siete ocupantes en altura.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Tercera fila y baúl", descripcion: "Tercera fila pequeña; 233 L con todos los puestos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2026, version: Limited 1.3T AT, precio_base_cop: 199900000}
+
+  - modelo: Grand Cherokee
+    generacion: Quinta generación (WL)
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2022-06-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "3.6 Pentastar V6", cilindraje_cc: 3604, cilindros: 6, valvulas: 24, alimentacion: Atmosférico, potencia_hp: 293, rpm_potencia_max: 6400, torque_nm: 353, rpm_torque_max: 4000, aceleracion_0_100_seg: 8.1, velocidad_maxima_kmh: 210, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "265/50 R20", profundidad_vadeo_mm: 610, capacidad_remolque_kg: 2800}
+    dim: {largo_mm: 4914, ancho_sin_espejos_mm: 1968, alto_mm: 1792, distancia_entre_ejes_mm: 2964, distancia_libre_suelo_mm: 215, peso_vacio_kg: 2150, capacidad_baul_litros: 1000, capacidad_tanque_galones: 23.0}
+    consumo: {consumo_mixto_kml: 8.0, consumo_real_estimado_kml: 6.8}
+    seg: {numero_airbags: 8, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+    equipo: {pantalla_multimedia_pulgadas: 10.1, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.2, quejas_documentadas: 6.4, recalls: 6.0, repuestos_y_red: 6.4, costo_reparaciones: 5.8}
+      nivel_costo_mantenimiento: Muy Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Grand Cherokee WL es una SUV grande con lujo de verdad, tracción 4x4 con capacidad real fuera del asfalto y un V6 3.6 atmosférico de 293 hp con caja de 8 velocidades, mecánica conocida y sin turbo. Sus puntos flojos son el consumo, cercano a 7 km/l reales, la electrónica compleja de esta generación y una depreciación fuerte. Mayor riesgo individual: el costo de reparar sus sistemas electrónicos fuera de garantía (opinión editorial). No la recomendamos a quien busca bajo costo de uso."
+      para_quien_si: "Quien quiere una SUV grande de lujo con 4x4 real y motor atmosférico."
+      para_quien_no: "Quien prioriza consumo, costo de mantenimiento o reventa."
+      pros_reales: ["V6 atmosférico sin turbo", "4x4 con capacidad real", "Interior de lujo y mucho equipo"]
+      contras:
+        - {componente: "Consumo", descripcion: "Alrededor de 7 km/l reales en ciudad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Electrónica", descripcion: "Muchos sistemas electrónicos con costo alto de reparación.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Limited 3.6 V6 4x4, precio_base_cop: 349900000}
+      - {anio: 2026, version: Summit 3.6 V6 4x4, precio_base_cop: 419900000, medida_llantas: "275/45 R21"}
+
+  - modelo: Wrangler
+    generacion: Cuarta generación (JL)
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2018-10-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 turbo Hurricane", cilindraje_cc: 1995, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 270, rpm_potencia_max: 5250, torque_nm: 400, rpm_torque_max: 3000, aceleracion_0_100_seg: 7.9, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: 4x4, suspension_delantera: Eje rígido con resortes, suspension_trasera: Eje rígido con resortes, frenos_traseros: Disco, radio_giro_metros: 6.2, medida_llantas: "255/70 R18", profundidad_vadeo_mm: 760, capacidad_remolque_kg: 1590}
+    dim: {largo_mm: 4882, ancho_sin_espejos_mm: 1894, alto_mm: 1838, distancia_entre_ejes_mm: 3008, distancia_libre_suelo_mm: 242, peso_vacio_kg: 2000, capacidad_baul_litros: 548, capacidad_tanque_galones: 21.4, angulo_ataque_deg: 41, angulo_ventral_deg: 21, angulo_salida_deg: 36}
+    consumo: {consumo_mixto_kml: 9.0, consumo_real_estimado_kml: 7.6}
+    seg: {numero_airbags: 4, adas_incluidas: [Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 12.3, apple_carplay_android_auto: Inalámbrico, aire_acondicionado: Automático bizona, tapiceria: Cuero, camara_reversa: true, luces_led: true, llave_inteligente: true}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.4, quejas_documentadas: 6.6, recalls: 6.2, repuestos_y_red: 6.6, costo_reparaciones: 6.2}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Wrangler es el todoterreno de referencia, con ejes rígidos, reductora, ángulos de ataque y salida enormes, techo y puertas desmontables y una reventa que pocos igualan. En la vida diaria se nota el precio de esa capacidad: dirección poco precisa, ruido aerodinámico, solo cuatro airbags y consumo alto. Mayor riesgo individual: la oscilación de dirección en ejes rígidos modificados (opinión editorial). No lo recomendamos como único carro familiar para ciudad y autopista."
+      para_quien_si: "Quien hace trocha de verdad y quiere un carro que conserva su valor."
+      para_quien_no: "Quien busca confort de autopista o una SUV familiar urbana."
+      pros_reales: ["Capacidad todoterreno de referencia", "Reventa muy alta", "Techo y puertas desmontables"]
+      contras:
+        - {componente: "Confort en autopista", descripcion: "Ruido y dirección poco precisa a alta velocidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Seguridad pasiva", descripcion: "Cuatro airbags y pocas ayudas de manejo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Sahara 2.0T 4x4, precio_base_cop: 329900000}
+      - {anio: 2026, version: Rubicon 2.0T 4x4, precio_base_cop: 359900000, distancia_libre_suelo_mm: 252, medida_llantas: "285/70 R17"}
