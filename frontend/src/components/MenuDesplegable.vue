@@ -28,6 +28,11 @@ function teclaBoton(e: KeyboardEvent) {
   if (e.key === 'ArrowDown') { e.preventDefault(); enfocar(0) }
   else if (e.key === 'ArrowUp') { e.preventDefault(); enfocar(-1) }
 }
+function teclaPanel(e: KeyboardEvent) {
+  const actual = items().indexOf(document.activeElement as HTMLElement)
+  if (e.key === 'ArrowDown') { e.preventDefault(); enfocar(actual + 1) }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); enfocar(actual - 1) }
+}
 </script>
 
 <template>
@@ -35,7 +40,7 @@ function teclaBoton(e: KeyboardEvent) {
     <button type="button" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()" @keydown="teclaBoton">
       {{ etiqueta }}
     </button>
-    <ul v-show="abierto" :id="id" ref="panel" role="menu" :aria-label="etiqueta">
+    <ul v-show="abierto" :id="id" ref="panel" role="menu" :aria-label="etiqueta" @keydown="teclaPanel">
       <li v-for="o in opciones" :key="o.to" role="none">
         <RouterLink :to="o.to" role="menuitem" tabindex="-1">
           <span>{{ o.texto }}</span>
