@@ -34,6 +34,8 @@ modelos:
       - {anio: 2026, version: Feel 1.6 MT, precio_base_cop: 64900000}
       - {anio: 2026, version: Shine 1.6 AT, precio_base_cop: 74900000, transmision_tipo: Automática, numero_velocidades: 6, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 11.0, camara_reversa: true}
       - {anio: 2025, version: Feel 1.6 MT, precio_base_cop: 63900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "Feel 1.6 MT", precio_base_cop: 45700000}
+      - {anio: 2024, version: "Feel 1.6 MT", precio_base_cop: 50200000}
 
   - modelo: C4 Cactus
     imagen_id: veh-citroen-c4-cactus
@@ -67,6 +69,10 @@ modelos:
     versiones:
       - {anio: 2023, version: Feel 1.6 AT, precio_base_cop: 82900000, fecha_precio: 2023-03-01}
       - {anio: 2022, version: Shine 1.6 AT, precio_base_cop: 84900000, fecha_precio: 2022-03-01, aire_acondicionado: Automático, luces_led: true}
+      - {anio: 2019, version: "Feel 1.6 AT", precio_base_cop: 47700000}
+      - {anio: 2020, version: "Feel 1.6 AT", precio_base_cop: 52400000}
+      - {anio: 2021, version: "Feel 1.6 AT", precio_base_cop: 57600000}
+      - {anio: 2024, version: "Feel 1.6 AT", precio_base_cop: 76400000}
 
   - modelo: C5 Aircross
     imagen_id: veh-citroen-c5-aircross
@@ -100,3 +106,9 @@ modelos:
       - {anio: 2026, version: Feel 1.6 THP AT, precio_base_cop: 129900000}
       - {anio: 2026, version: Shine 1.6 THP AT, precio_base_cop: 139900000, tapiceria: Cuero sintético, techo_corredizo: true, carga_inalambrica: true}
       - {anio: 2025, version: Feel 1.6 THP AT, precio_base_cop: 126900000, fecha_precio: 2025-03-01}
+      - {anio: 2019, version: "Feel 1.6 THP AT", precio_base_cop: 62700000}
+      - {anio: 2020, version: "Feel 1.6 THP AT", precio_base_cop: 68900000}
+      - {anio: 2021, version: "Feel 1.6 THP AT", precio_base_cop: 75700000}
+      - {anio: 2022, version: "Feel 1.6 THP AT", precio_base_cop: 83200000}
+      - {anio: 2023, version: "Feel 1.6 THP AT", precio_base_cop: 91400000}
+      - {anio: 2024, version: "Feel 1.6 THP AT", precio_base_cop: 100500000}
