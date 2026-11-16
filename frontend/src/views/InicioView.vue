@@ -17,13 +17,20 @@ const fallidas = ref(new Set<string>())
 
 const actualizados = ref<{ id: number; titulo: string; resumen: string; vale_la_pena: string; marca: string; modelo: string; anio_modelo: number; fecha_lanzamiento_colombia: string }[]>([])
 const rojas = ref<(Tarjeta & { linea_veredicto: string })[]>([])
+/** Resumen del catálogo para el hero y el buscador rápido. */
+const totalVersiones = ref<number | null>(null)
+const marcas = ref<string[]>([])
 
 onMounted(async () => {
-  const [imgs, act, fia] = await Promise.allSettled([
+  const [imgs, act, fia, cat, mar] = await Promise.allSettled([
     api.get<Imagen[]>('/config/imagenes'),
     api.get<{ resultados: typeof actualizados.value }>('/actualizados'),
     api.get<{ resultados: typeof rojas.value }>('/fiabilidad', { solo_alertas_rojas: true, limite: 40 }),
+    api.get<{ total: number }>('/vehiculos', { size: 1 }),
+    api.get<{ marca: string; versiones: number }[]>('/catalogo/marcas'),
   ])
+  if (cat.status === 'fulfilled') totalVersiones.value = cat.value.total
+  if (mar.status === 'fulfilled') marcas.value = mar.value.map((m) => m.marca)
   if (imgs.status === 'fulfilled') imagenes.value = imgs.value.filter((i) => i.uso === 'hero')
   if (act.status === 'fulfilled') actualizados.value = act.value.resultados.slice(0, 8)
   if (fia.status === 'fulfilled') {
@@ -49,7 +56,7 @@ const herramientas = [
 </script>
 
 <template>
-  <LandingHero />
+  <LandingHero :versiones="totalVersiones" :marcas="marcas.length || null" />
 
   <!-- Cómo funciona: celdas de dato sobre lienzo -->
   <section class="contenedor seccion" aria-labelledby="como">
