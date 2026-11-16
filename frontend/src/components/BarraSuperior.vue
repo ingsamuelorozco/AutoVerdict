@@ -2,7 +2,8 @@
 import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { onClickOutside } from '@vueuse/core'
-import { ChevronDown, GitCompare, Heart, Menu, Moon, SlidersHorizontal, Sun, X } from 'lucide-vue-next'
+import { GitCompare, Heart, Menu, Moon, SlidersHorizontal, Sun, X } from 'lucide-vue-next'
+import MenuDesplegable from '@/components/MenuDesplegable.vue'
 import { useAjustes } from '@/stores/ajustes'
 import { useComparador } from '@/stores/comparador'
 import { useFavoritos } from '@/stores/favoritos'
@@ -14,10 +15,7 @@ const fav = useFavoritos()
 const route = useRoute()
 /** En la portada la barra flota transparente sobre el hero; en el resto queda fija arriba. */
 const enInicio = computed(() => route.path === '/')
-const herramientasAbierto = ref(false)
 const lateralAbierto = ref(false)
-const menuRef = ref<HTMLElement | null>(null)
-onClickOutside(menuRef, () => (herramientasAbierto.value = false))
 const ajustesAbierto = ref(false)
 const ajustesRef = ref<HTMLElement | null>(null)
 onClickOutside(ajustesRef, () => (ajustesAbierto.value = false))
@@ -33,6 +31,7 @@ const principales = [
   { to: '/comparador', texto: T.navCorto.comparador },
   { to: '/reviews', texto: T.navCorto.reviews },
 ]
+const herramientas = T.herramientas.map((h) => ({ to: h.ruta, texto: h.titulo }))
 </script>
 
 <template>
@@ -46,18 +45,7 @@ const principales = [
 
       <nav class="hidden items-stretch gap-7 nav:flex" aria-label="Secciones principales">
         <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="enlace-barra" active-class="enlace-barra-activo">{{ l.texto }}<span class="enlace-barra-mas" aria-hidden="true">+</span></RouterLink>
-        <div ref="menuRef" class="relative flex items-stretch">
-          <button class="enlace-nav gap-1" :aria-expanded="herramientasAbierto" aria-haspopup="menu" @click="herramientasAbierto = !herramientasAbierto">
-            {{ T.nav.herramientas }} <ChevronDown :class="['h-4 w-4 transition-transform', herramientasAbierto ? 'rotate-180' : '']" aria-hidden="true" />
-          </button>
-          <div v-if="herramientasAbierto" class="absolute left-0 top-full w-96 border border-t-0 border-linea bg-papel" role="menu">
-            <div class="franja-m" aria-hidden="true" />
-            <RouterLink v-for="h in T.herramientas" :key="h.ruta" :to="h.ruta" role="menuitem" class="block border-b border-linea px-6 py-4 transition-colors last:border-b-0 hover:bg-superficie" @click="herramientasAbierto = false">
-              <span class="block text-sm font-bold uppercase tracking-[1px] text-tinta">{{ h.titulo }}</span>
-              <span class="mt-1 block text-sm text-tenue">{{ h.desc }}</span>
-            </RouterLink>
-          </div>
-        </div>
+        <MenuDesplegable :etiqueta="T.navCorto.herramientas" :opciones="herramientas" :activo="route.path.startsWith('/herramientas')" />
       </nav>
 
       <div class="ml-auto hidden h-full items-center gap-2 nav:flex">
