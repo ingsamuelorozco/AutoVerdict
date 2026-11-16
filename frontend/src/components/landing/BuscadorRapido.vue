@@ -27,6 +27,7 @@ function buscar() {
   const factor = aj.moneda === 'USD' ? aj.trm : 1
   if (rango.value[0] > LIMITE.min) q.precio_min = String(Math.round(rango.value[0] / factor))
   if (rango.value[1] < LIMITE.max) q.precio_max = String(Math.round(rango.value[1] / factor))
+  if (ciudad.value) { aj.ciudad = ciudad.value; aj.guardar() }
   router.push({ path: '/buscar', query: q })
 }
 const millones = (v: number) => `$${formatoNumero(v / 1_000_000)} M`
