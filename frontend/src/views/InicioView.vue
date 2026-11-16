@@ -1,14 +1,13 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { useHead } from '@unhead/vue'
-import { ArrowRight, ShieldAlert } from 'lucide-vue-next'
+import { ArrowRight } from 'lucide-vue-next'
 import LandingHero from '@/components/landing/LandingHero.vue'
 import BuscadorRapido from '@/components/landing/BuscadorRapido.vue'
 import SeccionCaracteristicas from '@/components/landing/SeccionCaracteristicas.vue'
 import { api } from '@/lib/api'
 import { T } from '@/lib/textos'
 import { useFormato } from '@/composables/useFormato'
-import type { Tarjeta } from '@/lib/tipos'
 
 useHead({ title: undefined, meta: [{ property: 'og:title', content: `${T.marca} · ${T.lema}` }, { property: 'og:description', content: T.sublema }] })
 const f = useFormato()
@@ -18,16 +17,14 @@ const imagenes = ref<Imagen[]>([])
 const fallidas = ref(new Set<string>())
 
 const actualizados = ref<{ id: number; titulo: string; resumen: string; vale_la_pena: string; marca: string; modelo: string; anio_modelo: number; fecha_lanzamiento_colombia: string }[]>([])
-const rojas = ref<(Tarjeta & { linea_veredicto: string })[]>([])
 /** Resumen del catálogo para el hero y el buscador rápido. */
 const totalVersiones = ref<number | null>(null)
 const marcas = ref<string[]>([])
 
 onMounted(async () => {
-  const [imgs, act, fia, cat, mar] = await Promise.allSettled([
+  const [imgs, act, cat, mar] = await Promise.allSettled([
     api.get<Imagen[]>('/config/imagenes'),
     api.get<{ resultados: typeof actualizados.value }>('/actualizados'),
-    api.get<{ resultados: typeof rojas.value }>('/fiabilidad', { solo_alertas_rojas: true, limite: 40 }),
     api.get<{ total: number }>('/vehiculos', { size: 1 }),
     api.get<{ marca: string; versiones: number }[]>('/catalogo/marcas'),
   ])
@@ -35,10 +32,6 @@ onMounted(async () => {
   if (mar.status === 'fulfilled') marcas.value = mar.value.map((m) => m.marca)
   if (imgs.status === 'fulfilled') imagenes.value = imgs.value.filter((i) => i.uso === 'hero')
   if (act.status === 'fulfilled') actualizados.value = act.value.resultados.slice(0, 8)
-  if (fia.status === 'fulfilled') {
-    const vistos = new Set<string>()
-    rojas.value = fia.value.resultados.filter((r) => !vistos.has(r.modelo) && vistos.add(r.modelo)).slice(0, 4)
-  }
 })
 const visibles = computed(() => imagenes.value.filter((i) => !fallidas.value.has(i.id)))
 /** La banda de cierre usa una foto fija distinta a la primera del hero. */
@@ -67,28 +60,6 @@ const fotoCierre = computed(() => visibles.value[visibles.value.length - 1])
         <p class="mt-3 line-clamp-3 text-sm text-tenue">{{ a.resumen }}</p>
         <p class="mt-auto border-t border-linea pt-4 text-sm"><span class="etiqueta mr-2">¿Vale la pena?</span><span class="text-tinta">{{ a.vale_la_pena }}</span></p>
       </RouterLink>
-    </div>
-  </section>
-
-  <!-- Alertas rojas: puntaje como cifra protagonista -->
-  <section v-if="rojas.length" class="banda-suave" aria-labelledby="rojas">
-    <div class="contenedor seccion">
-      <p class="etiqueta flex items-center gap-2"><ShieldAlert class="h-4 w-4 text-roja" aria-hidden="true" /> Fiabilidad</p>
-      <h2 id="rojas" class="titulo-seccion mt-3">Alertas rojas</h2>
-      <p class="entradilla">Los modelos con peor fiabilidad documentada. Nuestra promesa: decirlo antes de que pagues.</p>
-      <div class="mt-10 grid gap-6 md:grid-cols-2">
-        <RouterLink v-for="r in rojas" :key="r.id" :to="`/reviews/${r.slug}`" class="tarjeta group flex items-stretch transition-colors hover:border-tinta">
-          <div class="flex w-28 shrink-0 flex-col items-center justify-center border-r border-linea p-4 text-center sm:w-36">
-            <span class="text-display-sm text-roja num">{{ f.numero(r.puntaje_fiabilidad, 1) }}</span>
-            <span class="etiqueta mt-1">de 10</span>
-          </div>
-          <div class="flex min-w-0 flex-col p-6">
-            <h3 class="text-xl">{{ r.marca }} {{ r.modelo }}</h3>
-            <p class="mb-4 mt-2 line-clamp-3 text-sm text-tenue">{{ r.linea_veredicto }}…</p>
-            <span class="enlace-texto mt-auto">Leer review <ArrowRight class="h-4 w-4" aria-hidden="true" /></span>
-          </div>
-        </RouterLink>
-      </div>
     </div>
   </section>
 
