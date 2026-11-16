@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import fondo from '@/assets/images/hero-bg-city.jpg'
+import auto from '@/assets/images/hero-car.svg'
 import { T } from '@/lib/textos'
 
 defineProps<{ versiones?: number | null; marcas?: number | null }>()
@@ -19,6 +20,9 @@ defineProps<{ versiones?: number | null; marcas?: number | null }>()
         <p class="text-base font-bold uppercase tracking-[1px] text-acento-texto">{{ T.landing.hero.datoTitulo }}</p>
         <p class="mt-3 text-sm font-bold text-tinta"><span class="num">{{ versiones ?? '—' }}</span> versiones · <span class="num">{{ marcas ?? '—' }}</span> marcas</p>
       </div>
+    </div>
+    <div class="absolute bottom-0 right-[3.5%] w-[46%] max-w-[860px]">
+      <img :src="auto" :alt="T.landing.hero.autoAlt" class="block w-full" width="1000" height="450" decoding="async" />
     </div>
   </section>
 </template>
