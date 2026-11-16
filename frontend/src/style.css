@@ -79,7 +79,7 @@
   .prosa { @apply leading-relaxed; }
   .prosa > p, .prosa p.mt-3 { @apply max-w-[72ch]; }
   /* Contenido sobre fotografía: siempre tipografía blanca, sea cual sea el tema. */
-  .sobre-foto { --tinta: 255 255 255; --cuerpo: 230 230 230; --papel: 0 0 0; --tenue: 187 187 187; --apagado: 150 150 150; --linea: 90 90 90; @apply text-cuerpo; }
+  .sobre-foto { --acento-texto: 77 141 232; --tinta: 255 255 255; --cuerpo: 230 230 230; --papel: 0 0 0; --tenue: 187 187 187; --apagado: 150 150 150; --linea: 90 90 90; @apply text-cuerpo; }
   .tarjeta { @apply border border-linea bg-superficie; }
   .tarjeta-plana { @apply border border-linea bg-papel; }
   .celda-dato { @apply bg-suave p-6; }
