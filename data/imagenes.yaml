@@ -1385,3 +1385,87 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Nissan X-Trail"
+  - id: veh-peugeot-2008
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2023_Peugeot_2008_in_Vertigo_Blue%2C_front_left%2C_06-08-2025.jpg/960px-2023_Peugeot_2008_in_Vertigo_Blue%2C_front_left%2C_06-08-2025.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Cutlass"
+    licencia: "CC0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2023_Peugeot_2008_in_Vertigo_Blue,_front_left,_06-08-2025.jpg"
+    ancho: 3236
+    alto: 1852
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Peugeot 2008"
+  - id: veh-peugeot-208
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_%28II%29_%E2%80%93_f_17102021.jpg/960px-Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_%28II%29_%E2%80%93_f_17102021.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_(II)_%E2%80%93_f_17102021.jpg"
+    ancho: 4554
+    alto: 2265
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Peugeot 208"
+  - id: veh-peugeot-3008
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg/960px-Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg"
+    ancho: 4771
+    alto: 2927
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Peugeot 3008"
+  - id: veh-peugeot-308
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_-_Peugeot_308_III_%28C%29_-_121.jpg/960px-2022_-_Peugeot_308_III_%28C%29_-_121.jpg"
+    proveedor: Wikimedia Commons
+    autor: "A.BourgeoisP"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_-_Peugeot_308_III_(C)_-_121.jpg"
+    ancho: 5186
+    alto: 2781
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Peugeot 308"
+  - id: veh-peugeot-5008
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Peugeot_5008_C_DSC_2949.jpg/960px-Peugeot_5008_C_DSC_2949.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Peugeot_5008_C_DSC_2949.jpg"
+    ancho: 5151
+    alto: 3498
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Peugeot 5008"
+  - id: veh-peugeot-landtrek
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Peugeot_Landtrek_1.9d_Turbo_Active_2023.jpg/960px-Peugeot_Landtrek_1.9d_Turbo_Active_2023.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Peugeot_Landtrek_1.9d_Turbo_Active_2023.jpg"
+    ancho: 4164
+    alto: 2596
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Peugeot Landtrek"
+  - id: veh-peugeot-e-208
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_%28II%29_%E2%80%93_f_17102021.jpg/960px-Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_%28II%29_%E2%80%93_f_17102021.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Peugeot_208_PureTech_130_EAT8_Allure_GT-Line_(II)_%E2%80%93_f_17102021.jpg"
+    ancho: 4554
+    alto: 2265
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Peugeot e-208"

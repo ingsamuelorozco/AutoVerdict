@@ -3,6 +3,7 @@ pais_origen: Francia
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: "208"
+    imagen_id: veh-peugeot-208
     generacion: Segunda generación (P21)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2023, version: Allure 1.6 AT, precio_base_cop: 79900000, fecha_precio: 2023-02-01, motor_descripcion: "1.6 VTi", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 115, rpm_potencia_max: 5750, torque_nm: 150, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.5, transmision_tipo: Automática, numero_velocidades: 6, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.8}
 
   - modelo: e-208
+    imagen_id: veh-peugeot-e-208
     generacion: Segunda generación (P21)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -64,6 +66,7 @@ modelos:
       - {anio: 2025, version: e-208 GT, precio_base_cop: 149900000, fecha_precio: 2025-01-01}
 
   - modelo: "2008"
+    imagen_id: veh-peugeot-2008
     generacion: Segunda generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -95,6 +98,7 @@ modelos:
       - {anio: 2023, version: Allure 1.2 PureTech EAT6, precio_base_cop: 109900000, fecha_precio: 2023-01-01, pais_origen: España, patrones: [puretech_correa], motor_descripcion: "1.2 PureTech 130 3 cilindros", cilindraje_cc: 1199, potencia_hp: 130, rpm_potencia_max: 5500, torque_nm: 230, transmision_tipo: Automática, numero_velocidades: 6, frenos_traseros: Disco, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 12.8, ncap_organismo: Euro NCAP, ncap_estrellas: 4, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019"}
 
   - modelo: "308"
+    imagen_id: veh-peugeot-308
     generacion: T9 (fase 2)
     segmento: Hatchback C
     carroceria: Hatchback
@@ -125,6 +129,7 @@ modelos:
       - {anio: 2021, version: GT Line 1.2 PureTech EAT8, precio_base_cop: 104900000, fecha_precio: 2021-02-01}
 
   - modelo: "3008"
+    imagen_id: veh-peugeot-3008
     generacion: P84 (fase 2)
     segmento: SUV Compacta
     carroceria: SUV
@@ -154,6 +159,7 @@ modelos:
       - {anio: 2025, version: GT 1.6 THP AT, precio_base_cop: 179900000, fecha_precio: 2025-01-01}
 
   - modelo: "5008"
+    imagen_id: veh-peugeot-5008
     generacion: P87 (fase 2)
     segmento: SUV Mediana
     carroceria: SUV
@@ -184,6 +190,7 @@ modelos:
       - {anio: 2025, version: GT 1.6 THP AT 7P, precio_base_cop: 199900000, fecha_precio: 2025-01-01}
 
   - modelo: Landtrek
+    imagen_id: veh-peugeot-landtrek
     generacion: Primera generación
     segmento: Pickup Mediana
     carroceria: Pickup
