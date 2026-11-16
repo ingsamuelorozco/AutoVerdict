@@ -173,7 +173,7 @@ const puntajeDe = (id: number) => datos.value?.puntajes.find((p) => p.id === id)
                   <span class="etiqueta">{{ datos.ciudad }} · {{ aj.moneda }}</span>
                 </th>
                 <th v-for="x in v" :key="x.id" scope="col" class="min-w-[136px] snap-start border-b border-l sm:min-w-[220px] border-linea p-3 text-left align-top text-sm font-light normal-case tracking-normal text-cuerpo">
-                  <ImagenVehiculo :medidas="x" :nombre="`${x.marca} ${x.modelo}`" class="!aspect-[3/1]" />
+                  <ImagenVehiculo :medidas="x" :nombre="`${x.marca} ${x.modelo}`" :imagen-id="x.imagen_id" class="!aspect-[3/1]" />
                   <RouterLink :to="`/vehiculo/${x.slug}`" class="mt-3 block text-base font-bold text-tinta hover:underline">{{ x.marca }} {{ x.modelo }} {{ x.anio }}</RouterLink>
                   <p class="text-xs text-tenue">{{ x.version }}</p>
                   <p v-if="x.tiene_alerta_roja" class="insignia mt-2 flex bg-roja text-white"><ShieldAlert class="h-3.5 w-3.5" aria-hidden="true" /> Alerta roja de fiabilidad</p>
