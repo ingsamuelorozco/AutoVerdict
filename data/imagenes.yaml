@@ -1613,3 +1613,87 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Stepway"
+  - id: veh-subaru-brz
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/ALL-NEW_SUBARU_BRZ%40BIMS_by_TrisT_02.jpg/960px-ALL-NEW_SUBARU_BRZ%40BIMS_by_TrisT_02.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Tris T7"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:ALL-NEW_SUBARU_BRZ@BIMS_by_TrisT_02.jpg"
+    ancho: 5000
+    alto: 3333
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Subaru BRZ"
+  - id: veh-subaru-crosstrek
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Subaru_Crosstrek_2.0ie_Active_%28III%29_%E2%80%93_f_31052025.jpg/960px-Subaru_Crosstrek_2.0ie_Active_%28III%29_%E2%80%93_f_31052025.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Subaru_Crosstrek_2.0ie_Active_(III)_%E2%80%93_f_31052025.jpg"
+    ancho: 5780
+    alto: 3163
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Subaru Crosstrek"
+  - id: veh-subaru-forester
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Subaru_Forester_%28SL%29_e-BOXER_DSC_8811.jpg/960px-Subaru_Forester_%28SL%29_e-BOXER_DSC_8811.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Subaru_Forester_(SL)_e-BOXER_DSC_8811.jpg"
+    ancho: 4967
+    alto: 2857
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Subaru Forester"
+  - id: veh-subaru-impreza
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/2024_Subaru_Impreza_Base%2C_front_right%2C_03-02-2024.jpg/960px-2024_Subaru_Impreza_Base%2C_front_right%2C_03-02-2024.jpg"
+    proveedor: Wikimedia Commons
+    autor: "MercurySable99"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2024_Subaru_Impreza_Base,_front_right,_03-02-2024.jpg"
+    ancho: 4792
+    alto: 2686
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Subaru Impreza"
+  - id: veh-subaru-outback
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/2026_Subaru_Outback_Wilderness%2C_front_left%2C_05-24-2026.jpg/960px-2026_Subaru_Outback_Wilderness%2C_front_left%2C_05-24-2026.jpg"
+    proveedor: Wikimedia Commons
+    autor: "MercurySable99"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2026_Subaru_Outback_Wilderness,_front_left,_05-24-2026.jpg"
+    ancho: 4646
+    alto: 3105
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Subaru Outback"
+  - id: veh-subaru-solterra
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Subaru_Solterra_1X7A2482.jpg/960px-Subaru_Solterra_1X7A2482.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Subaru_Solterra_1X7A2482.jpg"
+    ancho: 5003
+    alto: 3338
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Subaru Solterra"
+  - id: veh-subaru-wrx
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/2022_Subaru_WRX_Sport-Tech_in_World_Rally_Blue_Pearl%2C_Front_Left%2C_06-03-2022.jpg/960px-2022_Subaru_WRX_Sport-Tech_in_World_Rally_Blue_Pearl%2C_Front_Left%2C_06-03-2022.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Elise240SX"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Subaru_WRX_Sport-Tech_in_World_Rally_Blue_Pearl,_Front_Left,_06-03-2022.jpg"
+    ancho: 3972
+    alto: 2269
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Subaru WRX"

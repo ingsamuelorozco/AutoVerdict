@@ -3,6 +3,7 @@ pais_origen: Japón
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Impreza
+    imagen_id: veh-subaru-impreza
     generacion: Sexta generación
     segmento: Hatchback C
     carroceria: Hatchback
@@ -33,6 +34,7 @@ modelos:
       - {anio: 2026, version: 2.0i-S CVT AWD, precio_base_cop: 129900000, tapiceria: Cuero sintético, llave_inteligente: true, medida_llantas: "215/50 R17", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
 
   - modelo: Crosstrek
+    imagen_id: veh-subaru-crosstrek
     generacion: Tercera generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -63,6 +65,7 @@ modelos:
       - {anio: 2026, version: e-Boxer Limited, precio_base_cop: 149900000, tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 bóxer e-Boxer", potencia_electrica_kw: 12, capacidad_bateria_kwh: 0.6, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.8, peso_vacio_kg: 1590, tapiceria: Cuero, techo_corredizo: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero]}
 
   - modelo: Forester
+    imagen_id: veh-subaru-forester
     generacion: Sexta generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -93,6 +96,7 @@ modelos:
       - {anio: 2026, version: e-Boxer 2.0 AWD, precio_base_cop: 169900000, tipo_combustible: Híbrido Ligero MHEV, motor_descripcion: "2.0 bóxer e-Boxer", cilindraje_cc: 1995, potencia_hp: 150, torque_nm: 194, rpm_potencia_max: 5600, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.8, potencia_electrica_kw: 12, capacidad_bateria_kwh: 0.6, consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.2}
 
   - modelo: Outback
+    imagen_id: veh-subaru-outback
     generacion: Sexta generación
     segmento: SUV Mediana
     carroceria: SUV
@@ -123,6 +127,7 @@ modelos:
       - {anio: 2026, version: Onyx XT 2.4T, precio_base_cop: 224900000, motor_descripcion: "2.4 bóxer turbo FA24", cilindraje_cc: 2387, alimentacion: Turbo, potencia_hp: 260, rpm_potencia_max: 5600, torque_nm: 376, rpm_torque_max: 2000, aceleracion_0_100_seg: 7.3, consumo_mixto_kml: 11.0, consumo_real_estimado_kml: 9.2, peso_vacio_kg: 1780}
 
   - modelo: WRX
+    imagen_id: veh-subaru-wrx
     generacion: VB
     segmento: Deportivo
     carroceria: Sedán
@@ -152,6 +157,7 @@ modelos:
       - {anio: 2026, version: GT 2.4T SPT AWD, precio_base_cop: 219900000}
 
   - modelo: BRZ
+    imagen_id: veh-subaru-brz
     generacion: ZD8
     segmento: Deportivo
     carroceria: Coupé
@@ -181,6 +187,7 @@ modelos:
       - {anio: 2025, version: Limited 2.4 MT, precio_base_cop: 199900000, fecha_precio: 2025-01-01}
 
   - modelo: Solterra
+    imagen_id: veh-subaru-solterra
     generacion: Primera generación
     segmento: SUV Mediana
     carroceria: SUV
