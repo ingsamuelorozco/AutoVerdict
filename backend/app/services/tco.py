@@ -98,7 +98,8 @@ def tco(v: dict[str, Any], anios: int = 5, km_anio: float | None = None, mezcla_
     km = km_anio or comb["km_anuales_defecto"]
     anios = max(1, min(10, int(anios)))
     precio = v["precio_base_cop"]
-    pec = financiero.puesta_en_calle(precio, v.get("cilindraje_cc"), v["carroceria"], v["tipo_combustible"], ciudad_id)
+    edad0 = financiero.antiguedad_compra(v["anio"], v.get("fecha_precio"))
+    pec = financiero.puesta_en_calle(precio, v.get("cilindraje_cc"), v["carroceria"], v["tipo_combustible"], ciudad_id, antiguedad_anios=edad0)
     energia = costo_energia_por_km(v, ciudad_id, mezcla_ciudad, carga_casa_pct)
     curva = reventa.retencion_completa(v.get("retencion_valor"), v.get("depreciacion_estimada"))
     sp = seguro_params or {}
@@ -109,11 +110,11 @@ def tco(v: dict[str, Any], anios: int = 5, km_anio: float | None = None, mezcla_
         fila = {
             "combustible": energia["costo_por_km_cop"] * km,
             "mantenimiento": mantenimiento_anual(v.get("nivel_costo_mantenimiento") or "Moderado", km, v["tipo_combustible"]),
-            "seguro": seguro.todo_riesgo(avaluo_a, v.get("segmento", ""), ciudad_id, antiguedad_anios=a - 1,
+            "seguro": seguro.todo_riesgo(avaluo_a, v.get("segmento", ""), ciudad_id, antiguedad_anios=edad0 + a - 1,
                                          riesgo_hurto=v.get("riesgo_hurto") or "Medio",
                                          tipo_combustible=v["tipo_combustible"], **sp)["prima_anual_central_cop"],
-            "soat": pec["soat"]["total_cop"] if a == 1 else financiero.soat(v.get("cilindraje_cc"), v["carroceria"], v["tipo_combustible"], a - 1)["total_cop"],
-            "impuesto": pec["matricula"]["impuesto_proporcional_cop"] if a == 1 else financiero.impuesto_anual(avaluo_a, v["tipo_combustible"], ciudad_id, a - 1)["valor_anual_cop"],
+            "soat": pec["soat"]["total_cop"] if a == 1 else financiero.soat(v.get("cilindraje_cc"), v["carroceria"], v["tipo_combustible"], edad0 + a - 1)["total_cop"],
+            "impuesto": pec["matricula"]["impuesto_proporcional_cop"] if a == 1 else financiero.impuesto_anual(avaluo_a, v["tipo_combustible"], ciudad_id, edad0 + a - 1)["valor_anual_cop"],
             "tecnomecanica": 0.0,
         }
         if a >= mant_cfg["revision_tecnomecanica_desde_anio"]:

@@ -176,8 +176,10 @@ class Sembrador:
         r["avaluo_fasecolda_cop"] = financiero.avaluo_estimado(r["precio_base_cop"])
         derivados.add("avaluo_fasecolda_cop")
         ciudad_ref = cfg("ciudades")["ciudad_defecto"]
-        r["costo_soat_cop"] = financiero.soat(r.get("cilindraje_cc"), r["carroceria"], tipo, 0)["total_cop"]
-        r["costo_matricula_estimado_cop"] = financiero.matricula(r["precio_base_cop"], tipo, ciudad_ref, r["fecha_precio"].month)["total_cop"]
+        edad = financiero.antiguedad_compra(r["anio"], r["fecha_precio"])
+        r["costo_soat_cop"] = financiero.soat(r.get("cilindraje_cc"), r["carroceria"], tipo, edad)["total_cop"]
+        r["costo_matricula_estimado_cop"] = financiero.matricula(r["precio_base_cop"], tipo, ciudad_ref, r["fecha_precio"].month,
+                                                                  False if edad else None)["total_cop"]
         r["precio_total_en_calle_cop"] = r["precio_base_cop"] + r["costo_soat_cop"] + r["costo_matricula_estimado_cop"]
         # Índices dimensionales.
         rm = indices.rompemuelle(r["distancia_libre_suelo_mm"], r.get("voladizo_delantero_mm"), r.get("angulo_ventral_deg"))
@@ -403,7 +405,7 @@ def ddl() -> str:
         "UNIQUE (marca, modelo, anio, version)",
         "UNIQUE (slug)",
         "CHECK (distancia_libre_suelo_mm BETWEEN 100 AND 300)",
-        "CHECK (anio BETWEEN 2018 AND 2026)",
+        "CHECK (anio BETWEEN 2000 AND 2026)",
         "CHECK (puntaje_fiabilidad BETWEEN 1 AND 10)",
         "CHECK (precio_total_en_calle_cop = precio_base_cop + costo_soat_cop + costo_matricula_estimado_cop)",
         "CHECK (ancho_con_espejos_mm > ancho_sin_espejos_mm)",

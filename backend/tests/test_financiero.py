@@ -90,3 +90,16 @@ def test_pico_y_placa_bogota_paridad():
     r = tco.pico_y_placa("Gasolina Corriente", "bogota", 6, date(2026, 11, 12))
     assert r["restringido_hoy"] is True
     assert tco.pico_y_placa("100% Eléctrico BEV", "bogota")["exento"] is True
+
+
+def test_usado_soat_por_antiguedad_y_sin_alistamiento():
+    from datetime import date
+    from backend.app.services import financiero
+    assert financiero.antiguedad_compra(2026, date(2026, 11, 1)) == 0
+    assert financiero.antiguedad_compra(2024, "2025-03-01") == 0  # precio de vitrina del año siguiente
+    assert financiero.antiguedad_compra(2010, "2026-11-01") == 16
+    nuevo = financiero.puesta_en_calle(30_000_000, 1600, "Sedán", "Gasolina Corriente", "bogota", 11)
+    usado = financiero.puesta_en_calle(30_000_000, 1600, "Sedán", "Gasolina Corriente", "bogota", 11, antiguedad_anios=16)
+    assert usado["usado"] and not nuevo["usado"]
+    assert usado["matricula"]["alistamiento_cop"] == 0
+    assert usado["soat"]["total_cop"] >= nuevo["soat"]["total_cop"]

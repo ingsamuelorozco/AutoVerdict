@@ -29,7 +29,7 @@ CAMPOS_TARJETA = ("id", "slug", "marca", "modelo", "anio", "version", "segmento"
                   "capacidad_baul_litros", "plazas", "transmision_tipo", "traccion", "puntaje_fiabilidad",
                   "tiene_alerta_roja", "imagen_id", "estado_comercial", "numero_airbags", "largo_mm", "alto_mm",
                   "distancia_entre_ejes_mm", "voladizo_delantero_mm", "voladizo_trasero_mm", "diametro_rueda_mm",
-                  "indice_garaje_etiqueta", "indice_rompemuelle_etiqueta", "puntaje_autoverdict_base", "pais_origen")
+                  "indice_garaje_etiqueta", "indice_rompemuelle_etiqueta", "puntaje_autoverdict_base", "pais_origen", "fecha_precio")
 
 
 def tarjeta(v: dict) -> dict:
@@ -71,7 +71,7 @@ class Filtros:
         combustible: list[str] = Query([]), transmision: list[str] = Query([]), traccion: list[str] = Query([]),
         pais: list[str] = Query([]),
         precio_min: float | None = Query(None, ge=0), precio_max: float | None = Query(None, ge=0),
-        anio_min: int | None = Query(None, ge=2018), anio_max: int | None = Query(None, le=2026),
+        anio_min: int | None = Query(None, ge=2000), anio_max: int | None = Query(None, le=2026),
         plazas: int | None = Query(None, ge=2, le=9), adas: list[str] = Query([]),
         despeje_min: int | None = Query(None, ge=100), baul_min: int | None = Query(None, ge=0),
         consumo_min: float | None = Query(None, ge=0), fiabilidad_min: float | None = Query(None, ge=1, le=10),
@@ -223,7 +223,8 @@ def ficha(id_o_slug: str, ciudad_id: str | None = Query(None, alias="ciudad"), t
     v = vehiculo_completo(base["id"])
     f = fiabilidad_por_id()[v["id"]]
     g = lambda *ks: {k: v.get(k) for k in ks}  # noqa: E731
-    pec = financiero.puesta_en_calle(v["precio_base_cop"], v.get("cilindraje_cc"), v["carroceria"], v["tipo_combustible"], cd["id"])
+    pec = financiero.puesta_en_calle(v["precio_base_cop"], v.get("cilindraje_cc"), v["carroceria"], v["tipo_combustible"], cd["id"],
+                                     antiguedad_anios=financiero.antiguedad_compra(v["anio"], v.get("fecha_precio")))
     seg = seguro.todo_riesgo(financiero.avaluo_estimado(v["precio_base_cop"]), v["segmento"], cd["id"],
                              riesgo_hurto=v["riesgo_hurto"], tipo_combustible=v["tipo_combustible"])
     cred = financiero.credito(pec["total_cop"] - pec["soat"]["total_cop"] - pec["matricula"]["total_cop"], incluir_tabla=False)

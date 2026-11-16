@@ -99,14 +99,31 @@ def matricula(precio_base_cop: float, tipo_combustible: str, ciudad_id: str | No
     }
 
 
+def antiguedad_compra(anio: int, fecha_precio: Any) -> int:
+    """Años del vehículo al momento del precio. 0 si el precio es de vitrina (vehículo nuevo).
+
+    Las versiones antiguas del catálogo guardan el valor de usado estimado hoy: su fecha de precio
+    es al menos dos años posterior al año modelo.
+    """
+    if not fecha_precio:
+        return 0
+    anio_precio = fecha_precio.year if hasattr(fecha_precio, "year") else int(str(fecha_precio)[:4])
+    edad = anio_precio - int(anio)
+    return edad if edad >= 2 else 0
+
+
 def puesta_en_calle(precio_base_cop: float, cilindraje_cc: int | None, carroceria: str, tipo_combustible: str,
                     ciudad_id: str | None, mes_compra: int | None = None,
-                    incluir_alistamiento: bool | None = None) -> dict[str, Any]:
-    s = soat(cilindraje_cc, carroceria, tipo_combustible, 0)
-    m = matricula(precio_base_cop, tipo_combustible, ciudad_id, mes_compra, incluir_alistamiento)
+                    incluir_alistamiento: bool | None = None, antiguedad_anios: int = 0) -> dict[str, Any]:
+    """Precio + SOAT + matrícula. Para un usado (antiguedad_anios > 0) el SOAT usa la tarifa por antigüedad
+    y no se suma alistamiento de concesionario."""
+    usado = antiguedad_anios > 0
+    s = soat(cilindraje_cc, carroceria, tipo_combustible, antiguedad_anios)
+    m = matricula(precio_base_cop, tipo_combustible, ciudad_id, mes_compra, False if usado else incluir_alistamiento)
     total = round(precio_base_cop) + s["total_cop"] + m["total_cop"]
-    return {"precio_base_cop": round(precio_base_cop), "soat": s, "matricula": m,
-            "total_cop": total, "etiqueta_total": "Precio total puesto en calle (llave en mano)"}
+    etiqueta = "Costo estimado del usado con SOAT y trámites" if usado else "Precio total puesto en calle (llave en mano)"
+    return {"precio_base_cop": round(precio_base_cop), "soat": s, "matricula": m, "usado": usado,
+            "antiguedad_anios": antiguedad_anios, "total_cop": total, "etiqueta_total": etiqueta}
 
 
 # ---------------------------------------------------------------- Crédito

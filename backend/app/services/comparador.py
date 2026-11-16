@@ -97,7 +97,8 @@ def definicion_filas() -> list[tuple[str, list[Fila]]]:
 
 def _derivados(v: dict, ciudad_id: str | None) -> dict:
     cd = ciudad(ciudad_id)
-    pec = financiero.puesta_en_calle(v["precio_base_cop"], v.get("cilindraje_cc"), v["carroceria"], v["tipo_combustible"], cd["id"])
+    pec = financiero.puesta_en_calle(v["precio_base_cop"], v.get("cilindraje_cc"), v["carroceria"], v["tipo_combustible"], cd["id"],
+                                     antiguedad_anios=financiero.antiguedad_compra(v["anio"], v.get("fecha_precio")))
     cred = financiero.credito(v["precio_base_cop"], incluir_tabla=False)
     seg = seguro.todo_riesgo(financiero.avaluo_estimado(v["precio_base_cop"]), v["segmento"], cd["id"],
                              riesgo_hurto=v.get("riesgo_hurto") or "Medio", tipo_combustible=v["tipo_combustible"])
