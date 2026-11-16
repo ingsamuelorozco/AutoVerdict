@@ -2285,3 +2285,51 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Kia Stonic"
+  - id: veh-mg-hs
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/MG_HS_Hybrid%2B_Luxury_%28II%29_%E2%80%93_f_12032026.jpg/960px-MG_HS_Hybrid%2B_Luxury_%28II%29_%E2%80%93_f_12032026.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:MG_HS_Hybrid%2B_Luxury_(II)_%E2%80%93_f_12032026.jpg"
+    ancho: 4032
+    alto: 2244
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del MG HS"
+  - id: veh-mg-mg5
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/2020_SAIC_MG_5_%28front%29.jpg/960px-2020_SAIC_MG_5_%28front%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "User3204"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2020_SAIC_MG_5_(front).jpg"
+    ancho: 6786
+    alto: 3386
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del MG MG5"
+  - id: veh-mg-zs
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg/960px-MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:MG_ZS_(crossover,_second_generation)_DSC_8542.jpg"
+    ancho: 4909
+    alto: 2886
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del MG ZS"
+  - id: veh-mg-zs-ev
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg/960px-MG_ZS_%28crossover%2C_second_generation%29_DSC_8542.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:MG_ZS_(crossover,_second_generation)_DSC_8542.jpg"
+    ancho: 4909
+    alto: 2886
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del MG ZS EV"

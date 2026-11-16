@@ -3,6 +3,7 @@ pais_origen: China
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: ZS
+    imagen_id: veh-mg-zs
     generacion: Primera generación (actualización 2021)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -36,6 +37,7 @@ modelos:
       - {anio: 2025, version: Comfort 1.5 CVT, precio_base_cop: 77900000, fecha_precio: 2025-03-01}
 
   - modelo: ZS EV
+    imagen_id: veh-mg-zs-ev
     generacion: Segunda generación
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -67,6 +69,7 @@ modelos:
       - {anio: 2026, version: Luxury 51 kWh, precio_base_cop: 129900000}
 
   - modelo: MG5
+    imagen_id: veh-mg-mg5
     generacion: Segunda generación
     segmento: Sedán C
     carroceria: Sedán
@@ -99,6 +102,7 @@ modelos:
       - {anio: 2026, version: Luxury 1.5 CVT, precio_base_cop: 82900000, numero_airbags: 6, techo_corredizo: true, luces_led: true, llave_inteligente: true}
 
   - modelo: HS
+    imagen_id: veh-mg-hs
     generacion: Segunda generación
     segmento: SUV Compacta
     carroceria: SUV
