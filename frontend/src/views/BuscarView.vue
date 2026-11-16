@@ -97,8 +97,8 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
       <button class="boton-secundario" @click="compartir"><Share2 class="h-4 w-4" aria-hidden="true" /> {{ copiado ? 'Enlace copiado' : 'Compartir' }}</button>
     </div>
 
-    <div class="mt-10 grid gap-10 lg:grid-cols-[17rem_1fr]">
-      <aside :class="['grid content-start gap-6 text-sm lg:border-r lg:border-linea lg:pr-8', panel ? '' : 'hidden lg:grid']" aria-label="Filtros">
+    <div class="mt-10 grid gap-10 lg:grid-cols-[18rem_1fr]">
+      <aside :class="['grid content-start gap-5 text-sm lg:border-r lg:border-linea lg:pr-8', panel ? '' : 'hidden lg:grid']" aria-label="Filtros">
         <SelectorMultiple v-for="k in MULTI" :key="k" v-model="filtros[k]" :etiqueta="ETIQUETAS[k]" :opciones="OPC[k]" @cambio="recargar" />
         <fieldset>
           <legend class="etiqueta mb-2 !text-tinta">Precio base ({{ aj.moneda }})</legend>
