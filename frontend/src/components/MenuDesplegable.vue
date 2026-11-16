@@ -47,13 +47,20 @@ function teclaPanel(e: KeyboardEvent) {
     <button ref="boton" type="button" :class="['enlace-barra', { 'enlace-barra-activo': activo || abierto }]" aria-haspopup="menu" :aria-expanded="abierto" :aria-controls="id" @click="abierto ? cerrar() : abrir()" @keydown="teclaBoton">
       {{ etiqueta }}<span class="enlace-barra-mas" aria-hidden="true">+</span>
     </button>
-    <ul v-show="abierto" :id="id" ref="panel" class="sobre-claro absolute left-0 top-[calc(100%-10px)] z-50 min-w-[150px] bg-papel py-2.5 shadow-menu" role="menu" :aria-label="etiqueta" @keydown="teclaPanel">
+    <Transition name="desplegable">
+      <ul v-show="abierto" :id="id" ref="panel" class="sobre-claro absolute left-0 top-[calc(100%-10px)] z-50 min-w-[150px] bg-papel py-2.5 shadow-menu" role="menu" :aria-label="etiqueta" @keydown="teclaPanel">
       <li v-for="o in opciones" :key="o.to" role="none">
         <RouterLink :to="o.to" role="menuitem" tabindex="-1" class="group flex items-center justify-between gap-6 whitespace-nowrap px-[18px] py-2 text-[13px] font-normal text-cuerpo transition-colors hover:text-acento-texto focus-visible:text-acento-texto focus-visible:ring-inset focus-visible:ring-offset-0" active-class="text-acento-texto" @click="cerrar">
           <span>{{ o.texto }}</span>
           <ChevronRight class="h-3.5 w-3.5 shrink-0 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
         </RouterLink>
       </li>
-    </ul>
+      </ul>
+    </Transition>
   </div>
 </template>
+
+<style scoped>
+.desplegable-enter-active, .desplegable-leave-active { transition: opacity 180ms ease, transform 180ms ease; }
+.desplegable-enter-from, .desplegable-leave-to { opacity: 0; transform: translateY(8px); }
+</style>
