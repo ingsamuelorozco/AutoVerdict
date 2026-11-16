@@ -9,7 +9,7 @@ const B = T.landing.buscador
   <section class="relative bg-[linear-gradient(to_bottom,rgb(var(--velo))_0_56px,transparent_56px)] px-4" aria-labelledby="buscador-titulo">
     <form class="mx-auto max-w-[940px] bg-papel px-[35px] dark:bg-superficie pb-[50px] pt-6 shadow-tarjeta" @submit.prevent>
       <div>
-        <h2 id="buscador-titulo">{{ B.titulo }}</h2>
+        <h2 id="buscador-titulo" class="text-[26px] leading-none">{{ B.titulo }}</h2>
       </div>
     </form>
   </section>
