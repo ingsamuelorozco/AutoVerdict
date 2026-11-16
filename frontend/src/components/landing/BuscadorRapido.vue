@@ -13,7 +13,7 @@ const B = T.landing.buscador
         <h2 id="buscador-titulo" class="text-[26px] leading-none">{{ B.titulo }}</h2>
         <RouterLink to="/buscar" class="text-[13px] font-normal text-acento-texto hover:underline">{{ B.avanzada }}</RouterLink>
       </div>
-      <p><span class="num">{{ total ?? '—' }}</span> {{ B.disponibles }}</p>
+      <p class="text-xl font-bold uppercase leading-none text-tinta"><span class="num text-acento-texto">{{ total ?? '—' }}</span> {{ B.disponibles }}</p>
       </div>
     </form>
   </section>
