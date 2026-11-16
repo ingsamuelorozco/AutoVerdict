@@ -23,4 +23,10 @@
   </g>
 
   <path fill="url(#lamina)" stroke="#8d939a" stroke-width="1.2" d="M100 8C150 8 176 22 180 58L186 150C188 200 188 300 184 360C181 408 158 432 100 432C42 432 19 408 16 360C12 300 12 200 14 150L20 58C24 22 50 8 100 8Z"/>
+
+  <path fill="none" stroke="#b9bec3" stroke-width="1.2" d="M60 22C56 60 56 96 62 124M140 22C144 60 144 96 138 124"/>
+  <path fill="#1d2329" d="M30 20C42 14 54 12 64 12L60 22C48 23 38 26 30 30Z"/>
+  <path fill="#1d2329" d="M170 20C158 14 146 12 136 12L140 22C152 23 162 26 170 30Z"/>
+  <path fill="#cfe3ff" opacity=".8" d="M34 22C42 18 50 16 58 16" stroke="#cfe3ff" stroke-width="2" stroke-linecap="round"/>
+  <path fill="#cfe3ff" opacity=".8" d="M166 22C158 18 150 16 142 16" stroke="#cfe3ff" stroke-width="2" stroke-linecap="round"/>
 </svg>
