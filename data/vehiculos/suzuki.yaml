@@ -253,6 +253,7 @@ modelos:
       - {anio: 2026, version: GLX HEV, precio_base_cop: 119900000}
 
   - modelo: Ertiga
+    imagen_id: veh-suzuki-ertiga
     generacion: Segunda generación (actualización 2022)
     segmento: SUV Compacta
     carroceria: SUV
@@ -284,6 +285,7 @@ modelos:
       - {anio: 2026, version: GLX 1.5 AT, precio_base_cop: 87900000, transmision_tipo: Automática, numero_velocidades: 4, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8, camara_reversa: true}
 
   - modelo: XL7
+    imagen_id: veh-suzuki-xl7
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV

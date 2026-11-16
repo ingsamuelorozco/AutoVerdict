@@ -2441,3 +2441,27 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Renault Captur"
+  - id: veh-suzuki-ertiga
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Suzuki_Ertiga_NC_FL_1.5_GLX_Hybrid_Snow_White_Pearl.jpg/960px-Suzuki_Ertiga_NC_FL_1.5_GLX_Hybrid_Snow_White_Pearl.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Ethan Llamas"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Suzuki_Ertiga_NC_FL_1.5_GLX_Hybrid_Snow_White_Pearl.jpg"
+    ancho: 4818
+    alto: 2710
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki Ertiga"
+  - id: veh-suzuki-xl7
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/2020_Suzuki_XL7_Zeta_1.5_NC22S_%2820210307%29_01.jpg/960px-2020_Suzuki_XL7_Zeta_1.5_NC22S_%2820210307%29_01.jpg"
+    proveedor: Wikimedia Commons
+    autor: "オーバードライブ83"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2020_Suzuki_XL7_Zeta_1.5_NC22S_(20210307)_01.jpg"
+    ancho: 4253
+    alto: 2552
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Suzuki XL7"
