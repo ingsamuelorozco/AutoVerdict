@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 440" width="200" height="440">
+  <title>Auto genérico visto desde arriba</title>
+  <defs>
+    <linearGradient id="lamina" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9ba1a8"/>
+      <stop offset=".14" stop-color="#d8dce0"/>
+      <stop offset=".5" stop-color="#fbfbfc"/>
+      <stop offset=".86" stop-color="#d8dce0"/>
+      <stop offset="1" stop-color="#9ba1a8"/>
+    </linearGradient>
+    <filter id="sombra" x="-30%" y="-10%" width="160%" height="120%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect x="22" y="22" width="156" height="410" rx="60" fill="#000" opacity=".35" filter="url(#sombra)"/>
+
+  <g fill="#15181b">
+    <rect x="11" y="70" width="8" height="50" rx="5"/>
+    <rect x="181" y="70" width="8" height="50" rx="5"/>
+    <rect x="11" y="322" width="8" height="52" rx="5"/>
+    <rect x="181" y="322" width="8" height="52" rx="5"/>
+  </g>
+
+  <path fill="url(#lamina)" stroke="#8d939a" stroke-width="1.2" d="M100 8C150 8 176 22 180 58L186 150C188 200 188 300 184 360C181 408 158 432 100 432C42 432 19 408 16 360C12 300 12 200 14 150L20 58C24 22 50 8 100 8Z"/>
+</svg>
