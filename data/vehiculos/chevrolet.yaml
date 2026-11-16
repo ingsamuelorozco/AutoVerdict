@@ -3,6 +3,7 @@ pais_origen: Estados Unidos
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Onix Sedán
+    imagen_id: veh-chevrolet-onix-sedan
     generacion: GEM (segunda generación)
     segmento: Sedán B
     carroceria: Sedán
@@ -36,6 +37,7 @@ modelos:
       - {anio: 2020, version: LT Turbo AT, precio_base_cop: 62900000, fecha_precio: 2020-02-01, patrones: [onix_2020_software], pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: Cable}
 
   - modelo: Onix Hatchback
+    imagen_id: veh-chevrolet-onix-hatchback
     generacion: GEM (segunda generación)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -65,6 +67,7 @@ modelos:
       - {anio: 2026, version: RS Turbo AT, precio_base_cop: 92900000}
 
   - modelo: Spark GT
+    imagen_id: veh-chevrolet-spark-gt
     generacion: M300
     segmento: Hatchback A
     carroceria: Hatchback
@@ -98,6 +101,7 @@ modelos:
       - {anio: 2019, version: LTZ 1.2 MT, precio_base_cop: 37900000, fecha_precio: 2019-03-01, aire_acondicionado: Manual}
 
   - modelo: Tracker
+    imagen_id: veh-chevrolet-tracker
     generacion: GEM (segunda generación)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -130,6 +134,7 @@ modelos:
       - {anio: 2024, version: LTZ 1.2T AT, precio_base_cop: 114900000, fecha_precio: 2024-04-01, luces_led: true}
 
   - modelo: Captiva
+    imagen_id: veh-chevrolet-captiva
     generacion: "Segunda generación (base Baojun 530)"
     segmento: SUV Mediana
     carroceria: SUV
@@ -166,6 +171,7 @@ modelos:
       - {anio: 2020, version: LT 1.5T CVT 5P, precio_base_cop: 89900000, fecha_precio: 2020-02-01, pantalla_multimedia_pulgadas: 8}
 
   - modelo: Equinox
+    imagen_id: veh-chevrolet-equinox
     generacion: Tercera generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -196,6 +202,7 @@ modelos:
       - {anio: 2024, version: Premier 1.5T AWD, precio_base_cop: 154900000, fecha_precio: 2024-01-01}
 
   - modelo: Equinox EV
+    imagen_id: veh-chevrolet-equinox-ev
     generacion: BEV3
     segmento: SUV Mediana
     carroceria: SUV
@@ -226,6 +233,7 @@ modelos:
       - {anio: 2026, version: RS FWD, precio_base_cop: 214900000}
 
   - modelo: Colorado
+    imagen_id: veh-chevrolet-colorado
     generacion: Segunda generación (RG)
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -256,6 +264,7 @@ modelos:
       - {anio: 2026, version: High Country 2.8D AT 4x4, precio_base_cop: 199900000, carga_inalambrica: true, llave_inteligente: true, sensores_parqueo: Delantero y trasero}
 
   - modelo: Montana
+    imagen_id: veh-chevrolet-montana
     generacion: Tercera generación
     segmento: Pickup Compacta
     carroceria: Pickup
@@ -286,6 +295,7 @@ modelos:
       - {anio: 2026, version: LTZ 1.2T AT, precio_base_cop: 112900000}
 
   - modelo: Camaro
+    imagen_id: veh-chevrolet-camaro
     generacion: Sexta generación
     segmento: Deportivo
     carroceria: Coupé

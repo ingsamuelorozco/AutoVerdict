@@ -425,3 +425,123 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chery Tiggo 8 Pro"
+  - id: veh-chevrolet-camaro
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/2019_Chevrolet_Camaro_2SS_6.2L_front_3.16.19.jpg/960px-2019_Chevrolet_Camaro_2SS_6.2L_front_3.16.19.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Camaro_2SS_6.2L_front_3.16.19.jpg"
+    ancho: 4567
+    alto: 2437
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Camaro"
+  - id: veh-chevrolet-captiva
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Baojun_530_02_China_2018-03-20.jpg/960px-Baojun_530_02_China_2018-03-20.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Navigator84"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Baojun_530_02_China_2018-03-20.jpg"
+    ancho: 1300
+    alto: 819
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Captiva"
+  - id: veh-chevrolet-colorado
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2021_Chevrolet_Colorado_Z71%2C_front_4.16.23.jpg/960px-2021_Chevrolet_Colorado_Z71%2C_front_4.16.23.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Colorado_Z71,_front_4.16.23.jpg"
+    ancho: 3418
+    alto: 2154
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Colorado"
+  - id: veh-chevrolet-equinox
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Chevrolet_Equinox_LT_%28III%2C_Facelift%29_%E2%80%93_f_05102022.jpg/960px-Chevrolet_Equinox_LT_%28III%2C_Facelift%29_%E2%80%93_f_05102022.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Chevrolet_Equinox_LT_(III,_Facelift)_%E2%80%93_f_05102022.jpg"
+    ancho: 5408
+    alto: 2969
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Equinox"
+  - id: veh-chevrolet-equinox-ev
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/2025_Chevrolet_Equinox_EV%2C_front_left_4.26.25.jpg/960px-2025_Chevrolet_Equinox_EV%2C_front_left_4.26.25.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_Equinox_EV,_front_left_4.26.25.jpg"
+    ancho: 3071
+    alto: 1821
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Equinox EV"
+  - id: veh-chevrolet-montana
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Chevrolet_Montana_Turbo_LTZ_2023_%2854286671367%29.jpg/960px-Chevrolet_Montana_Turbo_LTZ_2023_%2854286671367%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ from Chile"
+    licencia: "CC BY-SA 2.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Chevrolet_Montana_Turbo_LTZ_2023_(54286671367).jpg"
+    ancho: 4566
+    alto: 2570
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Montana"
+  - id: veh-chevrolet-onix-hatchback
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/2022_Chevrolet_Onix_RS_1.0_Turbo.jpg/960px-2022_Chevrolet_Onix_RS_1.0_Turbo.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Just a Man"
+    licencia: "CC BY 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Onix_RS_1.0_Turbo.jpg"
+    ancho: 2830
+    alto: 1680
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Onix Hatchback"
+  - id: veh-chevrolet-onix-sedan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Chevrolet_Onix_Plus_1.0_Premier_%28front%29.jpg/960px-2022_Chevrolet_Onix_Plus_1.0_Premier_%28front%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Just a Man"
+    licencia: "CC BY 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Onix_Plus_1.0_Premier_(front).jpg"
+    ancho: 4060
+    alto: 2580
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Onix Sedán"
+  - id: veh-chevrolet-spark-gt
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/2020_Chevrolet_Spark_LS%2C_front_right%2C_09-07-2024.jpg/960px-2020_Chevrolet_Spark_LS%2C_front_right%2C_09-07-2024.jpg"
+    proveedor: Wikimedia Commons
+    autor: "MercurySable99"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2020_Chevrolet_Spark_LS,_front_right,_09-07-2024.jpg"
+    ancho: 4261
+    alto: 3313
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Spark GT"
+  - id: veh-chevrolet-tracker
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Chevrolet_Tracker_2021_%28front%29_%28cropped%29.png/960px-Chevrolet_Tracker_2021_%28front%29_%28cropped%29.png"
+    proveedor: Wikimedia Commons
+    autor: "Autosdeprimera"
+    licencia: "CC BY 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Chevrolet_Tracker_2021_(front)_(cropped).png"
+    ancho: 1664
+    alto: 832
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chevrolet Tracker"
