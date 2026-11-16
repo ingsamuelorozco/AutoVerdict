@@ -68,6 +68,7 @@ modelos:
       - {anio: 2026, version: Hybrid 1.5 DHT, precio_base_cop: 109900000, patrones_excluir: true, patrones: [red_posventa_nueva], tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.5 híbrido DHT", alimentacion: Atmosférico, potencia_hp: 204, torque_nm: 310, rpm_torque_max: null, aceleracion_0_100_seg: 8.9, transmision_tipo: e-CVT (DHT), potencia_electrica_kw: 150, capacidad_bateria_kwh: 1.8, garantia_bateria_anos: 8, garantia_bateria_km: 150000, consumo_mixto_kml: 19.0, consumo_real_estimado_kml: 15.5, peso_vacio_kg: 1520}
 
   - modelo: Tiggo 7 Pro
+    imagen_id: veh-chery-tiggo-7-pro
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -100,6 +101,7 @@ modelos:
       - {anio: 2026, version: Plug-in Hybrid CSH, precio_base_cop: 149900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "1.5 Turbo + motor eléctrico (PHEV)", cilindraje_cc: 1498, potencia_hp: 326, torque_nm: 525, rpm_torque_max: null, aceleracion_0_100_seg: 7.5, transmision_tipo: e-CVT (DHT), numero_velocidades: null, potencia_electrica_kw: 150, capacidad_bateria_kwh: 18.3, potencia_carga_ac_kw: 6.6, potencia_carga_dc_kw: 40, consumo_kwh_100km: 18.0, garantia_bateria_anos: 8, garantia_bateria_km: 150000, consumo_mixto_kml: 19.0, consumo_real_estimado_kml: 14.0, peso_vacio_kg: 1780, capacidad_baul_litros: 426}
 
   - modelo: Tiggo 8 Pro
+    imagen_id: veh-chery-tiggo-8-pro
     generacion: Primera generación
     segmento: SUV Mediana
     carroceria: SUV

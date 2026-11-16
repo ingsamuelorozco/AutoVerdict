@@ -401,3 +401,27 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del BYD Yuan Plus"
+  - id: veh-chery-tiggo-7-pro
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Chery_Tiggo_7_II_014_%28cropped%29.jpg/960px-Chery_Tiggo_7_II_014_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "JustAnotherCarDesigner"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Chery_Tiggo_7_II_014_(cropped).jpg"
+    ancho: 3782
+    alto: 2269
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chery Tiggo 7 Pro"
+  - id: veh-chery-tiggo-8-pro
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Chery_Tiggo_8_Plus_018_%28cropped%29.jpg/960px-Chery_Tiggo_8_Plus_018_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "JustAnotherCarDesigner"
+    licencia: "CC0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Chery_Tiggo_8_Plus_018_(cropped).jpg"
+    ancho: 3449
+    alto: 2070
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Chery Tiggo 8 Pro"
