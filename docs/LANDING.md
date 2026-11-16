@@ -13,6 +13,12 @@ Rediseño de la parte superior de la portada a partir de una referencia de dise�
 
 `--m-rojo` sigue reservado para la franja M: nunca es relleno ni acción.
 
+## Tipografía y forma
+
+- Títulos y cifras: Inter 700 en mayúsculas (la fuente de títulos del sistema) en lugar de una condensada.
+- Texto: Inter 300/400, igual que el resto del sitio.
+- Radio binario del sistema: todo rectangular; solo los controles circulares (puntos del hero, manijas del rango) usan `rounded-full`.
+
 ## Alcance
 
 1. Barra superior con menú desplegable de herramientas.
