@@ -61,7 +61,6 @@ function aUrl() {
 const recargar = useDebounceFn(() => { filtros.value.page = ''; aUrl() }, 300)
 watch(() => route.query, () => { filtros.value = desdeUrl(); ejecutar() })
 onMounted(ejecutar)
-const alternar = (k: (typeof MULTI)[number], v: string) => { const l = filtros.value[k]; const i = l.indexOf(v); if (i >= 0) l.splice(i, 1); else l.push(v); recargar() }
 const pagina = (n: number) => { filtros.value.page = String(n); aUrl() }
 const copiado = ref(false)
 async function compartir() { try { await navigator.clipboard.writeText(location.href); copiado.value = true; setTimeout(() => (copiado.value = false), 2000) } catch { /* sin portapapeles */ } }
