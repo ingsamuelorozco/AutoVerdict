@@ -34,6 +34,13 @@ modelos:
       - {anio: 2026, version: Zenith 1.25 AT, precio_base_cop: 66900000, transmision_tipo: Automática, numero_velocidades: 4, numero_airbags: 6, camara_reversa: true, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.6}
       - {anio: 2026, version: GT-Line 1.25 AT, precio_base_cop: 72900000, transmision_tipo: Automática, numero_velocidades: 4, numero_airbags: 6, camara_reversa: true, luces_led: true, llave_inteligente: true, tapiceria: Cuero sintético, medida_llantas: "195/45 R16", consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.6, adas_incluidas: [Frenado autónomo de emergencia]}
       - {anio: 2024, version: Vibrant 1.25 MT, precio_base_cop: 55900000, fecha_precio: 2024-02-01, pantalla_multimedia_pulgadas: 7}
+      - {anio: 2017, version: "Vibrant 1.25 MT", precio_base_cop: 33200000}
+      - {anio: 2018, version: "Vibrant 1.25 MT", precio_base_cop: 35000000}
+      - {anio: 2019, version: "Vibrant 1.25 MT", precio_base_cop: 36800000}
+      - {anio: 2020, version: "Vibrant 1.25 MT", precio_base_cop: 38700000}
+      - {anio: 2021, version: "Vibrant 1.25 MT", precio_base_cop: 40800000}
+      - {anio: 2022, version: "Vibrant 1.25 MT", precio_base_cop: 42900000}
+      - {anio: 2023, version: "Vibrant 1.25 MT", precio_base_cop: 45200000}
 
   - modelo: Soluto
     imagen_id: veh-kia-soluto
@@ -67,6 +74,12 @@ modelos:
     versiones:
       - {anio: 2026, version: Emotion 1.4 MT, precio_base_cop: 66900000}
       - {anio: 2026, version: Emotion 1.4 AT, precio_base_cop: 72900000, transmision_tipo: Automática, numero_velocidades: 4, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
+      - {anio: 2019, version: "Emotion 1.4 MT", precio_base_cop: 38000000}
+      - {anio: 2020, version: "Emotion 1.4 MT", precio_base_cop: 40600000}
+      - {anio: 2021, version: "Emotion 1.4 MT", precio_base_cop: 43500000}
+      - {anio: 2022, version: "Emotion 1.4 MT", precio_base_cop: 46500000}
+      - {anio: 2023, version: "Emotion 1.4 MT", precio_base_cop: 49700000}
+      - {anio: 2024, version: "Emotion 1.4 MT", precio_base_cop: 53200000}
 
   - modelo: K3 Sedán
     imagen_id: veh-kia-k3-sedan
@@ -98,6 +111,7 @@ modelos:
     versiones:
       - {anio: 2026, version: Vibrant 2.0 IVT, precio_base_cop: 104900000}
       - {anio: 2026, version: Zenith 2.0 IVT, precio_base_cop: 114900000, tapiceria: Cuero sintético, techo_corredizo: true, carga_inalambrica: true, llave_inteligente: true, medida_llantas: "225/45 R17", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+      - {anio: 2024, version: "Vibrant 2.0 IVT", precio_base_cop: 83400000}
 
   - modelo: K3 Cross
     imagen_id: veh-kia-k3-cross
@@ -128,6 +142,7 @@ modelos:
         - {componente: "Historial", descripcion: "Generación reciente.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: GT-Line 2.0 IVT, precio_base_cop: 116900000}
+      - {anio: 2024, version: "GT-Line 2.0 IVT", precio_base_cop: 92900000}
 
   - modelo: Sonet
     imagen_id: veh-kia-sonet
@@ -159,6 +174,10 @@ modelos:
     versiones:
       - {anio: 2026, version: Vibrant 1.5 IVT, precio_base_cop: 89900000}
       - {anio: 2026, version: Zenith 1.5 IVT, precio_base_cop: 97900000, tapiceria: Cuero sintético, techo_corredizo: true, luces_led: true, llave_inteligente: true, pantalla_multimedia_pulgadas: 10.25, carga_inalambrica: true}
+      - {anio: 2021, version: "Vibrant 1.5 IVT", precio_base_cop: 58400000}
+      - {anio: 2022, version: "Vibrant 1.5 IVT", precio_base_cop: 62500000}
+      - {anio: 2023, version: "Vibrant 1.5 IVT", precio_base_cop: 66800000}
+      - {anio: 2024, version: "Vibrant 1.5 IVT", precio_base_cop: 71400000}
 
   - modelo: Seltos
     imagen_id: veh-kia-seltos
@@ -190,6 +209,11 @@ modelos:
     versiones:
       - {anio: 2026, version: Vibrant 1.6 IVT, precio_base_cop: 104900000}
       - {anio: 2026, version: GT-Line 1.6T DCT, precio_base_cop: 129900000, motor_descripcion: "1.6 T-GDi", alimentacion: Turbo, potencia_hp: 175, rpm_potencia_max: 5500, torque_nm: 265, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.5, transmision_tipo: Doble embrague en seco DCT, numero_velocidades: 7, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.5, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true, carga_inalambrica: true, medida_llantas: "235/45 R18", peso_vacio_kg: 1360, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero]}
+      - {anio: 2020, version: "Vibrant 1.6 IVT", precio_base_cop: 63700000}
+      - {anio: 2021, version: "Vibrant 1.6 IVT", precio_base_cop: 68100000}
+      - {anio: 2022, version: "Vibrant 1.6 IVT", precio_base_cop: 72900000}
+      - {anio: 2023, version: "Vibrant 1.6 IVT", precio_base_cop: 78000000}
+      - {anio: 2024, version: "Vibrant 1.6 IVT", precio_base_cop: 83400000}
 
   - modelo: Sportage
     imagen_id: veh-kia-sportage
@@ -222,6 +246,9 @@ modelos:
       - {anio: 2026, version: Desire 2.0 AT, precio_base_cop: 139900000}
       - {anio: 2026, version: Zenith 1.6T HEV AWD, precio_base_cop: 179900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 T-GDi híbrido", cilindraje_cc: 1598, alimentacion: Turbo, potencia_hp: 230, rpm_potencia_max: 5500, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.0, traccion: AWD, potencia_electrica_kw: 44, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 17.5, consumo_real_estimado_kml: 15.0, peso_vacio_kg: 1680, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero]}
       - {anio: 2026, version: GT-Line 1.6T HEV AWD, precio_base_cop: 189900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 T-GDi híbrido", cilindraje_cc: 1598, alimentacion: Turbo, potencia_hp: 230, rpm_potencia_max: 5500, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.0, traccion: AWD, potencia_electrica_kw: 44, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 17.5, consumo_real_estimado_kml: 15.0, peso_vacio_kg: 1690, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "235/55 R19", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero, Cámara 360]}
+      - {anio: 2022, version: "Desire 2.0 AT", precio_base_cop: 97200000}
+      - {anio: 2023, version: "Desire 2.0 AT", precio_base_cop: 104000000}
+      - {anio: 2024, version: "Desire 2.0 AT", precio_base_cop: 111200000}
 
   - modelo: Sorento
     imagen_id: veh-kia-sorento
@@ -253,6 +280,10 @@ modelos:
         - {componente: "Motor turbo pequeño con carga máxima", descripcion: "1.6 T con siete ocupantes en montaña.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: HEV AWD 7P, precio_base_cop: 229900000}
+      - {anio: 2021, version: "HEV AWD 7P", precio_base_cop: 149300000}
+      - {anio: 2022, version: "HEV AWD 7P", precio_base_cop: 159700000}
+      - {anio: 2023, version: "HEV AWD 7P", precio_base_cop: 170800000}
+      - {anio: 2024, version: "HEV AWD 7P", precio_base_cop: 182700000}
 
   - modelo: Niro
     imagen_id: veh-kia-niro
@@ -283,6 +314,9 @@ modelos:
         - {componente: "Despeje", descripcion: "160 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: HEV Emotion, precio_base_cop: 139900000, fecha_precio: 2025-01-01}
+      - {anio: 2022, version: "HEV Emotion", precio_base_cop: 103000000}
+      - {anio: 2023, version: "HEV Emotion", precio_base_cop: 110200000}
+      - {anio: 2024, version: "HEV Emotion", precio_base_cop: 117900000}
 
   - modelo: EV6
     imagen_id: veh-kia-ev6
@@ -315,6 +349,9 @@ modelos:
     versiones:
       - {anio: 2026, version: Light RWD 58 kWh, precio_base_cop: 209900000}
       - {anio: 2026, version: GT-Line AWD 77 kWh, precio_base_cop: 259900000, motor_descripcion: "Dos motores eléctricos AWD", potencia_hp: 325, torque_nm: 605, aceleracion_0_100_seg: 5.2, potencia_electrica_kw: 239, capacidad_bateria_kwh: 77.4, potencia_carga_dc_kw: 233, traccion: AWD, autonomia_estimada_km: 484, consumo_kwh_100km: 18.0, peso_vacio_kg: 2090, medida_llantas: "255/45 R20", techo_corredizo: true, apple_carplay_android_auto: Inalámbrico}
+      - {anio: 2022, version: "Light RWD 58 kWh", precio_base_cop: 134400000}
+      - {anio: 2023, version: "Light RWD 58 kWh", precio_base_cop: 147700000}
+      - {anio: 2024, version: "Light RWD 58 kWh", precio_base_cop: 162400000}
 
   - modelo: EV5
     imagen_id: veh-kia-ev5
@@ -378,6 +415,12 @@ modelos:
     versiones:
       - {anio: 2023, version: Vibrant 1.4 MT, precio_base_cop: 66900000, fecha_precio: 2023-03-01}
       - {anio: 2022, version: Zenith 1.4 AT, precio_base_cop: 70900000, fecha_precio: 2022-03-01, transmision_tipo: Automática, numero_velocidades: 6, numero_airbags: 6, camara_reversa: true, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 12.8}
+      - {anio: 2017, version: "Vibrant 1.4 MT", precio_base_cop: 44900000}
+      - {anio: 2018, version: "Vibrant 1.4 MT", precio_base_cop: 47300000}
+      - {anio: 2019, version: "Vibrant 1.4 MT", precio_base_cop: 49800000}
+      - {anio: 2020, version: "Vibrant 1.4 MT", precio_base_cop: 52400000}
+      - {anio: 2021, version: "Vibrant 1.4 MT", precio_base_cop: 55200000}
+      - {anio: 2024, version: "Vibrant 1.4 MT", precio_base_cop: 64300000}
 
   - modelo: Stonic
     imagen_id: veh-kia-stonic
@@ -409,6 +452,13 @@ modelos:
     versiones:
       - {anio: 2026, version: Vibrant 1.4 AT, precio_base_cop: 84900000}
       - {anio: 2025, version: Vibrant 1.4 AT, precio_base_cop: 82900000, fecha_precio: 2025-03-01}
+      - {anio: 2018, version: "Vibrant 1.4 AT", precio_base_cop: 45100000}
+      - {anio: 2019, version: "Vibrant 1.4 AT", precio_base_cop: 48200000}
+      - {anio: 2020, version: "Vibrant 1.4 AT", precio_base_cop: 51600000}
+      - {anio: 2021, version: "Vibrant 1.4 AT", precio_base_cop: 55200000}
+      - {anio: 2022, version: "Vibrant 1.4 AT", precio_base_cop: 59000000}
+      - {anio: 2023, version: "Vibrant 1.4 AT", precio_base_cop: 63100000}
+      - {anio: 2024, version: "Vibrant 1.4 AT", precio_base_cop: 67500000}
 
   - modelo: Carnival
     imagen_id: veh-kia-carnival
@@ -440,3 +490,7 @@ modelos:
         - {componente: "Consumo", descripcion: "Alrededor de 7,6 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: Signature 3.5 V6 AT, precio_base_cop: 259900000}
+      - {anio: 2021, version: "Signature 3.5 V6 AT", precio_base_cop: 168800000}
+      - {anio: 2022, version: "Signature 3.5 V6 AT", precio_base_cop: 180600000}
+      - {anio: 2023, version: "Signature 3.5 V6 AT", precio_base_cop: 193100000}
+      - {anio: 2024, version: "Signature 3.5 V6 AT", precio_base_cop: 206600000}
