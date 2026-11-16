@@ -482,3 +482,481 @@ modelos:
       - {anio: 2022, version: "High Country 5.3 V8 4x4", precio_base_cop: 312600000}
       - {anio: 2023, version: "High Country 5.3 V8 4x4", precio_base_cop: 334300000}
       - {anio: 2024, version: "High Country 5.3 V8 4x4", precio_base_cop: 357600000}
+
+  - modelo: "Sprint"
+    generacion: "Segunda generación (base Suzuki Swift)"
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: Colombia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2000-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 SOHC 3 cilindros", cilindraje_cc: 993, cilindros: 3, valvulas: 12, alimentacion: Atmosférico, potencia_hp: 55, rpm_potencia_max: 5700, torque_nm: 77, rpm_torque_max: 3300, aceleracion_0_100_seg: 15.5, velocidad_maxima_kmh: 145, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.6, medida_llantas: "145/80 R12"}
+    dim: {largo_mm: 3745, ancho_sin_espejos_mm: 1575, alto_mm: 1385, distancia_entre_ejes_mm: 2365, distancia_libre_suelo_mm: 150, peso_vacio_kg: 760, capacidad_baul_litros: 210, capacidad_tanque_galones: 8.7}
+    consumo: {consumo_mixto_kml: 19.0}
+    seg: {numero_airbags: 0, control_estabilidad_esc: false, frenos_abs_ebd: false, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "No", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.2, quejas_documentadas: 7.2, recalls: 7.6, repuestos_y_red: 8.4, costo_reparaciones: 8.8}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Bajo
+      veredicto: "Opinión editorial: el Sprint ensamblado en Colombia fue durante años el carro más barato de mantener del país: motor de tres cilindros de un litro, consumo cercano a 19 km/l y repuestos en cualquier esquina. Como usado de más de veinte años su valor está en lo económico, no en la seguridad: no tiene airbags ni ABS. Es pequeño, ruidoso en carretera y lento en subida. Mayor riesgo individual: el estado del chasis y la corrosión en unidades descuidadas. No lo recomendamos para viajes por carretera."
+      para_quien_si: "Quien necesita el carro más barato posible de mantener para trayectos urbanos cortos."
+      para_quien_no: "Quien viaja por carretera o prioriza la seguridad."
+      pros_reales: ["Consumo muy bajo", "Repuestos baratos en todo el país", "Mecánica muy sencilla"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Sin airbags ni ABS.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Crítica}
+        - {componente: "Edad", descripcion: "Unidades de más de 20 años: revisar corrosión y suspensión.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2005, version: "1.0 MT", precio_base_cop: 11500000}
+      - {anio: 2004, version: "1.0 MT", precio_base_cop: 10800000}
+      - {anio: 2003, version: "1.0 MT", precio_base_cop: 10500000}
+      - {anio: 2002, version: "1.0 MT", precio_base_cop: 10500000}
+      - {anio: 2001, version: "1.0 MT", precio_base_cop: 10500000}
+      - {anio: 2000, version: "1.0 MT", precio_base_cop: 10500000}
+
+  - modelo: "Corsa"
+    generacion: "Segunda generación (B)"
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Colombia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2000-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.4 SOHC", cilindraje_cc: 1389, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 83, rpm_potencia_max: 5800, torque_nm: 115, rpm_torque_max: 3000, aceleracion_0_100_seg: 13.5, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.0, medida_llantas: "165/70 R13"}
+    dim: {largo_mm: 3822, ancho_sin_espejos_mm: 1608, alto_mm: 1440, distancia_entre_ejes_mm: 2443, distancia_libre_suelo_mm: 150, peso_vacio_kg: 930, capacidad_baul_litros: 260, capacidad_tanque_galones: 12.4}
+    consumo: {consumo_mixto_kml: 14.5}
+    seg: {numero_airbags: 0, control_estabilidad_esc: false, frenos_abs_ebd: false, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.2, repuestos_y_red: 8.6, costo_reparaciones: 8.4}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Corsa es de los carros más vendidos de la historia en Colombia y por eso hay repuestos, talleres y conocimiento en todas partes. Su 1.4 es sencillo y aguanta bien con mantenimiento básico. Como usado tiene dos problemas serios: la seguridad, sin airbags ni ABS en la mayoría de unidades, y la edad, con suspensiones y sistemas eléctricos que suelen pedir arreglos. Es muy buscado para el robo de autopartes. Mayor riesgo individual: un choque sin protección. No lo recomendamos como carro familiar."
+      para_quien_si: "Quien busca un primer carro usado barato y fácil de reparar."
+      para_quien_no: "Familias o quien hace viajes largos por carretera."
+      pros_reales: ["Repuestos baratos y abundantes", "Mecánica conocida por cualquier taller", "Precio de compra bajo"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Sin airbags ni ABS en la mayoría de unidades.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Crítica}
+        - {componente: "Sistema eléctrico", descripcion: "Fallas menores frecuentes por edad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2008, version: "Active 1.4 MT", precio_base_cop: 14000000}
+      - {anio: 2007, version: "Active 1.4 MT", precio_base_cop: 13100000}
+      - {anio: 2006, version: "Active 1.4 MT", precio_base_cop: 12200000}
+      - {anio: 2005, version: "Active 1.4 MT", precio_base_cop: 11400000}
+      - {anio: 2004, version: "Active 1.4 MT", precio_base_cop: 10700000}
+      - {anio: 2003, version: "Active 1.4 MT", precio_base_cop: 10500000}
+      - {anio: 2002, version: "Active 1.4 MT", precio_base_cop: 10500000}
+      - {anio: 2001, version: "Active 1.4 MT", precio_base_cop: 10500000}
+      - {anio: 2000, version: "Active 1.4 MT", precio_base_cop: 10500000}
+
+  - modelo: "Aveo"
+    generacion: "T200 / T250 (Aveo Family y Aveo Emotion)"
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Colombia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2005-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 DOHC", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 103, rpm_potencia_max: 6000, torque_nm: 145, rpm_torque_max: 3600, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.9, medida_llantas: "185/60 R14"}
+    dim: {largo_mm: 4310, ancho_sin_espejos_mm: 1710, alto_mm: 1505, distancia_entre_ejes_mm: 2480, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1095, capacidad_baul_litros: 400, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 14.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.2, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 8.6, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Aveo, en sus versiones Family y Emotion, fue el sedán de entrada más común de Colombia durante una década, muy usado en plataformas y como taxi. Tiene baúl de 400 litros, repuestos baratísimos y mecánica que conoce cualquier taller. Su punto débil es la seguridad: dos airbags en el mejor de los casos y una estructura que salió mal calificada en pruebas de choque latinoamericanas. Mayor riesgo individual: unidades con kilometraje de plataforma muy alto. No lo recomendamos sin revisar historial."
+      para_quien_si: "Quien busca un sedán usado barato con baúl grande y repuestos económicos."
+      para_quien_no: "Quien prioriza la seguridad o una cabina silenciosa."
+      pros_reales: ["Baúl de 400 litros", "Repuestos muy baratos", "Mecánica sencilla"]
+      contras:
+        - {componente: "Seguridad estructural", descripcion: "Mal resultado en pruebas de choque de Latin NCAP.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Kilometraje", descripcion: "Muchas unidades vienen de trabajo en plataforma.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2017, version: "Emotion 1.6 MT", precio_base_cop: 27500000}
+      - {anio: 2016, version: "Emotion 1.6 MT", precio_base_cop: 25700000}
+      - {anio: 2015, version: "Emotion 1.6 MT", precio_base_cop: 24000000}
+      - {anio: 2014, version: "Emotion 1.6 MT", precio_base_cop: 22500000}
+      - {anio: 2013, version: "Emotion 1.6 MT", precio_base_cop: 21000000}
+      - {anio: 2012, version: "Emotion 1.6 MT", precio_base_cop: 19700000}
+      - {anio: 2011, version: "Emotion 1.6 MT", precio_base_cop: 18400000}
+      - {anio: 2010, version: "Emotion 1.6 MT", precio_base_cop: 17200000}
+      - {anio: 2009, version: "Emotion 1.6 MT", precio_base_cop: 16100000}
+      - {anio: 2008, version: "Emotion 1.6 MT", precio_base_cop: 15000000}
+      - {anio: 2007, version: "Emotion 1.6 MT", precio_base_cop: 14000000}
+      - {anio: 2006, version: "Emotion 1.6 MT", precio_base_cop: 13100000}
+      - {anio: 2005, version: "Emotion 1.6 MT", precio_base_cop: 12300000}
+      - {anio: 2017, version: "Emotion GT 1.6 AT", precio_base_cop: 30500000}
+      - {anio: 2014, version: "Emotion GT 1.6 AT", precio_base_cop: 24900000}
+      - {anio: 2011, version: "Emotion GT 1.6 AT", precio_base_cop: 20400000}
+      - {anio: 2008, version: "Emotion GT 1.6 AT", precio_base_cop: 16700000}
+      - {anio: 2005, version: "Emotion GT 1.6 AT", precio_base_cop: 13600000}
+
+  - modelo: "Spark"
+    generacion: "M200 / M300 (Spark y Spark Life)"
+    segmento: Hatchback A
+    carroceria: Hatchback
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2005-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.0 SOHC", cilindraje_cc: 995, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 63, rpm_potencia_max: 5400, torque_nm: 87, rpm_torque_max: 4200, aceleracion_0_100_seg: 15.5, velocidad_maxima_kmh: 145, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 4.5, medida_llantas: "155/70 R13"}
+    dim: {largo_mm: 3495, ancho_sin_espejos_mm: 1495, alto_mm: 1500, distancia_entre_ejes_mm: 2345, distancia_libre_suelo_mm: 150, peso_vacio_kg: 830, capacidad_baul_litros: 170, capacidad_tanque_galones: 9.5}
+    consumo: {consumo_mixto_kml: 17.5}
+    seg: {numero_airbags: 0, control_estabilidad_esc: false, frenos_abs_ebd: false, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "No", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.4, repuestos_y_red: 8.6, costo_reparaciones: 8.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Spark original, luego llamado Spark Life, es un citadino diminuto que gasta muy poco y se parquea en cualquier lado, con repuestos baratos en todo el país. Fue el primer carro de muchos colombianos. Es lento, muy ruidoso en carretera y su seguridad es mínima: sin airbags en la mayoría de unidades. A estas alturas casi todos tienen suspensión y embrague cansados. Mayor riesgo individual: la protección en un choque. No lo recomendamos para carretera ni para llevar niños con frecuencia."
+      para_quien_si: "Quien necesita un carro diminuto y barato para moverse en la ciudad."
+      para_quien_no: "Quien viaja por carretera o lleva familia."
+      pros_reales: ["Consumo bajo", "Fácil de parquear", "Repuestos baratos"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Sin airbags en la mayoría de unidades.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Crítica}
+        - {componente: "Desempeño", descripcion: "Lento y ruidoso en carretera.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2017, version: "Life 1.0 MT", precio_base_cop: 21000000}
+      - {anio: 2016, version: "Life 1.0 MT", precio_base_cop: 19600000}
+      - {anio: 2015, version: "Life 1.0 MT", precio_base_cop: 18400000}
+      - {anio: 2014, version: "Life 1.0 MT", precio_base_cop: 17200000}
+      - {anio: 2013, version: "Life 1.0 MT", precio_base_cop: 16000000}
+      - {anio: 2012, version: "Life 1.0 MT", precio_base_cop: 15000000}
+      - {anio: 2011, version: "Life 1.0 MT", precio_base_cop: 14000000}
+      - {anio: 2010, version: "Life 1.0 MT", precio_base_cop: 13100000}
+      - {anio: 2009, version: "Life 1.0 MT", precio_base_cop: 12300000}
+      - {anio: 2008, version: "Life 1.0 MT", precio_base_cop: 11500000}
+      - {anio: 2007, version: "Life 1.0 MT", precio_base_cop: 10700000}
+      - {anio: 2006, version: "Life 1.0 MT", precio_base_cop: 10500000}
+      - {anio: 2005, version: "Life 1.0 MT", precio_base_cop: 10500000}
+
+  - modelo: "Optra"
+    generacion: "J200"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2004-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 DOHC", cilindraje_cc: 1799, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 121, rpm_potencia_max: 5800, torque_nm: 165, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.2, medida_llantas: "195/55 R15"}
+    dim: {largo_mm: 4515, ancho_sin_espejos_mm: 1725, alto_mm: 1445, distancia_entre_ejes_mm: 2600, distancia_libre_suelo_mm: 155, peso_vacio_kg: 1240, capacidad_baul_litros: 405, capacidad_tanque_galones: 15.9}
+    consumo: {consumo_mixto_kml: 12.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 7.0, repuestos_y_red: 8.0, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Optra fue el sedán mediano accesible de Chevrolet, con buen espacio interior, baúl de 405 litros y un 1.8 con fuerza en altura. Como usado se consigue barato porque se desvalorizó mucho. Hay que vigilar la correa de repartición, el sistema de refrigeración y los soportes de motor, que con la edad dan problemas, y la caja automática de algunas versiones es delicada. Mayor riesgo individual: un recalentamiento por mangueras o radiador viejos. No lo recomendamos sin una revisión mecánica completa."
+      para_quien_si: "Quien busca un sedán amplio usado a precio bajo y puede hacerle mantenimiento."
+      para_quien_no: "Quien no quiere sorpresas mecánicas por edad."
+      pros_reales: ["Espacio interior amplio", "Motor 1.8 con fuerza en altura", "Precio de compra bajo"]
+      contras:
+        - {componente: "Refrigeración", descripcion: "Mangueras y radiador envejecidos: riesgo de recalentamiento.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Correa de repartición", descripcion: "Cambio obligatorio si no hay soporte del último cambio.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2013, version: "1.8 MT", precio_base_cop: 18000000}
+      - {anio: 2012, version: "1.8 MT", precio_base_cop: 16400000}
+      - {anio: 2011, version: "1.8 MT", precio_base_cop: 14900000}
+      - {anio: 2010, version: "1.8 MT", precio_base_cop: 13600000}
+      - {anio: 2009, version: "1.8 MT", precio_base_cop: 12300000}
+      - {anio: 2008, version: "1.8 MT", precio_base_cop: 11200000}
+      - {anio: 2007, version: "1.8 MT", precio_base_cop: 10500000}
+      - {anio: 2006, version: "1.8 MT", precio_base_cop: 10500000}
+      - {anio: 2005, version: "1.8 MT", precio_base_cop: 10500000}
+      - {anio: 2004, version: "1.8 MT", precio_base_cop: 10500000}
+
+  - modelo: "Sail"
+    generacion: "Segunda generación"
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Colombia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2012-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.4 DOHC", cilindraje_cc: 1398, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 102, rpm_potencia_max: 6000, torque_nm: 131, rpm_torque_max: 4200, aceleracion_0_100_seg: 12.0, velocidad_maxima_kmh: 170, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.0, medida_llantas: "185/60 R15"}
+    dim: {largo_mm: 4249, ancho_sin_espejos_mm: 1690, alto_mm: 1503, distancia_entre_ejes_mm: 2465, distancia_libre_suelo_mm: 160, peso_vacio_kg: 1060, capacidad_baul_litros: 370, capacidad_tanque_galones: 11.1}
+    consumo: {consumo_mixto_kml: 15.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.2, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.4, costo_reparaciones: 8.2}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Sail ensamblado en Colombia es un sedán sencillo y económico, con un 1.4 de 16 válvulas que consume poco y una mecánica que da poca guerra. Fue muy usado como carro de trabajo y en plataformas. Su equipamiento es básico y la seguridad se queda en dos airbags, sin control de estabilidad. El espacio trasero es aceptable y el baúl de 370 litros cumple. Mayor riesgo individual: unidades con kilometraje de trabajo muy alto. No lo recomendamos sin revisar el historial de mantenimiento."
+      para_quien_si: "Quien busca un sedán usado económico y confiable para ciudad."
+      para_quien_no: "Quien prioriza seguridad o equipamiento."
+      pros_reales: ["Consumo bajo", "Mecánica confiable", "Repuestos baratos"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Kilometraje", descripcion: "Muchas unidades vienen de plataforma o taxi.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2019, version: "LT 1.4 MT", precio_base_cop: 34000000}
+      - {anio: 2018, version: "LT 1.4 MT", precio_base_cop: 31800000}
+      - {anio: 2017, version: "LT 1.4 MT", precio_base_cop: 29700000}
+      - {anio: 2016, version: "LT 1.4 MT", precio_base_cop: 27800000}
+      - {anio: 2015, version: "LT 1.4 MT", precio_base_cop: 26000000}
+      - {anio: 2014, version: "LT 1.4 MT", precio_base_cop: 24300000}
+      - {anio: 2013, version: "LT 1.4 MT", precio_base_cop: 22700000}
+      - {anio: 2012, version: "LT 1.4 MT", precio_base_cop: 21200000}
+
+  - modelo: "Cruze"
+    generacion: "Primera generación (J300)"
+    segmento: Sedán C
+    carroceria: Sedán
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2010-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 Ecotec", cilindraje_cc: 1796, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 141, rpm_potencia_max: 6200, torque_nm: 176, rpm_torque_max: 3800, aceleracion_0_100_seg: 10.8, velocidad_maxima_kmh: 200, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "215/60 R16"}
+    dim: {largo_mm: 4597, ancho_sin_espejos_mm: 1788, alto_mm: 1477, distancia_entre_ejes_mm: 2685, distancia_libre_suelo_mm: 160, peso_vacio_kg: 1400, capacidad_baul_litros: 450, capacidad_tanque_galones: 15.6}
+    consumo: {consumo_mixto_kml: 11.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 6.6, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.6, repuestos_y_red: 7.8, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Cruze de primera generación es un sedán mediano con seis airbags, control de estabilidad y un andar cómodo y silencioso, que hoy se consigue usado a precio de sedán pequeño. El 1.8 Ecotec es conocido, pero esta generación tiene quejas frecuentes por fugas del sistema de refrigeración, la válvula PCV y la caja automática de seis marchas si no se le cambió el aceite. Mayor riesgo individual: el sistema de refrigeración. No lo recomendamos sin revisar fugas y el historial de la caja."
+      para_quien_si: "Quien busca un sedán mediano seguro y cómodo a precio de usado bajo."
+      para_quien_no: "Quien no tiene presupuesto para arreglos de refrigeración o de caja."
+      pros_reales: ["Seis airbags y control de estabilidad", "Andar cómodo y silencioso", "Baúl de 450 litros"]
+      contras:
+        - {componente: "Refrigeración", descripcion: "Fugas de depósito y termostato frecuentes con la edad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Caja automática", descripcion: "Sensible al mantenimiento del aceite.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2017, version: "LT 1.8 AT", precio_base_cop: 42000000}
+      - {anio: 2016, version: "LT 1.8 AT", precio_base_cop: 38200000}
+      - {anio: 2015, version: "LT 1.8 AT", precio_base_cop: 34800000}
+      - {anio: 2014, version: "LT 1.8 AT", precio_base_cop: 31600000}
+      - {anio: 2013, version: "LT 1.8 AT", precio_base_cop: 28800000}
+      - {anio: 2012, version: "LT 1.8 AT", precio_base_cop: 26200000}
+      - {anio: 2011, version: "LT 1.8 AT", precio_base_cop: 23900000}
+      - {anio: 2010, version: "LT 1.8 AT", precio_base_cop: 21700000}
+
+  - modelo: "Captiva"
+    generacion: "Primera generación (Captiva Sport)"
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2008-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.4 DOHC", cilindraje_cc: 2384, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 167, rpm_potencia_max: 5600, torque_nm: 230, rpm_torque_max: 4600, aceleracion_0_100_seg: 10.4, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.8, medida_llantas: "235/55 R18"}
+    dim: {largo_mm: 4673, ancho_sin_espejos_mm: 1849, alto_mm: 1756, distancia_entre_ejes_mm: 2707, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1800, capacidad_baul_litros: 465, capacidad_tanque_galones: 17.4}
+    consumo: {consumo_mixto_kml: 9.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "No", aire_acondicionado: "Automático", sensores_parqueo: Ninguno, tapiceria: "Cuero"}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 6.4, electrica_electronica: 6.4, quejas_documentadas: 6.6, recalls: 6.6, repuestos_y_red: 7.6, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Captiva Sport de primera generación es una SUV mediana con tracción integral, seis airbags y espacio para cinco o siete, que hoy se consigue usada muy barata. Su motor 2.4 atmosférico es conocido, pero consume mucho, y esta generación acumula quejas por la caja automática, la cadena de repartición y el sistema eléctrico. No tiene relación mecánica con la Captiva Turbo de 2018 en adelante. Mayor riesgo individual: la caja automática. No la recomendamos sin una revisión mecánica completa."
+      para_quien_si: "Quien busca una SUV familiar usada con tracción integral a bajo precio."
+      para_quien_no: "Quien no puede asumir reparaciones de caja o cadena."
+      pros_reales: ["Tracción integral", "Seis airbags", "Precio de usado bajo"]
+      contras:
+        - {componente: "Caja automática", descripcion: "Fallas frecuentes reportadas con el kilometraje.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Consumo", descripcion: "Alrededor de 8 km/l reales en ciudad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2017, version: "LT 2.4 AT AWD", precio_base_cop: 38000000}
+      - {anio: 2016, version: "LT 2.4 AT AWD", precio_base_cop: 34600000}
+      - {anio: 2015, version: "LT 2.4 AT AWD", precio_base_cop: 31500000}
+      - {anio: 2014, version: "LT 2.4 AT AWD", precio_base_cop: 28600000}
+      - {anio: 2013, version: "LT 2.4 AT AWD", precio_base_cop: 26100000}
+      - {anio: 2012, version: "LT 2.4 AT AWD", precio_base_cop: 23700000}
+      - {anio: 2011, version: "LT 2.4 AT AWD", precio_base_cop: 21600000}
+      - {anio: 2010, version: "LT 2.4 AT AWD", precio_base_cop: 19600000}
+      - {anio: 2009, version: "LT 2.4 AT AWD", precio_base_cop: 17900000}
+      - {anio: 2008, version: "LT 2.4 AT AWD", precio_base_cop: 16300000}
+
+  - modelo: "Tracker"
+    generacion: "Primera generación (base Trax)"
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Corea del Sur
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2013-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.8 Ecotec", cilindraje_cc: 1796, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 138, rpm_potencia_max: 6300, torque_nm: 174, rpm_torque_max: 3800, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "215/55 R18"}
+    dim: {largo_mm: 4248, ancho_sin_espejos_mm: 1776, alto_mm: 1674, distancia_entre_ejes_mm: 2555, distancia_libre_suelo_mm: 165, peso_vacio_kg: 1370, capacidad_baul_litros: 356, capacidad_tanque_galones: 14.0}
+    consumo: {consumo_mixto_kml: 11.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Manual", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.8, repuestos_y_red: 8.0, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Tracker de primera generación fue una de las SUV pequeñas más vendidas del país, con seis airbags, control de estabilidad y una posición de manejo alta. Su 1.8 atmosférico consume más de lo esperado para su tamaño y la caja automática se siente lenta en altura. Comparte las quejas del Cruze en el sistema de refrigeración. Se desvalorizó rápido, así que se consigue usada a buen precio. Mayor riesgo individual: fugas de refrigerante. No la recomendamos sin revisar el sistema de enfriamiento."
+      para_quien_si: "Quien busca una SUV pequeña usada con buena seguridad pasiva."
+      para_quien_no: "Quien prioriza bajo consumo o reventa."
+      pros_reales: ["Seis airbags y control de estabilidad", "Posición de manejo alta", "Precio de usado accesible"]
+      contras:
+        - {componente: "Consumo", descripcion: "Alto para su tamaño.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Refrigeración", descripcion: "Fugas de depósito y termostato con la edad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2019, version: "LT 1.8 AT", precio_base_cop: 55000000}
+      - {anio: 2018, version: "LT 1.8 AT", precio_base_cop: 50000000}
+      - {anio: 2017, version: "LT 1.8 AT", precio_base_cop: 45500000}
+      - {anio: 2016, version: "LT 1.8 AT", precio_base_cop: 41400000}
+      - {anio: 2015, version: "LT 1.8 AT", precio_base_cop: 37700000}
+      - {anio: 2014, version: "LT 1.8 AT", precio_base_cop: 34300000}
+      - {anio: 2013, version: "LT 1.8 AT", precio_base_cop: 31200000}
+
+  - modelo: "Luv D-Max"
+    generacion: "Primera generación (TFR)"
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Colombia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2005-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "3.0 turbodiésel", cilindraje_cc: 2999, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 130, rpm_potencia_max: 3800, torque_nm: 280, rpm_torque_max: 1800, aceleracion_0_100_seg: 15.0, velocidad_maxima_kmh: 160}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.1, medida_llantas: "245/70 R16"}
+    dim: {largo_mm: 5035, ancho_sin_espejos_mm: 1800, alto_mm: 1735, distancia_entre_ejes_mm: 3050, distancia_libre_suelo_mm: 225, peso_vacio_kg: 1850, capacidad_baul_litros: 1000, capacidad_tanque_galones: 19.0}
+    consumo: {consumo_mixto_kml: 11.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.2, quejas_documentadas: 7.6, recalls: 7.4, repuestos_y_red: 8.2, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Luv D-Max ensamblada en Colombia es una pickup de trabajo con fama de indestructible: el 3.0 turbodiésel de origen Isuzu aguanta kilometrajes enormes con mantenimiento básico, y por eso conserva muy bien su valor. Es tosca, ruidosa y su seguridad es la de otra época, con dos airbags en el mejor caso. Muchas unidades vienen de trabajo pesado en finca o carga. Mayor riesgo individual: el estado del embrague y de la suspensión en unidades de trabajo. No la recomendamos como vehículo familiar."
+      para_quien_si: "Quien necesita una pickup de trabajo robusta y que conserve su valor."
+      para_quien_no: "Quien busca confort o seguridad moderna."
+      pros_reales: ["Motor diésel muy robusto", "Reventa alta", "Repuestos abundantes"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags como máximo y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Uso previo", descripcion: "Muchas unidades vienen de trabajo pesado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2014, version: "3.0 Diésel MT 4x4", precio_base_cop: 62000000}
+      - {anio: 2013, version: "3.0 Diésel MT 4x4", precio_base_cop: 58900000}
+      - {anio: 2012, version: "3.0 Diésel MT 4x4", precio_base_cop: 56000000}
+      - {anio: 2011, version: "3.0 Diésel MT 4x4", precio_base_cop: 53200000}
+      - {anio: 2010, version: "3.0 Diésel MT 4x4", precio_base_cop: 50500000}
+      - {anio: 2009, version: "3.0 Diésel MT 4x4", precio_base_cop: 48000000}
+      - {anio: 2008, version: "3.0 Diésel MT 4x4", precio_base_cop: 45600000}
+      - {anio: 2007, version: "3.0 Diésel MT 4x4", precio_base_cop: 43300000}
+      - {anio: 2006, version: "3.0 Diésel MT 4x4", precio_base_cop: 41100000}
+      - {anio: 2005, version: "3.0 Diésel MT 4x4", precio_base_cop: 39100000}
+
+  - modelo: "Grand Vitara"
+    generacion: "Segunda generación (base Suzuki)"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Colombia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2006-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 DOHC", cilindraje_cc: 1995, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 138, rpm_potencia_max: 6000, torque_nm: 183, rpm_torque_max: 4000, aceleracion_0_100_seg: 12.0, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Tambor, radio_giro_metros: 5.5, medida_llantas: "225/70 R16"}
+    dim: {largo_mm: 4005, ancho_sin_espejos_mm: 1810, alto_mm: 1695, distancia_entre_ejes_mm: 2440, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1500, capacidad_baul_litros: 398, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 11.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.0, electrica_electronica: 7.4, quejas_documentadas: 7.6, recalls: 7.6, repuestos_y_red: 8.2, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Grand Vitara ensamblada en Colombia, hermana de la Suzuki, es un todoterreno compacto de verdad, con reductora, chasis integrado muy rígido y una reputación de durar décadas. Sube trochas que dejan atrás a SUVs modernas y conserva su valor. Es ruidosa, consume bastante y su seguridad es básica, con dos airbags. Las versiones de tres puertas son muy pequeñas atrás. Mayor riesgo individual: unidades maltratadas en trocha. No la recomendamos a quien busca confort de autopista."
+      para_quien_si: "Quien necesita un 4x4 compacto, robusto y que conserve su valor."
+      para_quien_no: "Quien busca confort, silencio o seguridad moderna."
+      pros_reales: ["4x4 con reductora", "Muy robusta", "Reventa alta"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Consumo", descripcion: "Alrededor de 9 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2016, version: "2.0 MT 4x4", precio_base_cop: 45000000}
+      - {anio: 2015, version: "2.0 MT 4x4", precio_base_cop: 42800000}
+      - {anio: 2014, version: "2.0 MT 4x4", precio_base_cop: 40600000}
+      - {anio: 2013, version: "2.0 MT 4x4", precio_base_cop: 38600000}
+      - {anio: 2012, version: "2.0 MT 4x4", precio_base_cop: 36700000}
+      - {anio: 2011, version: "2.0 MT 4x4", precio_base_cop: 34800000}
+      - {anio: 2010, version: "2.0 MT 4x4", precio_base_cop: 33100000}
+      - {anio: 2009, version: "2.0 MT 4x4", precio_base_cop: 31400000}
+      - {anio: 2008, version: "2.0 MT 4x4", precio_base_cop: 29900000}
+      - {anio: 2007, version: "2.0 MT 4x4", precio_base_cop: 28400000}
+      - {anio: 2006, version: "2.0 MT 4x4", precio_base_cop: 26900000}
+
+  - modelo: "Equinox"
+    generacion: "Segunda generación"
+    segmento: SUV Mediana
+    carroceria: SUV
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2010-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.4 Ecotec", cilindraje_cc: 2384, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 182, rpm_potencia_max: 6700, torque_nm: 233, rpm_torque_max: 4900, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 6.1, medida_llantas: "235/55 R18"}
+    dim: {largo_mm: 4771, ancho_sin_espejos_mm: 1842, alto_mm: 1760, distancia_entre_ejes_mm: 2857, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1750, capacidad_baul_litros: 893, capacidad_tanque_galones: 18.0}
+    consumo: {consumo_mixto_kml: 10.0}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 7, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 6.2, electrica_electronica: 6.8, quejas_documentadas: 6.6, recalls: 6.6, repuestos_y_red: 7.4, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Equinox de segunda generación es una SUV mediana muy amplia y cómoda, con seis airbags y mucho espacio atrás, que se desvalorizó rápido y hoy se consigue barata. El problema documentado de esta generación es el motor 2.4 Ecotec, que en Estados Unidos acumuló demandas por consumo excesivo de aceite y daño en la cadena de repartición. Mayor riesgo individual: el consumo de aceite del 2.4, que puede terminar en reparación de motor. No la recomendamos sin verificar el consumo de aceite."
+      para_quien_si: "Quien busca una SUV amplia y cómoda a precio de usado bajo y revisa bien el motor."
+      para_quien_no: "Quien no puede asumir una reparación mayor de motor."
+      pros_reales: ["Mucho espacio interior", "Seis airbags", "Precio de usado bajo"]
+      contras:
+        - {componente: "Consumo de aceite", descripcion: "El 2.4 de esta generación tiene quejas documentadas por consumo de aceite.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Cadena de repartición", descripcion: "Estiramiento asociado al consumo de aceite.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2017, version: "LT 2.4 AT", precio_base_cop: 52000000}
+      - {anio: 2016, version: "LT 2.4 AT", precio_base_cop: 47300000}
+      - {anio: 2015, version: "LT 2.4 AT", precio_base_cop: 43100000}
+      - {anio: 2014, version: "LT 2.4 AT", precio_base_cop: 39200000}
+      - {anio: 2013, version: "LT 2.4 AT", precio_base_cop: 35700000}
+      - {anio: 2012, version: "LT 2.4 AT", precio_base_cop: 32400000}
+      - {anio: 2011, version: "LT 2.4 AT", precio_base_cop: 29500000}
+      - {anio: 2010, version: "LT 2.4 AT", precio_base_cop: 26900000}
