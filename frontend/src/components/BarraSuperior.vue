@@ -47,7 +47,7 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
         <span>{{ T.marca }}</span>
       </RouterLink>
 
-      <nav class="hidden items-stretch gap-7 nav:flex" aria-label="Secciones principales">
+      <nav class="hidden items-stretch gap-6 nav:flex min-[1440px]:gap-7" aria-label="Secciones principales">
         <RouterLink v-for="l in principales" :key="l.to" :to="l.to" class="enlace-barra" active-class="enlace-barra-activo">{{ l.texto }}<span class="enlace-barra-mas" aria-hidden="true">+</span></RouterLink>
         <MenuDesplegable :etiqueta="T.navCorto.herramientas" :opciones="herramientas" :activo="route.path.startsWith('/herramientas')" />
       </nav>
