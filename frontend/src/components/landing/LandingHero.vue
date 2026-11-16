@@ -16,8 +16,8 @@ defineProps<{ versiones?: number | null; marcas?: number | null }>()
         <RouterLink to="/comparador" class="boton-acento mt-9 px-7">{{ T.landing.hero.boton }}</RouterLink>
       </div>
       <div>
-        <p>{{ T.landing.hero.datoTitulo }}</p>
-        <p><span class="num">{{ versiones ?? '—' }}</span> versiones · <span class="num">{{ marcas ?? '—' }}</span> marcas</p>
+        <p class="text-base font-bold uppercase tracking-[1px] text-acento-texto">{{ T.landing.hero.datoTitulo }}</p>
+        <p class="mt-3 text-sm font-bold text-tinta"><span class="num">{{ versiones ?? '—' }}</span> versiones · <span class="num">{{ marcas ?? '—' }}</span> marcas</p>
       </div>
     </div>
   </section>
