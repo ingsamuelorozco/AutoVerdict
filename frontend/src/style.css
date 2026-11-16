@@ -127,6 +127,8 @@
   .sobre-claro { --tinta: 0 0 0; --cuerpo: 38 38 38; --papel: 255 255 255; --suave: 247 247 247; --superficie: 250 250 250; --elevada: 236 236 236; --linea: 226 226 226; --tenue: 110 110 110; --apagado: 126 126 126; --acento-texto: 28 105 212; @apply text-cuerpo; }
   /* Botón de acento: la acción principal de la portada. */
   .boton-acento { @apply boton border-acento bg-acento text-white hover:border-acento-hondo hover:bg-acento-hondo; }
+  /* Barra superior: enlaces de 12,5 px en mayúsculas con signo "+" al final. */
+  .enlace-barra { @apply relative inline-flex h-full items-center whitespace-nowrap text-[12.5px] font-bold uppercase tracking-[0.6px] text-tinta transition-colors; }
 }
 
 @media (prefers-reduced-motion: reduce) {
