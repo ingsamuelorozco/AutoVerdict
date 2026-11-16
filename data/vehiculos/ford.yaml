@@ -469,3 +469,278 @@ modelos:
       - {anio: 2022, version: "Select RWD 72 kWh", precio_base_cop: 156100000}
       - {anio: 2023, version: "Select RWD 72 kWh", precio_base_cop: 171500000}
       - {anio: 2024, version: "Select RWD 72 kWh", precio_base_cop: 188500000}
+
+  - modelo: "Fiesta"
+    generacion: "Quinta generación"
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Brasil
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2004-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 Zetec Rocam", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 102, rpm_potencia_max: 5250, torque_nm: 140, rpm_torque_max: 4250, aceleracion_0_100_seg: 11.5, velocidad_maxima_kmh: 175, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "175/65 R14"}
+    dim: {largo_mm: 3920, ancho_sin_espejos_mm: 1680, alto_mm: 1470, distancia_entre_ejes_mm: 2490, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1050, capacidad_baul_litros: 260, capacidad_tanque_galones: 11.9}
+    consumo: {consumo_mixto_kml: 13.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 7.8, costo_reparaciones: 7.6}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Fiesta de quinta generación es un hatchback sencillo con un 1.6 de diseño simple y robusto, que hoy se consigue barato. Su manejo es agradable y su mecánica fácil de reparar. Como usado de más de quince años aparecen fallas eléctricas menores y desgaste de suspensión, y su seguridad se queda en dos airbags como máximo. No tiene relación con la caja Powershift problemática de la generación siguiente. Mayor riesgo individual: la protección en un choque. No lo recomendamos para carretera con niños."
+      para_quien_si: "Quien busca un hatchback usado barato y sencillo."
+      para_quien_no: "Quien prioriza seguridad."
+      pros_reales: ["Mecánica sencilla", "Manejo agradable", "Precio de usado bajo"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Hasta dos airbags.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Eléctricos", descripcion: "Fallas menores por edad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2010, version: "1.6 MT", precio_base_cop: 17000000}
+      - {anio: 2009, version: "1.6 MT", precio_base_cop: 15900000}
+      - {anio: 2008, version: "1.6 MT", precio_base_cop: 14900000}
+      - {anio: 2007, version: "1.6 MT", precio_base_cop: 13900000}
+      - {anio: 2006, version: "1.6 MT", precio_base_cop: 13000000}
+      - {anio: 2005, version: "1.6 MT", precio_base_cop: 12100000}
+      - {anio: 2004, version: "1.6 MT", precio_base_cop: 11400000}
+
+  - modelo: "EcoSport"
+    generacion: "Primera generación"
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2004-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Duratec", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 143, rpm_potencia_max: 6000, torque_nm: 186, rpm_torque_max: 4500, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.3, medida_llantas: "205/65 R15"}
+    dim: {largo_mm: 4225, ancho_sin_espejos_mm: 1735, alto_mm: 1680, distancia_entre_ejes_mm: 2490, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1300, capacidad_baul_litros: 290, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 11.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.4, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 7.0, repuestos_y_red: 7.8, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Media
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la EcoSport de primera generación fue la SUV pequeña pionera en Colombia, con despeje de 200 mm, versión 4x4 y un 2.0 con buena fuerza en altura. Se consigue usada a buen precio y es práctica en calles rotas. Su baúl es pequeño, la rueda de repuesto en la puerta trasera la hace incómoda en parqueaderos estrechos y la seguridad se queda en dos airbags. Mayor riesgo individual: desgaste de suspensión y tracción en unidades de trocha. No la recomendamos sin revisión del tren delantero."
+      para_quien_si: "Quien busca una SUV pequeña usada con buen despeje a bajo precio."
+      para_quien_no: "Quien necesita baúl grande o prioriza seguridad."
+      pros_reales: ["Despeje de 200 mm", "Motor 2.0 con fuerza en altura", "Versión 4x4"]
+      contras:
+        - {componente: "Baúl", descripcion: "290 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2012, version: "2.0 MT 4x4", precio_base_cop: 25000000}
+      - {anio: 2011, version: "2.0 MT 4x4", precio_base_cop: 23400000}
+      - {anio: 2010, version: "2.0 MT 4x4", precio_base_cop: 21900000}
+      - {anio: 2009, version: "2.0 MT 4x4", precio_base_cop: 20400000}
+      - {anio: 2008, version: "2.0 MT 4x4", precio_base_cop: 19100000}
+      - {anio: 2007, version: "2.0 MT 4x4", precio_base_cop: 17900000}
+      - {anio: 2006, version: "2.0 MT 4x4", precio_base_cop: 16700000}
+      - {anio: 2005, version: "2.0 MT 4x4", precio_base_cop: 15600000}
+      - {anio: 2004, version: "2.0 MT 4x4", precio_base_cop: 14600000}
+
+  - modelo: "EcoSport"
+    generacion: "Segunda generación (primera fase)"
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Brasil
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2013-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 Duratec", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 143, rpm_potencia_max: 6000, torque_nm: 186, rpm_torque_max: 4500, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 180, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.3, medida_llantas: "205/60 R16"}
+    dim: {largo_mm: 4245, ancho_sin_espejos_mm: 1765, alto_mm: 1655, distancia_entre_ejes_mm: 2520, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1300, capacidad_baul_litros: 362, capacidad_tanque_galones: 13.7}
+    consumo: {consumo_mixto_kml: 12.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 6, apple_carplay_android_auto: "Cable", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      patrones: [ford_powershift]
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.8, quejas_documentadas: 6.8, recalls: 6.8, repuestos_y_red: 7.8, costo_reparaciones: 7.2}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la EcoSport de segunda generación mejoró en diseño, espacio y equipamiento, con despeje de 200 mm y un 2.0 que anda bien en altura. Las versiones automáticas usaron la caja Powershift de doble embrague, con fallas documentadas de temblores y embragues; las mecánicas evitan ese problema. Su seguridad se queda en dos airbags en las versiones de entrada. Mayor riesgo individual: la caja Powershift en versiones automáticas. No la recomendamos en versión automática."
+      para_quien_si: "Quien busca una SUV pequeña usada con buen despeje, en versión mecánica."
+      para_quien_no: "Quien quiere caja automática o prioriza la reventa."
+      pros_reales: ["Despeje de 200 mm", "Motor 2.0 con fuerza en altura", "Precio de usado bajo"]
+      contras:
+        - {componente: "Caja Powershift", descripcion: "Fallas documentadas en las versiones automáticas.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Reventa", descripcion: "Se desvaloriza rápido.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2017, version: "Freestyle 2.0 MT", precio_base_cop: 38000000}
+      - {anio: 2016, version: "Freestyle 2.0 MT", precio_base_cop: 34600000}
+      - {anio: 2015, version: "Freestyle 2.0 MT", precio_base_cop: 31500000}
+      - {anio: 2014, version: "Freestyle 2.0 MT", precio_base_cop: 28600000}
+      - {anio: 2013, version: "Freestyle 2.0 MT", precio_base_cop: 26100000}
+
+  - modelo: "Escape"
+    generacion: "Segunda y tercera generación"
+    segmento: SUV Compacta
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2008-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 Duratec", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 168, rpm_potencia_max: 6000, torque_nm: 230, rpm_torque_max: 4500, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 185, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.5, medida_llantas: "225/65 R17"}
+    dim: {largo_mm: 4525, ancho_sin_espejos_mm: 1840, alto_mm: 1685, distancia_entre_ejes_mm: 2690, distancia_libre_suelo_mm: 200, peso_vacio_kg: 1550, capacidad_baul_litros: 490, capacidad_tanque_galones: 15.7}
+    consumo: {consumo_mixto_kml: 10.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.6, repuestos_y_red: 7.6, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Escape de esta etapa es una SUV compacta cómoda y bien equipada, con seis airbags y control de estabilidad, que se desvalorizó rápido y hoy se consigue usada a buen precio. Las versiones con el 2.5 atmosférico son las más sencillas y recomendables; las de motor EcoBoost tuvieron campañas de servicio por riesgos de sobrecalentamiento. Consume más que una rival japonesa. Mayor riesgo individual: verificar campañas de servicio pendientes. No la recomendamos sin consultar el historial de recalls."
+      para_quien_si: "Quien busca una SUV compacta usada cómoda y equipada a buen precio."
+      para_quien_no: "Quien prioriza la reventa o el bajo consumo."
+      pros_reales: ["Seis airbags y control de estabilidad", "Buen equipamiento", "Precio de usado bajo"]
+      contras:
+        - {componente: "Recalls", descripcion: "Varias campañas de servicio en esta etapa.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Reventa", descripcion: "Se desvaloriza rápido.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2019, version: "SE 2.5 AT", precio_base_cop: 62000000}
+      - {anio: 2018, version: "SE 2.5 AT", precio_base_cop: 56400000}
+      - {anio: 2017, version: "SE 2.5 AT", precio_base_cop: 51300000}
+      - {anio: 2016, version: "SE 2.5 AT", precio_base_cop: 46700000}
+      - {anio: 2015, version: "SE 2.5 AT", precio_base_cop: 42500000}
+      - {anio: 2014, version: "SE 2.5 AT", precio_base_cop: 38700000}
+      - {anio: 2013, version: "SE 2.5 AT", precio_base_cop: 35200000}
+      - {anio: 2012, version: "SE 2.5 AT", precio_base_cop: 32000000}
+      - {anio: 2011, version: "SE 2.5 AT", precio_base_cop: 29200000}
+      - {anio: 2010, version: "SE 2.5 AT", precio_base_cop: 26500000}
+      - {anio: 2009, version: "SE 2.5 AT", precio_base_cop: 24100000}
+      - {anio: 2008, version: "SE 2.5 AT", precio_base_cop: 22000000}
+
+  - modelo: "Explorer"
+    generacion: "Quinta generación"
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2011-01-01
+    plazas: 7
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "3.5 V6 Ti-VCT", cilindraje_cc: 3496, cilindros: 6, valvulas: 24, alimentacion: Atmosférico, potencia_hp: 290, rpm_potencia_max: 6500, torque_nm: 346, rpm_torque_max: 4000, aceleracion_0_100_seg: 8.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.9, medida_llantas: "245/60 R18"}
+    dim: {largo_mm: 5019, ancho_sin_espejos_mm: 2004, alto_mm: 1803, distancia_entre_ejes_mm: 2866, distancia_libre_suelo_mm: 200, peso_vacio_kg: 2050, capacidad_baul_litros: 595, capacidad_tanque_galones: 18.6}
+    consumo: {consumo_mixto_kml: 8.0}
+    seg: {numero_airbags: 7, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, tapiceria: "Cuero", camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.6, quejas_documentadas: 6.8, recalls: 6.4, repuestos_y_red: 7.4, costo_reparaciones: 6.4}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Explorer de quinta generación es una SUV grande de siete puestos con un V6 3.5 de 290 hp, tracción integral y una cabina amplia, que se desvalorizó mucho y hoy se consigue usada a precio de SUV compacta. Su consumo es alto, cerca de 6,5 km/l reales en ciudad, y esta generación tuvo campañas de servicio por fugas de gases de escape hacia la cabina y por la bomba de agua interna del V6, costosa de reparar. Mayor riesgo individual: la bomba de agua del V6. No la recomendamos sin revisión mecánica."
+      para_quien_si: "Familias que necesitan siete puestos y potencia a precio de usado bajo."
+      para_quien_no: "Quien busca bajo consumo o bajo costo de reparación."
+      pros_reales: ["Siete puestos con tercera fila usable", "V6 de 290 hp", "Precio de usado bajo"]
+      contras:
+        - {componente: "Bomba de agua", descripcion: "Interna en el V6: reparación costosa si falla.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Consumo", descripcion: "Alrededor de 6,5 km/l reales.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2019, version: "Limited 3.5 V6 4x4", precio_base_cop: 85000000}
+      - {anio: 2018, version: "Limited 3.5 V6 4x4", precio_base_cop: 77400000}
+      - {anio: 2017, version: "Limited 3.5 V6 4x4", precio_base_cop: 70400000}
+      - {anio: 2016, version: "Limited 3.5 V6 4x4", precio_base_cop: 64100000}
+      - {anio: 2015, version: "Limited 3.5 V6 4x4", precio_base_cop: 58300000}
+      - {anio: 2014, version: "Limited 3.5 V6 4x4", precio_base_cop: 53000000}
+      - {anio: 2013, version: "Limited 3.5 V6 4x4", precio_base_cop: 48300000}
+      - {anio: 2012, version: "Limited 3.5 V6 4x4", precio_base_cop: 43900000}
+      - {anio: 2011, version: "Limited 3.5 V6 4x4", precio_base_cop: 40000000}
+
+  - modelo: "Ranger"
+    generacion: "Tercera generación (T6)"
+    segmento: Pickup Mediana
+    carroceria: Pickup
+    pais_origen: Argentina
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2012-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Diésel, motor_descripcion: "3.2 Duratorq TDCi", cilindraje_cc: 3198, cilindros: 5, valvulas: 20, alimentacion: Turbo, potencia_hp: 197, rpm_potencia_max: 3000, torque_nm: 470, rpm_torque_max: 1750, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 180}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: 4x4, suspension_delantera: Doble horquilla, suspension_trasera: Ballestas, frenos_traseros: Tambor, radio_giro_metros: 6.3, medida_llantas: "265/65 R17"}
+    dim: {largo_mm: 5359, ancho_sin_espejos_mm: 1850, alto_mm: 1815, distancia_entre_ejes_mm: 3220, distancia_libre_suelo_mm: 237, peso_vacio_kg: 2100, capacidad_baul_litros: 1200, capacidad_tanque_galones: 21.1}
+    consumo: {consumo_mixto_kml: 10.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático", sensores_parqueo: Ninguno, camara_reversa: true}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.6, electrica_electronica: 7.0, quejas_documentadas: 7.2, recalls: 7.0, repuestos_y_red: 7.8, costo_reparaciones: 7.0}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: la Ranger T6 es una de las pickups medianas más completas de su década, con el 3.2 de cinco cilindros y 470 Nm, 4x4 con reductora, seis airbags y control de estabilidad. Es más cómoda y moderna que muchas rivales de su época y su red de servicio es amplia. El consumo es alto y el sistema de inyección es sensible a combustible de mala calidad. Mayor riesgo individual: inyectores. No la recomendamos sin revisión del sistema diésel."
+      para_quien_si: "Quien necesita una pickup 4x4 potente, segura y con buena red de servicio."
+      para_quien_no: "Quien solo maneja en ciudad."
+      pros_reales: ["Motor de 470 Nm", "Seis airbags y control de estabilidad", "4x4 con reductora"]
+      contras:
+        - {componente: "Inyectores", descripcion: "Sensibles a combustible de mala calidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Tamaño", descripcion: "5,36 m de largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2022, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 115000000}
+      - {anio: 2021, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 107500000}
+      - {anio: 2020, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 100500000}
+      - {anio: 2019, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 94000000}
+      - {anio: 2018, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 87900000}
+      - {anio: 2017, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 82200000}
+      - {anio: 2016, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 76800000}
+      - {anio: 2015, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 71800000}
+      - {anio: 2014, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 67200000}
+      - {anio: 2013, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 62800000}
+      - {anio: 2012, version: "XLT 3.2 Diésel AT 4x4", precio_base_cop: 58700000}
+
+  - modelo: "Fusion"
+    generacion: "Primera y segunda generación"
+    segmento: Sedán D
+    carroceria: Sedán
+    pais_origen: México
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2007-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.5 Duratec", cilindraje_cc: 2488, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 175, rpm_potencia_max: 6000, torque_nm: 234, rpm_torque_max: 4500, aceleracion_0_100_seg: 9.5, velocidad_maxima_kmh: 205, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 6, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 5.7, medida_llantas: "235/50 R17"}
+    dim: {largo_mm: 4870, ancho_sin_espejos_mm: 1852, alto_mm: 1478, distancia_entre_ejes_mm: 2850, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1550, capacidad_baul_litros: 453, capacidad_tanque_galones: 16.5}
+    consumo: {consumo_mixto_kml: 11.5}
+    seg: {numero_airbags: 6, control_estabilidad_esc: true, frenos_abs_ebd: true, anclajes_isofix: true, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: "Cable", aire_acondicionado: "Automático bizona", sensores_parqueo: Ninguno, tapiceria: "Cuero"}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.6, repuestos_y_red: 7.4, costo_reparaciones: 6.8}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el Fusion es un sedán grande, cómodo y bien equipado, que se desvalorizó mucho y hoy es de los sedanes grandes usados más baratos. Las versiones con 2.5 atmosférico y caja automática convencional son las más sencillas de mantener. Su despeje de 150 mm pide cuidado y algunos repuestos de carrocería tardan. Mayor riesgo individual: la caja automática sin mantenimiento. No lo recomendamos a quien parquea en espacios cortos."
+      para_quien_si: "Quien busca un sedán grande, cómodo y seguro a precio de usado muy bajo."
+      para_quien_no: "Quien parquea en espacios cortos o prioriza la reventa."
+      pros_reales: ["Seis airbags y control de estabilidad", "Mucho espacio", "Precio de usado bajo"]
+      contras:
+        - {componente: "Reventa", descripcion: "Se desvaloriza rápido.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Despeje", descripcion: "150 mm.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2016, version: "SE 2.5 AT", precio_base_cop: 45000000}
+      - {anio: 2015, version: "SE 2.5 AT", precio_base_cop: 41000000}
+      - {anio: 2014, version: "SE 2.5 AT", precio_base_cop: 37300000}
+      - {anio: 2013, version: "SE 2.5 AT", precio_base_cop: 33900000}
+      - {anio: 2012, version: "SE 2.5 AT", precio_base_cop: 30900000}
+      - {anio: 2011, version: "SE 2.5 AT", precio_base_cop: 28100000}
+      - {anio: 2010, version: "SE 2.5 AT", precio_base_cop: 25600000}
+      - {anio: 2009, version: "SE 2.5 AT", precio_base_cop: 23300000}
+      - {anio: 2008, version: "SE 2.5 AT", precio_base_cop: 21200000}
+      - {anio: 2007, version: "SE 2.5 AT", precio_base_cop: 19300000}
