@@ -356,6 +356,7 @@ modelos:
       - {anio: 2025, version: 1.0T CVT, precio_base_cop: 92900000, fecha_precio: 2025-02-01, pantalla_multimedia_pulgadas: 7}
 
   - modelo: Rush
+    imagen_id: veh-toyota-rush
     generacion: Segunda generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -387,6 +388,7 @@ modelos:
       - {anio: 2025, version: G 1.5 AT, precio_base_cop: 106900000, fecha_precio: 2025-03-01}
 
   - modelo: 4Runner
+    imagen_id: veh-toyota-4runner
     generacion: Sexta generación
     segmento: SUV Grande
     carroceria: SUV

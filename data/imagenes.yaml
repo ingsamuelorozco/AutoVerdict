@@ -2465,3 +2465,27 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Suzuki XL7"
+  - id: veh-toyota-4runner
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/2025_Toyota_4Runner_TRD_Sport_in_Wind_Chill_Pearl%2C_front_right%2C_2025-05-18.jpg/960px-2025_Toyota_4Runner_TRD_Sport_in_Wind_Chill_Pearl%2C_front_right%2C_2025-05-18.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Elise240SX"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2025_Toyota_4Runner_TRD_Sport_in_Wind_Chill_Pearl,_front_right,_2025-05-18.jpg"
+    ancho: 5136
+    alto: 2871
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Toyota 4Runner"
+  - id: veh-toyota-rush
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/2018_Toyota_Rush_1.5S_%28cropped%29.jpg/960px-2018_Toyota_Rush_1.5S_%28cropped%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Chanokchon"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Toyota_Rush_1.5S_(cropped).jpg"
+    ancho: 3210
+    alto: 2185
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Toyota Rush"
