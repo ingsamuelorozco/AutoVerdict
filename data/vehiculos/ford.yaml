@@ -33,6 +33,19 @@ modelos:
     versiones:
       - {anio: 2018, version: Titanium 1.6 Powershift, precio_base_cop: 58900000, fecha_precio: 2018-03-01}
       - {anio: 2018, version: SE Sedán 1.6 Powershift, precio_base_cop: 54900000, fecha_precio: 2018-03-01, carroceria: Sedán, segmento: Sedán B, largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: Manual}
+      - {anio: 2011, version: "SE Sedán 1.6 Powershift", precio_base_cop: 19900000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2012, version: "SE Sedán 1.6 Powershift", precio_base_cop: 21800000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2013, version: "SE Sedán 1.6 Powershift", precio_base_cop: 24000000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2014, version: "SE Sedán 1.6 Powershift", precio_base_cop: 26400000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2015, version: "SE Sedán 1.6 Powershift", precio_base_cop: 29000000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2016, version: "SE Sedán 1.6 Powershift", precio_base_cop: 31800000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2017, version: "SE Sedán 1.6 Powershift", precio_base_cop: 35000000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2019, version: "SE Sedán 1.6 Powershift", precio_base_cop: 42200000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2020, version: "SE Sedán 1.6 Powershift", precio_base_cop: 46400000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2021, version: "SE Sedán 1.6 Powershift", precio_base_cop: 51000000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2022, version: "SE Sedán 1.6 Powershift", precio_base_cop: 56000000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2023, version: "SE Sedán 1.6 Powershift", precio_base_cop: 61600000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
+      - {anio: 2024, version: "SE Sedán 1.6 Powershift", precio_base_cop: 67700000, carroceria: "Sedán", segmento: "Sedán B", largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: "Manual"}
 
   - modelo: Focus
     imagen_id: veh-ford-focus
@@ -64,6 +77,18 @@ modelos:
         - {componente: "Reventa", descripcion: "Depreciación acelerada por el historial de la caja.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2018, version: Titanium 2.0 Powershift, precio_base_cop: 79900000, fecha_precio: 2018-02-01}
+      - {anio: 2012, version: "Titanium 2.0 Powershift", precio_base_cop: 31800000}
+      - {anio: 2013, version: "Titanium 2.0 Powershift", precio_base_cop: 34900000}
+      - {anio: 2014, version: "Titanium 2.0 Powershift", precio_base_cop: 38400000}
+      - {anio: 2015, version: "Titanium 2.0 Powershift", precio_base_cop: 42200000}
+      - {anio: 2016, version: "Titanium 2.0 Powershift", precio_base_cop: 46300000}
+      - {anio: 2017, version: "Titanium 2.0 Powershift", precio_base_cop: 50900000}
+      - {anio: 2019, version: "Titanium 2.0 Powershift", precio_base_cop: 61500000}
+      - {anio: 2020, version: "Titanium 2.0 Powershift", precio_base_cop: 67500000}
+      - {anio: 2021, version: "Titanium 2.0 Powershift", precio_base_cop: 74200000}
+      - {anio: 2022, version: "Titanium 2.0 Powershift", precio_base_cop: 81600000}
+      - {anio: 2023, version: "Titanium 2.0 Powershift", precio_base_cop: 89600000}
+      - {anio: 2024, version: "Titanium 2.0 Powershift", precio_base_cop: 98500000}
 
   - modelo: EcoSport
     imagen_id: veh-ford-ecosport
@@ -95,6 +120,12 @@ modelos:
         - {componente: "Reventa", descripcion: "Modelo descontinuado.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2021, version: Titanium 1.5 AT, precio_base_cop: 89900000, fecha_precio: 2021-01-01}
+      - {anio: 2018, version: "Titanium 1.5 AT", precio_base_cop: 52800000}
+      - {anio: 2019, version: "Titanium 1.5 AT", precio_base_cop: 58100000}
+      - {anio: 2020, version: "Titanium 1.5 AT", precio_base_cop: 63800000}
+      - {anio: 2022, version: "Titanium 1.5 AT", precio_base_cop: 77100000}
+      - {anio: 2023, version: "Titanium 1.5 AT", precio_base_cop: 84700000}
+      - {anio: 2024, version: "Titanium 1.5 AT", precio_base_cop: 93100000}
 
   - modelo: Escape
     imagen_id: veh-ford-escape
@@ -126,6 +157,11 @@ modelos:
     versiones:
       - {anio: 2025, version: Titanium HEV AWD, precio_base_cop: 189900000, fecha_precio: 2025-02-01}
       - {anio: 2026, version: ST-Line HEV AWD, precio_base_cop: 194900000}
+      - {anio: 2020, version: "ST-Line HEV AWD", precio_base_cop: 103400000}
+      - {anio: 2021, version: "ST-Line HEV AWD", precio_base_cop: 113600000}
+      - {anio: 2022, version: "ST-Line HEV AWD", precio_base_cop: 124800000}
+      - {anio: 2023, version: "ST-Line HEV AWD", precio_base_cop: 137200000}
+      - {anio: 2024, version: "ST-Line HEV AWD", precio_base_cop: 150800000}
 
   - modelo: Bronco Sport
     imagen_id: veh-ford-bronco-sport
@@ -158,6 +194,10 @@ modelos:
     versiones:
       - {anio: 2026, version: Big Bend 1.5 EcoBoost 4x4, precio_base_cop: 164900000}
       - {anio: 2026, version: Badlands 2.0 EcoBoost 4x4, precio_base_cop: 189900000, patrones_excluir: true, motor_descripcion: "2.0 EcoBoost", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, potencia_hp: 250, rpm_potencia_max: 5500, torque_nm: 373, aceleracion_0_100_seg: 7.4, consumo_mixto_kml: 10.5, consumo_real_estimado_kml: 8.6, peso_vacio_kg: 1700, distancia_libre_suelo_mm: 223, tapiceria: Cuero sintético, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
+      - {anio: 2021, version: "Big Bend 1.5 EcoBoost 4x4", precio_base_cop: 107100000}
+      - {anio: 2022, version: "Big Bend 1.5 EcoBoost 4x4", precio_base_cop: 114600000}
+      - {anio: 2023, version: "Big Bend 1.5 EcoBoost 4x4", precio_base_cop: 122500000}
+      - {anio: 2024, version: "Big Bend 1.5 EcoBoost 4x4", precio_base_cop: 131100000}
 
   - modelo: Territory
     imagen_id: veh-ford-territory
@@ -189,6 +229,8 @@ modelos:
         - {componente: "Historial", descripcion: "Sin historial local largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: Titanium 1.5 EcoBoost, precio_base_cop: 144900000}
+      - {anio: 2023, version: "Titanium 1.5 EcoBoost", precio_base_cop: 102000000}
+      - {anio: 2024, version: "Titanium 1.5 EcoBoost", precio_base_cop: 112100000}
 
   - modelo: Explorer
     imagen_id: veh-ford-explorer
@@ -220,6 +262,11 @@ modelos:
         - {componente: "Llamados a revisión", descripcion: "Generación con numerosas campañas en EE. UU.; verifica por VIN.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: Limited 2.3 EcoBoost 4x4, precio_base_cop: 289900000, fecha_precio: 2025-01-01}
+      - {anio: 2020, version: "Limited 2.3 EcoBoost 4x4", precio_base_cop: 163000000}
+      - {anio: 2021, version: "Limited 2.3 EcoBoost 4x4", precio_base_cop: 179100000}
+      - {anio: 2022, version: "Limited 2.3 EcoBoost 4x4", precio_base_cop: 196800000}
+      - {anio: 2023, version: "Limited 2.3 EcoBoost 4x4", precio_base_cop: 216300000}
+      - {anio: 2024, version: "Limited 2.3 EcoBoost 4x4", precio_base_cop: 237700000}
 
   - modelo: Ranger
     imagen_id: veh-ford-ranger
@@ -253,6 +300,8 @@ modelos:
       - {anio: 2026, version: XLT 2.0 biturbo AT 4x4, precio_base_cop: 209900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, medida_llantas: "255/65 R18", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
       - {anio: 2026, version: Limited 3.0 V6 AT 4x4, precio_base_cop: 249900000, motor_descripcion: "3.0 V6 turbodiésel", cilindraje_cc: 2993, cilindros: 6, valvulas: 24, potencia_hp: 250, rpm_potencia_max: 3250, torque_nm: 600, aceleracion_0_100_seg: 8.5, tapiceria: Cuero, llave_inteligente: true, carga_inalambrica: true, pantalla_multimedia_pulgadas: 12, medida_llantas: "255/60 R20", consumo_mixto_kml: 10.5, consumo_real_estimado_kml: 8.8, peso_vacio_kg: 2350, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
       - {anio: 2025, version: XLS 2.0 biturbo AT 4x4, precio_base_cop: 182900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "XLS 2.0 biturbo AT 4x4", precio_base_cop: 141100000}
+      - {anio: 2024, version: "XLS 2.0 biturbo AT 4x4", precio_base_cop: 150900000}
 
   - modelo: Ranger Raptor
     imagen_id: veh-ford-ranger-raptor
@@ -283,6 +332,8 @@ modelos:
         - {componente: "Ancho", descripcion: "2.028 mm sin espejos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: Raptor 3.0 V6 AT 4x4, precio_base_cop: 319900000}
+      - {anio: 2023, version: "Raptor 3.0 V6 AT 4x4", precio_base_cop: 237700000}
+      - {anio: 2024, version: "Raptor 3.0 V6 AT 4x4", precio_base_cop: 254200000}
 
   - modelo: F-150
     imagen_id: veh-ford-f-150
@@ -314,6 +365,10 @@ modelos:
     versiones:
       - {anio: 2026, version: XLT 3.5 EcoBoost 4x4, precio_base_cop: 309900000, tapiceria: Tela, techo_corredizo: false}
       - {anio: 2026, version: Lariat PowerBoost HEV 4x4, precio_base_cop: 359900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "3.5 V6 EcoBoost PowerBoost híbrido", potencia_hp: 430, torque_nm: 773, potencia_electrica_kw: 35, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 9.0, consumo_real_estimado_kml: 7.6, peso_vacio_kg: 2600}
+      - {anio: 2021, version: "XLT 3.5 EcoBoost 4x4", precio_base_cop: 201300000, tapiceria: "Tela", techo_corredizo: false}
+      - {anio: 2022, version: "XLT 3.5 EcoBoost 4x4", precio_base_cop: 215300000, tapiceria: "Tela", techo_corredizo: false}
+      - {anio: 2023, version: "XLT 3.5 EcoBoost 4x4", precio_base_cop: 230300000, tapiceria: "Tela", techo_corredizo: false}
+      - {anio: 2024, version: "XLT 3.5 EcoBoost 4x4", precio_base_cop: 246300000, tapiceria: "Tela", techo_corredizo: false}
 
   - modelo: Maverick
     imagen_id: veh-ford-maverick
@@ -345,6 +400,9 @@ modelos:
     versiones:
       - {anio: 2026, version: XLT HEV, precio_base_cop: 154900000}
       - {anio: 2026, version: Lariat HEV, precio_base_cop: 169900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Control crucero adaptativo]}
+      - {anio: 2022, version: "XLT HEV", precio_base_cop: 112900000}
+      - {anio: 2023, version: "XLT HEV", precio_base_cop: 118800000}
+      - {anio: 2024, version: "XLT HEV", precio_base_cop: 125100000}
 
   - modelo: Mustang
     imagen_id: veh-ford-mustang
@@ -376,6 +434,7 @@ modelos:
     versiones:
       - {anio: 2026, version: GT 5.0 V8 AT, precio_base_cop: 339900000}
       - {anio: 2026, version: Dark Horse 5.0 V8 AT, precio_base_cop: 429900000, potencia_hp: 500, torque_nm: 567, aceleracion_0_100_seg: 4.2, medida_llantas: "275/35 R19", peso_vacio_kg: 1830}
+      - {anio: 2024, version: "GT 5.0 V8 AT", precio_base_cop: 270100000}
 
   - modelo: Mustang Mach-E
     imagen_id: veh-ford-mustang-mach-e
@@ -407,3 +466,6 @@ modelos:
         - {componente: "Llamados a revisión", descripcion: "Campañas por alto voltaje en EE. UU.; verifica por VIN.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: Select RWD 72 kWh, precio_base_cop: 229900000, fecha_precio: 2025-01-01}
+      - {anio: 2022, version: "Select RWD 72 kWh", precio_base_cop: 156100000}
+      - {anio: 2023, version: "Select RWD 72 kWh", precio_base_cop: 171500000}
+      - {anio: 2024, version: "Select RWD 72 kWh", precio_base_cop: 188500000}
