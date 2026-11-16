@@ -16,6 +16,7 @@ const C = T.landing.caracteristicas
         <ItemCaracteristica v-for="i in C.izquierda" :key="i.titulo" v-bind="i" lado="izquierda" />
       </ul>
       <div class="relative mx-auto flex h-[420px] w-[300px] items-center justify-center">
+        <span class="absolute left-1/2 top-[45%] h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-elevada/50" aria-hidden="true" />
         <img :src="autoCenital" :alt="C.autoAlt" class="relative h-[400px] w-auto drop-shadow-[0_18px_16px_rgb(0_0_0/0.18)]" width="200" height="440" loading="lazy" decoding="async" />
       </div>
       <ul class="grid gap-10">
