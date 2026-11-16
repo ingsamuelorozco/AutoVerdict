@@ -33,6 +33,7 @@ modelos:
     versiones:
       - {anio: 2026, version: Core 69 kWh, precio_base_cop: 189900000}
       - {anio: 2026, version: Plus 69 kWh, precio_base_cop: 209900000, techo_corredizo: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego, Cámara 360]}
+      - {anio: 2024, version: "Core 69 kWh", precio_base_cop: 150900000}
 
   - modelo: XC40
     imagen_id: veh-volvo-xc40
@@ -65,6 +66,13 @@ modelos:
     versiones:
       - {anio: 2026, version: B4 Plus, precio_base_cop: 209900000}
       - {anio: 2025, version: B4 Plus, precio_base_cop: 199900000, fecha_precio: 2025-03-01}
+      - {anio: 2018, version: "B4 Plus", precio_base_cop: 111500000}
+      - {anio: 2019, version: "B4 Plus", precio_base_cop: 119200000}
+      - {anio: 2020, version: "B4 Plus", precio_base_cop: 127500000}
+      - {anio: 2021, version: "B4 Plus", precio_base_cop: 136400000}
+      - {anio: 2022, version: "B4 Plus", precio_base_cop: 145800000}
+      - {anio: 2023, version: "B4 Plus", precio_base_cop: 156000000}
+      - {anio: 2024, version: "B4 Plus", precio_base_cop: 166800000}
 
   - modelo: XC60
     imagen_id: veh-volvo-xc60
@@ -97,6 +105,14 @@ modelos:
     versiones:
       - {anio: 2026, version: B5 AWD Plus, precio_base_cop: 289900000}
       - {anio: 2026, version: B5 AWD Ultra, precio_base_cop: 319900000, medida_llantas: "255/45 R20"}
+      - {anio: 2017, version: "B5 AWD Plus", precio_base_cop: 143900000}
+      - {anio: 2018, version: "B5 AWD Plus", precio_base_cop: 153900000}
+      - {anio: 2019, version: "B5 AWD Plus", precio_base_cop: 164600000}
+      - {anio: 2020, version: "B5 AWD Plus", precio_base_cop: 176100000}
+      - {anio: 2021, version: "B5 AWD Plus", precio_base_cop: 188300000}
+      - {anio: 2022, version: "B5 AWD Plus", precio_base_cop: 201400000}
+      - {anio: 2023, version: "B5 AWD Plus", precio_base_cop: 215400000}
+      - {anio: 2024, version: "B5 AWD Plus", precio_base_cop: 230400000}
 
   - modelo: XC90
     imagen_id: veh-volvo-xc90
@@ -131,3 +147,13 @@ modelos:
     versiones:
       - {anio: 2026, version: B6 AWD Plus, precio_base_cop: 389900000}
       - {anio: 2026, version: B6 AWD Ultra, precio_base_cop: 429900000, medida_llantas: "275/40 R21"}
+      - {anio: 2015, version: "B6 AWD Plus", precio_base_cop: 169200000}
+      - {anio: 2016, version: "B6 AWD Plus", precio_base_cop: 181000000}
+      - {anio: 2017, version: "B6 AWD Plus", precio_base_cop: 193600000}
+      - {anio: 2018, version: "B6 AWD Plus", precio_base_cop: 207000000}
+      - {anio: 2019, version: "B6 AWD Plus", precio_base_cop: 221400000}
+      - {anio: 2020, version: "B6 AWD Plus", precio_base_cop: 236800000}
+      - {anio: 2021, version: "B6 AWD Plus", precio_base_cop: 253300000}
+      - {anio: 2022, version: "B6 AWD Plus", precio_base_cop: 270900000}
+      - {anio: 2023, version: "B6 AWD Plus", precio_base_cop: 289700000}
+      - {anio: 2024, version: "B6 AWD Plus", precio_base_cop: 309900000}
