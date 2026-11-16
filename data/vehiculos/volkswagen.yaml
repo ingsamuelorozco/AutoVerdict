@@ -33,6 +33,13 @@ modelos:
       - {anio: 2026, version: Trendline 1.6 MT, precio_base_cop: 79900000}
       - {anio: 2026, version: Highline 1.6 AT, precio_base_cop: 92900000, transmision_tipo: Automática, numero_velocidades: 6, aire_acondicionado: Automático, camara_reversa: true, luces_led: true, consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.2}
       - {anio: 2026, version: GTS 1.4 TSI AT, precio_base_cop: 109900000, motor_descripcion: "1.4 TSI", cilindraje_cc: 1395, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.3, velocidad_maxima_kmh: 210, transmision_tipo: Automática, numero_velocidades: 6, frenos_traseros: Disco, medida_llantas: "205/50 R17", aire_acondicionado: Automático, camara_reversa: true, luces_led: true, llave_inteligente: true, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.6, adas_incluidas: [Frenado autónomo de emergencia]}
+      - {anio: 2018, version: "Trendline 1.6 MT", precio_base_cop: 42400000}
+      - {anio: 2019, version: "Trendline 1.6 MT", precio_base_cop: 45400000}
+      - {anio: 2020, version: "Trendline 1.6 MT", precio_base_cop: 48500000}
+      - {anio: 2021, version: "Trendline 1.6 MT", precio_base_cop: 51900000}
+      - {anio: 2022, version: "Trendline 1.6 MT", precio_base_cop: 55500000}
+      - {anio: 2023, version: "Trendline 1.6 MT", precio_base_cop: 59400000}
+      - {anio: 2024, version: "Trendline 1.6 MT", precio_base_cop: 63500000}
 
   - modelo: Virtus
     imagen_id: veh-volkswagen-virtus
@@ -65,6 +72,13 @@ modelos:
       - {anio: 2026, version: Comfortline 1.6 MT, precio_base_cop: 84900000}
       - {anio: 2026, version: Highline 1.6 AT, precio_base_cop: 96900000, transmision_tipo: Automática, numero_velocidades: 6, aire_acondicionado: Automático, camara_reversa: true, luces_led: true, consumo_mixto_kml: 14.5, consumo_real_estimado_kml: 12.2}
       - {anio: 2026, version: Exclusive 1.4 TSI AT, precio_base_cop: 112900000, motor_descripcion: "1.4 TSI", cilindraje_cc: 1395, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.6, velocidad_maxima_kmh: 205, transmision_tipo: Automática, numero_velocidades: 6, frenos_traseros: Disco, tapiceria: Cuero sintético, aire_acondicionado: Automático, camara_reversa: true, luces_led: true, llave_inteligente: true, carga_inalambrica: true, pantalla_multimedia_pulgadas: 10.1, consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 11.6, adas_incluidas: [Frenado autónomo de emergencia]}
+      - {anio: 2018, version: "Comfortline 1.6 MT", precio_base_cop: 45100000}
+      - {anio: 2019, version: "Comfortline 1.6 MT", precio_base_cop: 48200000}
+      - {anio: 2020, version: "Comfortline 1.6 MT", precio_base_cop: 51600000}
+      - {anio: 2021, version: "Comfortline 1.6 MT", precio_base_cop: 55200000}
+      - {anio: 2022, version: "Comfortline 1.6 MT", precio_base_cop: 59000000}
+      - {anio: 2023, version: "Comfortline 1.6 MT", precio_base_cop: 63100000}
+      - {anio: 2024, version: "Comfortline 1.6 MT", precio_base_cop: 67500000}
 
   - modelo: T-Cross
     imagen_id: veh-volkswagen-t-cross
@@ -97,6 +111,11 @@ modelos:
       - {anio: 2026, version: Trendline 1.6 AT, precio_base_cop: 104900000}
       - {anio: 2026, version: Highline 1.4 TSI AT, precio_base_cop: 124900000, motor_descripcion: "1.4 TSI", cilindraje_cc: 1395, alimentacion: Turbo, potencia_hp: 150, rpm_potencia_max: 5000, torque_nm: 250, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.9, velocidad_maxima_kmh: 200, frenos_traseros: Disco, tapiceria: Cuero sintético, luces_led: true, llave_inteligente: true, carga_inalambrica: true, pantalla_multimedia_pulgadas: 10.1, medida_llantas: "205/55 R17", consumo_mixto_kml: 13.5, consumo_real_estimado_kml: 11.2, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Control crucero adaptativo]}
       - {anio: 2024, version: Comfortline 1.6 AT, precio_base_cop: 101900000, fecha_precio: 2024-03-01}
+      - {anio: 2019, version: "Trendline 1.6 AT", precio_base_cop: 59600000}
+      - {anio: 2020, version: "Trendline 1.6 AT", precio_base_cop: 63700000}
+      - {anio: 2021, version: "Trendline 1.6 AT", precio_base_cop: 68100000}
+      - {anio: 2022, version: "Trendline 1.6 AT", precio_base_cop: 72900000}
+      - {anio: 2023, version: "Trendline 1.6 AT", precio_base_cop: 78000000}
 
   - modelo: Nivus
     imagen_id: veh-volkswagen-nivus
@@ -128,6 +147,10 @@ modelos:
     versiones:
       - {anio: 2026, version: Comfortline 1.0 TSI AT, precio_base_cop: 109900000}
       - {anio: 2026, version: Highline 1.0 TSI AT, precio_base_cop: 119900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, medida_llantas: "205/55 R17", adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril]}
+      - {anio: 2021, version: "Comfortline 1.0 TSI AT", precio_base_cop: 71400000}
+      - {anio: 2022, version: "Comfortline 1.0 TSI AT", precio_base_cop: 76400000}
+      - {anio: 2023, version: "Comfortline 1.0 TSI AT", precio_base_cop: 81700000}
+      - {anio: 2024, version: "Comfortline 1.0 TSI AT", precio_base_cop: 87300000}
 
   - modelo: Taos
     imagen_id: veh-volkswagen-taos
@@ -159,6 +182,10 @@ modelos:
     versiones:
       - {anio: 2026, version: Comfortline 1.4 TSI AT, precio_base_cop: 139900000}
       - {anio: 2026, version: Highline 1.4 TSI AT, precio_base_cop: 154900000, tapiceria: Cuero sintético, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, medida_llantas: "215/50 R18", adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+      - {anio: 2021, version: "Comfortline 1.4 TSI AT", precio_base_cop: 90900000}
+      - {anio: 2022, version: "Comfortline 1.4 TSI AT", precio_base_cop: 97200000}
+      - {anio: 2023, version: "Comfortline 1.4 TSI AT", precio_base_cop: 104000000}
+      - {anio: 2024, version: "Comfortline 1.4 TSI AT", precio_base_cop: 111200000}
 
   - modelo: Tiguan
     imagen_id: veh-volkswagen-tiguan
@@ -190,6 +217,13 @@ modelos:
         - {componente: "Tercera fila", descripcion: "Solo para niños; baúl de 230 litros con siete puestos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2026, version: Allspace Elegance 2.0 TSI 4Motion, precio_base_cop: 199900000}
+      - {anio: 2018, version: "Allspace Elegance 2.0 TSI 4Motion", precio_base_cop: 87800000}
+      - {anio: 2019, version: "Allspace Elegance 2.0 TSI 4Motion", precio_base_cop: 96500000}
+      - {anio: 2020, version: "Allspace Elegance 2.0 TSI 4Motion", precio_base_cop: 106000000}
+      - {anio: 2021, version: "Allspace Elegance 2.0 TSI 4Motion", precio_base_cop: 116500000}
+      - {anio: 2022, version: "Allspace Elegance 2.0 TSI 4Motion", precio_base_cop: 128000000}
+      - {anio: 2023, version: "Allspace Elegance 2.0 TSI 4Motion", precio_base_cop: 140700000}
+      - {anio: 2024, version: "Allspace Elegance 2.0 TSI 4Motion", precio_base_cop: 154600000}
 
   - modelo: Jetta
     imagen_id: veh-volkswagen-jetta
@@ -221,6 +255,12 @@ modelos:
     versiones:
       - {anio: 2026, version: Comfortline 1.4 TSI AT, precio_base_cop: 124900000}
       - {anio: 2026, version: GLI 2.0 TSI DSG, precio_base_cop: 169900000, motor_descripcion: "2.0 TSI", cilindraje_cc: 1984, potencia_hp: 228, rpm_potencia_max: 5000, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 6.5, velocidad_maxima_kmh: 250, transmision_tipo: Doble embrague húmedo DSG, numero_velocidades: 7, suspension_trasera: Multibrazo, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, medida_llantas: "225/40 R18", octanaje_minimo_recomendado: 95, tipo_combustible: Gasolina Extra, consumo_mixto_kml: 12.5, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1440, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Control crucero adaptativo, Asistente de mantenimiento de carril]}
+      - {anio: 2019, version: "Comfortline 1.4 TSI AT", precio_base_cop: 70900000}
+      - {anio: 2020, version: "Comfortline 1.4 TSI AT", precio_base_cop: 75900000}
+      - {anio: 2021, version: "Comfortline 1.4 TSI AT", precio_base_cop: 81100000}
+      - {anio: 2022, version: "Comfortline 1.4 TSI AT", precio_base_cop: 86800000}
+      - {anio: 2023, version: "Comfortline 1.4 TSI AT", precio_base_cop: 92800000}
+      - {anio: 2024, version: "Comfortline 1.4 TSI AT", precio_base_cop: 99300000}
 
   - modelo: Golf
     imagen_id: veh-volkswagen-golf
@@ -252,6 +292,17 @@ modelos:
     versiones:
       - {anio: 2019, version: Comfortline 1.4 TSI DSG, precio_base_cop: 89900000, fecha_precio: 2019-04-01, patrones: [dsg_dq200], estado_comercial: Descontinuado}
       - {anio: 2025, version: GTI 2.0 TSI DSG, precio_base_cop: 199900000, fecha_precio: 2025-02-01, segmento: Deportivo, motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: Doble embrague húmedo DSG, numero_velocidades: 7, tipo_combustible: Gasolina Extra, octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: Inalámbrico, tapiceria: Cuero, llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: [Frenado autónomo de emergencia, Control crucero adaptativo, Asistente de mantenimiento de carril, Monitoreo de punto ciego]}
+      - {anio: 2013, version: "GTI 2.0 TSI DSG", precio_base_cop: 80400000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2014, version: "GTI 2.0 TSI DSG", precio_base_cop: 86000000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2015, version: "GTI 2.0 TSI DSG", precio_base_cop: 92000000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2016, version: "GTI 2.0 TSI DSG", precio_base_cop: 98400000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2017, version: "GTI 2.0 TSI DSG", precio_base_cop: 105200000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2018, version: "GTI 2.0 TSI DSG", precio_base_cop: 112500000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2020, version: "GTI 2.0 TSI DSG", precio_base_cop: 128700000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2021, version: "GTI 2.0 TSI DSG", precio_base_cop: 137700000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2022, version: "GTI 2.0 TSI DSG", precio_base_cop: 147200000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2023, version: "GTI 2.0 TSI DSG", precio_base_cop: 157500000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
+      - {anio: 2024, version: "GTI 2.0 TSI DSG", precio_base_cop: 168400000, segmento: "Deportivo", motor_descripcion: "2.0 TSI EA888", cilindraje_cc: 1984, potencia_hp: 245, rpm_potencia_max: 5000, torque_nm: 370, rpm_torque_max: 1600, aceleracion_0_100_seg: 6.3, velocidad_maxima_kmh: 250, transmision_tipo: "Doble embrague húmedo DSG", numero_velocidades: 7, tipo_combustible: "Gasolina Extra", octanaje_minimo_recomendado: 95, medida_llantas: "225/40 R18", pantalla_multimedia_pulgadas: 10, apple_carplay_android_auto: "Inalámbrico", tapiceria: "Cuero", llave_inteligente: true, carga_inalambrica: true, consumo_mixto_kml: 13.0, consumo_real_estimado_kml: 10.0, peso_vacio_kg: 1430, ncap_anio: 2019, ncap_protocolo: "Euro NCAP 2019", adas_incluidas: ["Frenado autónomo de emergencia", "Control crucero adaptativo", "Asistente de mantenimiento de carril", "Monitoreo de punto ciego"]}
 
   - modelo: Amarok
     imagen_id: veh-volkswagen-amarok
@@ -283,6 +334,20 @@ modelos:
     versiones:
       - {anio: 2026, version: Highline V6 AT 4Motion, precio_base_cop: 239900000}
       - {anio: 2026, version: Comfortline 2.0 TDI MT 4x4, precio_base_cop: 179900000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: Manual, numero_velocidades: 6, traccion: 4x4, medida_llantas: "245/65 R17", tapiceria: Tela, aire_acondicionado: Manual, consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2011, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 59700000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2012, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 63800000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2013, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 68300000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2014, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 73000000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2015, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 78100000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2016, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 83500000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2017, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 89300000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2018, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 95500000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2019, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 102200000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2020, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 109300000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2021, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 116900000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2022, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 125000000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2023, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 133700000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
+      - {anio: 2024, version: "Comfortline 2.0 TDI MT 4x4", precio_base_cop: 143000000, motor_descripcion: "2.0 TDI biturbo", cilindraje_cc: 1968, cilindros: 4, valvulas: 16, potencia_hp: 180, rpm_potencia_max: 4000, torque_nm: 420, rpm_torque_max: 1750, aceleracion_0_100_seg: 10.9, velocidad_maxima_kmh: 180, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "4x4", medida_llantas: "245/65 R17", tapiceria: "Tela", aire_acondicionado: "Manual", consumo_mixto_kml: 11.5, consumo_real_estimado_kml: 9.8, peso_vacio_kg: 2050}
 
   - modelo: Saveiro
     imagen_id: veh-volkswagen-saveiro
@@ -315,6 +380,21 @@ modelos:
         - {componente: "Confort", descripcion: "Ballestas: dura sin carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: Robust 1.6 MT, precio_base_cop: 79900000, fecha_precio: 2025-01-01}
+      - {anio: 2010, version: "Robust 1.6 MT", precio_base_cop: 26300000}
+      - {anio: 2011, version: "Robust 1.6 MT", precio_base_cop: 28100000}
+      - {anio: 2012, version: "Robust 1.6 MT", precio_base_cop: 30000000}
+      - {anio: 2013, version: "Robust 1.6 MT", precio_base_cop: 32100000}
+      - {anio: 2014, version: "Robust 1.6 MT", precio_base_cop: 34400000}
+      - {anio: 2015, version: "Robust 1.6 MT", precio_base_cop: 36800000}
+      - {anio: 2016, version: "Robust 1.6 MT", precio_base_cop: 39300000}
+      - {anio: 2017, version: "Robust 1.6 MT", precio_base_cop: 42000000}
+      - {anio: 2018, version: "Robust 1.6 MT", precio_base_cop: 45000000}
+      - {anio: 2019, version: "Robust 1.6 MT", precio_base_cop: 48100000}
+      - {anio: 2020, version: "Robust 1.6 MT", precio_base_cop: 51400000}
+      - {anio: 2021, version: "Robust 1.6 MT", precio_base_cop: 55000000}
+      - {anio: 2022, version: "Robust 1.6 MT", precio_base_cop: 58800000}
+      - {anio: 2023, version: "Robust 1.6 MT", precio_base_cop: 62900000}
+      - {anio: 2024, version: "Robust 1.6 MT", precio_base_cop: 67300000}
 
   - modelo: Gol
     imagen_id: veh-volkswagen-gol
@@ -347,6 +427,20 @@ modelos:
     versiones:
       - {anio: 2022, version: Trendline 1.6 MT, precio_base_cop: 56900000, fecha_precio: 2022-03-01}
       - {anio: 2020, version: Comfortline 1.6 MT, precio_base_cop: 49900000, fecha_precio: 2020-03-01}
+      - {anio: 2009, version: "Trendline 1.6 MT", precio_base_cop: 20800000}
+      - {anio: 2010, version: "Trendline 1.6 MT", precio_base_cop: 22300000}
+      - {anio: 2011, version: "Trendline 1.6 MT", precio_base_cop: 23800000}
+      - {anio: 2012, version: "Trendline 1.6 MT", precio_base_cop: 25500000}
+      - {anio: 2013, version: "Trendline 1.6 MT", precio_base_cop: 27300000}
+      - {anio: 2014, version: "Trendline 1.6 MT", precio_base_cop: 29200000}
+      - {anio: 2015, version: "Trendline 1.6 MT", precio_base_cop: 31200000}
+      - {anio: 2016, version: "Trendline 1.6 MT", precio_base_cop: 33300000}
+      - {anio: 2017, version: "Trendline 1.6 MT", precio_base_cop: 35700000}
+      - {anio: 2018, version: "Trendline 1.6 MT", precio_base_cop: 38100000}
+      - {anio: 2019, version: "Trendline 1.6 MT", precio_base_cop: 40800000}
+      - {anio: 2021, version: "Trendline 1.6 MT", precio_base_cop: 46700000}
+      - {anio: 2023, version: "Trendline 1.6 MT", precio_base_cop: 53400000}
+      - {anio: 2024, version: "Trendline 1.6 MT", precio_base_cop: 57100000}
 
   - modelo: Voyage
     generacion: Sexta generación (G7)
@@ -378,6 +472,20 @@ modelos:
     versiones:
       - {anio: 2022, version: Trendline 1.6 MT, precio_base_cop: 59900000, fecha_precio: 2022-03-01}
       - {anio: 2020, version: Comfortline 1.6 MT, precio_base_cop: 52900000, fecha_precio: 2020-03-01}
+      - {anio: 2009, version: "Trendline 1.6 MT", precio_base_cop: 21900000}
+      - {anio: 2010, version: "Trendline 1.6 MT", precio_base_cop: 23500000}
+      - {anio: 2011, version: "Trendline 1.6 MT", precio_base_cop: 25100000}
+      - {anio: 2012, version: "Trendline 1.6 MT", precio_base_cop: 26800000}
+      - {anio: 2013, version: "Trendline 1.6 MT", precio_base_cop: 28700000}
+      - {anio: 2014, version: "Trendline 1.6 MT", precio_base_cop: 30700000}
+      - {anio: 2015, version: "Trendline 1.6 MT", precio_base_cop: 32800000}
+      - {anio: 2016, version: "Trendline 1.6 MT", precio_base_cop: 35100000}
+      - {anio: 2017, version: "Trendline 1.6 MT", precio_base_cop: 37500000}
+      - {anio: 2018, version: "Trendline 1.6 MT", precio_base_cop: 40200000}
+      - {anio: 2019, version: "Trendline 1.6 MT", precio_base_cop: 42900000}
+      - {anio: 2021, version: "Trendline 1.6 MT", precio_base_cop: 49100000}
+      - {anio: 2023, version: "Trendline 1.6 MT", precio_base_cop: 56200000}
+      - {anio: 2024, version: "Trendline 1.6 MT", precio_base_cop: 60100000}
 
   - modelo: Teramont
     imagen_id: veh-volkswagen-teramont
@@ -409,3 +517,10 @@ modelos:
         - {componente: "Reventa", descripcion: "Se desvaloriza rápido.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2026, version: Highline 2.0 TSI 4Motion, precio_base_cop: 279900000}
+      - {anio: 2018, version: "Highline 2.0 TSI 4Motion", precio_base_cop: 122900000}
+      - {anio: 2019, version: "Highline 2.0 TSI 4Motion", precio_base_cop: 135100000}
+      - {anio: 2020, version: "Highline 2.0 TSI 4Motion", precio_base_cop: 148500000}
+      - {anio: 2021, version: "Highline 2.0 TSI 4Motion", precio_base_cop: 163200000}
+      - {anio: 2022, version: "Highline 2.0 TSI 4Motion", precio_base_cop: 179300000}
+      - {anio: 2023, version: "Highline 2.0 TSI 4Motion", precio_base_cop: 197000000}
+      - {anio: 2024, version: "Highline 2.0 TSI 4Motion", precio_base_cop: 216500000}
