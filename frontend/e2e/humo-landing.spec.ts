@@ -23,3 +23,21 @@ test('el buscador rápido lleva a /buscar con los filtros elegidos', async ({ pa
   await expect(page).toHaveURL(/carroceria=SUV/)
   await expect(page).toHaveURL(/marca=Mazda/)
 })
+
+test('la búsqueda agrupa por modelo y el modelo muestra las versiones del año elegido', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  await page.goto('/buscar?marca=Mazda')
+  // Sedán y hatchback son tarjetas distintas; las versiones van dentro.
+  await expect(page.getByRole('heading', { name: 'Mazda 2 Sedán', exact: true })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Mazda 2 Hatchback', exact: true })).toBeVisible()
+  await page.getByRole('link', { name: 'Mazda 2 Sedán', exact: true }).click()
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Mazda 2 Sedán')
+  const pestanas = page.getByRole('tab')
+  await expect(pestanas.first()).toHaveAttribute('aria-selected', 'true')
+  const anio = (await pestanas.last().textContent())!.trim()
+  await pestanas.last().click()
+  await expect(page).toHaveURL(new RegExp(`anio=${anio}`))
+  await expect(page.getByText(new RegExp(`(versión|versiones) en ${anio}`))).toBeVisible()
+  // La primera etiqueta de cada tarjeta es «Segmento · año».
+  for (const etiqueta of await page.locator('article p.etiqueta.truncate').allTextContents()) expect(etiqueta).toContain(anio)
+})

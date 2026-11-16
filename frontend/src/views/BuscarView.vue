@@ -10,8 +10,9 @@ import { useAjustes } from '@/stores/ajustes'
 import { useFavoritos } from '@/stores/favoritos'
 import EstadoCarga from '@/components/EstadoCarga.vue'
 import TarjetaVehiculo from '@/components/TarjetaVehiculo.vue'
+import TarjetaModelo from '@/components/TarjetaModelo.vue'
 import SelectorMultiple from '@/components/SelectorMultiple.vue'
-import type { Paginado, Tarjeta } from '@/lib/tipos'
+import type { Modelo, Paginado, PaginadoModelos, Tarjeta } from '@/lib/tipos'
 import { formatoNumero } from '@/composables/useFormato'
 import { OPC } from '@/lib/opciones'
 
@@ -58,11 +59,22 @@ const conActual = (lista: number[], v: string) => (v && !lista.includes(Number(v
 const { datos, cargando, error, ejecutar } = useCarga(async () => {
   const p: Record<string, unknown> = { ...filtros.value, size: 24, page: Number(filtros.value.page) || 1 }
   for (const k of ['precio_min', 'precio_max'] as const) if (filtros.value[k]) p[k] = Number(filtros.value[k]) * factorMoneda.value
+  // Favoritos son versiones concretas: se listan una a una. La búsqueda normal agrupa por modelo.
   if (soloFavoritos.value) {
-    if (!fav.ids.length) return { total: 0, page: 1, size: 24, paginas: 0, resultados: [], sugerencia: 'Aún no tienes favoritos: marca el corazón en cualquier tarjeta.' }
+    if (!fav.ids.length) return { total: 0, page: 1, size: 24, paginas: 0, resultados: [], sugerencia: 'Aún no tienes favoritos: marca el corazón en cualquier tarjeta.' } as Paginado<Tarjeta>
     p.ids = fav.ids
+    return api.get<Paginado<Tarjeta>>('/vehiculos', p as never)
   }
-  return api.get<Paginado<Tarjeta>>('/vehiculos', p as never)
+  return api.get<PaginadoModelos>('/vehiculos/modelos', p as never)
+})
+const versiones = computed(() => (soloFavoritos.value ? (datos.value?.resultados as Tarjeta[] | undefined) ?? [] : []))
+const modelos = computed(() => (soloFavoritos.value ? [] : (datos.value?.resultados as Modelo[] | undefined) ?? []))
+const resumen = computed(() => {
+  const d = datos.value
+  if (!d) return ''
+  if (soloFavoritos.value) return `${d.total} ${d.total === 1 ? 'versión' : 'versiones'}`
+  const v = (d as PaginadoModelos).total_versiones ?? 0
+  return `${d.total} ${d.total === 1 ? 'modelo' : 'modelos'} · ${v} ${v === 1 ? 'versión' : 'versiones'}`
 })
 
 function aUrl() {
@@ -165,11 +177,12 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
       </aside>
 
       <section aria-live="polite">
-        <p v-if="datos" class="etiqueta mb-6 num">{{ datos.total }} versiones</p>
+        <p v-if="datos" class="etiqueta mb-6 num">{{ resumen }}</p>
         <EstadoCarga :cargando="cargando" :error="error" :vacio="!!datos && !datos.total" :filas="6" @reintentar="ejecutar">
           <template #vacio><p class="text-sm text-tenue">{{ datos?.sugerencia }}</p></template>
           <div :class="vista === 'grid' ? 'grid gap-6 sm:grid-cols-2 xl:grid-cols-3' : 'grid gap-6'">
-            <TarjetaVehiculo v-for="v in datos?.resultados" :key="v.id" :v="v" :lista="vista === 'lista'" />
+            <TarjetaModelo v-for="m in modelos" :key="`${m.marca}|${m.modelo}`" :m="m" :lista="vista === 'lista'" />
+            <TarjetaVehiculo v-for="v in versiones" :key="v.id" :v="v" :lista="vista === 'lista'" />
           </div>
           <nav v-if="datos && datos.paginas > 1" class="mt-12 flex flex-wrap justify-center gap-1.5" aria-label="Paginación">
             <button v-for="n in datos.paginas" :key="n" :class="['chip min-h-[44px] min-w-[44px] justify-center num', n === datos.page ? 'chip-activo' : '']" :aria-current="n === datos.page ? 'page' : undefined" @click="pagina(n)">{{ n }}</button>
