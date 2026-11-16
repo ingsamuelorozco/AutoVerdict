@@ -2,11 +2,12 @@
 import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { onClickOutside } from '@vueuse/core'
-import { GitCompare, Heart, Menu, Moon, SlidersHorizontal, Sun, X } from 'lucide-vue-next'
+import { GitCompare, Heart, Menu, Moon, Sun, X } from 'lucide-vue-next'
 import MenuDesplegable from '@/components/MenuDesplegable.vue'
 import { useAjustes } from '@/stores/ajustes'
 import { useComparador } from '@/stores/comparador'
 import { useFavoritos } from '@/stores/favoritos'
+import { formatoNumero } from '@/composables/useFormato'
 import { T } from '@/lib/textos'
 
 const aj = useAjustes()
@@ -32,6 +33,7 @@ const principales = [
   { to: '/reviews', texto: T.navCorto.reviews },
 ]
 const herramientas = T.herramientas.map((h) => ({ to: h.ruta, texto: h.titulo }))
+const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?.nombre ?? '')
 </script>
 
 <template>
@@ -52,7 +54,8 @@ const herramientas = T.herramientas.map((h) => ({ to: h.ruta, texto: h.titulo })
         <!-- Ajustes regionales agrupados en un solo panel para despejar la barra -->
         <div ref="ajustesRef" class="relative flex h-full items-center">
           <button class="flex h-11 items-center gap-2 px-3 text-xs font-bold uppercase tracking-[1px] text-tinta transition-colors hover:bg-superficie" :aria-expanded="ajustesAbierto" aria-haspopup="dialog" aria-label="Moneda, TRM y ciudad" @click="ajustesAbierto = !ajustesAbierto">
-            <SlidersHorizontal class="h-4 w-4" aria-hidden="true" /> {{ aj.moneda }}
+            <span class="text-acento-texto num">{{ aj.moneda }} · TRM {{ formatoNumero(aj.trm) }}</span>
+            <span>{{ ciudadNombre || 'Ajustes' }}</span>
           </button>
           <div v-if="ajustesAbierto" class="absolute right-0 top-full grid w-80 gap-5 border border-t-0 border-linea bg-papel p-6" role="dialog" aria-label="Ajustes regionales">
             <div>
