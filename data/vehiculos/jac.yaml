@@ -35,6 +35,10 @@ modelos:
       - {anio: 2026, version: Comfort 1.5 MT, precio_base_cop: 69900000}
       - {anio: 2026, version: Luxury 1.5 CVT, precio_base_cop: 75900000, transmision_tipo: CVT, numero_velocidades: null, consumo_mixto_kml: 14.2, consumo_real_estimado_kml: 12.1, luces_led: true}
       - {anio: 2025, version: Comfort 1.5 MT, precio_base_cop: 67900000, fecha_precio: 2025-03-01}
+      - {anio: 2021, version: "Comfort 1.5 MT", precio_base_cop: 40700000}
+      - {anio: 2022, version: "Comfort 1.5 MT", precio_base_cop: 44800000}
+      - {anio: 2023, version: "Comfort 1.5 MT", precio_base_cop: 49200000}
+      - {anio: 2024, version: "Comfort 1.5 MT", precio_base_cop: 54100000}
 
   - modelo: JS4
     imagen_id: veh-jac-js4
@@ -69,6 +73,10 @@ modelos:
       - {anio: 2026, version: Comfort 1.5T CVT, precio_base_cop: 89900000}
       - {anio: 2026, version: Luxury 1.5T CVT, precio_base_cop: 99900000, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true}
       - {anio: 2025, version: Luxury 1.5T CVT, precio_base_cop: 97900000, fecha_precio: 2025-03-01, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true}
+      - {anio: 2021, version: "Comfort 1.5T CVT", precio_base_cop: 52400000}
+      - {anio: 2022, version: "Comfort 1.5T CVT", precio_base_cop: 57600000}
+      - {anio: 2023, version: "Comfort 1.5T CVT", precio_base_cop: 63300000}
+      - {anio: 2024, version: "Comfort 1.5T CVT", precio_base_cop: 69500000}
 
   - modelo: T8
     imagen_id: veh-jac-t8
@@ -102,6 +110,12 @@ modelos:
     versiones:
       - {anio: 2026, version: Pro 2.0 Diésel MT 4x4, precio_base_cop: 129900000}
       - {anio: 2025, version: Pro 2.0 Diésel MT 4x4, precio_base_cop: 125900000, fecha_precio: 2025-03-01}
+      - {anio: 2019, version: "Pro 2.0 Diésel MT 4x4", precio_base_cop: 62700000}
+      - {anio: 2020, version: "Pro 2.0 Diésel MT 4x4", precio_base_cop: 68900000}
+      - {anio: 2021, version: "Pro 2.0 Diésel MT 4x4", precio_base_cop: 75700000}
+      - {anio: 2022, version: "Pro 2.0 Diésel MT 4x4", precio_base_cop: 83200000}
+      - {anio: 2023, version: "Pro 2.0 Diésel MT 4x4", precio_base_cop: 91400000}
+      - {anio: 2024, version: "Pro 2.0 Diésel MT 4x4", precio_base_cop: 100500000}
 
   - modelo: E30X
     generacion: Primera generación
@@ -134,3 +148,5 @@ modelos:
     versiones:
       - {anio: 2026, version: E30X 41 kWh, precio_base_cop: 109900000}
       - {anio: 2025, version: E30X 41 kWh, precio_base_cop: 114900000, fecha_precio: 2025-03-01}
+      - {anio: 2023, version: "E30X 41 kWh", precio_base_cop: 77400000}
+      - {anio: 2024, version: "E30X 41 kWh", precio_base_cop: 85000000}
