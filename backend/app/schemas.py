@@ -38,7 +38,7 @@ class VehiculoRegistro(BaseModel):
     slug: str
     marca: str
     modelo: str
-    anio: int = Field(ge=2018, le=2026)
+    anio: int = Field(ge=2000, le=2026)
     version: str
     generacion: Optional[str] = None
     segmento: str

@@ -150,8 +150,9 @@ def main() -> int:
     if faltan:
         errores.append(f"Faltan marcas: {sorted(faltan)}")
     for m, n in marcas.items():
-        if not 8 <= n <= 30:
-            errores.append(f"{m}: {n} versiones (debe estar entre 8 y 30)")
+        # Con el catálogo histórico (2000–2026) una marca grande supera con creces las 30 versiones.
+        if not 8 <= n <= 600:
+            errores.append(f"{m}: {n} versiones (debe estar entre 8 y 600)")
     claves = Counter((v["marca"], v["modelo"], v["anio"], v["version"]) for v in vs)
     for k, n in claves.items():
         if n > 1:
