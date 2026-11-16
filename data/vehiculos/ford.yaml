@@ -3,6 +3,7 @@ pais_origen: Estados Unidos
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Fiesta
+    imagen_id: veh-ford-fiesta
     generacion: Sexta generación (fase 2)
     segmento: Hatchback B
     carroceria: Hatchback
@@ -34,6 +35,7 @@ modelos:
       - {anio: 2018, version: SE Sedán 1.6 Powershift, precio_base_cop: 54900000, fecha_precio: 2018-03-01, carroceria: Sedán, segmento: Sedán B, largo_mm: 4409, capacidad_baul_litros: 430, numero_airbags: 2, aire_acondicionado: Manual}
 
   - modelo: Focus
+    imagen_id: veh-ford-focus
     generacion: Tercera generación (fase 2)
     segmento: Sedán C
     carroceria: Sedán
@@ -64,6 +66,7 @@ modelos:
       - {anio: 2018, version: Titanium 2.0 Powershift, precio_base_cop: 79900000, fecha_precio: 2018-02-01}
 
   - modelo: EcoSport
+    imagen_id: veh-ford-ecosport
     generacion: Segunda generación (fase 2)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -94,6 +97,7 @@ modelos:
       - {anio: 2021, version: Titanium 1.5 AT, precio_base_cop: 89900000, fecha_precio: 2021-01-01}
 
   - modelo: Escape
+    imagen_id: veh-ford-escape
     generacion: Cuarta generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -124,6 +128,7 @@ modelos:
       - {anio: 2026, version: ST-Line HEV AWD, precio_base_cop: 194900000}
 
   - modelo: Bronco Sport
+    imagen_id: veh-ford-bronco-sport
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -155,6 +160,7 @@ modelos:
       - {anio: 2026, version: Badlands 2.0 EcoBoost 4x4, precio_base_cop: 189900000, patrones_excluir: true, motor_descripcion: "2.0 EcoBoost", cilindraje_cc: 1999, cilindros: 4, valvulas: 16, potencia_hp: 250, rpm_potencia_max: 5500, torque_nm: 373, aceleracion_0_100_seg: 7.4, consumo_mixto_kml: 10.5, consumo_real_estimado_kml: 8.6, peso_vacio_kg: 1700, distancia_libre_suelo_mm: 223, tapiceria: Cuero sintético, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo]}
 
   - modelo: Territory
+    imagen_id: veh-ford-territory
     generacion: Segunda generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -185,6 +191,7 @@ modelos:
       - {anio: 2026, version: Titanium 1.5 EcoBoost, precio_base_cop: 144900000}
 
   - modelo: Explorer
+    imagen_id: veh-ford-explorer
     generacion: Sexta generación
     segmento: SUV Grande
     carroceria: SUV
@@ -215,6 +222,7 @@ modelos:
       - {anio: 2025, version: Limited 2.3 EcoBoost 4x4, precio_base_cop: 289900000, fecha_precio: 2025-01-01}
 
   - modelo: Ranger
+    imagen_id: veh-ford-ranger
     generacion: Cuarta generación (P703)
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -247,6 +255,7 @@ modelos:
       - {anio: 2025, version: XLS 2.0 biturbo AT 4x4, precio_base_cop: 182900000, fecha_precio: 2025-03-01}
 
   - modelo: Ranger Raptor
+    imagen_id: veh-ford-ranger-raptor
     generacion: Segunda generación
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -276,6 +285,7 @@ modelos:
       - {anio: 2026, version: Raptor 3.0 V6 AT 4x4, precio_base_cop: 319900000}
 
   - modelo: F-150
+    imagen_id: veh-ford-f-150
     generacion: Decimocuarta generación
     segmento: Pickup Grande
     carroceria: Pickup
@@ -306,6 +316,7 @@ modelos:
       - {anio: 2026, version: Lariat PowerBoost HEV 4x4, precio_base_cop: 359900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "3.5 V6 EcoBoost PowerBoost híbrido", potencia_hp: 430, torque_nm: 773, potencia_electrica_kw: 35, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 9.0, consumo_real_estimado_kml: 7.6, peso_vacio_kg: 2600}
 
   - modelo: Maverick
+    imagen_id: veh-ford-maverick
     generacion: Primera generación
     segmento: Pickup Compacta
     carroceria: Pickup
@@ -336,6 +347,7 @@ modelos:
       - {anio: 2026, version: Lariat HEV, precio_base_cop: 169900000, tapiceria: Cuero sintético, llave_inteligente: true, carga_inalambrica: true, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Control crucero adaptativo]}
 
   - modelo: Mustang
+    imagen_id: veh-ford-mustang
     generacion: S650
     segmento: Deportivo
     carroceria: Coupé
@@ -366,6 +378,7 @@ modelos:
       - {anio: 2026, version: Dark Horse 5.0 V8 AT, precio_base_cop: 429900000, potencia_hp: 500, torque_nm: 567, aceleracion_0_100_seg: 4.2, medida_llantas: "275/35 R19", peso_vacio_kg: 1830}
 
   - modelo: Mustang Mach-E
+    imagen_id: veh-ford-mustang-mach-e
     generacion: Primera generación
     segmento: SUV Mediana
     carroceria: SUV

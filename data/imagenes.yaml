@@ -545,3 +545,159 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Chevrolet Tracker"
+  - id: veh-ford-bronco-sport
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2021_Ford_Bronco_Sport_Big_Bend%2C_front_3.15.21.jpg/960px-2021_Ford_Bronco_Sport_Big_Bend%2C_front_3.15.21.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Sport_Big_Bend,_front_3.15.21.jpg"
+    ancho: 2845
+    alto: 1865
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Bronco Sport"
+  - id: veh-ford-ecosport
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/2018_Ford_Ecosport_ST-Line_TDCi_1.5.jpg/960px-2018_Ford_Ecosport_ST-Line_TDCi_1.5.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Ford_Ecosport_ST-Line_TDCi_1.5.jpg"
+    ancho: 3275
+    alto: 1958
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford EcoSport"
+  - id: veh-ford-escape
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2021_Ford_Escape_Hybrid_SEL_AWD_in_Oxford_White%2C_front_left.jpg/960px-2021_Ford_Escape_Hybrid_SEL_AWD_in_Oxford_White%2C_front_left.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Mr.choppers"
+    licencia: "CC BY-SA 3.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Ford_Escape_Hybrid_SEL_AWD_in_Oxford_White,_front_left.jpg"
+    ancho: 5100
+    alto: 3268
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Escape"
+  - id: veh-ford-explorer
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Ford_Explorer_%28sixth_generation%29_IMG_6063.jpg/960px-Ford_Explorer_%28sixth_generation%29_IMG_6063.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Ford_Explorer_(sixth_generation)_IMG_6063.jpg"
+    ancho: 4892
+    alto: 2638
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Explorer"
+  - id: veh-ford-f-150
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/2018_Ford_F-150_XLT_Crew_Cab%2C_front_11.10.19.jpg/960px-2018_Ford_F-150_XLT_Crew_Cab%2C_front_11.10.19.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Kevauto"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Ford_F-150_XLT_Crew_Cab,_front_11.10.19.jpg"
+    ancho: 4661
+    alto: 2529
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford F-150"
+  - id: veh-ford-fiesta
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ford_Fiesta_ST-Line_%28VII%2C_Facelift%29_%E2%80%93_f_30012023.jpg/960px-Ford_Fiesta_ST-Line_%28VII%2C_Facelift%29_%E2%80%93_f_30012023.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Ford_Fiesta_ST-Line_(VII,_Facelift)_%E2%80%93_f_30012023.jpg"
+    ancho: 5458
+    alto: 3183
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Fiesta"
+  - id: veh-ford-focus
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/2018_Ford_Focus_ST-Line_X_1.0.jpg/960px-2018_Ford_Focus_ST-Line_X_1.0.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Ford_Focus_ST-Line_X_1.0.jpg"
+    ancho: 4763
+    alto: 2405
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Focus"
+  - id: veh-ford-maverick
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/2022_Ford_Maverick_XLT_AWD_with_FX4_Off-Road_Package.jpg/960px-2022_Ford_Maverick_XLT_AWD_with_FX4_Off-Road_Package.jpg"
+    proveedor: Wikimedia Commons
+    autor: "MercurySable99"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XLT_AWD_with_FX4_Off-Road_Package.jpg"
+    ancho: 4648
+    alto: 2344
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Maverick"
+  - id: veh-ford-mustang
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Ford_Mustang_VII_GT_Rutesheimer_Autoschau_2025_DSC_9234.jpg/960px-Ford_Mustang_VII_GT_Rutesheimer_Autoschau_2025_DSC_9234.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Ford_Mustang_VII_GT_Rutesheimer_Autoschau_2025_DSC_9234.jpg"
+    ancho: 5480
+    alto: 2883
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Mustang"
+  - id: veh-ford-mustang-mach-e
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/2021_Ford_Mustang_Mach-E_Standard_Range_Front.jpg/960px-2021_Ford_Mustang_Mach-E_Standard_Range_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2021_Ford_Mustang_Mach-E_Standard_Range_Front.jpg"
+    ancho: 3559
+    alto: 1729
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Mustang Mach-E"
+  - id: veh-ford-ranger
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Ford_Ranger_%28T6%2C_P703%29_Wildtrak_IMG_7320.jpg/960px-Ford_Ranger_%28T6%2C_P703%29_Wildtrak_IMG_7320.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Ford_Ranger_(T6,_P703)_Wildtrak_IMG_7320.jpg"
+    ancho: 5281
+    alto: 2982
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Ranger"
+  - id: veh-ford-ranger-raptor
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ford_Ranger_Raptor_%28P703%29_1X7A6776.jpg/960px-Ford_Ranger_Raptor_%28P703%29_1X7A6776.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Ford_Ranger_Raptor_(P703)_1X7A6776.jpg"
+    ancho: 4694
+    alto: 2544
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Ranger Raptor"
+  - id: veh-ford-territory
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Ford_Territory_Titanium_2025.jpg/960px-Ford_Territory_Titanium_2025.jpg"
+    proveedor: Wikimedia Commons
+    autor: "RL GNZLZ"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Ford_Territory_Titanium_2025.jpg"
+    ancho: 4685
+    alto: 2638
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Ford Territory"
