@@ -3,6 +3,7 @@ pais_origen: Corea del Sur
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Grand i10 Hatchback
+    imagen_id: veh-hyundai-grand-i10-hatchback
     generacion: Tercera generación
     segmento: Hatchback A
     carroceria: Hatchback
@@ -33,6 +34,7 @@ modelos:
       - {anio: 2026, version: Premium 1.2 AMT, precio_base_cop: 64900000, transmision_tipo: Automatizada AMT, numero_airbags: 6, camara_reversa: true}
 
   - modelo: Grand i10 Sedán
+    imagen_id: veh-hyundai-grand-i10-sedan
     generacion: Tercera generación
     segmento: Sedán B
     carroceria: Sedán
@@ -62,6 +64,7 @@ modelos:
       - {anio: 2026, version: Premium 1.2 MT, precio_base_cop: 61900000}
 
   - modelo: Accent
+    imagen_id: veh-hyundai-accent
     generacion: BN7
     segmento: Sedán B
     carroceria: Sedán
@@ -92,6 +95,7 @@ modelos:
       - {anio: 2026, version: Premium 1.5 IVT, precio_base_cop: 89900000, transmision_tipo: CVT (IVT), numero_velocidades: null, aire_acondicionado: Automático, llave_inteligente: true, luces_led: true, medida_llantas: "205/55 R16", adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril]}
 
   - modelo: Venue
+    imagen_id: veh-hyundai-venue
     generacion: QX
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -122,6 +126,7 @@ modelos:
       - {anio: 2024, version: Premium 1.6 AT, precio_base_cop: 86900000, fecha_precio: 2024-02-01}
 
   - modelo: Creta
+    imagen_id: veh-hyundai-creta
     generacion: SU2 (segunda generación)
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -153,6 +158,7 @@ modelos:
       - {anio: 2024, version: Premium 1.6 AT, precio_base_cop: 104900000, fecha_precio: 2024-02-01, motor_descripcion: "1.6 MPI Gamma", cilindraje_cc: 1591, potencia_hp: 121, torque_nm: 151, rpm_torque_max: 4850, transmision_tipo: Automática, numero_velocidades: 6, pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable}
 
   - modelo: Tucson
+    imagen_id: veh-hyundai-tucson
     generacion: NX4
     segmento: SUV Compacta
     carroceria: SUV
@@ -183,6 +189,7 @@ modelos:
       - {anio: 2026, version: Limited 1.6T HEV AWD, precio_base_cop: 189900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 T-GDi híbrido", cilindraje_cc: 1598, alimentacion: Turbo, potencia_hp: 230, rpm_potencia_max: 5500, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.0, traccion: AWD, potencia_electrica_kw: 44, capacidad_bateria_kwh: 1.5, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 17.0, consumo_real_estimado_kml: 14.8, peso_vacio_kg: 1700, capacidad_baul_litros: 616, tapiceria: Cuero, techo_corredizo: true, carga_inalambrica: true, sensores_parqueo: Delantero y trasero, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Monitoreo de punto ciego, Control crucero adaptativo, Alerta de tráfico cruzado trasero, Cámara 360]}
 
   - modelo: Santa Fe
+    imagen_id: veh-hyundai-santa-fe
     generacion: MX5
     segmento: SUV Grande
     carroceria: SUV
@@ -214,6 +221,7 @@ modelos:
       - {anio: 2026, version: HEV AWD 7P, precio_base_cop: 239900000}
 
   - modelo: Kona
+    imagen_id: veh-hyundai-kona
     generacion: SX2
     segmento: SUV Subcompacta
     carroceria: SUV
@@ -244,6 +252,7 @@ modelos:
       - {anio: 2026, version: HEV Limited, precio_base_cop: 134900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.6 GDi híbrido", cilindraje_cc: 1580, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 141, rpm_potencia_max: 5700, torque_nm: 265, rpm_torque_max: 1000, aceleracion_0_100_seg: 11.2, velocidad_maxima_kmh: 165, octanaje_minimo_recomendado: 91, potencia_electrica_kw: 32, capacidad_bateria_kwh: 1.32, potencia_carga_ac_kw: null, potencia_carga_dc_kw: null, transmision_tipo: Doble embrague en seco DCT, numero_velocidades: 6, peso_vacio_kg: 1400, capacidad_baul_litros: 407, autonomia_estimada_km: null, autonomia_ciclo: Estimada, consumo_kwh_100km: null, ciclo_homologacion: Estimado, consumo_mixto_kml: 21.0, capacidad_tanque_galones: 10.3}
 
   - modelo: Ioniq 5
+    imagen_id: veh-hyundai-ioniq-5
     generacion: NE
     segmento: SUV Mediana
     carroceria: SUV
@@ -274,6 +283,7 @@ modelos:
       - {anio: 2025, version: N 84 kWh AWD, precio_base_cop: 329900000, fecha_precio: 2025-05-01, segmento: Deportivo, motor_descripcion: "Dos motores eléctricos AWD", potencia_hp: 641, torque_nm: 770, aceleracion_0_100_seg: 3.5, velocidad_maxima_kmh: 260, potencia_electrica_kw: 478, traccion: AWD, autonomia_estimada_km: 448, consumo_kwh_100km: 21.2, peso_vacio_kg: 2200, medida_llantas: "275/35 R21", distancia_libre_suelo_mm: 140}
 
   - modelo: Ioniq 6
+    imagen_id: veh-hyundai-ioniq-6
     generacion: CE
     segmento: Sedán D
     carroceria: Sedán
@@ -304,6 +314,7 @@ modelos:
       - {anio: 2025, version: Long Range RWD, precio_base_cop: 229900000, fecha_precio: 2025-03-01}
 
   - modelo: Palisade
+    imagen_id: veh-hyundai-palisade
     generacion: LX2
     segmento: SUV Grande
     carroceria: SUV
@@ -334,6 +345,7 @@ modelos:
       - {anio: 2025, version: Limited 3.8 V6 AWD, precio_base_cop: 279900000, fecha_precio: 2025-01-01}
 
   - modelo: Elantra N
+    imagen_id: veh-hyundai-elantra-n
     generacion: CN7
     segmento: Deportivo
     carroceria: Sedán
