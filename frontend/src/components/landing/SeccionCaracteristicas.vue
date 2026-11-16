@@ -11,10 +11,10 @@ const C = T.landing.caracteristicas
     <img :src="fondo" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover opacity-[0.07] grayscale" width="1600" height="1063" loading="lazy" decoding="async" />
     <h2 id="caract-titulo" class="sr-only">{{ C.titulo }}</h2>
     <div class="mx-auto grid max-w-landing items-center gap-12 px-[15px] lg:grid-cols-[1fr_300px_1fr] lg:gap-10">
-      <ul class="grid">
+      <ul class="grid gap-10">
         <ItemCaracteristica v-for="i in C.izquierda" :key="i.titulo" v-bind="i" lado="izquierda" />
       </ul>
-      <ul class="grid">
+      <ul class="grid gap-10">
         <ItemCaracteristica v-for="i in C.derecha" :key="i.titulo" v-bind="i" lado="derecha" />
       </ul>
     </div>
