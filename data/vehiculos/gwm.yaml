@@ -3,6 +3,7 @@ pais_origen: China
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Haval H6 HEV
+    imagen_id: veh-gwm-haval-h6-hev
     generacion: Tercera generación
     segmento: SUV Mediana
     carroceria: SUV
@@ -35,6 +36,7 @@ modelos:
       - {anio: 2025, version: HEV Supreme, precio_base_cop: 154900000, fecha_precio: 2025-03-01}
 
   - modelo: Haval Jolion
+    imagen_id: veh-gwm-haval-jolion
     generacion: Primera generación
     segmento: SUV Compacta
     carroceria: SUV
@@ -67,6 +69,7 @@ modelos:
       - {anio: 2026, version: Supreme 1.5T DCT, precio_base_cop: 109900000, tapiceria: Cuero sintético, techo_corredizo: true, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
 
   - modelo: Poer
+    imagen_id: veh-gwm-poer
     generacion: Primera generación
     segmento: Pickup Mediana
     carroceria: Pickup
@@ -99,6 +102,7 @@ modelos:
       - {anio: 2025, version: Poer 2.0 Diésel AT 4x4, precio_base_cop: 164900000, fecha_precio: 2025-03-01}
 
   - modelo: Ora 03
+    imagen_id: veh-gwm-ora-03
     generacion: Primera generación
     segmento: Hatchback C
     carroceria: Hatchback

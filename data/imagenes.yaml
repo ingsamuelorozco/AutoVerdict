@@ -2105,3 +2105,51 @@ imagenes:
     uso: catalogo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Citroën C5 Aircross"
+  - id: veh-gwm-haval-h6-hev
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Haval_H6_III_IMG003.jpg/960px-Haval_H6_III_IMG003.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Zotyefan"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Haval_H6_III_IMG003.jpg"
+    ancho: 4000
+    alto: 3000
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del GWM Haval H6 HEV"
+  - id: veh-gwm-haval-jolion
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/GWM_Haval_Jolion_Pro_Leonberg_2026_IMG_8660.jpg/960px-GWM_Haval_Jolion_Pro_Leonberg_2026_IMG_8660.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:GWM_Haval_Jolion_Pro_Leonberg_2026_IMG_8660.jpg"
+    ancho: 5101
+    alto: 3014
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del GWM Haval Jolion"
+  - id: veh-gwm-ora-03
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/ORA_Funky_Cat_1X7A7359.jpg/960px-ORA_Funky_Cat_1X7A7359.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:ORA_Funky_Cat_1X7A7359.jpg"
+    ancho: 4965
+    alto: 3313
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del GWM Ora 03"
+  - id: veh-gwm-poer
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Great_Wall_Pao_IMG001.jpg/960px-Great_Wall_Pao_IMG001.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Anonymousfox36"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Great_Wall_Pao_IMG001.jpg"
+    ancho: 2034
+    alto: 1526
+    contiene_logo: true
+    uso: catalogo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del GWM Poer"
