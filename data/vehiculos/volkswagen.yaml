@@ -315,3 +315,95 @@ modelos:
         - {componente: "Confort", descripcion: "Ballestas: dura sin carga.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: Robust 1.6 MT, precio_base_cop: 79900000, fecha_precio: 2025-01-01}
+
+  - modelo: Gol
+    generacion: Sexta generación (G7)
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Brasil
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2009-03-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 MSI", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 101, rpm_potencia_max: 5750, torque_nm: 153, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.6, velocidad_maxima_kmh: 182, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "175/70 R14"}
+    dim: {largo_mm: 3892, ancho_sin_espejos_mm: 1656, alto_mm: 1464, distancia_entre_ejes_mm: 2467, distancia_libre_suelo_mm: 160, peso_vacio_kg: 980, capacidad_baul_litros: 285, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 6.5, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.0, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Gol es un hatchback sencillo y robusto, con un 1.6 atmosférico que aguanta mucho, repuestos baratos en cualquier ciudad y talleres que lo conocen bien. Ya no se vende nuevo, así que se compra usado. Su diseño y su seguridad son de otra época: dos airbags, sin control de estabilidad y un interior básico. Es de los carros más apetecidos para el hurto de autopartes. Mayor riesgo individual: la protección en un choque. No lo recomendamos como carro familiar de carretera."
+      para_quien_si: "Quien busca un usado barato, robusto y de mantenimiento sencillo."
+      para_quien_no: "Quien prioriza seguridad o confort."
+      pros_reales: ["Mecánica robusta y sencilla", "Repuestos baratos en todo el país", "Precio de usado bajo"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Hurto", descripcion: "Muy buscado para robo de autopartes.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2022, version: Trendline 1.6 MT, precio_base_cop: 56900000, fecha_precio: 2022-03-01}
+      - {anio: 2020, version: Comfortline 1.6 MT, precio_base_cop: 49900000, fecha_precio: 2020-03-01}
+
+  - modelo: Voyage
+    generacion: Sexta generación (G7)
+    segmento: Sedán B
+    carroceria: Sedán
+    pais_origen: Brasil
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2009-06-01
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 MSI", cilindraje_cc: 1598, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 101, rpm_potencia_max: 5750, torque_nm: 153, rpm_torque_max: 4000, aceleracion_0_100_seg: 11.0, velocidad_maxima_kmh: 182, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.2, medida_llantas: "175/70 R14"}
+    dim: {largo_mm: 4218, ancho_sin_espejos_mm: 1656, alto_mm: 1468, distancia_entre_ejes_mm: 2467, distancia_libre_suelo_mm: 160, peso_vacio_kg: 1010, capacidad_baul_litros: 480, capacidad_tanque_galones: 14.5}
+    consumo: {consumo_mixto_kml: 14.0, consumo_real_estimado_kml: 12.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, adas_incluidas: []}
+    equipo: {pantalla_multimedia_pulgadas: 6.5, apple_carplay_android_auto: Cable}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.8, electrica_electronica: 7.0, quejas_documentadas: 7.4, recalls: 7.4, repuestos_y_red: 8.4, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Media
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Voyage es la versión sedán del Gol, con el mismo 1.6 atmosférico robusto y un baúl de 480 litros que lo hizo popular como carro de trabajo y de plataforma. Se consigue usado a buen precio y su mantenimiento es barato en todo el país. Su seguridad es básica, con dos airbags y sin control de estabilidad, y el espacio trasero es justo para adultos altos. Mayor riesgo individual: la protección en un choque. No lo recomendamos como carro familiar de carretera."
+      para_quien_si: "Quien busca un sedán usado barato, robusto y con baúl grande."
+      para_quien_no: "Quien prioriza seguridad o espacio trasero."
+      pros_reales: ["Baúl de 480 litros", "Mecánica robusta y sencilla", "Mantenimiento barato"]
+      contras:
+        - {componente: "Seguridad", descripcion: "Dos airbags y sin control de estabilidad.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+        - {componente: "Espacio trasero", descripcion: "Justo para adultos altos.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2022, version: Trendline 1.6 MT, precio_base_cop: 59900000, fecha_precio: 2022-03-01}
+      - {anio: 2020, version: Comfortline 1.6 MT, precio_base_cop: 52900000, fecha_precio: 2020-03-01}
+
+  - modelo: Teramont
+    generacion: Primera generación (actualización 2021)
+    segmento: SUV Grande
+    carroceria: SUV
+    pais_origen: Estados Unidos
+    fecha_lanzamiento_colombia: 2018-05-01
+    plazas: 7
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "2.0 TSI", cilindraje_cc: 1984, cilindros: 4, valvulas: 16, alimentacion: Turbo, potencia_hp: 235, rpm_potencia_max: 4500, torque_nm: 350, rpm_torque_max: 1500, aceleracion_0_100_seg: 8.6, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Automática, numero_velocidades: 8, traccion: AWD, suspension_delantera: McPherson, suspension_trasera: Multibrazo, frenos_traseros: Disco, radio_giro_metros: 6.0, medida_llantas: "255/50 R20"}
+    dim: {largo_mm: 5036, ancho_sin_espejos_mm: 1989, alto_mm: 1769, distancia_entre_ejes_mm: 2980, distancia_libre_suelo_mm: 203, peso_vacio_kg: 2050, capacidad_baul_litros: 583, capacidad_tanque_galones: 18.6}
+    consumo: {consumo_mixto_kml: 9.5, consumo_real_estimado_kml: 8.0}
+    seg: {numero_airbags: 6, adas_incluidas: [Frenado autónomo de emergencia, Asistente de mantenimiento de carril, Control crucero adaptativo, Monitoreo de punto ciego]}
+    equipo: {pantalla_multimedia_pulgadas: 8, apple_carplay_android_auto: Cable, aire_acondicionado: Automático bizona, tapiceria: Cuero, techo_corredizo: true, camara_reversa: true, luces_led: true, llave_inteligente: true, sensores_parqueo: Delantero y trasero}
+    garantia: {garantia_anos: 3, garantia_km: 100000}
+    resena:
+      desglose: {motor_transmision: 7.0, electrica_electronica: 6.8, quejas_documentadas: 7.0, recalls: 6.8, repuestos_y_red: 7.2, costo_reparaciones: 6.6}
+      nivel_costo_mantenimiento: Alto
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: la Teramont es una de las SUV de siete puestos más amplias del mercado, con una tercera fila que sirve para adultos, baúl de 583 litros detrás de ella y tracción integral. El 2.0 turbo de 235 hp mueve bien sus dos toneladas, aunque gasta. Se desvaloriza rápido y su mantenimiento es caro. Es muy grande: más de 5 metros. Mayor riesgo individual: la depreciación en los primeros años. No la recomendamos a quien parquea en espacios cortos o compra pensando en revender."
+      para_quien_si: "Familias grandes que necesitan espacio real en las tres filas."
+      para_quien_no: "Quien prioriza la reventa o parquea en espacios cortos."
+      pros_reales: ["Tercera fila para adultos", "Baúl de 583 litros con siete puestos", "Tracción integral"]
+      contras:
+        - {componente: "Tamaño", descripcion: "5.036 mm de largo.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Reventa", descripcion: "Se desvaloriza rápido.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+    versiones:
+      - {anio: 2026, version: Highline 2.0 TSI 4Motion, precio_base_cop: 279900000}
