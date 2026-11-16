@@ -28,10 +28,10 @@ function cambiarTrm(e: Event) {
 }
 const principales = [
   { to: '/', texto: T.navCorto.inicio },
-  { to: '/actualizados', texto: T.nav.actualizados },
-  { to: '/buscar', texto: T.nav.buscar },
-  { to: '/comparador', texto: T.nav.comparador },
-  { to: '/reviews', texto: T.nav.reviews },
+  { to: '/actualizados', texto: T.navCorto.actualizados },
+  { to: '/buscar', texto: T.navCorto.buscar },
+  { to: '/comparador', texto: T.navCorto.comparador },
+  { to: '/reviews', texto: T.navCorto.reviews },
 ]
 </script>
 
