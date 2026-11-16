@@ -13,7 +13,7 @@ defineProps<{ versiones?: number | null; marcas?: number | null }>()
     <div class="absolute inset-0 -z-10 bg-velo/[0.88]" aria-hidden="true" />
     <div class="relative mx-auto flex w-full max-w-landing items-center px-[15px] pt-barra">
       <div class="relative z-20 pt-16 lg:pl-[145px]">
-        <h1 id="hero-titulo" class="whitespace-nowrap text-[64px] leading-none tracking-[-1px] text-tinta"><span class="text-acento-texto">{{ T.landing.hero.acento }}</span> {{ T.landing.hero.titulo }}</h1>
+        <h1 id="hero-titulo" class="whitespace-nowrap text-[38px] leading-none sm:text-[52px] lg:text-[64px] tracking-[-1px] text-tinta"><span class="text-acento-texto">{{ T.landing.hero.acento }}</span> {{ T.landing.hero.titulo }}</h1>
         <p class="mt-6 max-w-[310px] text-[15px] font-normal leading-[1.6] text-tinta">{{ T.sublema }}</p>
         <RouterLink to="/comparador" class="boton-acento mt-9 px-7">{{ T.landing.hero.boton }}</RouterLink>
       </div>
