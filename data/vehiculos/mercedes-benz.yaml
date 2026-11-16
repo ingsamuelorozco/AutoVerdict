@@ -3,6 +3,7 @@ pais_origen: Alemania
 fuentes_ids: [editorial-referencia, editorial-precio]
 modelos:
   - modelo: Clase A Hatchback
+    imagen_id: veh-mercedes-benz-clase-a-hatchback
     generacion: W177
     segmento: Hatchback C
     carroceria: Hatchback
@@ -32,6 +33,7 @@ modelos:
       - {anio: 2026, version: A 200 Progressive, precio_base_cop: 199900000}
 
   - modelo: Clase A Sedán
+    imagen_id: veh-mercedes-benz-clase-a-sedan
     generacion: V177
     segmento: Sedán C
     carroceria: Sedán
@@ -61,6 +63,7 @@ modelos:
       - {anio: 2026, version: A 200 Sedán Progressive, precio_base_cop: 209900000}
 
   - modelo: Clase C
+    imagen_id: veh-mercedes-benz-clase-c
     generacion: W206
     segmento: Sedán D
     carroceria: Sedán
@@ -91,6 +94,7 @@ modelos:
       - {anio: 2026, version: C 300 e AMG Line PHEV, precio_base_cop: 329900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo M254 + motor eléctrico (PHEV)", cilindraje_cc: 1999, potencia_hp: 313, torque_nm: 550, aceleracion_0_100_seg: 6.1, potencia_electrica_kw: 95, capacidad_bateria_kwh: 25.4, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 55, consumo_kwh_100km: 20.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 360, capacidad_tanque_galones: 13.2, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 12.5, peso_vacio_kg: 2030}
 
   - modelo: GLA
+    imagen_id: veh-mercedes-benz-gla
     generacion: H247
     segmento: SUV Compacta
     carroceria: SUV
@@ -121,6 +125,7 @@ modelos:
       - {anio: 2026, version: AMG GLA 35 4MATIC, precio_base_cop: 319900000, motor_descripcion: "2.0 Turbo M260", cilindraje_cc: 1991, potencia_hp: 306, rpm_potencia_max: 5800, torque_nm: 400, rpm_torque_max: 3000, aceleracion_0_100_seg: 5.1, velocidad_maxima_kmh: 250, transmision_tipo: Doble embrague húmedo DCT, numero_velocidades: 8, traccion: AWD, suspension_trasera: Multibrazo, medida_llantas: "235/50 R19", consumo_mixto_kml: 12.0, consumo_real_estimado_kml: 9.6, peso_vacio_kg: 1625}
 
   - modelo: GLB
+    imagen_id: veh-mercedes-benz-glb
     generacion: X247
     segmento: SUV Mediana
     carroceria: SUV
@@ -151,6 +156,7 @@ modelos:
       - {anio: 2026, version: GLB 200 7P Progressive, precio_base_cop: 249900000}
 
   - modelo: GLC
+    imagen_id: veh-mercedes-benz-glc
     generacion: X254
     segmento: SUV Mediana
     carroceria: SUV
@@ -181,6 +187,7 @@ modelos:
       - {anio: 2026, version: GLC 300 e 4MATIC PHEV, precio_base_cop: 359900000, tipo_combustible: Híbrido Enchufable PHEV, motor_descripcion: "2.0 Turbo M254 + motor eléctrico (PHEV)", potencia_hp: 313, torque_nm: 550, aceleracion_0_100_seg: 6.7, potencia_electrica_kw: 100, capacidad_bateria_kwh: 31.2, potencia_carga_ac_kw: 11, potencia_carga_dc_kw: 60, consumo_kwh_100km: 21.0, garantia_bateria_anos: 6, garantia_bateria_km: 100000, capacidad_baul_litros: 470, capacidad_tanque_galones: 13.2, consumo_mixto_kml: 15.0, consumo_real_estimado_kml: 11.5, peso_vacio_kg: 2310}
 
   - modelo: GLE
+    imagen_id: veh-mercedes-benz-gle
     generacion: V167
     segmento: SUV Grande
     carroceria: SUV
@@ -210,6 +217,7 @@ modelos:
       - {anio: 2025, version: GLE 450 4MATIC, precio_base_cop: 499900000, fecha_precio: 2025-01-01}
 
   - modelo: EQA
+    imagen_id: veh-mercedes-benz-eqa
     generacion: H243
     segmento: SUV Compacta
     carroceria: SUV
@@ -240,6 +248,7 @@ modelos:
       - {anio: 2025, version: EQA 250+, precio_base_cop: 239900000, fecha_precio: 2025-01-01}
 
   - modelo: AMG C 43
+    imagen_id: veh-mercedes-benz-amg-c-43
     generacion: W206
     segmento: Deportivo
     carroceria: Sedán

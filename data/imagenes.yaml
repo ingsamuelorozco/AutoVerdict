@@ -1169,3 +1169,111 @@ imagenes:
     uso: vehiculo
     verificada_en: 2026-11-16
     descripcion: "Foto de referencia del Mazda MX-5"
+  - id: veh-mercedes-benz-amg-c-43
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Mercedes-AMG_C_43_%28W206%29_1X7A0894.jpg/960px-Mercedes-AMG_C_43_%28W206%29_1X7A0894.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander-93"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_C_43_(W206)_1X7A0894.jpg"
+    ancho: 4997
+    alto: 2717
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz AMG C 43"
+  - id: veh-mercedes-benz-clase-a-hatchback
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg/960px-2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg"
+    ancho: 3960
+    alto: 1873
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz Clase A Hatchback"
+  - id: veh-mercedes-benz-clase-a-sedan
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mercedes-Benz_A-class_sedan_%28Z177%29_001.jpg/960px-Mercedes-Benz_A-class_sedan_%28Z177%29_001.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Jengtingchen"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_A-class_sedan_(Z177)_001.jpg"
+    ancho: 3407
+    alto: 2555
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz Clase A Sedán"
+  - id: veh-mercedes-benz-clase-c
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Mercedes-Benz_W206_IMG_6380.jpg/960px-Mercedes-Benz_W206_IMG_6380.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W206_IMG_6380.jpg"
+    ancho: 4580
+    alto: 2234
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz Clase C"
+  - id: veh-mercedes-benz-eqa
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mercedes-Benz_H243_IMG_5876.jpg/960px-Mercedes-Benz_H243_IMG_5876.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_H243_IMG_5876.jpg"
+    ancho: 4959
+    alto: 2710
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz EQA"
+  - id: veh-mercedes-benz-gla
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Mercedes-Benz_GLA_250_e_AMG_Line_%28H_247%29_%E2%80%93_f_11042021_%28exposure_adjusted%29.jpg/960px-Mercedes-Benz_GLA_250_e_AMG_Line_%28H_247%29_%E2%80%93_f_11042021_%28exposure_adjusted%29.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLA_250_e_AMG_Line_(H_247)_%E2%80%93_f_11042021_(exposure_adjusted).jpg"
+    ancho: 5637
+    alto: 3027
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz GLA"
+  - id: veh-mercedes-benz-glb
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/2020_Mercedes-Benz_GLB_200_AMG_Line_Premium_2.0_Front.jpg/960px-2020_Mercedes-Benz_GLB_200_AMG_Line_Premium_2.0_Front.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Vauxford"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:2020_Mercedes-Benz_GLB_200_AMG_Line_Premium_2.0_Front.jpg"
+    ancho: 4473
+    alto: 2355
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz GLB"
+  - id: veh-mercedes-benz-glc
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Mercedes-Benz_X254_1X7A6343.jpg/960px-Mercedes-Benz_X254_1X7A6343.jpg"
+    proveedor: Wikimedia Commons
+    autor: "Alexander Migl"
+    licencia: "CC BY-SA 4.0"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_X254_1X7A6343.jpg"
+    ancho: 5837
+    alto: 3177
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz GLC"
+  - id: veh-mercedes-benz-gle
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg/960px-Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg"
+    proveedor: Wikimedia Commons
+    autor: "© M 93"
+    licencia: "CC BY-SA 3.0 de"
+    url_origen: "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_(V_167)_%E2%80%93_f_18042021.jpg"
+    ancho: 5681
+    alto: 3111
+    contiene_logo: true
+    uso: vehiculo
+    verificada_en: 2026-11-16
+    descripcion: "Foto de referencia del Mercedes-Benz GLE"
