@@ -24,7 +24,7 @@ const listaMarcas = computed(() => (props.marcas?.length ? props.marcas : OPC.ma
         </div>
         <p class="text-xl font-bold uppercase leading-none text-tinta"><span class="num text-acento-texto">{{ total ?? '—' }}</span> {{ B.disponibles }}</p>
       </div>
-      <div class="mt-6 grid gap-6">
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
         <div>
           <label for="bq-carroceria" class="block text-[13px]">{{ B.carroceria }}</label>
           <div class="relative mt-2">
