@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450">
+  <title>Coupé genérico de AutoVerdict</title>
+  <defs>
+    <linearGradient id="carroceria" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".45" stop-color="#eef0f2"/>
+      <stop offset=".72" stop-color="#d3d7db"/>
+      <stop offset="1" stop-color="#9ea4ab"/>
+    </linearGradient>
+    <filter id="difuso" x="-10%" y="-200%" width="120%" height="500%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="500" cy="440" rx="470" ry="14" fill="#000" opacity=".55" filter="url(#difuso)"/>
+
+  <path fill="url(#carroceria)" d="M62 332C42 328 34 304 40 286L48 262C58 246 88 236 140 230C230 220 330 212 402 204C450 170 500 142 562 129C622 118 700 120 752 135C812 155 862 186 902 206C936 213 958 224 962 242L966 292C966 316 950 331 924 333L842 333A88 88 0 0 0 678 333L307 333A88 88 0 0 0 143 333Z"/>
+</svg>
