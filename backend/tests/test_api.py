@@ -73,3 +73,24 @@ def test_herramientas(client):
     assert client.post("/api/financiero/credito", json={"precio_cop": 90000000}).json()["escenarios"]
     assert client.post("/api/financiero/asequibilidad", json={"ingreso_mensual_cop": 8000000, "cuota_inicial_cop": 20000000}).status_code == 200
     assert client.post("/api/financiero/puesta-en-calle", json={}).status_code == 422
+
+
+def test_modelos_agrupa_versiones_y_separa_carrocerias(client):
+    r = client.get("/api/vehiculos/modelos", params={"marca": "Mazda", "size": 100}).json()
+    nombres = [m["modelo"] for m in r["resultados"]]
+    assert len(nombres) == len(set(nombres)), "cada modelo aparece una sola vez"
+    assert {"2 Sedán", "2 Hatchback"} <= set(nombres), "sedán y hatchback siguen separados"
+    sedan = next(m for m in r["resultados"] if m["modelo"] == "2 Sedán")
+    assert sedan["versiones"] > 1 and sedan["anios"] == sorted(sedan["anios"], reverse=True)
+    assert r["total_versiones"] == client.get("/api/vehiculos", params={"marca": "Mazda"}).json()["total"]
+
+
+def test_modelos_respeta_filtros(client):
+    r = client.get("/api/vehiculos/modelos", params={"q": "captiva"}).json()
+    assert r["total"] == 1 and r["resultados"][0]["tiene_alerta_roja"]
+    assert client.get("/api/vehiculos/modelos", params={"baul_min": 99999}).json()["sugerencia"]
+
+
+def test_filtro_por_modelo(client):
+    vs = client.get("/api/vehiculos", params={"marca": "Mazda", "modelo": "2 Sedán", "size": 100}).json()["resultados"]
+    assert vs and all(v["modelo"] == "2 Sedán" for v in vs)

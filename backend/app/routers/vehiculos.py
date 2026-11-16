@@ -7,7 +7,7 @@ import sqlite3
 import unicodedata
 from typing import Any, Literal
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Depends, Query
 
 from ..db import conexion, consultar, fiabilidad_por_id, fuentes_por_id, todos_los_vehiculos, vehiculo_completo, vehiculos_por_id
 from ..errores import invalido, no_encontrado
@@ -60,71 +60,119 @@ def buscar_ids_texto(q: str) -> list[int] | None:
     return ids
 
 
-@router.get("", summary="Búsqueda con filtros, orden y paginación")
-def buscar(
-    q: str | None = Query(None, max_length=80, examples=["captiva"]),
-    marca: list[str] = Query([]), segmento: list[str] = Query([]), carroceria: list[str] = Query([]),
-    combustible: list[str] = Query([]), transmision: list[str] = Query([]), traccion: list[str] = Query([]),
-    pais: list[str] = Query([]),
-    precio_min: float | None = Query(None, ge=0), precio_max: float | None = Query(None, ge=0),
-    anio_min: int | None = Query(None, ge=2018), anio_max: int | None = Query(None, le=2026),
-    plazas: int | None = Query(None, ge=2, le=9), adas: list[str] = Query([]),
-    despeje_min: int | None = Query(None, ge=100), baul_min: int | None = Query(None, ge=0),
-    consumo_min: float | None = Query(None, ge=0), fiabilidad_min: float | None = Query(None, ge=1, le=10),
-    estado: list[str] = Query([]), actualizado: bool | None = None, electrificado: bool | None = None,
-    ids: list[int] = Query([], description="Restringe a estos ids (p. ej., favoritos)"),
-    sort: str = Query("puntaje"), page: int = Query(1, ge=1), size: int = Query(24, ge=1, le=100),
-) -> dict[str, Any]:
-    if sort not in ORDENES:
-        raise invalido("Orden no válido", {"permitidos": list(ORDENES)})
-    vs = list(todos_los_vehiculos())
-    if ids:
-        permitidos = set(ids)
-        vs = [v for v in vs if v["id"] in permitidos]
-    if q:
-        encontrados = buscar_ids_texto(q)
-        if encontrados is not None:
-            orden = {i: n for n, i in enumerate(encontrados)}
-            vs = [v for v in vs if v["id"] in orden]
-    actualizados_ids: set[int] = set()
-    if actualizado is not None:
-        for a in consultar("SELECT vehiculo_ids FROM actualizaciones"):
-            actualizados_ids |= set(a["vehiculo_ids"])
+class Filtros:
+    """Filtros de búsqueda compartidos por la lista de versiones y la de modelos agrupados."""
 
-    def ok(v: dict) -> bool:
+    def __init__(
+        self,
+        q: str | None = Query(None, max_length=80, examples=["captiva"]),
+        marca: list[str] = Query([]), modelo: list[str] = Query([], description="Nombre exacto del modelo, p. ej., «2 Sedán»"),
+        segmento: list[str] = Query([]), carroceria: list[str] = Query([]),
+        combustible: list[str] = Query([]), transmision: list[str] = Query([]), traccion: list[str] = Query([]),
+        pais: list[str] = Query([]),
+        precio_min: float | None = Query(None, ge=0), precio_max: float | None = Query(None, ge=0),
+        anio_min: int | None = Query(None, ge=2018), anio_max: int | None = Query(None, le=2026),
+        plazas: int | None = Query(None, ge=2, le=9), adas: list[str] = Query([]),
+        despeje_min: int | None = Query(None, ge=100), baul_min: int | None = Query(None, ge=0),
+        consumo_min: float | None = Query(None, ge=0), fiabilidad_min: float | None = Query(None, ge=1, le=10),
+        estado: list[str] = Query([]), actualizado: bool | None = None, electrificado: bool | None = None,
+        ids: list[int] = Query([], description="Restringe a estos ids (p. ej., favoritos)"),
+        sort: str = Query("puntaje"),
+    ) -> None:
+        if sort not in ORDENES:
+            raise invalido("Orden no válido", {"permitidos": list(ORDENES)})
+        self.__dict__.update({k: v for k, v in locals().items() if k != "self"})
+
+    def aplicar(self) -> list[dict]:
+        """Versiones que cumplen los filtros, ya ordenadas."""
+        vs = list(todos_los_vehiculos())
+        if self.ids:
+            permitidos = set(self.ids)
+            vs = [v for v in vs if v["id"] in permitidos]
+        if self.q:
+            encontrados = buscar_ids_texto(self.q)
+            if encontrados is not None:
+                orden = {i: n for n, i in enumerate(encontrados)}
+                vs = [v for v in vs if v["id"] in orden]
+        actualizados_ids: set[int] = set()
+        if self.actualizado is not None:
+            for a in consultar("SELECT vehiculo_ids FROM actualizaciones"):
+                actualizados_ids |= set(a["vehiculo_ids"])
+
         def en(lista: list[str], valor: Any) -> bool:
             return not lista or str(valor).lower() in {x.lower() for x in lista}
-        return all([
-            en(marca, v["marca"]), en(segmento, v["segmento"]), en(carroceria, v["carroceria"]),
-            en(combustible, v["tipo_combustible"]), en(traccion, v["traccion"]), en(pais, v["pais_origen"]),
-            not transmision or any(t.lower() in v["transmision_tipo"].lower() for t in transmision),
-            en(estado, v["estado_comercial"]),
-            precio_min is None or v["precio_base_cop"] >= precio_min,
-            precio_max is None or v["precio_base_cop"] <= precio_max,
-            anio_min is None or v["anio"] >= anio_min, anio_max is None or v["anio"] <= anio_max,
-            plazas is None or v["plazas"] >= plazas,
-            not adas or all(a in (v["adas_incluidas"] or []) for a in adas),
-            despeje_min is None or v["distancia_libre_suelo_mm"] >= despeje_min,
-            baul_min is None or v["capacidad_baul_litros"] >= baul_min,
-            consumo_min is None or (v["consumo_real_estimado_kml"] or 0) >= consumo_min,
-            fiabilidad_min is None or v["puntaje_fiabilidad"] >= fiabilidad_min,
-            actualizado is None or ((v["id"] in actualizados_ids) == actualizado),
-            electrificado is None or ((v["tipo_combustible"] in ELECTRIFICADOS) == electrificado),
-        ])
 
-    vs = [v for v in vs if ok(v)]
-    if not (q and sort == "puntaje"):
-        campo, desc = ORDENES[sort]
-        vs.sort(key=lambda v: (v.get(campo) is None, -(v.get(campo) or 0) if desc else (v.get(campo) or 0)))
-    total = len(vs)
-    pagina = vs[(page - 1) * size: page * size]
-    sugerencia = None
-    if total == 0:
-        activos = {k: x for k, x in {"precio_max": precio_max, "despeje_min": despeje_min, "baul_min": baul_min,
-                                     "fiabilidad_min": fiabilidad_min, "adas": adas, "plazas": plazas}.items() if x}
-        sugerencia = ("Prueba relajar: " + ", ".join(activos)) if activos else "Prueba otra búsqueda o quita filtros."
-    return {"total": total, "page": page, "size": size, "paginas": math.ceil(total / size) if total else 0,
-            "resultados": [tarjeta(v) for v in pagina], "sugerencia": sugerencia}
+        def ok(v: dict) -> bool:
+            return all([
+                en(self.marca, v["marca"]), en(self.modelo, v["modelo"]), en(self.segmento, v["segmento"]),
+                en(self.carroceria, v["carroceria"]), en(self.combustible, v["tipo_combustible"]),
+                en(self.traccion, v["traccion"]), en(self.pais, v["pais_origen"]),
+                not self.transmision or any(x.lower() in v["transmision_tipo"].lower() for x in self.transmision),
+                en(self.estado, v["estado_comercial"]),
+                self.precio_min is None or v["precio_base_cop"] >= self.precio_min,
+                self.precio_max is None or v["precio_base_cop"] <= self.precio_max,
+                self.anio_min is None or v["anio"] >= self.anio_min, self.anio_max is None or v["anio"] <= self.anio_max,
+                self.plazas is None or v["plazas"] >= self.plazas,
+                not self.adas or all(a in (v["adas_incluidas"] or []) for a in self.adas),
+                self.despeje_min is None or v["distancia_libre_suelo_mm"] >= self.despeje_min,
+                self.baul_min is None or v["capacidad_baul_litros"] >= self.baul_min,
+                self.consumo_min is None or (v["consumo_real_estimado_kml"] or 0) >= self.consumo_min,
+                self.fiabilidad_min is None or v["puntaje_fiabilidad"] >= self.fiabilidad_min,
+                self.actualizado is None or ((v["id"] in actualizados_ids) == self.actualizado),
+                self.electrificado is None or ((v["tipo_combustible"] in ELECTRIFICADOS) == self.electrificado),
+            ])
+
+        vs = [v for v in vs if ok(v)]
+        if not (self.q and self.sort == "puntaje"):
+            campo, desc = ORDENES[self.sort]
+            vs.sort(key=lambda v: (v.get(campo) is None, -(v.get(campo) or 0) if desc else (v.get(campo) or 0)))
+        return vs
+
+    def sugerencia(self) -> str:
+        activos = {k: x for k, x in {"precio_max": self.precio_max, "despeje_min": self.despeje_min, "baul_min": self.baul_min,
+                                     "fiabilidad_min": self.fiabilidad_min, "adas": self.adas, "plazas": self.plazas}.items() if x}
+        return ("Prueba relajar: " + ", ".join(activos)) if activos else "Prueba otra búsqueda o quita filtros."
+
+
+def _pagina(lista: list, page: int, size: int) -> tuple[list, int]:
+    return lista[(page - 1) * size: page * size], (math.ceil(len(lista) / size) if lista else 0)
+
+
+@router.get("", summary="Búsqueda con filtros, orden y paginación")
+def buscar(f: Filtros = Depends(), page: int = Query(1, ge=1), size: int = Query(24, ge=1, le=100)) -> dict[str, Any]:
+    vs = f.aplicar()
+    pagina, paginas = _pagina(vs, page, size)
+    return {"total": len(vs), "page": page, "size": size, "paginas": paginas,
+            "resultados": [tarjeta(v) for v in pagina], "sugerencia": None if vs else f.sugerencia()}
+
+
+@router.get("/modelos", summary="Búsqueda agrupada por modelo (una tarjeta por marca y modelo)")
+def buscar_modelos(f: Filtros = Depends(), page: int = Query(1, ge=1), size: int = Query(24, ge=1, le=100)) -> dict[str, Any]:
+    """Agrupa las versiones que cumplen los filtros por marca y modelo.
+
+    «2 Sedán» y «2 Hatchback» son modelos distintos; sus versiones (Touring, Grand Touring…) y años van dentro.
+    El orden de los modelos sigue al de su mejor versión según el orden pedido.
+    """
+    grupos: dict[tuple[str, str], list[dict]] = {}
+    for v in f.aplicar():
+        grupos.setdefault((v["marca"], v["modelo"]), []).append(v)
+    modelos = []
+    for (marca, modelo), vs in grupos.items():
+        calle = [v["precio_total_en_calle_cop"] for v in vs if v["precio_total_en_calle_cop"]]
+        anios = sorted({v["anio"] for v in vs}, reverse=True)
+        recientes = [v for v in vs if v["anio"] == anios[0]]
+        modelos.append({
+            "marca": marca, "modelo": modelo, "carroceria": vs[0]["carroceria"], "segmento": vs[0]["segmento"],
+            "anios": anios, "versiones": len(vs),
+            "combustibles": sorted({v["tipo_combustible"] for v in vs}),
+            "precio_calle_min": min(calle) if calle else None, "precio_calle_max": max(calle) if calle else None,
+            "puntaje_fiabilidad": max(v["puntaje_fiabilidad"] for v in recientes),
+            "tiene_alerta_roja": any(v["tiene_alerta_roja"] for v in vs),
+            "representante": tarjeta(vs[0]),
+        })
+    pagina, paginas = _pagina(modelos, page, size)
+    return {"total": len(modelos), "total_versiones": sum(m["versiones"] for m in modelos), "page": page, "size": size,
+            "paginas": paginas, "resultados": pagina, "sugerencia": None if modelos else f.sugerencia()}
 
 
 def _rivales(v: dict, n: int = 6) -> list[dict]:
