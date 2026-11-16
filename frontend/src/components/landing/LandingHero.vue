@@ -11,7 +11,7 @@ defineProps<{ versiones?: number | null; marcas?: number | null }>()
   <section class="sobre-foto relative isolate flex min-h-[max(600px,100svh)] overflow-hidden bg-velo" aria-labelledby="hero-titulo">
     <img :src="fondo" alt="" class="absolute inset-0 -z-20 h-full w-full object-cover grayscale" width="1600" height="1193" fetchpriority="high" decoding="async" />
     <div class="absolute inset-0 -z-10 bg-velo/[0.88]" aria-hidden="true" />
-    <div class="relative mx-auto flex w-full max-w-landing flex-col items-start justify-center px-[15px] pt-barra lg:flex-row lg:items-center lg:justify-start">
+    <div class="relative mx-auto flex w-full max-w-landing flex-col items-start justify-center px-[15px] pb-[44vw] pt-barra sm:pb-[34vw] lg:flex-row lg:pb-0 lg:items-center lg:justify-start">
       <div class="relative z-20 pt-16 lg:pl-[145px]">
         <h1 id="hero-titulo" class="text-[38px] sm:whitespace-nowrap leading-none sm:text-[52px] lg:text-[64px] tracking-[-1px] text-tinta"><span class="text-acento-texto">{{ T.landing.hero.acento }}</span> {{ T.landing.hero.titulo }}</h1>
         <p class="mt-6 max-w-[310px] text-[15px] font-normal leading-[1.6] text-tinta">{{ T.sublema }}</p>
