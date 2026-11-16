@@ -24,6 +24,12 @@ const fav = useFavoritos()
 const MULTI = ['marca', 'segmento', 'carroceria', 'combustible', 'transmision', 'traccion', 'adas', 'pais'] as const
 const SIMPLE = ['q', 'precio_min', 'precio_max', 'anio_min', 'anio_max', 'plazas', 'despeje_min', 'baul_min', 'consumo_min', 'fiabilidad_min', 'sort', 'page'] as const
 const ETIQUETAS: Record<(typeof MULTI)[number], string> = { marca: 'Marca', carroceria: 'Carrocería', segmento: 'Segmento', combustible: 'Combustible', transmision: 'Transmisión', traccion: 'Tracción', adas: 'ADAS incluidas', pais: 'País de origen' }
+const ANIOS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+const PLAZAS = [2, 4, 5, 7, 8]
+const DESPEJES = [150, 170, 190, 210, 230]
+const BAULES = [300, 400, 500, 600, 800]
+const CONSUMOS = [10, 12, 14, 16, 18, 20, 25]
+const FIABILIDADES = [5, 6, 7, 8, 9]
 type Filtros = Record<(typeof MULTI)[number], string[]> & Record<(typeof SIMPLE)[number], string>
 function desdeUrl(): Filtros {
   const q = route.query
@@ -108,8 +114,17 @@ const nFiltros = computed(() => MULTI.reduce((a, k) => a + filtros.value[k].leng
           </div>
         </fieldset>
         <fieldset>
-          <legend class="etiqueta mb-2">Año</legend>
-          <div class="flex gap-2"><input v-model="filtros.anio_min" class="campo" inputmode="numeric" placeholder="Desde" aria-label="Año desde" @input="recargar" /><input v-model="filtros.anio_max" class="campo" inputmode="numeric" placeholder="Hasta" aria-label="Año hasta" @input="recargar" /></div>
+          <legend class="etiqueta mb-2 !text-tinta">Año</legend>
+          <div class="grid grid-cols-2 gap-2">
+            <select v-model="filtros.anio_min" class="campo text-sm" aria-label="Año desde" @change="recargar">
+              <option value="">Desde</option>
+              <option v-for="o in conActual(ANIOS, filtros.anio_min)" :key="o" :value="String(o)">{{ o }}</option>
+            </select>
+            <select v-model="filtros.anio_max" class="campo text-sm" aria-label="Año hasta" @change="recargar">
+              <option value="">Hasta</option>
+              <option v-for="o in conActual(ANIOS, filtros.anio_max)" :key="o" :value="String(o)">{{ o }}</option>
+            </select>
+          </div>
         </fieldset>
         <label>Plazas mínimas <input v-model="filtros.plazas" class="campo mt-1" inputmode="numeric" @input="recargar" /></label>
         <label>Despeje mínimo (mm) <input v-model="filtros.despeje_min" class="campo mt-1" inputmode="numeric" @input="recargar" /></label>
