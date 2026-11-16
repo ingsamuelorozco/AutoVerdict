@@ -75,11 +75,12 @@ const ciudadNombre = computed(() => aj.ciudades.find((c) => c.id === aj.ciudad)?
                 <option v-for="c in aj.ciudades" :key="c.id" :value="c.id">{{ c.nombre }}</option>
               </select>
             </label>
+            <button class="boton-secundario w-full" @click="aj.alternarTema()">
+              <Sun v-if="aj.tema === 'oscuro'" class="h-4 w-4" aria-hidden="true" /><Moon v-else class="h-4 w-4" aria-hidden="true" />
+              Tema {{ aj.tema === 'oscuro' ? 'claro' : 'oscuro' }}
+            </button>
           </div>
         </div>
-        <button class="grid h-11 w-11 place-items-center self-center rounded-full text-tinta transition-colors hover:bg-superficie" :aria-label="aj.tema === 'oscuro' ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro'" @click="aj.alternarTema()">
-          <Sun v-if="aj.tema === 'oscuro'" class="h-5 w-5" aria-hidden="true" /><Moon v-else class="h-5 w-5" aria-hidden="true" />
-        </button>
         <RouterLink to="/buscar?favoritos=1" class="relative grid h-11 w-11 place-items-center self-center rounded-full text-tinta transition-colors hover:bg-superficie" :aria-label="`Favoritos (${fav.ids.length})`">
           <Heart class="h-5 w-5" aria-hidden="true" />
           <span v-if="fav.ids.length" class="absolute right-0.5 top-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-tinta px-1 text-[10px] font-bold text-papel num">{{ fav.ids.length }}</span>
