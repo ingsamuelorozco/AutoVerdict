@@ -33,6 +33,19 @@ modelos:
     versiones:
       - {anio: 2022, version: Advance 1.6 MT, precio_base_cop: 53900000, fecha_precio: 2022-02-01}
       - {anio: 2022, version: Exclusive 1.6 CVT, precio_base_cop: 61900000, fecha_precio: 2022-02-01, transmision_tipo: CVT, numero_velocidades: null, patrones: [jatco_cvt], numero_airbags: 6, aire_acondicionado: Automático}
+      - {anio: 2011, version: "Advance 1.6 MT", precio_base_cop: 22600000}
+      - {anio: 2012, version: "Advance 1.6 MT", precio_base_cop: 24100000}
+      - {anio: 2013, version: "Advance 1.6 MT", precio_base_cop: 25800000}
+      - {anio: 2014, version: "Advance 1.6 MT", precio_base_cop: 27600000}
+      - {anio: 2015, version: "Advance 1.6 MT", precio_base_cop: 29500000}
+      - {anio: 2016, version: "Advance 1.6 MT", precio_base_cop: 31600000}
+      - {anio: 2017, version: "Advance 1.6 MT", precio_base_cop: 33800000}
+      - {anio: 2018, version: "Advance 1.6 MT", precio_base_cop: 36100000}
+      - {anio: 2019, version: "Advance 1.6 MT", precio_base_cop: 38600000}
+      - {anio: 2020, version: "Advance 1.6 MT", precio_base_cop: 41300000}
+      - {anio: 2021, version: "Advance 1.6 MT", precio_base_cop: 44200000}
+      - {anio: 2023, version: "Advance 1.6 MT", precio_base_cop: 50600000}
+      - {anio: 2024, version: "Advance 1.6 MT", precio_base_cop: 54100000}
 
   - modelo: Versa
     imagen_id: veh-nissan-versa
@@ -66,6 +79,10 @@ modelos:
       - {anio: 2026, version: Advance 1.6 MT, precio_base_cop: 84900000, transmision_tipo: Manual, numero_velocidades: 5, patrones_excluir: true}
       - {anio: 2026, version: Exclusive 1.6 CVT, precio_base_cop: 96900000, tapiceria: Cuero sintético, llave_inteligente: true, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Asistente de mantenimiento de carril]}
       - {anio: 2023, version: Sense 1.6 CVT, precio_base_cop: 79900000, fecha_precio: 2023-02-01, numero_airbags: 6, adas_incluidas: []}
+      - {anio: 2020, version: "Advance 1.6 MT", precio_base_cop: 51600000, transmision_tipo: "Manual", numero_velocidades: 5, patrones_excluir: true}
+      - {anio: 2021, version: "Advance 1.6 MT", precio_base_cop: 55200000, transmision_tipo: "Manual", numero_velocidades: 5, patrones_excluir: true}
+      - {anio: 2022, version: "Advance 1.6 MT", precio_base_cop: 59000000, transmision_tipo: "Manual", numero_velocidades: 5, patrones_excluir: true}
+      - {anio: 2024, version: "Advance 1.6 MT", precio_base_cop: 67500000, transmision_tipo: "Manual", numero_velocidades: 5, patrones_excluir: true}
 
   - modelo: Sentra
     imagen_id: veh-nissan-sentra
@@ -97,6 +114,11 @@ modelos:
     versiones:
       - {anio: 2026, version: Advance 2.0 CVT, precio_base_cop: 119900000}
       - {anio: 2026, version: Exclusive 2.0 CVT, precio_base_cop: 132900000, tapiceria: Cuero, techo_corredizo: true, apple_carplay_android_auto: Inalámbrico, carga_inalambrica: true, pantalla_multimedia_pulgadas: 12.3, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Asistente de mantenimiento de carril, Control crucero adaptativo, Cámara 360]}
+      - {anio: 2020, version: "Advance 2.0 CVT", precio_base_cop: 72800000}
+      - {anio: 2021, version: "Advance 2.0 CVT", precio_base_cop: 77900000}
+      - {anio: 2022, version: "Advance 2.0 CVT", precio_base_cop: 83300000}
+      - {anio: 2023, version: "Advance 2.0 CVT", precio_base_cop: 89100000}
+      - {anio: 2024, version: "Advance 2.0 CVT", precio_base_cop: 95300000}
 
   - modelo: Kicks
     imagen_id: veh-nissan-kicks
@@ -129,6 +151,13 @@ modelos:
       - {anio: 2026, version: Advance 1.6 CVT, precio_base_cop: 99900000}
       - {anio: 2026, version: Exclusive 1.6 CVT, precio_base_cop: 109900000, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, apple_carplay_android_auto: Inalámbrico, pantalla_multimedia_pulgadas: 12.3, adas_incluidas: [Frenado autónomo de emergencia, Monitoreo de punto ciego, Alerta de tráfico cruzado trasero, Cámara 360]}
       - {anio: 2023, version: Exclusive 1.6 CVT, precio_base_cop: 99900000, fecha_precio: 2023-03-01, tapiceria: Cuero sintético, llave_inteligente: true, luces_led: true, adas_incluidas: [Frenado autónomo de emergencia, Cámara 360]}
+      - {anio: 2017, version: "Advance 1.6 CVT", precio_base_cop: 49600000}
+      - {anio: 2018, version: "Advance 1.6 CVT", precio_base_cop: 53000000}
+      - {anio: 2019, version: "Advance 1.6 CVT", precio_base_cop: 56700000}
+      - {anio: 2020, version: "Advance 1.6 CVT", precio_base_cop: 60700000}
+      - {anio: 2021, version: "Advance 1.6 CVT", precio_base_cop: 64900000}
+      - {anio: 2022, version: "Advance 1.6 CVT", precio_base_cop: 69400000}
+      - {anio: 2024, version: "Advance 1.6 CVT", precio_base_cop: 79400000}
 
   - modelo: Kicks e-Power
     imagen_id: veh-nissan-kicks-e-power
@@ -159,6 +188,9 @@ modelos:
         - {componente: "Velocidad máxima", descripcion: "Limitada a 145 km/h.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
     versiones:
       - {anio: 2025, version: e-Power Exclusive, precio_base_cop: 129900000, fecha_precio: 2025-01-01}
+      - {anio: 2022, version: "e-Power Exclusive", precio_base_cop: 95700000}
+      - {anio: 2023, version: "e-Power Exclusive", precio_base_cop: 102300000}
+      - {anio: 2024, version: "e-Power Exclusive", precio_base_cop: 109400000}
 
   - modelo: Qashqai
     imagen_id: veh-nissan-qashqai
@@ -189,6 +221,9 @@ modelos:
         - {componente: "Reventa", descripcion: "Bajo volumen en el país.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: Exclusive 1.3T MHEV CVT, precio_base_cop: 159900000, fecha_precio: 2025-01-01}
+      - {anio: 2022, version: "Exclusive 1.3T MHEV CVT", precio_base_cop: 108600000}
+      - {anio: 2023, version: "Exclusive 1.3T MHEV CVT", precio_base_cop: 119300000}
+      - {anio: 2024, version: "Exclusive 1.3T MHEV CVT", precio_base_cop: 131100000}
 
   - modelo: X-Trail
     imagen_id: veh-nissan-x-trail
@@ -220,6 +255,8 @@ modelos:
     versiones:
       - {anio: 2026, version: Exclusive 2.5 CVT 4x4, precio_base_cop: 179900000, patrones: [jatco_cvt]}
       - {anio: 2026, version: e-Power e-4ORCE, precio_base_cop: 209900000, tipo_combustible: Híbrido Completo HEV, motor_descripcion: "1.5 VC-Turbo e-Power (híbrido en serie)", cilindraje_cc: 1497, cilindros: 3, valvulas: 12, alimentacion: Turbo, potencia_hp: 213, torque_nm: 525, rpm_torque_max: null, aceleracion_0_100_seg: 7.0, velocidad_maxima_kmh: 180, transmision_tipo: Reductora, numero_velocidades: 1, potencia_electrica_kw: 157, capacidad_bateria_kwh: 2.1, garantia_bateria_anos: 8, garantia_bateria_km: 160000, consumo_mixto_kml: 16.0, consumo_real_estimado_kml: 13.5, peso_vacio_kg: 1850}
+      - {anio: 2023, version: "Exclusive 2.5 CVT 4x4", precio_base_cop: 133700000, patrones: ["jatco_cvt"]}
+      - {anio: 2024, version: "Exclusive 2.5 CVT 4x4", precio_base_cop: 143000000, patrones: ["jatco_cvt"]}
 
   - modelo: Frontier
     imagen_id: veh-nissan-frontier
@@ -253,6 +290,15 @@ modelos:
       - {anio: 2026, version: LE 2.3 biturbo AT 4x4, precio_base_cop: 189900000}
       - {anio: 2026, version: PRO-4X 2.3 biturbo AT 4x4, precio_base_cop: 199900000, medida_llantas: "255/65 R17"}
       - {anio: 2025, version: LE 2.3 biturbo AT 4x4, precio_base_cop: 182900000, fecha_precio: 2025-02-01}
+      - {anio: 2016, version: "XE 2.3 MT 4x2", precio_base_cop: 69600000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2017, version: "XE 2.3 MT 4x2", precio_base_cop: 74400000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2018, version: "XE 2.3 MT 4x2", precio_base_cop: 79600000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2019, version: "XE 2.3 MT 4x2", precio_base_cop: 85100000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2020, version: "XE 2.3 MT 4x2", precio_base_cop: 91000000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2021, version: "XE 2.3 MT 4x2", precio_base_cop: 97400000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2022, version: "XE 2.3 MT 4x2", precio_base_cop: 104100000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2023, version: "XE 2.3 MT 4x2", precio_base_cop: 111400000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
+      - {anio: 2024, version: "XE 2.3 MT 4x2", precio_base_cop: 119100000, motor_descripcion: "2.3 turbodiésel", potencia_hp: 160, torque_nm: 403, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", tapiceria: "Tela", aire_acondicionado: "Manual", llave_inteligente: false, adas_incluidas: [], medida_llantas: "255/70 R16", numero_airbags: 2}
 
   - modelo: Leaf
     imagen_id: veh-nissan-leaf
@@ -284,3 +330,9 @@ modelos:
         - {componente: "Conector CHAdeMO", descripcion: "Cada vez menos electrolineras compatibles.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
     versiones:
       - {anio: 2025, version: SV 40 kWh, precio_base_cop: 169900000, fecha_precio: 2025-01-01}
+      - {anio: 2019, version: "SV 40 kWh", precio_base_cop: 86900000}
+      - {anio: 2020, version: "SV 40 kWh", precio_base_cop: 95500000}
+      - {anio: 2021, version: "SV 40 kWh", precio_base_cop: 105000000}
+      - {anio: 2022, version: "SV 40 kWh", precio_base_cop: 115400000}
+      - {anio: 2023, version: "SV 40 kWh", precio_base_cop: 126800000}
+      - {anio: 2024, version: "SV 40 kWh", precio_base_cop: 139300000}
