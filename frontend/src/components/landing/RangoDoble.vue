@@ -38,4 +38,7 @@ function cambiar(i: 0 | 1, e: Event) {
 .rango-input::-moz-range-thumb { pointer-events: auto; box-sizing: border-box; width: 14px; height: 14px; border-radius: 9999px; background: #fff; border: 3px solid rgb(var(--acento)); }
 .rango-input::-webkit-slider-thumb { cursor: grab; }
 .rango-input::-moz-range-thumb { cursor: grab; }
+.rango-input:focus-visible { box-shadow: none; }
+.rango-input:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 4px rgb(var(--acento) / 0.35); }
+.rango-input:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 4px rgb(var(--acento) / 0.35); }
 </style>
