@@ -1,4 +1,11 @@
-import { expect, test } from '@playwright/test'
+import { expect, test, type Page } from '@playwright/test'
+
+/** Los ids cambian cuando se agregan versiones al catálogo: se buscan por slug, que es estable. */
+const SLUGS_COMPARADOR = ['chevrolet-captiva-2026-premier-1-5t-cvt-7p', 'toyota-corolla-cross-2026-xei-hev', 'mazda-cx-30-2026-touring-2-0-at']
+async function rutaComparador(page: Page): Promise<string> {
+  const ids = await Promise.all(SLUGS_COMPARADOR.map(async (s) => (await (await page.request.get(`/api/vehiculos/${s}`)).json()).id))
+  return `/comparador?ids=${ids.join(',')}`
+}
 
 const errores: string[] = []
 test.beforeEach(({ page }) => {
@@ -28,7 +35,7 @@ test('la ficha muestra secciones y puesta en calle', async ({ page }) => {
 })
 
 test('el comparador marca ganadores con la etiqueta MEJOR', async ({ page }) => {
-  await page.goto('/comparador?ids=62,270,163')
+  await page.goto(await rutaComparador(page))
   await expect(page.getByText('MEJOR').first()).toBeVisible()
   await expect(page.getByText(/Alerta roja de fiabilidad/)).toBeVisible()
   await expect(page.getByRole('heading', { name: 'Huella dimensional' })).toBeVisible()
@@ -49,7 +56,7 @@ test('el simulador de crédito calcula la cuota', async ({ page }) => {
 for (const ancho of [1440, 768, 390]) {
   test(`captura sin desbordes a ${ancho}px`, async ({ page }) => {
     await page.setViewportSize({ width: ancho, height: 900 })
-    for (const ruta of ['/', '/comparador?ids=62,270,163', '/vehiculo/chevrolet-captiva-2026-premier-1-5t-cvt-7p']) {
+    for (const ruta of ['/', await rutaComparador(page), '/vehiculo/chevrolet-captiva-2026-premier-1-5t-cvt-7p']) {
       await page.goto(ruta)
       await page.waitForLoadState('networkidle')
       const desborde = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)
