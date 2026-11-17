@@ -258,3 +258,44 @@ modelos:
       - {anio: 2022, version: "Allure 1.9 MT 4x2", precio_base_cop: 96000000, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", peso_vacio_kg: 1950}
       - {anio: 2023, version: "Allure 1.9 MT 4x2", precio_base_cop: 105500000, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", peso_vacio_kg: 1950}
       - {anio: 2024, version: "Allure 1.9 MT 4x2", precio_base_cop: 115900000, transmision_tipo: "Manual", numero_velocidades: 6, traccion: "Trasera", peso_vacio_kg: 1950}
+
+  - modelo: "206"
+    generacion: "Primera generación"
+    segmento: Hatchback B
+    carroceria: Hatchback
+    pais_origen: Francia
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2000-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.6 16V TU5", cilindraje_cc: 1587, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 110, rpm_potencia_max: 5750, torque_nm: 147, rpm_torque_max: 4000, aceleracion_0_100_seg: 10.5, velocidad_maxima_kmh: 190, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: Delantera, suspension_delantera: McPherson, suspension_trasera: Barra de torsión, frenos_traseros: Tambor, radio_giro_metros: 5.1, medida_llantas: "185/65 R14"}
+    dim: {largo_mm: 3835, ancho_sin_espejos_mm: 1652, alto_mm: 1428, distancia_entre_ejes_mm: 2442, distancia_libre_suelo_mm: 150, peso_vacio_kg: 1025, capacidad_baul_litros: 245, capacidad_tanque_galones: 13.2}
+    consumo: {consumo_mixto_kml: 13.5}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 6.8, electrica_electronica: 6.0, quejas_documentadas: 6.4, recalls: 6.6, repuestos_y_red: 7.4, costo_reparaciones: 7.4}
+      nivel_costo_mantenimiento: Moderado
+      disponibilidad_repuestos: Media
+      depreciacion_estimada: Alta - Se desvaloriza rápido
+      riesgo_hurto: Medio
+      veredicto: "Opinión editorial: el 206 fue uno de los carros más vendidos del mundo y en Colombia tuvo muchos seguidores por su manejo ágil y su diseño. Como usado se consigue muy barato, pero su electrónica es delicada: fallas en el sistema de encendido, sensores y la caja automática de cuatro marchas son frecuentes con la edad. Los repuestos son más caros que los de un Chevrolet o un Renault equivalentes. Mayor riesgo individual: fallas eléctricas. No lo recomendamos sin revisar toda la electrónica."
+      para_quien_si: "Quien busca un hatchback usado ágil a precio muy bajo y tiene un buen técnico."
+      para_quien_no: "Quien no quiere lidiar con fallas eléctricas."
+      pros_reales: ["Manejo ágil", "Precio de usado bajo", "Diseño atractivo"]
+      contras:
+        - {componente: "Electrónica", descripcion: "Fallas frecuentes de sensores y encendido.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Caja automática", descripcion: "La de cuatro marchas es delicada.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Alta}
+    versiones:
+      - {anio: 2010, version: "XR 1.6 MT", precio_base_cop: 14000000}
+      - {anio: 2009, version: "XR 1.6 MT", precio_base_cop: 12700000}
+      - {anio: 2008, version: "XR 1.6 MT", precio_base_cop: 11600000}
+      - {anio: 2007, version: "XR 1.6 MT", precio_base_cop: 10500000}
+      - {anio: 2006, version: "XR 1.6 MT", precio_base_cop: 10500000}
+      - {anio: 2005, version: "XR 1.6 MT", precio_base_cop: 10500000}
+      - {anio: 2004, version: "XR 1.6 MT", precio_base_cop: 10500000}
+      - {anio: 2003, version: "XR 1.6 MT", precio_base_cop: 10500000}
+      - {anio: 2002, version: "XR 1.6 MT", precio_base_cop: 10500000}
+      - {anio: 2001, version: "XR 1.6 MT", precio_base_cop: 10500000}
+      - {anio: 2000, version: "XR 1.6 MT", precio_base_cop: 10500000}
