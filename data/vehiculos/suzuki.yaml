@@ -350,3 +350,52 @@ modelos:
       - {anio: 2022, version: "GLX 1.5 AT", precio_base_cop: 64500000}
       - {anio: 2023, version: "GLX 1.5 AT", precio_base_cop: 69000000}
       - {anio: 2024, version: "GLX 1.5 AT", precio_base_cop: 73800000}
+
+  - modelo: "Jimny"
+    generacion: "Tercera generación (JB43)"
+    segmento: SUV Subcompacta
+    carroceria: SUV
+    pais_origen: Japón
+    estado_comercial: Descontinuado
+    fecha_lanzamiento_colombia: 2000-01-01
+    confianza_dato: Baja
+    motor: {tipo_combustible: Gasolina Corriente, motor_descripcion: "1.3 M13A", cilindraje_cc: 1328, cilindros: 4, valvulas: 16, alimentacion: Atmosférico, potencia_hp: 85, rpm_potencia_max: 6000, torque_nm: 110, rpm_torque_max: 4100, aceleracion_0_100_seg: 14.0, velocidad_maxima_kmh: 140, octanaje_minimo_recomendado: 91}
+    chasis: {transmision_tipo: Manual, numero_velocidades: 5, traccion: 4x4, suspension_delantera: Eje rígido con resortes, suspension_trasera: Eje rígido con resortes, frenos_traseros: Tambor, radio_giro_metros: 4.9, medida_llantas: "205/70 R15"}
+    dim: {largo_mm: 3695, ancho_sin_espejos_mm: 1600, alto_mm: 1705, distancia_entre_ejes_mm: 2250, distancia_libre_suelo_mm: 190, peso_vacio_kg: 1060, capacidad_baul_litros: 113, capacidad_tanque_galones: 10.6}
+    consumo: {consumo_mixto_kml: 12.0}
+    seg: {numero_airbags: 2, control_estabilidad_esc: false, frenos_abs_ebd: true, anclajes_isofix: false, asistente_arranque_pendiente: false, adas_incluidas: []}
+    equipo: {apple_carplay_android_auto: "No", aire_acondicionado: "Manual", sensores_parqueo: Ninguno}
+    garantia: {garantia_anos: 2, garantia_km: 50000}
+    resena:
+      desglose: {motor_transmision: 8.4, electrica_electronica: 7.6, quejas_documentadas: 8.0, recalls: 7.6, repuestos_y_red: 8.2, costo_reparaciones: 8.0}
+      nivel_costo_mantenimiento: Bajo
+      disponibilidad_repuestos: Alta
+      depreciacion_estimada: Baja - Alta reventa
+      riesgo_hurto: Alto
+      veredicto: "Opinión editorial: el Jimny JB43 es un todoterreno pequeñísimo con chasis de largueros, ejes rígidos y reductora, que llega donde camionetas mucho más grandes no pueden y conserva su valor de forma asombrosa. Su mecánica 1.3 es sencilla y durable. En carretera es lento, ruidoso e inestable con viento, el baúl casi no existe y su seguridad es básica. Mayor riesgo individual: la estabilidad a alta velocidad. No lo recomendamos como carro de autopista o familiar."
+      para_quien_si: "Quien busca un 4x4 diminuto para trocha que no pierda valor."
+      para_quien_no: "Quien viaja por autopista o necesita espacio."
+      pros_reales: ["Capacidad 4x4 sorprendente", "Reventa altísima", "Mecánica sencilla"]
+      contras:
+        - {componente: "Estabilidad", descripcion: "Inestable a alta velocidad y con viento.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Media}
+        - {componente: "Espacio", descripcion: "Baúl de 113 litros.", km_tipico: "N/A", costo_reparacion_cop_aprox: 0, severidad: Baja}
+    versiones:
+      - {anio: 2018, version: "1.3 MT 4x4", precio_base_cop: 52000000}
+      - {anio: 2017, version: "1.3 MT 4x4", precio_base_cop: 49400000}
+      - {anio: 2016, version: "1.3 MT 4x4", precio_base_cop: 46900000}
+      - {anio: 2015, version: "1.3 MT 4x4", precio_base_cop: 44600000}
+      - {anio: 2014, version: "1.3 MT 4x4", precio_base_cop: 42400000}
+      - {anio: 2013, version: "1.3 MT 4x4", precio_base_cop: 40200000}
+      - {anio: 2012, version: "1.3 MT 4x4", precio_base_cop: 38200000}
+      - {anio: 2011, version: "1.3 MT 4x4", precio_base_cop: 36300000}
+      - {anio: 2010, version: "1.3 MT 4x4", precio_base_cop: 34500000}
+      - {anio: 2009, version: "1.3 MT 4x4", precio_base_cop: 32800000}
+      - {anio: 2008, version: "1.3 MT 4x4", precio_base_cop: 31100000}
+      - {anio: 2007, version: "1.3 MT 4x4", precio_base_cop: 29600000}
+      - {anio: 2006, version: "1.3 MT 4x4", precio_base_cop: 28100000}
+      - {anio: 2005, version: "1.3 MT 4x4", precio_base_cop: 26700000}
+      - {anio: 2004, version: "1.3 MT 4x4", precio_base_cop: 25400000}
+      - {anio: 2003, version: "1.3 MT 4x4", precio_base_cop: 24100000}
+      - {anio: 2002, version: "1.3 MT 4x4", precio_base_cop: 22900000}
+      - {anio: 2001, version: "1.3 MT 4x4", precio_base_cop: 21700000}
+      - {anio: 2000, version: "1.3 MT 4x4", precio_base_cop: 20700000}
